@@ -1,0 +1,42 @@
+name: Staging
+
+on:
+  push:
+    branches: [ "master" ]
+  pull_request:
+    branches: [ "master" ]
+
+permissions:
+  id-token: write
+  contents: read
+
+env:
+  ENV_NAME: staging
+
+jobs:
+  deploy:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v3
+
+      - name: Install Node.js
+        uses: actions/setup-node@v3
+        with:
+          node-version: 20
+
+      # TODO Optimize the Nodejs installation using GitHub Actions
+      # TODO Optimize and cache node_modules
+      - run: npm i -g pnpm
+      - run: pnpm i --no-frozen-lockfile --shamefully-hoist
+
+      - name: Configure AWS Credentials
+        uses: aws-actions/configure-aws-credentials@v4
+        with:
+          aws-region: eu-central-1
+          role-to-assume: arn:aws:iam::413271537631:role/GitHubRoleFor-access2justice-jurata-backend
+        timeout-minutes: 1 # assuming an AWS role never takes that long, but error loops do
+
+      - run: aws sts get-caller-identity
+
+      - run: pnpm dlx cdk deploy 'JurataBackendLambdaApiStack-*' --require-approval never
+        working-directory: ./cdk-lambda
