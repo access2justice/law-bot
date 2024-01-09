@@ -2,9 +2,9 @@ name: Staging
 
 on:
   push:
-    branches: ["master"]
+    branches: ["master", "aws-lambda"]
   pull_request:
-    branches: ["master"]
+    branches: ["master", "aws-lambda"]
 
 permissions:
   id-token: write
