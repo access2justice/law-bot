@@ -6,8 +6,17 @@ module.exports = {
         protocol: 'https',
         hostname: 'avatars.githubusercontent.com',
         port: '',
-        pathname: '**',
-      },
-    ],
+        pathname: '**'
+      }
+    ]
   },
-};
+  webpack: (config, { isServer }) => {
+    if (!isServer) {
+      config.node = {
+        __dirname: true
+      }
+    }
+
+    return config
+  }
+}
