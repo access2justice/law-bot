@@ -1,4 +1,4 @@
-name: Staging
+name: Cloud
 
 on:
   push:
@@ -11,7 +11,7 @@ permissions:
   contents: read
 
 env:
-  ENV_NAME: staging
+  ENV_NAME: cloud
 
 jobs:
   deploy:
@@ -33,7 +33,7 @@ jobs:
         uses: aws-actions/configure-aws-credentials@v4
         with:
           aws-region: eu-central-1
-          role-to-assume: arn:aws:iam::413271537631:role/GitHubRoleFor-access2justice-law-bot-backend
+          role-to-assume: arn:aws:iam::851725404161:role/GitHubRoleFor-access2justice-law-bot
         timeout-minutes: 1 # assuming an AWS role never takes that long, but error loops do
 
       - run: aws sts get-caller-identity
