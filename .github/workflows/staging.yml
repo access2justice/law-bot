@@ -27,7 +27,10 @@ jobs:
       # TODO Optimize the Nodejs installation using GitHub Actions
       # TODO Optimize and cache node_modules
       - run: npm i -g pnpm
+        working-directory: ./cdk-lambda
+
       - run: pnpm i --no-frozen-lockfile --shamefully-hoist
+        working-directory: ./cdk-lambda
 
       - name: Configure AWS Credentials
         uses: aws-actions/configure-aws-credentials@v4
