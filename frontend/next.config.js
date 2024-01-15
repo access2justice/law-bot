@@ -9,14 +9,5 @@ module.exports = {
         pathname: '**'
       }
     ]
-  },
-  webpack: (config, { isServer }) => {
-    if (!isServer) {
-      config.node = {
-        __dirname: true
-      }
-    }
-
-    return config
   }
 }
