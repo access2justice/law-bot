@@ -19,7 +19,7 @@ new GithubActionsOIDCProvider(app, "LawBotBackendGitHubOIDCProviderStack", {
   repositoryConfig: [
     {
       owner: "access2justice",
-      repo: "law-bot-backend",
+      repo: "law-bot",
       filter: "ref:refs/heads/*",
     },
   ],
