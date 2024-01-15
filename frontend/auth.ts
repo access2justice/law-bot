@@ -14,7 +14,7 @@ export const {
   handlers: { GET, POST },
   auth
 } = NextAuth({
-  providers: [GitHub({}) as any],
+  providers: [GitHub],
   callbacks: {
     jwt({ token, profile }: { profile?: Profile; token: any }) {
       if (profile) {
@@ -28,6 +28,9 @@ export const {
         session.user.id = String(token.id)
       }
       return session
+    },
+    authorized({ auth }: { auth: Session | null }) {
+      return !!auth?.user // this ensures there is a logged in user for -every- request
     }
   },
   pages: {
