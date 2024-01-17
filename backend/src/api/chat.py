@@ -1,9 +1,10 @@
 from fastapi import APIRouter
-from models.request import ChatRequest
+#from models.request import ChatRequest
+from ..models.request import ChatRequest
 import json
 from fastapi import Response
 from fastapi.encoders import jsonable_encoder
-import logging
+
 
 router = APIRouter()
 
