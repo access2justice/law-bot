@@ -53,9 +53,11 @@ export class LawBotBackend extends cdk.Stack {
 
     const chat = api.root.addResource("chat");
 
-    chat.addMethod("ANY"),
+    chat.addMethod(
+      "ANY",
       new LambdaIntegration(dockerImageFunction, {
         proxy: true,
-      });
+      })
+    );
   }
 }
