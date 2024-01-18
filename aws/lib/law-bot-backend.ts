@@ -33,6 +33,7 @@ export class LawBotBackend extends cdk.Stack {
       resourceId: `function:${dockerImageFunction.functionName}:${dockerImageFunction.currentVersion.version}`,
       scalableDimension: "lambda:function:ProvisionedConcurrency",
     });
+
     target.scaleToTrackMetric("PceTracking", {
       targetValue: 0.9,
       scaleOutCooldown: cdk.Duration.seconds(0),
@@ -42,11 +43,15 @@ export class LawBotBackend extends cdk.Stack {
     });
 
     const api = new RestApi(this, "ApiGateway", {});
+
     api.root.addMethod(
       "ANY",
       new LambdaIntegration(dockerImageFunction, {
         proxy: true,
       })
     );
+
+    const chat = api.root.addResource("chat");
+    chat.addMethod("ANY");
   }
 }
