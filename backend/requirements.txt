@@ -1,0 +1,4 @@
+fastapi==0.109.0
+mangum==0.17.0
+pydantic==2.5.3
+uvicorn==0.26.0
