@@ -23,9 +23,8 @@ counter = 1
 for document in documents:
     document['metadata'] = document['metadata'].split(';')
     DOCUMENT = {
-        "@search.action": "upload",
-        "id": index_name,
-        "doc_id": counter,
+        "@search.action": "mergeOrUpload",
+        "id": str(counter),
         "text": document['p_text'],
         "metadata": document['metadata']
     }
@@ -33,11 +32,6 @@ for document in documents:
     docs.append(DOCUMENT)
 
 # Upload data
-result = search_client.upload_documents(documents=docs)
+print(f"Number of docs to upload: {len(docs)}")
+result = search_client.upload_documents(docs)
 print(f"Succeeded: {result[0].succeeded}")
-
-# Check if data is in index
-results = search_client.search(search_text="*", include_total_count=True)
-print ('Total Documents Matching Query:', results.get_count())
-for result in results:
-    print("{}: {}".format(result["doc_id"], result["metadata"][1]))
