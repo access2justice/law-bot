@@ -88,7 +88,7 @@ class ChatBotPipeline:
                 messages=message,
                 stream=False,
             )
-        return Response(response.choices[0].message.content)
+        return Response(response.choices[0].message.content, media_type="text/plain")
         
     async def run(
             self, 
