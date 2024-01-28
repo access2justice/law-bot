@@ -1,15 +1,13 @@
-
 from contextlib import asynccontextmanager
 import os
 from fastapi import FastAPI
-from openai import AsyncAzureOpenAI, AzureOpenAI
+from openai import AsyncAzureOpenAI
 from fastapi.middleware.cors import CORSMiddleware
 from dotenv import load_dotenv
-from .api.globals import clients
+from .services.globals import clients
 from .api import chat
 from azure.core.credentials import AzureKeyCredential
 from azure.search.documents.aio import SearchClient
-
 
 @asynccontextmanager
 async def lifespan(app: FastAPI):
@@ -18,7 +16,7 @@ async def lifespan(app: FastAPI):
     clients["azure_openai"] = AsyncAzureOpenAI(
         azure_endpoint = os.getenv("AZURE_OPENAI_ENDPOINT"), 
         api_key=os.getenv("AZURE_OPENAI_KEY"),  
-        api_version="2023-07-01-preview"
+        api_version="2023-09-01-preview"
     )
     # Instantiate the Cognitive Search client
     search_key = os.getenv("AZURE_SEARCH_KEY")
@@ -27,9 +25,7 @@ async def lifespan(app: FastAPI):
         index_name = os.getenv("AZURE_SEARCH_INDEX_NAME"), 
         credential = AzureKeyCredential(search_key)
     )
-
     yield
-
     await clients["azure_openai"].close()
     await clients["azure_search"].close()
 
