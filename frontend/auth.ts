@@ -1,49 +1,58 @@
-import NextAuth, { Session, DefaultSession, Profile } from 'next-auth';
-import Google from 'next-auth/providers/google';
-import GitHub from 'next-auth/providers/github';
+import NextAuth, { type DefaultSession } from 'next-auth'
+import GitHub from 'next-auth/providers/github'
+import Google from 'next-auth/providers/google'
 
 declare module 'next-auth' {
   interface Session {
     user: {
       /** The user's id. */
-      id: string;
-    } & DefaultSession['user'];
+      id: string
+    } & DefaultSession['user']
   }
 }
 
 export const {
   handlers: { GET, POST },
-  auth,
+  auth
 } = NextAuth({
   providers: [
     GitHub({
       clientId: process.env.AUTH_GITHUB_ID || '',
-      clientSecret: process.env.AUTH_GITHUB_SECRET || '',
+      clientSecret: process.env.AUTH_GITHUB_SECRET || ''
     }),
     Google({
       clientId: process.env.AUTH_GOOGLE_ID || '',
-      clientSecret: process.env.AUTH_GOOGLE_SECRET || '',
-    }),
+      clientSecret: process.env.AUTH_GOOGLE_SECRET || ''
+    })
   ],
   callbacks: {
-    jwt({ token, profile }: { profile?: Profile; token: any }) {
+    jwt({ token, profile, user }) {
       if (profile) {
-        token.id = profile.id;
-        token.image = profile.avatar_url || profile.picture;
+        if (profile.id) {
+          token.id = profile.id
+        }
+        if (user.id) {
+          token.id = user.id
+        }
+        token.image = profile.avatar_url || profile.picture
       }
-      return token;
+      // console.log("Token ID:"+JSON.stringify(token.id))
+      return token
     },
-    session: ({ session, token }: { session: Session; token: any }) => {
+    session: async ({ session, token }) => {
       if (session?.user && token?.id) {
-        session.user.id = String(token.id);
+        session.user.id = String(token.id)
       }
-      return session;
+      // console.log("Session:"+JSON.stringify(session))
+      return session
     },
-    authorized({ auth }: { auth: Session | null }) {
-      return !!auth?.user; // this ensures there is a logged in user for -every- request
-    },
+    authorized({ auth }) {
+      const authInfo = String(JSON.stringify(auth))
+      // console.log("Info Auth: "+authInfo)
+      return !!auth?.user // this ensures there is a logged in user for -every- request
+    }
   },
   pages: {
-    signIn: '/sign-in', // overrides the next-auth default signin page https://authjs.dev/guides/basics/pages
-  },
-});
+    signIn: '/sign-in' // overrides the next-auth default signin page https://authjs.dev/guides/basics/pages
+  }
+})
