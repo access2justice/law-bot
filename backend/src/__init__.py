@@ -30,14 +30,31 @@ async def lifespan(app: FastAPI):
     await clients["azure_search"].close()
 
 def create_app():
-    load_dotenv()
-    app = FastAPI(docs_url="/docs", lifespan=lifespan)
+    load_dotenv(override=True)
+    is_dev = os.getenv('RUNNING_ENV') == 'dev'
+    app = FastAPI(docs_url="/docs" if is_dev else None,
+            redoc_url="/redoc" if is_dev else None,
+            openapi_url="/openapi.json" if is_dev else None,
+            lifespan=lifespan)
+    
+    @app.get("/")
+    def get_root():
+        return {"message": "FastAPI running in a Lambda function"}
+    
+    app.include_router(chat.router)
 
-    if os.getenv('RUNNING_ENV') == "dev":
+    if is_dev:
         origins = ["http://localhost"]
         origins.append(os.getenv('ALLOWED_ORIGINS'))
+        # Generate Swagger schema
+        import json
+        openapi_schema = app.openapi()
+        openapi_schema_json = json.dumps(openapi_schema, indent=2)
+        with open('openapi_schema.json', 'w') as file:
+            file.write(openapi_schema_json)
     else:
-        origins = os.getenv('ALLOWED_ORIGINS')
+        origins = ["https://frontend-socram-testing.vercel.app/"]
+        origins.append(os.getenv('ALLOWED_ORIGINS'))
 
     app.add_middleware(
         CORSMiddleware,
@@ -46,11 +63,5 @@ def create_app():
         allow_methods=["*"],
         allow_headers=["*"],
     )
-
-    @app.get("/")
-    def get_root():
-        return {"message": "FastAPI running in a Lambda function"}
-
-    app.include_router(chat.router)
 
     return app

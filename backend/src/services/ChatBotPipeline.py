@@ -6,6 +6,7 @@ import json
 from fastapi.encoders import jsonable_encoder
 from ..models.request import ChatRequest
 from fastapi.responses import StreamingResponse, Response
+import tiktoken
 
 
 class ChatBotPipeline:
@@ -18,6 +19,13 @@ class ChatBotPipeline:
         self.search_client = search_client
         self.openai_client = openai_client
         self.model = model
+        self.model_token_limit = 8192
+
+    def num_tokens_from_string(self, string: str) -> int:
+        """Returns the number of tokens in a text string."""
+        encoding = tiktoken.encoding_for_model('gpt-4')
+        num_tokens = len(encoding.encode(string))
+        return num_tokens
 
     def process_request(self, chat_request: ChatRequest):
         chat_stream = chat_request.stream
@@ -31,11 +39,13 @@ class ChatBotPipeline:
         prompt = f"""
         You are a Swiss legal assistant.
         Summarize your answer based on the context and reference law provided, and also your own knowledge base.
-        Context: {retrieved_text}
         Reference law: {retrieved_art_num}
+        Context: {retrieved_text}
         """
+        # num_tokens = self.num_tokens_from_string(prompt)
+        # print(num_tokens)
         return prompt
-    
+
     async def retriever(
             self,
             user_query: str,
@@ -45,7 +55,7 @@ class ChatBotPipeline:
         retrieved_info["art_num"] = []
         results = await self.search_client.search(
             search_text=user_query,
-            top=5,
+            top=3,
             include_total_count=True)
         async for result in results:
             retrieved_info["text"].append(result["text"])
@@ -63,7 +73,6 @@ class ChatBotPipeline:
             chat_stream,
         ) -> Union[StreamingResponse, Response]:
         # Set up LLM model
-        #model = os.getenv("AZURE_OPENAI_DEPLOYMENT_NAME")
         sys_message = [{"role":"system","content":prompt}]
         message = sys_message + user_message
         temperature = 0.2
@@ -88,7 +97,7 @@ class ChatBotPipeline:
                 messages=message,
                 stream=False,
             )
-        return Response(response.choices[0].message.content, media_type="text/plain")
+        return Response(response.choices[0].message.content, media_type="application/json")
         
     async def run(
             self, 
