@@ -40,7 +40,6 @@ export const {
       return session
     },
     authorized({ auth }) {
-      const authInfo = String(JSON.stringify(auth))
       return !!auth?.user // this ensures there is a logged in user for -every- request
     }
   },
