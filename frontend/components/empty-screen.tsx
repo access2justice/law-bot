@@ -6,16 +6,16 @@ import { IconArrowRight } from '@/components/ui/icons'
 
 const exampleMessages = [
   {
-    heading: 'Explain technical concepts',
-    message: `What is a "serverless function"?`
+    heading: 'Figure out your vacation days',
+    message: `What is the minimum length of vacation?`
   },
   {
-    heading: 'Summarize an article',
-    message: 'Summarize the following article for a 2nd grader: \n'
+    heading: 'Eine Firma gründen',
+    message: 'Was sind die Voraussetzungen für die Gründung einer GmbH?'
   },
   {
-    heading: 'Draft an email',
-    message: `Draft an email to my boss about the following: \n`
+    heading: 'Estimer durée de préavis',
+    message: `Quelle est la durée de préavis pour un contrat de bail?`
   }
 ]
 
@@ -24,13 +24,14 @@ export function EmptyScreen({ setInput }: Pick<UseChatHelpers, 'setInput'>) {
     <div className="mx-auto max-w-2xl px-4">
       <div className="rounded-lg border bg-background p-8">
         <h1 className="mb-2 text-lg font-semibold">
-          Welcome to Next.js AI Chatbot!
+          Welcome to the Law Bot project!
         </h1>
         <p className="mb-2 leading-normal text-muted-foreground">
-          This is an open source AI chatbot app template built with{' '}
-          <ExternalLink href="https://nextjs.org">Next.js</ExternalLink> and{' '}
-          <ExternalLink href="https://vercel.com/storage/kv">
-            Vercel KV
+          This is an open source project aiming to build a conversational
+          interface, giving sound legal advice for laypeople in Switzerland.
+          Take a look at our Github repository{' '}
+          <ExternalLink href="https://github.com/access2justice/law-bot">
+            Github repo
           </ExternalLink>
           .
         </p>
