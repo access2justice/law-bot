@@ -6,4 +6,4 @@ class UserMessage(BaseModel):
 
 class ChatRequest(BaseModel):
     message: list[UserMessage]
-    stream: bool = True
+    stream: bool = False

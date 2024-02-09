@@ -1,13 +1,5 @@
-from fastapi import FastAPI
-from .api import chat
+from . import create_app
 from mangum import Mangum
-import uvicorn
 
-app = FastAPI()
-app.include_router(chat.router)
-
-@app.get("/")
-def get_root():
-    return {"message": "FastAPI running in a Lambda function"}
-
+app = create_app()
 lambda_handler = Mangum(app)
