@@ -6,8 +6,9 @@ import os
 import json
 from fastapi.encoders import jsonable_encoder
 from ..models.request import ChatRequest
-from fastapi.responses import StreamingResponse, Response
+from fastapi.responses import JSONResponse, StreamingResponse, Response
 import tiktoken
+from ..models.response import ChatResponse
 
 
 class ChatBotPipeline:
@@ -74,10 +75,6 @@ class ChatBotPipeline:
         async for result in results:
             retrieved_info["text"].append(result["text"])
             retrieved_info["art_num"].append(result["metadata"][1])
-            # print("Result:")
-            # print("       Text:{}:\n ".format(result["text"]))
-            # print("       Art_Num:{}:\n".format(result["metadata"][1]))
-            # print("-------------")
         return retrieved_info
 
     async def generator(
@@ -101,17 +98,23 @@ class ChatBotPipeline:
                     )
                     async for event in await chat_coroutine:
                         if event.choices:
-                            yield json.dumps(event.choices[0].delta.content, ensure_ascii=False)
+                            content = json.dumps(event.choices[0].delta.content, ensure_ascii=False)
+                            data = {"content": content}
+                            sse_data = f"data: {jsonable_encoder(ChatResponse(data=data))}\n\n"
+                            yield sse_data
                 return StreamingResponse(response_stream(), media_type="text/event-stream")
         else:
             #Non-Streaming Response
-            response = await self.openai_client.chat.completions.create(
+            gpt_message = await self.openai_client.chat.completions.create(
                 model=self.model,
                 temperature=temperature,
                 messages=message,
                 stream=False,
             )
-        return Response(response.choices[0].message.content, media_type="application/json")
+            content = gpt_message.choices[0].message.content
+            data = {"content": content}
+            response = jsonable_encoder(ChatResponse(data=data))
+        return JSONResponse(response, media_type="application/json")
         
     async def run(
             self, 

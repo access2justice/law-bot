@@ -18,5 +18,5 @@ async def chat_handler(chat_request: ChatRequest):
     embeddings_model = os.getenv("AZURE_OPENAI_EMBEDDING_DEPLOYMENT")
     chatbot = ChatBotPipeline(search_client, openai_client, embed_client, model, embeddings_model)
     response = await chatbot.run(chat_request)
-    return JSONResponse(content=jsonable_encoder(response))
+    return response
     
