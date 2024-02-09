@@ -30,9 +30,13 @@ interface MessageShortcutBody {
 
 export async function POST(req: Request) {
   console.log('1')
-  console.log(req.body)
+  const data = await req.formData()
   console.log('2')
+  console.log(data)
+  const payload = data.get('payload')
+  console.log(payload)
 
+  /*
   const payload = await req.json()
 
   console.log('Recieved payload from Slack')
@@ -41,6 +45,7 @@ export async function POST(req: Request) {
   if (payload.token === '') {
     openModal(payload.trigger_id)
   }
+  */
 }
 
 const openModal = async (trigger: string) => {
