@@ -2,7 +2,7 @@ name: Cloud
 
 on:
   push:
-    branches: ["master", "aws-lambda", "aws/*"]
+    branches: ["master"]
 
 permissions:
   id-token: write

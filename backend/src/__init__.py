@@ -25,7 +25,7 @@ async def lifespan(app: FastAPI):
         index_name = os.getenv("AZURE_SEARCH_INDEX_NAME"), 
         credential = AzureKeyCredential(search_key)
     )
-    clients["azure_embedding"] = AzureOpenAI(
+    clients["azure_embedding"] = AsyncAzureOpenAI(
         azure_endpoint = os.getenv("AZURE_OPENAI_ENDPOINT"), 
         api_key=os.getenv("AZURE_OPENAI_KEY"),  
         api_version="2023-09-01-preview"
