@@ -1,6 +1,7 @@
 from typing import Union
-from openai import AsyncAzureOpenAI
+from openai import AsyncAzureOpenAI, AzureOpenAI
 from azure.search.documents.aio import SearchClient
+from azure.search.documents.models import VectorizedQuery
 import os
 import json
 from fastapi.encoders import jsonable_encoder
@@ -14,12 +15,16 @@ class ChatBotPipeline:
             self,
             search_client: SearchClient,
             openai_client: AsyncAzureOpenAI,
+            openai_embedding_client: AzureOpenAI,
             model,
+            embeddings_model
         ):
         self.search_client = search_client
         self.openai_client = openai_client
+        self.openai_embedding_client = openai_embedding_client
         self.model = model
-        self.model_token_limit = 8192
+        self.embeddings_model = embeddings_model
+        self.model_token_limit = 8194
 
     def num_tokens_from_string(self, string: str) -> int:
         """Returns the number of tokens in a text string."""
@@ -37,10 +42,13 @@ class ChatBotPipeline:
         retrieved_text = retrieved_info["text"]
         retrieved_art_num = retrieved_info["art_num"]
         prompt = f"""
-        You are a Swiss legal assistant.
-        Summarize your answer based on the context and reference law provided, and also your own knowledge base.
-        Reference law: {retrieved_art_num}
-        Context: {retrieved_text}
+        Use the following pieces of context to answer the user question. This context retrieved from a knowledge base and you should use only the facts from the context to answer.
+        Your answer must be based on the context. If the context not contain the answer, just say that 'I don't know', don't try to make up an answer, use the context.
+        Don't address the context directly, but use it to answer the user question like it's your own knowledge.
+        Answer in short, if the user asks further questions, be more detailed.
+
+        Context:
+        {retrieved_text}
         """
         # num_tokens = self.num_tokens_from_string(prompt)
         # print(num_tokens)
@@ -53,10 +61,16 @@ class ChatBotPipeline:
         retrieved_info = {}
         retrieved_info["text"] = []
         retrieved_info["art_num"] = []
+
         results = await self.search_client.search(
             search_text=user_query,
-            top=3,
+            vector_queries=[VectorizedQuery(
+                vector=(self.openai_embedding_client.embeddings.create(input=[user_query], model=self.embeddings_model)).data[0].embedding, 
+                k_nearest_neighbors=3, fields="text_vector")],
+            top=1,
+            select=["text", "metadata"],
             include_total_count=True)
+        
         async for result in results:
             retrieved_info["text"].append(result["text"])
             retrieved_info["art_num"].append(result["metadata"][1])

@@ -1,7 +1,7 @@
 from contextlib import asynccontextmanager
 import os
 from fastapi import FastAPI
-from openai import AsyncAzureOpenAI
+from openai import AsyncAzureOpenAI, AzureOpenAI
 from fastapi.middleware.cors import CORSMiddleware
 from dotenv import load_dotenv
 from .services.globals import clients
@@ -25,9 +25,15 @@ async def lifespan(app: FastAPI):
         index_name = os.getenv("AZURE_SEARCH_INDEX_NAME"), 
         credential = AzureKeyCredential(search_key)
     )
+    clients["azure_embedding"] = AzureOpenAI(
+        azure_endpoint = os.getenv("AZURE_OPENAI_ENDPOINT"), 
+        api_key=os.getenv("AZURE_OPENAI_KEY"),  
+        api_version="2023-09-01-preview"
+    )
     yield
     await clients["azure_openai"].close()
     await clients["azure_search"].close()
+    await clients["azure_embedding"].close()
 
 def create_app():
     load_dotenv(override=True)
