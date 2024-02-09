@@ -4,8 +4,8 @@ const web = new WebClient(process.env.SLACK_TOKEN)
 
 interface MessageShortcutBody {
   token: string
-  callback_id: 'feedback'
-  type: 'message_action'
+  callback_id: string
+  type: string
   trigger_id: string
   response_url: string
   team: {
@@ -30,8 +30,13 @@ interface MessageShortcutBody {
 
 export async function POST(req: Request) {
   const payload = (await req.json()).payload as MessageShortcutBody
-  openModal(payload.trigger_id)
-  const json = (await req.json()) as MessageShortcutBody
+
+  console.log('Recieved payload from Slack')
+  console.log(payload)
+
+  if (payload.token === '') {
+    openModal(payload.trigger_id)
+  }
 }
 
 const openModal = async (trigger: string) => {
