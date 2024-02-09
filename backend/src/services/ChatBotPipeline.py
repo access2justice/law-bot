@@ -66,7 +66,7 @@ class ChatBotPipeline:
         results = await self.search_client.search(
             search_text=user_query,
             vector_queries=[VectorizedQuery(
-                vector=(self.openai_embedding_client.embeddings.create(input=[user_query], model=self.embeddings_model)).data[0].embedding, 
+                vector=(await self.openai_embedding_client.embeddings.create(input=[user_query], model=self.embeddings_model)).data[0].embedding, 
                 k_nearest_neighbors=3, fields="text_vector")],
             top=1,
             select=["text", "metadata"],
