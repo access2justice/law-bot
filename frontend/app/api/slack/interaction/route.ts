@@ -29,7 +29,11 @@ interface MessageShortcutBody {
 }
 
 export async function POST(req: Request) {
-  const payload = (await req.json()).payload as MessageShortcutBody
+  console.log('1')
+  console.log(req.body)
+  console.log('2')
+
+  const payload = await req.json()
 
   console.log('Recieved payload from Slack')
   console.log(payload)
