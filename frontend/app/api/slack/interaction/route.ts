@@ -1,54 +1,30 @@
 import { WebClient } from '@slack/web-api'
-import { NextApiRequest, NextApiResponse } from 'next'
-console.log(process.env.SLACK_TOKEN)
 const web = new WebClient(process.env.SLACK_TOKEN)
-
-interface MessageShortcutBody {
-  token: string
-  callback_id: string
-  type: string
-  trigger_id: string
-  response_url: string
-  team: {
-    id: string
-    domain: string
-  }
-  channel: {
-    id: string // "D0LFFBKLZ"
-    name: string // "cats"
-  }
-  user: {
-    id: string
-    name: string
-  }
-  message: {
-    type: 'message'
-    user: string
-    ts: string
-    text: string
-  }
-}
 
 export async function POST(req: Request) {
   const data = await req.formData()
   const payload = JSON.parse(data.get('payload') as string)
-  console.log(payload)
-  console.log(JSON.stringify(payload.message.blocks))
-  console.log(1)
 
-  const thread = await web.conversations.replies({
-    channel: payload.channel.id,
-    ts: payload.message.ts
-  })
+  if (payload.callback_id === 'feedback' && payload.trigger_id) {
+    console.log(payload)
+    console.log(JSON.stringify(payload.message.blocks))
+    console.log(payload.channel.id)
 
-  console.log(thread)
+    const thread = await web.conversations.replies({
+      channel: payload.channel.id,
+      ts: payload.message.ts
+    })
 
-  if (payload.trigger_id === '') {
-    await openModal(
-      payload.trigger_id,
-      payload.message.text,
-      payload.message.text
-    )
+    const question =
+      (thread as any)?.messages[0]?.text ||
+      'Something went wrong, please copy paste the question.'
+    const answer =
+      (thread as any)?.messages[1]?.text ||
+      'Something went wrong, please copy paste the answer.'
+
+    console.log(thread)
+
+    await openModal(payload.trigger_id, question, answer)
   }
 
   return new Response('Ok', {
