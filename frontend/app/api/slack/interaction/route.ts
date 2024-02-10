@@ -1,4 +1,5 @@
 import { WebClient } from '@slack/web-api'
+import { NextApiRequest, NextApiResponse } from 'next'
 
 const web = new WebClient(process.env.SLACK_TOKEN)
 
@@ -28,17 +29,18 @@ interface MessageShortcutBody {
   }
 }
 
-export async function POST(req: Request) {
+export async function POST(req: Request, res: NextApiResponse<any>) {
   console.log('1')
   const data = await req.formData()
   console.log('2')
-  console.log(data)
-  const payload = data.get('payload') as Record<string, any>
-  console.log(typeof payload)
+  const payload = JSON.parse(data.get('payload') as string)
+  console.log(payload)
 
   if (payload.trigger_id === '') {
     openModal(payload.trigger_id)
   }
+
+  return res.status(200).send('Ok')
 }
 
 const openModal = async (trigger: string) => {
