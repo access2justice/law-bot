@@ -73,7 +73,7 @@ export function ChatShareDialog({
         <div className="p-4 space-y-1 text-sm border rounded-md">
           <div className="font-medium">{chat.title}</div>
           <div className="text-muted-foreground">
-            {chat.messages.length} messages
+          {chat.messages ? `${chat.messages.length} messages` : '0 messages'}
           </div>
         </div>
         <DialogFooter className="items-center">

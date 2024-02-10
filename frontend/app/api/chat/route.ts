@@ -35,7 +35,7 @@ export async function POST(req: Request) {
     body: JSON.stringify({
       "message": [
         {
-          "role": messages[0].role,
+          "role": "user",
           "content": messages[0].content
         }
       ],
@@ -43,33 +43,34 @@ export async function POST(req: Request) {
     }),
   });
 
-  const stream = OpenAIStream(res, {
-    async onCompletion(completion) {
-      const title = json.messages[0].content.substring(0, 100)
-      const id = json.id ?? nanoid()
-      const createdAt = Date.now()
-      const path = `/chat/${id}`
-      const payload = {
-        id,
-        title,
-        userId,
-        createdAt,
-        path,
-        messages: [
-          ...messages,
-          {
-            content: completion,
-            role: 'assistant'
-          }
-        ]
-      }
-      await kv.hmset(`chat:${id}`, payload)
-      await kv.zadd(`user:chat:${userId}`, {
-        score: createdAt,
-        member: `chat:${id}`
-      })
-    }
+  if (!res.ok) {
+    return new Response('Error from server', { status: res.status })
+  }
+
+  const data = await res.json()
+  const completion = data.data.content.trim()
+  const title = json.messages[0].content.substring(0, 100)
+  const id = json.id ?? nanoid()
+  const createdAt = Date.now()
+  const path = `/chat/${id}`
+  const payload = {
+    id,
+    title,
+    userId,
+    createdAt,
+    path,
+    body: completion
+  }
+
+  await kv.hmset(`chat:${id}`, payload)
+  await kv.zadd(`user:chat:${userId}`, {
+    score: createdAt,
+    member: `chat:${id}`
   })
 
-  return new StreamingTextResponse(stream)
+  return new Response(completion, {
+    headers: {
+      'Content-Type': 'text/plain'
+    }
+  })
 }
