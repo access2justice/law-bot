@@ -4,12 +4,9 @@ const web = new WebClient(process.env.SLACK_TOKEN)
 export async function POST(req: Request) {
   const data = await req.formData()
   const payload = JSON.parse(data.get('payload') as string)
+  console.log(payload)
 
   if (payload.callback_id === 'feedback' && payload.trigger_id) {
-    console.log(payload)
-    console.log(JSON.stringify(payload.message.blocks))
-    console.log(payload.channel.id)
-
     const thread = await web.conversations.replies({
       channel: payload.channel.id,
       ts: payload.message.ts
@@ -21,8 +18,6 @@ export async function POST(req: Request) {
     const answer =
       (thread as any)?.messages[1]?.text ||
       'Something went wrong, please copy paste the answer.'
-
-    console.log(thread)
 
     await openModal(payload.trigger_id, question, answer)
   }
