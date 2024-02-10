@@ -25,6 +25,8 @@ export async function POST(req: Request) {
     openai.apiKey = previewToken
   }
 
+const userMessage = messages[messages.length - 1]
+
   // POST => AWS
   const res = await fetch(process.env.AWS_API_CHAT_ENDPOINT || '', {
     method: 'POST',
@@ -35,7 +37,7 @@ export async function POST(req: Request) {
       "message": [
         {
           "role": "user",
-          "content": messages[0].content
+          "content": userMessage.content
         }
       ],
       "stream": false
