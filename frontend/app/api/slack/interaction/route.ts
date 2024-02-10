@@ -33,19 +33,12 @@ export async function POST(req: Request) {
   const data = await req.formData()
   console.log('2')
   console.log(data)
-  // const payload = data.get('payload')
-  // console.log(payload)
+  const payload = data.get('payload') as Record<string, any>
+  console.log(typeof payload)
 
-  /*
-  const payload = await req.json()
-
-  console.log('Recieved payload from Slack')
-  console.log(payload)
-
-  if (payload.token === '') {
+  if (payload.trigger_id === '') {
     openModal(payload.trigger_id)
   }
-  */
 }
 
 const openModal = async (trigger: string) => {
