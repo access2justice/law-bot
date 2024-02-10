@@ -1,6 +1,6 @@
 import { WebClient } from '@slack/web-api'
 import { NextApiRequest, NextApiResponse } from 'next'
-
+console.log(process.env.SLACK_TOKEN)
 const web = new WebClient(process.env.SLACK_TOKEN)
 
 interface MessageShortcutBody {
@@ -34,6 +34,14 @@ export async function POST(req: Request) {
   const payload = JSON.parse(data.get('payload') as string)
   console.log(payload)
   console.log(JSON.stringify(payload.message.blocks))
+  console.log(1)
+
+  const thread = await web.conversations.replies({
+    channel: payload.channel.id,
+    ts: payload.message.ts
+  })
+
+  console.log(thread)
 
   if (payload.trigger_id === '') {
     await openModal(
