@@ -1,5 +1,4 @@
 import { kv } from '@vercel/kv'
-import { OpenAIStream, StreamingTextResponse } from 'ai'
 import OpenAI from 'openai'
 
 import { auth } from '@/auth'
@@ -39,7 +38,7 @@ export async function POST(req: Request) {
           "content": messages[0].content
         }
       ],
-      "stream": "true"
+      "stream": false
     }),
   });
 
