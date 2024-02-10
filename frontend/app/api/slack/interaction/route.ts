@@ -22,6 +22,12 @@ export async function POST(req: Request) {
     await openModal(payload.trigger_id, question, answer)
   }
 
+  if (payload.type === 'view_submission') {
+    console.log(JSON.stringify(payload.view.blocks))
+
+    return Response.json({ response_action: 'clear' })
+  }
+
   return new Response('Ok', {
     status: 200
   })
