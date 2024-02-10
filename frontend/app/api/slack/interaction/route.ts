@@ -29,21 +29,26 @@ interface MessageShortcutBody {
   }
 }
 
-export async function POST(req: Request, res: NextApiResponse<any>) {
-  console.log('1')
+export async function POST(req: Request) {
   const data = await req.formData()
-  console.log('2')
   const payload = JSON.parse(data.get('payload') as string)
   console.log(payload)
+  console.log(JSON.stringify(payload.message.blocks))
 
   if (payload.trigger_id === '') {
-    openModal(payload.trigger_id)
+    await openModal(
+      payload.trigger_id,
+      payload.message.text,
+      payload.message.text
+    )
   }
 
-  return res.status(200).send('Ok')
+  return new Response('Ok', {
+    status: 200
+  })
 }
 
-const openModal = async (trigger: string) => {
+const openModal = async (trigger: string, question: string, answer: string) => {
   // Open a modal.
   // Find more arguments and details of the response: https://api.slack.com/methods/views.open
   const result = await web.views.open({
@@ -125,7 +130,7 @@ const openModal = async (trigger: string) => {
           type: 'section',
           text: {
             type: 'mrkdwn',
-            text: 'What is the minimum length of vacation?'
+            text: question
           }
         },
         {
@@ -133,7 +138,7 @@ const openModal = async (trigger: string) => {
           elements: [
             {
               type: 'plain_text',
-              text: 'In Switzerland, the minimum length of vacation for employees is four weeks (20 working days) per year according to the Swiss Code of Obligations, Article 329a. This applies to all employees regardless of their age. For employees under the age of 20, the minimum vacation is five weeks.',
+              text: answer,
               emoji: true
             }
           ]
