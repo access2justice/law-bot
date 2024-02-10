@@ -9,9 +9,15 @@ export async function POST(req: Request) {
     return Response.json({ challenge: data.challenge })
   }
 
-  if (data.event.type === 'message' && data.type === 'event_callback') {
+  if (
+    !data.event.thread_ts &&
+    !data.event.parent_user_id &&
+    data.event.type === 'message' &&
+    data.type === 'event_callback' &&
+    data.event.channel === 'C06GGJVRMCK'
+  ) {
     const text = ''
-    await fetch(
+    const response = await fetch(
       'https://credgs6ig3.execute-api.eu-central-1.amazonaws.com/prod/chat',
       {
         method: 'POST',
@@ -28,6 +34,14 @@ export async function POST(req: Request) {
         })
       }
     )
+
+    const json = await response.json()
+    console.log(json)
+    web.chat.postMessage({
+      text: json.data.content,
+      thread_ts: data.event.ts,
+      channel: data.event.channel
+    })
     return new Response(data.challenge, {
       status: 200
     })
