@@ -26,12 +26,22 @@ export async function POST(req: Request) {
     openai.apiKey = previewToken
   }
 
-  const res = await openai.chat.completions.create({
-    model: 'gpt-3.5-turbo',
-    messages,
-    temperature: 0.7,
-    stream: true
-  })
+  // POST => AWS
+  const res = await fetch(process.env.AWS_API_CHAT_ENDPOINT || '', {
+    method: 'POST',
+    headers: {
+      'Content-Type': 'application/json',
+    },
+    body: JSON.stringify({
+      "message": [
+        {
+          "role": messages[0].role,
+          "content": messages[0].content
+        }
+      ],
+      "stream": "true"
+    }),
+  });
 
   const stream = OpenAIStream(res, {
     async onCompletion(completion) {
