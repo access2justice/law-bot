@@ -9,6 +9,7 @@ Created on Tue Jan 16 15:38:34 2024
 import xmltodict
 import json
 import pandas as pd
+import re
 
 
 def extract_paragraphs_recursive(json_data, current_article_name=None):
@@ -49,6 +50,13 @@ def extract_paragraphs_recursive(json_data, current_article_name=None):
     return paragraphs
 
 
+def is_dict(value):
+    """Check if the paragraph is dictionary"""
+    return isinstance(value, dict)
+
+def extract_text_from_dict(value):
+    """Check if the paragraph is dictionary"""
+    return isinstance(value, dict)
 ################################
 #####Read and prepare data######
 ################################
@@ -109,11 +117,29 @@ for level_1 in json_parts["level"]:
                   dictionary={"Level1":pflicht,"p_text": extracted[j]["paragraph"], "p_num": para, "art":art}
                   data.append(dictionary)             
     
-#baed on the list containing relevant data create dataframe                         
+#based on the list containing relevant data create dataframe        
+                 
 df=pd.DataFrame(data)
+df["is_dict"]=df.p_text.apply(is_dict)
+
+df["p_text_old"]=df["p_text"]# copy old version for comparision
+
+
+### clean still json format. e.g. Authorial Notes
+for i in range(0,len(df)):
+    if df.loc[i,"is_dict"]==True:
+        if "#text" in df.loc[i,"p_text"].keys():
+            
+            df.loc[i,"p_text"]= df.loc[i,"p_text"]["#text"]
+        elif  "inline" in df.loc[i,"p_text"].keys():
+            
+            df.loc[i,"p_text"]=df.loc[i,"p_text"]["inline"][0]
 
 #based on the Obligation (Pflicht) and article name concatenate paragraph into one piece of text
 df_concat=df.groupby(by=["Level1","art"]).agg(lambda x: ' '.join(x.astype(str))).reset_index()
+df_concat=df_concat[['Level1', 'art', 'p_text', 'p_num', 'p_text_old']]
+
+
 
 ####################
 ####save results####
