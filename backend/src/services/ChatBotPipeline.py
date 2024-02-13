@@ -43,17 +43,17 @@ class ChatBotPipeline:
         retrieved_text = retrieved_info["text"]
         retrieved_art_num = retrieved_info["art_num"]
         prompt = f"""
-        Use the following pieces of context to answer the user question. This context retrieved from a knowledge base and you should use only the facts from the context to answer.
-        Your answer must be based on the context. If the context not contain the answer, just say that 'I don't know', don't try to make up an answer, use the context.
-        Don't address the context directly, but use it to answer the user question like it's your own knowledge.
+        Use the following pieces of Swiss law to answer the user question. This Swiss law retrieved from a knowledge base and you should use only the facts from the Swiss law to answer.
+        Your answer must be based on the Swiss law. If the Swiss law not contain the answer, just say that 'I don't know', don't try to make up an answer, use the Swiss law.
+        Don't address the Swiss law directly, but use it to answer the user question like it's your own knowledge.
         Answer in short, if the user asks further questions, be more detailed.
 
-        Context:
+        Swiss law:
         {retrieved_text}
         """
         # num_tokens = self.num_tokens_from_string(prompt)
         # print(num_tokens)
-        return prompt
+        return prompt, retrieved_art_num
 
     async def retriever(
             self,
@@ -68,7 +68,7 @@ class ChatBotPipeline:
             vector_queries=[VectorizedQuery(
                 vector=(await self.openai_embedding_client.embeddings.create(input=[user_query], model=self.embeddings_model)).data[0].embedding, 
                 k_nearest_neighbors=3, fields="text_vector")],
-            top=1,
+            top=5,
             select=["text", "metadata"],
             include_total_count=True)
         
@@ -82,11 +82,12 @@ class ChatBotPipeline:
             user_message,
             prompt,
             chat_stream,
+            articles
         ) -> Union[StreamingResponse, Response]:
         # Set up LLM model
         sys_message = [{"role":"system","content":prompt}]
         message = sys_message + user_message
-        temperature = 0.2
+        temperature = 0.0
         if chat_stream:
             #Streaming response
                 async def response_stream():
@@ -112,7 +113,7 @@ class ChatBotPipeline:
                 stream=False,
             )
             content = gpt_message.choices[0].message.content
-            data = {"content": content}
+            data = {"content": content, "articles": articles}
             response = jsonable_encoder(ChatResponse(data=data))
         return JSONResponse(response, media_type="application/json")
         
@@ -122,8 +123,8 @@ class ChatBotPipeline:
         ) -> Union[StreamingResponse, Response]:
         chat_stream, user_message, user_query = self.process_request(chat_request)
         retrieved_info = await self.retriever(user_query)
-        prompt = self.system_prompt(retrieved_info)
-        response = await self.generator(user_message, prompt, chat_stream)
+        prompt, articles = self.system_prompt(retrieved_info)
+        response = await self.generator(user_message, prompt, chat_stream, articles)
         return response
     
 
