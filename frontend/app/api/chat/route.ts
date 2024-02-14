@@ -1,14 +1,9 @@
 import { kv } from '@vercel/kv'
-import OpenAI from 'openai'
 
 import { auth } from '@/auth'
 import { nanoid } from '@/lib/utils'
 
 export const runtime = 'edge'
-
-const openai = new OpenAI({
-  apiKey: process.env.OPENAI_API_KEY
-})
 
 export async function POST(req: Request) {
   const json = await req.json()
@@ -21,28 +16,24 @@ export async function POST(req: Request) {
     })
   }
 
-  if (previewToken) {
-    openai.apiKey = previewToken
-  }
-
-const userMessage = messages[messages.length - 1]
+  const userMessage = messages[messages.length - 1]
 
   // POST => AWS
   const res = await fetch(process.env.AWS_API_CHAT_ENDPOINT || '', {
     method: 'POST',
     headers: {
-      'Content-Type': 'application/json',
+      'Content-Type': 'application/json'
     },
     body: JSON.stringify({
-      "message": [
+      message: [
         {
-          "role": "user",
-          "content": userMessage.content
+          role: 'user',
+          content: userMessage.content
         }
       ],
-      "stream": false
-    }),
-  });
+      stream: false
+    })
+  })
 
   if (!res.ok) {
     return new Response('Error from server', { status: res.status })
