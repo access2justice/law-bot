@@ -30,7 +30,7 @@ jobs:
         working-directory: ./aws
 
       - name: Configure AWS Credentials
-        uses: aws-actions/configure-aws-credentials@v4
+        uses: aws-actions/configure-aws-credentials@v3
         with:
           aws-region: eu-central-1
           role-to-assume: arn:aws:iam::851725404161:role/GitHubRoleFor-access2justice-law-bot

@@ -16,7 +16,7 @@ jobs:
   deploy:
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/checkout@v4
+      - uses: actions/checkout@v3
 
       - name: Install Node.js
         uses: actions/setup-node@v4
@@ -32,7 +32,7 @@ jobs:
         working-directory: ./aws
 
       - name: Configure AWS Credentials
-        uses: aws-actions/configure-aws-credentials@v4
+        uses: aws-actions/configure-aws-credentials@v3
         with:
           aws-region: eu-central-1
           role-to-assume: arn:aws:iam::533267285693:role/GitHubRoleFor-access2justice-law-bot
