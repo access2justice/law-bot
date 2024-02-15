@@ -1,4 +1,4 @@
-name: Cloud
+name: Development
 
 on:
   pull_request:
@@ -8,16 +8,16 @@ permissions:
   contents: read
 
 env:
-  ENV_NAME: cloud
+  ENV_NAME: development
 
 jobs:
   deploy:
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/checkout@v3
+      - uses: actions/checkout@v4
 
       - name: Install Node.js
-        uses: actions/setup-node@v3
+        uses: actions/setup-node@v4
         with:
           node-version: 20
 
