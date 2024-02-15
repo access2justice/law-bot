@@ -2,7 +2,7 @@ name: Development
 
 on:
   push:
-    branches: ["master"]
+    branches: ["master", "develop"]
 
 permissions:
   id-token: write
