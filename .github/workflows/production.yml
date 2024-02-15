@@ -1,8 +1,7 @@
 name: Production
 
 on:
-  push:
-    branches: ["master"]
+  pull_request:
 
 permissions:
   id-token: write
@@ -31,11 +30,11 @@ jobs:
         working-directory: ./aws
 
       - name: Configure AWS Credentials
-        uses: aws-actions/configure-aws-credentials@v3
+        uses: aws-actions/configure-aws-credentials@v4
         with:
           aws-region: eu-central-1
           role-to-assume: arn:aws:iam::533267285693:role/GitHubRoleFor-access2justice-law-bot
-        timeout-minutes: 3 # assuming an AWS role never takes that long, but error loops do
+        timeout-minutes: 1 # assuming an AWS role never takes that long, but error loops do
 
       - run: aws sts get-caller-identity
 
