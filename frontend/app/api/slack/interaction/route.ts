@@ -4,9 +4,14 @@ const web = new WebClient(process.env.SLACK_TOKEN)
 export async function POST(req: Request) {
   const data = await req.formData()
   const payload = JSON.parse(data.get('payload') as string)
-  console.log(payload)
+  const action = payload.actions[0]
 
-  if (payload.callback_id === 'feedback' && payload.trigger_id) {
+  if (
+    (payload.callback_id === 'feedback' && payload.trigger_id) ||
+    (action.action_id === 'feedback' &&
+      payload.trigger_id &&
+      payload.type === 'block_actions')
+  ) {
     const thread = await web.conversations.replies({
       channel: payload.channel.id,
       ts: payload.message.ts
@@ -34,8 +39,6 @@ export async function POST(req: Request) {
 }
 
 const openModal = async (trigger: string, question: string, answer: string) => {
-  // Open a modal.
-  // Find more arguments and details of the response: https://api.slack.com/methods/views.open
   const result = await web.views.open({
     trigger_id: trigger,
     view: {
