@@ -50,6 +50,13 @@ def get_lawbot_index(name: str):
             searchable=True,
             vector_search_dimensions=1536,
             vector_search_profile_name="lawbot-vector-config",
+        ),
+        SearchField(
+            name="eId", type=SearchFieldDataType.String,
+            searchable=True,
+            sortable=True,
+            filterable=True,
+            facetable=True
         )
     ]
     vector_search = VectorSearch(
