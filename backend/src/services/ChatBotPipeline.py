@@ -74,7 +74,7 @@ class ChatBotPipeline:
         
         async for result in results:
             retrieved_info["text"].append(result["text"])
-            retrieved_info["art_num"].append(result["metadata"][1])
+            retrieved_info["art_num"].append(result["metadata"][0])
         return retrieved_info
 
     async def generator(
