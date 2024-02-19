@@ -34,6 +34,11 @@ export async function POST(req: Request) {
 
     const json = await response.json()
 
+    const payload_value = JSON.stringify({
+      user_input: data.event.text,
+      ai_response: json.data.content
+    })
+
     const messageBlocks = [
       {
         type: 'section',
@@ -51,7 +56,8 @@ export async function POST(req: Request) {
               type: 'plain_text',
               text: 'Share a feedback'
             },
-            action_id: 'feedback'
+            action_id: 'feedback',
+            value: payload_value
           }
         ]
       }
@@ -60,7 +66,8 @@ export async function POST(req: Request) {
     await web.chat.postMessage({
       blocks: messageBlocks,
       thread_ts: data.event.ts,
-      channel: data.event.channel
+      channel: data.event.channel,
+      text: json.data.content
     })
 
     return new Response(data.challenge, {

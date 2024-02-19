@@ -17,11 +17,12 @@ export async function POST(req: Request) {
       ts: payload.message.ts
     })
 
+    const payload_value = JSON.parse(action.value)
     const question =
-      (thread as any)?.messages[0]?.text ||
+      payload_value.user_input ||
       'Something went wrong, please copy paste the question.'
     const answer =
-      (thread as any)?.messages[1]?.text ||
+      payload_value.ai_response ||
       'Something went wrong, please copy paste the answer.'
 
     await openModal(payload.trigger_id, question, answer)
