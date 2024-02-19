@@ -15,60 +15,7 @@ export async function POST(req: Request) {
     data.type === 'event_callback' &&
     (data.event.channel === 'C06GGJVRMCK' || 'C06HA3ZLB18')
   ) {
-    const response = await fetch(process.env.AWS_API_CHAT_ENDPOINT || '', {
-      method: 'POST',
-      headers: {
-        'Content-Type': 'application/json'
-      },
-      body: JSON.stringify({
-        message: [
-          {
-            role: 'user',
-            content:
-              data.event.text ||
-              'Explain to the user that something went wrong.'
-          }
-        ]
-      })
-    })
-
-    const json = await response.json()
-
-    const payload_value = JSON.stringify({
-      user_input: data.event.text,
-      ai_response: json.data.content
-    })
-
-    const messageBlocks = [
-      {
-        type: 'section',
-        text: {
-          type: 'mrkdwn',
-          text: json.data.content
-        }
-      },
-      {
-        type: 'actions',
-        elements: [
-          {
-            type: 'button',
-            text: {
-              type: 'plain_text',
-              text: 'Share a feedback'
-            },
-            action_id: 'feedback',
-            value: payload_value
-          }
-        ]
-      }
-    ]
-
-    await web.chat.postMessage({
-      blocks: messageBlocks,
-      thread_ts: data.event.ts,
-      channel: data.event.channel,
-      text: json.data.content
-    })
+    handleRequests(data)
 
     return new Response(data.challenge, {
       status: 200
@@ -77,5 +24,61 @@ export async function POST(req: Request) {
 
   return new Response('Ok', {
     status: 200
+  })
+}
+
+async function handleRequests(data: any) {
+  const response = await fetch(process.env.AWS_API_CHAT_ENDPOINT || '', {
+    method: 'POST',
+    headers: {
+      'Content-Type': 'application/json'
+    },
+    body: JSON.stringify({
+      message: [
+        {
+          role: 'user',
+          content:
+            data.event.text || 'Explain to the user that something went wrong.'
+        }
+      ]
+    })
+  })
+
+  const json = await response.json()
+
+  const payload_value = JSON.stringify({
+    user_input: data.event.text,
+    ai_response: json.data.content
+  })
+
+  const messageBlocks = [
+    {
+      type: 'section',
+      text: {
+        type: 'mrkdwn',
+        text: json.data.content
+      }
+    },
+    {
+      type: 'actions',
+      elements: [
+        {
+          type: 'button',
+          text: {
+            type: 'plain_text',
+            text: 'Share a feedback'
+          },
+          action_id: 'feedback',
+          value: payload_value
+        }
+      ]
+    }
+  ]
+
+  await web.chat.postMessage({
+    blocks: messageBlocks,
+    thread_ts: data.event.ts,
+    channel: data.event.channel,
+    text: json.data.content
   })
 }
