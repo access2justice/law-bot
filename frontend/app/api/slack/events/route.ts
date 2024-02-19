@@ -28,6 +28,7 @@ export async function POST(req: Request) {
 }
 
 async function handleRequests(data: any) {
+  console.log(1)
   const response = await fetch(process.env.AWS_API_CHAT_ENDPOINT || '', {
     method: 'POST',
     headers: {
@@ -43,13 +44,17 @@ async function handleRequests(data: any) {
       ]
     })
   })
+  console.log(2)
 
   const json = await response.json()
+  console.log(3)
 
   const payload_value = JSON.stringify({
     user_input: data.event.text,
     ai_response: json.data.content
   })
+
+  console.log(4)
 
   const messageBlocks = [
     {
@@ -75,10 +80,14 @@ async function handleRequests(data: any) {
     }
   ]
 
+  console.log(5)
+
   await web.chat.postMessage({
     blocks: messageBlocks,
     thread_ts: data.event.ts,
     channel: data.event.channel,
     text: json.data.content
   })
+
+  console.log(6)
 }
