@@ -1,18 +1,24 @@
 import { WebClient } from "@slack/web-api";
-import type { VercelRequest, VercelResponse } from "@vercel/node";
+import type { RequestContext } from "@vercel/edge";
+
+export const config = {
+  runtime: "edge",
+};
 
 const web = new WebClient(process.env.SLACK_TOKEN);
 
-export default async function POST(req: VercelRequest, res: VercelResponse) {
+export default async function MyEdgeFunction(
+  req: Request,
+  context: RequestContext
+) {
   console.log(1);
-  const { body } = req;
-  const data = body;
+  const data = await req.json();
   console.log(2);
 
   console.log(data);
 
   if (data.type === "url_verification") {
-    return res.status(200).json({ challenge: data.challenge });
+    return Response.json({ challenge: data.challenge });
   }
 
   if (
@@ -23,84 +29,18 @@ export default async function POST(req: VercelRequest, res: VercelResponse) {
     (data.event.channel === "C06GGJVRMCK" ||
       data.event.channel === "C06HA3ZLB18")
   ) {
-    res.status(200).send(Date.now());
-
-    processRequest(data)
-      .then(() => console.log("Background processing completed"))
-      .catch((error) => console.error("Background processing error:", error));
-  }
-}
-
-async function processRequest(data: any) {
-  try {
-    console.log("1a");
-    await new Promise((resolve) => setTimeout(resolve, 1000));
-    console.log("1b");
-
-    console.log(Date.now());
-    const response = await fetch(process.env.AWS_API_CHAT_ENDPOINT || "", {
-      method: "POST",
-      headers: {
-        "Content-Type": "application/json",
-      },
-      body: JSON.stringify({
-        message: [
-          {
-            role: "user",
-            content:
-              data.event.text ||
-              "Explain to the user that something went wrong.",
-          },
-        ],
-      }),
-    });
-    console.log(2);
-
-    const json = await response.json();
-    console.log(3, json);
-
-    const payload_value = JSON.stringify({
-      user_input: data.event.text,
-      ai_response: json.data.content,
-    });
-
-    console.log(4);
-
-    const messageBlocks = [
-      {
-        type: "section",
-        text: {
-          type: "mrkdwn",
-          text: json.data.content,
+    context.waitUntil(
+      fetch(`${process.env.VERCEL_URL}/api/slack/process-events`, {
+        method: "POST",
+        headers: {
+          "Content-Type": "application/json",
         },
-      },
-      {
-        type: "actions",
-        elements: [
-          {
-            type: "button",
-            text: {
-              type: "plain_text",
-              text: "Share a feedback",
-            },
-            action_id: "feedback",
-            value: payload_value,
-          },
-        ],
-      },
-    ];
+        body: JSON.stringify(data),
+      }).then((json) => console.log({ json }))
+    );
 
-    console.log(5);
-
-    await web.chat.postMessage({
-      blocks: messageBlocks,
-      thread_ts: data.event.ts,
-      channel: data.event.channel,
-      text: json.data.content,
-    });
-
-    console.log(6);
-  } catch (error) {
-    console.error(error);
+    return new Response(Date.now() + "");
   }
+
+  return new Response(Date.now() + "");
 }
