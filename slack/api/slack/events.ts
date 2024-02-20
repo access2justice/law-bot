@@ -18,7 +18,10 @@ export default async function MyEdgeFunction(
   console.log(data);
 
   if (data.type === "url_verification") {
-    return Response.json({ challenge: data.challenge });
+    return new Response(JSON.stringify({ hello: "world" }), {
+      status: 200,
+      headers: { "content-type": "application/json" },
+    });
   }
 
   if (
