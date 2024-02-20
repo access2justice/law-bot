@@ -36,7 +36,9 @@ export default async function MyEdgeFunction(
           "Content-Type": "application/json",
         },
         body: JSON.stringify(data),
-      }).then((json) => console.log({ json }))
+      })
+        .then((json) => console.log({ json }))
+        .catch((error) => console.log("Error fetching process-events:", error))
     );
 
     return new Response(Date.now() + "");
