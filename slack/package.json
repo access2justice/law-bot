@@ -8,6 +8,7 @@
     "typescript": "^4.7.3"
   },
   "dependencies": {
-    "@slack/web-api": "^7.0.2"
+    "@slack/web-api": "^7.0.2",
+    "@vercel/edge": "^1.1.1"
   }
 }
