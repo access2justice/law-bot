@@ -86,6 +86,6 @@ export default async function handler(req: VercelRequest, res: VercelResponse) {
 
     // console.log(6);
   } catch (error) {
-    console.error(error);
+    console.error("Error fetching Backend:", error);
   }
 }
