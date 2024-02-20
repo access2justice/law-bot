@@ -29,9 +29,8 @@ export default async function MyEdgeFunction(
     (data.event.channel === "C06GGJVRMCK" ||
       data.event.channel === "C06HA3ZLB18")
   ) {
-    console.log("vercel_url:", process.env.VERCEL_URL);
     context.waitUntil(
-      fetch(`${process.env.VERCEL_URL}/api/slack/process-events`, {
+      fetch(`https://${process.env.VERCEL_URL}/api/slack/process-events`, {
         method: "POST",
         headers: {
           "Content-Type": "application/json",
