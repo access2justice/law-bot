@@ -11,7 +11,14 @@ export default async function POST(req: VercelRequest, res: VercelResponse) {
 
   console.log(data);
 
-  res.status(200).send(data.challenge);
+  const p1 = new Promise((res) =>
+    setTimeout(() => {
+      console.log(24);
+      return res("p1");
+    }, 2000)
+  );
+
+  return res.status(200).send(data.challenge);
 
   console.log(4);
 
