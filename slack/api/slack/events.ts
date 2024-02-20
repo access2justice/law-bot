@@ -29,17 +29,18 @@ export default async function MyEdgeFunction(
     (data.event.channel === "C06GGJVRMCK" ||
       data.event.channel === "C06HA3ZLB18")
   ) {
-    context.waitUntil(
-      fetch(`https://${process.env.VERCEL_URL}/api/slack/process-events`, {
-        method: "POST",
-        headers: {
-          "Content-Type": "application/json",
-        },
-        body: JSON.stringify(data),
-      })
-        .then(() => console.log("Process-events request sent"))
-        .catch((error) => console.log("Error fetching process-events:", error))
-    );
+    // context.waitUntil(
+    fetch(`https://${process.env.VERCEL_URL}/api/slack/process-events`, {
+      method: "POST",
+      headers: {
+        "Content-Type": "application/json",
+      },
+      body: JSON.stringify(data),
+    })
+      .then((response) => response.json())
+      .then((json) => console.log({ json }))
+      .catch((error) => console.log("Error fetching process-events:", error));
+    // );
 
     return new Response(Date.now() + "");
   }
