@@ -23,12 +23,10 @@ export default async function POST(req: VercelRequest, res: VercelResponse) {
     (data.event.channel === "C06GGJVRMCK" ||
       data.event.channel === "C06HA3ZLB18")
   ) {
+    res.status(200).send(data.challenge);
+
     handleRequests(data);
-
-    return res.status(200).send(data.challenge);
   }
-
-  return res.status(200).send(data.challenge);
 }
 
 async function handleRequests(data: any) {
