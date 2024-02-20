@@ -3,10 +3,13 @@ import type { VercelRequest, VercelResponse } from "@vercel/node";
 
 const web = new WebClient(process.env.SLACK_TOKEN);
 
-export async function POST(req: VercelRequest, res: VercelResponse) {
+export default async function POST(req: VercelRequest, res: VercelResponse) {
   console.log(1);
-  console.log(req.body);
-  const data = req.body;
+  const { body } = req;
+  const data = body;
+  console.log(2);
+
+  console.log(data);
 
   if (data.type === "url_verification") {
     return Response.json({ challenge: data.challenge });
