@@ -11,19 +11,8 @@ export default async function POST(req: VercelRequest, res: VercelResponse) {
 
   console.log(data);
 
-  const p1 = new Promise((res) =>
-    setTimeout(() => {
-      console.log(24);
-      return res("p1");
-    }, 2000)
-  );
-
-  return res.status(200).send(data.challenge);
-
-  console.log(4);
-
   if (data.type === "url_verification") {
-    return Response.json({ challenge: data.challenge });
+    return res.status(200).json({ challenge: data.challenge });
   }
 
   if (
@@ -35,14 +24,10 @@ export default async function POST(req: VercelRequest, res: VercelResponse) {
   ) {
     handleRequests(data);
 
-    return new Response(data.challenge, {
-      status: 200,
-    });
+    return res.status(200).send(data.challenge);
   }
 
-  return new Response("Ok", {
-    status: 200,
-  });
+  return res.status(200).send(data.challenge);
 }
 
 async function handleRequests(data: any) {
