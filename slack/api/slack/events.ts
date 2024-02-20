@@ -11,6 +11,10 @@ export default async function POST(req: VercelRequest, res: VercelResponse) {
 
   console.log(data);
 
+  res.status(200).send(data.challenge);
+
+  console.log(4);
+
   if (data.type === "url_verification") {
     return Response.json({ challenge: data.challenge });
   }
