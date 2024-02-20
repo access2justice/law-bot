@@ -8,7 +8,7 @@ export default async function handler(req: VercelRequest, res: VercelResponse) {
   const data = body;
 
   try {
-    await new Promise((resolve) => setTimeout(resolve, 1000));
+    await new Promise((resolve) => setTimeout(resolve, 500));
     const response = await fetch(process.env.AWS_API_CHAT_ENDPOINT || "", {
       method: "POST",
       headers: {
