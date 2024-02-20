@@ -1,11 +1,8 @@
-import { WebClient } from "@slack/web-api";
 import type { RequestContext } from "@vercel/edge";
 
 export const config = {
   runtime: "edge",
 };
-
-const web = new WebClient(process.env.SLACK_TOKEN);
 
 export default async function MyEdgeFunction(
   req: Request,
