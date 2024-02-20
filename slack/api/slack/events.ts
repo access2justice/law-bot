@@ -20,7 +20,8 @@ export default async function POST(req: VercelRequest, res: VercelResponse) {
     !data.event.parent_user_id &&
     data.event.type === "message" &&
     data.type === "event_callback" &&
-    (data.event.channel === "C06GGJVRMCK" || "C06HA3ZLB18")
+    (data.event.channel === "C06GGJVRMCK" ||
+      data.event.channel === "C06HA3ZLB18")
   ) {
     handleRequests(data);
 
@@ -50,7 +51,7 @@ async function handleRequests(data: any) {
   console.log(2);
 
   const json = await response.json();
-  console.log(3);
+  console.log(3, json);
 
   const payload_value = JSON.stringify({
     user_input: data.event.text,
