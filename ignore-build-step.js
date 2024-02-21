@@ -4,7 +4,7 @@ const branchName = process.env.VERCEL_GIT_COMMIT_REF;
 
 var folder = process.argv[2];
 
-const allowedPattern = /./;
+let allowedPattern = /./;
 if (folder == "slack") {
   allowedPattern = /^slack\//;
 } else if (folder === "frontend") {
