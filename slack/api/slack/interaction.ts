@@ -18,6 +18,7 @@ export default async function POST(req: VercelRequest, res: VercelResponse) {
       payload.trigger_id &&
       payload.type === "block_actions")
   ) {
+    // get rid of this
     const thread = await web.conversations.replies({
       channel: payload.channel.id,
       ts: payload.message.ts,
@@ -36,6 +37,8 @@ export default async function POST(req: VercelRequest, res: VercelResponse) {
 
   if (payload.type === "view_submission") {
     console.log(JSON.stringify(payload.view.blocks));
+
+    /// submit to Notion
 
     return res.status(200).json({ response_action: "clear" });
   }
