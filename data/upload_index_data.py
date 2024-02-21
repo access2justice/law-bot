@@ -1,10 +1,10 @@
 import os
+import json
 import openai
-import pandas as pd
 
 from dotenv import load_dotenv
 from azure.core.credentials import AzureKeyCredential
-from azure.search.documents import SearchClient
+from azure.search.documents import SearchIndexingBufferedSender
 
 load_dotenv(override=True)
 
@@ -34,33 +34,42 @@ def prep_data(json_file_name: str):
     """
     Prepare dataset for upload to Azure index
     """
-    # Reformat data to {text, metadata} structure
-    docs = pd.read_json(f'{json_file_name}.json')
-    docs['metadata'] = docs['Level1'] + ";" + docs['art']
-    docs = docs.drop(columns=['Level1', 'art', 'p_num'])
-    documents = docs.to_dict('records')
+    f = open(f'{json_file_name}.json')
+    # returns JSON object as a dictionary
+    documents = json.load(f)
 
     # Prepare data for upload
     docs = []
     counter = 1
-    for document in documents[:1]:
-        document['metadata'] = document['metadata'].split(';')
-        DOCUMENT = {
-            "@search.action": "mergeOrUpload",
-            "id": str(counter),
-            "text": document['p_text'],
-            "text_vector": get_embeddings(document['p_text']),
-            "metadata": document['metadata']
-        }
-        counter += 1
-        docs.append(DOCUMENT)
+    for document in documents:
+        if 'text' in document and document['text']:
+            DOCUMENT = {
+                "@search.action": "mergeOrUpload",
+                "id": str(counter),
+                "text": document['text'],
+                "text_vector": get_embeddings(document['text']),
+                "metadata": document['metadata'],
+                "eId": document['@eId']
+            }
+            counter += 1
+            docs.append(DOCUMENT)
     
     return docs
 
 
 if __name__ == "__main__":
-    docs = prep_data('cleaned_pflichten_des_arbeitsgebers')
-    client = SearchClient(service_endpoint, index_name, AzureKeyCredential(key))
-    print(f"Number of docs to upload: {len(docs)}")
-    result = client.upload_documents(docs)
-    print(f"Succeeded: {result[0].succeeded}")
+    # prepare documents for azure index
+    docs = prep_data('obligationrecht')
+    # chunk documents
+    chunks = [docs[i:i + 1000] for i in range(0, len(docs), 1000)]
+    # upload chunks to azure
+    for chunk in chunks:
+        # Use SearchIndexingBufferedSender to upload the documents in batches optimized for indexing  
+        with SearchIndexingBufferedSender(  
+            endpoint=service_endpoint,  
+            index_name=index_name,  
+            credential=AzureKeyCredential(key),  
+        ) as batch_client:  
+            # Add upload actions for all documents  
+            batch_client.upload_documents(documents=chunk)  
+    print(f"Uploaded {len(docs)} documents in total")  

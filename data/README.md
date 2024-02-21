@@ -9,13 +9,13 @@ Second, make sure to prepare your env:
 `pip install -r requirements.txt`
 2. Create an .env file, using the .env.example as a boilerplate
 3. Generate data by running:
-`python Read_pflichten_des_arbeitsgebers.py`
+`python retrieve_law_data.py`
 
 
 Third, run the following commands:
 0. Create Azure index (optional):  
 `python create_azure_index.py`
-1. Upload Pflichten des Arbeitsgebers dataset to Azure:
+1. Upload Obligationrecht dataset to Azure:
 `python upload_index_data.py`
  
 
