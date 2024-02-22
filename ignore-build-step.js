@@ -16,13 +16,13 @@ try {
     .some((file) => file.startsWith(folderToCheck));
 
   if (!isRelevantChange) {
-    console.log(`No relevant changes in '${folderToCheck}'. Skipping build.`);
-    execSync('echo "Skipping build due to no relevant changes."');
+    console.log(`No relevant changes in '${folderToCheck}'. Aborting build.`);
     process.exit(0);
   } else {
     console.log(
-      `Relevant changes detected in '${folderToCheck}'. Proceeding with build.`
+      `Relevant changes detected in '${folderToCheck}'. Continuing build.`
     );
+    process.exit(1);
   }
 } catch (error) {
   console.error("Error while checking for changed folders:", error);
