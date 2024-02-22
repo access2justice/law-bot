@@ -1,8 +1,6 @@
 const { execSync } = require("child_process");
 
-const branchName = process.env.VERCEL_GIT_COMMIT_REF;
-var targetFolder = process.argv[2];
-
+const targetFolder = process.argv[2];
 const folderToCheck = targetFolder + "/";
 const mainBranch = "master";
 
@@ -10,6 +8,8 @@ try {
   const changedFiles = execSync(
     `git diff --name-only ${mainBranch}...HEAD`
   ).toString();
+
+  console.log("Changed files:", changedFiles);
 
   const isRelevantChange = changedFiles
     .split("\n")
