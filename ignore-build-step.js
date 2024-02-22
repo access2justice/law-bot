@@ -13,7 +13,7 @@ if (folder == "slack") {
 
 if (!allowedPattern.test(branchName)) {
   console.log(
-    `Branch ${branchName} entspricht nicht dem erlaubten Muster. Build wird abgebrochen.`
+    `Branch ${branchName} does not match the allowed pattern. Build will be aborted.`
   );
   process.exit(1);
 }
@@ -32,15 +32,15 @@ try {
 
   if (!isRelevantChange) {
     console.log(
-      `Keine Änderungen im Ordner '${folderToCheck}' festgestellt. Build wird übersprungen.`
+      `No changes detected in the '${folderToCheck}' folder. Build will be skipped.`
     );
     process.exit(0);
   } else {
     console.log(
-      `Änderungen im Ordner '${folderToCheck}' festgestellt. Build wird fortgesetzt.`
+      `Changes detected in the '${folderToCheck}' folder. Build will continue.`
     );
   }
 } catch (error) {
-  console.error("Fehler beim Überprüfen der geänderten Ordner:", error);
+  console.error("Error while checking for changed folders:", error);
   process.exit(1);
 }
