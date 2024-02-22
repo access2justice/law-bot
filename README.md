@@ -10,4 +10,4 @@ The Frontend is based on Next.js and described in more detail in the frontend fo
 
 ## Data
 
-Test data can be found inside the data folder
+Test data can be found inside the data folder.
