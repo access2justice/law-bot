@@ -2,6 +2,21 @@ const { execSync } = require("child_process");
 
 const targetFolder = process.argv[2];
 const folderToCheck = `${targetFolder}/`;
+const branchName = process.env.VERCEL_GIT_COMMIT_REF;
+
+let allowedPattern = /./;
+if (targetFolder == "slack") {
+  allowedPattern = /^slack\//;
+} else if (targetFolder === "frontend") {
+  allowedPattern = /^frontend\//;
+}
+
+if (!allowedPattern.test(branchName)) {
+  console.log(
+    `Branch ${branchName} does not match the allowed pattern. Build will be aborted.`
+  );
+  process.exit(1);
+}
 
 try {
   const changedFiles = execSync(
