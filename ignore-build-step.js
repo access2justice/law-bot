@@ -1,7 +1,7 @@
 const { execSync } = require("child_process");
 
 const targetFolder = process.argv[2];
-const folderToCheck = targetFolder + "/";
+const folderToCheck = `${targetFolder}/`;
 const mainBranch = "master";
 
 try {
@@ -10,6 +10,11 @@ try {
   ).toString();
 
   console.log("Changed files:", changedFiles);
+
+  if (!changedFiles) {
+    console.log("No files changed.");
+    process.exit(0);
+  }
 
   const isRelevantChange = changedFiles
     .split("\n")
