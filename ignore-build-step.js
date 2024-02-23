@@ -15,7 +15,7 @@ if (!allowedPattern.test(branchName)) {
   console.log(
     `Branch ${branchName} does not match the allowed pattern. Build will be aborted.`
   );
-  process.exit(1);
+  process.exit(0);
 }
 
 try {
