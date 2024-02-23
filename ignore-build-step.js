@@ -5,7 +5,9 @@ const folderToCheck = `${targetFolder}/`;
 const mainBranch = "master";
 
 try {
-  const changedFiles = execSync(`git diff --name-only HEAD`).toString();
+  const changedFiles = execSync(
+    `git --no-pager diff --name-only ${mainBranch}...HEAD`
+  ).toString();
 
   console.log("Changed files:", changedFiles);
 
