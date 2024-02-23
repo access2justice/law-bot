@@ -5,6 +5,8 @@ const folderToCheck = `${targetFolder}/`;
 const mainBranch = "master";
 
 try {
+  execSync(`git fetch origin ${mainBranch}:${mainBranch}`);
+
   const changedFiles = execSync(
     `bash -c "git diff --name-only ${mainBranch}...HEAD"`
   ).toString();
