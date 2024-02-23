@@ -2,13 +2,10 @@ const { execSync } = require("child_process");
 
 const targetFolder = process.argv[2];
 const folderToCheck = `${targetFolder}/`;
-const mainBranch = "master";
 
 try {
-  execSync(`git fetch origin ${mainBranch}:${mainBranch}`);
-
   const changedFiles = execSync(
-    `bash -c "git diff --name-only ${mainBranch}...HEAD"`
+    `bash -c "git diff --name-only HEAD HEAD~1"`
   ).toString();
 
   console.log("Changed files:", changedFiles);
