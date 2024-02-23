@@ -6,7 +6,7 @@ const mainBranch = "master";
 
 try {
   const changedFiles = execSync(
-    `bash -c "git --no-pager diff --name-only ${mainBranch}...HEAD"`
+    `bash -c "git diff --name-only ${mainBranch}...HEAD"`
   ).toString();
 
   console.log("Changed files:", changedFiles);
