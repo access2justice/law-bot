@@ -6,7 +6,7 @@ import json
 # "https://www.fedlex.admin.ch/filestore/fedlex.data.admin.ch/eli/cc/27/317_321_377/20240101/de/xml/fedlex-data-admin-ch-eli-cc-27-317_321_377-20240101-de-xml-3.xml"
 # Removing first line <?xml version="1.0" encoding="UTF-8"?>
 
-file = open("SR-220-01012024-DE.xml", encoding="utf8")
+file = open("SR-220-01012024-DE-newdownload.xml", encoding="utf8")
 xml_data_de = file.read()
 file.close()
 
@@ -31,7 +31,7 @@ def process_paragraph_blocklist(lst, blocklist, article_title, section_titles):
         article_paragraph = list_intro.attrib["eId"]
         paragraph_txt = get_element_clean_text(list_intro)
         if paragraph_txt:
-            lst.append({'text': paragraph_txt, 'metadata': article_title + section_titles, "article_paragraph": article_paragraph})
+            lst.append({'text': paragraph_txt, 'metadata': article_title + section_titles, "@eId": article_paragraph})
         if hasattr(list_intro, 'inline'):
             paragraph_txt = ''
             # art_958_c/para_1/listintro paragraph separated into 2 inline tags, this allows to capture the full sentence
@@ -39,7 +39,7 @@ def process_paragraph_blocklist(lst, blocklist, article_title, section_titles):
                 paragraph_txt += ' ' + get_element_clean_text(paragraph_inline)
             paragraph_txt = paragraph_txt.strip()
             if paragraph_txt:
-                lst.append({'text': paragraph_txt, 'metadata': article_title + section_titles, "article_paragraph": article_paragraph})
+                lst.append({'text': paragraph_txt, 'metadata': article_title + section_titles, "@eId": article_paragraph})
 
     # Process any list items (this allows to capture enumerated paragraphs), ex.: Art. 958 C
     if hasattr(blocklist, 'item'):
@@ -48,11 +48,11 @@ def process_paragraph_blocklist(lst, blocklist, article_title, section_titles):
                 article_paragraph = item.attrib["eId"]
                 paragraph_txt = get_element_clean_text(item.p)
                 if paragraph_txt:
-                    lst.append({'text': paragraph_txt, 'metadata': article_title + section_titles, "article_paragraph": article_paragraph})
+                    lst.append({'text': paragraph_txt, 'metadata': article_title + section_titles, "@eId": article_paragraph})
                 if hasattr(item.p, 'inline'):
                     paragraph_txt = get_element_clean_text(item.p.inline)
                     if paragraph_txt:
-                        lst.append({'text': paragraph_txt, 'metadata': article_title + section_titles, "article_paragraph": article_paragraph})
+                        lst.append({'text': paragraph_txt, 'metadata': article_title + section_titles, "@eId": article_paragraph})
 
             # Handle blocklists nested within items
             if hasattr(item, 'blockList'):
@@ -63,9 +63,9 @@ def process_article(lst, article, section_titles):
     """
     Extract paragraphs from the different sections.
     Add paragraphs, metadata, and Id to a dictionary with the format:
-    {text: string containing each paragraph individually,
-    metadata: Article number + sections names in one list
-    article_paragraph: article and paragraph information (inner "eId" attribute)
+    {"text": "string containing each paragraph individually",
+    "metadata": [Article number + sections names in one list](list),
+    "@eId": article and paragraph information (inner "eId" attribute)}
     """
     # Check article
     if article is None:
@@ -83,12 +83,12 @@ def process_article(lst, article, section_titles):
             article_paragraph = paragraph.attrib["eId"]
             paragraph_txt = get_element_clean_text(paragraph.content.p)
             if paragraph_txt:
-                lst.append({'text': paragraph_txt, 'metadata': article_title + section_titles, "article_paragraph": article_paragraph})
+                lst.append({'text': paragraph_txt, 'metadata': article_title + section_titles, "@eId": article_paragraph})
             # extract the ones where the paragraph is within an additional <inline> tag
             if hasattr(paragraph.content.p, 'inline'):
                 paragraph_txt = get_element_clean_text(paragraph.content.p.inline)
                 if paragraph_txt:
-                    lst.append({'text': paragraph_txt, 'metadata': article_title + section_titles, "article_paragraph": article_paragraph})
+                    lst.append({'text': paragraph_txt, 'metadata': article_title + section_titles, "@eId": article_paragraph})
 
         # When an article has blocklist within content, it will call the function process_paragraph_blocklist
         # This occurs where there are enumerated items within an article. Ex. Art. 24
