@@ -4,7 +4,6 @@ import json
 
 # Xml for the german version
 # "https://www.fedlex.admin.ch/filestore/fedlex.data.admin.ch/eli/cc/27/317_321_377/20240101/de/xml/fedlex-data-admin-ch-eli-cc-27-317_321_377-20240101-de-xml-3.xml"
-# Removing first line <?xml version="1.0" encoding="UTF-8"?>
 
 file = open("SR-220-01012024-DE-newdownload.xml", encoding="utf8")
 xml_data_de = file.read()
@@ -147,4 +146,3 @@ lst_data_compiled_de = find_articles(lst_data_compiled_de, akn_doc_de.root.act.b
 
 with open('cleaned_pflichten_des_arbeitsgebers_full_de_v2.json', 'w', encoding='utf-8') as file:
     json.dump(lst_data_compiled_de, file, indent=2, ensure_ascii=False)
-
