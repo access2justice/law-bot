@@ -11,6 +11,13 @@ export default async function POST(req: VercelRequest, res: VercelResponse) {
   console.log(payload);
   const action = payload.actions[0];
   console.log(action);
+  const payload_value = JSON.parse(action.value);
+  const question =
+    payload_value.user_input ||
+    "Something went wrong, please copy paste the question.";
+  const answer =
+    payload_value.ai_response ||
+    "Something went wrong, please copy paste the answer.";
 
   if (
     (payload.callback_id === "feedback" && payload.trigger_id) ||
@@ -18,27 +25,21 @@ export default async function POST(req: VercelRequest, res: VercelResponse) {
       payload.trigger_id &&
       payload.type === "block_actions")
   ) {
-    // get rid of this
-    const thread = await web.conversations.replies({
-      channel: payload.channel.id,
-      ts: payload.message.ts,
-    });
-
-    const payload_value = JSON.parse(action.value);
-    const question =
-      payload_value.user_input ||
-      "Something went wrong, please copy paste the question.";
-    const answer =
-      payload_value.ai_response ||
-      "Something went wrong, please copy paste the answer.";
-
     await openModal(payload.trigger_id, question, answer);
   }
 
   if (payload.type === "view_submission") {
     console.log(JSON.stringify(payload.view.blocks));
 
-    /// submit to Notion
+    const submittedValues = payload.view.state.values;
+    console.log("submittedValues:", submittedValues);
+    const correct =
+      submittedValues["static_select-action"]["selected_option"]["value"] ===
+      "correct";
+    const comment = submittedValues["plain_text_input-action"]["value"];
+    const expertId = "";
+
+    // await submitToNotion(question, answer, correct, comment, expertId);
 
     return res.status(200).json({ response_action: "clear" });
   }
@@ -146,3 +147,36 @@ const openModal = async (trigger: string, question: string, answer: string) => {
   // The result contains an identifier for the root view, view.id
   console.log(`Successfully opened root view ${result.view?.id}`);
 };
+
+async function submitToNotion(
+  question: string,
+  answer: string,
+  correct: boolean,
+  comment: string,
+  expertId: string
+) {
+  try {
+    const response = await fetch("ENDPOINT_URL_NOTION_INTERACTION", {
+      method: "POST",
+      headers: {
+        "Content-Type": "application/json",
+      },
+      body: JSON.stringify({
+        question,
+        answer,
+        correct,
+        comment,
+        expertId,
+      }),
+    });
+
+    if (!response.ok) {
+      throw new Error("Failed to submit to Notion");
+    }
+
+    console.log("Submitted to Notion successfully");
+  } catch (error) {
+    console.error("Error submitting to Notion:", error);
+    throw error;
+  }
+}
