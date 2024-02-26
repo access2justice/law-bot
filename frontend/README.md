@@ -12,16 +12,16 @@
   <a href="#model-providers"><strong>Model Providers</strong></a> ·
   <a href="#deploy-your-own"><strong>Deploy Your Own</strong></a> ·
   <a href="#running-locally"><strong>Running locally</strong></a> ·
-  <a href="#authors"><strong>Authors</strong></a>
+  <a href="#authors"><strong>Authors</strong></a> 
 </p>
 <br/>
 
 ## Features
 
-- [Next.js](https://nextjs.org) App Router
-- React Server Components (RSCs), Suspense, and Server Actions
-- [Vercel AI SDK](https://sdk.vercel.ai/docs) for streaming chat UI
-- Support for OpenAI (default), Anthropic, Cohere, Hugging Face, or custom AI chat models and/or LangChain
+- [Next.js](https://nextjs.org) App Router.
+- React Server Components (RSCs), Suspense, and Server Actions.
+- [Vercel AI SDK](https://sdk.vercel.ai/docs) for streaming chat UI.
+- Support for OpenAI (default), Anthropic, Cohere, Hugging Face, or custom AI chat models and/or LangChain.
 - [shadcn/ui](https://ui.shadcn.com)
   - Styling with [Tailwind CSS](https://tailwindcss.com)
   - [Radix UI](https://radix-ui.com) for headless component primitives
