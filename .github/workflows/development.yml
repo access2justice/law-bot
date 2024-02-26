@@ -2,6 +2,11 @@ name: Development
 
 on:
   pull_request:
+    branches:
+      - "backend/*"
+    paths:
+      - "aws/**"
+      - "backend/**"
 
 permissions:
   id-token: write
