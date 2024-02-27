@@ -8,9 +8,11 @@ export default async function notionInteractionHandler(
   res: VercelResponse
 ) {
   try {
-    const { question, answer, correct, comment, expertId } = req.body;
+    const { question, answer, correct, comment, expertId } = JSON.parse(
+      req.body
+    );
 
-    console.log("Received expert feedback:", req.body);
+    console.log("Received expert feedback:", JSON.parse(req.body));
 
     // const response = await saveExpertFeedbackToNotion(
     //   question,

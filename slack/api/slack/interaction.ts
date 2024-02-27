@@ -8,8 +8,10 @@ export default async function POST(req: VercelRequest, res: VercelResponse) {
   const data = body;
   console.log("data:", data);
 
-  let question = "";
-  let answer = "";
+  let questionAnswer = {
+    question: "",
+    answer: "",
+  };
 
   try {
     if (!data.payload) {
@@ -38,10 +40,10 @@ export default async function POST(req: VercelRequest, res: VercelResponse) {
 
       try {
         const payload_value = JSON.parse(action.value);
-        question =
+        questionAnswer.question =
           payload_value.user_input ||
           "Something went wrong, please copy paste the question.";
-        answer =
+        questionAnswer.answer =
           payload_value.ai_response ||
           "Something went wrong, please copy paste the answer.";
 
@@ -51,7 +53,11 @@ export default async function POST(req: VercelRequest, res: VercelResponse) {
             payload.trigger_id &&
             payload.type === "block_actions")
         ) {
-          await openModal(payload.trigger_id, question, answer);
+          await openModal(
+            payload.trigger_id,
+            questionAnswer.question,
+            questionAnswer.answer
+          );
         }
       } catch (error) {
         console.error("Error parsing action value:", action.value);
@@ -84,7 +90,13 @@ export default async function POST(req: VercelRequest, res: VercelResponse) {
 
       const expertId = "";
 
-      await submitToNotion(question, answer, correct, comment, expertId);
+      await submitToNotion(
+        questionAnswer.question,
+        questionAnswer.answer,
+        correct,
+        comment,
+        expertId
+      );
 
       return res.status(200).json({ response_action: "clear" });
     }
