@@ -12,6 +12,18 @@ export default async function notionInteractionHandler(
 
     console.log("Received expert feedback:", req.body);
 
+    const usersList = async function listUsers() {
+      try {
+        const response = await notion.users.list({});
+        console.log("usersList response:", response);
+        return response.results;
+      } catch (error) {
+        console.error(error.body);
+      }
+    };
+
+    console.log("usersList:", usersList);
+
     const response = await saveExpertFeedbackToNotion(
       question,
       answer,
@@ -45,6 +57,9 @@ async function saveExpertFeedbackToNotion(
       "Law Bot Answer": { rich_text: [{ text: { content: answer } }] },
       Correctness: { checkbox: correct },
       "Expert Comment": { rich_text: [{ text: { content: comment } }] },
+      Expert: {
+        people: [{ user_id: expertId }],
+      },
     },
   };
 
