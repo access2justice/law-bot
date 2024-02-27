@@ -77,10 +77,10 @@ export default async function POST(req: VercelRequest, res: VercelResponse) {
           submittedValues[textInputKey]["plain_text_input-action"];
         comment = textInputAction.value;
       }
-      const expertId = "";
+      const expert = payload.user;
       const { question, answer } = JSON.parse(payload.view.private_metadata);
 
-      await submitToNotion(question, answer, correct, comment, expertId);
+      await submitToNotion(question, answer, correct, comment, expert);
 
       return res.status(200).json({ response_action: "clear" });
     }
