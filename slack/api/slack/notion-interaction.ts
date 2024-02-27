@@ -36,7 +36,7 @@ export default async function notionInteractionHandler(
 async function listUsers() {
   try {
     const response = await notion.users.list({});
-    console.log("usersList response:", response);
+    // console.log("usersList response:", response);
     return response.results;
   } catch (error) {
     console.error(error.body);
