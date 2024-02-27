@@ -56,7 +56,10 @@ export default async function POST(req: VercelRequest, res: VercelResponse) {
       }
     } else if (payload.type === "view_submission") {
       console.log("payload.view.blocks:", payload.view.blocks);
-      console.log("payload.view.state:", payload.view.state);
+      console.log(
+        "payload.view.state.values[0]:",
+        payload.view.state.values[0]
+      );
       const submittedValues = payload.view.state.values;
       console.log(
         "submittedValues[0]['static_select-action']['selected_option']:",
