@@ -12,7 +12,9 @@ export default async function notionInteractionHandler(
 
     console.log("Received expert feedback:", req.body);
 
-    const usersList = await listUsers();
+    const expertName = expertId.name;
+
+    // const usersList = await listUsers();
 
     // console.log("usersList:", usersList);
 
@@ -21,7 +23,7 @@ export default async function notionInteractionHandler(
       answer,
       correct,
       comment,
-      expertId
+      expertName
     );
 
     console.log("Task created in Notion:", response);
@@ -48,7 +50,7 @@ async function saveExpertFeedbackToNotion(
   answer: string,
   correct: boolean,
   comment: string,
-  expertId: string
+  expertName: string
 ) {
   const taskData = {
     parent: { database_id: "083bf4cbaf134f7a940444e847e49126" },
@@ -59,14 +61,7 @@ async function saveExpertFeedbackToNotion(
       "Law Bot Answer": { rich_text: [{ text: { content: answer } }] },
       Correctness: { checkbox: correct },
       "Expert Comment": { rich_text: [{ text: { content: comment } }] },
-      // Expert: {
-      //   people: [
-      //     {
-      //       object: "user",
-      //       name: "Marcos Fraga",
-      //     },
-      //   ],
-      // },
+      Expert: { rich_text: [{ text: { content: expertName } }] },
     },
   };
 
