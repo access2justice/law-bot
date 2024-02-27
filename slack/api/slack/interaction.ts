@@ -13,14 +13,14 @@ export default async function POST(req: VercelRequest, res: VercelResponse) {
       throw new Error("Payload is missing");
     }
     const payload = JSON.parse(data.payload);
-    console.log(payload);
+    console.log("payload:", payload);
 
     if (!payload.actions || payload.actions.length === 0) {
       throw new Error("No actions found in payload");
     }
 
     const action = payload.actions[0];
-    console.log(action);
+    console.log("actions:", action);
 
     if (!action.value) {
       throw new Error("Action value is undefined");
@@ -67,104 +67,109 @@ export default async function POST(req: VercelRequest, res: VercelResponse) {
 }
 
 const openModal = async (trigger: string, question: string, answer: string) => {
-  const result = await web.views.open({
-    trigger_id: trigger,
-    view: {
-      type: "modal",
-      title: {
-        type: "plain_text",
-        text: "Law Bot Expert Feedback",
-        emoji: true,
-      },
-      submit: {
-        type: "plain_text",
-        text: "Submit",
-        emoji: true,
-      },
-      close: {
-        type: "plain_text",
-        text: "Cancel",
-        emoji: true,
-      },
-      blocks: [
-        {
-          type: "section",
-          text: {
-            type: "mrkdwn",
-            text: "Was the answer correct?",
+  try {
+    const result = await web.views.open({
+      trigger_id: trigger,
+      view: {
+        type: "modal",
+        title: {
+          type: "plain_text",
+          text: "Law Bot Expert Feedback",
+          emoji: true,
+        },
+        submit: {
+          type: "plain_text",
+          text: "Submit",
+          emoji: true,
+        },
+        close: {
+          type: "plain_text",
+          text: "Cancel",
+          emoji: true,
+        },
+        blocks: [
+          {
+            type: "section",
+            text: {
+              type: "mrkdwn",
+              text: "Was the answer correct?",
+            },
+            accessory: {
+              type: "static_select",
+              placeholder: {
+                type: "plain_text",
+                text: "Select an item",
+                emoji: true,
+              },
+              options: [
+                {
+                  text: {
+                    type: "plain_text",
+                    text: "Yes",
+                    emoji: true,
+                  },
+                  value: "correct",
+                },
+                {
+                  text: {
+                    type: "plain_text",
+                    text: "No",
+                    emoji: true,
+                  },
+                  value: "false",
+                },
+              ],
+              action_id: "static_select-action",
+            },
           },
-          accessory: {
-            type: "static_select",
-            placeholder: {
+          {
+            type: "input",
+            element: {
+              type: "plain_text_input",
+              multiline: true,
+              action_id: "plain_text_input-action",
+            },
+            label: {
               type: "plain_text",
-              text: "Select an item",
+              text: "Your Expert Comment",
               emoji: true,
             },
-            options: [
+          },
+          {
+            type: "header",
+            text: {
+              type: "plain_text",
+              text: "Question & Bot's Answer",
+              emoji: true,
+            },
+          },
+          {
+            type: "section",
+            text: {
+              type: "mrkdwn",
+              text: question,
+            },
+          },
+          {
+            type: "context",
+            elements: [
               {
-                text: {
-                  type: "plain_text",
-                  text: "Yes",
-                  emoji: true,
-                },
-                value: "correct",
-              },
-              {
-                text: {
-                  type: "plain_text",
-                  text: "No",
-                  emoji: true,
-                },
-                value: "false",
+                type: "plain_text",
+                text: answer,
+                emoji: true,
               },
             ],
-            action_id: "static_select-action",
           },
-        },
-        {
-          type: "input",
-          element: {
-            type: "plain_text_input",
-            multiline: true,
-            action_id: "plain_text_input-action",
-          },
-          label: {
-            type: "plain_text",
-            text: "Your Expert Comment",
-            emoji: true,
-          },
-        },
-        {
-          type: "header",
-          text: {
-            type: "plain_text",
-            text: "Question & Bot's Answer",
-            emoji: true,
-          },
-        },
-        {
-          type: "section",
-          text: {
-            type: "mrkdwn",
-            text: question,
-          },
-        },
-        {
-          type: "context",
-          elements: [
-            {
-              type: "plain_text",
-              text: answer,
-              emoji: true,
-            },
-          ],
-        },
-      ],
-    },
-  });
+        ],
+      },
+    });
 
-  // The result contains an identifier for the root view, view.id
-  console.log(`Successfully opened root view ${result.view?.id}`);
+    // The result contains an identifier for the root view, view.id
+    console.log(`Successfully opened root view ${result.view?.id}`);
+  } catch (error) {
+    console.error("Error opening modal:", error);
+    throw error; // Ensure this error is caught or logged appropriately.
+  }
 };
 
 async function submitToNotion(
