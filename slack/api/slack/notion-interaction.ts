@@ -12,15 +12,7 @@ export default async function notionInteractionHandler(
 
     console.log("Received expert feedback:", req.body);
 
-    const usersList = async function listUsers() {
-      try {
-        const response = await notion.users.list({});
-        console.log("usersList response:", response);
-        return response.results;
-      } catch (error) {
-        console.error(error.body);
-      }
-    };
+    const usersList = await listUsers();
 
     console.log("usersList:", usersList);
 
@@ -38,6 +30,16 @@ export default async function notionInteractionHandler(
   } catch (error) {
     console.error("Error handling Notion interaction:", error);
     res.status(500).json({ error: "Internal Server Error" });
+  }
+}
+
+async function listUsers() {
+  try {
+    const response = await notion.users.list({});
+    console.log("usersList response:", response);
+    return response.results;
+  } catch (error) {
+    console.error(error.body);
   }
 }
 
