@@ -22,68 +22,58 @@ export default async function POST(req: VercelRequest, res: VercelResponse) {
     payload_value.ai_response ||
     "Something went wrong, please copy paste the answer.";
 
-  try {
-    if (payload.type === "block_actions") {
-      if (!payload.actions || payload.actions.length === 0) {
-        throw new Error("No actions found in payload");
-      }
-
-      if (action.action_id === "static_select-action") {
-        return res.status(200).send("Ok");
-      }
-
-      if (!action.value) {
-        console.log("Action value is undefined:", action);
-        throw new Error("Action value is undefined");
-      }
-
-      try {
-        if (
-          (payload.callback_id === "feedback" && payload.trigger_id) ||
-          (action.action_id === "feedback" &&
-            payload.trigger_id &&
-            payload.type === "block_actions")
-        ) {
-          await openModal(payload.trigger_id, question, answer);
-        }
-      } catch (error) {
-        console.error("Error parsing action value:", action.value);
-        throw error;
-      }
-    } else if (payload.type === "view_submission") {
-      console.log("payload.view.blocks:", payload.view.blocks);
-
-      const submittedValues = payload.view.state.values;
-      const selectActionKey = Object.keys(submittedValues).find(
-        (key) => submittedValues[key]["static_select-action"]
-      );
-      const textInputKey = Object.keys(submittedValues).find(
-        (key) => submittedValues[key]["plain_text_input-action"]
-      );
-
-      let correct = false;
-      let comment = "";
-
-      if (selectActionKey) {
-        const staticSelectAction =
-          submittedValues[selectActionKey]["static_select-action"];
-        correct = staticSelectAction.selected_option.value === "correct";
-      }
-      if (textInputKey) {
-        const textInputAction =
-          submittedValues[textInputKey]["plain_text_input-action"];
-        comment = textInputAction.value;
-      }
-
-      const expertId = "";
-
-      await submitToNotion(question, answer, correct, comment, expertId);
-
-      return res.status(200).json({ response_action: "clear" });
+  if (payload.type === "block_actions") {
+    if (!payload.actions || payload.actions.length === 0) {
+      throw new Error("No actions found in payload");
     }
-  } catch (error) {
-    console.error("Error processing request:", error);
-    return res.status(400).json("Bad Request");
+
+    if (action.action_id === "static_select-action") {
+      return res.status(200).send("Ok");
+    }
+
+    if (!action.value) {
+      console.log("Action value is undefined:", action);
+      throw new Error("Action value is undefined");
+    }
+
+    if (
+      (payload.callback_id === "feedback" && payload.trigger_id) ||
+      (action.action_id === "feedback" &&
+        payload.trigger_id &&
+        payload.type === "block_actions")
+    ) {
+      await openModal(payload.trigger_id, question, answer);
+    }
+  } else if (payload.type === "view_submission") {
+    console.log("payload.view.blocks:", payload.view.blocks);
+
+    const submittedValues = payload.view.state.values;
+    const selectActionKey = Object.keys(submittedValues).find(
+      (key) => submittedValues[key]["static_select-action"]
+    );
+    const textInputKey = Object.keys(submittedValues).find(
+      (key) => submittedValues[key]["plain_text_input-action"]
+    );
+
+    let correct = false;
+    let comment = "";
+
+    if (selectActionKey) {
+      const staticSelectAction =
+        submittedValues[selectActionKey]["static_select-action"];
+      correct = staticSelectAction.selected_option.value === "correct";
+    }
+    if (textInputKey) {
+      const textInputAction =
+        submittedValues[textInputKey]["plain_text_input-action"];
+      comment = textInputAction.value;
+    }
+
+    const expertId = "";
+
+    await submitToNotion(question, answer, correct, comment, expertId);
+
+    return res.status(200).json({ response_action: "clear" });
   }
 
   return res.status(200).send("Ok");
