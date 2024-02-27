@@ -1,33 +1,32 @@
 import { WebClient } from "@slack/web-api";
 import type { VercelRequest, VercelResponse } from "@vercel/node";
+import type { RequestContext } from "@vercel/edge";
 
 const web = new WebClient(process.env.SLACK_TOKEN);
 
 export default async function POST(req: VercelRequest, res: VercelResponse) {
   const { body } = req;
   const data = body;
-  console.log("data:", data);
-
-  let questionAnswer = {
-    question: "",
-    answer: "",
-  };
+  if (!data.payload) {
+    console.log("Payload is missing in the request body:", data);
+    throw new Error("Payload is missing");
+  }
+  const payload = JSON.parse(data.payload);
+  const action = payload.actions[0];
+  // console.log("actions:", action);
+  const payload_value = JSON.parse(action.value);
+  const question =
+    payload_value.user_input ||
+    "Something went wrong, please copy paste the question.";
+  const answer =
+    payload_value.ai_response ||
+    "Something went wrong, please copy paste the answer.";
 
   try {
-    if (!data.payload) {
-      console.log("Payload is missing in the request body:", data);
-      throw new Error("Payload is missing");
-    }
-    const payload = JSON.parse(data.payload);
-    console.log("payload:", payload);
-
     if (payload.type === "block_actions") {
       if (!payload.actions || payload.actions.length === 0) {
         throw new Error("No actions found in payload");
       }
-
-      const action = payload.actions[0];
-      console.log("actions:", action);
 
       if (action.action_id === "static_select-action") {
         return res.status(200).send("Ok");
@@ -39,25 +38,13 @@ export default async function POST(req: VercelRequest, res: VercelResponse) {
       }
 
       try {
-        const payload_value = JSON.parse(action.value);
-        questionAnswer.question =
-          payload_value.user_input ||
-          "Something went wrong, please copy paste the question.";
-        questionAnswer.answer =
-          payload_value.ai_response ||
-          "Something went wrong, please copy paste the answer.";
-
         if (
           (payload.callback_id === "feedback" && payload.trigger_id) ||
           (action.action_id === "feedback" &&
             payload.trigger_id &&
             payload.type === "block_actions")
         ) {
-          await openModal(
-            payload.trigger_id,
-            questionAnswer.question,
-            questionAnswer.answer
-          );
+          await openModal(payload.trigger_id, question, answer);
         }
       } catch (error) {
         console.error("Error parsing action value:", action.value);
@@ -90,13 +77,7 @@ export default async function POST(req: VercelRequest, res: VercelResponse) {
 
       const expertId = "";
 
-      await submitToNotion(
-        questionAnswer.question,
-        questionAnswer.answer,
-        correct,
-        comment,
-        expertId
-      );
+      await submitToNotion(question, answer, correct, comment, expertId);
 
       return res.status(200).json({ response_action: "clear" });
     }
@@ -240,7 +221,7 @@ async function submitToNotion(
     );
 
     const json = await response.json();
-    console.log({ json });
+    console.log("response json:", { json });
     console.log("Submitted to Notion successfully");
     return new Response(JSON.stringify({ response_action: "clear" }));
   } catch (error) {
