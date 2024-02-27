@@ -1,79 +1,92 @@
 import { WebClient } from "@slack/web-api";
 import type { VercelRequest, VercelResponse } from "@vercel/node";
-import type { RequestContext } from "@vercel/edge";
 
 const web = new WebClient(process.env.SLACK_TOKEN);
 
 export default async function POST(req: VercelRequest, res: VercelResponse) {
   const { body } = req;
   const data = body;
-  if (!data.payload) {
-    console.log("Payload is missing in the request body:", data);
-    throw new Error("Payload is missing");
-  }
-  const payload = JSON.parse(data.payload);
-  const action = payload.actions[0];
-  // console.log("actions:", action);
-  const payload_value = JSON.parse(action.value);
-  const question =
-    payload_value.user_input ||
-    "Something went wrong, please copy paste the question.";
-  const answer =
-    payload_value.ai_response ||
-    "Something went wrong, please copy paste the answer.";
+  console.log("data:", data);
 
-  if (payload.type === "block_actions") {
-    if (!payload.actions || payload.actions.length === 0) {
-      throw new Error("No actions found in payload");
+  try {
+    if (!data.payload) {
+      console.log("Payload is missing in the request body:", data);
+      throw new Error("Payload is missing");
     }
+    const payload = JSON.parse(data.payload);
+    console.log("payload:", payload);
 
-    if (action.action_id === "static_select-action") {
-      return res.status(200).send("Ok");
+    if (payload.type === "block_actions") {
+      if (!payload.actions || payload.actions.length === 0) {
+        throw new Error("No actions found in payload");
+      }
+
+      const action = payload.actions[0];
+      console.log("actions:", action);
+
+      if (action.action_id === "static_select-action") {
+        return res.status(200).send("Ok");
+      }
+
+      if (!action.value) {
+        console.log("Action value is undefined:", action);
+        throw new Error("Action value is undefined");
+      }
+
+      try {
+        const payload_value = JSON.parse(action.value);
+        const question =
+          payload_value.user_input ||
+          "Something went wrong, please copy paste the question.";
+        const answer =
+          payload_value.ai_response ||
+          "Something went wrong, please copy paste the answer.";
+
+        if (
+          (payload.callback_id === "feedback" && payload.trigger_id) ||
+          (action.action_id === "feedback" &&
+            payload.trigger_id &&
+            payload.type === "block_actions")
+        ) {
+          await openModal(payload.trigger_id, question, answer);
+        }
+      } catch (error) {
+        console.error("Error parsing action value:", action.value);
+        throw error;
+      }
+    } else if (payload.type === "view_submission") {
+      console.log("payload.view.blocks:", payload.view.blocks);
+
+      const submittedValues = payload.view.state.values;
+      const selectActionKey = Object.keys(submittedValues).find(
+        (key) => submittedValues[key]["static_select-action"]
+      );
+      const textInputKey = Object.keys(submittedValues).find(
+        (key) => submittedValues[key]["plain_text_input-action"]
+      );
+
+      let correct = false;
+      let comment = "";
+      if (selectActionKey) {
+        const staticSelectAction =
+          submittedValues[selectActionKey]["static_select-action"];
+        correct = staticSelectAction.selected_option.value === "correct";
+      }
+      if (textInputKey) {
+        const textInputAction =
+          submittedValues[textInputKey]["plain_text_input-action"];
+        comment = textInputAction.value;
+      }
+      const expertId = "";
+      const { question, answer } = JSON.parse(payload.view.private_metadata);
+
+      await submitToNotion(question, answer, correct, comment, expertId);
+
+      return res.status(200).json({ response_action: "clear" });
     }
-
-    if (!action.value) {
-      console.log("Action value is undefined:", action);
-      throw new Error("Action value is undefined");
-    }
-
-    if (
-      (payload.callback_id === "feedback" && payload.trigger_id) ||
-      (action.action_id === "feedback" &&
-        payload.trigger_id &&
-        payload.type === "block_actions")
-    ) {
-      await openModal(payload.trigger_id, question, answer);
-    }
-  } else if (payload.type === "view_submission") {
-    console.log("payload.view.blocks:", payload.view.blocks);
-
-    const submittedValues = payload.view.state.values;
-    const selectActionKey = Object.keys(submittedValues).find(
-      (key) => submittedValues[key]["static_select-action"]
-    );
-    const textInputKey = Object.keys(submittedValues).find(
-      (key) => submittedValues[key]["plain_text_input-action"]
-    );
-
-    let correct = false;
-    let comment = "";
-
-    if (selectActionKey) {
-      const staticSelectAction =
-        submittedValues[selectActionKey]["static_select-action"];
-      correct = staticSelectAction.selected_option.value === "correct";
-    }
-    if (textInputKey) {
-      const textInputAction =
-        submittedValues[textInputKey]["plain_text_input-action"];
-      comment = textInputAction.value;
-    }
-
-    const expertId = "";
-
-    await submitToNotion(question, answer, correct, comment, expertId);
-
-    return res.status(200).json({ response_action: "clear" });
+  } catch (error) {
+    console.error("Error processing request:", error);
+    return res.status(400).json("Bad Request");
   }
 
   return res.status(200).send("Ok");
@@ -100,6 +113,7 @@ const openModal = async (trigger: string, question: string, answer: string) => {
           text: "Cancel",
           emoji: true,
         },
+        private_metadata: JSON.stringify({ question, answer }),
         blocks: [
           {
             type: "section",
@@ -211,7 +225,7 @@ async function submitToNotion(
     );
 
     const json = await response.json();
-    console.log("response json:", { json });
+    console.log({ json });
     console.log("Submitted to Notion successfully");
     return new Response(JSON.stringify({ response_action: "clear" }));
   } catch (error) {
