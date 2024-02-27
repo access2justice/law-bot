@@ -24,6 +24,10 @@ export default async function POST(req: VercelRequest, res: VercelResponse) {
       const action = payload.actions[0];
       console.log("actions:", action);
 
+      if (action.action_id === "static_select-action") {
+        return res.status(200).send("Ok");
+      }
+
       if (!action.value) {
         console.log("Action value is undefined:", action);
         throw new Error("Action value is undefined");
