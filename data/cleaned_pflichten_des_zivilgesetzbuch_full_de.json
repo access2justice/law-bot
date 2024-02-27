@@ -1,0 +1,4996 @@
+[
+  {
+    "text": "Das Gesetz findet auf alle Rechtsfragen Anwendung, für die es nach Wortlaut oder Auslegung eine Bestimmung enthält.",
+    "metadata": [
+      "Art. 1",
+      "Einleitung",
+      "A. Anwendung des Rechts"
+    ],
+    "@eId": "art_1/para_1"
+  },
+  {
+    "text": "Kann dem Gesetz keine Vorschrift entnommen werden, so soll das Gericht",
+    "metadata": [
+      "Art. 1",
+      "Einleitung",
+      "A. Anwendung des Rechts"
+    ],
+    "@eId": "art_1/para_2"
+  },
+  {
+    "text": "Es folgt dabei bewährter Lehre und Überlieferung.",
+    "metadata": [
+      "Art. 1",
+      "Einleitung",
+      "A. Anwendung des Rechts"
+    ],
+    "@eId": "art_1/para_3"
+  },
+  {
+    "text": "Jedermann hat in der Ausübung seiner Rechte und in der Erfüllung seiner Pflichten nach Treu und Glauben zu handeln.",
+    "metadata": [
+      "Art. 2",
+      "Einleitung",
+      "B. Inhalt der Rechtsverhältnisse",
+      "I. Handeln nach Treu und Glauben"
+    ],
+    "@eId": "art_2/para_1"
+  },
+  {
+    "text": "Der offenbare Missbrauch eines Rechtes findet keinen Rechtsschutz.",
+    "metadata": [
+      "Art. 2",
+      "Einleitung",
+      "B. Inhalt der Rechtsverhältnisse",
+      "I. Handeln nach Treu und Glauben"
+    ],
+    "@eId": "art_2/para_2"
+  },
+  {
+    "text": "Wo das Gesetz eine Rechtswirkung an den guten Glauben einer Person geknüpft hat, ist dessen Dasein zu vermuten.",
+    "metadata": [
+      "Art. 3",
+      "Einleitung",
+      "B. Inhalt der Rechtsverhältnisse",
+      "II. Guter Glaube"
+    ],
+    "@eId": "art_3/para_1"
+  },
+  {
+    "text": "Wer bei der Aufmerksamkeit, wie sie nach den Umständen von ihm verlangt werden darf, nicht gutgläubig sein konnte, ist nicht berechtigt, sich auf den guten Glauben zu berufen.",
+    "metadata": [
+      "Art. 3",
+      "Einleitung",
+      "B. Inhalt der Rechtsverhältnisse",
+      "II. Guter Glaube"
+    ],
+    "@eId": "art_3/para_2"
+  },
+  {
+    "text": "Wo das Gesetz das Gericht auf sein Ermessen oder auf die Würdigung der Umstände oder auf wichtige Gründe verweist, hat es seine Entscheidung nach Recht und Billigkeit zu treffen.",
+    "metadata": [
+      "Art. 4",
+      "Einleitung",
+      "B. Inhalt der Rechtsverhältnisse",
+      "III. Gerichtliches"
+    ],
+    "@eId": "art_4/para"
+  },
+  {
+    "text": "Soweit das Bundesrecht die Geltung kantonalen Rechtes vorbehält, sind die Kantone befugt, zivilrechtliche Bestimmungen aufzustellen oder aufzuheben.",
+    "metadata": [
+      "Art. 5",
+      "Einleitung",
+      "C. Verhältnis zu den Kantonen",
+      "I. Kantonales Zivilrecht und Ortsübung"
+    ],
+    "@eId": "art_5/para_1"
+  },
+  {
+    "text": "Wo das Gesetz auf die Übung oder den Ortsgebrauch verweist, gilt das bisherige kantonale Recht als deren Ausdruck, solange nicht eine abweichende Übung nachgewiesen ist.",
+    "metadata": [
+      "Art. 5",
+      "Einleitung",
+      "C. Verhältnis zu den Kantonen",
+      "I. Kantonales Zivilrecht und Ortsübung"
+    ],
+    "@eId": "art_5/para_2"
+  },
+  {
+    "text": "Die Kantone werden in ihren öffentlich-rechtlichen Befugnissen durch das Bundeszivilrecht nicht beschränkt.",
+    "metadata": [
+      "Art. 6",
+      "Einleitung",
+      "C. Verhältnis zu den Kantonen",
+      "II. Öffentliches Recht der Kantone"
+    ],
+    "@eId": "art_6/para_1"
+  },
+  {
+    "text": "Sie können in den Schranken ihrer Hoheit den Verkehr mit gewissen Arten von Sachen beschränken oder untersagen oder die Rechtsgeschäfte über solche Sachen als ungültig bezeichnen.",
+    "metadata": [
+      "Art. 6",
+      "Einleitung",
+      "C. Verhältnis zu den Kantonen",
+      "II. Öffentliches Recht der Kantone"
+    ],
+    "@eId": "art_6/para_2"
+  },
+  {
+    "text": "Die allgemeinen Bestimmungen des Obligationenrechtes",
+    "metadata": [
+      "Art. 7",
+      "Einleitung",
+      "D. Allgemeine Bestimmungen des Obligationenrechtes"
+    ],
+    "@eId": "art_7/para"
+  },
+  {
+    "text": "Wo das Gesetz es nicht anders bestimmt, hat derjenige das Vorhandensein einer behaupteten Tatsache zu beweisen, der aus ihr Rechte ableitet.",
+    "metadata": [
+      "Art. 8",
+      "Einleitung",
+      "E. Beweisregeln",
+      "I. Beweislast"
+    ],
+    "@eId": "art_8/para"
+  },
+  {
+    "text": "Öffentliche Register und öffentliche Urkunden erbringen für die durch sie bezeugten Tatsachen vollen Beweis, solange nicht die Unrichtigkeit ihres Inhaltes nachgewiesen ist.",
+    "metadata": [
+      "Art. 9",
+      "Einleitung",
+      "E. Beweisregeln",
+      "II. Beweis mit öffentlicher Urkunde"
+    ],
+    "@eId": "art_9/para_1"
+  },
+  {
+    "text": "Dieser Nachweis ist an keine besondere Form gebunden.",
+    "metadata": [
+      "Art. 9",
+      "Einleitung",
+      "E. Beweisregeln",
+      "II. Beweis mit öffentlicher Urkunde"
+    ],
+    "@eId": "art_9/para_2"
+  },
+  {
+    "text": "Die rechtlichen Wirkungen von Tatsachen, die vor dem Inkrafttreten dieses Gesetzes eingetreten sind, werden auch nachher gemäss den Bestimmungen des eidgenössischen oder kantonalen Rechtes beurteilt, die zur Zeit des Eintrittes dieser Tatsachen gegolten haben.",
+    "metadata": [
+      "Art. 1",
+      "Schlusstitel:",
+      "Erster Abschnitt:",
+      "A. Allgemeine Bestimmungen",
+      "I. Regel der Nichtrückwirkung"
+    ],
+    "@eId": "art_1/para_1"
+  },
+  {
+    "text": "Demgemäss unterliegen die vor diesem Zeitpunkte vorgenommenen Handlungen in Bezug auf ihre rechtliche Verbindlichkeit und ihre rechtlichen Folgen auch in Zukunft den bei ihrer Vornahme geltend gewesenen Bestimmungen.",
+    "metadata": [
+      "Art. 1",
+      "Schlusstitel:",
+      "Erster Abschnitt:",
+      "A. Allgemeine Bestimmungen",
+      "I. Regel der Nichtrückwirkung"
+    ],
+    "@eId": "art_1/para_2"
+  },
+  {
+    "text": "Die nach diesem Zeitpunkte eingetretenen Tatsachen dagegen werden, soweit das Gesetz eine Ausnahme nicht vorgesehen hat, nach dem neuen Recht beurteilt.",
+    "metadata": [
+      "Art. 1",
+      "Schlusstitel:",
+      "Erster Abschnitt:",
+      "A. Allgemeine Bestimmungen",
+      "I. Regel der Nichtrückwirkung"
+    ],
+    "@eId": "art_1/para_3"
+  },
+  {
+    "text": "Die Bestimmungen dieses Gesetzes, die um der öffentlichen Ordnung und Sittlichkeit willen aufgestellt sind, finden mit dessen Inkrafttreten auf alle Tatsachen Anwendung, soweit das Gesetz eine Ausnahme nicht vorgesehen hat.",
+    "metadata": [
+      "Art. 2",
+      "Schlusstitel:",
+      "Erster Abschnitt:",
+      "A. Allgemeine Bestimmungen",
+      "II. Rückwirkung",
+      "1. Öffentliche Ordnung und Sittlichkeit"
+    ],
+    "@eId": "art_2/para_1"
+  },
+  {
+    "text": "Demgemäss finden Vorschriften des bisherigen Rechtes, die nach der Auffassung des neuen Rechtes der öffentlichen Ordnung oder Sittlichkeit widersprechen, nach dessen Inkrafttreten keine Anwendung mehr.",
+    "metadata": [
+      "Art. 2",
+      "Schlusstitel:",
+      "Erster Abschnitt:",
+      "A. Allgemeine Bestimmungen",
+      "II. Rückwirkung",
+      "1. Öffentliche Ordnung und Sittlichkeit"
+    ],
+    "@eId": "art_2/para_2"
+  },
+  {
+    "text": "Rechtsverhältnisse, deren Inhalt unabhängig vom Willen der Beteiligten durch das Gesetz umschrieben wird, sind nach dem Inkrafttreten dieses Gesetzes nach dem neuen Recht zu beurteilen, auch wenn sie vor diesem Zeitpunkte begründet worden sind.",
+    "metadata": [
+      "Art. 3",
+      "Schlusstitel:",
+      "Erster Abschnitt:",
+      "A. Allgemeine Bestimmungen",
+      "II. Rückwirkung",
+      "2. Inhalt der Rechtsverhältnisse kraft Gesetzes"
+    ],
+    "@eId": "art_3/para"
+  },
+  {
+    "text": "Tatsachen, die zwar unter der Herrschaft des bisherigen Rechtes eingetreten sind, durch die aber zur Zeit des Inkrafttretens des neuen Rechtes ein rechtlich geschützter Anspruch nicht begründet gewesen ist, stehen nach diesem Zeitpunkt in Bezug auf ihre Wirkung unter dem neuen Recht.",
+    "metadata": [
+      "Art. 4",
+      "Schlusstitel:",
+      "Erster Abschnitt:",
+      "A. Allgemeine Bestimmungen",
+      "II. Rückwirkung",
+      "3. Nicht erworbene Rechte"
+    ],
+    "@eId": "art_4/para"
+  },
+  {
+    "text": "Die Handlungsfähigkeit wird in allen Fällen nach den Bestimmungen dieses Gesetzes beurteilt.",
+    "metadata": [
+      "Art. 5",
+      "Schlusstitel:",
+      "Erster Abschnitt:",
+      "B. Personenrecht",
+      "I. Handlungsfähigkeit"
+    ],
+    "@eId": "art_5/para_1"
+  },
+  {
+    "text": "Wer indessen nach dem bisherigen Recht zur Zeit des Inkrafttretens dieses Gesetzes handlungsfähig gewesen ist, nach den Bestimmungen des neuen Rechtes aber nicht handlungsfähig wäre, wird auch nach diesem Zeitpunkte als handlungsfähig anerkannt.",
+    "metadata": [
+      "Art. 5",
+      "Schlusstitel:",
+      "Erster Abschnitt:",
+      "B. Personenrecht",
+      "I. Handlungsfähigkeit"
+    ],
+    "@eId": "art_5/para_2"
+  },
+  {
+    "text": "Die Verschollenerklärung steht nach dem Inkrafttreten dieses Gesetzes unter den Bestimmungen des neuen Rechtes.",
+    "metadata": [
+      "Art. 6",
+      "Schlusstitel:",
+      "Erster Abschnitt:",
+      "B. Personenrecht",
+      "II. Verschollenheit"
+    ],
+    "@eId": "art_6/para_1"
+  },
+  {
+    "text": "Die Todes- oder Abwesenheitserklärungen des bisherigen Rechtes haben nach dem Inkrafttreten dieses Gesetzes die gleichen Wirkungen wie die Verschollenerklärung des neuen Rechtes, wobei aber die vor diesem Zeitpunkte nach bisherigem Recht eingetretenen Folgen, wie Erbgang oder Auflösung der Ehe, bestehen bleiben.",
+    "metadata": [
+      "Art. 6",
+      "Schlusstitel:",
+      "Erster Abschnitt:",
+      "B. Personenrecht",
+      "II. Verschollenheit"
+    ],
+    "@eId": "art_6/para_2"
+  },
+  {
+    "text": "Ein zur Zeit des Inkrafttretens des neuen Rechtes schwebendes Verfahren wird unter Anrechnung der abgelaufenen Zeit nach den Bestimmungen dieses Gesetzes neu begonnen oder auf Antrag der Beteiligten nach dem bisherigen Verfahren und unter Beobachtung der bisherigen Fristen zu Ende geführt.",
+    "metadata": [
+      "Art. 6",
+      "Schlusstitel:",
+      "Erster Abschnitt:",
+      "B. Personenrecht",
+      "II. Verschollenheit"
+    ],
+    "@eId": "art_6/para_3"
+  },
+  {
+    "text": "Der Bundesrat regelt den Übergang von der bisherigen auf die elektronische Registerführung.",
+    "metadata": [
+      "Art. 6 a",
+      "Schlusstitel:",
+      "Erster Abschnitt:",
+      "B. Personenrecht",
+      "II"
+    ],
+    "@eId": "art_6_a/para_1"
+  },
+  {
+    "text": "Der Bund übernimmt die Investitionskosten bis zu 5 Millionen Franken.",
+    "metadata": [
+      "Art. 6 a",
+      "Schlusstitel:",
+      "Erster Abschnitt:",
+      "B. Personenrecht",
+      "II"
+    ],
+    "@eId": "art_6_a/para_2"
+  },
+  {
+    "text": "Personenverbände und Anstalten oder Stiftungen, die unter dem bisherigen Recht die Persönlichkeit erlangt haben, behalten sie unter dem neuen Recht bei, auch wenn sie nach dessen Bestimmungen die Persönlichkeit nicht erlangt hätten.",
+    "metadata": [
+      "Art. 6 b",
+      "Schlusstitel:",
+      "Erster Abschnitt:",
+      "B. Personenrecht",
+      "III. Juristische Personen",
+      "1. Im Allgemeinen"
+    ],
+    "@eId": "art_6_b/para_1"
+  },
+  {
+    "text": "Die bereits bestehenden juristischen Personen, für deren Entstehung nach der Vorschrift dieses Gesetzes die Eintragung in das öffentliche Register erforderlich ist, müssen jedoch diese Eintragung, auch wenn sie nach dem bisherigen Recht nicht vorgesehen war, binnen fünf Jahren nach dem Inkrafttreten des neuen Rechtes nachholen und werden nach Ablauf dieser Frist ohne Eintragung nicht mehr als juristische Personen anerkannt.",
+    "metadata": [
+      "Art. 6 b",
+      "Schlusstitel:",
+      "Erster Abschnitt:",
+      "B. Personenrecht",
+      "III. Juristische Personen",
+      "1. Im Allgemeinen"
+    ],
+    "@eId": "art_6_b/para_2"
+  },
+  {
+    "text": "Kirchliche Stiftungen und Familienstiftungen, die beim Inkrafttreten der Änderung vom 12. Dezember 2014 (Art. 52 Abs. 2) nicht im Handelsregister eingetragen sind, bleiben als juristische Personen anerkannt. Sie müssen die Eintragung ins Handelsregister binnen fünf Jahren nach Inkrafttreten vornehmen. Der Bundesrat berücksichtigt bei den Anforderungen an die Eintragung ins Handelsregister die besonderen Verhältnisse der kirchlichen Stiftungen.",
+    "metadata": [
+      "Art. 6 b",
+      "Schlusstitel:",
+      "Erster Abschnitt:",
+      "B. Personenrecht",
+      "III. Juristische Personen",
+      "1. Im Allgemeinen"
+    ],
+    "@eId": "art_6_b/para_2bis"
+  },
+  {
+    "text": "Der Inhalt der Persönlichkeit bestimmt sich für alle juristischen Personen, sobald dieses Gesetz in Kraft getreten ist, nach dem neuen Recht.",
+    "metadata": [
+      "Art. 6 b",
+      "Schlusstitel:",
+      "Erster Abschnitt:",
+      "B. Personenrecht",
+      "III. Juristische Personen",
+      "1. Im Allgemeinen"
+    ],
+    "@eId": "art_6_b/para_3"
+  },
+  {
+    "text": "Bestehende Vereine nach Artikel 61 Absatz 2 müssen die Pflichten nach den Artikeln 61",
+    "metadata": [
+      "Art. 6 b bis",
+      "Schlusstitel:",
+      "Erster Abschnitt:",
+      "B. Personenrecht",
+      "III. Juristische Personen",
+      "1"
+    ],
+    "@eId": "art_6_b_bis/para"
+  },
+  {
+    "text": "Die Bestimmungen der Änderung vom 16. Dezember 2005",
+    "metadata": [
+      "Art. 6 c",
+      "Schlusstitel:",
+      "Erster Abschnitt:",
+      "B. Personenrecht",
+      "III. Juristische Personen",
+      "2. Buchführung und Revisionsstelle"
+    ],
+    "@eId": "art_6_c/para"
+  },
+  {
+    "text": "Auf Verfahren, die beim Inkrafttreten der Änderung vom 14. Dezember 2018 rechtshängig sind, findet das neue Recht Anwendung.",
+    "metadata": [
+      "Art. 6 d",
+      "Schlusstitel:",
+      "Erster Abschnitt:",
+      "B. Personenrecht",
+      "IV. Schutz der Persönlichkeit vor Gewalt, Drohungen oder Nachstellungen"
+    ],
+    "@eId": "art_6_d/para"
+  },
+  {
+    "text": "Für die Eheschliessung gilt das neue Recht, sobald das Bundesgesetz vom 26. Juni 1998",
+    "metadata": [
+      "Art. 7",
+      "Schlusstitel:",
+      "Erster Abschnitt:",
+      "C. Familienrecht",
+      "I. Eheschliessung"
+    ],
+    "@eId": "art_7/para_1"
+  },
+  {
+    "text": "Ehen, für die nach dem bisherigen Recht ein Ungültigkeitsgrund vorliegt, können, sobald das neue Recht in Kraft getreten ist, nur nach dessen Bestimmungen für ungültig erklärt werden, wobei jedoch die vor diesem Zeitpunkt abgelaufene Zeit bei der Fristbestimmung angerechnet wird.",
+    "metadata": [
+      "Art. 7",
+      "Schlusstitel:",
+      "Erster Abschnitt:",
+      "C. Familienrecht",
+      "I. Eheschliessung"
+    ],
+    "@eId": "art_7/para_2"
+  },
+  {
+    "text": "Für die Scheidung gilt das neue Recht, sobald das Bundesgesetz vom 26. Juni 1998",
+    "metadata": [
+      "Art. 7 a",
+      "Schlusstitel:",
+      "Erster Abschnitt:",
+      "C. Familienrecht",
+      "I",
+      "1. Grundsatz"
+    ],
+    "@eId": "art_7_a/para_1"
+  },
+  {
+    "text": "Scheidungen, die unter dem bisherigen Recht rechtskräftig geworden sind, bleiben anerkannt; die neuen Bestimmungen über die Vollstreckung finden Anwendung auf Renten oder Abfindungen, die als Unterhaltsersatz oder als Unterhaltsbeitrag festgesetzt worden sind.",
+    "metadata": [
+      "Art. 7 a",
+      "Schlusstitel:",
+      "Erster Abschnitt:",
+      "C. Familienrecht",
+      "I",
+      "1. Grundsatz"
+    ],
+    "@eId": "art_7_a/para_2"
+  },
+  {
+    "text": "Die Abänderung des Scheidungsurteils erfolgt nach den Vorschriften des früheren Rechts unter Vorbehalt der Bestimmungen über die Kinder und das Verfahren.",
+    "metadata": [
+      "Art. 7 a",
+      "Schlusstitel:",
+      "Erster Abschnitt:",
+      "C. Familienrecht",
+      "I",
+      "1. Grundsatz"
+    ],
+    "@eId": "art_7_a/para_3"
+  },
+  {
+    "text": "Auf die Scheidungsprozesse, die beim Inkrafttreten des Bundesgesetzes vom 26. Juni 1998",
+    "metadata": [
+      "Art. 7 b",
+      "Schlusstitel:",
+      "Erster Abschnitt:",
+      "C. Familienrecht",
+      "I",
+      "2. Rechtshängige"
+    ],
+    "@eId": "art_7_b/para_1"
+  },
+  {
+    "text": "Neue Rechtsbegehren, die durch den Wechsel des anwendbaren Rechts veranlasst werden, sind zulässig; nicht angefochtene Teile des Urteils bleiben verbindlich, sofern sie sachlich nicht derart eng mit noch zu beurteilenden Rechtsbegehren zusammenhängen, dass sinnvollerweise eine Gesamtbeurteilung stattfinden muss.",
+    "metadata": [
+      "Art. 7 b",
+      "Schlusstitel:",
+      "Erster Abschnitt:",
+      "C. Familienrecht",
+      "I",
+      "2. Rechtshängige"
+    ],
+    "@eId": "art_7_b/para_2"
+  },
+  {
+    "text": "Das Bundesgericht entscheidet nach bisherigem Recht, wenn der angefochtene Entscheid vor dem Inkrafttreten des Bundesgesetzes vom 26. Juni 1998 ergangen ist; dies gilt auch bei einer allfälligen Rückweisung an die kantonale Instanz.",
+    "metadata": [
+      "Art. 7 b",
+      "Schlusstitel:",
+      "Erster Abschnitt:",
+      "C. Familienrecht",
+      "I",
+      "2. Rechtshängige"
+    ],
+    "@eId": "art_7_b/para_3"
+  },
+  {
+    "text": "Für Scheidungsprozesse, die beim Inkrafttreten der Änderung vom 19. Dezember 2003",
+    "metadata": [
+      "Art. 7 c",
+      "Schlusstitel:",
+      "Erster Abschnitt:",
+      "C. Familienrecht",
+      "I",
+      "3. Trennungsfrist bei rechtshängigen Scheidungsprozessen"
+    ],
+    "@eId": "art_7_c/para"
+  },
+  {
+    "text": "Für die berufliche Vorsorge bei Scheidung gilt das neue Recht, sobald die Änderung vom 19. Juni 2015 in Kraft getreten ist.",
+    "metadata": [
+      "Art. 7 d",
+      "Schlusstitel:",
+      "Erster Abschnitt:",
+      "C. Familienrecht",
+      "I",
+      "4. Berufliche Vorsorge"
+    ],
+    "@eId": "art_7_d/para_1"
+  },
+  {
+    "text": "Auf Scheidungsprozesse, die beim Inkrafttreten der Änderung vom 19. Juni 2015 vor einer kantonalen Instanz rechtshängig sind, findet das neue Recht Anwendung.",
+    "metadata": [
+      "Art. 7 d",
+      "Schlusstitel:",
+      "Erster Abschnitt:",
+      "C. Familienrecht",
+      "I",
+      "4. Berufliche Vorsorge"
+    ],
+    "@eId": "art_7_d/para_2"
+  },
+  {
+    "text": "Das Bundesgericht entscheidet nach bisherigem Recht, wenn der angefochtene Entscheid vor dem Inkrafttreten der Änderung vom 19. Juni 2015 ergangen ist; dies gilt auch bei einer allfälligen Rückweisung an die kantonale Instanz.",
+    "metadata": [
+      "Art. 7 d",
+      "Schlusstitel:",
+      "Erster Abschnitt:",
+      "C. Familienrecht",
+      "I",
+      "4. Berufliche Vorsorge"
+    ],
+    "@eId": "art_7_d/para_3"
+  },
+  {
+    "text": "Hat das Gericht unter bisherigem Recht bei Scheidung nach Eintritt eines Vorsorgefalls dem berechtigten Ehegatten eine Entschädigung in Form einer Rente zugesprochen, die erst mit dem Tod des verpflichteten oder des berechtigten Ehegatten erlischt, so kann der berechtigte Ehegatte innerhalb eines Jahres nach dem Inkrafttreten der Änderung vom 19. Juni 2015 beim Gericht verlangen, dass ihm stattdessen eine lebenslange Rente nach Artikel 124",
+    "metadata": [
+      "Art. 7 e",
+      "Schlusstitel:",
+      "Erster Abschnitt:",
+      "C. Familienrecht",
+      "I",
+      "5. Umwandlung bestehender Renten"
+    ],
+    "@eId": "art_7_e/para_1"
+  },
+  {
+    "text": "Bei ausländischen Entscheidungen bestimmt sich die Zuständigkeit nach Artikel 64 des Bundesgesetzes vom 18. Dezember 1987",
+    "metadata": [
+      "Art. 7 e",
+      "Schlusstitel:",
+      "Erster Abschnitt:",
+      "C. Familienrecht",
+      "I",
+      "5. Umwandlung bestehender Renten"
+    ],
+    "@eId": "art_7_e/para_2"
+  },
+  {
+    "text": "Die Rente nach bisherigem Recht gilt als zugesprochener Rentenanteil.",
+    "metadata": [
+      "Art. 7 e",
+      "Schlusstitel:",
+      "Erster Abschnitt:",
+      "C. Familienrecht",
+      "I",
+      "5. Umwandlung bestehender Renten"
+    ],
+    "@eId": "art_7_e/para_3"
+  },
+  {
+    "text": "Für die Wirkungen der Ehe im Allgemeinen gilt das neue Recht, sobald das Bundesgesetz vom 5. Oktober 1984 in Kraft getreten ist.",
+    "metadata": [
+      "Art. 8",
+      "Schlusstitel:",
+      "Erster Abschnitt:",
+      "C. Familienrecht",
+      "I",
+      "1. Grundsatz"
+    ],
+    "@eId": "art_8/para"
+  },
+  {
+    "text": "Der Ehegatte, der vor dem Inkrafttreten der Änderung vom 30. September 2011 dieses Gesetzes seinen Namen bei der Eheschliessung geändert hat, kann jederzeit gegenüber der Zivilstandsbeamtin oder dem Zivilstandsbeamten erklären, dass er wieder seinen Ledignamen tragen will.",
+    "metadata": [
+      "Art. 8 a",
+      "Schlusstitel:",
+      "Erster Abschnitt:",
+      "C. Familienrecht",
+      "I",
+      "2. Name"
+    ],
+    "@eId": "art_8_a/para"
+  },
+  {
+    "text": "Die Schweizerin, die sich unter dem bisherigen Recht verheiratet hat, kann binnen Jahresfrist seit Inkrafttreten des neuen Rechts gegenüber der zuständigen Behörde ihres ehemaligen Heimatkantons erklären, sie nehme das Bürgerrecht, das sie als ledig hatte, wieder an.",
+    "metadata": [
+      "Art. 8 b",
+      "Schlusstitel:",
+      "Erster Abschnitt:",
+      "C. Familienrecht",
+      "I",
+      "3. Bürgerrecht"
+    ],
+    "@eId": "art_8_b/para"
+  },
+  {
+    "text": "Für die güterrechtlichen Wirkungen der Ehen, die vor dem 1. Januar 1912 geschlossen worden sind, gelten die an diesem Tag in Kraft getretenen Bestimmungen des Zivilgesetzbuches über die Anwendung bisherigen und neuen Rechts.",
+    "metadata": [
+      "Art. 9",
+      "Schlusstitel:",
+      "Erster Abschnitt:",
+      "C. Familienrecht",
+      "II. Güterrecht der vor 1. Januar 1912 geschlossenen Ehen"
+    ],
+    "@eId": "art_9/para"
+  },
+  {
+    "text": "Für die Ehen, die beim Inkrafttreten des Bundesgesetzes vom 5. Oktober 1984 bestehen, gilt das neue Recht, soweit nichts anderes bestimmt ist.",
+    "metadata": [
+      "Art. 9 a",
+      "Schlusstitel:",
+      "Erster Abschnitt:",
+      "C. Familienrecht",
+      "II",
+      "1. Im Allgemeinen"
+    ],
+    "@eId": "art_9_a/para_1"
+  },
+  {
+    "text": "Für die güterrechtlichen Wirkungen der Ehen, die vor Inkrafttreten des Bundesgesetzes vom 5. Oktober 1984 aufgelöst worden sind, gilt das bisherige Recht.",
+    "metadata": [
+      "Art. 9 a",
+      "Schlusstitel:",
+      "Erster Abschnitt:",
+      "C. Familienrecht",
+      "II",
+      "1. Im Allgemeinen"
+    ],
+    "@eId": "art_9_a/para_2"
+  },
+  {
+    "text": "Für Ehegatten, die bisher unter dem Güterstand der Güterverbindung gestanden haben, gelten im Verhältnis untereinander und gegenüber Dritten die Vorschriften über die Errungenschaftsbeteiligung.",
+    "metadata": [
+      "Art. 9 b",
+      "Schlusstitel:",
+      "Erster Abschnitt:",
+      "C. Familienrecht",
+      "II",
+      "2. Wechsel von der Güterverbindung zur Errungenschaftsbeteiligung",
+      "a. Änderung der Vermögensmassen"
+    ],
+    "@eId": "art_9_b/para_1"
+  },
+  {
+    "text": "Die Vermögenswerte jedes Ehegatten werden sein Eigengut oder seine Errungenschaft gemäss den Vorschriften über die Errungenschaftsbeteiligung; durch Ehevertrag begründetes Sondergut wird Eigengut.",
+    "metadata": [
+      "Art. 9 b",
+      "Schlusstitel:",
+      "Erster Abschnitt:",
+      "C. Familienrecht",
+      "II",
+      "2. Wechsel von der Güterverbindung zur Errungenschaftsbeteiligung",
+      "a. Änderung der Vermögensmassen"
+    ],
+    "@eId": "art_9_b/para_2"
+  },
+  {
+    "text": "Die Frau nimmt ihr eingebrachtes Gut, das ins Eigentum des Mannes übergegangen ist, in ihr Eigentum zurück oder macht hierfür eine Ersatzforderung geltend.",
+    "metadata": [
+      "Art. 9 b",
+      "Schlusstitel:",
+      "Erster Abschnitt:",
+      "C. Familienrecht",
+      "II",
+      "2. Wechsel von der Güterverbindung zur Errungenschaftsbeteiligung",
+      "a. Änderung der Vermögensmassen"
+    ],
+    "@eId": "art_9_b/para_3"
+  },
+  {
+    "text": "Die bisherigen Bestimmungen über die Ersatzforderungen der Ehefrau für das eingebrachte und nicht mehr vorhandene Frauengut bei Konkurs und Pfändung von Vermögenswerten des Ehemannes bleiben nach Inkrafttreten des neuen Rechts noch zehn Jahre anwendbar.",
+    "metadata": [
+      "Art. 9 c",
+      "Schlusstitel:",
+      "Erster Abschnitt:",
+      "C. Familienrecht",
+      "II",
+      "2. Wechsel von der Güterverbindung zur Errungenschaftsbeteiligung",
+      "b. Vorrecht"
+    ],
+    "@eId": "art_9_c/para"
+  },
+  {
+    "text": "Nach Inkrafttreten des neuen Rechts richtet sich die güterrechtliche Auseinandersetzung unter den Ehegatten für die ganze Dauer des früheren und des neuen ordentlichen Güterstandes nach den Vorschriften über die Errungenschaftsbeteiligung, es sei denn, die Ehegatten haben im Zeitpunkt des Inkrafttretens des neuen Rechts die güterrechtliche Auseinandersetzung nach den Bestimmungen über die Güterverbindung bereits abgeschlossen.",
+    "metadata": [
+      "Art. 9 d",
+      "Schlusstitel:",
+      "Erster Abschnitt:",
+      "C. Familienrecht",
+      "II",
+      "2. Wechsel von der Güterverbindung zur Errungenschaftsbeteiligung",
+      "c. Güterrechtliche Auseinandersetzung unter dem neuen Recht"
+    ],
+    "@eId": "art_9_d/para_1"
+  },
+  {
+    "text": "Vor Inkrafttreten des neuen Rechts kann jeder Ehegatte dem andern schriftlich bekannt geben, dass der bisherige Güterstand der Güterverbindung nach den Bestimmungen des früheren Rechts aufgelöst werden müsse.",
+    "metadata": [
+      "Art. 9 d",
+      "Schlusstitel:",
+      "Erster Abschnitt:",
+      "C. Familienrecht",
+      "II",
+      "2. Wechsel von der Güterverbindung zur Errungenschaftsbeteiligung",
+      "c. Güterrechtliche Auseinandersetzung unter dem neuen Recht"
+    ],
+    "@eId": "art_9_d/para_2"
+  },
+  {
+    "text": "Wird der Güterstand aufgelöst, weil eine vor dem Inkrafttreten des neuen Rechts erhobene Klage gutgeheissen worden ist, so richtet sich die güterrechtliche Auseinandersetzung nach dem bisherigen Recht.",
+    "metadata": [
+      "Art. 9 d",
+      "Schlusstitel:",
+      "Erster Abschnitt:",
+      "C. Familienrecht",
+      "II",
+      "2. Wechsel von der Güterverbindung zur Errungenschaftsbeteiligung",
+      "c. Güterrechtliche Auseinandersetzung unter dem neuen Recht"
+    ],
+    "@eId": "art_9_d/para_3"
+  },
+  {
+    "text": "Ehegatten, die unter dem ordentlichen Güterstand der Güterverbindung stehen, ohne diesen Güterstand ehevertraglich geändert zu haben, können bis spätestens ein Jahr nach Inkrafttreten des neuen Rechts durch Einreichung einer gemeinsamen schriftlichen Erklärung beim Güterrechtsregisteramt an ihrem Wohnsitz vereinbaren, die Güterverbindung beizubehalten; das Güterrechtsregisteramt führt ein Verzeichnis der Beibehaltserklärungen, das jedermann einsehen kann.",
+    "metadata": [
+      "Art. 9 e",
+      "Schlusstitel:",
+      "Erster Abschnitt:",
+      "C. Familienrecht",
+      "II",
+      "3. Beibehaltung"
+    ],
+    "@eId": "art_9_e/para_1"
+  },
+  {
+    "text": "Dritten kann der Güterstand nur entgegengehalten werden, wenn sie ihn kennen oder kennen sollten.",
+    "metadata": [
+      "Art. 9 e",
+      "Schlusstitel:",
+      "Erster Abschnitt:",
+      "C. Familienrecht",
+      "II",
+      "3. Beibehaltung"
+    ],
+    "@eId": "art_9_e/para_2"
+  },
+  {
+    "text": "Für das Sondergut der Ehegatten gelten inskünftig die neuen Vorschriften über die Gütertrennung.",
+    "metadata": [
+      "Art. 9 e",
+      "Schlusstitel:",
+      "Erster Abschnitt:",
+      "C. Familienrecht",
+      "II",
+      "3. Beibehaltung"
+    ],
+    "@eId": "art_9_e/para_3"
+  },
+  {
+    "text": "Ist von Gesetzes wegen oder auf Anordnung des Richters Gütertrennung eingetreten, so gelten für die Ehegatten die neuen Bestimmungen über die Gütertrennung.",
+    "metadata": [
+      "Art. 9 f",
+      "Schlusstitel:",
+      "Erster Abschnitt:",
+      "C. Familienrecht",
+      "II",
+      "4. Beibehaltung der gesetzlichen oder gerichtlichen Gütertrennung"
+    ],
+    "@eId": "art_9_f/para"
+  },
+  {
+    "text": "Für gleichgeschlechtliche Ehepaare, die vor der abschliessenden Inkraftsetzung der Änderung vom 18. Dezember 2020 die Ehe im Ausland geschlossen haben, gilt rückwirkend ab dem Zeitpunkt der Eheschliessung der ordentliche Güterstand der Errungenschaftsbeteiligung, sofern sie nicht durch Ehevertrag oder Vermögensvertrag etwas anderes vereinbart haben.",
+    "metadata": [
+      "Art. 9 g",
+      "Schlusstitel:",
+      "Erster Abschnitt:",
+      "C. Familienrecht",
+      "II",
+      "4"
+    ],
+    "@eId": "art_9_g/para_1"
+  },
+  {
+    "text": "Vor der abschliessenden Inkraftsetzung dieser Änderung kann jeder Ehegatte dem andern schriftlich bekannt geben, dass der bisherige Güterstand nach Artikel 18 des Partnerschaftsgesetzes vom 18. Juni 2004",
+    "metadata": [
+      "Art. 9 g",
+      "Schlusstitel:",
+      "Erster Abschnitt:",
+      "C. Familienrecht",
+      "II",
+      "4"
+    ],
+    "@eId": "art_9_g/para_2"
+  },
+  {
+    "text": "Der bisherige Güterstand nach Artikel 18 PartG wird ebenfalls beibehalten, wenn bei der abschliessenden Inkraftsetzung dieser Änderung eine Klage hängig ist, die die Auflösung des Güterstandes nach schweizerischem Recht bewirkt.",
+    "metadata": [
+      "Art. 9 g",
+      "Schlusstitel:",
+      "Erster Abschnitt:",
+      "C. Familienrecht",
+      "II",
+      "4"
+    ],
+    "@eId": "art_9_g/para_3"
+  },
+  {
+    "text": "Die entsprechenden Verordnungen sehen vor, dass Ehepaare, die dies wünschen, auf Dokumenten, Urkunden und Formularen als Ehemann",
+    "metadata": [
+      "Art. 9 g",
+      "Schlusstitel:",
+      "Erster Abschnitt:",
+      "C. Familienrecht",
+      "II",
+      "4"
+    ],
+    "@eId": "art_9_g/para_4"
+  },
+  {
+    "text": "Haben die Ehegatten nach den Bestimmungen des Zivilgesetzbuches einen Ehevertrag abgeschlossen, so gilt dieser Ehevertrag weiter, und ihr gesamter Güterstand bleibt unter Vorbehalt der Bestimmungen dieses Titels über das Sondergut, die Rechtskraft gegenüber Dritten und über die vertragliche Gütertrennung den bisherigen Bestimmungen unterstellt.",
+    "metadata": [
+      "Art. 10",
+      "Schlusstitel:",
+      "Erster Abschnitt:",
+      "C. Familienrecht",
+      "II",
+      "5. Ehevertrag",
+      "a. Im Allgemeinen"
+    ],
+    "@eId": "art_10/para_1"
+  },
+  {
+    "text": "Für das Sondergut der Ehegatten gelten inskünftig die neuen Vorschriften über die Gütertrennung.",
+    "metadata": [
+      "Art. 10",
+      "Schlusstitel:",
+      "Erster Abschnitt:",
+      "C. Familienrecht",
+      "II",
+      "5. Ehevertrag",
+      "a. Im Allgemeinen"
+    ],
+    "@eId": "art_10/para_2"
+  },
+  {
+    "text": "Vereinbarungen über die Vor- und Rückschlagsbeteiligung bei der Güterverbindung dürfen die Pflichtteilsansprüche der nichtgemeinsamen Kinder und deren Nachkommen nicht beeinträchtigen.",
+    "metadata": [
+      "Art. 10",
+      "Schlusstitel:",
+      "Erster Abschnitt:",
+      "C. Familienrecht",
+      "II",
+      "5. Ehevertrag",
+      "a. Im Allgemeinen"
+    ],
+    "@eId": "art_10/para_3"
+  },
+  {
+    "text": "Dritten kann der Güterstand nur entgegengehalten werden, wenn sie ihn kennen oder kennen sollten.",
+    "metadata": [
+      "Art. 10 a",
+      "Schlusstitel:",
+      "Erster Abschnitt:",
+      "C. Familienrecht",
+      "II",
+      "5. Ehevertrag",
+      "b. Rechtskraft gegenüber Dritten"
+    ],
+    "@eId": "art_10_a/para_1"
+  },
+  {
+    "text": "Hat der Ehevertrag keine Rechtskraft gegenüber Dritten, so gelten im Verhältnis zu ihnen fortan die Bestimmungen über die Errungenschaftsbeteiligung.",
+    "metadata": [
+      "Art. 10 a",
+      "Schlusstitel:",
+      "Erster Abschnitt:",
+      "C. Familienrecht",
+      "II",
+      "5. Ehevertrag",
+      "b. Rechtskraft gegenüber Dritten"
+    ],
+    "@eId": "art_10_a/para_2"
+  },
+  {
+    "text": "Ehegatten, die unter Güterverbindung stehen, diesen Güterstand aber ehevertraglich geändert haben, können bis spätestens ein Jahr nach Inkrafttreten des neuen Rechts durch Einreichung einer gemeinsamen schriftlichen Erklärung beim Güterrechtsregisteramt an ihrem Wohnsitz vereinbaren, ihre Rechtsverhältnisse dem neuen ordentlichen Güterstand der Errungenschaftsbeteiligung zu unterstellen.",
+    "metadata": [
+      "Art. 10 b",
+      "Schlusstitel:",
+      "Erster Abschnitt:",
+      "C. Familienrecht",
+      "II",
+      "5. Ehevertrag",
+      "c. Unterstellung unter das neue Recht"
+    ],
+    "@eId": "art_10_b/para_1"
+  },
+  {
+    "text": "In diesem Falle gilt die vertragliche Beteiligung am Vorschlag inskünftig für die Gesamtsumme des Vorschlages beider Ehegatten, sofern nicht durch Ehevertrag etwas anderes vereinbart wird.",
+    "metadata": [
+      "Art. 10 b",
+      "Schlusstitel:",
+      "Erster Abschnitt:",
+      "C. Familienrecht",
+      "II",
+      "5. Ehevertrag",
+      "c. Unterstellung unter das neue Recht"
+    ],
+    "@eId": "art_10_b/para_2"
+  },
+  {
+    "text": "Haben die Ehegatten unter dem bisherigen Recht Gütertrennung vereinbart, so gelten für sie inskünftig die neuen Bestimmungen über die Gütertrennung.",
+    "metadata": [
+      "Art. 10 c",
+      "Schlusstitel:",
+      "Erster Abschnitt:",
+      "C. Familienrecht",
+      "II",
+      "5. Ehevertrag",
+      "d. Vertragliche Gütertrennung nach bisherigem Recht"
+    ],
+    "@eId": "art_10_c/para"
+  },
+  {
+    "text": "Eheverträge, die vor dem Inkrafttreten des Bundesgesetzes vom 5. Oktober 1984 geschlossen werden, aber erst unter dem neuen Recht ihre Wirkungen entfalten sollen, bedürfen nicht der Genehmigung der Vormundschaftsbehörde.",
+    "metadata": [
+      "Art. 10 d",
+      "Schlusstitel:",
+      "Erster Abschnitt:",
+      "C. Familienrecht",
+      "II",
+      "5. Ehevertrag",
+      "e. Im Hinblick auf das Inkrafttreten des"
+    ],
+    "@eId": "art_10_d/para"
+  },
+  {
+    "text": "Mit Inkrafttreten des Bundesgesetzes vom 5. Oktober 1984 werden keine neuen Eintragungen im Güterrechtsregister mehr vorgenommen.",
+    "metadata": [
+      "Art. 10 e",
+      "Schlusstitel:",
+      "Erster Abschnitt:",
+      "C. Familienrecht",
+      "II",
+      "5. Ehevertrag",
+      "f. Güterrechtsregister"
+    ],
+    "@eId": "art_10_e/para_1"
+  },
+  {
+    "text": "Das Recht, ins Register Einsicht zu nehmen, bleibt gewahrt.",
+    "metadata": [
+      "Art. 10 e",
+      "Schlusstitel:",
+      "Erster Abschnitt:",
+      "C. Familienrecht",
+      "II",
+      "5. Ehevertrag",
+      "f. Güterrechtsregister"
+    ],
+    "@eId": "art_10_e/para_2"
+  },
+  {
+    "text": "Bereitet bei einer güterrechtlichen Auseinandersetzung im Zusammenhang mit dem Inkrafttreten des neuen Rechts die Zahlung von Geldschulden oder die Erstattung geschuldeter Sachen dem verpflichteten Ehegatten ernstliche Schwierigkeiten, so kann er verlangen, dass ihm Zahlungsfristen eingeräumt werden; die Forderung ist sicherzustellen, wenn es die Umstände rechtfertigen.",
+    "metadata": [
+      "Art. 11",
+      "Schlusstitel:",
+      "Erster Abschnitt:",
+      "C. Familienrecht",
+      "II",
+      "6. Tilgung von Schulden bei der güterrechtlichen Auseinandersetzung"
+    ],
+    "@eId": "art_11/para"
+  },
+  {
+    "text": "Ändert sich das eheliche Güterrecht mit dem Inkrafttreten des Bundesgesetzes vom 5. Oktober 1984, so gelten für die Haftung die Bestimmungen über den Schutz der Gläubiger bei Änderung des Güterstandes.",
+    "metadata": [
+      "Art. 11 a",
+      "Schlusstitel:",
+      "Erster Abschnitt:",
+      "C. Familienrecht",
+      "II",
+      "7. Schutz der Gläubiger"
+    ],
+    "@eId": "art_11_a/para"
+  },
+  {
+    "text": "Entstehung und Wirkungen des Kindesverhältnisses stehen, sobald dieses Gesetz in Kraft getreten ist, unter dem neuen Recht; der Familienname und das Bürgerrecht, die nach bisherigem Recht erworben wurden, bleiben erhalten.",
+    "metadata": [
+      "Art. 12",
+      "Schlusstitel:",
+      "Erster Abschnitt:",
+      "C. Familienrecht",
+      "III. Das Kindesverhältnis im Allgemeinen"
+    ],
+    "@eId": "art_12/para_1"
+  },
+  {
+    "text": "Befinden sich Kinder, die nach dem neuen Recht von Gesetzes wegen unter der elterlichen Gewalt stehen, bei seinem Inkrafttreten unter Vormundschaft, so tritt spätestens mit Ablauf eines Jahres nach diesem Zeitpunkt an deren Stelle die elterliche Gewalt, sofern nicht nach den Bestimmungen über die Entziehung der elterlichen Gewalt das Gegenteil angeordnet worden ist.",
+    "metadata": [
+      "Art. 12",
+      "Schlusstitel:",
+      "Erster Abschnitt:",
+      "C. Familienrecht",
+      "III. Das Kindesverhältnis im Allgemeinen"
+    ],
+    "@eId": "art_12/para_2"
+  },
+  {
+    "text": "Eine unter dem bisherigen Recht durch behördliche Verfügung erfolgte Übertragung oder Entziehung der elterlichen Gewalt bleibt auch nach Inkrafttreten des neuen Rechts wirksam.",
+    "metadata": [
+      "Art. 12",
+      "Schlusstitel:",
+      "Erster Abschnitt:",
+      "C. Familienrecht",
+      "III. Das Kindesverhältnis im Allgemeinen"
+    ],
+    "@eId": "art_12/para_3"
+  },
+  {
+    "text": "Steht bei Inkrafttreten der Änderung vom 21. Juni 2013 die elterliche Sorge nur einem Elternteil zu, so kann sich der andere Elternteil binnen Jahresfrist nach Inkrafttreten dieser Änderung mit dem Antrag auf Verfügung der gemeinsamen elterlichen Sorge an die zuständige Behörde wenden. Artikel 298",
+    "metadata": [
+      "Art. 12",
+      "Schlusstitel:",
+      "Erster Abschnitt:",
+      "C. Familienrecht",
+      "III. Das Kindesverhältnis im Allgemeinen"
+    ],
+    "@eId": "art_12/para_4"
+  },
+  {
+    "text": "Der Elternteil, dem bei einer Scheidung die elterliche Sorge entzogen wurde, kann sich nur dann allein an das zuständige Gericht wenden, wenn die Scheidung im Zeitpunkt des Inkrafttretens der Änderung vom 21. Juni 2013 weniger als fünf Jahre zurückliegt.",
+    "metadata": [
+      "Art. 12",
+      "Schlusstitel:",
+      "Erster Abschnitt:",
+      "C. Familienrecht",
+      "III. Das Kindesverhältnis im Allgemeinen"
+    ],
+    "@eId": "art_12/para_5"
+  },
+  {
+    "text": "Die Adoption, die vor Inkrafttreten der neuen Bestimmungen des Bundesgesetzes vom 30. Juni 1972 über die Änderung des Schweizerischen Zivilgesetzbuches ausgesprochen worden ist, steht weiterhin unter dem am 1. Januar 1912",
+    "metadata": [
+      "Art. 12 a",
+      "Schlusstitel:",
+      "Erster Abschnitt:",
+      "C. Familienrecht",
+      "III",
+      "1. Fortdauer des bisherigen Rechts"
+    ],
+    "@eId": "art_12_a/para_1"
+  },
+  {
+    "text": "Personen, die beim Inkrafttreten des Bundesgesetzes vom 7. Oktober 1994 noch nicht 20 Jahre alt sind, können auch nach Eintritt der Mündigkeit noch nach den Bestimmungen über die Unmündigen adoptiert werden, sofern das Gesuch innerhalb von zwei Jahren seit Inkrafttreten des Bundesgesetzes und vor dem 20. Geburtstag eingereicht wird.",
+    "metadata": [
+      "Art. 12 a",
+      "Schlusstitel:",
+      "Erster Abschnitt:",
+      "C. Familienrecht",
+      "III",
+      "1. Fortdauer des bisherigen Rechts"
+    ],
+    "@eId": "art_12_a/para_2"
+  },
+  {
+    "text": "Für Adoptionsverfahren, die im Zeitpunkt des Inkrafttretens der Änderung vom 17. Juni 2016 hängig sind, gilt das neue Recht.",
+    "metadata": [
+      "Art. 12 b",
+      "Schlusstitel:",
+      "Erster Abschnitt:",
+      "C. Familienrecht",
+      "III",
+      "2. Hängige Verfahren"
+    ],
+    "@eId": "art_12_b/para"
+  },
+  {
+    "text": "Die Bestimmungen der Änderung vom 17. Juni 2016 über das Adoptionsgeheimnis, die Auskunft über die leiblichen Eltern und deren Nachkommen sowie die Möglichkeit der Vereinbarung eines persönlichen Verkehrs zwischen den leiblichen Eltern und dem Kind gelten auch für Adoptionen, die vor ihrem Inkrafttreten ausgesprochen oder im Zeitpunkt ihres Inkrafttretens hängig sind.",
+    "metadata": [
+      "Art. 12 c",
+      "Schlusstitel:",
+      "Erster Abschnitt:",
+      "C. Familienrecht",
+      "III",
+      "3. Unterstellung unter das neue Recht"
+    ],
+    "@eId": "art_12_c/para"
+  },
+  {
+    "text": "Für die Anfechtung einer unter dem bisherigen Recht erfolgten Ehelicherklärung gelten sinngemäss die Bestimmungen des neuen Rechts über die Anfechtung einer Anerkennung nach der Heirat der Eltern.",
+    "metadata": [
+      "Art. 12 d",
+      "Schlusstitel:",
+      "Erster Abschnitt:",
+      "C. Familienrecht",
+      "III"
+    ],
+    "@eId": "art_12_d/para"
+  },
+  {
+    "text": "Eine beim Inkrafttreten des neuen Rechts hängige Klage wird nach dem neuen Recht beurteilt.",
+    "metadata": [
+      "Art. 13",
+      "Schlusstitel:",
+      "Erster Abschnitt:",
+      "C. Familienrecht",
+      "IV. Vaterschaftsklage",
+      "1. Hängige Klagen"
+    ],
+    "@eId": "art_13/para_1"
+  },
+  {
+    "text": "Die Wirkungen bis zum Inkrafttreten des neuen Rechts bestimmen sich nach dem bisherigen Recht.",
+    "metadata": [
+      "Art. 13",
+      "Schlusstitel:",
+      "Erster Abschnitt:",
+      "C. Familienrecht",
+      "IV. Vaterschaftsklage",
+      "1. Hängige Klagen"
+    ],
+    "@eId": "art_13/para_2"
+  },
+  {
+    "text": "Ist vor Inkrafttreten des neuen Rechts durch gerichtliche Entscheidung oder durch Vertrag eine Verpflichtung des Vaters zu Vermögensleistungen begründet worden und hat das Kind beim Inkrafttreten des neuen Rechts das zehnte Altersjahr noch nicht vollendet, so kann es binnen zwei Jahren nach den Bestimmungen des neuen Rechts auf Feststellung des Kindesverhältnisses klagen.",
+    "metadata": [
+      "Art. 13 a",
+      "Schlusstitel:",
+      "Erster Abschnitt:",
+      "C. Familienrecht",
+      "IV. Vaterschaftsklage",
+      "2. Neue Klagen"
+    ],
+    "@eId": "art_13_a/para_1"
+  },
+  {
+    "text": "Beweist der Beklagte, dass seine Vaterschaft ausgeschlossen oder weniger wahrscheinlich ist als diejenige eines Dritten, so erlischt der Anspruch auf künftigen Unterhalt.",
+    "metadata": [
+      "Art. 13 a",
+      "Schlusstitel:",
+      "Erster Abschnitt:",
+      "C. Familienrecht",
+      "IV. Vaterschaftsklage",
+      "2. Neue Klagen"
+    ],
+    "@eId": "art_13_a/para_2"
+  },
+  {
+    "text": "Wer durch das Inkrafttreten des Bundesgesetzes vom 7. Oktober 1994 mündig wird, kann in jedem Fall noch während eines Jahres eine Klage auf Feststellung oder Anfechtung des Kindesverhältnisses einreichen.",
+    "metadata": [
+      "Art. 13 b",
+      "Schlusstitel:",
+      "Erster Abschnitt:",
+      "C. Familienrecht",
+      "IV"
+    ],
+    "@eId": "art_13_b/para"
+  },
+  {
+    "text": "Unterhaltsbeiträge an das Kind, die vor dem Inkrafttreten der Änderung vom 20. März 2015 in einem genehmigten Unterhaltsvertrag oder in einem Entscheid festgelegt worden sind, werden auf Gesuch des Kindes neu festgelegt. Sofern sie gleichzeitig mit Unterhaltsbeiträgen an den Elternteil festgelegt worden sind, ist ihre Anpassung nur bei einer erheblichen Veränderung der Verhältnisse zulässig.",
+    "metadata": [
+      "Art. 13 c",
+      "Schlusstitel:",
+      "Erster Abschnitt:",
+      "C. Familienrecht",
+      "IV",
+      "1. Bestehende Unterhaltstitel"
+    ],
+    "@eId": "art_13_c/para"
+  },
+  {
+    "text": "Auf Verfahren, die beim Inkrafttreten der Änderung vom 20. März 2015 rechtshängig sind, findet das neue Recht Anwendung.",
+    "metadata": [
+      "Art. 13 c bis",
+      "Schlusstitel:",
+      "Erster Abschnitt:",
+      "C. Familienrecht",
+      "IV",
+      "2. Rechtshängige Verfahren"
+    ],
+    "@eId": "art_13_c_bis/para_1"
+  },
+  {
+    "text": "Das Bundesgericht entscheidet nach bisherigem Recht, wenn der angefochtene Entscheid vor dem Inkrafttreten der Änderung vom 20. März 2015 ergangen ist; dies gilt auch bei einer allfälligen Rückweisung an die kantonale Instanz.",
+    "metadata": [
+      "Art. 13 c bis",
+      "Schlusstitel:",
+      "Erster Abschnitt:",
+      "C. Familienrecht",
+      "IV",
+      "2. Rechtshängige Verfahren"
+    ],
+    "@eId": "art_13_c_bis/para_2"
+  },
+  {
+    "text": "Führen die Eltern nach Inkrafttreten der Änderung vom 30. September 2011 dieses Gesetzes aufgrund einer Erklärung nach Artikel 8",
+    "metadata": [
+      "Art. 13 d",
+      "Schlusstitel:",
+      "Erster Abschnitt:",
+      "C. Familienrecht",
+      "IV"
+    ],
+    "@eId": "art_13_d/para_1"
+  },
+  {
+    "text": "Wurde die elterliche Sorge über ein Kind nicht miteinander verheirateter Eltern beiden Eltern oder dem Vater allein vor Inkrafttreten der Änderung vom 30. September 2011 dieses Gesetzes übertragen, so kann die in Artikel 270",
+    "metadata": [
+      "Art. 13 d",
+      "Schlusstitel:",
+      "Erster Abschnitt:",
+      "C. Familienrecht",
+      "IV"
+    ],
+    "@eId": "art_13_d/para_2"
+  },
+  {
+    "text": "Die Zustimmung des Kindes ist gestützt auf Artikel 270",
+    "metadata": [
+      "Art. 13 d",
+      "Schlusstitel:",
+      "Erster Abschnitt:",
+      "C. Familienrecht",
+      "IV"
+    ],
+    "@eId": "art_13_d/para_3"
+  },
+  {
+    "text": "Für den Erwachsenenschutz gilt das neue Recht, sobald die Änderung vom 19. Dezember 2008",
+    "metadata": [
+      "Art. 14",
+      "Schlusstitel:",
+      "Erster Abschnitt:",
+      "C. Familienrecht",
+      "V. Erwachsenenschutz",
+      "1. Bestehende Massnahmen"
+    ],
+    "@eId": "art_14/para_1"
+  },
+  {
+    "text": "Personen, die nach bisherigem Recht entmündigt worden sind, stehen mit dem Inkrafttreten des neuen Rechts unter umfassender Beistandschaft. Die Erwachsenenschutzbehörde nimmt von Amtes wegen so bald wie möglich die erforderlichen Anpassungen an das neue Recht vor. So lange die Behörde im Fall erstreckter elterlicher Sorge nicht anders entschieden hat, sind die Eltern von der Inventarpflicht, der Pflicht zur periodischen Berichterstattung und Rechnungsablage und der Pflicht, für bestimmte Geschäfte die Zustimmung einzuholen, befreit.",
+    "metadata": [
+      "Art. 14",
+      "Schlusstitel:",
+      "Erster Abschnitt:",
+      "C. Familienrecht",
+      "V. Erwachsenenschutz",
+      "1. Bestehende Massnahmen"
+    ],
+    "@eId": "art_14/para_2"
+  },
+  {
+    "text": "Die übrigen nach bisherigem Recht angeordneten Massnahmen fallen spätestens drei Jahre nach dem Inkrafttreten der Änderung vom 19. Dezember 2008 dahin, sofern die Erwachsenenschutzbehörde sie nicht in eine Massnahme des neuen Rechts überführt hat.",
+    "metadata": [
+      "Art. 14",
+      "Schlusstitel:",
+      "Erster Abschnitt:",
+      "C. Familienrecht",
+      "V. Erwachsenenschutz",
+      "1. Bestehende Massnahmen"
+    ],
+    "@eId": "art_14/para_3"
+  },
+  {
+    "text": "Hat ein Arzt gestützt auf Artikel 397",
+    "metadata": [
+      "Art. 14",
+      "Schlusstitel:",
+      "Erster Abschnitt:",
+      "C. Familienrecht",
+      "V. Erwachsenenschutz",
+      "1. Bestehende Massnahmen"
+    ],
+    "@eId": "art_14/para_4"
+  },
+  {
+    "text": "Hängige Verfahren werden mit dem Inkrafttreten der Änderung vom 19. Dezember 2008",
+    "metadata": [
+      "Art. 14 a",
+      "Schlusstitel:",
+      "Erster Abschnitt:",
+      "C. Familienrecht",
+      "V. Erwachsenenschutz",
+      "2. Hängige Verfahren"
+    ],
+    "@eId": "art_14_a/para_1"
+  },
+  {
+    "text": "Das neue Verfahrensrecht findet Anwendung.",
+    "metadata": [
+      "Art. 14 a",
+      "Schlusstitel:",
+      "Erster Abschnitt:",
+      "C. Familienrecht",
+      "V. Erwachsenenschutz",
+      "2. Hängige Verfahren"
+    ],
+    "@eId": "art_14_a/para_2"
+  },
+  {
+    "text": "Die Behörde entscheidet darüber, ob und wieweit das bisherige Verfahren ergänzt werden muss.",
+    "metadata": [
+      "Art. 14 a",
+      "Schlusstitel:",
+      "Erster Abschnitt:",
+      "C. Familienrecht",
+      "V. Erwachsenenschutz",
+      "2. Hängige Verfahren"
+    ],
+    "@eId": "art_14_a/para_3"
+  },
+  {
+    "text": "Die erbrechtlichen Verhältnisse und die mit ihnen nach kantonalem Recht untrennbar verknüpften güterrechtlichen Wirkungen des Todes eines Vaters, einer Mutter oder eines Ehegatten werden, wenn der Erblasser vor dem Inkrafttreten dieses Gesetzes gestorben ist, auch nach diesem Zeitpunkt durch das bisherige Recht bestimmt.",
+    "metadata": [
+      "Art. 15",
+      "Schlusstitel:",
+      "Erster Abschnitt:",
+      "D. Erbrecht",
+      "I. Erbe und Erbgang"
+    ],
+    "@eId": "art_15/para_1"
+  },
+  {
+    "text": "Diese Vorschrift bezieht sich sowohl auf die Erben als auf den Erbgang.",
+    "metadata": [
+      "Art. 15",
+      "Schlusstitel:",
+      "Erster Abschnitt:",
+      "D. Erbrecht",
+      "I. Erbe und Erbgang"
+    ],
+    "@eId": "art_15/para_2"
+  },
+  {
+    "text": "Eine vor dem Inkrafttreten dieses Gesetzes erfolgte Errichtung oder Aufhebung einer Verfügung von Todes wegen kann, wenn sie nach dem Recht, das zur Zeit ihrer Errichtung gegolten hat, von einem verfügungsfähigen Erblasser errichtet worden ist, nicht deshalb angefochten werden, weil der Erblasser nach dem Inkrafttreten des neuen Rechtes gestorben ist und nach dessen Bestimmungen nicht verfügungsfähig gewesen wäre.",
+    "metadata": [
+      "Art. 16",
+      "Schlusstitel:",
+      "Erster Abschnitt:",
+      "D. Erbrecht",
+      "II. Verfügungen von Todes wegen"
+    ],
+    "@eId": "art_16/para_1"
+  },
+  {
+    "text": "Eine letztwillige Verfügung kann wegen eines Formmangels nicht angefochten werden, wenn die Formvorschriften beobachtet sind, die zur Zeit der Errichtung oder des Todes gegolten haben.",
+    "metadata": [
+      "Art. 16",
+      "Schlusstitel:",
+      "Erster Abschnitt:",
+      "D. Erbrecht",
+      "II. Verfügungen von Todes wegen"
+    ],
+    "@eId": "art_16/para_2"
+  },
+  {
+    "text": "Die Anfechtung wegen Überschreitung der Verfügungsfreiheit oder wegen der Art der Verfügung richtet sich bei allen Verfügungen von Todes wegen nach den Bestimmungen des neuen Rechtes, wenn der Erblasser nach dessen Inkrafttreten gestorben ist.",
+    "metadata": [
+      "Art. 16",
+      "Schlusstitel:",
+      "Erster Abschnitt:",
+      "D. Erbrecht",
+      "II. Verfügungen von Todes wegen"
+    ],
+    "@eId": "art_16/para_3"
+  },
+  {
+    "text": "Die beim Inkrafttreten dieses Gesetzes bestehenden dinglichen Rechte bleiben unter Vorbehalt der Vorschriften über das Grundbuch auch unter dem neuen Recht anerkannt.",
+    "metadata": [
+      "Art. 17",
+      "Schlusstitel:",
+      "Erster Abschnitt:",
+      "E. Sachenrecht",
+      "I. Dingliche Rechte im Allgemeinen"
+    ],
+    "@eId": "art_17/para_1"
+  },
+  {
+    "text": "In Bezug auf ihren Inhalt stehen jedoch das Eigentum und die beschränkten dinglichen Rechte nach dem Inkrafttreten des Gesetzes, soweit es eine Ausnahme nicht vorsieht, unter dem neuen Recht.",
+    "metadata": [
+      "Art. 17",
+      "Schlusstitel:",
+      "Erster Abschnitt:",
+      "E. Sachenrecht",
+      "I. Dingliche Rechte im Allgemeinen"
+    ],
+    "@eId": "art_17/para_2"
+  },
+  {
+    "text": "Wäre ihre Errichtung nach dem neuen Rechte nicht mehr möglich, so bleiben sie unter dem bisherigen Recht.",
+    "metadata": [
+      "Art. 17",
+      "Schlusstitel:",
+      "Erster Abschnitt:",
+      "E. Sachenrecht",
+      "I. Dingliche Rechte im Allgemeinen"
+    ],
+    "@eId": "art_17/para_3"
+  },
+  {
+    "text": "Die vor dem Inkrafttreten dieses Gesetzes begründeten Ansprüche auf Errichtung eines dinglichen Rechtes werden als rechtskräftig anerkannt, wenn sie der Form des bisherigen oder des neuen Rechtes entsprechen.",
+    "metadata": [
+      "Art. 18",
+      "Schlusstitel:",
+      "Erster Abschnitt:",
+      "E. Sachenrecht",
+      "II. Anspruch auf Eintragung im Grundbuch"
+    ],
+    "@eId": "art_18/para_1"
+  },
+  {
+    "text": "Die Verordnung betreffend Grundbuchführung bestimmt, welche Ausweise für die Eintragung solcher Ansprüche erforderlich sind.",
+    "metadata": [
+      "Art. 18",
+      "Schlusstitel:",
+      "Erster Abschnitt:",
+      "E. Sachenrecht",
+      "II. Anspruch auf Eintragung im Grundbuch"
+    ],
+    "@eId": "art_18/para_2"
+  },
+  {
+    "text": "Der vor dem Inkrafttreten dieses Gesetzes durch Rechtsgeschäft festgesetzte Inhalt eines dinglichen Verhältnisses bleibt auch unter dem neuen Recht anerkannt, soweit er nicht mit diesem unverträglich ist.",
+    "metadata": [
+      "Art. 18",
+      "Schlusstitel:",
+      "Erster Abschnitt:",
+      "E. Sachenrecht",
+      "II. Anspruch auf Eintragung im Grundbuch"
+    ],
+    "@eId": "art_18/para_3"
+  },
+  {
+    "text": "Die Ersitzung richtet sich von dem Inkrafttreten dieses Gesetzes an nach dem neuen Recht.",
+    "metadata": [
+      "Art. 19",
+      "Schlusstitel:",
+      "Erster Abschnitt:",
+      "E. Sachenrecht",
+      "III. Ersitzung"
+    ],
+    "@eId": "art_19/para_1"
+  },
+  {
+    "text": "Hat jedoch eine Ersitzung, die auch dem neuen Recht entspricht, unter dem bisherigen Recht begonnen, so wird die bis zum Inkrafttreten dieses Gesetzes abgelaufene Zeit an die Ersitzungsfrist verhältnismässig angerechnet.",
+    "metadata": [
+      "Art. 19",
+      "Schlusstitel:",
+      "Erster Abschnitt:",
+      "E. Sachenrecht",
+      "III. Ersitzung"
+    ],
+    "@eId": "art_19/para_2"
+  },
+  {
+    "text": "Die bestehenden Eigentumsrechte an Bäumen auf fremdem Boden werden auch weiterhin nach kantonalem Recht anerkannt.",
+    "metadata": [
+      "Art. 20",
+      "Schlusstitel:",
+      "Erster Abschnitt:",
+      "E. Sachenrecht",
+      "IV. Besondere Eigentumsrechte",
+      "1. Bäume auf fremdem Boden"
+    ],
+    "@eId": "art_20/para_1"
+  },
+  {
+    "text": "Die Kantone sind befugt, diese Verhältnisse zu beschränken oder aufzuheben.",
+    "metadata": [
+      "Art. 20",
+      "Schlusstitel:",
+      "Erster Abschnitt:",
+      "E. Sachenrecht",
+      "IV. Besondere Eigentumsrechte",
+      "1. Bäume auf fremdem Boden"
+    ],
+    "@eId": "art_20/para_2"
+  },
+  {
+    "text": "Das vom früheren kantonalen Recht beherrschte Stockwerkeigentum ist den neuen Vorschriften dieses Gesetzes unterstellt, auch wenn die Stockwerke oder Stockwerkteile nicht als Wohnungen oder Geschäftsraumeinheiten in sich abgeschlossen sind.",
+    "metadata": [
+      "Art. 20 bis",
+      "Schlusstitel:",
+      "Erster Abschnitt:",
+      "E. Sachenrecht",
+      "IV. Besondere Eigentumsrechte",
+      "2. Stockwerkeigentum",
+      "a. Ursprüngliches"
+    ],
+    "@eId": "art_20_bis/para"
+  },
+  {
+    "text": "Die Kantone können auch Stockwerkeigentum, das in Formen des am 1. Januar 1912 in Kraft getretenen Rechtes in das Grundbuch eingetragen worden ist, den neuen Vorschriften über das Stockwerkeigentum unterstellen.",
+    "metadata": [
+      "Art. 20 ter",
+      "Schlusstitel:",
+      "Erster Abschnitt:",
+      "E. Sachenrecht",
+      "IV. Besondere Eigentumsrechte",
+      "2. Stockwerkeigentum",
+      "b. Umgewandeltes"
+    ],
+    "@eId": "art_20_ter/para_1"
+  },
+  {
+    "text": "Die Unterstellung wird wirksam mit der entsprechenden Änderung der Einträge im Grundbuch.",
+    "metadata": [
+      "Art. 20 ter",
+      "Schlusstitel:",
+      "Erster Abschnitt:",
+      "E. Sachenrecht",
+      "IV. Besondere Eigentumsrechte",
+      "2. Stockwerkeigentum",
+      "b. Umgewandeltes"
+    ],
+    "@eId": "art_20_ter/para_2"
+  },
+  {
+    "text": "Die Kantone können zur Durchführung der Unterstellung des umgewandelten Stockwerkeigentums unter die neuen Vorschriften und zur Eintragung des bestehenden eigentlichen Stockwerkeigentums die Bereinigung der Grundbücher anordnen und dafür besondere Verfahrensvorschriften erlassen.",
+    "metadata": [
+      "Art. 20 quater",
+      "Schlusstitel:",
+      "Erster Abschnitt:",
+      "E. Sachenrecht",
+      "IV. Besondere Eigentumsrechte",
+      "2. Stockwerkeigentum",
+      "c. Bereinigung der Grundbücher"
+    ],
+    "@eId": "art_20_quater/para"
+  },
+  {
+    "text": "Die vor dem Inkrafttreten dieses Gesetzes entstandenen Grunddienstbarkeiten bleiben nach der Einführung des Grundbuches auch ohne Eintragung in Kraft, können aber, solange sie nicht eingetragen sind, gutgläubigen Dritten gegenüber nicht geltend gemacht werden.",
+    "metadata": [
+      "Art. 21",
+      "Schlusstitel:",
+      "Erster Abschnitt:",
+      "E. Sachenrecht",
+      "V. Grunddienstbarkeiten"
+    ],
+    "@eId": "art_21/para_1"
+  },
+  {
+    "text": "Mit Dienstbarkeiten nebensächlich verbundene Verpflichtungen, die vor dem Inkrafttreten der Änderung vom 11. Dezember 2009",
+    "metadata": [
+      "Art. 21",
+      "Schlusstitel:",
+      "Erster Abschnitt:",
+      "E. Sachenrecht",
+      "V. Grunddienstbarkeiten"
+    ],
+    "@eId": "art_21/para_2"
+  },
+  {
+    "text": "Die zur Zeit des Inkrafttretens dieses Gesetzes bestehenden Pfandtitel bleiben in Kraft, ohne dass deren Anpassung an das neue Recht zu erfolgen hat.",
+    "metadata": [
+      "Art. 22",
+      "Schlusstitel:",
+      "Erster Abschnitt:",
+      "E. Sachenrecht",
+      "VI. Grundpfandrechte",
+      "1. Anerkennung der bestehenden Pfandtitel"
+    ],
+    "@eId": "art_22/para_1"
+  },
+  {
+    "text": "Den Kantonen bleibt es jedoch vorbehalten, eine Neuausfertigung der bestehenden Pfandtitel auf der Grundlage des neuen Rechtes mit bestimmten Fristen vorzuschreiben.",
+    "metadata": [
+      "Art. 22",
+      "Schlusstitel:",
+      "Erster Abschnitt:",
+      "E. Sachenrecht",
+      "VI. Grundpfandrechte",
+      "1. Anerkennung der bestehenden Pfandtitel"
+    ],
+    "@eId": "art_22/para_2"
+  },
+  {
+    "text": "Neue Grundpfandrechte können nach dem Inkrafttreten dieses Gesetzes nur noch in den von diesem anerkannten Arten errichtet werden.",
+    "metadata": [
+      "Art. 23",
+      "Schlusstitel:",
+      "Erster Abschnitt:",
+      "E. Sachenrecht",
+      "VI. Grundpfandrechte",
+      "2. Errichtung von Pfandrechten"
+    ],
+    "@eId": "art_23/para_1"
+  },
+  {
+    "text": "Für deren Errichtung bleiben bis zur Einführung des Grundbuches die bisherigen kantonal-rechtlichen Formen in Kraft.",
+    "metadata": [
+      "Art. 23",
+      "Schlusstitel:",
+      "Erster Abschnitt:",
+      "E. Sachenrecht",
+      "VI. Grundpfandrechte",
+      "2. Errichtung von Pfandrechten"
+    ],
+    "@eId": "art_23/para_2"
+  },
+  {
+    "text": "Die Tilgung und Umänderung der Titel, die Pfandentlassung u. dgl. stehen nach dem Inkrafttreten des neuen Rechtes unter dessen Vorschriften.",
+    "metadata": [
+      "Art. 24",
+      "Schlusstitel:",
+      "Erster Abschnitt:",
+      "E. Sachenrecht",
+      "VI. Grundpfandrechte",
+      "3. Tilgung von Titeln"
+    ],
+    "@eId": "art_24/para_1"
+  },
+  {
+    "text": "Bis zur Einführung des Grundbuches bestimmen sich jedoch die Formen nach kantonalem Recht.",
+    "metadata": [
+      "Art. 24",
+      "Schlusstitel:",
+      "Erster Abschnitt:",
+      "E. Sachenrecht",
+      "VI. Grundpfandrechte",
+      "3. Tilgung von Titeln"
+    ],
+    "@eId": "art_24/para_2"
+  },
+  {
+    "text": "Der Umfang der Pfandhaft bestimmt sich für alle Grundpfandrechte nach dem neuen Recht.",
+    "metadata": [
+      "Art. 25",
+      "Schlusstitel:",
+      "Erster Abschnitt:",
+      "E. Sachenrecht",
+      "VI. Grundpfandrechte",
+      "4. Umfang der Pfandhaft"
+    ],
+    "@eId": "art_25/para_1"
+  },
+  {
+    "text": "Hat jedoch der Gläubiger vermöge besonderer Abrede gewisse Gegenstände in rechtsgültiger Weise mit dem Grundstück verpfändet erhalten, so bleibt das Pfandrecht an diesen in Kraft, auch wenn sie nach dem neuen Recht nicht mitverpfändet sein würden.",
+    "metadata": [
+      "Art. 25",
+      "Schlusstitel:",
+      "Erster Abschnitt:",
+      "E. Sachenrecht",
+      "VI. Grundpfandrechte",
+      "4. Umfang der Pfandhaft"
+    ],
+    "@eId": "art_25/para_2"
+  },
+  {
+    "text": "Die Rechte und Pflichten des Gläubigers und des Schuldners beurteilen sich, soweit es sich um Vertragswirkungen handelt, für die zur Zeit des Inkrafttretens dieses Gesetzes vorhandenen Pfandrechte nach dem bisherigen Recht.",
+    "metadata": [
+      "Art. 26",
+      "Schlusstitel:",
+      "Erster Abschnitt:",
+      "E. Sachenrecht",
+      "VI. Grundpfandrechte",
+      "5. Rechte und Pflichten aus dem Grundpfand",
+      "a. Im Allgemeinen"
+    ],
+    "@eId": "art_26/para_1"
+  },
+  {
+    "text": "In Bezug auf die von Gesetzes wegen eintretenden und vertraglich nicht abzuändernden Wirkungen gilt von diesem Zeitpunkte an auch für die schon bestehenden Pfandrechte das neue Recht.",
+    "metadata": [
+      "Art. 26",
+      "Schlusstitel:",
+      "Erster Abschnitt:",
+      "E. Sachenrecht",
+      "VI. Grundpfandrechte",
+      "5. Rechte und Pflichten aus dem Grundpfand",
+      "a. Im Allgemeinen"
+    ],
+    "@eId": "art_26/para_2"
+  },
+  {
+    "text": "Erstreckt sich das Pfandrecht auf mehrere Grundstücke, so bleibt die Pfandhaft nach bisherigem Recht bestehen.",
+    "metadata": [
+      "Art. 26",
+      "Schlusstitel:",
+      "Erster Abschnitt:",
+      "E. Sachenrecht",
+      "VI. Grundpfandrechte",
+      "5. Rechte und Pflichten aus dem Grundpfand",
+      "a. Im Allgemeinen"
+    ],
+    "@eId": "art_26/para_3"
+  },
+  {
+    "text": "Die Rechte des Pfandgläubigers während des bestehenden Verhältnisses, wie namentlich die Sicherungsrechte und ebenso die Rechte des Schuldners stehen für alle Pfandrechte vom Zeitpunkte des Inkrafttretens dieses Gesetzes an unter dem neuen Recht.",
+    "metadata": [
+      "Art. 27",
+      "Schlusstitel:",
+      "Erster Abschnitt:",
+      "E. Sachenrecht",
+      "VI. Grundpfandrechte",
+      "5. Rechte und Pflichten aus dem Grundpfand",
+      "b. Sicherungsrechte"
+    ],
+    "@eId": "art_27/para"
+  },
+  {
+    "text": "Die Kündbarkeit der Pfandforderungen und die Übertragung der Pfandtitel werden bei den Pfandrechten, die zur Zeit des Inkrafttretens dieses Gesetzes bereits errichtet sind, nach dem bisherigen Recht beurteilt, unter Vorbehalt der zwingenden Vorschriften des neuen Rechtes.",
+    "metadata": [
+      "Art. 28",
+      "Schlusstitel:",
+      "Erster Abschnitt:",
+      "E. Sachenrecht",
+      "VI. Grundpfandrechte",
+      "5. Rechte und Pflichten aus dem Grundpfand",
+      "c. Kündigung, Übertragung"
+    ],
+    "@eId": "art_28/para"
+  },
+  {
+    "text": "Der Rang der Pfandrechte bestimmt sich bis zur Aufnahme der Grundstücke in das Grundbuch nach bisherigem Recht.",
+    "metadata": [
+      "Art. 29",
+      "Schlusstitel:",
+      "Erster Abschnitt:",
+      "E. Sachenrecht",
+      "VI. Grundpfandrechte",
+      "6. Rang"
+    ],
+    "@eId": "art_29/para_1"
+  },
+  {
+    "text": "Vom Zeitpunkte der Einführung des Grundbuches an richtet sich der Rang der Gläubiger nach dem Grundbuchrechte dieses Gesetzes.",
+    "metadata": [
+      "Art. 29",
+      "Schlusstitel:",
+      "Erster Abschnitt:",
+      "E. Sachenrecht",
+      "VI. Grundpfandrechte",
+      "6. Rang"
+    ],
+    "@eId": "art_29/para_2"
+  },
+  {
+    "text": "In Bezug auf die feste Pfandstelle oder ein Recht des Gläubigers auf Ein- oder Nachrücken gilt mit der Einführung des Grundbuches und jedenfalls nach Ablauf von fünf Jahren seit dem Inkrafttreten dieses Gesetzes das neue Recht, unter Vorbehalt der für den Gläubiger bestehenden besondern Ansprüche.",
+    "metadata": [
+      "Art. 30",
+      "Schlusstitel:",
+      "Erster Abschnitt:",
+      "E. Sachenrecht",
+      "VI. Grundpfandrechte",
+      "7. Pfandstelle"
+    ],
+    "@eId": "art_30/para_1"
+  },
+  {
+    "text": "Die Kantone können weitere Übergangsbestimmungen aufstellen.",
+    "metadata": [
+      "Art. 30",
+      "Schlusstitel:",
+      "Erster Abschnitt:",
+      "E. Sachenrecht",
+      "VI. Grundpfandrechte",
+      "7. Pfandstelle"
+    ],
+    "@eId": "art_30/para_2"
+  },
+  {
+    "text": "Die kantonalen Einführungsgesetze können feststellen, dass im Allgemeinen oder in bestimmter Beziehung eine Grundpfandart des bisherigen Rechtes einer solchen des neuen Rechtes gleichzuhalten sei.",
+    "metadata": [
+      "Art. 33",
+      "Schlusstitel:",
+      "Erster Abschnitt:",
+      "E. Sachenrecht",
+      "VI. Grundpfandrechte",
+      "9. Gleichstellung bisheriger Pfandarten mit solchen des neuen Rechtes"
+    ],
+    "@eId": "art_33/para_1"
+  },
+  {
+    "text": "Soweit dies geschieht, finden die Bestimmungen dieses Gesetzes mit dessen Inkrafttreten auch Anwendung auf solche kantonale Pfandrechte.",
+    "metadata": [
+      "Art. 33",
+      "Schlusstitel:",
+      "Erster Abschnitt:",
+      "E. Sachenrecht",
+      "VI. Grundpfandrechte",
+      "9. Gleichstellung bisheriger Pfandarten mit solchen des neuen Rechtes"
+    ],
+    "@eId": "art_33/para_2"
+  },
+  {
+    "text": "…",
+    "metadata": [
+      "Art. 33",
+      "Schlusstitel:",
+      "Erster Abschnitt:",
+      "E. Sachenrecht",
+      "VI. Grundpfandrechte",
+      "9. Gleichstellung bisheriger Pfandarten mit solchen des neuen Rechtes"
+    ],
+    "@eId": "art_33/para_3"
+  },
+  {
+    "text": "Gülten sowie in Serien ausgegebene Schuldbriefe bleiben im Grundbuch eingetragen.",
+    "metadata": [
+      "Art. 33 a",
+      "Schlusstitel:",
+      "Erster Abschnitt:",
+      "E. Sachenrecht",
+      "VI. Grundpfandrechte",
+      "10. Fortdauer des bisherigen Rechts für bisherige Pfandarten"
+    ],
+    "@eId": "art_33_a/para_1"
+  },
+  {
+    "text": "Sie unterstehen weiterhin den Bestimmungen des bisherigen Rechts.",
+    "metadata": [
+      "Art. 33 a",
+      "Schlusstitel:",
+      "Erster Abschnitt:",
+      "E. Sachenrecht",
+      "VI. Grundpfandrechte",
+      "10. Fortdauer des bisherigen Rechts für bisherige Pfandarten"
+    ],
+    "@eId": "art_33_a/para_2"
+  },
+  {
+    "text": "Das kantonale Recht kann die Umwandlung von Gülten, die gestützt auf Bundesrecht oder früheres Recht errichtet wurden, in Pfandarten nach geltendem Recht vorsehen. Die Umwandlung kann für geringfügige Beträge auch die Einführung einer persönlichen Haftung des Eigentümers des verpfändeten Grundstücks beinhalten.",
+    "metadata": [
+      "Art. 33 a",
+      "Schlusstitel:",
+      "Erster Abschnitt:",
+      "E. Sachenrecht",
+      "VI. Grundpfandrechte",
+      "10. Fortdauer des bisherigen Rechts für bisherige Pfandarten"
+    ],
+    "@eId": "art_33_a/para_3"
+  },
+  {
+    "text": "Der Grundeigentümer und die am Schuldbrief Berechtigten können gemeinsam schriftlich verlangen, dass ein vor dem Inkrafttreten der Änderung vom 11. Dezember 2009",
+    "metadata": [
+      "Art. 33 b",
+      "Schlusstitel:",
+      "Erster Abschnitt:",
+      "E. Sachenrecht",
+      "VI. Grundpfandrechte",
+      "11. Umwandlung der Art des Schuldbriefs"
+    ],
+    "@eId": "art_33_b/para"
+  },
+  {
+    "text": "Fahrnispfandrechte können vom Zeitpunkt des Inkrafttretens dieses Gesetzes an nur in den von diesem vorgesehenen Formen errichtet werden.",
+    "metadata": [
+      "Art. 34",
+      "Schlusstitel:",
+      "Erster Abschnitt:",
+      "E. Sachenrecht",
+      "VII. Fahrnispfandrechte",
+      "1. Formvorschriften"
+    ],
+    "@eId": "art_34/para_1"
+  },
+  {
+    "text": "Soweit vor diesem Zeitpunkt ein Fahrnispfand in anderer Form errichtet worden ist, erlischt es mit Ablauf von sechs Monaten, die bei Fälligkeit der Forderung mit dem Inkrafttreten des neuen Rechtes und bei späterer Fälligkeit mit deren Eintritt oder mit dem Zeitpunkte zu laufen beginnen, auf den die Kündigung zulässig ist.",
+    "metadata": [
+      "Art. 34",
+      "Schlusstitel:",
+      "Erster Abschnitt:",
+      "E. Sachenrecht",
+      "VII. Fahrnispfandrechte",
+      "1. Formvorschriften"
+    ],
+    "@eId": "art_34/para_2"
+  },
+  {
+    "text": "Die Wirkungen des Fahrnispfandrechtes, die Rechte und Pflichten des Pfandgläubigers, des Verpfänders und des Pfandschuldners richten sich vom Zeitpunkte des Inkrafttretens dieses Gesetzes an nach dem neuen Recht, auch wenn das Pfandrecht schon vorher entstanden ist.",
+    "metadata": [
+      "Art. 35",
+      "Schlusstitel:",
+      "Erster Abschnitt:",
+      "E. Sachenrecht",
+      "VII. Fahrnispfandrechte",
+      "2. Wirkung"
+    ],
+    "@eId": "art_35/para_1"
+  },
+  {
+    "text": "Ein vor dem Inkrafttreten dieses Gesetzes geschlossener Verfallsvertrag verliert mit diesem Zeitpunkte seine Gültigkeit.",
+    "metadata": [
+      "Art. 35",
+      "Schlusstitel:",
+      "Erster Abschnitt:",
+      "E. Sachenrecht",
+      "VII. Fahrnispfandrechte",
+      "2. Wirkung"
+    ],
+    "@eId": "art_35/para_2"
+  },
+  {
+    "text": "Das Retentionsrecht dieses Gesetzes erstreckt sich auch auf solche Sachen, die vor dessen Inkrafttreten in die Verfügungsgewalt des Gläubigers gekommen sind.",
+    "metadata": [
+      "Art. 36",
+      "Schlusstitel:",
+      "Erster Abschnitt:",
+      "E. Sachenrecht",
+      "VIII. Retentionsrecht"
+    ],
+    "@eId": "art_36/para_1"
+  },
+  {
+    "text": "Es steht dem Gläubiger auch für solche Forderungen zu, die vor diesem Zeitpunkt entstanden sind.",
+    "metadata": [
+      "Art. 36",
+      "Schlusstitel:",
+      "Erster Abschnitt:",
+      "E. Sachenrecht",
+      "VIII. Retentionsrecht"
+    ],
+    "@eId": "art_36/para_2"
+  },
+  {
+    "text": "Früher entstandene Retentionsrechte unterliegen bezüglich ihrer Wirksamkeit den Bestimmungen dieses Gesetzes.",
+    "metadata": [
+      "Art. 36",
+      "Schlusstitel:",
+      "Erster Abschnitt:",
+      "E. Sachenrecht",
+      "VIII. Retentionsrecht"
+    ],
+    "@eId": "art_36/para_3"
+  },
+  {
+    "text": "Der Besitz steht mit dem Inkrafttreten dieses Gesetzes unter dem neuen Recht.",
+    "metadata": [
+      "Art. 37",
+      "Schlusstitel:",
+      "Erster Abschnitt:",
+      "E. Sachenrecht",
+      "IX. Besitz"
+    ],
+    "@eId": "art_37/para"
+  },
+  {
+    "text": "Der Bundesrat legt nach Anhörung der Kantone die Einführungsplanung für das Grundbuch fest. Er kann diese Zuständigkeit an das zuständige Departement oder Amt übertragen.",
+    "metadata": [
+      "Art. 38",
+      "Schlusstitel:",
+      "Erster Abschnitt:",
+      "E. Sachenrecht",
+      "X. Grundbuch",
+      "1. Anlegung des Grundbuches"
+    ],
+    "@eId": "art_38/para_1"
+  },
+  {
+    "text": "…",
+    "metadata": [
+      "Art. 38",
+      "Schlusstitel:",
+      "Erster Abschnitt:",
+      "E. Sachenrecht",
+      "X. Grundbuch",
+      "1. Anlegung des Grundbuches"
+    ],
+    "@eId": "art_38/para_2"
+  },
+  {
+    "text": "In der Regel soll die Vermessung der Anlegung des Grundbuches vorangehen.",
+    "metadata": [
+      "Art. 40",
+      "Schlusstitel:",
+      "Erster Abschnitt:",
+      "E. Sachenrecht",
+      "X. Grundbuch",
+      "2. Amtliche Vermessung",
+      "b. Verhältnis zum Grundbuch"
+    ],
+    "@eId": "art_40/para_1"
+  },
+  {
+    "text": "Mit Einwilligung des Bundes kann jedoch das Grundbuch schon vorher angelegt werden, wenn genügende Liegenschaftsverzeichnisse vorhanden sind.",
+    "metadata": [
+      "Art. 40",
+      "Schlusstitel:",
+      "Erster Abschnitt:",
+      "E. Sachenrecht",
+      "X. Grundbuch",
+      "2. Amtliche Vermessung",
+      "b. Verhältnis zum Grundbuch"
+    ],
+    "@eId": "art_40/para_2"
+  },
+  {
+    "text": "…",
+    "metadata": [
+      "Art. 41",
+      "Schlusstitel:",
+      "Erster Abschnitt:",
+      "E. Sachenrecht",
+      "X. Grundbuch",
+      "2. Amtliche Vermessung",
+      "c. Zeit der Durchführung"
+    ],
+    "@eId": "art_41/para_1"
+  },
+  {
+    "text": "Die Vermessung und die Einführung des Grundbuches kann für die einzelnen Bezirke eines Kantons nacheinander erfolgen.",
+    "metadata": [
+      "Art. 41",
+      "Schlusstitel:",
+      "Erster Abschnitt:",
+      "E. Sachenrecht",
+      "X. Grundbuch",
+      "2. Amtliche Vermessung",
+      "c. Zeit der Durchführung"
+    ],
+    "@eId": "art_41/para_2"
+  },
+  {
+    "text": "Bei der Einführung des Grundbuches sollen die dinglichen Rechte, die bereits bestehen, zur Eintragung gebracht werden.",
+    "metadata": [
+      "Art. 43",
+      "Schlusstitel:",
+      "Erster Abschnitt:",
+      "E. Sachenrecht",
+      "X. Grundbuch",
+      "3. Eintragung der dinglichen Rechte",
+      "a. Verfahren"
+    ],
+    "@eId": "art_43/para_1"
+  },
+  {
+    "text": "Zu diesem Zwecke ist eine öffentliche Aufforderung zur Anmeldung und Eintragung dieser Rechte zu erlassen.",
+    "metadata": [
+      "Art. 43",
+      "Schlusstitel:",
+      "Erster Abschnitt:",
+      "E. Sachenrecht",
+      "X. Grundbuch",
+      "3. Eintragung der dinglichen Rechte",
+      "a. Verfahren"
+    ],
+    "@eId": "art_43/para_2"
+  },
+  {
+    "text": "Die nach bisherigem Recht in öffentlichen Büchern eingetragenen dinglichen Rechte werden, soweit sie nach neuem Recht begründet werden können, von Amtes wegen in das Grundbuch eingetragen.",
+    "metadata": [
+      "Art. 43",
+      "Schlusstitel:",
+      "Erster Abschnitt:",
+      "E. Sachenrecht",
+      "X. Grundbuch",
+      "3. Eintragung der dinglichen Rechte",
+      "a. Verfahren"
+    ],
+    "@eId": "art_43/para_3"
+  },
+  {
+    "text": "Die dinglichen Rechte des bisherigen Rechtes, die nicht eingetragen werden, behalten zwar ihre Gültigkeit, können aber Dritten, die sich in gutem Glauben auf das Grundbuch verlassen, nicht entgegengehalten werden.",
+    "metadata": [
+      "Art. 44",
+      "Schlusstitel:",
+      "Erster Abschnitt:",
+      "E. Sachenrecht",
+      "X. Grundbuch",
+      "3. Eintragung der dinglichen Rechte",
+      "b. Folge der Nichteintragung"
+    ],
+    "@eId": "art_44/para_1"
+  },
+  {
+    "text": "Der Gesetzgebung des Bundes oder der Kantone bleibt es vorbehalten, alle im Grundbuche nicht eingetragenen dinglichen Rechte auf einen bestimmten Zeitpunkt nach vorausgehender Auskündung für aufgehoben zu erklären.",
+    "metadata": [
+      "Art. 44",
+      "Schlusstitel:",
+      "Erster Abschnitt:",
+      "E. Sachenrecht",
+      "X. Grundbuch",
+      "3. Eintragung der dinglichen Rechte",
+      "b. Folge der Nichteintragung"
+    ],
+    "@eId": "art_44/para_2"
+  },
+  {
+    "text": "Vor dem Inkrafttreten der Änderung vom 11. Dezember 2009",
+    "metadata": [
+      "Art. 44",
+      "Schlusstitel:",
+      "Erster Abschnitt:",
+      "E. Sachenrecht",
+      "X. Grundbuch",
+      "3. Eintragung der dinglichen Rechte",
+      "b. Folge der Nichteintragung"
+    ],
+    "@eId": "art_44/para_3"
+  },
+  {
+    "text": "Dingliche Rechte, die nach dem Grundbuchrecht nicht mehr begründet werden können, wie Eigentum an Bäumen auf fremdem Boden, Nutzungspfandrechte u. dgl. werden im Grundbuch nicht eingetragen, sind aber in zweckdienlicher Weise anzumerken.",
+    "metadata": [
+      "Art. 45",
+      "Schlusstitel:",
+      "Erster Abschnitt:",
+      "E. Sachenrecht",
+      "X. Grundbuch",
+      "4. Behandlung aufgehobener Rechte"
+    ],
+    "@eId": "art_45/para_1"
+  },
+  {
+    "text": "Sind sie aus irgendwelchem Grunde untergegangen, so können sie nicht neu begründet werden.",
+    "metadata": [
+      "Art. 45",
+      "Schlusstitel:",
+      "Erster Abschnitt:",
+      "E. Sachenrecht",
+      "X. Grundbuch",
+      "4. Behandlung aufgehobener Rechte"
+    ],
+    "@eId": "art_45/para_2"
+  },
+  {
+    "text": "Die Einführung des Grundbuches nach den Vorschriften dieses Gesetzes kann mit Ermächtigung des Bundesrates durch die Kantone verschoben werden, sobald die kantonalen Formvorschriften, mit oder ohne Ergänzungen, als genügend erscheinen, um die Wirkung des Grundbuches im Sinne des neuen Rechtes zu gewährleisten.",
+    "metadata": [
+      "Art. 46",
+      "Schlusstitel:",
+      "Erster Abschnitt:",
+      "E. Sachenrecht",
+      "X. Grundbuch",
+      "5. Verschiebung der Einführung des Grundbuches"
+    ],
+    "@eId": "art_46/para_1"
+  },
+  {
+    "text": "Dabei ist genau festzustellen, mit welchen Formen des kantonalen Rechtes die vom neuen Recht angeordneten Wirkungen verbunden sein sollen.",
+    "metadata": [
+      "Art. 46",
+      "Schlusstitel:",
+      "Erster Abschnitt:",
+      "E. Sachenrecht",
+      "X. Grundbuch",
+      "5. Verschiebung der Einführung des Grundbuches"
+    ],
+    "@eId": "art_46/para_2"
+  },
+  {
+    "text": "Das Sachenrecht dieses Gesetzes tritt im Allgemeinen in Kraft, auch ohne dass die Grundbücher angelegt worden sind.",
+    "metadata": [
+      "Art. 47",
+      "Schlusstitel:",
+      "Erster Abschnitt:",
+      "E. Sachenrecht",
+      "X. Grundbuch",
+      "6. Einführung des Sachenrechtes vor dem Grundbuch"
+    ],
+    "@eId": "art_47/para"
+  },
+  {
+    "text": "Die Kantone können mit dem Inkrafttreten des Sachenrechtes und vor der Einführung des Grundbuches die Formen, wie Fertigung, Eintragung in Grund-, Pfand- und Servitutenregister bezeichnen, denen sofort Grundbuchwirkung zukommen soll.",
+    "metadata": [
+      "Art. 48",
+      "Schlusstitel:",
+      "Erster Abschnitt:",
+      "E. Sachenrecht",
+      "X. Grundbuch",
+      "7. Wirkung kantonaler Formen"
+    ],
+    "@eId": "art_48/para_1"
+  },
+  {
+    "text": "Diese Formen können mit der Wirkung ausgestattet werden, dass auch ohne und vor Einführung des Grundbuches in Bezug auf Entstehung, Übertragung, Umänderung und Untergang der dinglichen Rechte die Grundbuchwirkung mit ihnen verbunden ist.",
+    "metadata": [
+      "Art. 48",
+      "Schlusstitel:",
+      "Erster Abschnitt:",
+      "E. Sachenrecht",
+      "X. Grundbuch",
+      "7. Wirkung kantonaler Formen"
+    ],
+    "@eId": "art_48/para_2"
+  },
+  {
+    "text": "Dagegen besteht, solange nicht das Grundbuch selbst eingeführt oder eine andere Einrichtung ihm gleichgestellt ist, eine Grundbuchwirkung zugunsten des gutgläubigen Dritten nicht.",
+    "metadata": [
+      "Art. 48",
+      "Schlusstitel:",
+      "Erster Abschnitt:",
+      "E. Sachenrecht",
+      "X. Grundbuch",
+      "7. Wirkung kantonaler Formen"
+    ],
+    "@eId": "art_48/para_3"
+  },
+  {
+    "text": "Bestimmt das neue Recht eine längere Frist als das bisherige Recht, so gilt das neue Recht, sofern die Verjährung nach bisherigem Recht noch nicht eingetreten ist.",
+    "metadata": [
+      "Art. 49",
+      "Schlusstitel:",
+      "Erster Abschnitt:",
+      "F. Verjährung"
+    ],
+    "@eId": "art_49/para_1"
+  },
+  {
+    "text": "Bestimmt das neue Recht eine kürzere Frist, so gilt das bisherige Recht.",
+    "metadata": [
+      "Art. 49",
+      "Schlusstitel:",
+      "Erster Abschnitt:",
+      "F. Verjährung"
+    ],
+    "@eId": "art_49/para_2"
+  },
+  {
+    "text": "Das Inkrafttreten des neuen Rechts lässt den Beginn einer laufenden Verjährung unberührt, sofern das Gesetz nichts anderes bestimmt.",
+    "metadata": [
+      "Art. 49",
+      "Schlusstitel:",
+      "Erster Abschnitt:",
+      "F. Verjährung"
+    ],
+    "@eId": "art_49/para_3"
+  },
+  {
+    "text": "Im Übrigen gilt das neue Recht für die Verjährung ab dem Zeitpunkt seines Inkrafttretens.",
+    "metadata": [
+      "Art. 49",
+      "Schlusstitel:",
+      "Erster Abschnitt:",
+      "F. Verjährung"
+    ],
+    "@eId": "art_49/para_4"
+  },
+  {
+    "text": "Verträge, die vor dem Inkrafttreten dieses Gesetzes abgeschlossen worden sind, behalten ihre Gültigkeit, auch wenn ihre Form den Vorschriften des neuen Rechtes nicht entspricht.",
+    "metadata": [
+      "Art. 50",
+      "Schlusstitel:",
+      "Erster Abschnitt:",
+      "G. Vertragsformen"
+    ],
+    "@eId": "art_50/para"
+  },
+  {
+    "text": "Mit dem Inkrafttreten dieses Gesetzes sind die zivilrechtlichen Bestimmungen der Kantone aufgehoben, soweit nicht bundesrechtlich etwas anderes vorgesehen ist.",
+    "metadata": [
+      "Art. 51",
+      "Schlusstitel:",
+      "Zweiter Abschnitt:",
+      "A. Aufhebung des kantonalen Zivilrechtes"
+    ],
+    "@eId": "art_51/para"
+  },
+  {
+    "text": "Die Kantone treffen die zur Ergänzung dieses Gesetzes vorgesehenen Anordnungen, wie namentlich in Bezug auf die Zuständigkeit der Behörden und die Einrichtung der Zivilstands‑, Vormundschafts-",
+    "metadata": [
+      "Art. 52",
+      "Schlusstitel:",
+      "Zweiter Abschnitt:",
+      "B. Ergänzende kantonale Anordnungen",
+      "I. Recht und Pflicht der Kantone"
+    ],
+    "@eId": "art_52/para_1"
+  },
+  {
+    "text": "Soweit das neue Recht zu seiner Ausführung notwendig der Ergänzung durch kantonale Anordnungen bedarf, sind die Kantone verpflichtet, solche aufzustellen, und können sie vorläufig auf dem Verordnungswege erlassen.",
+    "metadata": [
+      "Art. 52",
+      "Schlusstitel:",
+      "Zweiter Abschnitt:",
+      "B. Ergänzende kantonale Anordnungen",
+      "I. Recht und Pflicht der Kantone"
+    ],
+    "@eId": "art_52/para_2"
+  },
+  {
+    "text": "Die kantonalen Anordnungen zum Registerrecht bedürfen der Genehmigung des Bundes.",
+    "metadata": [
+      "Art. 52",
+      "Schlusstitel:",
+      "Zweiter Abschnitt:",
+      "B. Ergänzende kantonale Anordnungen",
+      "I. Recht und Pflicht der Kantone"
+    ],
+    "@eId": "art_52/para_3"
+  },
+  {
+    "text": "Die übrigen kantonalen Anordnungen sind dem Bundesamt für Justiz zur Kenntnis zu bringen.",
+    "metadata": [
+      "Art. 52",
+      "Schlusstitel:",
+      "Zweiter Abschnitt:",
+      "B. Ergänzende kantonale Anordnungen",
+      "I. Recht und Pflicht der Kantone"
+    ],
+    "@eId": "art_52/para_4"
+  },
+  {
+    "text": "Hat ein Kanton die notwendigen Anordnungen nicht rechtzeitig getroffen, so erlässt der Bundesrat vorläufig die erforderlichen Verordnungen an Stelle des Kantons unter Anzeige an die Bundesversammlung.",
+    "metadata": [
+      "Art. 53",
+      "Schlusstitel:",
+      "Zweiter Abschnitt:",
+      "B. Ergänzende kantonale Anordnungen",
+      "II. Ersatzverordnungen des Bundes"
+    ],
+    "@eId": "art_53/para_1"
+  },
+  {
+    "text": "Macht ein Kanton in einer Sache, die einer ergänzenden Verordnung nicht notwendig bedarf, von seiner Befugnis keinen Gebrauch, so verbleibt es bei den Vorschriften dieses Gesetzes.",
+    "metadata": [
+      "Art. 53",
+      "Schlusstitel:",
+      "Zweiter Abschnitt:",
+      "B. Ergänzende kantonale Anordnungen",
+      "II. Ersatzverordnungen des Bundes"
+    ],
+    "@eId": "art_53/para_2"
+  },
+  {
+    "text": "Wo dieses Gesetz von einer zuständigen Behörde spricht, bestimmen die Kantone, welche bereits vorhandene oder erst zu schaffende Behörde zuständig sein soll.",
+    "metadata": [
+      "Art. 54",
+      "Schlusstitel:",
+      "Zweiter Abschnitt:",
+      "C. Bezeichnung der zuständigen Behörden"
+    ],
+    "@eId": "art_54/para_1"
+  },
+  {
+    "text": "Wo das Gesetz nicht ausdrücklich entweder vom Gericht oder von einer Verwaltungsbehörde spricht, können die Kantone entweder eine gerichtliche oder eine Verwaltungsbehörde als zuständig bezeichnen.",
+    "metadata": [
+      "Art. 54",
+      "Schlusstitel:",
+      "Zweiter Abschnitt:",
+      "C. Bezeichnung der zuständigen Behörden"
+    ],
+    "@eId": "art_54/para_2"
+  },
+  {
+    "text": "Soweit nicht die Zivilprozessordnung vom 19. Dezember 2008",
+    "metadata": [
+      "Art. 54",
+      "Schlusstitel:",
+      "Zweiter Abschnitt:",
+      "C. Bezeichnung der zuständigen Behörden"
+    ],
+    "@eId": "art_54/para_3"
+  },
+  {
+    "text": "Die Kantone bestimmen, in welcher Weise auf ihrem Gebiete die öffentliche Beurkundung hergestellt wird.",
+    "metadata": [
+      "Art. 55",
+      "Schlusstitel:",
+      "Zweiter Abschnitt:",
+      "D. Öffentliche Beurkundung",
+      "I. Im Allgemeinen"
+    ],
+    "@eId": "art_55/para_1"
+  },
+  {
+    "text": "Sie haben für die Errichtung von öffentlichen Urkunden in fremder Sprache ordnende Bestimmungen aufzustellen.",
+    "metadata": [
+      "Art. 55",
+      "Schlusstitel:",
+      "Zweiter Abschnitt:",
+      "D. Öffentliche Beurkundung",
+      "I. Im Allgemeinen"
+    ],
+    "@eId": "art_55/para_2"
+  },
+  {
+    "text": "Die Kantone können die Urkundspersonen ermächtigen, elektronische Ausfertigungen der von ihnen errichteten öffentlichen Urkunden zu erstellen.",
+    "metadata": [
+      "Art. 55 a",
+      "Schlusstitel:",
+      "Zweiter Abschnitt:",
+      "D. Öffentliche Beurkundung",
+      "II. Elektronische Ausfertigungen und Beglaubigungen"
+    ],
+    "@eId": "art_55_a/para_1"
+  },
+  {
+    "text": "Sie können die Urkundspersonen auch ermächtigen, die Übereinstimmung der von ihnen erstellten elektronischen Kopien mit den Originaldokumenten auf Papier sowie die Echtheit von Unterschriften elektronisch zu beglaubigen.",
+    "metadata": [
+      "Art. 55 a",
+      "Schlusstitel:",
+      "Zweiter Abschnitt:",
+      "D. Öffentliche Beurkundung",
+      "II. Elektronische Ausfertigungen und Beglaubigungen"
+    ],
+    "@eId": "art_55_a/para_2"
+  },
+  {
+    "text": "Die Urkundsperson muss eine qualifizierte elektronische Signatur verwenden, die auf einem qualifizierten Zertifikat einer anerkannten Anbieterin von Zertifizierungsdiensten im Sinne des Bundesgesetzes vom 18. März 2016",
+    "metadata": [
+      "Art. 55 a",
+      "Schlusstitel:",
+      "Zweiter Abschnitt:",
+      "D. Öffentliche Beurkundung",
+      "II. Elektronische Ausfertigungen und Beglaubigungen"
+    ],
+    "@eId": "art_55_a/para_3"
+  },
+  {
+    "text": "Der Bundesrat erlässt Ausführungsbestimmungen, welche die Interoperabilität der Informatiksysteme sowie die Integrität, Authentizität und Sicherheit der Daten gewährleisten.",
+    "metadata": [
+      "Art. 55 a",
+      "Schlusstitel:",
+      "Zweiter Abschnitt:",
+      "D. Öffentliche Beurkundung",
+      "II. Elektronische Ausfertigungen und Beglaubigungen"
+    ],
+    "@eId": "art_55_a/para_4"
+  },
+  {
+    "text": "Bis zum Erlass einer bundesrechtlichen Ordnung gilt für die Wasserrechtsverleihungen folgende Bestimmung:",
+    "metadata": [
+      "Art. 56",
+      "Schlusstitel:",
+      "Zweiter Abschnitt:",
+      "E. Wasserrechtsverleihungen"
+    ],
+    "@eId": "art_56/para"
+  },
+  {
+    "text": "Das Bundesgesetz vom 11. April 1889",
+    "metadata": [
+      "Art. 58",
+      "Schlusstitel:",
+      "Zweiter Abschnitt:",
+      "J. Schuldbetreibung und Konkurs"
+    ],
+    "@eId": "art_58/para"
+  },
+  {
+    "text": "Das Bundesgesetz vom 25. Juni 1891",
+    "metadata": [
+      "Art. 59",
+      "Schlusstitel:",
+      "Zweiter Abschnitt:",
+      "K. Anwendung schweizerischen"
+    ],
+    "@eId": "art_59/para_1"
+  },
+  {
+    "text": "…",
+    "metadata": [
+      "Art. 59",
+      "Schlusstitel:",
+      "Zweiter Abschnitt:",
+      "K. Anwendung schweizerischen"
+    ],
+    "@eId": "art_59/para_2"
+  },
+  {
+    "text": "Das Bundesgesetz vom 25. Juni 1891 erhält folgende Einfügung: Art. 7",
+    "metadata": [
+      "Art. 59",
+      "Schlusstitel:",
+      "Zweiter Abschnitt:",
+      "K. Anwendung schweizerischen"
+    ],
+    "@eId": "art_59/para_3"
+  },
+  {
+    "text": "Mit dem Inkrafttreten dieses Gesetzes sind die damit im Widerspruch stehenden zivilrechtlichen Bestimmungen des Bundes aufgehoben.",
+    "metadata": [
+      "Art. 60",
+      "Schlusstitel:",
+      "Zweiter Abschnitt:",
+      "L. Aufhebung von Bundeszivilrecht"
+    ],
+    "@eId": "art_60/para_1"
+  },
+  {
+    "text": "Insbesondere sind aufgehoben:",
+    "metadata": [
+      "Art. 60",
+      "Schlusstitel:",
+      "Zweiter Abschnitt:",
+      "L. Aufhebung von Bundeszivilrecht"
+    ],
+    "@eId": "art_60/para_2"
+  },
+  {
+    "text": "In Geltung bleiben die Spezialgesetze betreffend das Eisenbahn-, Dampfschiff-, Post-, Telegraphen- und Telefonrecht, die Verpfändung und Zwangsliquidation der Eisenbahnen, diejenigen betreffend die Fabrikarbeit und die Haftbarkeit aus Fabrikbetrieb und aus andern Unternehmungen sowie alle Bundesgesetze über Gegenstände des Obligationenrechts, die neben dem Bundesgesetz vom 14. Juni 1881 über das Obligationenrecht erlassen worden sind.",
+    "metadata": [
+      "Art. 60",
+      "Schlusstitel:",
+      "Zweiter Abschnitt:",
+      "L. Aufhebung von Bundeszivilrecht"
+    ],
+    "@eId": "art_60/para_3"
+  },
+  {
+    "text": "Dieses Gesetz tritt mit dem 1. Januar 1912 in Kraft.",
+    "metadata": [
+      "Art. 61",
+      "Schlusstitel:",
+      "Zweiter Abschnitt:",
+      "M. Schlussbestimmung"
+    ],
+    "@eId": "art_61/para_1"
+  },
+  {
+    "text": "Der Bundesrat ist unter Zustimmung der Bundesversammlung befugt, einzelne Bestimmungen schon früher in Kraft zu setzen.",
+    "metadata": [
+      "Art. 61",
+      "Schlusstitel:",
+      "Zweiter Abschnitt:",
+      "M. Schlussbestimmung"
+    ],
+    "@eId": "art_61/para_2"
+  },
+  {
+    "text": "Die Ehegatten stehen unter den Vorschriften der Güterverbindung, insofern sie nicht durch Ehevertrag etwas anderes vereinbaren oder unter ihnen der ausserordentliche Güterstand eingetreten ist.",
+    "metadata": [
+      "Art. 178",
+      "Wortlaut der früheren Bestimmungen",
+      "Sechster Titel: Das Güterrecht der Ehegatten",
+      "Erster Abschnitt: Allgemeine Vorschriften",
+      "A. Ordentlicher Güterstand"
+    ],
+    "@eId": "art_178/para"
+  },
+  {
+    "text": "Ein Ehevertrag kann sowohl vor als nach Eingehung der Ehe abgeschlossen werden.",
+    "metadata": [
+      "Art. 179",
+      "Wortlaut der früheren Bestimmungen",
+      "Sechster Titel: Das Güterrecht der Ehegatten",
+      "Erster Abschnitt: Allgemeine Vorschriften",
+      "B. Güterstand des Ehevertrages",
+      "I. Inhalt des Vertrages"
+    ],
+    "@eId": "art_179/para_1"
+  },
+  {
+    "text": "Die Brautleute oder Ehegatten haben für ihren Vertrag einen der Güterstände anzunehmen, die in diesem Gesetze vorgesehen sind.",
+    "metadata": [
+      "Art. 179",
+      "Wortlaut der früheren Bestimmungen",
+      "Sechster Titel: Das Güterrecht der Ehegatten",
+      "Erster Abschnitt: Allgemeine Vorschriften",
+      "B. Güterstand des Ehevertrages",
+      "I. Inhalt des Vertrages"
+    ],
+    "@eId": "art_179/para_2"
+  },
+  {
+    "text": "Ein nach Eingehung der Ehe abgeschlossener Ehevertrag darf die bisherige Haftung des Vermögens gegenüber Dritten nicht beeinträchtigen.",
+    "metadata": [
+      "Art. 179",
+      "Wortlaut der früheren Bestimmungen",
+      "Sechster Titel: Das Güterrecht der Ehegatten",
+      "Erster Abschnitt: Allgemeine Vorschriften",
+      "B. Güterstand des Ehevertrages",
+      "I. Inhalt des Vertrages"
+    ],
+    "@eId": "art_179/para_3"
+  },
+  {
+    "text": "Für Abschluss, Abänderung und Aufhebung eines Ehevertrages bedürfen die Vertragschliessenden der Urteilsfähigkeit.",
+    "metadata": [
+      "Art. 180",
+      "Wortlaut der früheren Bestimmungen",
+      "Sechster Titel: Das Güterrecht der Ehegatten",
+      "Erster Abschnitt: Allgemeine Vorschriften",
+      "B. Güterstand des Ehevertrages",
+      "II. Vertragsfähigkeit"
+    ],
+    "@eId": "art_180/para_1"
+  },
+  {
+    "text": "Sind sie unmündig oder entmündigt, so ist die Zustimmung ihrer gesetzlichen Vertreter erforderlich.",
+    "metadata": [
+      "Art. 180",
+      "Wortlaut der früheren Bestimmungen",
+      "Sechster Titel: Das Güterrecht der Ehegatten",
+      "Erster Abschnitt: Allgemeine Vorschriften",
+      "B. Güterstand des Ehevertrages",
+      "II. Vertragsfähigkeit"
+    ],
+    "@eId": "art_180/para_2"
+  },
+  {
+    "text": "Abschluss, Abänderung und Aufhebung des Ehevertrages bedürfen zu ihrer Gültigkeit der öffentlichen Beurkundung sowie der Unterschrift der vertragschliessenden Personen und ihrer gesetzlichen Vertreter.",
+    "metadata": [
+      "Art. 181",
+      "Wortlaut der früheren Bestimmungen",
+      "Sechster Titel: Das Güterrecht der Ehegatten",
+      "Erster Abschnitt: Allgemeine Vorschriften",
+      "B. Güterstand des Ehevertrages",
+      "III. Form des Vertrages"
+    ],
+    "@eId": "art_181/para_1"
+  },
+  {
+    "text": "Eheverträge, die während der Ehe abgeschlossen werden, bedürfen überdies der Zustimmung der Vormundschaftsbehörde.",
+    "metadata": [
+      "Art. 181",
+      "Wortlaut der früheren Bestimmungen",
+      "Sechster Titel: Das Güterrecht der Ehegatten",
+      "Erster Abschnitt: Allgemeine Vorschriften",
+      "B. Güterstand des Ehevertrages",
+      "III. Form des Vertrages"
+    ],
+    "@eId": "art_181/para_2"
+  },
+  {
+    "text": "Der Ehevertrag erhält Rechtskraft gegenüber Dritten nach den Vorschriften über das Güterrechtsregister.",
+    "metadata": [
+      "Art. 181",
+      "Wortlaut der früheren Bestimmungen",
+      "Sechster Titel: Das Güterrecht der Ehegatten",
+      "Erster Abschnitt: Allgemeine Vorschriften",
+      "B. Güterstand des Ehevertrages",
+      "III. Form des Vertrages"
+    ],
+    "@eId": "art_181/para_3"
+  },
+  {
+    "text": "Kommen die Gläubiger im Konkurse eines Ehegatten zu Verlust, so tritt von Gesetzes wegen Gütertrennung ein.",
+    "metadata": [
+      "Art. 182",
+      "Wortlaut der früheren Bestimmungen",
+      "Sechster Titel: Das Güterrecht der Ehegatten",
+      "Erster Abschnitt: Allgemeine Vorschriften",
+      "C. Ausserordentlicher Güterstand",
+      "I. Gesetzliche Gütertrennung"
+    ],
+    "@eId": "art_182/para_1"
+  },
+  {
+    "text": "Sind zur Zeit der Eheschliessung Gläubiger vorhanden, die Verlustscheine besitzen, so kann jedes der Brautleute die Gütertrennung dadurch begründen, dass es diesen Güterstand vor der Trauung in das Güterrechtsregister eintragen lässt.",
+    "metadata": [
+      "Art. 182",
+      "Wortlaut der früheren Bestimmungen",
+      "Sechster Titel: Das Güterrecht der Ehegatten",
+      "Erster Abschnitt: Allgemeine Vorschriften",
+      "C. Ausserordentlicher Güterstand",
+      "I. Gesetzliche Gütertrennung"
+    ],
+    "@eId": "art_182/para_2"
+  },
+  {
+    "text": "Der Richter hat auf Begehren der Ehefrau die Gütertrennung anzuordnen:",
+    "metadata": [
+      "Art. 183",
+      "Wortlaut der früheren Bestimmungen",
+      "Sechster Titel: Das Güterrecht der Ehegatten",
+      "Erster Abschnitt: Allgemeine Vorschriften",
+      "C. Ausserordentlicher Güterstand",
+      "II. Gerichtliche Gütertrennung",
+      "1. Auf Begehren der Ehefrau"
+    ],
+    "@eId": "art_183/para/listintro"
+  },
+  {
+    "text": "wenn der Ehemann für den Unterhalt von Weib und Kind nicht pflichtgemäss Sorge trägt;",
+    "metadata": [
+      "Art. 183",
+      "Wortlaut der früheren Bestimmungen",
+      "Sechster Titel: Das Güterrecht der Ehegatten",
+      "Erster Abschnitt: Allgemeine Vorschriften",
+      "C. Ausserordentlicher Güterstand",
+      "II. Gerichtliche Gütertrennung",
+      "1. Auf Begehren der Ehefrau"
+    ],
+    "@eId": "art_183/para/lbl_1"
+  },
+  {
+    "text": "wenn er die für das eingebrachte Frauengut verlangte Sicherheit nicht leistet;",
+    "metadata": [
+      "Art. 183",
+      "Wortlaut der früheren Bestimmungen",
+      "Sechster Titel: Das Güterrecht der Ehegatten",
+      "Erster Abschnitt: Allgemeine Vorschriften",
+      "C. Ausserordentlicher Güterstand",
+      "II. Gerichtliche Gütertrennung",
+      "1. Auf Begehren der Ehefrau"
+    ],
+    "@eId": "art_183/para/lbl_2"
+  },
+  {
+    "text": "wenn der Ehemann oder das Gesamtgut überschuldet ist.",
+    "metadata": [
+      "Art. 183",
+      "Wortlaut der früheren Bestimmungen",
+      "Sechster Titel: Das Güterrecht der Ehegatten",
+      "Erster Abschnitt: Allgemeine Vorschriften",
+      "C. Ausserordentlicher Güterstand",
+      "II. Gerichtliche Gütertrennung",
+      "1. Auf Begehren der Ehefrau"
+    ],
+    "@eId": "art_183/para/lbl_3"
+  },
+  {
+    "text": "Der Richter hat auf Begehren des Ehemannes die Gütertrennung anzuordnen:",
+    "metadata": [
+      "Art. 184",
+      "Wortlaut der früheren Bestimmungen",
+      "Sechster Titel: Das Güterrecht der Ehegatten",
+      "Erster Abschnitt: Allgemeine Vorschriften",
+      "C. Ausserordentlicher Güterstand",
+      "II. Gerichtliche Gütertrennung",
+      "2. Auf Begehren des Ehemannes"
+    ],
+    "@eId": "art_184/para/listintro"
+  },
+  {
+    "text": "wenn die Ehefrau überschuldet ist;",
+    "metadata": [
+      "Art. 184",
+      "Wortlaut der früheren Bestimmungen",
+      "Sechster Titel: Das Güterrecht der Ehegatten",
+      "Erster Abschnitt: Allgemeine Vorschriften",
+      "C. Ausserordentlicher Güterstand",
+      "II. Gerichtliche Gütertrennung",
+      "2. Auf Begehren des Ehemannes"
+    ],
+    "@eId": "art_184/para/lbl_1"
+  },
+  {
+    "text": "wenn die Ehefrau in ungerechtfertigter Weise die nach Gesetz oder Güterstand erforderliche Zustimmung zu den Verfügungen des Ehemannes über das eheliche Vermögen verweigert;",
+    "metadata": [
+      "Art. 184",
+      "Wortlaut der früheren Bestimmungen",
+      "Sechster Titel: Das Güterrecht der Ehegatten",
+      "Erster Abschnitt: Allgemeine Vorschriften",
+      "C. Ausserordentlicher Güterstand",
+      "II. Gerichtliche Gütertrennung",
+      "2. Auf Begehren des Ehemannes"
+    ],
+    "@eId": "art_184/para/lbl_2"
+  },
+  {
+    "text": "wenn die Ehefrau die Sicherstellung des eingebrachten Frauengutes verlangt hat.",
+    "metadata": [
+      "Art. 184",
+      "Wortlaut der früheren Bestimmungen",
+      "Sechster Titel: Das Güterrecht der Ehegatten",
+      "Erster Abschnitt: Allgemeine Vorschriften",
+      "C. Ausserordentlicher Güterstand",
+      "II. Gerichtliche Gütertrennung",
+      "2. Auf Begehren des Ehemannes"
+    ],
+    "@eId": "art_184/para/lbl_3"
+  },
+  {
+    "text": "Der Richter hat die Gütertrennung auf Begehren eines Gläubigers anzuordnen, wenn dieser bei der gegen einen Ehegatten durchgeführten Betreibung auf Pfändung zu Verlust gekommen ist.",
+    "metadata": [
+      "Art. 185",
+      "Wortlaut der früheren Bestimmungen",
+      "Sechster Titel: Das Güterrecht der Ehegatten",
+      "Erster Abschnitt: Allgemeine Vorschriften",
+      "C. Ausserordentlicher Güterstand",
+      "II. Gerichtliche Gütertrennung",
+      "3. Auf Begehren der Gläubiger"
+    ],
+    "@eId": "art_185/para"
+  },
+  {
+    "text": "Die Gütertrennung infolge Konkurses beginnt mit der Ausstellung der Verlustscheine, wird aber in Betreff des Vermögens, das die Ehegatten seit der Konkurseröffnung durch Erbgang oder auf andere Weise erworben haben, auf den Zeitpunkt des Erwerbes zurückbezogen.",
+    "metadata": [
+      "Art. 186",
+      "Wortlaut der früheren Bestimmungen",
+      "Sechster Titel: Das Güterrecht der Ehegatten",
+      "Erster Abschnitt: Allgemeine Vorschriften",
+      "C. Ausserordentlicher Güterstand",
+      "III. Beginn der Gütertrennung"
+    ],
+    "@eId": "art_186/para_1"
+  },
+  {
+    "text": "Die gerichtliche Gütertrennung wird auf den Zeitpunkt der Anbringung des Begehrens zurückbezogen.",
+    "metadata": [
+      "Art. 186",
+      "Wortlaut der früheren Bestimmungen",
+      "Sechster Titel: Das Güterrecht der Ehegatten",
+      "Erster Abschnitt: Allgemeine Vorschriften",
+      "C. Ausserordentlicher Güterstand",
+      "III. Beginn der Gütertrennung"
+    ],
+    "@eId": "art_186/para_2"
+  },
+  {
+    "text": "Der Eintritt der Gütertrennung wird im Falle des Konkurses oder des gerichtlichen Urteils zur Eintragung in das Güterrechtsregister von Amtes wegen angemeldet.",
+    "metadata": [
+      "Art. 186",
+      "Wortlaut der früheren Bestimmungen",
+      "Sechster Titel: Das Güterrecht der Ehegatten",
+      "Erster Abschnitt: Allgemeine Vorschriften",
+      "C. Ausserordentlicher Güterstand",
+      "III. Beginn der Gütertrennung"
+    ],
+    "@eId": "art_186/para_3"
+  },
+  {
+    "text": "Durch Befriedigung der Gläubiger wird die infolge Konkurses eingetretene oder wegen eines Verlustes in der Betreibung auf Pfändung angeordnete Gütertrennung nicht ohne weiteres aufgehoben.",
+    "metadata": [
+      "Art. 187",
+      "Wortlaut der früheren Bestimmungen",
+      "Sechster Titel: Das Güterrecht der Ehegatten",
+      "Erster Abschnitt: Allgemeine Vorschriften",
+      "C. Ausserordentlicher Güterstand",
+      "IV. Aufhebung der Gütertrennung"
+    ],
+    "@eId": "art_187/para_1"
+  },
+  {
+    "text": "Dagegen kann der Richter auf Verlangen eines Ehegatten die Wiederherstellung des früheren Güterstandes anordnen.",
+    "metadata": [
+      "Art. 187",
+      "Wortlaut der früheren Bestimmungen",
+      "Sechster Titel: Das Güterrecht der Ehegatten",
+      "Erster Abschnitt: Allgemeine Vorschriften",
+      "C. Ausserordentlicher Güterstand",
+      "IV. Aufhebung der Gütertrennung"
+    ],
+    "@eId": "art_187/para_2"
+  },
+  {
+    "text": "Die Wiederherstellung ist zur Eintragung in das Güterrechtsregister von Amtes wegen anzumelden.",
+    "metadata": [
+      "Art. 187",
+      "Wortlaut der früheren Bestimmungen",
+      "Sechster Titel: Das Güterrecht der Ehegatten",
+      "Erster Abschnitt: Allgemeine Vorschriften",
+      "C. Ausserordentlicher Güterstand",
+      "IV. Aufhebung der Gütertrennung"
+    ],
+    "@eId": "art_187/para_3"
+  },
+  {
+    "text": "Durch güterrechtliche Auseinandersetzungen oder durch Wechsel des Güterstandes kann ein Vermögen, aus dem bis dahin die Gläubiger eines Ehegatten oder der Gemeinschaft Befriedigung verlangen konnten, dieser Haftung nicht entzogen werden.",
+    "metadata": [
+      "Art. 188",
+      "Wortlaut der früheren Bestimmungen",
+      "Sechster Titel: Das Güterrecht der Ehegatten",
+      "Erster Abschnitt: Allgemeine Vorschriften",
+      "D. Wechsel des Güterstandes",
+      "I. Haftung"
+    ],
+    "@eId": "art_188/para_1"
+  },
+  {
+    "text": "Ist ein solches Vermögen auf einen Ehegatten übergegangen, so hat er die Schulden zu bezahlen, kann sich aber von dieser Haftung in dem Masse befreien, als er nachweist, dass das Empfangene hiezu nicht ausreicht.",
+    "metadata": [
+      "Art. 188",
+      "Wortlaut der früheren Bestimmungen",
+      "Sechster Titel: Das Güterrecht der Ehegatten",
+      "Erster Abschnitt: Allgemeine Vorschriften",
+      "D. Wechsel des Güterstandes",
+      "I. Haftung"
+    ],
+    "@eId": "art_188/para_2"
+  },
+  {
+    "text": "Was die Ehefrau aus dem Konkurse des Ehemannes oder in einer Anschlusspfändung zurück erhält, bleibt den Gläubigern des Ehemannes, soweit sie nicht auch Gläubiger der Ehefrau sind, entzogen.",
+    "metadata": [
+      "Art. 188",
+      "Wortlaut der früheren Bestimmungen",
+      "Sechster Titel: Das Güterrecht der Ehegatten",
+      "Erster Abschnitt: Allgemeine Vorschriften",
+      "D. Wechsel des Güterstandes",
+      "I. Haftung"
+    ],
+    "@eId": "art_188/para_3"
+  },
+  {
+    "text": "Tritt während der Ehe die Gütertrennung ein, so zerfällt das eheliche Vermögen mit Vorbehalt der Rechte der Gläubiger in das Eigengut des Mannes und das Eigengut der Frau.",
+    "metadata": [
+      "Art. 189",
+      "Wortlaut der früheren Bestimmungen",
+      "Sechster Titel: Das Güterrecht der Ehegatten",
+      "Erster Abschnitt: Allgemeine Vorschriften",
+      "D. Wechsel des Güterstandes",
+      "II. Auseinandersetzung bei Eintritt der Gütertrennung"
+    ],
+    "@eId": "art_189/para_1"
+  },
+  {
+    "text": "Ein Vorschlag wird den Ehegatten nach ihrem bisherigen Güterstande zugewiesen, einen Rückschlag hat der Ehemann zu tragen, soweit er nicht nachweist, dass die Ehefrau ihn verursacht hat.",
+    "metadata": [
+      "Art. 189",
+      "Wortlaut der früheren Bestimmungen",
+      "Sechster Titel: Das Güterrecht der Ehegatten",
+      "Erster Abschnitt: Allgemeine Vorschriften",
+      "D. Wechsel des Güterstandes",
+      "II. Auseinandersetzung bei Eintritt der Gütertrennung"
+    ],
+    "@eId": "art_189/para_2"
+  },
+  {
+    "text": "Behält der Ehemann während der Auseinandersetzung Frauengut in seiner Verfügungsgewalt, so hat er auf Verlangen der Ehefrau Sicherheit zu leisten.",
+    "metadata": [
+      "Art. 189",
+      "Wortlaut der früheren Bestimmungen",
+      "Sechster Titel: Das Güterrecht der Ehegatten",
+      "Erster Abschnitt: Allgemeine Vorschriften",
+      "D. Wechsel des Güterstandes",
+      "II. Auseinandersetzung bei Eintritt der Gütertrennung"
+    ],
+    "@eId": "art_189/para_3"
+  },
+  {
+    "text": "Das Sondergut entsteht durch Ehevertrag, durch Zuwendung Dritter und kraft Gesetzes.",
+    "metadata": [
+      "Art. 190",
+      "Wortlaut der früheren Bestimmungen",
+      "Sechster Titel: Das Güterrecht der Ehegatten",
+      "Erster Abschnitt: Allgemeine Vorschriften",
+      "E. Sondergut",
+      "I. Entstehung",
+      "1. Im Allgemeinen"
+    ],
+    "@eId": "art_190/para_1"
+  },
+  {
+    "text": "Was ein Ehegatte als Pflichtteil von seinen Verwandten zu beanspruchen hat, kann ihm nicht als Sondergut zugewendet werden.",
+    "metadata": [
+      "Art. 190",
+      "Wortlaut der früheren Bestimmungen",
+      "Sechster Titel: Das Güterrecht der Ehegatten",
+      "Erster Abschnitt: Allgemeine Vorschriften",
+      "E. Sondergut",
+      "I. Entstehung",
+      "1. Im Allgemeinen"
+    ],
+    "@eId": "art_190/para_2"
+  },
+  {
+    "text": "Kraft Gesetzes sind Sondergut:",
+    "metadata": [
+      "Art. 191",
+      "Wortlaut der früheren Bestimmungen",
+      "Sechster Titel: Das Güterrecht der Ehegatten",
+      "Erster Abschnitt: Allgemeine Vorschriften",
+      "E. Sondergut",
+      "I. Entstehung",
+      "2. Kraft Gesetzes"
+    ],
+    "@eId": "art_191/para/listintro"
+  },
+  {
+    "text": "die Gegenstände, die einem Ehegatten ausschliesslich zu persönlichem Gebrauche dienen;",
+    "metadata": [
+      "Art. 191",
+      "Wortlaut der früheren Bestimmungen",
+      "Sechster Titel: Das Güterrecht der Ehegatten",
+      "Erster Abschnitt: Allgemeine Vorschriften",
+      "E. Sondergut",
+      "I. Entstehung",
+      "2. Kraft Gesetzes"
+    ],
+    "@eId": "art_191/para/lbl_1"
+  },
+  {
+    "text": "die Vermögenswerte des Frauengutes, mit denen die Ehefrau einen Beruf oder ein Gewerbe betreibt;",
+    "metadata": [
+      "Art. 191",
+      "Wortlaut der früheren Bestimmungen",
+      "Sechster Titel: Das Güterrecht der Ehegatten",
+      "Erster Abschnitt: Allgemeine Vorschriften",
+      "E. Sondergut",
+      "I. Entstehung",
+      "2. Kraft Gesetzes"
+    ],
+    "@eId": "art_191/para/lbl_2"
+  },
+  {
+    "text": "der Erwerb der Ehefrau aus selbständiger Arbeit.",
+    "metadata": [
+      "Art. 191",
+      "Wortlaut der früheren Bestimmungen",
+      "Sechster Titel: Das Güterrecht der Ehegatten",
+      "Erster Abschnitt: Allgemeine Vorschriften",
+      "E. Sondergut",
+      "I. Entstehung",
+      "2. Kraft Gesetzes"
+    ],
+    "@eId": "art_191/para/lbl_3"
+  },
+  {
+    "text": "Das Sondergut steht im Allgemeinen und namentlich mit Hinsicht auf die Pflicht der Ehefrau, zur Tragung der Lasten der Ehe einen Beitrag zu leisten, unter den Regeln der Gütertrennung.",
+    "metadata": [
+      "Art. 192",
+      "Wortlaut der früheren Bestimmungen",
+      "Sechster Titel: Das Güterrecht der Ehegatten",
+      "Erster Abschnitt: Allgemeine Vorschriften",
+      "E. Sondergut",
+      "II. Wirkung"
+    ],
+    "@eId": "art_192/para_1"
+  },
+  {
+    "text": "Die Ehefrau hat ihren Arbeitserwerb, soweit erforderlich, für die Bedürfnisse des Haushaltes zu verwenden.",
+    "metadata": [
+      "Art. 192",
+      "Wortlaut der früheren Bestimmungen",
+      "Sechster Titel: Das Güterrecht der Ehegatten",
+      "Erster Abschnitt: Allgemeine Vorschriften",
+      "E. Sondergut",
+      "II. Wirkung"
+    ],
+    "@eId": "art_192/para_2"
+  },
+  {
+    "text": "Behauptet ein Ehegatte, dass ein Vermögenswert zum Sondergut gehöre, so ist er hiefür beweispflichtig.",
+    "metadata": [
+      "Art. 193",
+      "Wortlaut der früheren Bestimmungen",
+      "Sechster Titel: Das Güterrecht der Ehegatten",
+      "Erster Abschnitt: Allgemeine Vorschriften",
+      "E. Sondergut",
+      "III. Beweislast"
+    ],
+    "@eId": "art_193/para"
+  },
+  {
+    "text": "Die Güterverbindung vereinigt alles Vermögen, das den Ehegatten zur Zeit der Eheschliessung gehört oder während der Ehe auf sie übergeht, zum ehelichen Vermögen.",
+    "metadata": [
+      "Art. 194",
+      "Wortlaut der früheren Bestimmungen",
+      "Sechster Titel: Das Güterrecht der Ehegatten",
+      "Zweiter Abschnitt: Die Güterverbindung",
+      "A. Eigentumsverhältnisse",
+      "I. Eheliches Vermögen"
+    ],
+    "@eId": "art_194/para_1"
+  },
+  {
+    "text": "Ausgenommen hievon ist das Sondergut der Ehefrau.",
+    "metadata": [
+      "Art. 194",
+      "Wortlaut der früheren Bestimmungen",
+      "Sechster Titel: Das Güterrecht der Ehegatten",
+      "Zweiter Abschnitt: Die Güterverbindung",
+      "A. Eigentumsverhältnisse",
+      "I. Eheliches Vermögen"
+    ],
+    "@eId": "art_194/para_2"
+  },
+  {
+    "text": "Was vom ehelichen Vermögen zur Zeit der Eheschliessung der Ehefrau gehört oder ihr während der Ehe infolge von Erbgang oder auf andere Weise unentgeltlich zufällt, ist ihr eingebrachtes Gut und bleibt ihr Eigentum.",
+    "metadata": [
+      "Art. 195",
+      "Wortlaut der früheren Bestimmungen",
+      "Sechster Titel: Das Güterrecht der Ehegatten",
+      "Zweiter Abschnitt: Die Güterverbindung",
+      "A. Eigentumsverhältnisse",
+      "II. Eigentum von Mann und Frau"
+    ],
+    "@eId": "art_195/para_1"
+  },
+  {
+    "text": "Der Ehemann hat das Eigentum an dem von ihm eingebrachten Gute und an allem ehelichen Vermögen, das nicht Frauengut ist.",
+    "metadata": [
+      "Art. 195",
+      "Wortlaut der früheren Bestimmungen",
+      "Sechster Titel: Das Güterrecht der Ehegatten",
+      "Zweiter Abschnitt: Die Güterverbindung",
+      "A. Eigentumsverhältnisse",
+      "II. Eigentum von Mann und Frau"
+    ],
+    "@eId": "art_195/para_2"
+  },
+  {
+    "text": "Die Einkünfte der Ehefrau und die natürlichen Früchte des Frauengutes werden unter Vorbehalt der Bestimmungen über das Sondergut auf den Zeitpunkt ihrer Fälligkeit oder Trennung Eigentum des Ehemannes.",
+    "metadata": [
+      "Art. 195",
+      "Wortlaut der früheren Bestimmungen",
+      "Sechster Titel: Das Güterrecht der Ehegatten",
+      "Zweiter Abschnitt: Die Güterverbindung",
+      "A. Eigentumsverhältnisse",
+      "II. Eigentum von Mann und Frau"
+    ],
+    "@eId": "art_195/para_3"
+  },
+  {
+    "text": "Behauptet ein Ehegatte, dass ein Vermögenswert zum Frauengut gehöre, so ist er hiefür beweispflichtig.",
+    "metadata": [
+      "Art. 196",
+      "Wortlaut der früheren Bestimmungen",
+      "Sechster Titel: Das Güterrecht der Ehegatten",
+      "Zweiter Abschnitt: Die Güterverbindung",
+      "A. Eigentumsverhältnisse",
+      "III. Beweis"
+    ],
+    "@eId": "art_196/para_1"
+  },
+  {
+    "text": "Werden während der Ehe zum Ersatz für Vermögenswerte der Ehefrau Anschaffungen gemacht, so wird vermutet, dass sie zum Frauengute gehören.",
+    "metadata": [
+      "Art. 196",
+      "Wortlaut der früheren Bestimmungen",
+      "Sechster Titel: Das Güterrecht der Ehegatten",
+      "Zweiter Abschnitt: Die Güterverbindung",
+      "A. Eigentumsverhältnisse",
+      "III. Beweis"
+    ],
+    "@eId": "art_196/para_2"
+  },
+  {
+    "text": "Sowohl der Ehemann als die Ehefrau können jederzeit verlangen, dass über das eingebrachte Eigengut ein Inventar mit öffentlicher Urkunde errichtet werde.",
+    "metadata": [
+      "Art. 197",
+      "Wortlaut der früheren Bestimmungen",
+      "Sechster Titel: Das Güterrecht der Ehegatten",
+      "Zweiter Abschnitt: Die Güterverbindung",
+      "A. Eigentumsverhältnisse",
+      "IV. Inventar",
+      "1. Errichtung und Beweiskraft"
+    ],
+    "@eId": "art_197/para_1"
+  },
+  {
+    "text": "Ist ein solches Inventar binnen sechs Monaten nach der Einbringung errichtet worden, so wird es als richtig vermutet.",
+    "metadata": [
+      "Art. 197",
+      "Wortlaut der früheren Bestimmungen",
+      "Sechster Titel: Das Güterrecht der Ehegatten",
+      "Zweiter Abschnitt: Die Güterverbindung",
+      "A. Eigentumsverhältnisse",
+      "IV. Inventar",
+      "1. Errichtung und Beweiskraft"
+    ],
+    "@eId": "art_197/para_2"
+  },
+  {
+    "text": "Wird mit dem Inventar eine Schätzung verbunden und diese durch die öffentliche Urkunde festgestellt, so bestimmt sich die gegenseitige Ersatzpflicht der Ehegatten für die fehlenden Vermögenswerte nach dieser Schätzung.",
+    "metadata": [
+      "Art. 198",
+      "Wortlaut der früheren Bestimmungen",
+      "Sechster Titel: Das Güterrecht der Ehegatten",
+      "Zweiter Abschnitt: Die Güterverbindung",
+      "A. Eigentumsverhältnisse",
+      "IV. Inventar",
+      "2. Bedeutung der Schätzung"
+    ],
+    "@eId": "art_198/para_1"
+  },
+  {
+    "text": "Sind Gegenstände in guten Treuen während der Ehe unter dem Schätzungswerte veräussert worden, so tritt der Erlös an die Stelle der Schätzungssumme.",
+    "metadata": [
+      "Art. 198",
+      "Wortlaut der früheren Bestimmungen",
+      "Sechster Titel: Das Güterrecht der Ehegatten",
+      "Zweiter Abschnitt: Die Güterverbindung",
+      "A. Eigentumsverhältnisse",
+      "IV. Inventar",
+      "2. Bedeutung der Schätzung"
+    ],
+    "@eId": "art_198/para_2"
+  },
+  {
+    "text": "Mit der Schätzung kann unter Beobachtung der Vorschriften über den Ehevertrag binnen sechs Monaten nach der Einbringung des Frauengutes die Bestimmung verbunden werden, dass das Frauengut zum Schätzungsbetrag in das Eigentum des Ehemannes übergehen und die Frauengutsforderung unverändert bleiben soll.",
+    "metadata": [
+      "Art. 199",
+      "Wortlaut der früheren Bestimmungen",
+      "Sechster Titel: Das Güterrecht der Ehegatten",
+      "Zweiter Abschnitt: Die Güterverbindung",
+      "A. Eigentumsverhältnisse",
+      "V. Eigentum des Ehemannes am Frauengut"
+    ],
+    "@eId": "art_199/para"
+  },
+  {
+    "text": "Der Ehemann verwaltet das eheliche Vermögen.",
+    "metadata": [
+      "Art. 200",
+      "Wortlaut der früheren Bestimmungen",
+      "Sechster Titel: Das Güterrecht der Ehegatten",
+      "Zweiter Abschnitt: Die Güterverbindung",
+      "B. Verwaltung, Nutzung, Verfügungsbefugnis",
+      "I. Verwaltung"
+    ],
+    "@eId": "art_200/para_1"
+  },
+  {
+    "text": "Er trägt die Kosten der Verwaltung.",
+    "metadata": [
+      "Art. 200",
+      "Wortlaut der früheren Bestimmungen",
+      "Sechster Titel: Das Güterrecht der Ehegatten",
+      "Zweiter Abschnitt: Die Güterverbindung",
+      "B. Verwaltung, Nutzung, Verfügungsbefugnis",
+      "I. Verwaltung"
+    ],
+    "@eId": "art_200/para_2"
+  },
+  {
+    "text": "Der Ehefrau steht die Verwaltung insoweit zu, als sie zur Vertretung der ehelichen Gemeinschaft berechtigt ist.",
+    "metadata": [
+      "Art. 200",
+      "Wortlaut der früheren Bestimmungen",
+      "Sechster Titel: Das Güterrecht der Ehegatten",
+      "Zweiter Abschnitt: Die Güterverbindung",
+      "B. Verwaltung, Nutzung, Verfügungsbefugnis",
+      "I. Verwaltung"
+    ],
+    "@eId": "art_200/para_3"
+  },
+  {
+    "text": "Der Ehemann hat die Nutzung am eingebrachten Frauengut und ist hieraus gleich einem Nutzniesser verantwortlich.",
+    "metadata": [
+      "Art. 201",
+      "Wortlaut der früheren Bestimmungen",
+      "Sechster Titel: Das Güterrecht der Ehegatten",
+      "Zweiter Abschnitt: Die Güterverbindung",
+      "B. Verwaltung, Nutzung, Verfügungsbefugnis",
+      "II. Nutzung"
+    ],
+    "@eId": "art_201/para_1"
+  },
+  {
+    "text": "Diese Verantwortlichkeit wird durch die Schätzung des Frauengutes im Inventar nicht erhöht.",
+    "metadata": [
+      "Art. 201",
+      "Wortlaut der früheren Bestimmungen",
+      "Sechster Titel: Das Güterrecht der Ehegatten",
+      "Zweiter Abschnitt: Die Güterverbindung",
+      "B. Verwaltung, Nutzung, Verfügungsbefugnis",
+      "II. Nutzung"
+    ],
+    "@eId": "art_201/para_2"
+  },
+  {
+    "text": "Bares Geld, andere vertretbare Sachen und Inhaberpapiere, die nur der Gattung nach bestimmt worden sind, gehen in das Eigentum des Ehemannes über, und die Ehefrau erhält für deren Wert eine Ersatzforderung.",
+    "metadata": [
+      "Art. 201",
+      "Wortlaut der früheren Bestimmungen",
+      "Sechster Titel: Das Güterrecht der Ehegatten",
+      "Zweiter Abschnitt: Die Güterverbindung",
+      "B. Verwaltung, Nutzung, Verfügungsbefugnis",
+      "II. Nutzung"
+    ],
+    "@eId": "art_201/para_3"
+  },
+  {
+    "text": "Der Ehemann bedarf zur Verfügung über Vermögenswerte des eingebrachten Frauengutes, die nicht in sein Eigentum übergegangen sind, der Einwilligung der Ehefrau, sobald es sich um mehr als die gewöhnliche Verwaltung handelt.",
+    "metadata": [
+      "Art. 202",
+      "Wortlaut der früheren Bestimmungen",
+      "Sechster Titel: Das Güterrecht der Ehegatten",
+      "Zweiter Abschnitt: Die Güterverbindung",
+      "B. Verwaltung, Nutzung, Verfügungsbefugnis",
+      "III. Verfügungsbefugnis",
+      "1. Des Ehemannes"
+    ],
+    "@eId": "art_202/para_1"
+  },
+  {
+    "text": "Dritte dürfen jedoch diese Einwilligung voraussetzen, sofern sie nicht wissen oder wissen sollten, dass sie mangelt, oder sofern die Vermögenswerte nicht für jedermann als der Ehefrau gehörig erkennbar sind.",
+    "metadata": [
+      "Art. 202",
+      "Wortlaut der früheren Bestimmungen",
+      "Sechster Titel: Das Güterrecht der Ehegatten",
+      "Zweiter Abschnitt: Die Güterverbindung",
+      "B. Verwaltung, Nutzung, Verfügungsbefugnis",
+      "III. Verfügungsbefugnis",
+      "1. Des Ehemannes"
+    ],
+    "@eId": "art_202/para_2"
+  },
+  {
+    "text": "Soweit die Vertretung der ehelichen Gemeinschaft es rechtfertigt, hat die Ehefrau die Verfügung über das eheliche Vermögen.",
+    "metadata": [
+      "Art. 203",
+      "Wortlaut der früheren Bestimmungen",
+      "Sechster Titel: Das Güterrecht der Ehegatten",
+      "Zweiter Abschnitt: Die Güterverbindung",
+      "B. Verwaltung, Nutzung, Verfügungsbefugnis",
+      "III. Verfügungsbefugnis",
+      "2. Der Ehefrau",
+      "a. Im Allgemeinen"
+    ],
+    "@eId": "art_203/para"
+  },
+  {
+    "text": "Zur Ausschlagung einer Erbschaft bedarf die Ehefrau der Einwilligung des Ehemannes.",
+    "metadata": [
+      "Art. 204",
+      "Wortlaut der früheren Bestimmungen",
+      "Sechster Titel: Das Güterrecht der Ehegatten",
+      "Zweiter Abschnitt: Die Güterverbindung",
+      "B. Verwaltung, Nutzung, Verfügungsbefugnis",
+      "III. Verfügungsbefugnis",
+      "2. Der Ehefrau",
+      "b. Ausschlagung von Erbschaften"
+    ],
+    "@eId": "art_204/para_1"
+  },
+  {
+    "text": "Gegen die Verweigerung kann die Ehefrau die Entscheidung der Vormundschaftsbehörde anrufen.",
+    "metadata": [
+      "Art. 204",
+      "Wortlaut der früheren Bestimmungen",
+      "Sechster Titel: Das Güterrecht der Ehegatten",
+      "Zweiter Abschnitt: Die Güterverbindung",
+      "B. Verwaltung, Nutzung, Verfügungsbefugnis",
+      "III. Verfügungsbefugnis",
+      "2. Der Ehefrau",
+      "b. Ausschlagung von Erbschaften"
+    ],
+    "@eId": "art_204/para_2"
+  },
+  {
+    "text": "Der Ehemann hat der Ehefrau auf Verlangen jederzeit über den Stand ihres eingebrachten Gutes Auskunft zu geben.",
+    "metadata": [
+      "Art. 205",
+      "Wortlaut der früheren Bestimmungen",
+      "Sechster Titel: Das Güterrecht der Ehegatten",
+      "Zweiter Abschnitt: Die Güterverbindung",
+      "C. Sicherung der Ehefrau"
+    ],
+    "@eId": "art_205/para_1"
+  },
+  {
+    "text": "Die Ehefrau kann jederzeit Sicherstellung verlangen.",
+    "metadata": [
+      "Art. 205",
+      "Wortlaut der früheren Bestimmungen",
+      "Sechster Titel: Das Güterrecht der Ehegatten",
+      "Zweiter Abschnitt: Die Güterverbindung",
+      "C. Sicherung der Ehefrau"
+    ],
+    "@eId": "art_205/para_2"
+  },
+  {
+    "text": "Die Anfechtungsklage nach dem Bundesgesetz vom 11. April 1889",
+    "metadata": [
+      "Art. 205",
+      "Wortlaut der früheren Bestimmungen",
+      "Sechster Titel: Das Güterrecht der Ehegatten",
+      "Zweiter Abschnitt: Die Güterverbindung",
+      "C. Sicherung der Ehefrau"
+    ],
+    "@eId": "art_205/para_3"
+  },
+  {
+    "text": "Der Ehemann ist haftbar:",
+    "metadata": [
+      "Art. 206",
+      "Wortlaut der früheren Bestimmungen",
+      "Sechster Titel: Das Güterrecht der Ehegatten",
+      "Zweiter Abschnitt: Die Güterverbindung",
+      "D. Haftung",
+      "I. Haftung des Ehemannes"
+    ],
+    "@eId": "art_206/para/listintro"
+  },
+  {
+    "text": "für seine vorehelichen Schulden;",
+    "metadata": [
+      "Art. 206",
+      "Wortlaut der früheren Bestimmungen",
+      "Sechster Titel: Das Güterrecht der Ehegatten",
+      "Zweiter Abschnitt: Die Güterverbindung",
+      "D. Haftung",
+      "I. Haftung des Ehemannes"
+    ],
+    "@eId": "art_206/para/lbl_1"
+  },
+  {
+    "text": "für die Schulden, die er während der Ehe begründet;",
+    "metadata": [
+      "Art. 206",
+      "Wortlaut der früheren Bestimmungen",
+      "Sechster Titel: Das Güterrecht der Ehegatten",
+      "Zweiter Abschnitt: Die Güterverbindung",
+      "D. Haftung",
+      "I. Haftung des Ehemannes"
+    ],
+    "@eId": "art_206/para/lbl_2"
+  },
+  {
+    "text": "für die Schulden, die sich aus der Vertretung der ehelichen Gemeinschaft durch die Ehefrau ergeben.",
+    "metadata": [
+      "Art. 206",
+      "Wortlaut der früheren Bestimmungen",
+      "Sechster Titel: Das Güterrecht der Ehegatten",
+      "Zweiter Abschnitt: Die Güterverbindung",
+      "D. Haftung",
+      "I. Haftung des Ehemannes"
+    ],
+    "@eId": "art_206/para/lbl_3"
+  },
+  {
+    "text": "Die Ehefrau haftet mit ihrem ganzen Vermögen, ohne Rücksicht auf die dem Ehemann aus dem Güterstande zustehenden Rechte:",
+    "metadata": [
+      "Art. 207",
+      "Wortlaut der früheren Bestimmungen",
+      "Sechster Titel: Das Güterrecht der Ehegatten",
+      "Zweiter Abschnitt: Die Güterverbindung",
+      "D. Haftung",
+      "II. Haftung der Ehefrau",
+      "1. Mit dem ganzen Vermögen"
+    ],
+    "@eId": "art_207/para_1/listintro"
+  },
+  {
+    "text": "für ihre vorehelichen Schulden;",
+    "metadata": [
+      "Art. 207",
+      "Wortlaut der früheren Bestimmungen",
+      "Sechster Titel: Das Güterrecht der Ehegatten",
+      "Zweiter Abschnitt: Die Güterverbindung",
+      "D. Haftung",
+      "II. Haftung der Ehefrau",
+      "1. Mit dem ganzen Vermögen"
+    ],
+    "@eId": "art_207/para_1/lbl_1"
+  },
+  {
+    "text": "für die Schulden, die sie mit Einwilligung des Ehemannes",
+    "metadata": [
+      "Art. 207",
+      "Wortlaut der früheren Bestimmungen",
+      "Sechster Titel: Das Güterrecht der Ehegatten",
+      "Zweiter Abschnitt: Die Güterverbindung",
+      "D. Haftung",
+      "II. Haftung der Ehefrau",
+      "1. Mit dem ganzen Vermögen"
+    ],
+    "@eId": "art_207/para_1/lbl_2"
+  },
+  {
+    "text": "für die Schulden, die aus dem regelmässigen Betriebe ihres Berufes oder Gewerbes entstehen;",
+    "metadata": [
+      "Art. 207",
+      "Wortlaut der früheren Bestimmungen",
+      "Sechster Titel: Das Güterrecht der Ehegatten",
+      "Zweiter Abschnitt: Die Güterverbindung",
+      "D. Haftung",
+      "II. Haftung der Ehefrau",
+      "1. Mit dem ganzen Vermögen"
+    ],
+    "@eId": "art_207/para_1/lbl_3"
+  },
+  {
+    "text": "für die Schulden aus Erbschaften, die auf sie übergehen;",
+    "metadata": [
+      "Art. 207",
+      "Wortlaut der früheren Bestimmungen",
+      "Sechster Titel: Das Güterrecht der Ehegatten",
+      "Zweiter Abschnitt: Die Güterverbindung",
+      "D. Haftung",
+      "II. Haftung der Ehefrau",
+      "1. Mit dem ganzen Vermögen"
+    ],
+    "@eId": "art_207/para_1/lbl_4"
+  },
+  {
+    "text": "für die Schulden aus unerlaubten Handlungen.",
+    "metadata": [
+      "Art. 207",
+      "Wortlaut der früheren Bestimmungen",
+      "Sechster Titel: Das Güterrecht der Ehegatten",
+      "Zweiter Abschnitt: Die Güterverbindung",
+      "D. Haftung",
+      "II. Haftung der Ehefrau",
+      "1. Mit dem ganzen Vermögen"
+    ],
+    "@eId": "art_207/para_1/lbl_5"
+  },
+  {
+    "text": "Für die Schulden, die von ihr oder vom Ehemanne für den gemeinsamen Haushalt eingegangen werden, haftet sie, soweit der Ehemann nicht zahlungsfähig ist.",
+    "metadata": [
+      "Art. 207",
+      "Wortlaut der früheren Bestimmungen",
+      "Sechster Titel: Das Güterrecht der Ehegatten",
+      "Zweiter Abschnitt: Die Güterverbindung",
+      "D. Haftung",
+      "II. Haftung der Ehefrau",
+      "1. Mit dem ganzen Vermögen"
+    ],
+    "@eId": "art_207/para_2"
+  },
+  {
+    "text": "Die Ehefrau ist während und nach der Ehe nur mit dem Werte ihres Sonderguts verpflichtet:",
+    "metadata": [
+      "Art. 208",
+      "Wortlaut der früheren Bestimmungen",
+      "Sechster Titel: Das Güterrecht der Ehegatten",
+      "Zweiter Abschnitt: Die Güterverbindung",
+      "D. Haftung",
+      "II. Haftung der Ehefrau",
+      "2. Mit dem Sondergut"
+    ],
+    "@eId": "art_208/para_1/listintro"
+  },
+  {
+    "text": "für die Schulden, die sie als Sondergutsschulden begründet;",
+    "metadata": [
+      "Art. 208",
+      "Wortlaut der früheren Bestimmungen",
+      "Sechster Titel: Das Güterrecht der Ehegatten",
+      "Zweiter Abschnitt: Die Güterverbindung",
+      "D. Haftung",
+      "II. Haftung der Ehefrau",
+      "2. Mit dem Sondergut"
+    ],
+    "@eId": "art_208/para_1/lbl_1"
+  },
+  {
+    "text": "für die Schulden, die sie ohne Einwilligung des Ehemannes begründet;",
+    "metadata": [
+      "Art. 208",
+      "Wortlaut der früheren Bestimmungen",
+      "Sechster Titel: Das Güterrecht der Ehegatten",
+      "Zweiter Abschnitt: Die Güterverbindung",
+      "D. Haftung",
+      "II. Haftung der Ehefrau",
+      "2. Mit dem Sondergut"
+    ],
+    "@eId": "art_208/para_1/lbl_2"
+  },
+  {
+    "text": "für die Schulden, die sie in Überschreitung ihrer Befugnis zur Vertretung der ehelichen Gemeinschaft begründet.",
+    "metadata": [
+      "Art. 208",
+      "Wortlaut der früheren Bestimmungen",
+      "Sechster Titel: Das Güterrecht der Ehegatten",
+      "Zweiter Abschnitt: Die Güterverbindung",
+      "D. Haftung",
+      "II. Haftung der Ehefrau",
+      "2. Mit dem Sondergut"
+    ],
+    "@eId": "art_208/para_1/lbl_3"
+  },
+  {
+    "text": "Vorbehalten bleiben die Ansprüche aus ungerechtfertigter Bereicherung.",
+    "metadata": [
+      "Art. 208",
+      "Wortlaut der früheren Bestimmungen",
+      "Sechster Titel: Das Güterrecht der Ehegatten",
+      "Zweiter Abschnitt: Die Güterverbindung",
+      "D. Haftung",
+      "II. Haftung der Ehefrau",
+      "2. Mit dem Sondergut"
+    ],
+    "@eId": "art_208/para_2"
+  },
+  {
+    "text": "Sind Schulden, für die das eingebrachte Frauengut haftet, aus dem Mannesgut oder Schulden des Mannes aus dem eingebrachten Frauengut getilgt worden, so besteht eine Ersatzforderung, die jedoch unter Vorbehalt der gesetzlichen Ausnahmen erst mit der Aufhebung der Güterverbindung fällig wird.",
+    "metadata": [
+      "Art. 209",
+      "Wortlaut der früheren Bestimmungen",
+      "Sechster Titel: Das Güterrecht der Ehegatten",
+      "Zweiter Abschnitt: Die Güterverbindung",
+      "E. Ersatzforderungen",
+      "I. Fälligkeit"
+    ],
+    "@eId": "art_209/para_1"
+  },
+  {
+    "text": "Sind Sondergutsschulden der Ehefrau aus dem ehelichen Vermögen oder Schulden, für die eheliches Vermögen haftet, aus dem Sondergute getilgt worden, so kann die Ausgleichung schon während der Ehe gefordert werden.",
+    "metadata": [
+      "Art. 209",
+      "Wortlaut der früheren Bestimmungen",
+      "Sechster Titel: Das Güterrecht der Ehegatten",
+      "Zweiter Abschnitt: Die Güterverbindung",
+      "E. Ersatzforderungen",
+      "I. Fälligkeit"
+    ],
+    "@eId": "art_209/para_2"
+  },
+  {
+    "text": "Im Konkurse und bei der Pfändung von Vermögenswerten des Ehemannes kann die Ehefrau ihre Ersatzforderung für das eingebrachte und nicht mehr vorhandene Frauengut geltend machen.",
+    "metadata": [
+      "Art. 210",
+      "Wortlaut der früheren Bestimmungen",
+      "Sechster Titel: Das Güterrecht der Ehegatten",
+      "Zweiter Abschnitt: Die Güterverbindung",
+      "E. Ersatzforderungen",
+      "II. Konkurs des Ehemannes und Pfändung",
+      "1. Anspruch der Ehefrau"
+    ],
+    "@eId": "art_210/para_1"
+  },
+  {
+    "text": "Gegenforderungen des Ehemannes werden in Abzug gebracht.",
+    "metadata": [
+      "Art. 210",
+      "Wortlaut der früheren Bestimmungen",
+      "Sechster Titel: Das Güterrecht der Ehegatten",
+      "Zweiter Abschnitt: Die Güterverbindung",
+      "E. Ersatzforderungen",
+      "II. Konkurs des Ehemannes und Pfändung",
+      "1. Anspruch der Ehefrau"
+    ],
+    "@eId": "art_210/para_2"
+  },
+  {
+    "text": "Die noch vorhandenen Vermögenswerte kann die Ehefrau als Eigentümerin an sich ziehen.",
+    "metadata": [
+      "Art. 210",
+      "Wortlaut der früheren Bestimmungen",
+      "Sechster Titel: Das Güterrecht der Ehegatten",
+      "Zweiter Abschnitt: Die Güterverbindung",
+      "E. Ersatzforderungen",
+      "II. Konkurs des Ehemannes und Pfändung",
+      "1. Anspruch der Ehefrau"
+    ],
+    "@eId": "art_210/para_3"
+  },
+  {
+    "text": "Wird die Ehefrau durch die Zurücknahme ihres Eigentums und die ihr gegebenen Sicherheiten nicht für die Hälfte des eingebrachten Frauengutes gedeckt, so geniesst ihre Ersatzforderung für den Rest dieser Hälfte ein Vorrecht nach dem Bundesgesetz vom 11. April 1889",
+    "metadata": [
+      "Art. 211",
+      "Wortlaut der früheren Bestimmungen",
+      "Sechster Titel: Das Güterrecht der Ehegatten",
+      "Zweiter Abschnitt: Die Güterverbindung",
+      "E. Ersatzforderungen",
+      "II. Konkurs des Ehemannes und Pfändung",
+      "2. Vorrecht"
+    ],
+    "@eId": "art_211/para_1"
+  },
+  {
+    "text": "Die Abtretung des Vorrechts sowie der Verzicht auf dasselbe zugunsten einzelner Gläubiger sind ungültig.",
+    "metadata": [
+      "Art. 211",
+      "Wortlaut der früheren Bestimmungen",
+      "Sechster Titel: Das Güterrecht der Ehegatten",
+      "Zweiter Abschnitt: Die Güterverbindung",
+      "E. Ersatzforderungen",
+      "II. Konkurs des Ehemannes und Pfändung",
+      "2. Vorrecht"
+    ],
+    "@eId": "art_211/para_2"
+  },
+  {
+    "text": "Stirbt die Ehefrau, so fällt das eingebrachte Frauengut mit Vorbehalt der erbrechtlichen Ansprüche des Ehemannes an die Erben der Frau.",
+    "metadata": [
+      "Art. 212",
+      "Wortlaut der früheren Bestimmungen",
+      "Sechster Titel: Das Güterrecht der Ehegatten",
+      "Zweiter Abschnitt: Die Güterverbindung",
+      "F. Auflösung des ehelichen Vermögens",
+      "I. Tod der Ehefrau"
+    ],
+    "@eId": "art_212/para_1"
+  },
+  {
+    "text": "Für das Fehlende hat der Ehemann, soweit er verantwortlich ist und unter Anrechnung dessen, was er von der Ehefrau zu fordern hat, Ersatz zu leisten.",
+    "metadata": [
+      "Art. 212",
+      "Wortlaut der früheren Bestimmungen",
+      "Sechster Titel: Das Güterrecht der Ehegatten",
+      "Zweiter Abschnitt: Die Güterverbindung",
+      "F. Auflösung des ehelichen Vermögens",
+      "I. Tod der Ehefrau"
+    ],
+    "@eId": "art_212/para_2"
+  },
+  {
+    "text": "Stirbt der Ehemann, so nimmt die Ehefrau das noch vorhandene eingebrachte Frauengut zurück und kann gegen die Erben für das Fehlende die Ersatzforderung geltend machen.",
+    "metadata": [
+      "Art. 213",
+      "Wortlaut der früheren Bestimmungen",
+      "Sechster Titel: Das Güterrecht der Ehegatten",
+      "Zweiter Abschnitt: Die Güterverbindung",
+      "F. Auflösung des ehelichen Vermögens",
+      "II. Tod des Ehemannes"
+    ],
+    "@eId": "art_213/para"
+  },
+  {
+    "text": "Ergibt sich nach der Ausscheidung des Mannes- und Frauengutes ein Vorschlag, so gehört er zu einem Drittel der Ehefrau oder ihren Nachkommen und im übrigen dem Ehemann oder seinen Erben.",
+    "metadata": [
+      "Art. 214",
+      "Wortlaut der früheren Bestimmungen",
+      "Sechster Titel: Das Güterrecht der Ehegatten",
+      "Zweiter Abschnitt: Die Güterverbindung",
+      "F. Auflösung des ehelichen Vermögens",
+      "III. Vor- und Rückschlag"
+    ],
+    "@eId": "art_214/para_1"
+  },
+  {
+    "text": "Erzeigt das eheliche Vermögen einen Rückschlag, so wird er vom Ehemanne oder seinen Erben getragen, soweit nicht nachgewiesen wird, dass ihn die Ehefrau verursacht hat.",
+    "metadata": [
+      "Art. 214",
+      "Wortlaut der früheren Bestimmungen",
+      "Sechster Titel: Das Güterrecht der Ehegatten",
+      "Zweiter Abschnitt: Die Güterverbindung",
+      "F. Auflösung des ehelichen Vermögens",
+      "III. Vor- und Rückschlag"
+    ],
+    "@eId": "art_214/para_2"
+  },
+  {
+    "text": "Durch Ehevertrag kann eine andere Beteiligung am Vorschlag oder Rückschlag verabredet werden.",
+    "metadata": [
+      "Art. 214",
+      "Wortlaut der früheren Bestimmungen",
+      "Sechster Titel: Das Güterrecht der Ehegatten",
+      "Zweiter Abschnitt: Die Güterverbindung",
+      "F. Auflösung des ehelichen Vermögens",
+      "III. Vor- und Rückschlag"
+    ],
+    "@eId": "art_214/para_3"
+  },
+  {
+    "text": "Die allgemeine Gütergemeinschaft vereinigt das Vermögen und die Einkünfte von Mann und Frau zu einem Gesamtgute, das den beiden Ehegatten ungeteilt und insgesamt zugehört.",
+    "metadata": [
+      "Art. 215",
+      "Wortlaut der früheren Bestimmungen",
+      "Sechster Titel: Das Güterrecht der Ehegatten",
+      "Dritter Abschnitt: Die Gütergemeinschaft",
+      "A. Allgemeine Gütergemeinschaft",
+      "I. Eheliches Vermögen"
+    ],
+    "@eId": "art_215/para_1"
+  },
+  {
+    "text": "Kein Ehegatte kann über seinen Anteil am Gesamtgute verfügen.",
+    "metadata": [
+      "Art. 215",
+      "Wortlaut der früheren Bestimmungen",
+      "Sechster Titel: Das Güterrecht der Ehegatten",
+      "Dritter Abschnitt: Die Gütergemeinschaft",
+      "A. Allgemeine Gütergemeinschaft",
+      "I. Eheliches Vermögen"
+    ],
+    "@eId": "art_215/para_2"
+  },
+  {
+    "text": "Behauptet ein Ehegatte, dass ein Vermögenswert nicht zum Gesamtgute gehöre, so ist er hiefür beweispflichtig.",
+    "metadata": [
+      "Art. 215",
+      "Wortlaut der früheren Bestimmungen",
+      "Sechster Titel: Das Güterrecht der Ehegatten",
+      "Dritter Abschnitt: Die Gütergemeinschaft",
+      "A. Allgemeine Gütergemeinschaft",
+      "I. Eheliches Vermögen"
+    ],
+    "@eId": "art_215/para_3"
+  },
+  {
+    "text": "Der Ehemann verwaltet das Gesamtgut.",
+    "metadata": [
+      "Art. 216",
+      "Wortlaut der früheren Bestimmungen",
+      "Sechster Titel: Das Güterrecht der Ehegatten",
+      "Dritter Abschnitt: Die Gütergemeinschaft",
+      "A. Allgemeine Gütergemeinschaft",
+      "II. Verwaltung und Verfügungsbefugnis",
+      "1. Verwaltung"
+    ],
+    "@eId": "art_216/para_1"
+  },
+  {
+    "text": "Die Kosten der Verwaltung trägt das Gesamtgut.",
+    "metadata": [
+      "Art. 216",
+      "Wortlaut der früheren Bestimmungen",
+      "Sechster Titel: Das Güterrecht der Ehegatten",
+      "Dritter Abschnitt: Die Gütergemeinschaft",
+      "A. Allgemeine Gütergemeinschaft",
+      "II. Verwaltung und Verfügungsbefugnis",
+      "1. Verwaltung"
+    ],
+    "@eId": "art_216/para_2"
+  },
+  {
+    "text": "Der Ehefrau steht die Verwaltung insoweit zu, als sie zur Vertretung der ehelichen Gemeinschaft berechtigt ist.",
+    "metadata": [
+      "Art. 216",
+      "Wortlaut der früheren Bestimmungen",
+      "Sechster Titel: Das Güterrecht der Ehegatten",
+      "Dritter Abschnitt: Die Gütergemeinschaft",
+      "A. Allgemeine Gütergemeinschaft",
+      "II. Verwaltung und Verfügungsbefugnis",
+      "1. Verwaltung"
+    ],
+    "@eId": "art_216/para_3"
+  },
+  {
+    "text": "Zu Verfügungen über Vermögenswerte des Gesamtgutes bedarf es einer Erklärung der beiden Ehegatten oder der Einwilligung des einen zur Verfügung des andern, sobald es sich um mehr als die gewöhnliche Verwaltung handelt.",
+    "metadata": [
+      "Art. 217",
+      "Wortlaut der früheren Bestimmungen",
+      "Sechster Titel: Das Güterrecht der Ehegatten",
+      "Dritter Abschnitt: Die Gütergemeinschaft",
+      "A. Allgemeine Gütergemeinschaft",
+      "II. Verwaltung und Verfügungsbefugnis",
+      "2. Verfügungsbefugnis",
+      "a. Verfügung über Gesamtgut"
+    ],
+    "@eId": "art_217/para_1"
+  },
+  {
+    "text": "Dritte dürfen jedoch diese Einwilligung voraussetzen, sofern sie nicht wissen oder wissen sollten, dass sie mangelt, oder sofern die Vermögenswerte nicht für jedermann als zum Gesamtgute gehörig erkennbar sind.",
+    "metadata": [
+      "Art. 217",
+      "Wortlaut der früheren Bestimmungen",
+      "Sechster Titel: Das Güterrecht der Ehegatten",
+      "Dritter Abschnitt: Die Gütergemeinschaft",
+      "A. Allgemeine Gütergemeinschaft",
+      "II. Verwaltung und Verfügungsbefugnis",
+      "2. Verfügungsbefugnis",
+      "a. Verfügung über Gesamtgut"
+    ],
+    "@eId": "art_217/para_2"
+  },
+  {
+    "text": "Zur Ausschlagung von Erbschaften bedarf ein Ehegatte während der Ehe der Einwilligung des andern.",
+    "metadata": [
+      "Art. 218",
+      "Wortlaut der früheren Bestimmungen",
+      "Sechster Titel: Das Güterrecht der Ehegatten",
+      "Dritter Abschnitt: Die Gütergemeinschaft",
+      "A. Allgemeine Gütergemeinschaft",
+      "II. Verwaltung und Verfügungsbefugnis",
+      "2. Verfügungsbefugnis",
+      "b. Ausschlagung von Erbschaften"
+    ],
+    "@eId": "art_218/para_1"
+  },
+  {
+    "text": "Gegen die Verweigerung kann er die Entscheidung der Vormundschaftsbehörde anrufen.",
+    "metadata": [
+      "Art. 218",
+      "Wortlaut der früheren Bestimmungen",
+      "Sechster Titel: Das Güterrecht der Ehegatten",
+      "Dritter Abschnitt: Die Gütergemeinschaft",
+      "A. Allgemeine Gütergemeinschaft",
+      "II. Verwaltung und Verfügungsbefugnis",
+      "2. Verfügungsbefugnis",
+      "b. Ausschlagung von Erbschaften"
+    ],
+    "@eId": "art_218/para_2"
+  },
+  {
+    "text": "Der Ehemann ist persönlich und mit dem Gesamtgute haftbar:",
+    "metadata": [
+      "Art. 219",
+      "Wortlaut der früheren Bestimmungen",
+      "Sechster Titel: Das Güterrecht der Ehegatten",
+      "Dritter Abschnitt: Die Gütergemeinschaft",
+      "A. Allgemeine Gütergemeinschaft",
+      "III. Haftung",
+      "1. Schulden des Ehemannes"
+    ],
+    "@eId": "art_219/para/listintro"
+  },
+  {
+    "text": "für die vorehelichen Schulden beider Ehegatten;",
+    "metadata": [
+      "Art. 219",
+      "Wortlaut der früheren Bestimmungen",
+      "Sechster Titel: Das Güterrecht der Ehegatten",
+      "Dritter Abschnitt: Die Gütergemeinschaft",
+      "A. Allgemeine Gütergemeinschaft",
+      "III. Haftung",
+      "1. Schulden des Ehemannes"
+    ],
+    "@eId": "art_219/para/lbl_1"
+  },
+  {
+    "text": "für die Schulden, die sich aus der Vertretung der ehelichen Gemeinschaft durch die Ehefrau ergeben;",
+    "metadata": [
+      "Art. 219",
+      "Wortlaut der früheren Bestimmungen",
+      "Sechster Titel: Das Güterrecht der Ehegatten",
+      "Dritter Abschnitt: Die Gütergemeinschaft",
+      "A. Allgemeine Gütergemeinschaft",
+      "III. Haftung",
+      "1. Schulden des Ehemannes"
+    ],
+    "@eId": "art_219/para/lbl_2"
+  },
+  {
+    "text": "für alle andern Schulden, die während der Ehe durch ihn oder zu Lasten des Gesamtgutes durch die Ehefrau begründet werden.",
+    "metadata": [
+      "Art. 219",
+      "Wortlaut der früheren Bestimmungen",
+      "Sechster Titel: Das Güterrecht der Ehegatten",
+      "Dritter Abschnitt: Die Gütergemeinschaft",
+      "A. Allgemeine Gütergemeinschaft",
+      "III. Haftung",
+      "1. Schulden des Ehemannes"
+    ],
+    "@eId": "art_219/para/lbl_3"
+  },
+  {
+    "text": "Neben dem Gesamtgute haftet die Ehefrau persönlich:",
+    "metadata": [
+      "Art. 220",
+      "Wortlaut der früheren Bestimmungen",
+      "Sechster Titel: Das Güterrecht der Ehegatten",
+      "Dritter Abschnitt: Die Gütergemeinschaft",
+      "A. Allgemeine Gütergemeinschaft",
+      "III. Haftung",
+      "2. Schulden der Ehefrau",
+      "a. Der Ehefrau und des Gesamtgutes"
+    ],
+    "@eId": "art_220/para_1/listintro"
+  },
+  {
+    "text": "für ihre vorehelichen Schulden;",
+    "metadata": [
+      "Art. 220",
+      "Wortlaut der früheren Bestimmungen",
+      "Sechster Titel: Das Güterrecht der Ehegatten",
+      "Dritter Abschnitt: Die Gütergemeinschaft",
+      "A. Allgemeine Gütergemeinschaft",
+      "III. Haftung",
+      "2. Schulden der Ehefrau",
+      "a. Der Ehefrau und des Gesamtgutes"
+    ],
+    "@eId": "art_220/para_1/lbl_1"
+  },
+  {
+    "text": "für die Schulden, die sie mit Einwilligung des Ehemannes oder bei Verpflichtungen zu seinen Gunsten mit Zustimmung der Vormundschaftsbehörde begründet;",
+    "metadata": [
+      "Art. 220",
+      "Wortlaut der früheren Bestimmungen",
+      "Sechster Titel: Das Güterrecht der Ehegatten",
+      "Dritter Abschnitt: Die Gütergemeinschaft",
+      "A. Allgemeine Gütergemeinschaft",
+      "III. Haftung",
+      "2. Schulden der Ehefrau",
+      "a. Der Ehefrau und des Gesamtgutes"
+    ],
+    "@eId": "art_220/para_1/lbl_2"
+  },
+  {
+    "text": "für die Schulden, die aus dem regelmässigen Betriebe ihres Berufes oder Gewerbes entstehen;",
+    "metadata": [
+      "Art. 220",
+      "Wortlaut der früheren Bestimmungen",
+      "Sechster Titel: Das Güterrecht der Ehegatten",
+      "Dritter Abschnitt: Die Gütergemeinschaft",
+      "A. Allgemeine Gütergemeinschaft",
+      "III. Haftung",
+      "2. Schulden der Ehefrau",
+      "a. Der Ehefrau und des Gesamtgutes"
+    ],
+    "@eId": "art_220/para_1/lbl_3"
+  },
+  {
+    "text": "für die Schulden aus Erbschaften, die auf sie übergehen;",
+    "metadata": [
+      "Art. 220",
+      "Wortlaut der früheren Bestimmungen",
+      "Sechster Titel: Das Güterrecht der Ehegatten",
+      "Dritter Abschnitt: Die Gütergemeinschaft",
+      "A. Allgemeine Gütergemeinschaft",
+      "III. Haftung",
+      "2. Schulden der Ehefrau",
+      "a. Der Ehefrau und des Gesamtgutes"
+    ],
+    "@eId": "art_220/para_1/lbl_4"
+  },
+  {
+    "text": "für die Schulden aus unerlaubten Handlungen.",
+    "metadata": [
+      "Art. 220",
+      "Wortlaut der früheren Bestimmungen",
+      "Sechster Titel: Das Güterrecht der Ehegatten",
+      "Dritter Abschnitt: Die Gütergemeinschaft",
+      "A. Allgemeine Gütergemeinschaft",
+      "III. Haftung",
+      "2. Schulden der Ehefrau",
+      "a. Der Ehefrau und des Gesamtgutes"
+    ],
+    "@eId": "art_220/para_1/lbl_5"
+  },
+  {
+    "text": "Für die Schulden, die von ihr oder dem Ehemanne für den gemeinsamen Haushalt eingegangen werden, haftet sie, soweit das Gesamtgut nicht ausreicht.",
+    "metadata": [
+      "Art. 220",
+      "Wortlaut der früheren Bestimmungen",
+      "Sechster Titel: Das Güterrecht der Ehegatten",
+      "Dritter Abschnitt: Die Gütergemeinschaft",
+      "A. Allgemeine Gütergemeinschaft",
+      "III. Haftung",
+      "2. Schulden der Ehefrau",
+      "a. Der Ehefrau und des Gesamtgutes"
+    ],
+    "@eId": "art_220/para_2"
+  },
+  {
+    "text": "Für die andern Schulden des Gesamtgutes ist sie nicht persönlich haftbar.",
+    "metadata": [
+      "Art. 220",
+      "Wortlaut der früheren Bestimmungen",
+      "Sechster Titel: Das Güterrecht der Ehegatten",
+      "Dritter Abschnitt: Die Gütergemeinschaft",
+      "A. Allgemeine Gütergemeinschaft",
+      "III. Haftung",
+      "2. Schulden der Ehefrau",
+      "a. Der Ehefrau und des Gesamtgutes"
+    ],
+    "@eId": "art_220/para_3"
+  },
+  {
+    "text": "Die Ehefrau ist während und nach der Ehe nur mit dem Werte ihres Sonderguts verpflichtet:",
+    "metadata": [
+      "Art. 221",
+      "Wortlaut der früheren Bestimmungen",
+      "Sechster Titel: Das Güterrecht der Ehegatten",
+      "Dritter Abschnitt: Die Gütergemeinschaft",
+      "A. Allgemeine Gütergemeinschaft",
+      "III. Haftung",
+      "2. Schulden der Ehefrau",
+      "b. Sondergutsschulden"
+    ],
+    "@eId": "art_221/para_1/listintro"
+  },
+  {
+    "text": "für die Schulden, die sie aus Sondergutsschulden begründet;",
+    "metadata": [
+      "Art. 221",
+      "Wortlaut der früheren Bestimmungen",
+      "Sechster Titel: Das Güterrecht der Ehegatten",
+      "Dritter Abschnitt: Die Gütergemeinschaft",
+      "A. Allgemeine Gütergemeinschaft",
+      "III. Haftung",
+      "2. Schulden der Ehefrau",
+      "b. Sondergutsschulden"
+    ],
+    "@eId": "art_221/para_1/lbl_1"
+  },
+  {
+    "text": "für die Schulden, die sie ohne Einwilligung des Ehemannes begründet;",
+    "metadata": [
+      "Art. 221",
+      "Wortlaut der früheren Bestimmungen",
+      "Sechster Titel: Das Güterrecht der Ehegatten",
+      "Dritter Abschnitt: Die Gütergemeinschaft",
+      "A. Allgemeine Gütergemeinschaft",
+      "III. Haftung",
+      "2. Schulden der Ehefrau",
+      "b. Sondergutsschulden"
+    ],
+    "@eId": "art_221/para_1/lbl_2"
+  },
+  {
+    "text": "für die Schulden, die sie in Überschreitung ihrer Befugnis zur Vertretung der ehelichen Gemeinschaft begründet.",
+    "metadata": [
+      "Art. 221",
+      "Wortlaut der früheren Bestimmungen",
+      "Sechster Titel: Das Güterrecht der Ehegatten",
+      "Dritter Abschnitt: Die Gütergemeinschaft",
+      "A. Allgemeine Gütergemeinschaft",
+      "III. Haftung",
+      "2. Schulden der Ehefrau",
+      "b. Sondergutsschulden"
+    ],
+    "@eId": "art_221/para_1/lbl_3"
+  },
+  {
+    "text": "Vorbehalten bleiben die Ansprüche aus ungerechtfertigter Bereicherung.",
+    "metadata": [
+      "Art. 221",
+      "Wortlaut der früheren Bestimmungen",
+      "Sechster Titel: Das Güterrecht der Ehegatten",
+      "Dritter Abschnitt: Die Gütergemeinschaft",
+      "A. Allgemeine Gütergemeinschaft",
+      "III. Haftung",
+      "2. Schulden der Ehefrau",
+      "b. Sondergutsschulden"
+    ],
+    "@eId": "art_221/para_2"
+  },
+  {
+    "text": "Während der Dauer der Gütergemeinschaft geht die Zwangsvollstreckung für die Schulden, für die das Gesamtgut haftet, gegen den Ehemann.",
+    "metadata": [
+      "Art. 222",
+      "Wortlaut der früheren Bestimmungen",
+      "Sechster Titel: Das Güterrecht der Ehegatten",
+      "Dritter Abschnitt: Die Gütergemeinschaft",
+      "A. Allgemeine Gütergemeinschaft",
+      "III. Haftung",
+      "3. Zwangsvollstreckung"
+    ],
+    "@eId": "art_222/para"
+  },
+  {
+    "text": "Werden Schulden, für die das Gesamtgut haftet, aus diesem getilgt, so entsteht unter den Ehegatten keine Ersatzforderung.",
+    "metadata": [
+      "Art. 223",
+      "Wortlaut der früheren Bestimmungen",
+      "Sechster Titel: Das Güterrecht der Ehegatten",
+      "Dritter Abschnitt: Die Gütergemeinschaft",
+      "A. Allgemeine Gütergemeinschaft",
+      "IV. Ersatzforderungen",
+      "1. Im Allgemeinen"
+    ],
+    "@eId": "art_223/para_1"
+  },
+  {
+    "text": "Sind Gemeinschaftsschulden aus dem Sondergute oder Sondergutsschulden aus dem Gesamtgute getilgt worden, so entsteht ein Anspruch auf Ausgleichung, der schon während der Ehe geltend gemacht werden kann.",
+    "metadata": [
+      "Art. 223",
+      "Wortlaut der früheren Bestimmungen",
+      "Sechster Titel: Das Güterrecht der Ehegatten",
+      "Dritter Abschnitt: Die Gütergemeinschaft",
+      "A. Allgemeine Gütergemeinschaft",
+      "IV. Ersatzforderungen",
+      "1. Im Allgemeinen"
+    ],
+    "@eId": "art_223/para_2"
+  },
+  {
+    "text": "Im Konkurse des Ehemannes und bei der Pfändung von Vermögenswerten des Gesamtgutes kann die Ehefrau eine Forderung für ihr eingebrachtes Gut geltend machen und geniesst für deren Hälfte ein Vorrecht nach dem Bundesgesetz vom 11. April 1889",
+    "metadata": [
+      "Art. 224",
+      "Wortlaut der früheren Bestimmungen",
+      "Sechster Titel: Das Güterrecht der Ehegatten",
+      "Dritter Abschnitt: Die Gütergemeinschaft",
+      "A. Allgemeine Gütergemeinschaft",
+      "IV. Ersatzforderungen",
+      "2. Frauengutsforderung"
+    ],
+    "@eId": "art_224/para_1"
+  },
+  {
+    "text": "Die Abtretung des Vorrechtes sowie der Verzicht auf dasselbe zugunsten einzelner Gläubiger sind ungültig.",
+    "metadata": [
+      "Art. 224",
+      "Wortlaut der früheren Bestimmungen",
+      "Sechster Titel: Das Güterrecht der Ehegatten",
+      "Dritter Abschnitt: Die Gütergemeinschaft",
+      "A. Allgemeine Gütergemeinschaft",
+      "IV. Ersatzforderungen",
+      "2. Frauengutsforderung"
+    ],
+    "@eId": "art_224/para_2"
+  },
+  {
+    "text": "Stirbt ein Ehegatte, so fällt die eine Hälfte des Gesamtgutes dem überlebenden Ehegatten zu.",
+    "metadata": [
+      "Art. 225",
+      "Wortlaut der früheren Bestimmungen",
+      "Sechster Titel: Das Güterrecht der Ehegatten",
+      "Dritter Abschnitt: Die Gütergemeinschaft",
+      "A. Allgemeine Gütergemeinschaft",
+      "V. Auflösung des ehelichen Vermögens",
+      "1. Grösse der Anteile",
+      "a. Nach Gesetz"
+    ],
+    "@eId": "art_225/para_1"
+  },
+  {
+    "text": "Die andere Hälfte geht unter Vorbehalt der erbrechtlichen Ansprüche des Überlebenden auf die Erben des Verstorbenen über.",
+    "metadata": [
+      "Art. 225",
+      "Wortlaut der früheren Bestimmungen",
+      "Sechster Titel: Das Güterrecht der Ehegatten",
+      "Dritter Abschnitt: Die Gütergemeinschaft",
+      "A. Allgemeine Gütergemeinschaft",
+      "V. Auflösung des ehelichen Vermögens",
+      "1. Grösse der Anteile",
+      "a. Nach Gesetz"
+    ],
+    "@eId": "art_225/para_2"
+  },
+  {
+    "text": "Ist der überlebende Ehegatte erbunwürdig, so kann er aus der Gütergemeinschaft in keinem Falle mehr beanspruchen, als ihm bei Scheidung der Ehe zukommen würde.",
+    "metadata": [
+      "Art. 225",
+      "Wortlaut der früheren Bestimmungen",
+      "Sechster Titel: Das Güterrecht der Ehegatten",
+      "Dritter Abschnitt: Die Gütergemeinschaft",
+      "A. Allgemeine Gütergemeinschaft",
+      "V. Auflösung des ehelichen Vermögens",
+      "1. Grösse der Anteile",
+      "a. Nach Gesetz"
+    ],
+    "@eId": "art_225/para_3"
+  },
+  {
+    "text": "An Stelle der Teilung nach Hälften kann durch Ehevertrag eine andere Teilung gesetzt werden.",
+    "metadata": [
+      "Art. 226",
+      "Wortlaut der früheren Bestimmungen",
+      "Sechster Titel: Das Güterrecht der Ehegatten",
+      "Dritter Abschnitt: Die Gütergemeinschaft",
+      "A. Allgemeine Gütergemeinschaft",
+      "V. Auflösung des ehelichen Vermögens",
+      "1. Grösse der Anteile",
+      "b. Nach Vertrag"
+    ],
+    "@eId": "art_226/para_1"
+  },
+  {
+    "text": "Den Nachkommen des verstorbenen Ehegatten darf jedoch ein Viertel des bei seinem Tode vorhandenen Gesamtvermögens nicht entzogen werden.",
+    "metadata": [
+      "Art. 226",
+      "Wortlaut der früheren Bestimmungen",
+      "Sechster Titel: Das Güterrecht der Ehegatten",
+      "Dritter Abschnitt: Die Gütergemeinschaft",
+      "A. Allgemeine Gütergemeinschaft",
+      "V. Auflösung des ehelichen Vermögens",
+      "1. Grösse der Anteile",
+      "b. Nach Vertrag"
+    ],
+    "@eId": "art_226/para_2"
+  },
+  {
+    "text": "Der überlebende Ehemann bleibt für alle Schulden des Gesamtgutes persönlich haftbar.",
+    "metadata": [
+      "Art. 227",
+      "Wortlaut der früheren Bestimmungen",
+      "Sechster Titel: Das Güterrecht der Ehegatten",
+      "Dritter Abschnitt: Die Gütergemeinschaft",
+      "A. Allgemeine Gütergemeinschaft",
+      "V. Auflösung des ehelichen Vermögens",
+      "2. Haftung des Überlebenden"
+    ],
+    "@eId": "art_227/para_1"
+  },
+  {
+    "text": "Die überlebende Ehefrau befreit sich durch Ausschlagung des ihr zufallenden Anteils von jeder Haftung für die Schulden des Gesamtgutes, die nicht zugleich ihre persönlichen Schulden sind.",
+    "metadata": [
+      "Art. 227",
+      "Wortlaut der früheren Bestimmungen",
+      "Sechster Titel: Das Güterrecht der Ehegatten",
+      "Dritter Abschnitt: Die Gütergemeinschaft",
+      "A. Allgemeine Gütergemeinschaft",
+      "V. Auflösung des ehelichen Vermögens",
+      "2. Haftung des Überlebenden"
+    ],
+    "@eId": "art_227/para_2"
+  },
+  {
+    "text": "Übernimmt sie ihren Anteil, so ist sie haftbar, kann sich aber von dieser Haftung in dem Masse befreien, als sie nachweist, dass das Empfangene zur Bezahlung jener Schuld nicht ausreicht.",
+    "metadata": [
+      "Art. 227",
+      "Wortlaut der früheren Bestimmungen",
+      "Sechster Titel: Das Güterrecht der Ehegatten",
+      "Dritter Abschnitt: Die Gütergemeinschaft",
+      "A. Allgemeine Gütergemeinschaft",
+      "V. Auflösung des ehelichen Vermögens",
+      "2. Haftung des Überlebenden"
+    ],
+    "@eId": "art_227/para_3"
+  },
+  {
+    "text": "Bei der Teilung kann der überlebende Ehegatte verlangen, dass ihm auf Anrechnung diejenigen Vermögenswerte überlassen werden, die von ihm eingebracht worden sind.",
+    "metadata": [
+      "Art. 228",
+      "Wortlaut der früheren Bestimmungen",
+      "Sechster Titel: Das Güterrecht der Ehegatten",
+      "Dritter Abschnitt: Die Gütergemeinschaft",
+      "A. Allgemeine Gütergemeinschaft",
+      "V. Auflösung des ehelichen Vermögens",
+      "3. Anrechnung"
+    ],
+    "@eId": "art_228/para"
+  },
+  {
+    "text": "Der überlebende Ehegatte kann mit den gemeinsamen Kindern die Gütergemeinschaft fortsetzen.",
+    "metadata": [
+      "Art. 229",
+      "Wortlaut der früheren Bestimmungen",
+      "Sechster Titel: Das Güterrecht der Ehegatten",
+      "Dritter Abschnitt: Die Gütergemeinschaft",
+      "B. Fortgesetzte Gütergemeinschaft",
+      "I. Voraussetzung"
+    ],
+    "@eId": "art_229/para_1"
+  },
+  {
+    "text": "Für unmündige Kinder bedarf es hiezu der Zustimmung der Vormundschaftsbehörde.",
+    "metadata": [
+      "Art. 229",
+      "Wortlaut der früheren Bestimmungen",
+      "Sechster Titel: Das Güterrecht der Ehegatten",
+      "Dritter Abschnitt: Die Gütergemeinschaft",
+      "B. Fortgesetzte Gütergemeinschaft",
+      "I. Voraussetzung"
+    ],
+    "@eId": "art_229/para_2"
+  },
+  {
+    "text": "Wird die Gütergemeinschaft fortgesetzt, so können bis zu ihrer Beendigung erbrechtliche Ansprüche nicht geltend gemacht werden.",
+    "metadata": [
+      "Art. 229",
+      "Wortlaut der früheren Bestimmungen",
+      "Sechster Titel: Das Güterrecht der Ehegatten",
+      "Dritter Abschnitt: Die Gütergemeinschaft",
+      "B. Fortgesetzte Gütergemeinschaft",
+      "I. Voraussetzung"
+    ],
+    "@eId": "art_229/para_3"
+  },
+  {
+    "text": "Die fortgesetzte Gütergemeinschaft umfasst das bisherige eheliche Vermögen sowie die Einkünfte und den Erwerb der Beteiligten, mit Ausnahme des Sondergutes.",
+    "metadata": [
+      "Art. 230",
+      "Wortlaut der früheren Bestimmungen",
+      "Sechster Titel: Das Güterrecht der Ehegatten",
+      "Dritter Abschnitt: Die Gütergemeinschaft",
+      "B. Fortgesetzte Gütergemeinschaft",
+      "II. Umfang"
+    ],
+    "@eId": "art_230/para_1"
+  },
+  {
+    "text": "Was den Kindern oder dem Ehegatten während dieser Gemeinschaft infolge von Erbgang oder auf andere Weise unentgeltlich zufällt, wird, soweit nicht anders verfügt ist, ihr Sondergut.",
+    "metadata": [
+      "Art. 230",
+      "Wortlaut der früheren Bestimmungen",
+      "Sechster Titel: Das Güterrecht der Ehegatten",
+      "Dritter Abschnitt: Die Gütergemeinschaft",
+      "B. Fortgesetzte Gütergemeinschaft",
+      "II. Umfang"
+    ],
+    "@eId": "art_230/para_2"
+  },
+  {
+    "text": "Die Zwangsvollstreckung ist unter den Beteiligten in gleicher Weise beschränkt wie unter den Ehegatten.",
+    "metadata": [
+      "Art. 230",
+      "Wortlaut der früheren Bestimmungen",
+      "Sechster Titel: Das Güterrecht der Ehegatten",
+      "Dritter Abschnitt: Die Gütergemeinschaft",
+      "B. Fortgesetzte Gütergemeinschaft",
+      "II. Umfang"
+    ],
+    "@eId": "art_230/para_3"
+  },
+  {
+    "text": "Sind die Kinder unmündig, so steht die Verwaltung und Vertretung der fortgesetzten Gütergemeinschaft dem überlebenden Ehegatten zu.",
+    "metadata": [
+      "Art. 231",
+      "Wortlaut der früheren Bestimmungen",
+      "Sechster Titel: Das Güterrecht der Ehegatten",
+      "Dritter Abschnitt: Die Gütergemeinschaft",
+      "B. Fortgesetzte Gütergemeinschaft",
+      "III. Verwaltung und Vertretung"
+    ],
+    "@eId": "art_231/para_1"
+  },
+  {
+    "text": "Sind sie mündig, so kann durch Vereinbarung etwas anderes festgesetzt werden.",
+    "metadata": [
+      "Art. 231",
+      "Wortlaut der früheren Bestimmungen",
+      "Sechster Titel: Das Güterrecht der Ehegatten",
+      "Dritter Abschnitt: Die Gütergemeinschaft",
+      "B. Fortgesetzte Gütergemeinschaft",
+      "III. Verwaltung und Vertretung"
+    ],
+    "@eId": "art_231/para_2"
+  },
+  {
+    "text": "Der überlebende Ehegatte kann die fortgesetzte Gütergemeinschaft jederzeit aufheben.",
+    "metadata": [
+      "Art. 232",
+      "Wortlaut der früheren Bestimmungen",
+      "Sechster Titel: Das Güterrecht der Ehegatten",
+      "Dritter Abschnitt: Die Gütergemeinschaft",
+      "B. Fortgesetzte Gütergemeinschaft",
+      "IV. Aufhebung",
+      "1. Durch Erklärung"
+    ],
+    "@eId": "art_232/para_1"
+  },
+  {
+    "text": "Mündige Kinder können aus der Gemeinschaft jederzeit entweder einzeln oder insgesamt austreten.",
+    "metadata": [
+      "Art. 232",
+      "Wortlaut der früheren Bestimmungen",
+      "Sechster Titel: Das Güterrecht der Ehegatten",
+      "Dritter Abschnitt: Die Gütergemeinschaft",
+      "B. Fortgesetzte Gütergemeinschaft",
+      "IV. Aufhebung",
+      "1. Durch Erklärung"
+    ],
+    "@eId": "art_232/para_2"
+  },
+  {
+    "text": "Für unmündige Kinder kann die Vormundschaftsbehörde den Austritt erklären.",
+    "metadata": [
+      "Art. 232",
+      "Wortlaut der früheren Bestimmungen",
+      "Sechster Titel: Das Güterrecht der Ehegatten",
+      "Dritter Abschnitt: Die Gütergemeinschaft",
+      "B. Fortgesetzte Gütergemeinschaft",
+      "IV. Aufhebung",
+      "1. Durch Erklärung"
+    ],
+    "@eId": "art_232/para_3"
+  },
+  {
+    "text": "Die fortgesetzte Gütergemeinschaft wird von Gesetzes wegen aufgehoben:",
+    "metadata": [
+      "Art. 233",
+      "Wortlaut der früheren Bestimmungen",
+      "Sechster Titel: Das Güterrecht der Ehegatten",
+      "Dritter Abschnitt: Die Gütergemeinschaft",
+      "B. Fortgesetzte Gütergemeinschaft",
+      "IV. Aufhebung",
+      "2. Von Gesetzes wegen"
+    ],
+    "@eId": "art_233/para_1/listintro"
+  },
+  {
+    "text": "mit dem Tode oder der Wiederverheiratung des überlebenden Ehegatten;",
+    "metadata": [
+      "Art. 233",
+      "Wortlaut der früheren Bestimmungen",
+      "Sechster Titel: Das Güterrecht der Ehegatten",
+      "Dritter Abschnitt: Die Gütergemeinschaft",
+      "B. Fortgesetzte Gütergemeinschaft",
+      "IV. Aufhebung",
+      "2. Von Gesetzes wegen"
+    ],
+    "@eId": "art_233/para_1/lbl_1"
+  },
+  {
+    "text": "mit dem Konkurse des überlebenden Ehegatten oder der Kinder.",
+    "metadata": [
+      "Art. 233",
+      "Wortlaut der früheren Bestimmungen",
+      "Sechster Titel: Das Güterrecht der Ehegatten",
+      "Dritter Abschnitt: Die Gütergemeinschaft",
+      "B. Fortgesetzte Gütergemeinschaft",
+      "IV. Aufhebung",
+      "2. Von Gesetzes wegen"
+    ],
+    "@eId": "art_233/para_1/lbl_2"
+  },
+  {
+    "text": "Fällt nur eines der Kinder in Konkurs, so können die übrigen Beteiligten verlangen, dass es ausscheide.",
+    "metadata": [
+      "Art. 233",
+      "Wortlaut der früheren Bestimmungen",
+      "Sechster Titel: Das Güterrecht der Ehegatten",
+      "Dritter Abschnitt: Die Gütergemeinschaft",
+      "B. Fortgesetzte Gütergemeinschaft",
+      "IV. Aufhebung",
+      "2. Von Gesetzes wegen"
+    ],
+    "@eId": "art_233/para_2"
+  },
+  {
+    "text": "Im Konkurse des Vaters sowie bei der Pfändung von Vermögenswerten des Gesamtgutes treten die Kinder an die Stelle der verstorbenen Mutter.",
+    "metadata": [
+      "Art. 233",
+      "Wortlaut der früheren Bestimmungen",
+      "Sechster Titel: Das Güterrecht der Ehegatten",
+      "Dritter Abschnitt: Die Gütergemeinschaft",
+      "B. Fortgesetzte Gütergemeinschaft",
+      "IV. Aufhebung",
+      "2. Von Gesetzes wegen"
+    ],
+    "@eId": "art_233/para_3"
+  },
+  {
+    "text": "Ist ein Gläubiger bei der Betreibung auf Pfändung gegen den Ehegatten oder gegen eines der Kinder zu Verlust gekommen, so kann er beim Richter die Aufhebung der Gütergemeinschaft verlangen.",
+    "metadata": [
+      "Art. 234",
+      "Wortlaut der früheren Bestimmungen",
+      "Sechster Titel: Das Güterrecht der Ehegatten",
+      "Dritter Abschnitt: Die Gütergemeinschaft",
+      "B. Fortgesetzte Gütergemeinschaft",
+      "IV. Aufhebung",
+      "3. Durch Urteil"
+    ],
+    "@eId": "art_234/para_1"
+  },
+  {
+    "text": "Wird diese Aufhebung von dem Gläubiger eines Kindes gefordert, so können die übrigen Beteiligten verlangen, dass es ausscheide.",
+    "metadata": [
+      "Art. 234",
+      "Wortlaut der früheren Bestimmungen",
+      "Sechster Titel: Das Güterrecht der Ehegatten",
+      "Dritter Abschnitt: Die Gütergemeinschaft",
+      "B. Fortgesetzte Gütergemeinschaft",
+      "IV. Aufhebung",
+      "3. Durch Urteil"
+    ],
+    "@eId": "art_234/para_2"
+  },
+  {
+    "text": "Verheiratet sich ein Kind, so können die übrigen Beteiligten verlangen, dass es ausscheide.",
+    "metadata": [
+      "Art. 235",
+      "Wortlaut der früheren Bestimmungen",
+      "Sechster Titel: Das Güterrecht der Ehegatten",
+      "Dritter Abschnitt: Die Gütergemeinschaft",
+      "B. Fortgesetzte Gütergemeinschaft",
+      "IV. Aufhebung",
+      "4. Durch Heirat oder Tod eines Kindes"
+    ],
+    "@eId": "art_235/para_1"
+  },
+  {
+    "text": "Stirbt ein Kind mit Hinterlassung von Nachkommen, so können die übrigen Beteiligten deren Ausscheiden verlangen.",
+    "metadata": [
+      "Art. 235",
+      "Wortlaut der früheren Bestimmungen",
+      "Sechster Titel: Das Güterrecht der Ehegatten",
+      "Dritter Abschnitt: Die Gütergemeinschaft",
+      "B. Fortgesetzte Gütergemeinschaft",
+      "IV. Aufhebung",
+      "4. Durch Heirat oder Tod eines Kindes"
+    ],
+    "@eId": "art_235/para_2"
+  },
+  {
+    "text": "Stirbt ein Kind ohne Hinterlassung von Nachkommen, so verbleibt sein Anteil das Gesamtgut, unter Vorbehalt der Ansprüche nicht an der Gemeinschaft beteiligter Erben.",
+    "metadata": [
+      "Art. 235",
+      "Wortlaut der früheren Bestimmungen",
+      "Sechster Titel: Das Güterrecht der Ehegatten",
+      "Dritter Abschnitt: Die Gütergemeinschaft",
+      "B. Fortgesetzte Gütergemeinschaft",
+      "IV. Aufhebung",
+      "4. Durch Heirat oder Tod eines Kindes"
+    ],
+    "@eId": "art_235/para_3"
+  },
+  {
+    "text": "Bei der Auflösung der fortgesetzten Gütergemeinschaft oder dem Ausscheiden eines Kindes erfolgt die Teilung oder die Abfindung nach der in diesem Zeitpunkte vorhandenen Vermögenslage.",
+    "metadata": [
+      "Art. 236",
+      "Wortlaut der früheren Bestimmungen",
+      "Sechster Titel: Das Güterrecht der Ehegatten",
+      "Dritter Abschnitt: Die Gütergemeinschaft",
+      "B. Fortgesetzte Gütergemeinschaft",
+      "IV. Aufhebung",
+      "5. Teilungsart"
+    ],
+    "@eId": "art_236/para_1"
+  },
+  {
+    "text": "An den Anteilen, die den einzelnen Kindern zufallen, behält der Ehegatte die erbrechtlichen Ansprüche.",
+    "metadata": [
+      "Art. 236",
+      "Wortlaut der früheren Bestimmungen",
+      "Sechster Titel: Das Güterrecht der Ehegatten",
+      "Dritter Abschnitt: Die Gütergemeinschaft",
+      "B. Fortgesetzte Gütergemeinschaft",
+      "IV. Aufhebung",
+      "5. Teilungsart"
+    ],
+    "@eId": "art_236/para_2"
+  },
+  {
+    "text": "Die Auseinandersetzung darf nicht zur Unzeit vorgenommen werden.",
+    "metadata": [
+      "Art. 236",
+      "Wortlaut der früheren Bestimmungen",
+      "Sechster Titel: Das Güterrecht der Ehegatten",
+      "Dritter Abschnitt: Die Gütergemeinschaft",
+      "B. Fortgesetzte Gütergemeinschaft",
+      "IV. Aufhebung",
+      "5. Teilungsart"
+    ],
+    "@eId": "art_236/para_3"
+  },
+  {
+    "text": "Die Ehegatten können durch Ehevertrag eine beschränkte Gütergemeinschaft annehmen, indem sie einzelne Vermögenswerte oder gewisse Arten von solchen, wie namentlich die Liegenschaften, von der Gemeinschaft ausschliessen.",
+    "metadata": [
+      "Art. 237",
+      "Wortlaut der früheren Bestimmungen",
+      "Sechster Titel: Das Güterrecht der Ehegatten",
+      "Dritter Abschnitt: Die Gütergemeinschaft",
+      "C. Beschränkte Gütergemeinschaft",
+      "I. Mit Gütertrennung"
+    ],
+    "@eId": "art_237/para_1"
+  },
+  {
+    "text": "Die ausgeschlossenen Vermögenswerte stehen unter den Regeln der Gütertrennung.",
+    "metadata": [
+      "Art. 237",
+      "Wortlaut der früheren Bestimmungen",
+      "Sechster Titel: Das Güterrecht der Ehegatten",
+      "Dritter Abschnitt: Die Gütergemeinschaft",
+      "C. Beschränkte Gütergemeinschaft",
+      "I. Mit Gütertrennung"
+    ],
+    "@eId": "art_237/para_2"
+  },
+  {
+    "text": "Das von der Gemeinschaft ausgeschlossene Frauengut kann durch den Ehevertrag unter die Regeln der Güterverbindung gestellt werden.",
+    "metadata": [
+      "Art. 238",
+      "Wortlaut der früheren Bestimmungen",
+      "Sechster Titel: Das Güterrecht der Ehegatten",
+      "Dritter Abschnitt: Die Gütergemeinschaft",
+      "C. Beschränkte Gütergemeinschaft",
+      "II. Mit Güterverbindung"
+    ],
+    "@eId": "art_238/para_1"
+  },
+  {
+    "text": "Eine solche Abrede wird angenommen, wenn die Ehefrau dieses Vermögen durch den Ehevertrag dem Ehemanne zur Verwaltung und Nutzung überlassen hat.",
+    "metadata": [
+      "Art. 238",
+      "Wortlaut der früheren Bestimmungen",
+      "Sechster Titel: Das Güterrecht der Ehegatten",
+      "Dritter Abschnitt: Die Gütergemeinschaft",
+      "C. Beschränkte Gütergemeinschaft",
+      "II. Mit Güterverbindung"
+    ],
+    "@eId": "art_238/para_2"
+  },
+  {
+    "text": "Die Gütergemeinschaft kann durch Ehevertrag auf die Errungenschaft beschränkt werden.",
+    "metadata": [
+      "Art. 239",
+      "Wortlaut der früheren Bestimmungen",
+      "Sechster Titel: Das Güterrecht der Ehegatten",
+      "Dritter Abschnitt: Die Gütergemeinschaft",
+      "C. Beschränkte Gütergemeinschaft",
+      "III. Errungenschaftsgemeinschaft",
+      "1. Umfang"
+    ],
+    "@eId": "art_239/para_1"
+  },
+  {
+    "text": "Was während der Ehe erworben und nicht als Ersatz für eingebrachte Vermögenswerte angeschafft worden ist, bildet die Errungenschaft und steht unter den Regeln der Gütergemeinschaft.",
+    "metadata": [
+      "Art. 239",
+      "Wortlaut der früheren Bestimmungen",
+      "Sechster Titel: Das Güterrecht der Ehegatten",
+      "Dritter Abschnitt: Die Gütergemeinschaft",
+      "C. Beschränkte Gütergemeinschaft",
+      "III. Errungenschaftsgemeinschaft",
+      "1. Umfang"
+    ],
+    "@eId": "art_239/para_2"
+  },
+  {
+    "text": "Für das bei Eingehung oder während der Ehe von Mann und Frau eingebrachte Vermögen gelten die Regeln der Güterverbindung.",
+    "metadata": [
+      "Art. 239",
+      "Wortlaut der früheren Bestimmungen",
+      "Sechster Titel: Das Güterrecht der Ehegatten",
+      "Dritter Abschnitt: Die Gütergemeinschaft",
+      "C. Beschränkte Gütergemeinschaft",
+      "III. Errungenschaftsgemeinschaft",
+      "1. Umfang"
+    ],
+    "@eId": "art_239/para_3"
+  },
+  {
+    "text": "Ergibt sich bei der Aufhebung der Gemeinschaft ein Vorschlag, so wird er zwischen den Ehegatten oder ihren Erben nach Hälften geteilt.",
+    "metadata": [
+      "Art. 240",
+      "Wortlaut der früheren Bestimmungen",
+      "Sechster Titel: Das Güterrecht der Ehegatten",
+      "Dritter Abschnitt: Die Gütergemeinschaft",
+      "C. Beschränkte Gütergemeinschaft",
+      "III. Errungenschaftsgemeinschaft",
+      "2. Beteiligung am Vor- und Rückschlag"
+    ],
+    "@eId": "art_240/para_1"
+  },
+  {
+    "text": "Ein Rückschlag wird vom Ehemanne oder seinen Erben getragen, soweit er nicht nachweisbar durch die Ehefrau verursacht worden ist.",
+    "metadata": [
+      "Art. 240",
+      "Wortlaut der früheren Bestimmungen",
+      "Sechster Titel: Das Güterrecht der Ehegatten",
+      "Dritter Abschnitt: Die Gütergemeinschaft",
+      "C. Beschränkte Gütergemeinschaft",
+      "III. Errungenschaftsgemeinschaft",
+      "2. Beteiligung am Vor- und Rückschlag"
+    ],
+    "@eId": "art_240/para_2"
+  },
+  {
+    "text": "Durch Ehevertrag kann eine andere Beteiligung am Vorschlag oder Rückschlag verabredet werden.",
+    "metadata": [
+      "Art. 240",
+      "Wortlaut der früheren Bestimmungen",
+      "Sechster Titel: Das Güterrecht der Ehegatten",
+      "Dritter Abschnitt: Die Gütergemeinschaft",
+      "C. Beschränkte Gütergemeinschaft",
+      "III. Errungenschaftsgemeinschaft",
+      "2. Beteiligung am Vor- und Rückschlag"
+    ],
+    "@eId": "art_240/para_3"
+  },
+  {
+    "text": "Die Gütertrennung bezieht sich, wenn sie von Gesetzes wegen oder durch Gerichtsurteil begründet wird, auf das ganze Vermögen beider Ehegatten.",
+    "metadata": [
+      "Art. 241",
+      "Wortlaut der früheren Bestimmungen",
+      "Sechster Titel: Das Güterrecht der Ehegatten",
+      "Vierter Abschnitt: Die Gütertrennung",
+      "A. Ausdehnung"
+    ],
+    "@eId": "art_241/para_1"
+  },
+  {
+    "text": "Wird sie durch Ehevertrag begründet, so erstreckt sie sich auf das ganze Vermögen, insoweit nicht im Vertrag besondere Ausnahmen aufgestellt sind.",
+    "metadata": [
+      "Art. 241",
+      "Wortlaut der früheren Bestimmungen",
+      "Sechster Titel: Das Güterrecht der Ehegatten",
+      "Vierter Abschnitt: Die Gütertrennung",
+      "A. Ausdehnung"
+    ],
+    "@eId": "art_241/para_2"
+  },
+  {
+    "text": "Jeder Ehegatte behält das Eigentum an seinem Vermögen sowie die Verwaltung und die Nutzung.",
+    "metadata": [
+      "Art. 242",
+      "Wortlaut der früheren Bestimmungen",
+      "Sechster Titel: Das Güterrecht der Ehegatten",
+      "Vierter Abschnitt: Die Gütertrennung",
+      "B. Eigentum, Verwaltung und Nutzung"
+    ],
+    "@eId": "art_242/para_1"
+  },
+  {
+    "text": "Hat die Ehefrau dem Ehemanne die Verwaltung übertragen, so wird vermutet, dass er ihr während der Ehe keine Rechnung zu stellen habe und die Einkünfte aus dem übertragenen Vermögen als Beitrag an die ehelichen Lasten beanspruchen dürfe.",
+    "metadata": [
+      "Art. 242",
+      "Wortlaut der früheren Bestimmungen",
+      "Sechster Titel: Das Güterrecht der Ehegatten",
+      "Vierter Abschnitt: Die Gütertrennung",
+      "B. Eigentum, Verwaltung und Nutzung"
+    ],
+    "@eId": "art_242/para_2"
+  },
+  {
+    "text": "Ein Verzicht der Ehefrau auf das Recht, die Verwaltung jederzeit wieder an sich zu ziehen, ist nicht verbindlich.",
+    "metadata": [
+      "Art. 242",
+      "Wortlaut der früheren Bestimmungen",
+      "Sechster Titel: Das Güterrecht der Ehegatten",
+      "Vierter Abschnitt: Die Gütertrennung",
+      "B. Eigentum, Verwaltung und Nutzung"
+    ],
+    "@eId": "art_242/para_3"
+  },
+  {
+    "text": "Der Ehemann haftet persönlich für seine vorehelichen Schulden sowie für diejenigen, die von ihm während der Ehe oder von der Ehefrau in Ausübung ihrer Vertretungsbefugnis begründet werden.",
+    "metadata": [
+      "Art. 243",
+      "Wortlaut der früheren Bestimmungen",
+      "Sechster Titel: Das Güterrecht der Ehegatten",
+      "Vierter Abschnitt: Die Gütertrennung",
+      "C. Haftung",
+      "I. Im Allgemeinen"
+    ],
+    "@eId": "art_243/para_1"
+  },
+  {
+    "text": "Die Ehefrau haftet persönlich für ihre vorehelichen und für ihre während der Ehe entstandenen Schulden.",
+    "metadata": [
+      "Art. 243",
+      "Wortlaut der früheren Bestimmungen",
+      "Sechster Titel: Das Güterrecht der Ehegatten",
+      "Vierter Abschnitt: Die Gütertrennung",
+      "C. Haftung",
+      "I. Im Allgemeinen"
+    ],
+    "@eId": "art_243/para_2"
+  },
+  {
+    "text": "Für die Schulden, die vom Ehemann oder von der Ehefrau für den gemeinsamen Haushalt eingegangen werden, haftet die Ehefrau im Falle der Zahlungsunfähigkeit des Ehemannes.",
+    "metadata": [
+      "Art. 243",
+      "Wortlaut der früheren Bestimmungen",
+      "Sechster Titel: Das Güterrecht der Ehegatten",
+      "Vierter Abschnitt: Die Gütertrennung",
+      "C. Haftung",
+      "I. Im Allgemeinen"
+    ],
+    "@eId": "art_243/para_3"
+  },
+  {
+    "text": "Die Ehefrau hat im Konkurse und bei der Pfändung von Vermögenswerten des Ehemannes auch dann, wenn sie ihm ihr Vermögen zur Verwaltung übergeben hat, kein Vorzugsrecht.",
+    "metadata": [
+      "Art. 244",
+      "Wortlaut der früheren Bestimmungen",
+      "Sechster Titel: Das Güterrecht der Ehegatten",
+      "Vierter Abschnitt: Die Gütertrennung",
+      "C. Haftung",
+      "II. Konkurs des Ehemannes und Pfändung"
+    ],
+    "@eId": "art_244/para_1"
+  },
+  {
+    "text": "Vorbehalten bleiben die Bestimmungen über die Ehesteuer.",
+    "metadata": [
+      "Art. 244",
+      "Wortlaut der früheren Bestimmungen",
+      "Sechster Titel: Das Güterrecht der Ehegatten",
+      "Vierter Abschnitt: Die Gütertrennung",
+      "C. Haftung",
+      "II. Konkurs des Ehemannes und Pfändung"
+    ],
+    "@eId": "art_244/para_2"
+  },
+  {
+    "text": "Die Einkünfte und der Erwerb gehören dem Ehegatten, von dessen Vermögen oder Arbeit sie herrühren.",
+    "metadata": [
+      "Art. 245",
+      "Wortlaut der früheren Bestimmungen",
+      "Sechster Titel: Das Güterrecht der Ehegatten",
+      "Vierter Abschnitt: Die Gütertrennung",
+      "D. Einkünfte und Erwerb"
+    ],
+    "@eId": "art_245/para"
+  },
+  {
+    "text": "Der Ehemann kann verlangen, dass ihm die Ehefrau zur Tragung der ehelichen Lasten einen angemessenen Beitrag leiste.",
+    "metadata": [
+      "Art. 246",
+      "Wortlaut der früheren Bestimmungen",
+      "Sechster Titel: Das Güterrecht der Ehegatten",
+      "Vierter Abschnitt: Die Gütertrennung",
+      "E. Tragung der ehelichen Lasten"
+    ],
+    "@eId": "art_246/para_1"
+  },
+  {
+    "text": "Können sich die Ehegatten über die Höhe des Beitrages nicht verständigen, so wird er auf Begehren des einen oder des andern von der zuständigen Behörde festgesetzt.",
+    "metadata": [
+      "Art. 246",
+      "Wortlaut der früheren Bestimmungen",
+      "Sechster Titel: Das Güterrecht der Ehegatten",
+      "Vierter Abschnitt: Die Gütertrennung",
+      "E. Tragung der ehelichen Lasten"
+    ],
+    "@eId": "art_246/para_2"
+  },
+  {
+    "text": "Für die Beiträge der Ehefrau wird der Ehemann nicht ersatzpflichtig.",
+    "metadata": [
+      "Art. 246",
+      "Wortlaut der früheren Bestimmungen",
+      "Sechster Titel: Das Güterrecht der Ehegatten",
+      "Vierter Abschnitt: Die Gütertrennung",
+      "E. Tragung der ehelichen Lasten"
+    ],
+    "@eId": "art_246/para_3"
+  },
+  {
+    "text": "Der Ehevertrag kann einen Betrag des Frauengutes festsetzen, den die Ehefrau dem Ehemanne zur Tragung der ehelichen Lasten als Ehesteuer zuweist.",
+    "metadata": [
+      "Art. 247",
+      "Wortlaut der früheren Bestimmungen",
+      "Sechster Titel: Das Güterrecht der Ehegatten",
+      "Vierter Abschnitt: Die Gütertrennung",
+      "F. Ehesteuer"
+    ],
+    "@eId": "art_247/para_1"
+  },
+  {
+    "text": "Was die Ehefrau derart dem Ehemann überlässt, steht, wenn es nicht anders vereinbart worden ist, unter den Regeln der Güterverbindung.",
+    "metadata": [
+      "Art. 247",
+      "Wortlaut der früheren Bestimmungen",
+      "Sechster Titel: Das Güterrecht der Ehegatten",
+      "Vierter Abschnitt: Die Gütertrennung",
+      "F. Ehesteuer"
+    ],
+    "@eId": "art_247/para_2"
+  },
+  {
+    "text": "Die durch Ehevertrag oder Verfügung des Richters begründeten güterrechtlichen Verhältnisse sowie die Rechtsgeschäfte unter Ehegatten, die das eingebrachte Gut der Ehefrau oder das Gesamtgut betreffen, bedürfen zur Rechtskraft gegenüber Dritten der Eintragung in das Güterrechtsregister und der Veröffentlichung.",
+    "metadata": [
+      "Art. 248",
+      "Wortlaut der früheren Bestimmungen",
+      "Sechster Titel: Das Güterrecht der Ehegatten",
+      "Fünfter Abschnitt: Das Güterrechtsregister",
+      "A. Rechtskraft"
+    ],
+    "@eId": "art_248/para_1"
+  },
+  {
+    "text": "Die Erben des verstorbenen Ehegatten sind nicht als Dritte anzusehen.",
+    "metadata": [
+      "Art. 248",
+      "Wortlaut der früheren Bestimmungen",
+      "Sechster Titel: Das Güterrecht der Ehegatten",
+      "Fünfter Abschnitt: Das Güterrechtsregister",
+      "A. Rechtskraft"
+    ],
+    "@eId": "art_248/para_2"
+  },
+  {
+    "text": "Zur Eintragung gelangen die Bestimmungen, die Dritten gegenüber wirksam sein sollen.",
+    "metadata": [
+      "Art. 249",
+      "Wortlaut der früheren Bestimmungen",
+      "Sechster Titel: Das Güterrecht der Ehegatten",
+      "Fünfter Abschnitt: Das Güterrechtsregister",
+      "B. Eintragung",
+      "I. Gegenstand"
+    ],
+    "@eId": "art_249/para_1"
+  },
+  {
+    "text": "Die Eintragung erfolgt, wo das Gesetz es nicht anders bestimmt oder der Ehevertrag die Eintragung nicht ausdrücklich ausschliesst, auf das einseitige Begehren eines Ehegatten.",
+    "metadata": [
+      "Art. 249",
+      "Wortlaut der früheren Bestimmungen",
+      "Sechster Titel: Das Güterrecht der Ehegatten",
+      "Fünfter Abschnitt: Das Güterrechtsregister",
+      "B. Eintragung",
+      "I. Gegenstand"
+    ],
+    "@eId": "art_249/para_2"
+  },
+  {
+    "text": "Die Eintragung geschieht in dem Register des Wohnsitzes des Ehemannes.",
+    "metadata": [
+      "Art. 250",
+      "Wortlaut der früheren Bestimmungen",
+      "Sechster Titel: Das Güterrecht der Ehegatten",
+      "Fünfter Abschnitt: Das Güterrechtsregister",
+      "B. Eintragung",
+      "II. Ort der Eintragung"
+    ],
+    "@eId": "art_250/para_1"
+  },
+  {
+    "text": "Verlegt der Ehemann seinen Wohnsitz in einen andern Registerbezirk, so muss die Eintragung binnen drei Monaten auch am neuen Wohnsitze erfolgen.",
+    "metadata": [
+      "Art. 250",
+      "Wortlaut der früheren Bestimmungen",
+      "Sechster Titel: Das Güterrecht der Ehegatten",
+      "Fünfter Abschnitt: Das Güterrechtsregister",
+      "B. Eintragung",
+      "II. Ort der Eintragung"
+    ],
+    "@eId": "art_250/para_2"
+  },
+  {
+    "text": "Der Eintrag in dem Register des früheren Wohnsitzes verliert die rechtliche Wirkung nach Ablauf von drei Monaten, vom Wechsel des Wohnsitzes an gerechnet.",
+    "metadata": [
+      "Art. 250",
+      "Wortlaut der früheren Bestimmungen",
+      "Sechster Titel: Das Güterrecht der Ehegatten",
+      "Fünfter Abschnitt: Das Güterrechtsregister",
+      "B. Eintragung",
+      "II. Ort der Eintragung"
+    ],
+    "@eId": "art_250/para_3"
+  },
+  {
+    "text": "Das Güterrechtsregister wird durch das Handelsregisteramt geführt, soweit die Kantone nicht besondere Bezirke und besondere Registerführer bezeichnen.",
+    "metadata": [
+      "Art. 251",
+      "Wortlaut der früheren Bestimmungen",
+      "Sechster Titel: Das Güterrecht der Ehegatten",
+      "Fünfter Abschnitt: Das Güterrechtsregister",
+      "C. Registerführung"
+    ],
+    "@eId": "art_251/para_1"
+  },
+  {
+    "text": "Jedermann ist befugt, das Güterrechtsregister einzusehen oder Auszüge zu verlangen.",
+    "metadata": [
+      "Art. 251",
+      "Wortlaut der früheren Bestimmungen",
+      "Sechster Titel: Das Güterrecht der Ehegatten",
+      "Fünfter Abschnitt: Das Güterrechtsregister",
+      "C. Registerführung"
+    ],
+    "@eId": "art_251/para_2"
+  },
+  {
+    "text": "Die Veröffentlichung der Eheverträge hat nur anzugeben, welchen Güterstand die Ehegatten gewählt haben.",
+    "metadata": [
+      "Art. 251",
+      "Wortlaut der früheren Bestimmungen",
+      "Sechster Titel: Das Güterrecht der Ehegatten",
+      "Fünfter Abschnitt: Das Güterrechtsregister",
+      "C. Registerführung"
+    ],
+    "@eId": "art_251/para_3"
+  }
+]

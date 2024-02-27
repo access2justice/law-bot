@@ -5,7 +5,16 @@ import json
 # Xml for the german version
 # "https://www.fedlex.admin.ch/filestore/fedlex.data.admin.ch/eli/cc/27/317_321_377/20240101/de/xml/fedlex-data-admin-ch-eli-cc-27-317_321_377-20240101-de-xml-3.xml"
 
-file = open("SR-220-01012024-DE-newdownload.xml", encoding="utf8")
+
+# Check if it works for the Zivilgesetzbuch
+# "https://www.fedlex.admin.ch/filestore/fedlex.data.admin.ch/eli/cc/24/233_245_233/20240101/de/xml/fedlex-data-admin-ch-eli-cc-24-233_245_233-20240101-de-xml-15.xml "
+
+
+# file = open("SR-220-01012024-DE-newdownload.xml", encoding="utf8")
+# xml_data_de = file.read()
+# file.close()
+
+file = open("SR-210-01012024-DE.xml", encoding="utf8")
 xml_data_de = file.read()
 file.close()
 
@@ -140,9 +149,17 @@ def find_articles(lst, parent, section_titles):
     return lst
 
 
+# # create an empty list and then call the function find_articles to get the articles paragraphs
+# lst_data_compiled_de = []
+# lst_data_compiled_de = find_articles(lst_data_compiled_de, akn_doc_de.root.act.body, [])
+#
+# with open('cleaned_pflichten_des_arbeitsgebers_full_de_v2.json', 'w', encoding='utf-8') as file:
+#     json.dump(lst_data_compiled_de, file, indent=2, ensure_ascii=False)
+
+
 # create an empty list and then call the function find_articles to get the articles paragraphs
 lst_data_compiled_de = []
 lst_data_compiled_de = find_articles(lst_data_compiled_de, akn_doc_de.root.act.body, [])
 
-with open('cleaned_pflichten_des_arbeitsgebers_full_de_v2.json', 'w', encoding='utf-8') as file:
+with open('cleaned_pflichten_des_zivilgesetzbuch_full_de.json', 'w', encoding='utf-8') as file:
     json.dump(lst_data_compiled_de, file, indent=2, ensure_ascii=False)
