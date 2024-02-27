@@ -14,7 +14,7 @@ export default async function notionInteractionHandler(
 
     const usersList = await listUsers();
 
-    console.log("usersList:", usersList);
+    // console.log("usersList:", usersList);
 
     const response = await saveExpertFeedbackToNotion(
       question,
