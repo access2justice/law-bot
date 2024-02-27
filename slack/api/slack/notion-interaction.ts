@@ -60,7 +60,12 @@ async function saveExpertFeedbackToNotion(
       Correctness: { checkbox: correct },
       "Expert Comment": { rich_text: [{ text: { content: comment } }] },
       Expert: {
-        people: [{ person: "Marcos Fraga" }],
+        people: [
+          {
+            object: "user",
+            name: "Marcos Fraga",
+          },
+        ],
       },
     },
   };
