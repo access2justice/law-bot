@@ -10,6 +10,7 @@ export default async function POST(req: VercelRequest, res: VercelResponse) {
 
   try {
     if (!data.payload) {
+      console.log("Payload is missing in the request body:", data);
       throw new Error("Payload is missing");
     }
     const payload = JSON.parse(data.payload);
@@ -24,45 +25,65 @@ export default async function POST(req: VercelRequest, res: VercelResponse) {
       console.log("actions:", action);
 
       if (!action.value) {
+        console.log("Action value is undefined:", action);
         throw new Error("Action value is undefined");
       }
 
-      const payload_value = JSON.parse(action.value);
-      const question =
-        payload_value.user_input ||
-        "Something went wrong, please copy paste the question.";
-      const answer =
-        payload_value.ai_response ||
-        "Something went wrong, please copy paste the answer.";
+      try {
+        const payload_value = JSON.parse(action.value);
+        const question =
+          payload_value.user_input ||
+          "Something went wrong, please copy paste the question.";
+        const answer =
+          payload_value.ai_response ||
+          "Something went wrong, please copy paste the answer.";
 
-      if (
-        (payload.callback_id === "feedback" && payload.trigger_id) ||
-        (action.action_id === "feedback" &&
-          payload.trigger_id &&
-          payload.type === "block_actions")
-      ) {
-        await openModal(payload.trigger_id, question, answer);
+        if (
+          (payload.callback_id === "feedback" && payload.trigger_id) ||
+          (action.action_id === "feedback" &&
+            payload.trigger_id &&
+            payload.type === "block_actions")
+        ) {
+          await openModal(payload.trigger_id, question, answer);
+        }
+      } catch (error) {
+        console.error("Error parsing action value:", action.value);
+        throw error;
       }
     } else if (payload.type === "view_submission") {
-      console.log(JSON.stringify(payload.view.blocks));
+      console.log("payload.view.blocks:", JSON.stringify(payload.view.blocks));
 
       const submittedValues = payload.view.state.values;
       console.log("submittedValues:", submittedValues);
-      const correct =
-        submittedValues[0]["static_select-action"]["selected_option"][
-          "value"
-        ] === "correct";
-      const comment = submittedValues[1]["plain_text_input-action"]["value"];
-      const expertId = "";
-      const { user_input, ai_response } = JSON.parse(payload.actions[0].value);
 
-      await submitToNotion(user_input, ai_response, correct, comment, expertId);
+      try {
+        const correct =
+          submittedValues[0]["static_select-action"]["selected_option"][
+            "value"
+          ] === "correct";
+        const comment = submittedValues[1]["plain_text_input-action"]["value"];
+        const expertId = "";
+        const { user_input, ai_response } = JSON.parse(
+          payload.actions[0].value
+        );
 
-      return res.status(200).json({ response_action: "clear" });
+        await submitToNotion(
+          user_input,
+          ai_response,
+          correct,
+          comment,
+          expertId
+        );
+
+        return res.status(200).json({ response_action: "clear" });
+      } catch (error) {
+        console.error("Error accessing submitted values:", submittedValues);
+        throw error;
+      }
     }
   } catch (error) {
     console.error("Error processing request:", error);
-    return res.status(400).send("Bad Request");
+    return res.status(400).json("Bad Request");
   }
 
   return res.status(200).send("Ok");
@@ -170,7 +191,7 @@ const openModal = async (trigger: string, question: string, answer: string) => {
     console.log(`Successfully opened root view ${result.view?.id}`);
   } catch (error) {
     console.error("Error opening modal:", error);
-    throw error; // Ensure this error is caught or logged appropriately.
+    throw error;
   }
 };
 
@@ -200,6 +221,7 @@ async function submitToNotion(
     );
 
     if (!response.ok) {
+      console.error("Failed to submit to Notion, response:", response);
       throw new Error("Failed to submit to Notion");
     }
 
