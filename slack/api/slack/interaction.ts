@@ -15,35 +15,35 @@ export default async function POST(req: VercelRequest, res: VercelResponse) {
     const payload = JSON.parse(data.payload);
     console.log("payload:", payload);
 
-    if (!payload.actions || payload.actions.length === 0) {
-      throw new Error("No actions found in payload");
-    }
+    if (payload.type === "block_actions") {
+      if (!payload.actions || payload.actions.length === 0) {
+        throw new Error("No actions found in payload");
+      }
 
-    const action = payload.actions[0];
-    console.log("actions:", action);
+      const action = payload.actions[0];
+      console.log("actions:", action);
 
-    if (!action.value) {
-      throw new Error("Action value is undefined");
-    }
+      if (!action.value) {
+        throw new Error("Action value is undefined");
+      }
 
-    const payload_value = JSON.parse(action.value);
-    const question =
-      payload_value.user_input ||
-      "Something went wrong, please copy paste the question.";
-    const answer =
-      payload_value.ai_response ||
-      "Something went wrong, please copy paste the answer.";
+      const payload_value = JSON.parse(action.value);
+      const question =
+        payload_value.user_input ||
+        "Something went wrong, please copy paste the question.";
+      const answer =
+        payload_value.ai_response ||
+        "Something went wrong, please copy paste the answer.";
 
-    if (
-      (payload.callback_id === "feedback" && payload.trigger_id) ||
-      (action.action_id === "feedback" &&
-        payload.trigger_id &&
-        payload.type === "block_actions")
-    ) {
-      await openModal(payload.trigger_id, question, answer);
-    }
-
-    if (payload.type === "view_submission") {
+      if (
+        (payload.callback_id === "feedback" && payload.trigger_id) ||
+        (action.action_id === "feedback" &&
+          payload.trigger_id &&
+          payload.type === "block_actions")
+      ) {
+        await openModal(payload.trigger_id, question, answer);
+      }
+    } else if (payload.type === "view_submission") {
       console.log(JSON.stringify(payload.view.blocks));
 
       const submittedValues = payload.view.state.values;
