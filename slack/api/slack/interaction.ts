@@ -56,45 +56,35 @@ export default async function POST(req: VercelRequest, res: VercelResponse) {
       }
     } else if (payload.type === "view_submission") {
       console.log("payload.view.blocks:", payload.view.blocks);
-      console.log(
-        "payload.view.state.values[0]:",
-        payload.view.state.values[0]
-      );
+
       const submittedValues = payload.view.state.values;
       const selectActionKey = Object.keys(submittedValues).find(
         (key) => submittedValues[key]["static_select-action"]
       );
+      const textInputKey = Object.keys(submittedValues).find(
+        (key) => submittedValues[key]["plain_text_input-action"]
+      );
+
+      let correct = false;
+      let comment = "";
+
       if (selectActionKey) {
         const staticSelectAction =
           submittedValues[selectActionKey]["static_select-action"];
-        console.log("staticSelectAction:", staticSelectAction);
+        correct = staticSelectAction.selected_option.value === "correct";
       }
-      console.log("submittedValues:", submittedValues);
-
-      try {
-        const correct =
-          submittedValues[0]["static_select-action"]["selected_option"][
-            "value"
-          ] === "correct";
-        const comment = submittedValues[1]["plain_text_input-action"]["value"];
-        const expertId = "";
-        const { user_input, ai_response } = JSON.parse(
-          payload.actions[0].value
-        );
-
-        await submitToNotion(
-          user_input,
-          ai_response,
-          correct,
-          comment,
-          expertId
-        );
-
-        return res.status(200).json({ response_action: "clear" });
-      } catch (error) {
-        console.error("Error accessing submitted values:", submittedValues);
-        throw error;
+      if (textInputKey) {
+        const textInputAction =
+          submittedValues[textInputKey]["plain_text_input-action"];
+        comment = textInputAction.value;
       }
+
+      const expertId = "";
+      const { user_input, ai_response } = JSON.parse(payload.actions[0].value);
+
+      await submitToNotion(user_input, ai_response, correct, comment, expertId);
+
+      return res.status(200).json({ response_action: "clear" });
     }
   } catch (error) {
     console.error("Error processing request:", error);
