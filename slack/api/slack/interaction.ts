@@ -61,10 +61,14 @@ export default async function POST(req: VercelRequest, res: VercelResponse) {
         payload.view.state.values[0]
       );
       const submittedValues = payload.view.state.values;
-      console.log(
-        "submittedValues[0]['static_select-action']['selected_option']:",
-        submittedValues[0]["static_select-action"]["selected_option"]
+      const selectActionKey = Object.keys(submittedValues).find(
+        (key) => submittedValues[key]["static_select-action"]
       );
+      if (selectActionKey) {
+        const staticSelectAction =
+          submittedValues[selectActionKey]["static_select-action"];
+        console.log("staticSelectAction:", staticSelectAction);
+      }
       console.log("submittedValues:", submittedValues);
 
       try {
