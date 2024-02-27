@@ -59,9 +59,7 @@ async function saveExpertFeedbackToNotion(
       "Law Bot Answer": { rich_text: [{ text: { content: answer } }] },
       Correctness: { checkbox: correct },
       "Expert Comment": { rich_text: [{ text: { content: comment } }] },
-      // Expert: {
-      //   people: [{ user_id: expertId }],
-      // },
+      Expert: { multi_select: [{ name: "Marcos Fraga" }] },
     },
   };
 
