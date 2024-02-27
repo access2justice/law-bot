@@ -12,13 +12,13 @@ export default async function notionInteractionHandler(
 
     console.log("Received expert feedback:", req.body);
 
-    // const response = await saveExpertFeedbackToNotion(
-    //   question,
-    //   answer,
-    //   correct,
-    //   comment,
-    //   expertId
-    // );
+    const response = await saveExpertFeedbackToNotion(
+      question,
+      answer,
+      correct,
+      comment,
+      expertId
+    );
 
     console.log("Task created in Notion:", response);
 
@@ -39,12 +39,12 @@ async function saveExpertFeedbackToNotion(
   const taskData = {
     parent: { database_id: "083bf4cbaf134f7a940444e847e49126" },
     properties: {
-      Question: { title: [{ text: { content: question } }] },
-      Answer: { rich_text: [{ text: { content: answer } }] },
-      Correct: { checkbox: correct },
-      Comment: { rich_text: [{ text: { content: comment } }] },
-      Expert: { rich_text: [{ text: { content: expertId } }] },
-      CreatedAt: { date: { start: new Date().toISOString() } },
+      "Original Question": { title: [{ text: { content: question } }] },
+      Status: { multi_select: [{ name: "Submited" }] },
+      Priority: { multi_select: [{ name: "Medium" }] },
+      "Law Bot Answer": { rich_text: [{ text: { content: answer } }] },
+      Correctness: { checkbox: correct },
+      "Expert Comment": { rich_text: [{ text: { content: comment } }] },
     },
   };
 
