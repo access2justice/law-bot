@@ -8,6 +8,9 @@ export default async function POST(req: VercelRequest, res: VercelResponse) {
   const data = body;
   console.log("data:", data);
 
+  let question = "";
+  let answer = "";
+
   try {
     if (!data.payload) {
       console.log("Payload is missing in the request body:", data);
@@ -35,10 +38,10 @@ export default async function POST(req: VercelRequest, res: VercelResponse) {
 
       try {
         const payload_value = JSON.parse(action.value);
-        const question =
+        question =
           payload_value.user_input ||
           "Something went wrong, please copy paste the question.";
-        const answer =
+        answer =
           payload_value.ai_response ||
           "Something went wrong, please copy paste the answer.";
 
@@ -80,9 +83,8 @@ export default async function POST(req: VercelRequest, res: VercelResponse) {
       }
 
       const expertId = "";
-      const { user_input, ai_response } = JSON.parse(payload.actions[0].value);
 
-      await submitToNotion(user_input, ai_response, correct, comment, expertId);
+      await submitToNotion(question, answer, correct, comment, expertId);
 
       return res.status(200).json({ response_action: "clear" });
     }
