@@ -6,42 +6,61 @@ const web = new WebClient(process.env.SLACK_TOKEN);
 export default async function POST(req: VercelRequest, res: VercelResponse) {
   const { body } = req;
   const data = body;
-  console.log(data);
-  const payload = JSON.parse(data["payload"] as string);
-  console.log(payload);
-  const action = payload.actions[0];
-  console.log(action);
-  const payload_value = JSON.parse(action.value);
-  const question =
-    payload_value.user_input ||
-    "Something went wrong, please copy paste the question.";
-  const answer =
-    payload_value.ai_response ||
-    "Something went wrong, please copy paste the answer.";
+  console.log("data:", data);
 
-  if (
-    (payload.callback_id === "feedback" && payload.trigger_id) ||
-    (action.action_id === "feedback" &&
-      payload.trigger_id &&
-      payload.type === "block_actions")
-  ) {
-    await openModal(payload.trigger_id, question, answer);
-  }
+  try {
+    if (!data.payload) {
+      throw new Error("Payload is missing");
+    }
+    const payload = JSON.parse(data.payload);
+    console.log(payload);
 
-  if (payload.type === "view_submission") {
-    console.log(JSON.stringify(payload.view.blocks));
+    if (!payload.actions || payload.actions.length === 0) {
+      throw new Error("No actions found in payload");
+    }
 
-    const submittedValues = payload.view.state.values;
-    console.log("submittedValues:", submittedValues);
-    const correct =
-      submittedValues["static_select-action"]["selected_option"]["value"] ===
-      "correct";
-    const comment = submittedValues["plain_text_input-action"]["value"];
-    const expertId = "";
+    const action = payload.actions[0];
+    console.log(action);
 
-    await submitToNotion(question, answer, correct, comment, expertId);
+    if (!action.value) {
+      throw new Error("Action value is undefined");
+    }
 
-    return res.status(200).json({ response_action: "clear" });
+    const payload_value = JSON.parse(action.value);
+    const question =
+      payload_value.user_input ||
+      "Something went wrong, please copy paste the question.";
+    const answer =
+      payload_value.ai_response ||
+      "Something went wrong, please copy paste the answer.";
+
+    if (
+      (payload.callback_id === "feedback" && payload.trigger_id) ||
+      (action.action_id === "feedback" &&
+        payload.trigger_id &&
+        payload.type === "block_actions")
+    ) {
+      await openModal(payload.trigger_id, question, answer);
+    }
+
+    if (payload.type === "view_submission") {
+      console.log(JSON.stringify(payload.view.blocks));
+
+      const submittedValues = payload.view.state.values;
+      console.log("submittedValues:", submittedValues);
+      const correct =
+        submittedValues["static_select-action"]["selected_option"]["value"] ===
+        "correct";
+      const comment = submittedValues["plain_text_input-action"]["value"];
+      const expertId = "";
+
+      await submitToNotion(question, answer, correct, comment, expertId);
+
+      return res.status(200).json({ response_action: "clear" });
+    }
+  } catch (error) {
+    console.error("Error processing request:", error);
+    return res.status(400).send("Bad Request");
   }
 
   return res.status(200).send("Ok");
