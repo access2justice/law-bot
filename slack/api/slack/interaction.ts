@@ -1,5 +1,6 @@
 import { WebClient } from "@slack/web-api";
 import type { VercelRequest, VercelResponse } from "@vercel/node";
+import type { RequestContext } from "@vercel/edge";
 
 const web = new WebClient(process.env.SLACK_TOKEN);
 
@@ -215,38 +216,30 @@ const openModal = async (trigger: string, question: string, answer: string) => {
 };
 
 async function submitToNotion(
+  context: RequestContext,
   question: string,
   answer: string,
   correct: boolean,
   comment: string,
   expertId: string
 ) {
-  try {
-    const response = await fetch(
-      `https://${process.env.VERCEL_URL}/api/slack/notion-interaction`,
-      {
-        method: "POST",
-        headers: {
-          "Content-Type": "application/json",
-        },
-        body: JSON.stringify({
-          question,
-          answer,
-          correct,
-          comment,
-          expertId,
-        }),
-      }
-    );
-
-    if (!response.ok) {
-      console.error("Failed to submit to Notion, response:", response);
-      throw new Error("Failed to submit to Notion");
-    }
-
-    console.log("Submitted to Notion successfully");
-  } catch (error) {
-    console.error("Error submitting to Notion:", error);
-    throw error;
-  }
+  context.waitUntil(
+    fetch(`https://${process.env.VERCEL_URL}/api/slack/notion-interaction`, {
+      method: "POST",
+      headers: {
+        "Content-Type": "application/json",
+      },
+      body: JSON.stringify({
+        question,
+        answer,
+        correct,
+        comment,
+        expertId,
+      }),
+    })
+      .then((json) => console.log({ json }))
+      .catch((error) => console.log("Failed to submit to Notion:", error))
+  );
+  console.log("Submitted to Notion successfully");
+  return new Response(JSON.stringify({ response_action: "clear" }));
 }
