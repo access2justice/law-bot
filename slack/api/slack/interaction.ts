@@ -49,10 +49,10 @@ export default async function POST(req: VercelRequest, res: VercelResponse) {
       const submittedValues = payload.view.state.values;
       console.log("submittedValues:", submittedValues);
       const correct =
-        submittedValues["v/ZLi"]["static_select-action"]["selected_option"][
+        submittedValues[0]["static_select-action"]["selected_option"][
           "value"
         ] === "correct";
-      const comment = submittedValues["plain_text_input-action"]["value"];
+      const comment = submittedValues[1]["plain_text_input-action"]["value"];
       const expertId = "";
       const { user_input, ai_response } = JSON.parse(payload.actions[0].value);
 
