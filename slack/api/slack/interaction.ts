@@ -59,6 +59,10 @@ export default async function POST(req: VercelRequest, res: VercelResponse) {
 
       const submittedValues = payload.view.state.values;
       console.log("submittedValues:", submittedValues);
+      console.log(
+        "submittedValues[0]['static_select-action']['selected_option']:",
+        submittedValues[0]["static_select-action"]["selected_option"]
+      );
 
       try {
         const correct =
@@ -81,10 +85,6 @@ export default async function POST(req: VercelRequest, res: VercelResponse) {
 
         return res.status(200).json({ response_action: "clear" });
       } catch (error) {
-        console.log(
-          "submittedValues[0]['static_select-action']['selected_option']:",
-          submittedValues[0]["static_select-action"]["selected_option"]
-        );
         console.error("Error accessing submitted values:", submittedValues);
         throw error;
       }
