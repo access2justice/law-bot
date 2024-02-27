@@ -39,7 +39,7 @@ export default async function POST(req: VercelRequest, res: VercelResponse) {
     const comment = submittedValues["plain_text_input-action"]["value"];
     const expertId = "";
 
-    // await submitToNotion(question, answer, correct, comment, expertId);
+    await submitToNotion(question, answer, correct, comment, expertId);
 
     return res.status(200).json({ response_action: "clear" });
   }
@@ -156,19 +156,22 @@ async function submitToNotion(
   expertId: string
 ) {
   try {
-    const response = await fetch("ENDPOINT_URL_NOTION_INTERACTION", {
-      method: "POST",
-      headers: {
-        "Content-Type": "application/json",
-      },
-      body: JSON.stringify({
-        question,
-        answer,
-        correct,
-        comment,
-        expertId,
-      }),
-    });
+    const response = await fetch(
+      `https://${process.env.VERCEL_URL}/api/slack/notion-interaction`,
+      {
+        method: "POST",
+        headers: {
+          "Content-Type": "application/json",
+        },
+        body: JSON.stringify({
+          question,
+          answer,
+          correct,
+          comment,
+          expertId,
+        }),
+      }
+    );
 
     if (!response.ok) {
       throw new Error("Failed to submit to Notion");
