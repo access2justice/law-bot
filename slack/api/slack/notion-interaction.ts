@@ -25,7 +25,7 @@ export default async function notionInteractionHandler(
 
     const expertName = expertId.name;
 
-    await saveExpertFeedbackToNotion(
+    const response = await saveExpertFeedbackToNotion(
       question,
       answer,
       correct,
@@ -34,6 +34,8 @@ export default async function notionInteractionHandler(
       slack_channel,
       slack_thread_ts
     );
+
+    console.log("Notion response:", response);
 
     res.status(200).json({ message: "Expert feedback saved to Notion." });
   } catch (error) {
