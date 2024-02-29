@@ -32,7 +32,7 @@ export default async function handler(req: VercelRequest, res: VercelResponse) {
       user_input: data.event.text,
       ai_response: json.data.content,
       slack_channel: data.event.channel,
-      slack_thread_ts: data.event.thread_ts,
+      slack_thread_ts: data.event.ts,
     });
 
     const messageBlocks = [
