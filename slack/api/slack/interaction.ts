@@ -47,7 +47,13 @@ export default async function POST(req: VercelRequest, res: VercelResponse) {
             payload.trigger_id &&
             payload.type === "block_actions")
         ) {
-          await openModal(payload.trigger_id, question, answer);
+          await openModal(
+            payload.trigger_id,
+            question,
+            answer,
+            slack_channel,
+            slack_thread_ts
+          );
         }
       } catch (error) {
         console.error("Error parsing action value:", action.value);
