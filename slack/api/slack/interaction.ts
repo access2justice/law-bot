@@ -6,7 +6,6 @@ const web = new WebClient(process.env.SLACK_TOKEN);
 export default async function POST(req: VercelRequest, res: VercelResponse) {
   const { body } = req;
   const data = body;
-  console.log("data:", data);
 
   try {
     if (!data.payload) {
@@ -14,7 +13,6 @@ export default async function POST(req: VercelRequest, res: VercelResponse) {
       throw new Error("Payload is missing");
     }
     const payload = JSON.parse(data.payload);
-    console.log("payload:", payload);
 
     if (payload.type === "block_actions") {
       if (!payload.actions || payload.actions.length === 0) {
@@ -22,7 +20,6 @@ export default async function POST(req: VercelRequest, res: VercelResponse) {
       }
 
       const action = payload.actions[0];
-      console.log("actions:", action);
 
       if (action.action_id === "static_select-action") {
         return res.status(200).send("Ok");
@@ -41,6 +38,8 @@ export default async function POST(req: VercelRequest, res: VercelResponse) {
         const answer =
           payload_value.ai_response ||
           "Something went wrong, please copy paste the answer.";
+        const slack_channel = payload_value.slack_channel;
+        const slack_thread_ts = payload_value.slack_thread_ts;
 
         if (
           (payload.callback_id === "feedback" && payload.trigger_id) ||
@@ -78,9 +77,19 @@ export default async function POST(req: VercelRequest, res: VercelResponse) {
         comment = textInputAction.value;
       }
       const expert = payload.user;
-      const { question, answer } = JSON.parse(payload.view.private_metadata);
+      const { question, answer, slack_channel, slack_thread_ts } = JSON.parse(
+        payload.view.private_metadata
+      );
 
-      await submitToNotion(question, answer, correct, comment, expert);
+      await submitToNotion(
+        question,
+        answer,
+        correct,
+        comment,
+        expert,
+        slack_channel,
+        slack_thread_ts
+      );
 
       return res.status(200).json({ response_action: "clear" });
     }
@@ -92,7 +101,13 @@ export default async function POST(req: VercelRequest, res: VercelResponse) {
   return res.status(200).send("Ok");
 }
 
-const openModal = async (trigger: string, question: string, answer: string) => {
+const openModal = async (
+  trigger: string,
+  question: string,
+  answer: string,
+  slack_channel: string,
+  slack_thread_ts: string
+) => {
   try {
     const result = await web.views.open({
       trigger_id: trigger,
@@ -113,7 +128,12 @@ const openModal = async (trigger: string, question: string, answer: string) => {
           text: "Cancel",
           emoji: true,
         },
-        private_metadata: JSON.stringify({ question, answer }),
+        private_metadata: JSON.stringify({
+          question,
+          answer,
+          slack_channel,
+          slack_thread_ts,
+        }),
         blocks: [
           {
             type: "section",
@@ -204,7 +224,9 @@ async function submitToNotion(
   answer: string,
   correct: boolean,
   comment: string,
-  expertId: string
+  expertId: string,
+  slack_channel: string,
+  slack_thread_ts: string
 ) {
   try {
     const response = await fetch(
@@ -220,6 +242,8 @@ async function submitToNotion(
           correct,
           comment,
           expertId,
+          slack_channel,
+          slack_thread_ts,
         }),
       }
     );

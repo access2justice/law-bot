@@ -1,5 +1,8 @@
 import { Client } from "@notionhq/client";
 import { VercelRequest, VercelResponse } from "@vercel/node";
+import { WebClient } from "@slack/web-api";
+
+const web = new WebClient(process.env.SLACK_TOKEN);
 
 const notion = new Client({ auth: process.env.NOTION_API_SECRET });
 
@@ -8,25 +11,29 @@ export default async function notionInteractionHandler(
   res: VercelResponse
 ) {
   try {
-    const { question, answer, correct, comment, expertId } = req.body;
+    const {
+      question,
+      answer,
+      correct,
+      comment,
+      expertId,
+      slack_channel,
+      slack_thread_ts,
+    } = req.body;
 
     console.log("Received expert feedback:", req.body);
 
     const expertName = expertId.name;
 
-    // const usersList = await listUsers();
-
-    // console.log("usersList:", usersList);
-
-    const response = await saveExpertFeedbackToNotion(
+    await saveExpertFeedbackToNotion(
       question,
       answer,
       correct,
       comment,
-      expertName
+      expertName,
+      slack_channel,
+      slack_thread_ts
     );
-
-    console.log("Task created in Notion:", response);
 
     res.status(200).json({ message: "Expert feedback saved to Notion." });
   } catch (error) {
@@ -35,22 +42,14 @@ export default async function notionInteractionHandler(
   }
 }
 
-async function listUsers() {
-  try {
-    const response = await notion.users.list({});
-    // console.log("usersList response:", response);
-    return response.results;
-  } catch (error) {
-    console.error(error.body);
-  }
-}
-
 async function saveExpertFeedbackToNotion(
   question: string,
   answer: string,
   correct: boolean,
   comment: string,
-  expertName: string
+  expertName: string,
+  slack_channel: string,
+  slack_thread_ts: string
 ) {
   const taskData = {
     parent: { database_id: "083bf4cbaf134f7a940444e847e49126" },
@@ -67,5 +66,22 @@ async function saveExpertFeedbackToNotion(
 
   const response = await notion.pages.create(taskData);
 
+  if (response) {
+    const message = `Expert feedback saved to Notion: ${response.url}`;
+    await sendSlackMessage(message, slack_channel, slack_thread_ts);
+  }
+
   return response;
+}
+
+async function sendSlackMessage(
+  message: string,
+  slack_channel: string,
+  slack_thread_ts: string
+) {
+  await web.chat.postMessage({
+    channel: slack_channel,
+    text: message,
+    thread_ts: slack_thread_ts,
+  });
 }
