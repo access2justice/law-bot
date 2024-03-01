@@ -1,6 +1,9 @@
 name: Development
 
 on:
+  push:
+    branches:
+      - "backend/*"
   pull_request:
     branches:
       - "backend/*"
