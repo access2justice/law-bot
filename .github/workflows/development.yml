@@ -1,6 +1,12 @@
 name: Development
 
 on:
+  push:
+    branches:
+      - "backend/*"
+    paths:
+      - "aws/**"
+      - "backend/**"
   pull_request:
     branches:
       - "backend/*"
