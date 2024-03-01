@@ -1,15 +1,17 @@
-from typing import Any, Dict, Union
+from typing import Any, Dict, Optional, Union, List
 from pydantic import BaseModel
 
-class ChatResponse(BaseModel):
-    data: MyJsonType
-
-class ReasoningThread:
+class ReasoningThread(BaseModel):
     type: str
-    results: Dict[str, Any]
-    conversation: Dict[str, Any]
-    response: str
+    results: Optional[Dict[str, Any]]
+    query: Optional[Any]
+    conversation: Optional[Any]
+    response: Optional[str]
 
-class MyJsonType:
+class MyJsonType(BaseModel):
     content: str
-    reasoning_thread: ReasoningThread
+    reasoning_thread: List[ReasoningThread]
+
+class ChatResponse(BaseModel):
+    data: Any
+

@@ -91,12 +91,13 @@ class ChatBotPipeline:
             select=["text", "metadata", "eId"],
             include_total_count=True)
                     
-        self.reasoning_thread.append({ "type": 'search', "query": user_query, results })
+        
 
         async for result in results:
             retrieved_info["text"].append(result["text"])
             retrieved_info["art_num"].append(result["metadata"][0])
             retrieved_info["art_para"].append(result["eId"])
+        self.reasoning_thread.append({"type": 'search', "query": user_query, "result": retrieved_info})
         return retrieved_info
 
 
@@ -150,8 +151,9 @@ class ChatBotPipeline:
                 stream=False,
             )
             content = gpt_message.choices[0].message.content
-            self.reasoning_thread.append({ type: 'llm', conversation, reponse: content })
+            self.reasoning_thread.append({"type": "llm", "prompt":conversation, "response": content})
             data = {"content": content, "reasoning_thread": self.reasoning_thread}
+            print(self.reasoning_thread)
             
             response = jsonable_encoder(ChatResponse(data=data))
         return JSONResponse(response, media_type="application/json")
