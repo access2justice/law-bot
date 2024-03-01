@@ -3,9 +3,6 @@ name: Production
 on:
   push:
     branches: ["master"]
-    paths:
-      - "aws/**"
-      - "backend/**"
 
 permissions:
   id-token: write

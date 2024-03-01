@@ -1,15 +1,9 @@
 name: Development
 
 on:
-  push:
-    branches:
-      - "backend/*"
   pull_request:
     branches:
       - "backend/*"
-    paths:
-      - "aws/**"
-      - "backend/**"
 
 permissions:
   id-token: write
