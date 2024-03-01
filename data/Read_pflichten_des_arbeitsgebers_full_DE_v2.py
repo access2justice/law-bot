@@ -10,15 +10,17 @@ import json
 # "https://www.fedlex.admin.ch/filestore/fedlex.data.admin.ch/eli/cc/24/233_245_233/20240101/de/xml/fedlex-data-admin-ch-eli-cc-24-233_245_233-20240101-de-xml-15.xml "
 
 
-# file = open("SR-220-01012024-DE-newdownload.xml", encoding="utf8")
-# xml_data_de = file.read()
-# file.close()
-
-file = open("SR-210-01012024-DE.xml", encoding="utf8")
+file = open("SR-220-01012024-DE-newdownload.xml", encoding="utf8")
 xml_data_de = file.read()
 file.close()
 
+# file = open("SR-210-01012024-DE.xml", encoding="utf8")
+# xml_data_de = file.read()
+# file.close()
+
 akn_doc_de = AkomaNtosoDocument(xml_data_de)
+lnk = akn_doc_de.root.act.meta.identification.FRBRExpression.FRBRuri.attrib["value"]+'#'
+lnk = lnk.replace('fedlex.data.admin', 'fedlex.admin').replace('20240101/', '')
 
 
 def get_element_clean_text(element):
@@ -28,7 +30,7 @@ def get_element_clean_text(element):
     return str(element.text).replace('\xa0', ' ').strip()
 
 
-def process_paragraph_blocklist(lst, blocklist, article_title, section_titles):
+def process_paragraph_blocklist(lst, blocklist, article_lnk, article_title, section_titles):
     if blocklist is None:
         return
 
@@ -39,7 +41,7 @@ def process_paragraph_blocklist(lst, blocklist, article_title, section_titles):
         article_paragraph = list_intro.attrib["eId"]
         paragraph_txt = get_element_clean_text(list_intro)
         if paragraph_txt:
-            lst.append({'text': paragraph_txt, 'metadata': article_title + section_titles, "@eId": article_paragraph})
+            lst.append({'text': paragraph_txt, 'metadata': article_lnk + article_title + section_titles, "@eId": article_paragraph})
         if hasattr(list_intro, 'inline'):
             paragraph_txt = ''
             # art_958_c/para_1/listintro paragraph separated into 2 inline tags, this allows to capture the full sentence
@@ -47,7 +49,7 @@ def process_paragraph_blocklist(lst, blocklist, article_title, section_titles):
                 paragraph_txt += ' ' + get_element_clean_text(paragraph_inline)
             paragraph_txt = paragraph_txt.strip()
             if paragraph_txt:
-                lst.append({'text': paragraph_txt, 'metadata': article_title + section_titles, "@eId": article_paragraph})
+                lst.append({'text': paragraph_txt, 'metadata': article_lnk + article_title + section_titles, "@eId": article_paragraph})
 
     # Process any list items (this allows to capture enumerated paragraphs), ex.: Art. 958 C
     if hasattr(blocklist, 'item'):
@@ -56,15 +58,15 @@ def process_paragraph_blocklist(lst, blocklist, article_title, section_titles):
                 article_paragraph = item.attrib["eId"]
                 paragraph_txt = get_element_clean_text(item.p)
                 if paragraph_txt:
-                    lst.append({'text': paragraph_txt, 'metadata': article_title + section_titles, "@eId": article_paragraph})
+                    lst.append({'text': paragraph_txt, 'metadata': article_lnk + article_title + section_titles, "@eId": article_paragraph})
                 if hasattr(item.p, 'inline'):
                     paragraph_txt = get_element_clean_text(item.p.inline)
                     if paragraph_txt:
-                        lst.append({'text': paragraph_txt, 'metadata': article_title + section_titles, "@eId": article_paragraph})
+                        lst.append({'text': paragraph_txt, 'metadata': article_lnk + article_title + section_titles, "@eId": article_paragraph})
 
             # Handle blocklists nested within items
             if hasattr(item, 'blockList'):
-                process_paragraph_blocklist(lst, item.blockList, article_title, section_titles)
+                process_paragraph_blocklist(lst, item.blockList, article_lnk, article_title, section_titles)
 
 
 def process_article(lst, article, section_titles):
@@ -80,6 +82,9 @@ def process_article(lst, article, section_titles):
         return lst
 
     article_title = [str(' '.join([get_element_clean_text(x) for x in article.num.getchildren()]).strip())]
+    article_eid = article.attrib["eId"]
+    article_lnk = [str(lnk+article_eid)]
+
 
     # this excludes articles with no paragraphs like Art. 40g
     if not hasattr(article, 'paragraph') or len(article.paragraph) == 0:
@@ -91,17 +96,17 @@ def process_article(lst, article, section_titles):
             article_paragraph = paragraph.attrib["eId"]
             paragraph_txt = get_element_clean_text(paragraph.content.p)
             if paragraph_txt:
-                lst.append({'text': paragraph_txt, 'metadata': article_title + section_titles, "@eId": article_paragraph})
+                lst.append({'text': paragraph_txt, 'metadata': article_lnk + article_title + section_titles, "@eId": article_paragraph})
             # extract the ones where the paragraph is within an additional <inline> tag
             if hasattr(paragraph.content.p, 'inline'):
                 paragraph_txt = get_element_clean_text(paragraph.content.p.inline)
                 if paragraph_txt:
-                    lst.append({'text': paragraph_txt, 'metadata': article_title + section_titles, "@eId": article_paragraph})
+                    lst.append({'text': paragraph_txt, 'metadata': article_lnk + article_title + section_titles, "@eId": article_paragraph})
 
         # When an article has blocklist within content, it will call the function process_paragraph_blocklist
         # This occurs where there are enumerated items within an article. Ex. Art. 24
         if hasattr(paragraph.content, 'blockList'):
-            process_paragraph_blocklist(lst, paragraph.content.blockList, article_title, section_titles)
+            process_paragraph_blocklist(lst, paragraph.content.blockList, article_lnk, article_title, section_titles)
 
     return lst
 
@@ -149,17 +154,17 @@ def find_articles(lst, parent, section_titles):
     return lst
 
 
-# # create an empty list and then call the function find_articles to get the articles paragraphs
-# lst_data_compiled_de = []
-# lst_data_compiled_de = find_articles(lst_data_compiled_de, akn_doc_de.root.act.body, [])
-#
-# with open('cleaned_pflichten_des_arbeitsgebers_full_de_v2.json', 'w', encoding='utf-8') as file:
-#     json.dump(lst_data_compiled_de, file, indent=2, ensure_ascii=False)
-
-
 # create an empty list and then call the function find_articles to get the articles paragraphs
 lst_data_compiled_de = []
 lst_data_compiled_de = find_articles(lst_data_compiled_de, akn_doc_de.root.act.body, [])
 
-with open('cleaned_pflichten_des_zivilgesetzbuch_full_de.json', 'w', encoding='utf-8') as file:
+with open('cleaned_pflichten_des_arbeitsgebers_full_de_v2.json', 'w', encoding='utf-8') as file:
     json.dump(lst_data_compiled_de, file, indent=2, ensure_ascii=False)
+
+
+# # create an empty list and then call the function find_articles to get the articles paragraphs
+# lst_data_compiled_de = []
+# lst_data_compiled_de = find_articles(lst_data_compiled_de, akn_doc_de.root.act.body, [])
+#
+# with open('cleaned_pflichten_des_zivilgesetzbuch_full_de.json', 'w', encoding='utf-8') as file:
+#     json.dump(lst_data_compiled_de, file, indent=2, ensure_ascii=False)
