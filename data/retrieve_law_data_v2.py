@@ -9,15 +9,15 @@ import json
 # Schweizerisches Zivilgesetzbuch - SR-210-01012024-DE.xml
 # "https://www.fedlex.admin.ch/filestore/fedlex.data.admin.ch/eli/cc/24/233_245_233/20240101/de/xml/fedlex-data-admin-ch-eli-cc-24-233_245_233-20240101-de-xml-15.xml "
 
-# # SR220 - Obligationenrecht
-# file = open("SR-220-01012024-DE-newdownload.xml", encoding="utf8")
-# xml_data_de = file.read()
-# file.close()
-
-# SR210 - Schweizerisches Zivilgesetzbuch
-file = open("SR-210-01012024-DE.xml", encoding="utf8")
+# SR220 - Obligationenrecht
+file = open("SR-220-01012024-DE.xml", encoding="utf8")
 xml_data_de = file.read()
 file.close()
+
+# # SR210 - Schweizerisches Zivilgesetzbuch
+# file = open("SR-210-01012024-DE.xml", encoding="utf8")
+# xml_data_de = file.read()
+# file.close()
 
 akn_doc_de = AkomaNtosoDocument(xml_data_de)
 lnk = akn_doc_de.root.act.meta.identification.FRBRExpression.FRBRuri.attrib["value"]+'#'
@@ -155,17 +155,17 @@ def find_articles(lst, parent, section_titles):
     return lst
 
 
-# # create an empty list and then call the function find_articles to get the articles paragraphs (SR220 - Obligationenrecht)
-# lst_data_compiled_de = []
-# lst_data_compiled_de = find_articles(lst_data_compiled_de, akn_doc_de.root.act.body, [])
-#
-# with open('cleaned_obligationenrecht_full_de_v2.json', 'w', encoding='utf-8') as file:
-#     json.dump(lst_data_compiled_de, file, indent=2, ensure_ascii=False)
-
-
-# create an empty list and then call the function find_articles to get the articles paragraphs (SR210 - Schweizerisches Zivilgesetzbuch)
+# create an empty list and then call the function find_articles to get the articles paragraphs (SR220 - Obligationenrecht)
 lst_data_compiled_de = []
 lst_data_compiled_de = find_articles(lst_data_compiled_de, akn_doc_de.root.act.body, [])
 
-with open('cleaned_schweizerisches_zivilgesetzbuch_full_de.json', 'w', encoding='utf-8') as file:
+with open('obligationrecht_v2.json', 'w', encoding='utf-8') as file:
     json.dump(lst_data_compiled_de, file, indent=2, ensure_ascii=False)
+
+
+# # create an empty list and then call the function find_articles to get the articles paragraphs (SR210 - Schweizerisches Zivilgesetzbuch)
+# lst_data_compiled_de = []
+# lst_data_compiled_de = find_articles(lst_data_compiled_de, akn_doc_de.root.act.body, [])
+#
+# with open('schweizerisches_zivilgesetzbuch.json', 'w', encoding='utf-8') as file:
+#     json.dump(lst_data_compiled_de, file, indent=2, ensure_ascii=False)
