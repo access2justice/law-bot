@@ -51,7 +51,13 @@ export async function POST(req: Request) {
     userId,
     createdAt,
     path,
-    body: completion
+    messages: [
+      ...messages,
+      {
+        content: completion,
+        role: 'assistant'
+      }
+    ]
   }
 
   await kv.hmset(`chat:${id}`, payload)
