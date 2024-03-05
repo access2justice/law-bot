@@ -8,7 +8,12 @@ export default async function handler(req: VercelRequest, res: VercelResponse) {
   const data = body;
 
   try {
-    await new Promise((resolve) => setTimeout(resolve, 1000));
+    await web.chat.postMessage({
+      thread_ts: data.event.ts,
+      channel: data.event.channel,
+      text: "Thanks for your message, one moment please ...",
+    });
+
     const response = await fetch(process.env.AWS_API_CHAT_ENDPOINT || "", {
       method: "POST",
       headers: {
@@ -35,7 +40,56 @@ export default async function handler(req: VercelRequest, res: VercelResponse) {
       slack_thread_ts: data.event.ts,
     });
 
+    const legalReasoning = json.data.reasoning_thread
+      .map(({ type, query, result, prompt, response }) => {
+        if (type === "search") {
+          return [
+            {
+              type: "header",
+              text: {
+                type: "plain_text",
+                text: "⚙️ search",
+                emoji: true,
+              },
+            },
+            {
+              type: "context",
+              elements: result.text.map((r: string, i: number) => ({
+                type: "mrkdwn",
+                text: `*${result.art_para[i]}*: ${r}`,
+              })),
+            },
+            {
+              type: "divider",
+            },
+          ];
+        } else if (type === "llm") {
+          return [
+            {
+              type: "header",
+              text: {
+                type: "plain_text",
+                text: "⚙️ llm",
+                emoji: true,
+              },
+            },
+            {
+              type: "context",
+              elements: prompt.map((r: any, i: number) => ({
+                type: "mrkdwn",
+                text: `*${r.role}*: ${r.content.replaceAll("\n", "")}`,
+              })),
+            },
+            {
+              type: "divider",
+            },
+          ];
+        }
+      })
+      .flatten();
+
     const messageBlocks = [
+      ...legalReasoning,
       {
         type: "section",
         text: {
@@ -58,6 +112,8 @@ export default async function handler(req: VercelRequest, res: VercelResponse) {
         ],
       },
     ];
+
+    console.log(messageBlocks);
 
     await web.chat.postMessage({
       blocks: messageBlocks,
