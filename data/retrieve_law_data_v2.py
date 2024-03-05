@@ -2,22 +2,17 @@ from cobalt import AkomaNtosoDocument
 import json
 import re
 
+
 # Obligationenrecht - SR-220-01012024-DE-newdownload.xml
 # "https://www.fedlex.admin.ch/filestore/fedlex.data.admin.ch/eli/cc/27/317_321_377/20240101/de/xml/fedlex-data-admin-ch-eli-cc-27-317_321_377-20240101-de-xml-3.xml"
 
 
-# Schweizerisches Zivilgesetzbuch - SR-210-01012024-DE.xml
-# "https://www.fedlex.admin.ch/filestore/fedlex.data.admin.ch/eli/cc/24/233_245_233/20240101/de/xml/fedlex-data-admin-ch-eli-cc-24-233_245_233-20240101-de-xml-15.xml "
 
 # SR220 - Obligationenrecht
 file = open("SR-220-01012024-DE.xml", encoding="utf8")
 xml_data_de = file.read()
 file.close()
 
-# # SR210 - Schweizerisches Zivilgesetzbuch
-# file = open("SR-210-01012024-DE.xml", encoding="utf8")
-# xml_data_de = file.read()
-# file.close()
 
 akn_doc_de = AkomaNtosoDocument(xml_data_de)
 
@@ -149,13 +144,26 @@ def find_articles(lst, parent, section_titles):
 lst_data_compiled_de = []
 lst_data_compiled_de = find_articles(lst_data_compiled_de, akn_doc_de.root.act.body, [])
 
+
+# Grouping the data by article, each entry on dictionary will have all the text associated to it (all paragraphs merged) in a string within the key 'text'
+# and all eIds will be in a list with the key '@eIds'. Metadata stays the same since is the same metadata.
+# create a new dict to group the data using the links as keys
+by_article = {}
+for elem in lst_data_compiled_de:
+    article = elem['metadata'][0]
+    if article not in by_article:
+        by_article[article] = {'text': elem['text'], 'metadata': elem['metadata'], '@eIds': [elem['@eId']]}
+    else:
+        by_article[article]['text'] += ' ' + elem['text']
+        by_article[article]['@eIds'].append(elem['@eId'])
+
+# removing the article link as a key that was used to group the data so that he exported data in the json format has the same structure
+values_by_article = list(by_article.values())
+
 with open('obligationrecht_v2.json', 'w', encoding='utf-8') as file:
     json.dump(lst_data_compiled_de, file, indent=2, ensure_ascii=False)
 
 
-# # create an empty list and then call the function find_articles to get the articles paragraphs (SR210 - Schweizerisches Zivilgesetzbuch)
-# lst_data_compiled_de = []
-# lst_data_compiled_de = find_articles(lst_data_compiled_de, akn_doc_de.root.act.body, [])
-#
-# with open('schweizerisches_zivilgesetzbuch.json', 'w', encoding='utf-8') as file:
-#     json.dump(lst_data_compiled_de, file, indent=2, ensure_ascii=False)
+with open('obligationrecht_by_article.json', 'w', encoding='utf-8') as file:
+    json.dump(values_by_article, file, indent=2, ensure_ascii=False)
+
