@@ -18,14 +18,25 @@ base_url = akn_doc_de.root.act.meta.identification.FRBRExpression.FRBRuri.attrib
 base_url = base_url.replace('fedlex.data.admin', 'fedlex.admin')
 base_url = re.sub(r'\/\d{8}(\/\w+)$', '\\1', base_url)
 
+excluded_text_tags = [f'{{{akn_doc_de.namespace}}}{tag}' for tag in ['authorialNote', 'ref']]
 
-def get_element_clean_text(element):
-    if not hasattr(element, 'itertext'):
+
+def get_element_clean_text(el):
+    if el is None:
         return ''
 
     texts = []
-    for txt in element.itertext():
-        texts.append(str(txt).replace('\xa0', ' ').strip())
+
+    if el.text:
+        texts.append(el.text.replace('\xa0', ' ').strip())
+
+    for child_el in el.iterchildren():
+        if child_el is not None and child_el.tag not in excluded_text_tags:
+            child_txt = texts.append(get_element_clean_text(child_el))
+            if child_txt:
+                texts.append(child_txt)
+            if child_el.tail:
+                texts.append(child_el.tail.replace('\xa0', ' ').strip())
 
     return ' '.join(texts)
 
@@ -41,7 +52,7 @@ def process_paragraph_blocklist(lst, blocklist, article_lnk, article_title, sect
         article_paragraph = list_intro.attrib["eId"]
         paragraph_txt = get_element_clean_text(list_intro)
         if paragraph_txt:
-            lst.append({'text': paragraph_txt, 'metadata': article_lnk + article_title + section_titles, "@eId": article_paragraph})
+            lst.append({'text': paragraph_txt, 'metadata': article_lnk + article_title + section_titles, '@eId': article_paragraph})
 
     # Process any list items (this allows to capture enumerated paragraphs), ex.: Art. 958 C
     if hasattr(blocklist, 'item'):
@@ -50,7 +61,7 @@ def process_paragraph_blocklist(lst, blocklist, article_lnk, article_title, sect
                 article_paragraph = item.attrib["eId"]
                 paragraph_txt = get_element_clean_text(item.p)
                 if paragraph_txt:
-                    lst.append({'text': paragraph_txt, 'metadata': article_lnk + article_title + section_titles, "@eId": article_paragraph})
+                    lst.append({'text': paragraph_txt, 'metadata': article_lnk + article_title + section_titles, '@eId': article_paragraph})
 
             # Handle blocklists nested within items
             if hasattr(item, 'blockList'):
@@ -80,10 +91,10 @@ def process_article(lst, article, section_titles):
     for paragraph in article.paragraph:
         # Extract Paragraphs from Articles. Will cover the articles where these are not nested like Art. 1
         if hasattr(paragraph.content, 'p'):
-            article_paragraph = paragraph.attrib["eId"]
+            article_paragraph = paragraph.attrib['eId']
             paragraph_txt = get_element_clean_text(paragraph.content.p)
             if paragraph_txt:
-                lst.append({'text': paragraph_txt, 'metadata': article_url + article_title + section_titles, "@eId": article_paragraph})
+                lst.append({'text': paragraph_txt, 'metadata': article_url + article_title + section_titles, '@eId': article_paragraph})
 
         # When an article has blocklist within content, it will call the function process_paragraph_blocklist
         # This occurs where there are enumerated items within an article. Ex. Art. 24
@@ -129,11 +140,11 @@ def find_articles(lst, parent, section_titles):
 
     # Find all sections of type chapter
     if hasattr(parent, 'chapter'):
-        df = process_sections(lst, parent.chapter, section_titles)
+        lst = process_sections(lst, parent.chapter, section_titles)
 
     # Find all sections of type level
     if hasattr(parent, 'level'):
-        df = process_sections(lst, parent.level, section_titles)
+        lst = process_sections(lst, parent.level, section_titles)
 
     return lst
 
@@ -143,19 +154,22 @@ lst_data_compiled_de = []
 lst_data_compiled_de = find_articles(lst_data_compiled_de, akn_doc_de.root.act.body, [])
 
 
+
+
 # Grouping the data by article, each entry on dictionary will have all the text associated to it (all paragraphs merged) in a string within the key 'text'
 # and all eIds will be in a list with the key '@eIds'. Metadata stays the same since is the same metadata.
 # create a new dict to group the data using the links as keys
 by_article = {}
 for elem in lst_data_compiled_de:
-    article = elem['metadata'][0]
-    if article not in by_article:
-        by_article[article] = {'text': elem['text'], 'metadata': elem['metadata'], '@eIds': [elem['@eId']]}
+    article_key = elem['metadata'][0]
+    if article_key not in by_article:
+        by_article[article_key] = {'text': elem['text'], 'metadata': elem['metadata'], '@eIds': [elem['@eId']]}
     else:
-        by_article[article]['text'] += ' ' + elem['text']
-        by_article[article]['@eIds'].append(elem['@eId'])
+        by_article[article_key]['text'] += ' ' + elem['text']
+        by_article[article_key]['@eIds'].append(elem['@eId'])
 
-
+# removing the article link as a key that was used to group the data so that he exported data in the json format has the same structure
+values_by_article = list(by_article.values())
 
 
 # create an empty list and then call the function find_articles to get the articles paragraphs (SR210 - Schweizerisches Zivilgesetzbuch)

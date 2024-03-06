@@ -110,9 +110,10 @@ def process_sections(lst, sections, section_titles):
     """Retrieve all the sections and call function find_article"""
     for section in sections:
         if hasattr(section, 'num') or not section.num:
-            section_title = str(section.num).replace('\xa0', ' ').strip()
+
+            section_title = str(get_element_clean_text(section.num)).replace('\xa0', ' ').strip()
             if hasattr(section, 'heading'):
-                section_title += ' ' + str(section.heading).replace('\xa0', ' ').strip()
+                section_title += ' ' + str(' '.join([headingtext.text.strip() for headingtext in section.heading])).replace('\xa0', ' ').strip()
             lst = find_articles(lst, section, section_titles + [section_title])
         else:
             lst = find_articles(lst, section, section_titles)
@@ -176,3 +177,19 @@ with open('obligationrecht_v2.json', 'w', encoding='utf-8') as file:
 
 with open('obligationrecht_by_article.json', 'w', encoding='utf-8') as file:
     json.dump(values_by_article, file, indent=2, ensure_ascii=False)
+
+
+# test_1 = akn_doc_de.root.act.body.part.title.chapter.level[7].level[0].article.paragraph[1]
+#
+# print('current approach', (get_element_clean_text(test_1)))
+# for text in test_1.iterchildren():
+#     print(text)
+#     print(text.tail)
+#     print(text.getnext())
+#     for t in text.iterchildren():
+#         print(t)
+#         print(t.tail)
+#         print(t.getnext())
+# for x in test_1.content.itertext():
+#     print(x)
+#
