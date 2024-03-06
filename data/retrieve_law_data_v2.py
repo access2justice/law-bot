@@ -179,17 +179,3 @@ with open('obligationrecht_by_article.json', 'w', encoding='utf-8') as file:
     json.dump(values_by_article, file, indent=2, ensure_ascii=False)
 
 
-# test_1 = akn_doc_de.root.act.body.part.title.chapter.level[7].level[0].article.paragraph[1]
-#
-# print('current approach', (get_element_clean_text(test_1)))
-# for text in test_1.iterchildren():
-#     print(text)
-#     print(text.tail)
-#     print(text.getnext())
-#     for t in text.iterchildren():
-#         print(t)
-#         print(t.tail)
-#         print(t.getnext())
-# for x in test_1.content.itertext():
-#     print(x)
-#
