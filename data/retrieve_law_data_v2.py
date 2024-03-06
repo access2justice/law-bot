@@ -7,7 +7,6 @@ import re
 # "https://www.fedlex.admin.ch/filestore/fedlex.data.admin.ch/eli/cc/27/317_321_377/20240101/de/xml/fedlex-data-admin-ch-eli-cc-27-317_321_377-20240101-de-xml-3.xml"
 
 
-
 # SR220 - Obligationenrecht
 file = open("SR-220-01012024-DE.xml", encoding="utf8")
 xml_data_de = file.read()
@@ -37,8 +36,8 @@ def get_element_clean_text(el):
             child_txt = texts.append(get_element_clean_text(child_el))
             if child_txt:
                 texts.append(child_txt)
-            if child_el.tail:
-                texts.append(child_el.tail.replace('\xa0', ' ').strip())
+        if child_el.tail:
+            texts.append(child_el.tail.replace('\xa0', ' ').strip())
 
     return ' '.join(texts)
 
@@ -157,9 +156,9 @@ lst_data_compiled_de = []
 lst_data_compiled_de = find_articles(lst_data_compiled_de, akn_doc_de.root.act.body, [])
 
 
-# Grouping the data by article, each entry on dictionary will have all the text associated to it (all paragraphs merged) in a string within the key 'text'
-# and all eIds will be in a list with the key '@eIds'. Metadata stays the same since is the same metadata.
-# create a new dict to group the data using the links as keys
+# # Grouping the data by article, each entry on dictionary will have all the text associated to it (all paragraphs merged) in a string within the key 'text'
+# # and all eIds will be in a list with the key '@eIds'. Metadata stays the same since is the same metadata.
+# # create a new dict to group the data using the links as keys
 by_article = {}
 for elem in lst_data_compiled_de:
     article_key = elem['metadata'][0]
@@ -177,5 +176,9 @@ with open('obligationrecht_v2.json', 'w', encoding='utf-8') as file:
 
 with open('obligationrecht_by_article.json', 'w', encoding='utf-8') as file:
     json.dump(values_by_article, file, indent=2, ensure_ascii=False)
+
+
+
+
 
 
