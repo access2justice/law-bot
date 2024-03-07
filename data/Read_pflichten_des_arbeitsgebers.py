@@ -136,8 +136,8 @@ for i in range(0,len(df)):
             df.loc[i,"p_text"]=df.loc[i,"p_text"]["inline"][0]
 
 #based on the Obligation (Pflicht) and article name concatenate paragraph into one piece of text
-df_concat=df.groupby(by=["Level1","art"]).agg(lambda x: ' '.join(x.astype(str))).reset_index()
-df_concat=df_concat[['Level1', 'art', 'p_text', 'p_num', 'p_text_old']]
+df_concat=df.groupby(by=["Level1","art"]).agg(lambda x: ' '.join(pd.unique(x.astype(str)))).reset_index()
+df_concat=df_concat[['Level1', 'art', 'p_text', 'p_num',"p_text_old"]]
 
 
 
