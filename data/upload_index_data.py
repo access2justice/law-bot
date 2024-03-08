@@ -41,7 +41,7 @@ def prep_data(json_file_name: str):
     # Prepare data for upload
     docs = []
     counter = 1
-    for document in documents[:10]:
+    for document in documents:
         if 'text' in document and document['text']:
             DOCUMENT = {
                 "@search.action": "mergeOrUpload",
@@ -49,7 +49,7 @@ def prep_data(json_file_name: str):
                 "text": document['text'],
                 "text_vector": get_embeddings(document['text']),
                 "metadata": document['metadata'],
-                "eId": document['@eIds']
+                "eIds": document['@eIds']
             }
             counter += 1
             docs.append(DOCUMENT)
