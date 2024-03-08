@@ -41,7 +41,7 @@ def prep_data(json_file_name: str):
     # Prepare data for upload
     docs = []
     counter = 1
-    for document in documents:
+    for document in documents[:10]:
         if 'text' in document and document['text']:
             DOCUMENT = {
                 "@search.action": "mergeOrUpload",
@@ -49,7 +49,7 @@ def prep_data(json_file_name: str):
                 "text": document['text'],
                 "text_vector": get_embeddings(document['text']),
                 "metadata": document['metadata'],
-                "eId": document['@eId']
+                "eId": document['@eIds']
             }
             counter += 1
             docs.append(DOCUMENT)
@@ -59,7 +59,7 @@ def prep_data(json_file_name: str):
 
 if __name__ == "__main__":
     # prepare documents for azure index
-    docs = prep_data('obligationrecht')
+    docs = prep_data('obligationrecht_by_article')
     # chunk documents
     chunks = [docs[i:i + 1000] for i in range(0, len(docs), 1000)]
     # upload chunks to azure
@@ -72,4 +72,4 @@ if __name__ == "__main__":
         ) as batch_client:  
             # Add upload actions for all documents  
             batch_client.upload_documents(documents=chunk)  
-    print(f"Uploaded {len(docs)} documents in total")  
+    print(f"Uploaded {len(docs)} documents in total")
