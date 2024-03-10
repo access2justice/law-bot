@@ -3,15 +3,14 @@ from pydantic import BaseModel
 
 class ReasoningThread(BaseModel):
     type: str
-    results: Optional[Dict[str, Any]]
-    query: Optional[Any]
-    conversation: Optional[Any]
-    response: Optional[str]
+    query: Optional[Any] = None
+    results: Optional[Dict[str, Any]] = None
+    prompt: Optional[Any] = None
+    response: Optional[str] = None
 
-class MyJsonType(BaseModel):
+class IntegratedResponse(BaseModel):
     content: str
-    reasoning_thread: List[ReasoningThread]
+    reasoning_thread: Union[str, List[ReasoningThread]]
 
 class ChatResponse(BaseModel):
-    data: Any
-
+    data: IntegratedResponse

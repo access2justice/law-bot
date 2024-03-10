@@ -38,7 +38,8 @@ async def lifespan(app: FastAPI):
 def create_app():
     load_dotenv(override=True)
     is_dev = os.getenv('RUNNING_ENV') == 'dev'
-    app = FastAPI(docs_url="/docs",
+    app = FastAPI(root_path="/prod",
+            docs_url="/docs",
             redoc_url="/redoc",
             openapi_url="/openapi.json",
             lifespan=lifespan)

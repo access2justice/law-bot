@@ -89,15 +89,13 @@ class ChatBotPipeline:
                 k_nearest_neighbors=3, fields="text_vector")],
             top=8,
             select=["text", "metadata", "eId"],
-            include_total_count=True)
-                    
+            include_total_count=True)   
         
-
         async for result in results:
             retrieved_info["text"].append(result["text"])
             retrieved_info["art_num"].append(result["metadata"][0])
             retrieved_info["art_para"].append(result["eId"])
-        self.reasoning_thread.append({"type": 'search', "query": user_query, "result": retrieved_info})
+        self.reasoning_thread.append({"type": "search", "query": user_query, "result": retrieved_info})
         return retrieved_info
 
 
@@ -114,18 +112,13 @@ class ChatBotPipeline:
         user_content = user_query + " " + prompt
         user_message = [{"role":"user", "content":user_content}]
         user_message_tokens = self.num_tokens_from_messages(user_message)
-        print(user_message)
-        print(user_message_tokens)
         user_message_token_limit = self.model_token_limit - self.max_response_tokens - sys_message_tokens
         conversation = sys_message + user_message
-
-        if user_message_tokens  >= user_message_token_limit:
-            summarize_user_message = await self.summarize_prompt(prompt, user_message_token_limit)
-            conversation = sys_message + summarize_user_message
 
         if chat_stream:
             #Streaming response
                 async def response_stream():
+                    full_response = ""
                     chat_coroutine = self.openai_client.chat.completions.create(
                         model=self.model,
                         temperature=temperature,
@@ -133,13 +126,21 @@ class ChatBotPipeline:
                         max_tokens=self.max_response_tokens,
                         stream=True,
                     )
-                    self.reasoning_thread.append(conversation)
                     async for event in await chat_coroutine:
                         if event.choices:
                             content = json.dumps(event.choices[0].delta.content, ensure_ascii=False)
-                            data = {"content": content}
-                            sse_data = f"data: {jsonable_encoder(ChatResponse(data=data))}\n\n"
-                            yield sse_data
+                            if event.choices[0].finish_reason != "stop":
+                                if content != "null":
+                                    content = eval(content)
+                                    full_response += content
+                                    data = {"content": content, "reasoning_thread":"null"}
+                                    sse_data = f"data: {jsonable_encoder(ChatResponse(data=data))}\n\n"
+                                    yield sse_data
+                            else:
+                                self.reasoning_thread.append({"type": "llm", "prompt":conversation, "response": full_response})
+                                data = {"content": content, "reasoning_thread":self.reasoning_thread}
+                                sse_data = f"data: {jsonable_encoder(ChatResponse(data=data))}\n\n"
+                                yield sse_data
                 return StreamingResponse(response_stream(), media_type="text/event-stream")
         else:
             #Non-Streaming Response
@@ -153,8 +154,6 @@ class ChatBotPipeline:
             content = gpt_message.choices[0].message.content
             self.reasoning_thread.append({"type": "llm", "prompt":conversation, "response": content})
             data = {"content": content, "reasoning_thread": self.reasoning_thread}
-            print(self.reasoning_thread)
-            
             response = jsonable_encoder(ChatResponse(data=data))
         return JSONResponse(response, media_type="application/json")
         
