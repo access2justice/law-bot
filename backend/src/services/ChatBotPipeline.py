@@ -34,7 +34,7 @@ class ChatBotPipeline:
         chat_stream = chat_request.stream
         user_message = jsonable_encoder(chat_request.message)
         user_query = user_message[0]["content"]
-        return chat_stream, user_message, user_query
+        return chat_stream, user_query
     
     def num_tokens_from_messages(self, messages: list) -> int:
         """Returns the number of tokens in a message list."""
@@ -63,14 +63,12 @@ class ChatBotPipeline:
     
     def user_prompt(self, retrieved_info: dict) -> str:
         retrieved_text = retrieved_info["text"]
-        retrieved_art_num = retrieved_info["art_num"]
-        retrieved_art_para = retrieved_info["art_para"]
-        print(retrieved_art_para)
+        retrieved_metadata = retrieved_info["metadata"]
         prompt = f"""
         Swiss law:
         {retrieved_text}
         """
-        return prompt, retrieved_art_num
+        return prompt
     
     
     async def retriever(
@@ -79,23 +77,21 @@ class ChatBotPipeline:
         ) -> dict:
         retrieved_info = {}
         retrieved_info["text"] = []
-        retrieved_info["art_num"] = []
-        retrieved_info["art_para"] = []
+        retrieved_info["metadata"] = []
  
         results = await self.search_client.search(
             search_text=user_query,
             vector_queries=[VectorizedQuery(
                 vector=(await self.openai_embedding_client.embeddings.create(input=[user_query], model=self.embeddings_model)).data[0].embedding, 
                 k_nearest_neighbors=3, fields="text_vector")],
-            top=8,
-            select=["text", "metadata", "eId"],
+            top=5,
+            select=["text", "metadata"],
             include_total_count=True)   
         
         async for result in results:
             retrieved_info["text"].append(result["text"])
-            retrieved_info["art_num"].append(result["metadata"][0])
-            retrieved_info["art_para"].append(result["eId"])
-        self.reasoning_thread.append({"type": "search", "query": user_query, "result": retrieved_info})
+            retrieved_info["metadata"].append(result["metadata"])
+        self.reasoning_thread.append({"type": "search", "query": user_query, "results": retrieved_info})
         return retrieved_info
 
 
@@ -103,8 +99,7 @@ class ChatBotPipeline:
             self,
             user_query,
             prompt,
-            chat_stream,
-            articles
+            chat_stream
         ) -> Union[StreamingResponse, Response]:
         # Set up LLM model
         temperature = 0.0
@@ -161,10 +156,10 @@ class ChatBotPipeline:
             self, 
             chat_request: ChatRequest
         ) -> Union[StreamingResponse, Response]:
-        chat_stream, user_message, user_query = self.process_request(chat_request)       
+        chat_stream, user_query = self.process_request(chat_request)       
         retrieved_info = await self.retriever(user_query)
-        prompt, articles = self.user_prompt(retrieved_info)
-        response = await self.generator(user_query, prompt, chat_stream, articles)
+        prompt = self.user_prompt(retrieved_info)
+        response = await self.generator(user_query, prompt, chat_stream)
         return response
     
 
