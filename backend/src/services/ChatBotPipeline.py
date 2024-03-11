@@ -63,7 +63,6 @@ class ChatBotPipeline:
     
     def user_prompt(self, retrieved_info: dict) -> str:
         retrieved_text = retrieved_info["text"]
-        retrieved_metadata = retrieved_info["metadata"]
         prompt = f"""
         Swiss law:
         {retrieved_text}
@@ -76,19 +75,21 @@ class ChatBotPipeline:
             user_query: str,
         ) -> dict:
         retrieved_info = {}
+        retrieved_info["eIds"] = []
         retrieved_info["text"] = []
         retrieved_info["metadata"] = []
- 
+        
         results = await self.search_client.search(
             search_text=user_query,
             vector_queries=[VectorizedQuery(
                 vector=(await self.openai_embedding_client.embeddings.create(input=[user_query], model=self.embeddings_model)).data[0].embedding, 
                 k_nearest_neighbors=3, fields="text_vector")],
             top=5,
-            select=["text", "metadata"],
+            select=["text", "metadata", "eIds"],
             include_total_count=True)   
         
         async for result in results:
+            retrieved_info["eIds"].append(result["eIds"])
             retrieved_info["text"].append(result["text"])
             retrieved_info["metadata"].append(result["metadata"])
         self.reasoning_thread.append({"type": "search", "query": user_query, "results": retrieved_info})
