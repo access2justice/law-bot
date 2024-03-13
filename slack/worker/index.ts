@@ -36,126 +36,118 @@ export const handler: Handler = async (event) => {
     // Your task processing logic here
     // For example, interacting with a database, performing calculations, etc.
     console.log("2. Initiate process-events, data:" + JSON.stringify(data));
-    try {
-      console.log("2.1 Start message" + new Date());
-      await web.chat.postMessage({
-        thread_ts: data.ts,
-        channel: data.channel,
-        text: "Yummy, a legal question! Let me take a look ...",
-      });
-      console.log("2.2. Slack message sent.", new Date());
-      await new Promise((resolve) => setTimeout(resolve, 1000));
-      console.log("2.3. Fetching backend", new Date());
-      const backendResponse = await fetchBackendAPI({
-        message: [
+    console.log("2.1 Start message" + new Date());
+    await web.chat.postMessage({
+      thread_ts: data.ts,
+      channel: data.channel,
+      text: "Yummy, a legal question! Let me take a look ...",
+    });
+    console.log("2.2. Slack message sent.", new Date());
+    await new Promise((resolve) => setTimeout(resolve, 1000));
+    console.log("2.3. Fetching backend", new Date());
+    const backendResponse = await fetchBackendAPI({
+      message: [
+        {
+          role: "user",
+          content:
+            data.text || "Explain to the user that something went wrong.",
+        },
+      ],
+    });
+    console.log("2.4. Backend response:", backendResponse);
+    console.log(
+      "2.5. After fetching backend, before processing legal reasoning",
+      new Date()
+    );
+    const payload_value = JSON.stringify({
+      user_input: data.text,
+      ai_response: backendResponse.data.content,
+      slack_channel: data.channel,
+      slack_thread_ts: data.ts,
+    });
+
+    const legalReasoning = [] as any[];
+    backendResponse.data.reasoning_thread.forEach(
+      ({ type, results, prompt }: any) => {
+        if (type === "search") {
+          legalReasoning.push({
+            type: "header",
+            text: {
+              type: "plain_text",
+              text: "⚙️ search",
+              emoji: true,
+            },
+          });
+          legalReasoning.push({
+            type: "context",
+            elements: results.text.map((r: string, i: number) => ({
+              type: "mrkdwn",
+              text: `*${results.art_para[i]}*: ${r}`,
+            })),
+          });
+          legalReasoning.push({
+            type: "divider",
+          });
+        } else if (type === "llm") {
+          legalReasoning.push({
+            type: "header",
+            text: {
+              type: "plain_text",
+              text: "⚙️ llm",
+              emoji: true,
+            },
+          });
+          legalReasoning.push({
+            type: "context",
+            elements: prompt.map((r: any, i: number) => ({
+              type: "mrkdwn",
+              text: `*${r.role}*: ${r.content.replaceAll("\n", "")}`,
+            })),
+          });
+          legalReasoning.push({
+            type: "divider",
+          });
+        }
+      }
+    );
+    console.log(
+      "2.7 Processing legal reasoning and preparing message blocks.",
+      new Date()
+    );
+    const messageBlocks = [
+      ...legalReasoning,
+      {
+        type: "section",
+        text: {
+          type: "mrkdwn",
+          text: backendResponse.data.content,
+        },
+      },
+      {
+        type: "actions",
+        elements: [
           {
-            role: "user",
-            content:
-              data.text || "Explain to the user that something went wrong.",
+            type: "button",
+            text: {
+              type: "plain_text",
+              text: "Share a feedback",
+            },
+            action_id: "feedback",
+            value: payload_value,
           },
         ],
-      });
-      console.log("2.4. Backend response:", backendResponse);
-      console.log(
-        "2.5. After fetching backend, before processing legal reasoning",
-        new Date()
-      );
-      const payload_value = JSON.stringify({
-        user_input: data.text,
-        ai_response: backendResponse.data.content,
-        slack_channel: data.channel,
-        slack_thread_ts: data.ts,
-      });
+      },
+    ];
 
-      const legalReasoning = [] as any[];
-      backendResponse.data.reasoning_thread.forEach(
-        ({ type, results, prompt }: any) => {
-          if (type === "search") {
-            legalReasoning.push({
-              type: "header",
-              text: {
-                type: "plain_text",
-                text: "⚙️ search",
-                emoji: true,
-              },
-            });
-            legalReasoning.push({
-              type: "context",
-              elements: results.text.map((r: string, i: number) => ({
-                type: "mrkdwn",
-                text: `*${results.art_para[i]}*: ${r}`,
-              })),
-            });
-            legalReasoning.push({
-              type: "divider",
-            });
-          } else if (type === "llm") {
-            legalReasoning.push({
-              type: "header",
-              text: {
-                type: "plain_text",
-                text: "⚙️ llm",
-                emoji: true,
-              },
-            });
-            legalReasoning.push({
-              type: "context",
-              elements: prompt.map((r: any, i: number) => ({
-                type: "mrkdwn",
-                text: `*${r.role}*: ${r.content.replaceAll("\n", "")}`,
-              })),
-            });
-            legalReasoning.push({
-              type: "divider",
-            });
-          }
-        }
-      );
-      console.log(
-        "2.7 Processing legal reasoning and preparing message blocks.",
-        new Date()
-      );
-      const messageBlocks = [
-        ...legalReasoning,
-        {
-          type: "section",
-          text: {
-            type: "mrkdwn",
-            text: backendResponse.data.content,
-          },
-        },
-        {
-          type: "actions",
-          elements: [
-            {
-              type: "button",
-              text: {
-                type: "plain_text",
-                text: "Share a feedback",
-              },
-              action_id: "feedback",
-              value: payload_value,
-            },
-          ],
-        },
-      ];
-
-      // console.log(messageBlocks);
-      console.log("2.8 Sending final message with blocks.", new Date());
-      await web.chat.postMessage({
-        blocks: messageBlocks,
-        thread_ts: data.ts,
-        channel: data.channel,
-        text: backendResponse.data.content,
-      });
-      console.log("2.9 Slack message sent successfully.", new Date());
-    } catch (error) {
-      console.log("Process-events Error:", error);
-      console.error(
-        "Process-events Error Detailed:",
-        JSON.stringify(error, null, 2)
-      );
-    }
+    // console.log(messageBlocks);
+    console.log("2.8 Sending final message with blocks.", new Date());
+    await web.chat.postMessage({
+      blocks: messageBlocks,
+      thread_ts: data.ts,
+      channel: data.channel,
+      text: backendResponse.data.content,
+    });
+    console.log("2.9 Slack message sent successfully.", new Date());
 
     // Log or return a result (as needed)
     console.log("Task processed successfully");
@@ -169,6 +161,12 @@ export const handler: Handler = async (event) => {
     };
   } catch (error) {
     console.error("Error processing task:", error);
+
+    await web.chat.postMessage({
+      thread_ts: data.ts,
+      channel: data.channel,
+      text: "Uh-oh, something went wrong ... #plsfix",
+    });
 
     // Handling errors (optional)
     return {
