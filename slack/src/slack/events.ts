@@ -24,11 +24,19 @@ export default async function postSlackEvents(req: Request, res: Response) {
     ) {
       console.log('00. Initiate message' + new Date());
       res.sendStatus(202);
-      console.log('1. Start message', new Date());
 
       try {
         console.log('1. Start message' + new Date());
-        await processEvents(data);
+        await fetch(
+          `${process.env.API_SLACK_GATEWAY_URL}/slack/process-events`,
+          {
+            method: 'POST',
+            headers: {
+              'Content-Type': 'application/json',
+            },
+            body: JSON.stringify(data),
+          },
+        );
         console.log('2. Success message', new Date());
         return;
       } catch (e) {

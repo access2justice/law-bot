@@ -13,7 +13,9 @@ interface ApiResponse {
   };
 }
 
-export default async function processEvents(data: any) {
+export default async function processEvents(req: Request, res: Response) {
+  const { body } = req;
+  const data = body as any;
   console.log('2. Initiate process-events, data:' + JSON.stringify(data));
   try {
     console.log('2.1 Start message' + new Date());
