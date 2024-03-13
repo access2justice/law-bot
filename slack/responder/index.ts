@@ -1,7 +1,7 @@
 import { APIGatewayProxyHandler } from "aws-lambda";
 import * as AWS from "aws-sdk";
 import { saveExpertFeedbackToNotion } from "./notion";
-import { openModal, returnSlackChallenge } from "./slack";
+import { openModal, returnSlackChallenge, sendSlackMessage } from "./slack";
 import queryString from "querystring";
 
 const lambda = new AWS.Lambda();
@@ -155,8 +155,13 @@ export const handler: APIGatewayProxyHandler = async (event) => {
     };
   } catch (error) {
     console.error("Error invoking the second Lambda function:", error);
+    await sendSlackMessage(
+      data.channel,
+      data.ts,
+      "Unfortunately something went wrong ..."
+    );
     return {
-      statusCode: 500,
+      statusCode: 200,
       body: JSON.stringify({
         message: "Failed to offload the task to the second Lambda function.",
       }),

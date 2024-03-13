@@ -154,12 +154,12 @@ export const handler: Handler = async (event) => {
     await sendSlackMessage(
       data.channel,
       data.ts,
-      "Yummy, a legal question! Let me take a look ..."
+      "Unfortunately something went wrong ..."
     );
 
     // Handling errors (optional)
     return {
-      statusCode: 500,
+      statusCode: 200,
       body: JSON.stringify({
         message: "Error processing the task",
       }),
