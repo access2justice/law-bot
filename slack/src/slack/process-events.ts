@@ -23,7 +23,9 @@ export default async function handler(data: any) {
   //   console.error('2.2 Error sending message:', JSON.stringify(e, null, 2));
   // }
   try {
+    console.log('2.3. Start message:', new Date());
     await new Promise((resolve) => setTimeout(resolve, 1000));
+    console.log('2.4. Fetching Backend:', new Date());
     const response = await fetch(process.env.AWS_API_CHAT_ENDPOINT || '', {
       method: 'POST',
       headers: {
@@ -42,7 +44,7 @@ export default async function handler(data: any) {
     });
 
     const json = await response.json();
-    console.log('2.2. Success message', new Date());
+    console.log('2.5. Success message:', JSON.stringify(json));
     const payload_value = JSON.stringify({
       user_input: data.event.text,
       ai_response: json.data.content,
