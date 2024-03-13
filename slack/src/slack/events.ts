@@ -1,6 +1,6 @@
 import { WebClient } from '@slack/web-api';
 import { Response, Request } from 'express';
-import processEvents from './process-events';
+import { processEvents } from './process-events';
 import * as dotenv from 'dotenv';
 
 dotenv.config();

@@ -12,102 +12,103 @@ interface ApiResponse {
   };
 }
 
-export default async function processEvents(data) {
+async function sendSlackMessage(channel, text) {
+  return web.chat.postMessage({
+    channel: channel,
+    text: text,
+  });
+}
+
+async function fetchBackendAPI(body) {
+  const response = await fetch(process.env.AWS_API_CHAT_ENDPOINT, {
+    method: 'POST',
+    headers: { 'Content-Type': 'application/json' },
+    body: JSON.stringify(body),
+  });
+  return response.json();
+}
+
+export async function processEvents(data) {
   console.log('2. Initiate process-events, data:' + JSON.stringify(data));
   try {
     console.log('2.1 Start message' + new Date());
-    await new Promise((resolve, reject) => {
-      web.chat
-        .postMessage({
-          thread_ts: data.event.ts,
-          channel: data.event.channel,
-          text: 'Thanks for your message, one moment please ...',
-        })
-        .then((response) => {
-          console.log('2.2 First response slack message.', new Date());
-          resolve(response);
-        })
-        .catch((error) => {
-          console.error('Error sending Slack message:', error);
-          reject(error);
-        });
-    });
+    const slackMessagePromise = sendSlackMessage(
+      data.channel,
+      'Thanks for your message, one moment please ...',
+    );
 
-    console.log('2.3. Start message:', new Date());
-    await new Promise((resolve) => setTimeout(resolve, 1000));
+    // await new Promise((resolve) => setTimeout(resolve, 1000));
     console.log('2.4. Fetching Backend:', new Date());
-    const response = await fetch(process.env.AWS_API_CHAT_ENDPOINT || '', {
-      method: 'POST',
-      headers: {
-        'Content-Type': 'application/json',
-      },
-      body: JSON.stringify({
-        message: [
-          {
-            role: 'user',
-            content:
-              data.event.text ||
-              'Explain to the user that something went wrong.',
-          },
-        ],
-      }),
+    const backendAPIPromise = fetchBackendAPI({
+      message: [
+        {
+          role: 'user',
+          content:
+            data.event.text || 'Explain to the user that something went wrong.',
+        },
+      ],
     });
-
-    const json = (await response.json()) as ApiResponse;
-    console.log('2.5. Success message:', JSON.stringify(json));
+    const [slackResponse, backendResponse] = await Promise.all([
+      slackMessagePromise,
+      backendAPIPromise,
+    ]);
+    console.log('2.2. Slack message sent:', slackResponse);
+    console.log('2.5. Backend API Promise:', backendResponse);
     console.log(
       '2.6. After fetching backend, before processing legal reasoning',
       new Date(),
     );
     const payload_value = JSON.stringify({
       user_input: data.event.text,
-      ai_response: json.data.content,
+      ai_response: backendResponse.data.content,
       slack_channel: data.event.channel,
       slack_thread_ts: data.event.ts,
     });
 
     const legalReasoning = [] as any[];
-    json.data.reasoning_thread.forEach(({ type, result, prompt, response }) => {
-      if (type === 'search') {
-        legalReasoning.push({
-          type: 'header',
-          text: {
-            type: 'plain_text',
-            text: '⚙️ search',
-            emoji: true,
-          },
-        });
-        legalReasoning.push({
-          type: 'context',
-          elements: result.text.map((r: string, i: number) => ({
-            type: 'mrkdwn',
-            text: `*${result.art_para[i]}*: ${r}`,
-          })),
-        });
-        legalReasoning.push({
-          type: 'divider',
-        });
-      } else if (type === 'llm') {
-        legalReasoning.push({
-          type: 'header',
-          text: {
-            type: 'plain_text',
-            text: '⚙️ llm',
-            emoji: true,
-          },
-        });
-        legalReasoning.push({
-          type: 'context',
-          elements: prompt.map((r: any, i: number) => ({
-            type: 'mrkdwn',
-            text: `*${r.role}*: ${r.content.replaceAll('\n', '')}`,
-          })),
-        });
-        legalReasoning.push({
-          type: 'divider',
-        });
-      }
-    });
+    backendResponse.data.reasoning_thread.forEach(
+      ({ type, result, prompt, response }) => {
+        if (type === 'search') {
+          legalReasoning.push({
+            type: 'header',
+            text: {
+              type: 'plain_text',
+              text: '⚙️ search',
+              emoji: true,
+            },
+          });
+          legalReasoning.push({
+            type: 'context',
+            elements: result.text.map((r: string, i: number) => ({
+              type: 'mrkdwn',
+              text: `*${result.art_para[i]}*: ${r}`,
+            })),
+          });
+          legalReasoning.push({
+            type: 'divider',
+          });
+        } else if (type === 'llm') {
+          legalReasoning.push({
+            type: 'header',
+            text: {
+              type: 'plain_text',
+              text: '⚙️ llm',
+              emoji: true,
+            },
+          });
+          legalReasoning.push({
+            type: 'context',
+            elements: prompt.map((r: any, i: number) => ({
+              type: 'mrkdwn',
+              text: `*${r.role}*: ${r.content.replaceAll('\n', '')}`,
+            })),
+          });
+          legalReasoning.push({
+            type: 'divider',
+          });
+        }
+      },
+    );
     console.log(
       '2.7 Processing legal reasoning and preparing message blocks.',
       new Date(),
@@ -118,7 +119,7 @@ export default async function processEvents(data) {
         type: 'section',
         text: {
           type: 'mrkdwn',
-          text: json.data.content,
+          text: backendResponse.data.content,
         },
       },
       {
@@ -143,7 +144,7 @@ export default async function processEvents(data) {
       blocks: messageBlocks,
       thread_ts: data.event.ts,
       channel: data.event.channel,
-      text: json.data.content,
+      text: backendResponse.data.content,
     });
     console.log('2.9 Slack message sent successfully.', new Date());
   } catch (error) {
@@ -154,3 +155,13 @@ export default async function processEvents(data) {
     );
   }
 }
+
+exports.handler = async (event) => {
+  try {
+    const data = JSON.parse(event.body);
+    await processEvents(data);
+    return { statusCode: 200, body: 'Process completed' };
+  } catch (error) {
+    return { statusCode: 500, body: 'Internal Server Error' };
+  }
+};
