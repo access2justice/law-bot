@@ -29,12 +29,7 @@ async function bootstrap(): Promise<Handler> {
     await postSlackNotionInteraction(req as any, res);
   });
 
-  // Start the server
-  app.listen(PORT, () => {
-    console.log(`Server is running on http://localhost:${PORT}`);
-  });
-
-  return app;
+  return serverlessExpress({ app });
 }
 
 let serverlessExpressInstance;
@@ -42,9 +37,6 @@ let serverlessExpressInstance;
 export const handler: Handler = async (event: any, context: Context) => {
   context.callbackWaitsForEmptyEventLoop = false;
 
-  if (!serverlessExpressInstance) {
-    const app = await bootstrap();
-    serverlessExpressInstance = serverlessExpress({ app });
-  }
+  serverlessExpressInstance = serverlessExpressInstance || (await bootstrap());
   return serverlessExpressInstance(event, context);
 };
