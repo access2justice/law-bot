@@ -6,6 +6,8 @@ import { openModal, returnSlackChallenge } from "./slack";
 const lambda = new AWS.Lambda();
 
 export const handler: APIGatewayProxyHandler = async (event) => {
+  console.log(event);
+
   const data = event.body && JSON.parse(event.body);
   console.log(data);
   console.log(event.path);
