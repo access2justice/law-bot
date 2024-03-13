@@ -16,12 +16,22 @@ export default async function processEvents(data) {
   console.log('2. Initiate process-events, data:' + JSON.stringify(data));
   try {
     console.log('2.1 Start message' + new Date());
-    await web.chat.postMessage({
-      thread_ts: data.event.ts,
-      channel: data.event.channel,
-      text: 'Thanks for your message, one moment please ...',
+    await new Promise((resolve, reject) => {
+      web.chat
+        .postMessage({
+          thread_ts: data.event.ts,
+          channel: data.event.channel,
+          text: 'Thanks for your message, one moment please ...',
+        })
+        .then((response) => {
+          console.log('2.2 First response slack message.', new Date());
+          resolve(response);
+        })
+        .catch((error) => {
+          console.error('Error sending Slack message:', error);
+          reject(error);
+        });
     });
-    console.log('2.2 First response slack message.', new Date());
 
     console.log('2.3. Start message:', new Date());
     await new Promise((resolve) => setTimeout(resolve, 1000));
