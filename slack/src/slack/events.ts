@@ -2,9 +2,6 @@ import { WebClient } from '@slack/web-api';
 import { Response, Request } from 'express';
 import processEvents from './process-events';
 import * as dotenv from 'dotenv';
-import { error } from 'console';
-
-dotenv.config({ path: __dirname + '/../../.env' });
 
 const web = new WebClient(process.env.SLACK_TOKEN);
 
