@@ -82,7 +82,7 @@ export const handler: Handler = async (event) => {
             type: "context",
             elements: results.text.map((r: string, i: number) => ({
               type: "mrkdwn",
-              text: `*${results.art_para[i]}*: ${r}`,
+              text: `*${results.eIds[i]}*: ${r}`,
             })),
           });
           legalReasoning.push({
