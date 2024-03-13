@@ -62,7 +62,7 @@ async function processEvents(data: any) {
         headers: {
           'Content-Type': 'application/json',
         },
-        body: data,
+        body: JSON.stringify(data),
       },
     );
 
