@@ -12,7 +12,11 @@ export default async function handler(data: any) {
       channel: data.event.channel,
       text: 'Thanks for your message, one moment please ...',
     });
-    console.log('2.1. Thanks message' + new Date());
+  } catch (e) {
+    console.error('Error sending message', e);
+  }
+  console.log('2.1. Thanks message' + new Date());
+  try {
     await new Promise((resolve) => setTimeout(resolve, 1000));
     const response = await fetch(process.env.AWS_API_CHAT_ENDPOINT || '', {
       method: 'POST',
