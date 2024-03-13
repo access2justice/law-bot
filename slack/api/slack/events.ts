@@ -1,7 +1,8 @@
 import type { RequestContext } from "@vercel/edge";
 
 export const config = {
-  runtime: "edge",
+  runtime: "nodejs",
+  maxDuration: 60,
 };
 
 export default async function MyEdgeFunction(
