@@ -4,7 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "build": "tsc",
+    "build": "npm i && tsc",
     "predeploy": "npm run build"
   },
   "author": "",
