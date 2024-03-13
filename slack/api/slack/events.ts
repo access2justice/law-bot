@@ -26,29 +26,32 @@ export default async function MyEdgeFunction(
       data.event.channel === "C06HA3ZLB18")
   ) {
     console.log("0. Initiate message" + new Date());
-    context.waitUntil(
-      (async () => {
-        console.log("1. Start message" + new Date());
-        await fetch(
-          `https://${process.env.VERCEL_URL}/api/slack/process-events`,
-          {
-            method: "POST",
-            headers: {
-              "Content-Type": "application/json",
-            },
-            body: JSON.stringify(data),
-          }
-        )
-          .then((json) => {
-            console.log("2a. Success message" + new Date());
-            console.log({ json });
-          })
-          .catch((error) => {
+    try {
+      context.waitUntil(
+        (async () => {
+          try {
+            console.log("1. Start message" + new Date());
+            const retJson = await fetch(
+              `https://${process.env.VERCEL_URL}/api/slack/process-events`,
+              {
+                method: "POST",
+                headers: {
+                  "Content-Type": "application/json",
+                },
+                body: JSON.stringify(data),
+              }
+            );
+            console.log("2a. Success message" + retJson);
+          } catch (e) {
             console.log("2b. Success message" + new Date());
-            console.log("Error fetching process-events:", error);
-          });
-      })()
-    );
+            console.log("Error fetching process-events:", e);
+          }
+        })()
+      );
+    } catch (e) {
+      console.log("3. Success message" + new Date());
+      console.log("Error fetching process-events:", e);
+    }
     console.log("x. Return message" + new Date());
 
     return new Response(Date.now() + "");
