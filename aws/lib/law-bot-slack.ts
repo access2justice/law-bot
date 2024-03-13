@@ -18,6 +18,7 @@ export class LawBotSlack extends cdk.Stack {
       "LambdaFunctionSlackWorker",
       {
         runtime: lambda.Runtime.NODEJS_LATEST,
+        timeout: cdk.Duration.seconds(60),
         handler: "index.handler",
         code: lambda.Code.fromAsset(
           path.resolve(__dirname, "../../slack/worker")
@@ -36,6 +37,7 @@ export class LawBotSlack extends cdk.Stack {
       "LambdaFunctionSlackResponder",
       {
         runtime: lambda.Runtime.NODEJS_LATEST,
+        timeout: cdk.Duration.seconds(15),
         handler: "index.handler",
         code: lambda.Code.fromAsset(
           path.resolve(__dirname, "../../slack/responder")
