@@ -30,7 +30,11 @@ export const handler: APIGatewayProxyHandler = async (event) => {
       const params = {
         FunctionName: process.env.WORKER_FUNCTION_NAME || "", // Specify the second Lambda function name
         InvocationType: "Event", // Use 'Event' for asynchronous execution
-        Payload: JSON.stringify({}),
+        Payload: JSON.stringify({
+          ts: data.event.ts,
+          text: data.event.text,
+          channel: data.event.channel,
+        }),
       };
 
       await lambda.invoke(params).promise();
