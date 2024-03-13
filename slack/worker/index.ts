@@ -7,7 +7,7 @@ dotenv.config();
 
 const web = new WebClient(process.env.SLACK_TOKEN);
 
-export async function sendSlackMessage(channel, thread, text) {
+export async function sendSlackMessage(channel: any, thread: any, text: any) {
   return web.chat.postMessage({
     channel: channel,
     thread_ts: thread,
@@ -15,7 +15,7 @@ export async function sendSlackMessage(channel, thread, text) {
   });
 }
 
-async function fetchBackendAPI(body) {
+async function fetchBackendAPI(body: any) {
   const response = await fetch(process.env.AWS_API_CHAT_ENDPOINT as string, {
     method: "POST",
     headers: { "Content-Type": "application/json" },
@@ -24,7 +24,7 @@ async function fetchBackendAPI(body) {
   return response.json();
 }
 
-export async function processEvents(data): Promise<void> {
+export async function processEvents(data: any): Promise<void> {
   console.log("2. Initiate process-events, data:" + JSON.stringify(data));
   try {
     console.log("2.1 Start message" + new Date());
@@ -54,7 +54,7 @@ export async function processEvents(data): Promise<void> {
 
     const legalReasoning = [] as any[];
     backendResponse.data.reasoning_thread.forEach(
-      ({ type, results, prompt, response }) => {
+      ({ type, results, prompt }: any) => {
         if (type === "search") {
           legalReasoning.push({
             type: "header",
@@ -184,7 +184,7 @@ export const handler: Handler = async (event) => {
 
       const legalReasoning = [] as any[];
       backendResponse.data.reasoning_thread.forEach(
-        ({ type, results, prompt, response }) => {
+        ({ type, results, prompt }: any) => {
           if (type === "search") {
             legalReasoning.push({
               type: "header",
