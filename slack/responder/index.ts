@@ -32,6 +32,7 @@ export const handler: APIGatewayProxyHandler = async (event) => {
     }
 
     if (
+      data.event &&
       !data.event.thread_ts &&
       !data.event.parent_user_id &&
       data.event.type === "message" &&
@@ -59,14 +60,12 @@ export const handler: APIGatewayProxyHandler = async (event) => {
       };
     }
 
-    if (data.payload && data.payload.type === "block_actions") {
-      const payload = data.payload;
-
-      if (!payload.actions || payload.actions.length === 0) {
+    if (data.type === "block_actions") {
+      if (!data.actions || data.actions.length === 0) {
         throw new Error("No actions found in payload");
       }
 
-      const action = payload.actions[0];
+      const action = data.actions[0];
 
       if (action.action_id === "static_select-action") {
         return {
@@ -91,25 +90,23 @@ export const handler: APIGatewayProxyHandler = async (event) => {
       const slack_thread_ts = payload_value.slack_thread_ts;
 
       if (
-        (payload.callback_id === "feedback" && payload.trigger_id) ||
+        (data.callback_id === "feedback" && data.trigger_id) ||
         (action.action_id === "feedback" &&
-          payload.trigger_id &&
-          payload.type === "block_actions")
+          data.trigger_id &&
+          data.type === "block_actions")
       ) {
         await openModal(
-          payload.trigger_id,
+          data.trigger_id,
           question,
           answer,
           slack_channel,
           slack_thread_ts
         );
       }
-    } else if (data.payload && data.payload.type === "view_submission") {
-      const payload = data.payload;
+    } else if (data.type === "view_submission") {
+      console.log("payload.view.blocks:", data.view.blocks);
 
-      console.log("payload.view.blocks:", payload.view.blocks);
-
-      const submittedValues = payload.view.state.values;
+      const submittedValues = data.view.state.values;
       const selectActionKey = Object.keys(submittedValues).find(
         (key) => submittedValues[key]["static_select-action"]
       );
@@ -129,9 +126,9 @@ export const handler: APIGatewayProxyHandler = async (event) => {
           submittedValues[textInputKey]["plain_text_input-action"];
         comment = textInputAction.value;
       }
-      const expert = payload.user;
+      const expert = data.user;
       const { question, answer, slack_channel, slack_thread_ts } = JSON.parse(
-        payload.view.private_metadata
+        data.view.private_metadata
       );
 
       await saveExpertFeedbackToNotion(
