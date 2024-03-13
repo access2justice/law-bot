@@ -2,18 +2,9 @@ import { Handler } from "aws-lambda";
 
 import { WebClient } from "@slack/web-api";
 import * as dotenv from "dotenv";
+import { sendSlackMessage } from "./slack";
 
 dotenv.config();
-
-const web = new WebClient(process.env.SLACK_TOKEN);
-
-export async function sendSlackMessage(channel: any, thread: any, text: any) {
-  return web.chat.postMessage({
-    channel: channel,
-    thread_ts: thread,
-    text: text,
-  });
-}
 
 async function fetchBackendAPI(body: any) {
   const response = await fetch(process.env.AWS_API_CHAT_ENDPOINT as string, {
@@ -37,11 +28,11 @@ export const handler: Handler = async (event) => {
     // For example, interacting with a database, performing calculations, etc.
     console.log("2. Initiate process-events, data:" + JSON.stringify(data));
     console.log("2.1 Start message" + new Date());
-    await web.chat.postMessage({
-      thread_ts: data.ts,
-      channel: data.channel,
-      text: "Yummy, a legal question! Let me take a look ...",
-    });
+    await sendSlackMessage(
+      data.channel,
+      data.ts,
+      "Yummy, a legal question! Let me take a look ..."
+    );
     console.log("2.2. Slack message sent.", new Date());
     await new Promise((resolve) => setTimeout(resolve, 1000));
     console.log("2.3. Fetching backend", new Date());
@@ -141,12 +132,13 @@ export const handler: Handler = async (event) => {
 
     // console.log(messageBlocks);
     console.log("2.8 Sending final message with blocks.", new Date());
-    await web.chat.postMessage({
-      blocks: messageBlocks,
-      thread_ts: data.ts,
-      channel: data.channel,
-      text: backendResponse.data.content,
-    });
+
+    await sendSlackMessage(
+      data.channel,
+      data.ts,
+      "Yummy, a legal question! Let me take a look ...",
+      messageBlocks
+    );
     console.log("2.9 Slack message sent successfully.", new Date());
 
     // Log or return a result (as needed)
@@ -162,11 +154,11 @@ export const handler: Handler = async (event) => {
   } catch (error) {
     console.error("Error processing task:", error);
 
-    await web.chat.postMessage({
-      thread_ts: data.ts,
-      channel: data.channel,
-      text: "Uh-oh, something went wrong ... #plsfix",
-    });
+    await sendSlackMessage(
+      data.channel,
+      data.ts,
+      "Yummy, a legal question! Let me take a look ..."
+    );
 
     // Handling errors (optional)
     return {

@@ -10,6 +10,7 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
+    "@notionhq/client": "^2.2.14",
     "aws-lambda": "^1.0.7",
     "aws-sdk": "^2.1575.0"
   },

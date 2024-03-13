@@ -1,21 +1,21 @@
 import { APIGatewayProxyHandler } from "aws-lambda";
 import * as AWS from "aws-sdk";
+import { WebClient } from "@slack/web-api";
+import { saveExpertFeedbackToNotion } from "./notion";
+import { openModal, returnSlackChallenge } from "./slack";
 
-// Initialize the Lambda client
 const lambda = new AWS.Lambda();
 
+const web = new WebClient(process.env.SLACK_TOKEN);
+
 export const handler: APIGatewayProxyHandler = async (event) => {
-  // Parse the request body
   const data = event.body && JSON.parse(event.body);
   console.log(data);
   console.log(event.path);
 
   try {
     if (data.type === "url_verification") {
-      return {
-        statusCode: 200,
-        body: JSON.stringify({ challenge: data.challenge }),
-      };
+      return returnSlackChallenge(data.challenge);
     }
 
     if (
@@ -26,10 +26,9 @@ export const handler: APIGatewayProxyHandler = async (event) => {
       (data.event.channel === "C06GGJVRMCK" ||
         data.event.channel === "C06HA3ZLB18")
     ) {
-      // Setup parameters to invoke the second Lambda function
       const params = {
-        FunctionName: process.env.WORKER_FUNCTION_NAME || "", // Specify the second Lambda function name
-        InvocationType: "Event", // Use 'Event' for asynchronous execution
+        FunctionName: process.env.WORKER_FUNCTION_NAME || "",
+        InvocationType: "Event",
         Payload: JSON.stringify({
           ts: data.event.ts,
           text: data.event.text,
@@ -39,12 +38,102 @@ export const handler: APIGatewayProxyHandler = async (event) => {
 
       await lambda.invoke(params).promise();
 
-      // Return a successful response
       return {
         statusCode: 200,
         body: JSON.stringify({
           message: "Task offloaded successfully to the second Lambda function.",
         }),
+      };
+    }
+
+    if (data.payload && data.payload.type === "block_actions") {
+      const payload = data.payload;
+
+      if (!payload.actions || payload.actions.length === 0) {
+        throw new Error("No actions found in payload");
+      }
+
+      const action = payload.actions[0];
+
+      if (action.action_id === "static_select-action") {
+        return {
+          statusCode: 200,
+          body: "Ok",
+        };
+      }
+
+      if (!action.value) {
+        console.log("Action value is undefined:", action);
+        throw new Error("Action value is undefined");
+      }
+
+      const payload_value = JSON.parse(action.value);
+      const question =
+        payload_value.user_input ||
+        "Something went wrong, please copy paste the question.";
+      const answer =
+        payload_value.ai_response ||
+        "Something went wrong, please copy paste the answer.";
+      const slack_channel = payload_value.slack_channel;
+      const slack_thread_ts = payload_value.slack_thread_ts;
+
+      if (
+        (payload.callback_id === "feedback" && payload.trigger_id) ||
+        (action.action_id === "feedback" &&
+          payload.trigger_id &&
+          payload.type === "block_actions")
+      ) {
+        await openModal(
+          payload.trigger_id,
+          question,
+          answer,
+          slack_channel,
+          slack_thread_ts
+        );
+      }
+    } else if (data.payload && data.payload.type === "view_submission") {
+      const payload = data.payload;
+
+      console.log("payload.view.blocks:", payload.view.blocks);
+
+      const submittedValues = payload.view.state.values;
+      const selectActionKey = Object.keys(submittedValues).find(
+        (key) => submittedValues[key]["static_select-action"]
+      );
+      const textInputKey = Object.keys(submittedValues).find(
+        (key) => submittedValues[key]["plain_text_input-action"]
+      );
+
+      let correct = false;
+      let comment = "";
+      if (selectActionKey) {
+        const staticSelectAction =
+          submittedValues[selectActionKey]["static_select-action"];
+        correct = staticSelectAction.selected_option.value === "correct";
+      }
+      if (textInputKey) {
+        const textInputAction =
+          submittedValues[textInputKey]["plain_text_input-action"];
+        comment = textInputAction.value;
+      }
+      const expert = payload.user;
+      const { question, answer, slack_channel, slack_thread_ts } = JSON.parse(
+        payload.view.private_metadata
+      );
+
+      await saveExpertFeedbackToNotion(
+        question,
+        answer,
+        correct,
+        comment,
+        expert,
+        slack_channel,
+        slack_thread_ts
+      );
+
+      return {
+        statusCode: 200,
+        body: JSON.stringify({ response_action: "clear" }),
       };
     }
 
