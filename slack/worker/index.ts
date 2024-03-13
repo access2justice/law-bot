@@ -39,8 +39,8 @@ export const handler: Handler = async (event) => {
     try {
       console.log("2.1 Start message" + new Date());
       await web.chat.postMessage({
-        thread_ts: data.event.ts,
-        channel: data.event.channel,
+        thread_ts: data.ts,
+        channel: data.channel,
         text: "Yummy, a legal question! Let me take a look ...",
       });
       console.log("2.2. Slack message sent.", new Date());
@@ -51,8 +51,7 @@ export const handler: Handler = async (event) => {
           {
             role: "user",
             content:
-              data.event.text ||
-              "Explain to the user that something went wrong.",
+              data.text || "Explain to the user that something went wrong.",
           },
         ],
       });
@@ -62,10 +61,10 @@ export const handler: Handler = async (event) => {
         new Date()
       );
       const payload_value = JSON.stringify({
-        user_input: data.event.text,
+        user_input: data.text,
         ai_response: backendResponse.data.content,
-        slack_channel: data.event.channel,
-        slack_thread_ts: data.event.ts,
+        slack_channel: data.channel,
+        slack_thread_ts: data.ts,
       });
 
       const legalReasoning = [] as any[];
@@ -145,8 +144,8 @@ export const handler: Handler = async (event) => {
       console.log("2.8 Sending final message with blocks.", new Date());
       await web.chat.postMessage({
         blocks: messageBlocks,
-        thread_ts: data.event.ts,
-        channel: data.event.channel,
+        thread_ts: data.ts,
+        channel: data.channel,
         text: backendResponse.data.content,
       });
       console.log("2.9 Slack message sent successfully.", new Date());
