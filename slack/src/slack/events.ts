@@ -27,7 +27,14 @@ export default async function postSlackEvents(req: Request, res: Response) {
       console.log('1.1 Status 202 sent successfully.' + new Date());
       try {
         console.log('1.2 Start message' + new Date());
-        await processEvents(data);
+        await new Promise((resolve, reject) => {
+          processEvents(data)
+            .then(resolve)
+            .catch((error) => {
+              console.log('Error processing events:', error);
+              reject(error);
+            });
+        });
         console.log('1.3 Success message', new Date());
         return;
       } catch (e) {
