@@ -47,3 +47,6 @@ jobs:
 
       - run: pnpm dlx cdk deploy 'LawBotBackendLambdaApiStack-*' --require-approval never
         working-directory: ./aws
+
+      - run: pnpm dlx cdk deploy 'LawBotSlackLambdaApiStack-*' --require-approval never
+        working-directory: ./aws
