@@ -6,7 +6,21 @@ dotenv.config();
 
 const web = new WebClient(process.env.SLACK_TOKEN);
 
+async function sendTestMessage() {
+  try {
+    console.log('Sending test message...');
+    const response = await web.chat.postMessage({
+      channel: 'C06HA3ZLB18',
+      text: 'Test message',
+    });
+    console.log('Test message sent:', response);
+  } catch (error) {
+    console.error('Error sending test message:', error);
+  }
+}
+
 export default async function handler(data: any) {
+  sendTestMessage();
   console.log('2. Initiate process-events, data:' + JSON.stringify(data));
   try {
     console.log('2.1 Start message' + new Date());
