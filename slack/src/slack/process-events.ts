@@ -20,7 +20,7 @@ export default async function handler(data: any) {
       JSON.stringify(postMessageResponse),
     );
   } catch (e) {
-    console.error('2.2 Error sending message:', e);
+    console.error('2.2 Error sending message:', JSON.stringify(e, null, 2));
   }
   try {
     await new Promise((resolve) => setTimeout(resolve, 1000));
