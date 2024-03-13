@@ -2,9 +2,9 @@ import { APIGatewayProxyHandler } from "aws-lambda";
 import * as AWS from "aws-sdk";
 import { saveExpertFeedbackToNotion } from "./notion";
 import { openModal, returnSlackChallenge } from "./slack";
+import queryString from "querystring";
 
 const lambda = new AWS.Lambda();
-const queryString = require("query-string");
 
 export const handler: APIGatewayProxyHandler = async (event) => {
   console.log(event);
@@ -13,9 +13,11 @@ export const handler: APIGatewayProxyHandler = async (event) => {
   console.log(data);
   console.log(event.path);
 
-  const parcedBody = queryString.parse(event.body);
-  const exampleValue = parcedBody.payload;
-  console.log(exampleValue);
+  if(event.body && event.body == typeof(String)){
+    const parcedBody = queryString.parse(event.body);
+    const exampleValue = parcedBody.payload;
+    console.log(exampleValue);
+  }
 
 
 
