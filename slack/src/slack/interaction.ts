@@ -242,7 +242,7 @@ async function submitToNotion(
 ) {
   try {
     const response = await fetch(
-      `https://${process.env.API_SLACK_GATEWAY_URL}/slack/notion-interaction`,
+      `${process.env.API_SLACK_GATEWAY_URL}/slack/notion-interaction`,
       {
         method: 'POST',
         headers: {
