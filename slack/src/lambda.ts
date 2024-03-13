@@ -1,9 +1,9 @@
 import { Callback, Context, Handler } from 'aws-lambda';
 import { configure as serverlessExpress } from '@vendia/serverless-express';
-import express from 'express';
 import postSlackInteraction from './slack/interaction';
 import postSlackNotionInteraction from './slack/notion-interaction';
 import postSlackEvents from './slack/events';
+const express = require('express');
 
 let _cachedServer: Handler;
 
@@ -17,15 +17,15 @@ async function bootstrap(): Promise<Handler> {
 
   // Define a route for GET requests to the root URL ("/")
   app.post('/slack/interaction', async (req, res) => {
-    await postSlackInteraction(req as any, res)
+    await postSlackInteraction(req as any, res);
   });
 
   app.post('/slack/events', async (req, res) => {
-    await postSlackEvents(req as any, res)
+    await postSlackEvents(req as any, res);
   });
 
   app.post('/slack/notion-interaction', async (req, res) => {
-    await postSlackNotionInteraction(req as any, res)
+    await postSlackNotionInteraction(req as any, res);
   });
 
   // Start the server
