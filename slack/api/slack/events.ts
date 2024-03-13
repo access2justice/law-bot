@@ -44,10 +44,18 @@ export default async function MyEdgeFunction(
                   body: JSON.stringify(data),
                 }
               );
-              console.log("2a. Success message" + retJson);
+              const status = retJson.status;
+              const response = await retJson.json();
+              console.log("2a. Success message", status, response);
+              throw new Error();
             } catch (e) {
               console.log("2b. Success message" + new Date());
               console.log("Error fetching process-events:", e);
+              await web.chat.postMessage({
+                thread_ts: data.event.ts,
+                channel: data.event.channel,
+                text: "Sorry, something went wrong.",
+              });
             }
           })()
         );
