@@ -2,7 +2,6 @@ import { WebClient } from "@slack/web-api";
 import type { RequestContext } from "@vercel/edge";
 
 export const config = {
-  runtime: "edge",
   maxDuration: 60,
 };
 
@@ -12,7 +11,8 @@ export default async function MyEdgeFunction(
   req: Request,
   context: RequestContext
 ) {
-  const data = await req.json();
+  const { body } = req;
+  const data = body as any;
   try {
     if (data.type === "url_verification") {
       return new Response(JSON.stringify({ challenge: data.challenge }), {
