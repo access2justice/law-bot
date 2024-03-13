@@ -136,7 +136,7 @@ export const handler: APIGatewayProxyHandler = async (event) => {
         answer,
         correct,
         comment,
-        expert,
+        expert.name,
         slack_channel,
         slack_thread_ts
       );

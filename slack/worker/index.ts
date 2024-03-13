@@ -45,12 +45,6 @@ export const handler: Handler = async (event) => {
       "2.5. After fetching backend, before processing legal reasoning",
       new Date()
     );
-    const payload_value = JSON.stringify({
-      user_input: data.text,
-      ai_response: backendResponse.data.content,
-      slack_channel: data.channel,
-      slack_thread_ts: data.ts,
-    });
 
     const legalReasoning = [] as any[];
     backendResponse.data.reasoning_thread.forEach(
@@ -96,6 +90,14 @@ export const handler: Handler = async (event) => {
         }
       }
     );
+
+    const payload_value = JSON.stringify({
+      user_input: data.text,
+      ai_response: JSON.stringify(legalReasoning),
+      slack_channel: data.channel,
+      slack_thread_ts: data.ts,
+    });
+
     console.log(
       "2.7 Processing legal reasoning and preparing message blocks.",
       new Date()
