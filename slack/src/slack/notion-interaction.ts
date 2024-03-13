@@ -10,22 +10,15 @@ const web = new WebClient(process.env.SLACK_TOKEN);
 const notion = new Client({ auth: process.env.NOTION_API_SECRET });
 
 export default async function postSlackNotionInteraction(
-  req: Request,
-  res: Response,
+  question: string,
+  answer: string,
+  correct: boolean,
+  comment: string,
+  expertId: any,
+  slack_channel: string,
+  slack_thread_ts: string,
 ) {
   try {
-    const {
-      question,
-      answer,
-      correct,
-      comment,
-      expertId,
-      slack_channel,
-      slack_thread_ts,
-    } = req.body;
-
-    console.log('Received expert feedback:', req.body);
-
     const expertName = expertId.name;
 
     const response = await saveExpertFeedbackToNotion(
@@ -39,11 +32,8 @@ export default async function postSlackNotionInteraction(
     );
 
     console.log('Notion response:', response);
-
-    res.status(200).json({ message: 'Expert feedback saved to Notion.' });
   } catch (error) {
     console.error('Error handling Notion interaction:', error);
-    res.status(500).json({ error: 'Internal Server Error' });
   }
 }
 

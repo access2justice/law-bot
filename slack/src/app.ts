@@ -1,5 +1,4 @@
 import postSlackInteraction from './slack/interaction';
-import postSlackNotionInteraction from './slack/notion-interaction';
 import postSlackEvents from './slack/events';
 import express from 'express';
 
@@ -15,10 +14,6 @@ app.post('/slack/interaction', async (req, res) => {
 
 app.post('/slack/events', async (req, res) => {
   await postSlackEvents(req as any, res);
-});
-
-app.post('/slack/notion-interaction', async (req, res) => {
-  await postSlackNotionInteraction(req as any, res);
 });
 
 export default app;

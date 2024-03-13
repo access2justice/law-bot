@@ -1,6 +1,7 @@
 import { WebClient } from '@slack/web-api';
 import { Response, Request } from 'express';
 import * as dotenv from 'dotenv';
+import postSlackNotionInteraction from './notion-interaction';
 
 dotenv.config();
 
@@ -241,27 +242,16 @@ async function submitToNotion(
   slack_thread_ts: string,
 ) {
   try {
-    const response = await fetch(
-      `${process.env.API_SLACK_GATEWAY_URL}/slack/notion-interaction`,
-      {
-        method: 'POST',
-        headers: {
-          'Content-Type': 'application/json',
-        },
-        body: JSON.stringify({
-          question,
-          answer,
-          correct,
-          comment,
-          expertId,
-          slack_channel,
-          slack_thread_ts,
-        }),
-      },
+    await postSlackNotionInteraction(
+      question,
+      answer,
+      correct,
+      comment,
+      expertId,
+      slack_channel,
+      slack_thread_ts,
     );
 
-    const json = await response.json();
-    console.log({ json });
     console.log('Submitted to Notion successfully');
     return new Response(JSON.stringify({ response_action: 'clear' }));
   } catch (error) {

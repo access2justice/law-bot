@@ -1,13 +1,9 @@
 import * as cdk from "aws-cdk-lib";
 import { Construct } from "constructs";
-import { LambdaIntegration, RestApi } from "aws-cdk-lib/aws-apigateway";
+import { LambdaIntegration } from "aws-cdk-lib/aws-apigateway";
+import * as lambda from "aws-cdk-lib/aws-lambda";
+
 import * as path from "path";
-import { DockerImageCode, DockerImageFunction } from "aws-cdk-lib/aws-lambda";
-import {
-  PredefinedMetric,
-  ScalableTarget,
-  ServiceNamespace,
-} from "aws-cdk-lib/aws-applicationautoscaling";
 
 export class LawBotSlack extends cdk.Stack {
   constructor(
@@ -17,54 +13,57 @@ export class LawBotSlack extends cdk.Stack {
   ) {
     super(scope, id, props);
 
-    const dockerImageFunction = new DockerImageFunction(
+    // Define the first Lambda function
+    const lambdaResponder = new lambda.Function(
       this,
-      "DockerImageFunction",
+      "LambdaFunctionSlackResponder",
       {
-        code: DockerImageCode.fromImageAsset(
-          path.resolve(__dirname, "../../slack")
-        ),
-        timeout: cdk.Duration.seconds(30),
-        memorySize: 256,
-        reservedConcurrentExecutions: 100,
+        runtime: lambda.Runtime.NODEJS_LATEST,
+        handler: "lambdaFunctionOne.handler",
+        code: lambda.Code.fromAsset(
+          path.resolve(__dirname, "../../slack/responder")
+        ), // assuming your Lambda code is in a directory named "lambda" at the root of your CDK project
+        environment: {
+          // Environment variables can be passed here
+        },
       }
     );
 
-    const target = new ScalableTarget(this, "ScalableTarget", {
-      serviceNamespace: ServiceNamespace.LAMBDA,
-      maxCapacity: 100,
-      minCapacity: 1,
-      resourceId: `function:${dockerImageFunction.functionName}:${dockerImageFunction.currentVersion.version}`,
-      scalableDimension: "lambda:function:ProvisionedConcurrency",
-    });
+    // Define the second Lambda function
+    const lambdaWorker = new lambda.Function(
+      this,
+      "LambdaFunctionSlackWorker",
+      {
+        runtime: lambda.Runtime.NODEJS_LATEST,
+        handler: "lambdaFunctionTwo.handler",
+        code: lambda.Code.fromAsset(
+          path.resolve(__dirname, "../../slack/worker")
+        ), // same assumption as above
+      }
+    );
 
-    target.scaleToTrackMetric("PceTracking", {
-      targetValue: 0.9,
-      scaleOutCooldown: cdk.Duration.seconds(0),
-      scaleInCooldown: cdk.Duration.seconds(30),
-      predefinedMetric:
-        PredefinedMetric.LAMBDA_PROVISIONED_CONCURRENCY_UTILIZATION,
-    });
+    // Grant the first Lambda permission to invoke the second Lambda
+    lambdaWorker.grantInvoke(lambdaResponder);
 
     const slackResource = props?.apiGateway.root.addResource("slack");
 
     slackResource.addResource("interaction").addMethod(
       "POST",
-      new LambdaIntegration(dockerImageFunction, {
+      new LambdaIntegration(lambdaResponder, {
         proxy: true,
       })
     );
 
     slackResource.addResource("events").addMethod(
       "POST",
-      new LambdaIntegration(dockerImageFunction, {
+      new LambdaIntegration(lambdaResponder, {
         proxy: true,
       })
     );
 
     slackResource.addResource("notion-interaction").addMethod(
       "POST",
-      new LambdaIntegration(dockerImageFunction, {
+      new LambdaIntegration(lambdaResponder, {
         proxy: true,
       })
     );
