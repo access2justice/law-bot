@@ -13,6 +13,7 @@ interface ApiResponse {
 }
 
 async function sendSlackMessage(channel, text) {
+  console.log('2.1 Start message' + new Date());
   return web.chat.postMessage({
     channel: channel,
     text: text,
@@ -20,6 +21,7 @@ async function sendSlackMessage(channel, text) {
 }
 
 async function fetchBackendAPI(body) {
+  console.log('2.4. Fetching Backend:', new Date());
   const response = await fetch(process.env.AWS_API_CHAT_ENDPOINT, {
     method: 'POST',
     headers: { 'Content-Type': 'application/json' },
@@ -31,14 +33,12 @@ async function fetchBackendAPI(body) {
 export async function processEvents(data) {
   console.log('2. Initiate process-events, data:' + JSON.stringify(data));
   try {
-    console.log('2.1 Start message' + new Date());
     const slackMessagePromise = sendSlackMessage(
       data.channel,
       'Thanks for your message, one moment please ...',
     );
 
     // await new Promise((resolve) => setTimeout(resolve, 1000));
-    console.log('2.4. Fetching Backend:', new Date());
     const backendAPIPromise = fetchBackendAPI({
       message: [
         {
@@ -52,6 +52,7 @@ export async function processEvents(data) {
       slackMessagePromise,
       backendAPIPromise,
     ]);
+
     console.log('2.2. Slack message sent:', slackResponse);
     console.log('2.5. Backend API Promise:', backendResponse);
     console.log(
