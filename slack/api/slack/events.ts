@@ -1,7 +1,6 @@
 import type { RequestContext } from "@vercel/edge";
 
 export const config = {
-  runtime: "nodejs",
   maxDuration: 60,
 };
 
