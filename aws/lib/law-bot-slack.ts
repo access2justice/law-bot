@@ -19,9 +19,9 @@ export class LawBotSlack extends cdk.Stack {
       "LambdaFunctionSlackResponder",
       {
         runtime: lambda.Runtime.NODEJS_LATEST,
-        handler: "lambdaResponder.handler",
+        handler: "responder.handler",
         code: lambda.Code.fromAsset(
-          path.resolve(__dirname, "../../slack/responder")
+          path.resolve(__dirname, "../../slack/handlers")
         ), // assuming your Lambda code is in a directory named "lambda" at the root of your CDK project
         environment: {
           // Environment variables can be passed here
@@ -35,9 +35,9 @@ export class LawBotSlack extends cdk.Stack {
       "LambdaFunctionSlackWorker",
       {
         runtime: lambda.Runtime.NODEJS_LATEST,
-        handler: "lambdaWorker.handler",
+        handler: "worker.handler",
         code: lambda.Code.fromAsset(
-          path.resolve(__dirname, "../../slack/worker")
+          path.resolve(__dirname, "../../slack/handlers")
         ), // same assumption as above
       }
     );
@@ -55,13 +55,6 @@ export class LawBotSlack extends cdk.Stack {
     );
 
     slackResource.addResource("events").addMethod(
-      "POST",
-      new LambdaIntegration(lambdaResponder, {
-        proxy: true,
-      })
-    );
-
-    slackResource.addResource("notion-interaction").addMethod(
       "POST",
       new LambdaIntegration(lambdaResponder, {
         proxy: true,
