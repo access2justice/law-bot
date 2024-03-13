@@ -19,7 +19,7 @@ export class LawBotSlack extends cdk.Stack {
       "LambdaFunctionSlackResponder",
       {
         runtime: lambda.Runtime.NODEJS_LATEST,
-        handler: "lambdaFunctionOne.handler",
+        handler: "lambdaResponder.handler",
         code: lambda.Code.fromAsset(
           path.resolve(__dirname, "../../slack/responder")
         ), // assuming your Lambda code is in a directory named "lambda" at the root of your CDK project
@@ -35,7 +35,7 @@ export class LawBotSlack extends cdk.Stack {
       "LambdaFunctionSlackWorker",
       {
         runtime: lambda.Runtime.NODEJS_LATEST,
-        handler: "lambdaFunctionTwo.handler",
+        handler: "lambdaWorker.handler",
         code: lambda.Code.fromAsset(
           path.resolve(__dirname, "../../slack/worker")
         ), // same assumption as above
