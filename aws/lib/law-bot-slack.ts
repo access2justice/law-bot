@@ -20,9 +20,7 @@ export class LawBotSlack extends cdk.Stack {
       {
         runtime: lambda.Runtime.NODEJS_LATEST,
         handler: "responder.handler",
-        code: lambda.Code.fromAsset(
-          path.resolve(__dirname, "../../slack/handlers")
-        ), // assuming your Lambda code is in a directory named "lambda" at the root of your CDK project
+        code: lambda.Code.fromAsset(path.resolve(__dirname, "../../slack")), // assuming your Lambda code is in a directory named "lambda" at the root of your CDK project
         environment: {
           // Environment variables can be passed here
         },
@@ -36,9 +34,7 @@ export class LawBotSlack extends cdk.Stack {
       {
         runtime: lambda.Runtime.NODEJS_LATEST,
         handler: "worker.handler",
-        code: lambda.Code.fromAsset(
-          path.resolve(__dirname, "../../slack/handlers")
-        ), // same assumption as above
+        code: lambda.Code.fromAsset(path.resolve(__dirname, "../../slack")), // same assumption as above
       }
     );
 
