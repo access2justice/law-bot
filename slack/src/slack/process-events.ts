@@ -1,6 +1,5 @@
 import { WebClient } from '@slack/web-api';
 import * as dotenv from 'dotenv';
-const fetch = require('node-fetch');
 
 dotenv.config();
 
