@@ -13,23 +13,6 @@ export class LawBotSlack extends cdk.Stack {
   ) {
     super(scope, id, props);
 
-    // Define the first Lambda function
-    const lambdaResponder = new lambda.Function(
-      this,
-      "LambdaFunctionSlackResponder",
-      {
-        runtime: lambda.Runtime.NODEJS_LATEST,
-        handler: "index.handler",
-        code: lambda.Code.fromAsset(
-          path.resolve(__dirname, "../../slack/responder")
-        ), // assuming your Lambda code is in a directory named "lambda" at the root of your CDK project
-        environment: {
-          // Environment variables can be passed here
-        },
-      }
-    );
-
-    // Define the second Lambda function
     const lambdaWorker = new lambda.Function(
       this,
       "LambdaFunctionSlackWorker",
@@ -39,10 +22,30 @@ export class LawBotSlack extends cdk.Stack {
         code: lambda.Code.fromAsset(
           path.resolve(__dirname, "../../slack/worker")
         ), // same assumption as above
+        environment: {
+          AWS_API_CHAT_ENDPOINT: process.env.AWS_API_CHAT_ENDPOINT || "",
+          SLACK_TOKEN: process.env.SLACK_TOKEN || "",
+          NOTION_API_SECRET: process.env.NOTION_API_SECRET || "",
+        },
       }
     );
 
-    // Grant the first Lambda permission to invoke the second Lambda
+    // Define the first Lambda function
+    const lambdaResponder = new lambda.Function(
+      this,
+      "LambdaFunctionSlackResponder",
+      {
+        runtime: lambda.Runtime.NODEJS_LATEST,
+        handler: "index.handler",
+        code: lambda.Code.fromAsset(
+          path.resolve(__dirname, "../../slack/responder")
+        ),
+        environment: {
+          WORKER_FUNCTION_NAME: lambdaWorker.functionName,
+        },
+      }
+    );
+
     lambdaWorker.grantInvoke(lambdaResponder);
 
     const slackResource = props?.apiGateway.root.addResource("slack");

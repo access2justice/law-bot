@@ -28,7 +28,7 @@ export const handler: APIGatewayProxyHandler = async (event) => {
     ) {
       // Setup parameters to invoke the second Lambda function
       const params = {
-        FunctionName: "LambdaFunctionSlackWorker", // Specify the second Lambda function name
+        FunctionName: process.env.WORKER_FUNCTION_NAME || "", // Specify the second Lambda function name
         InvocationType: "Event", // Use 'Event' for asynchronous execution
         Payload: JSON.stringify({}),
       };
