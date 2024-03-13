@@ -7,13 +7,14 @@ dotenv.config({ path: __dirname + '/../../.env' });
 const web = new WebClient(process.env.SLACK_TOKEN);
 
 export default async function handler(data: any) {
+  console.log('2. Initiate message, data:' + data);
   try {
     await web.chat.postMessage({
       thread_ts: data.event.ts,
       channel: data.event.channel,
       text: 'Thanks for your message, one moment please ...',
     });
-
+    console.log('2.1. Thanks message' + new Date());
     await new Promise((resolve) => setTimeout(resolve, 1000));
     const response = await fetch(process.env.AWS_API_CHAT_ENDPOINT || '', {
       method: 'POST',
@@ -33,7 +34,7 @@ export default async function handler(data: any) {
     });
 
     const json = await response.json();
-
+    console.log('2.2. Success message', new Date());
     const payload_value = JSON.stringify({
       user_input: data.event.text,
       ai_response: json.data.content,
