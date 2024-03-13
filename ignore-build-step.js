@@ -11,7 +11,7 @@ if (targetFolder == "slack") {
   allowedPattern = /^frontend\//;
 }
 
-if (!allowedPattern.test(branchName)) {
+if (!(allowedPattern.test(branchName) || branchName === "master")) {
   console.log(
     `Branch ${branchName} does not match the allowed pattern. Build will be aborted.`
   );

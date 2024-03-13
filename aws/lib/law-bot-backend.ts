@@ -10,6 +10,8 @@ import {
 } from "aws-cdk-lib/aws-applicationautoscaling";
 
 export class LawBotBackend extends cdk.Stack {
+  public apiGateway: cdk.aws_apigateway.RestApi;
+
   constructor(scope: Construct, id: string, props?: cdk.StackProps) {
     super(scope, id, props);
 
@@ -42,16 +44,16 @@ export class LawBotBackend extends cdk.Stack {
         PredefinedMetric.LAMBDA_PROVISIONED_CONCURRENCY_UTILIZATION,
     });
 
-    const api = new RestApi(this, "ApiGateway", {});
+    this.apiGateway = new RestApi(this, "ApiGateway", {});
 
-    api.root.addMethod(
+    this.apiGateway.root.addMethod(
       "ANY",
       new LambdaIntegration(dockerImageFunction, {
         proxy: true,
       })
     );
 
-    const chat = api.root.addResource("chat");
+    const chat = this.apiGateway.root.addResource("chat");
 
     chat.addMethod(
       "ANY",

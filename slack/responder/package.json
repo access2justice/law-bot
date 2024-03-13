@@ -1,0 +1,23 @@
+{
+  "name": "responder",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "build": "npm i && tsc",
+    "predeploy": "npm run build"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@notionhq/client": "^2.2.14",
+    "@slack/web-api": "^7.0.2",
+    "aws-lambda": "^1.0.7",
+    "aws-sdk": "^2.1575.0"
+  },
+  "devDependencies": {
+    "@types/aws-lambda": "^8.10.136",
+    "@types/node": "^20.11.26",
+    "typescript": "^5.4.2"
+  }
+}

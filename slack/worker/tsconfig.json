@@ -1,0 +1,12 @@
+{
+  "compilerOptions": {
+    "target": "ES2018", // Suitable for Node.js 10.x and above
+    "module": "CommonJS",
+    "strict": true,
+    "esModuleInterop": true,
+    "skipLibCheck": true,
+    "forceConsistentCasingInFileNames": true
+  },
+  "include": ["**/*.ts"],
+  "exclude": ["node_modules", "dist"]
+}
