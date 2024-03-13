@@ -26,11 +26,6 @@ export async function processEvents(data): Promise<void> {
   console.log('2. Initiate process-events, data:' + JSON.stringify(data));
   try {
     console.log('2.1 Start message' + new Date());
-    await sendSlackMessage(
-      data.event.channel,
-      data.event.ts,
-      'Thanks for your message, one moment please ...',
-    );
     console.log('2.2. Slack message sent.', new Date());
     await new Promise((resolve) => setTimeout(resolve, 1000));
     console.log('2.3. Fetching backend', new Date());
@@ -57,7 +52,7 @@ export async function processEvents(data): Promise<void> {
 
     const legalReasoning = [] as any[];
     backendResponse.data.reasoning_thread.forEach(
-      ({ type, result, prompt, response }) => {
+      ({ type, results, prompt, response }) => {
         if (type === 'search') {
           legalReasoning.push({
             type: 'header',
@@ -69,9 +64,9 @@ export async function processEvents(data): Promise<void> {
           });
           legalReasoning.push({
             type: 'context',
-            elements: result.text.map((r: string, i: number) => ({
+            elements: results.text.map((r: string, i: number) => ({
               type: 'mrkdwn',
-              text: `*${result.art_para[i]}*: ${r}`,
+              text: `*${results.art_para[i]}*: ${r}`,
             })),
           });
           legalReasoning.push({
