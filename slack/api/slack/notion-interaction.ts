@@ -69,7 +69,7 @@ async function saveExpertFeedbackToNotion(
   const response = await notion.pages.create(taskData);
 
   if (response) {
-    const message = `Expert feedback saved to Notion: ${response.url}`;
+    const message = `Expert feedback saved to Notion: ${(response as any).url}`;
     await sendSlackMessage(message, slack_channel, slack_thread_ts);
   }
 
