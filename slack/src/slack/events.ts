@@ -28,7 +28,7 @@ export default async function postSlackEvents(req: Request, res: Response) {
       await sendSlackMessage(
         'Thanks for your message, one moment please ...',
         data.event.channel,
-        data.event.t,
+        data.event.ts,
       );
       console.log('1. Start message' + new Date());
 
@@ -153,7 +153,7 @@ export default async function postSlackEvents(req: Request, res: Response) {
         await sendSlackMessage(
           'Sorry, something went wrong.',
           data.event.channel,
-          data.event.t,
+          data.event.ts,
         );
       }
     }
@@ -162,7 +162,7 @@ export default async function postSlackEvents(req: Request, res: Response) {
     await sendSlackMessage(
       'Sorry, something went wrong.',
       data.event.channel,
-      data.event.t,
+      data.event.ts,
     );
   }
 }
