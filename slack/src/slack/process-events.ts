@@ -6,6 +6,13 @@ dotenv.config();
 
 const web = new WebClient(process.env.SLACK_TOKEN);
 
+interface ApiResponse {
+  data: {
+    content: string;
+    reasoning_thread: any[];
+  };
+}
+
 export default async function handler(data: any) {
   console.log('2. Initiate process-events, data:' + JSON.stringify(data));
   // try {
@@ -43,7 +50,7 @@ export default async function handler(data: any) {
       }),
     });
 
-    const json = await response.json();
+    const json = (await response.json()) as ApiResponse;
     console.log('2.5. Success message:', JSON.stringify(json));
     const payload_value = JSON.stringify({
       user_input: data.event.text,
