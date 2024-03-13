@@ -3,6 +3,8 @@ import { Response, Request } from 'express';
 import processEvents from './process-events';
 import * as dotenv from 'dotenv';
 
+dotenv.config();
+
 const web = new WebClient(process.env.SLACK_TOKEN);
 
 export default async function postSlackEvents(req: Request, res: Response) {

@@ -6,36 +6,22 @@ dotenv.config();
 
 const web = new WebClient(process.env.SLACK_TOKEN);
 
-async function sendTestMessage() {
-  try {
-    console.log('Sending test message...');
-    const response = await web.chat.postMessage({
-      channel: 'C06HA3ZLB18',
-      text: 'Test message',
-    });
-    console.log('Test message sent:', response);
-  } catch (error) {
-    console.error('Error sending test message:', error);
-  }
-}
-
 export default async function handler(data: any) {
-  sendTestMessage();
   console.log('2. Initiate process-events, data:' + JSON.stringify(data));
-  try {
-    console.log('2.1 Start message' + new Date());
-    const postMessageResponse = await web.chat.postMessage({
-      thread_ts: data.event.ts,
-      channel: data.event.channel,
-      text: 'Thanks for your message, one moment please ...',
-    });
-    console.log(
-      '2.2 First response slack message:',
-      JSON.stringify(postMessageResponse),
-    );
-  } catch (e) {
-    console.error('2.2 Error sending message:', JSON.stringify(e, null, 2));
-  }
+  // try {
+  //   console.log('2.1 Start message' + new Date());
+  //   const postMessageResponse = await web.chat.postMessage({
+  //     thread_ts: data.event.ts,
+  //     channel: data.event.channel,
+  //     text: 'Thanks for your message, one moment please ...',
+  //   });
+  //   console.log(
+  //     '2.2 First response slack message:',
+  //     JSON.stringify(postMessageResponse),
+  //   );
+  // } catch (e) {
+  //   console.error('2.2 Error sending message:', JSON.stringify(e, null, 2));
+  // }
   try {
     await new Promise((resolve) => setTimeout(resolve, 1000));
     const response = await fetch(process.env.AWS_API_CHAT_ENDPOINT || '', {
