@@ -9,7 +9,7 @@ const lambda = new AWS.Lambda();
 export const handler: APIGatewayProxyHandler = async (event) => {
   console.log("EVENT:    ", event);
 
-  if(event.body && event.body == typeof(String)){
+  if(event.body && event.body == typeof(String) && event.headers['Content-Type'] == 'application/x-www-form-urlencoded'){
     const parcedBody = queryString.parse(event.body);
     const exampleValue = parcedBody.payload;
     console.log('EXAMPLEVALUE:      ', exampleValue);
