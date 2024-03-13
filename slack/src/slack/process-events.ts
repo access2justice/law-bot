@@ -26,11 +26,7 @@ export default async function processEvents(data: any) {
       '2.2 First response slack message:',
       JSON.stringify(postMessageResponse),
     );
-  } catch (e) {
-    console.log('2.2 Error sending message:', e);
-    console.error('2.2 Error sending message:', JSON.stringify(e, null, 2));
-  }
-  try {
+
     console.log('2.3. Start message:', new Date());
     await new Promise((resolve) => setTimeout(resolve, 1000));
     console.log('2.4. Fetching Backend:', new Date());
@@ -53,6 +49,10 @@ export default async function processEvents(data: any) {
 
     const json = (await response.json()) as ApiResponse;
     console.log('2.5. Success message:', JSON.stringify(json));
+    console.log(
+      '2.6. After fetching backend, before processing legal reasoning',
+      new Date(),
+    );
     const payload_value = JSON.stringify({
       user_input: data.event.text,
       ai_response: json.data.content,
@@ -102,7 +102,10 @@ export default async function processEvents(data: any) {
         });
       }
     });
-
+    console.log(
+      '2.7 Processing legal reasoning and preparing message blocks.',
+      new Date(),
+    );
     const messageBlocks = [
       ...legalReasoning,
       {
@@ -129,14 +132,16 @@ export default async function processEvents(data: any) {
     ];
 
     // console.log(messageBlocks);
-
+    console.log('2.8 Sending final message with blocks.', new Date());
     await web.chat.postMessage({
       blocks: messageBlocks,
       thread_ts: data.event.ts,
       channel: data.event.channel,
       text: json.data.content,
     });
+    console.log('2.9 Slack message sent successfully.', new Date());
   } catch (error) {
-    console.error('Error fetching Backend:', error);
+    console.log('Global Error:', error);
+    console.error('Global Error Detailed:', JSON.stringify(error, null, 2));
   }
 }
