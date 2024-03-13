@@ -11,6 +11,7 @@ async function bootstrap(): Promise<Handler> {
   // Create an instance of express
   const app = express();
   app.use(express.json());
+  app.use(express.urlencoded({ extended: true }));
 
   // Specify the port to listen on
   const PORT = 3000;
