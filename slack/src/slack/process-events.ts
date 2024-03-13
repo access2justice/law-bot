@@ -5,13 +5,6 @@ dotenv.config();
 
 const web = new WebClient(process.env.SLACK_TOKEN);
 
-interface ApiResponse {
-  data: {
-    content: string;
-    reasoning_thread: any[];
-  };
-}
-
 async function sendSlackMessage(channel, thread, text) {
   return web.chat.postMessage({
     channel: channel,
@@ -30,17 +23,17 @@ async function fetchBackendAPI(body) {
 }
 
 export async function processEvents(data): Promise<void> {
+  console.log('2.1 Start message' + new Date());
+  await sendSlackMessage(
+    data.event.channel,
+    data.event.ts,
+    'Thanks for your message, one moment please ...',
+  );
+  console.log('2.2. Slack message sent.', new Date());
   return new Promise(async (resolve, reject) => {
     console.log('2. Initiate process-events, data:' + JSON.stringify(data));
     try {
-      console.log('2.1 Start message' + new Date());
-      await sendSlackMessage(
-        data.event.channel,
-        data.event.ts,
-        'Thanks for your message, one moment please ...',
-      );
-      console.log('2.2. Slack message sent.', new Date());
-      // await new Promise((resolve) => setTimeout(resolve, 1000));
+      await new Promise((resolve) => setTimeout(resolve, 1000));
       console.log('2.3. Fetching backend', new Date());
       const backendResponse = await fetchBackendAPI({
         message: [
