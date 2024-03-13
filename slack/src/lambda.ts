@@ -40,6 +40,8 @@ async function bootstrap(): Promise<Handler> {
 let serverlessExpressInstance;
 
 export const handler: Handler = async (event: any, context: Context) => {
+  context.callbackWaitsForEmptyEventLoop = false;
+
   if (!serverlessExpressInstance) {
     const app = await bootstrap();
     serverlessExpressInstance = serverlessExpress({ app });
