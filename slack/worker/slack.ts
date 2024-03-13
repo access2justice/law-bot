@@ -1,7 +1,4 @@
 import { WebClient } from "@slack/web-api";
-import * as dotenv from "dotenv";
-
-dotenv.config();
 
 const web = new WebClient(process.env.SLACK_TOKEN);
 

@@ -1,12 +1,9 @@
 import { APIGatewayProxyHandler } from "aws-lambda";
 import * as AWS from "aws-sdk";
-import { WebClient } from "@slack/web-api";
 import { saveExpertFeedbackToNotion } from "./notion";
 import { openModal, returnSlackChallenge } from "./slack";
 
 const lambda = new AWS.Lambda();
-
-const web = new WebClient(process.env.SLACK_TOKEN);
 
 export const handler: APIGatewayProxyHandler = async (event) => {
   const data = event.body && JSON.parse(event.body);

@@ -1,8 +1,5 @@
 import { Client } from "@notionhq/client";
-import * as dotenv from "dotenv";
 import { sendSlackMessage } from "./slack";
-
-dotenv.config();
 
 const notion = new Client({ auth: process.env.NOTION_API_SECRET });
 

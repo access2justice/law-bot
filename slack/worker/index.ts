@@ -1,10 +1,5 @@
 import { Handler } from "aws-lambda";
-
-import { WebClient } from "@slack/web-api";
-import * as dotenv from "dotenv";
 import { sendSlackMessage } from "./slack";
-
-dotenv.config();
 
 async function fetchBackendAPI(body: any) {
   const response = await fetch(process.env.AWS_API_CHAT_ENDPOINT as string, {
