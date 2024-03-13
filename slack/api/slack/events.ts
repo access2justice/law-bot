@@ -28,7 +28,7 @@ export default async function MyEdgeFunction(
       (data.event.channel === "C06GGJVRMCK" ||
         data.event.channel === "C06HA3ZLB18")
     ) {
-      console.log("0. Initiate message" + new Date());
+      console.log("00. Initiate message" + new Date());
       try {
         context.waitUntil(
           (async () => {
