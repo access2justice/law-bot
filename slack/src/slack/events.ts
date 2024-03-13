@@ -25,6 +25,11 @@ export default async function postSlackEvents(req: Request, res: Response) {
       console.log('1. Initiate message' + new Date());
       res.sendStatus(202);
       console.log('1.1 Status 202 sent successfully.' + new Date());
+      await web.chat.postMessage({
+        thread_ts: data.event.ts,
+        channel: data.event.channel,
+        text: 'Thanks for your message, one moment please ...',
+      });
       try {
         console.log('1.2 Start message' + new Date());
         await processEvents(data);
