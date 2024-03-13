@@ -33,6 +33,8 @@ export const handler: APIGatewayProxyHandler = async (event) => {
 
     if (
       data.event &&
+      !data.event.bot_profile &&
+      !data.event.bot_id &&
       !data.event.thread_ts &&
       !data.event.parent_user_id &&
       data.event.type === "message" &&
