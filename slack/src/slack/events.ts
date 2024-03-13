@@ -25,11 +25,11 @@ export default async function postSlackEvents(req: Request, res: Response) {
       console.log('00. Initiate message' + new Date());
       res.sendStatus(202);
 
-      await web.chat.postMessage({
-        channel: data.event.channel,
-        thread_ts: data.event.ts,
-        text: 'Thanks for your message, one moment please ...',
-      });
+      await sendSlackMessage(
+        'Thanks for your message, one moment please ...',
+        data.event.channel,
+        data.event.t,
+      );
       console.log('1. Start message' + new Date());
 
       try {
@@ -150,19 +150,31 @@ export default async function postSlackEvents(req: Request, res: Response) {
         console.log('2.9 Slack message sent successfully.', new Date());
       } catch (error) {
         console.error('Error processing backend response:', error);
-        await web.chat.postMessage({
-          channel: data.event.channel,
-          thread_ts: data.event.ts,
-          text: 'Sorry, something went wrong with processing your request.',
-        });
+        await sendSlackMessage(
+          'Sorry, something went wrong.',
+          data.event.channel,
+          data.event.t,
+        );
       }
     }
   } catch (e) {
     console.error('error', e);
-    await web.chat.postMessage({
-      thread_ts: data.event.ts,
-      channel: data.event.channel,
-      text: 'Sorry, something went wrong.',
-    });
+    await sendSlackMessage(
+      'Sorry, something went wrong.',
+      data.event.channel,
+      data.event.t,
+    );
   }
+}
+
+async function sendSlackMessage(
+  message: string,
+  slack_channel: string,
+  slack_thread_ts: string,
+) {
+  await web.chat.postMessage({
+    channel: slack_channel,
+    text: message,
+    thread_ts: slack_thread_ts,
+  });
 }
