@@ -41,53 +41,48 @@ export default async function handler(req: VercelRequest, res: VercelResponse) {
       slack_thread_ts: data.event.ts,
     });
 
-    const legalReasoning = json.data.reasoning_thread
-      .map(({ type, query, result, prompt, response }) => {
-        if (type === "search") {
-          return [
-            {
-              type: "header",
-              text: {
-                type: "plain_text",
-                text: "⚙️ search",
-                emoji: true,
-              },
-            },
-            {
-              type: "context",
-              elements: result.text.map((r: string, i: number) => ({
-                type: "mrkdwn",
-                text: `*${result.art_para[i]}*: ${r}`,
-              })),
-            },
-            {
-              type: "divider",
-            },
-          ];
-        } else if (type === "llm") {
-          return [
-            {
-              type: "header",
-              text: {
-                type: "plain_text",
-                text: "⚙️ llm",
-                emoji: true,
-              },
-            },
-            {
-              type: "context",
-              elements: prompt.map((r: any, i: number) => ({
-                type: "mrkdwn",
-                text: `*${r.role}*: ${r.content.replaceAll("\n", "")}`,
-              })),
-            },
-            {
-              type: "divider",
-            },
-          ];
-        }
-      })
-      .flatten();
+    const legalReasoning = [] as any[];
+    json.data.reasoning_thread.forEach(({ type, result, prompt, response }) => {
+      if (type === "search") {
+        legalReasoning.push({
+          type: "header",
+          text: {
+            type: "plain_text",
+            text: "⚙️ search",
+            emoji: true,
+          },
+        });
+        legalReasoning.push({
+          type: "context",
+          elements: result.text.map((r: string, i: number) => ({
+            type: "mrkdwn",
+            text: `*${result.art_para[i]}*: ${r}`,
+          })),
+        });
+        legalReasoning.push({
+          type: "divider",
+        });
+      } else if (type === "llm") {
+        legalReasoning.push({
+          type: "header",
+          text: {
+            type: "plain_text",
+            text: "⚙️ llm",
+            emoji: true,
+          },
+        });
+        legalReasoning.push({
+          type: "context",
+          elements: prompt.map((r: any, i: number) => ({
+            type: "mrkdwn",
+            text: `*${r.role}*: ${r.content.replaceAll("\n", "")}`,
+          })),
+        });
+        legalReasoning.push({
+          type: "divider",
+        });
+      }
+    });
 
     const messageBlocks = [
       ...legalReasoning,
