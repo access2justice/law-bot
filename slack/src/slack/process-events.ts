@@ -35,7 +35,7 @@ export async function processEvents(data) {
   console.log('2. Initiate process-events, data:' + JSON.stringify(data));
   try {
     const slackMessagePromise = sendSlackMessage(
-      data.channel,
+      data.event.channel,
       data.event.ts,
       'Thanks for your message, one moment please ...',
     );
