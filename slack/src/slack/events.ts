@@ -1,7 +1,6 @@
 import { WebClient } from '@slack/web-api';
 import { Response, Request } from 'express';
 import * as dotenv from 'dotenv';
-import fetch from 'node-fetch';
 
 dotenv.config();
 
@@ -22,159 +21,53 @@ export default async function postSlackEvents(req: Request, res: Response) {
       (data.event.channel === 'C06GGJVRMCK' ||
         data.event.channel === 'C06HA3ZLB18')
     ) {
-      console.log('00. Initiate message' + new Date());
+      console.log('1. Initiate message' + new Date());
       res.sendStatus(202);
-
-      await sendSlackMessage(
-        'Thanks for your message, one moment please ...',
-        data.event.channel,
-        data.event.ts,
-      );
-      console.log('1. Start message' + new Date());
-
+      console.log('1.1 Status 202 sent successfully.' + new Date());
       try {
-        const responseBackend = await fetch(
-          `${process.env.AWS_API_CHAT_ENDPOINT}`,
-          {
-            method: 'POST',
-            headers: {
-              'Content-Type': 'application/json',
-            },
-            body: JSON.stringify({
-              message: [
-                {
-                  role: 'user',
-                  content:
-                    data.event.text ||
-                    'Explain to the user that something went wrong.',
-                },
-              ],
-            }),
-          },
-        );
-
-        const json = await responseBackend.json();
-        console.log('2.5. Success message:', JSON.stringify(json));
-        console.log(
-          '2.6. After fetching backend, before processing legal reasoning',
-          new Date(),
-        );
-        const payload_value = JSON.stringify({
-          user_input: data.event.text,
-          ai_response: json.data.content,
-          slack_channel: data.event.channel,
-          slack_thread_ts: data.event.ts,
-        });
-
-        const legalReasoning = [] as any[];
-        json.data.reasoning_thread.forEach(
-          ({ type, result, prompt, response }) => {
-            if (type === 'search') {
-              legalReasoning.push({
-                type: 'header',
-                text: {
-                  type: 'plain_text',
-                  text: '⚙️ search',
-                  emoji: true,
-                },
-              });
-              legalReasoning.push({
-                type: 'context',
-                elements: result.text.map((r: string, i: number) => ({
-                  type: 'mrkdwn',
-                  text: `*${result.art_para[i]}*: ${r}`,
-                })),
-              });
-              legalReasoning.push({
-                type: 'divider',
-              });
-            } else if (type === 'llm') {
-              legalReasoning.push({
-                type: 'header',
-                text: {
-                  type: 'plain_text',
-                  text: '⚙️ llm',
-                  emoji: true,
-                },
-              });
-              legalReasoning.push({
-                type: 'context',
-                elements: prompt.map((r: any, i: number) => ({
-                  type: 'mrkdwn',
-                  text: `*${r.role}*: ${r.content.replaceAll('\n', '')}`,
-                })),
-              });
-              legalReasoning.push({
-                type: 'divider',
-              });
-            }
-          },
-        );
-        console.log(
-          '2.7 Processing legal reasoning and preparing message blocks.',
-          new Date(),
-        );
-        const messageBlocks = [
-          ...legalReasoning,
-          {
-            type: 'section',
-            text: {
-              type: 'mrkdwn',
-              text: json.data.content,
-            },
-          },
-          {
-            type: 'actions',
-            elements: [
-              {
-                type: 'button',
-                text: {
-                  type: 'plain_text',
-                  text: 'Share a feedback',
-                },
-                action_id: 'feedback',
-                value: payload_value,
-              },
-            ],
-          },
-        ];
-
-        // console.log(messageBlocks);
-        console.log('2.8 Sending final message with blocks.', new Date());
+        console.log('1.2 Start message' + new Date());
+        await processEvents(data);
+        console.log('1.3 Success message', new Date());
+        return;
+      } catch (e) {
+        console.log('Error fetching process-events:', e);
         await web.chat.postMessage({
-          blocks: messageBlocks,
           thread_ts: data.event.ts,
           channel: data.event.channel,
-          text: json.data.content,
+          text: 'Sorry, something went wrong.',
         });
-        console.log('2.9 Slack message sent successfully.', new Date());
-      } catch (error) {
-        console.error('Error processing backend response:', error);
-        await sendSlackMessage(
-          'Sorry, something went wrong.',
-          data.event.channel,
-          data.event.ts,
-        );
       }
+      console.log('x. Return message' + new Date());
+      return new Response(Date.now() + '');
     }
+    return new Response(Date.now() + '');
   } catch (e) {
     console.error('error', e);
-    await sendSlackMessage(
-      'Sorry, something went wrong.',
-      data.event.channel,
-      data.event.ts,
-    );
+    await web.chat.postMessage({
+      thread_ts: data.event.ts,
+      channel: data.event.channel,
+      text: 'Sorry, something went wrong.',
+    });
   }
 }
+async function processEvents(data: any) {
+  try {
+    const response = await fetch(
+      `${process.env.API_SLACK_GATEWAY_URL}/slack/process-events`,
+      {
+        method: 'POST',
+        headers: {
+          'Content-Type': 'application/json',
+        },
+        body: JSON.stringify(data),
+      },
+    );
 
-async function sendSlackMessage(
-  message: string,
-  slack_channel: string,
-  slack_thread_ts: string,
-) {
-  await web.chat.postMessage({
-    channel: slack_channel,
-    text: message,
-    thread_ts: slack_thread_ts,
-  });
+    const json = await response.json();
+    console.log({ json });
+    console.log('1.3 processEvents function executed:', JSON.stringify(json));
+    return new Response(JSON.stringify({ response_action: 'clear' }));
+  } catch (error) {
+    console.log('Failed to submit to Notion:', error);
+  }
 }

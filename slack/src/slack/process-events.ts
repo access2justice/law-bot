@@ -142,7 +142,10 @@ export default async function processEvents(req: Request, res: Response) {
     });
     console.log('2.9 Slack message sent successfully.', new Date());
   } catch (error) {
-    console.log('Global Error:', error);
-    console.error('Global Error Detailed:', JSON.stringify(error, null, 2));
+    console.log('Process-events Error:', error);
+    console.error(
+      'Process-events Error Detailed:',
+      JSON.stringify(error, null, 2),
+    );
   }
 }
