@@ -12,10 +12,11 @@ interface ApiResponse {
   };
 }
 
-async function sendSlackMessage(channel, text) {
+async function sendSlackMessage(channel, thread, text) {
   console.log('2.1 Start message' + new Date());
   return web.chat.postMessage({
     channel: channel,
+    thread_ts: thread,
     text: text,
   });
 }
@@ -35,6 +36,7 @@ export async function processEvents(data) {
   try {
     const slackMessagePromise = sendSlackMessage(
       data.channel,
+      data.event.ts,
       'Thanks for your message, one moment please ...',
     );
 
