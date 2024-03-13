@@ -7,17 +7,18 @@ import queryString from "querystring";
 const lambda = new AWS.Lambda();
 
 export const handler: APIGatewayProxyHandler = async (event) => {
-  console.log(event);
-
-  const data = event.body && JSON.parse(event.body);
-  console.log(data);
-  console.log(event.path);
+  console.log("EVENT:    ", event);
 
   if(event.body && event.body == typeof(String)){
     const parcedBody = queryString.parse(event.body);
     const exampleValue = parcedBody.payload;
-    console.log(exampleValue);
+    console.log('EXAMPLEVALUE:      ', exampleValue);
   }
+
+  const data = event.body && JSON.parse(event.body);
+  console.log("DATA:    ", data);
+  console.log("EVENT.PATH:   ", event.path);
+
 
 
 
