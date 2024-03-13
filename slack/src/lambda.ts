@@ -3,7 +3,6 @@ import { configure as serverlessExpress } from '@vendia/serverless-express';
 import postSlackInteraction from './slack/interaction';
 import postSlackNotionInteraction from './slack/notion-interaction';
 import postSlackEvents from './slack/events';
-import postSlackProcessEvents from './slack/process-events';
 const express = require('express');
 
 let _cachedServer: Handler;
@@ -30,23 +29,20 @@ async function bootstrap(): Promise<Handler> {
     await postSlackNotionInteraction(req as any, res);
   });
 
-  app.post('/slack/process-events', async (req, res) => {
-    await postSlackProcessEvents(req as any, res);
-  });
-
   // Start the server
   app.listen(PORT, () => {
     console.log(`Server is running on http://localhost:${PORT}`);
   });
 
-  return serverlessExpress({ app });
+  return app;
 }
 
-export const handler: Handler = async (
-  event: any,
-  context: Context,
-  callback: Callback,
-) => {
-  _cachedServer = _cachedServer ?? (await bootstrap());
-  return _cachedServer(event, context, callback);
+let serverlessExpressInstance;
+
+export const handler: Handler = async (event: any, context: Context) => {
+  if (!serverlessExpressInstance) {
+    const app = await bootstrap();
+    serverlessExpressInstance = serverlessExpress({ app });
+  }
+  return serverlessExpressInstance(event, context);
 };

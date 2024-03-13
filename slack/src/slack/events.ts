@@ -1,5 +1,6 @@
 import { WebClient } from '@slack/web-api';
 import { Response, Request } from 'express';
+import processEvents from './process-events';
 import * as dotenv from 'dotenv';
 
 dotenv.config();
@@ -48,26 +49,5 @@ export default async function postSlackEvents(req: Request, res: Response) {
       channel: data.event.channel,
       text: 'Sorry, something went wrong.',
     });
-  }
-}
-async function processEvents(data: any) {
-  try {
-    const response = await fetch(
-      `${process.env.API_SLACK_GATEWAY_URL}/slack/process-events`,
-      {
-        method: 'POST',
-        headers: {
-          'Content-Type': 'application/json',
-        },
-        body: JSON.stringify(data),
-      },
-    );
-
-    const json = await response.json();
-    console.log({ json });
-    console.log('1.3 processEvents function executed:', JSON.stringify(json));
-    return new Response(JSON.stringify({ response_action: 'clear' }));
-  } catch (error) {
-    console.log('Failed to submit to Notion:', error);
   }
 }
