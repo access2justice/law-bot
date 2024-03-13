@@ -44,6 +44,9 @@ export class LawBotSlack extends cdk.Stack {
         ),
         environment: {
           WORKER_FUNCTION_NAME: lambdaWorker.functionName,
+          AWS_API_CHAT_ENDPOINT: process.env.AWS_API_CHAT_ENDPOINT || "",
+          SLACK_TOKEN: process.env.SLACK_TOKEN || "",
+          NOTION_API_SECRET: process.env.NOTION_API_SECRET || "",
         },
       }
     );
