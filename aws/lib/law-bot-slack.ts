@@ -46,21 +46,23 @@ export class LawBotSlack extends cdk.Stack {
         PredefinedMetric.LAMBDA_PROVISIONED_CONCURRENCY_UTILIZATION,
     });
 
-    props?.apiGateway.root.addResource("slack/interaction").addMethod(
+    const slackResource = props?.apiGateway.root.addResource("slack");
+
+    slackResource.addResource("interaction").addMethod(
       "POST",
       new LambdaIntegration(dockerImageFunction, {
         proxy: true,
       })
     );
 
-    props?.apiGateway.root.addResource("slack/events").addMethod(
+    slackResource.addResource("events").addMethod(
       "POST",
       new LambdaIntegration(dockerImageFunction, {
         proxy: true,
       })
     );
 
-    props?.apiGateway.root.addResource("slack/notion-interaction").addMethod(
+    slackResource.addResource("notion-interaction").addMethod(
       "POST",
       new LambdaIntegration(dockerImageFunction, {
         proxy: true,
