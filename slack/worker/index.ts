@@ -93,7 +93,7 @@ export const handler: Handler = async (event) => {
 
     const payload_value = JSON.stringify({
       user_input: data.text,
-      ai_response: JSON.stringify(legalReasoning),
+      ai_response: backendResponse.data.content,
       slack_channel: data.channel,
       slack_thread_ts: data.ts,
     });
