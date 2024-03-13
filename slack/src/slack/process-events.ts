@@ -5,7 +5,7 @@ dotenv.config();
 
 const web = new WebClient(process.env.SLACK_TOKEN);
 
-async function sendSlackMessage(channel, thread, text) {
+export async function sendSlackMessage(channel, thread, text) {
   return web.chat.postMessage({
     channel: channel,
     thread_ts: thread,

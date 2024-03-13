@@ -1,6 +1,6 @@
 import { WebClient } from '@slack/web-api';
 import { Response, Request } from 'express';
-import { processEvents } from './process-events';
+import { processEvents, sendSlackMessage } from './process-events';
 import * as dotenv from 'dotenv';
 
 dotenv.config();
@@ -24,6 +24,11 @@ export default async function postSlackEvents(req: Request, res: Response) {
     ) {
       console.log('1. Initiate message' + new Date());
       res.sendStatus(202);
+      await sendSlackMessage(
+        data.event.channel,
+        data.event.ts,
+        'Thanks for your message, one moment please ...',
+      );
       console.log('1.1 Status 202 sent successfully.' + new Date());
       try {
         console.log('1.2 Start message' + new Date());
