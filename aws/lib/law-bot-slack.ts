@@ -9,10 +9,12 @@ import {
   ServiceNamespace,
 } from "aws-cdk-lib/aws-applicationautoscaling";
 
-export class LawBotBackend extends cdk.Stack {
-  public apiGateway: cdk.aws_apigateway.RestApi;
-
-  constructor(scope: Construct, id: string, props?: cdk.StackProps) {
+export class LawBotSlack extends cdk.Stack {
+  constructor(
+    scope: Construct,
+    id: string,
+    props: cdk.StackProps & { apiGateway: cdk.aws_apigateway.RestApi }
+  ) {
     super(scope, id, props);
 
     const dockerImageFunction = new DockerImageFunction(
@@ -20,7 +22,7 @@ export class LawBotBackend extends cdk.Stack {
       "DockerImageFunction",
       {
         code: DockerImageCode.fromImageAsset(
-          path.resolve(__dirname, "../../backend")
+          path.resolve(__dirname, "../../slack")
         ),
         timeout: cdk.Duration.seconds(30),
         memorySize: 256,
@@ -44,19 +46,22 @@ export class LawBotBackend extends cdk.Stack {
         PredefinedMetric.LAMBDA_PROVISIONED_CONCURRENCY_UTILIZATION,
     });
 
-    this.apiGateway = new RestApi(this, "ApiGateway", {});
-
-    this.apiGateway.root.addMethod(
-      "ANY",
+    props?.apiGateway.root.addResource("slack/interaction").addMethod(
+      "POST",
       new LambdaIntegration(dockerImageFunction, {
         proxy: true,
       })
     );
 
-    const chat = this.apiGateway.root.addResource("chat");
+    props?.apiGateway.root.addResource("slack/events").addMethod(
+      "POST",
+      new LambdaIntegration(dockerImageFunction, {
+        proxy: true,
+      })
+    );
 
-    chat.addMethod(
-      "ANY",
+    props?.apiGateway.root.addResource("slack/notion-interaction").addMethod(
+      "POST",
       new LambdaIntegration(dockerImageFunction, {
         proxy: true,
       })

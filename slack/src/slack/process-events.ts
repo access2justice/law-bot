@@ -1,9 +1,9 @@
-import { WebClient } from "@slack/web-api";
-import type { VercelRequest, VercelResponse } from "@vercel/node";
+import { WebClient } from '@slack/web-api';
+import { Response, Request } from 'express';
 
 const web = new WebClient(process.env.SLACK_TOKEN);
 
-export default async function handler(req: VercelRequest, res: VercelResponse) {
+export default async function handler(req: Request, res: Response) {
   const { body } = req;
   const data = body;
 
@@ -11,22 +11,22 @@ export default async function handler(req: VercelRequest, res: VercelResponse) {
     await web.chat.postMessage({
       thread_ts: data.event.ts,
       channel: data.event.channel,
-      text: "Thanks for your message, one moment please ...",
+      text: 'Thanks for your message, one moment please ...',
     });
 
     await new Promise((resolve) => setTimeout(resolve, 1000));
-    const response = await fetch(process.env.AWS_API_CHAT_ENDPOINT || "", {
-      method: "POST",
+    const response = await fetch(process.env.AWS_API_CHAT_ENDPOINT || '', {
+      method: 'POST',
       headers: {
-        "Content-Type": "application/json",
+        'Content-Type': 'application/json',
       },
       body: JSON.stringify({
         message: [
           {
-            role: "user",
+            role: 'user',
             content:
               data.event.text ||
-              "Explain to the user that something went wrong.",
+              'Explain to the user that something went wrong.',
           },
         ],
       }),
@@ -43,43 +43,43 @@ export default async function handler(req: VercelRequest, res: VercelResponse) {
 
     const legalReasoning = [] as any[];
     json.data.reasoning_thread.forEach(({ type, result, prompt, response }) => {
-      if (type === "search") {
+      if (type === 'search') {
         legalReasoning.push({
-          type: "header",
+          type: 'header',
           text: {
-            type: "plain_text",
-            text: "⚙️ search",
+            type: 'plain_text',
+            text: '⚙️ search',
             emoji: true,
           },
         });
         legalReasoning.push({
-          type: "context",
+          type: 'context',
           elements: result.text.map((r: string, i: number) => ({
-            type: "mrkdwn",
+            type: 'mrkdwn',
             text: `*${result.art_para[i]}*: ${r}`,
           })),
         });
         legalReasoning.push({
-          type: "divider",
+          type: 'divider',
         });
-      } else if (type === "llm") {
+      } else if (type === 'llm') {
         legalReasoning.push({
-          type: "header",
+          type: 'header',
           text: {
-            type: "plain_text",
-            text: "⚙️ llm",
+            type: 'plain_text',
+            text: '⚙️ llm',
             emoji: true,
           },
         });
         legalReasoning.push({
-          type: "context",
+          type: 'context',
           elements: prompt.map((r: any, i: number) => ({
-            type: "mrkdwn",
-            text: `*${r.role}*: ${r.content.replaceAll("\n", "")}`,
+            type: 'mrkdwn',
+            text: `*${r.role}*: ${r.content.replaceAll('\n', '')}`,
           })),
         });
         legalReasoning.push({
-          type: "divider",
+          type: 'divider',
         });
       }
     });
@@ -87,22 +87,22 @@ export default async function handler(req: VercelRequest, res: VercelResponse) {
     const messageBlocks = [
       ...legalReasoning,
       {
-        type: "section",
+        type: 'section',
         text: {
-          type: "mrkdwn",
+          type: 'mrkdwn',
           text: json.data.content,
         },
       },
       {
-        type: "actions",
+        type: 'actions',
         elements: [
           {
-            type: "button",
+            type: 'button',
             text: {
-              type: "plain_text",
-              text: "Share a feedback",
+              type: 'plain_text',
+              text: 'Share a feedback',
             },
-            action_id: "feedback",
+            action_id: 'feedback',
             value: payload_value,
           },
         ],
@@ -118,6 +118,6 @@ export default async function handler(req: VercelRequest, res: VercelResponse) {
       text: json.data.content,
     });
   } catch (error) {
-    console.error("Error fetching Backend:", error);
+    console.error('Error fetching Backend:', error);
   }
 }

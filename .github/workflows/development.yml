@@ -4,9 +4,11 @@ on:
   push:
     branches:
       - "backend/*"
+      - "slack/*"
   pull_request:
     branches:
       - "backend/*"
+      - "slack/*"
 
 permissions:
   id-token: write
