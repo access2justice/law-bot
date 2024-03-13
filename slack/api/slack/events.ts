@@ -2,6 +2,7 @@ import { WebClient } from "@slack/web-api";
 import type { RequestContext } from "@vercel/edge";
 
 export const config = {
+  runtime: "edge",
   maxDuration: 60,
 };
 
