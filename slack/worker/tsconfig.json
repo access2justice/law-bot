@@ -5,8 +5,7 @@
     "strict": true,
     "esModuleInterop": true,
     "skipLibCheck": true,
-    "forceConsistentCasingInFileNames": true,
-    "outDir": "./dist" // Output directory for compiled files
+    "forceConsistentCasingInFileNames": true
   },
   "include": ["**/*.ts"],
   "exclude": ["node_modules", "dist"]
