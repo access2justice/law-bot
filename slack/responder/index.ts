@@ -7,23 +7,24 @@ import queryString from "querystring";
 const lambda = new AWS.Lambda();
 
 export const handler: APIGatewayProxyHandler = async (event) => {
-  console.log("EVENT:    ", event);
+  // console.log("EVENT:    ", event);
 
   let data: any;
 
-  if (event.headers['Content-Type'] === 'application/x-www-form-urlencoded' || event.headers['content-type'] === 'application/x-www-form-urlencoded') {
+  if (
+    event.headers["Content-Type"] === "application/x-www-form-urlencoded" ||
+    event.headers["content-type"] === "application/x-www-form-urlencoded"
+  ) {
     const parsedBody = queryString.parse(event.body as string);
     data = JSON.parse(parsedBody.payload as string);
   } else {
     data = event.body ? JSON.parse(event.body) : undefined;
   }
+  console.log(data);
   //testing
   // const data = event.body && JSON.parse(event.body);
   // console.log("DATA:    ", data);
   // console.log("EVENT.PATH:   ", event.path);
-
-
-
 
   try {
     if (data.type === "url_verification") {
