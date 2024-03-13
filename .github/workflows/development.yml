@@ -53,4 +53,4 @@ jobs:
         env:
           SLACK_TOKEN: ${{ secrets.SLACK_TOKEN }}
           NOTION_API_SECRET: ${{ secrets.NOTION_API_SECRET }}
-          AWS_API_CHAT_ENDPOINT: ${{ env.AWS_API_CHAT_ENDPOINT }}
+          AWS_API_CHAT_ENDPOINT: ${{ vars.AWS_API_CHAT_ENDPOINT }}
