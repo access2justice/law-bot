@@ -4,6 +4,7 @@ import { saveExpertFeedbackToNotion } from "./notion";
 import { openModal, returnSlackChallenge } from "./slack";
 
 const lambda = new AWS.Lambda();
+const queryString = require("query-string");
 
 export const handler: APIGatewayProxyHandler = async (event) => {
   console.log(event);
@@ -11,6 +12,12 @@ export const handler: APIGatewayProxyHandler = async (event) => {
   const data = event.body && JSON.parse(event.body);
   console.log(data);
   console.log(event.path);
+
+  const parcedBody = queryString.parse(event.body);
+  const exampleValue = parcedBody.payload;
+  console.log(exampleValue);
+
+
 
   try {
     if (data.type === "url_verification") {
