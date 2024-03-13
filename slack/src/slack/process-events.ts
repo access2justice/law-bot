@@ -1,12 +1,12 @@
 import { WebClient } from '@slack/web-api';
 import { Response, Request } from 'express';
+import * as dotenv from 'dotenv';
+
+dotenv.config({ path: __dirname + '/../../.env' });
 
 const web = new WebClient(process.env.SLACK_TOKEN);
 
-export default async function handler(req: Request, res: Response) {
-  const { body } = req;
-  const data = body;
-
+export default async function handler(data: any) {
   try {
     await web.chat.postMessage({
       thread_ts: data.event.ts,
@@ -109,7 +109,7 @@ export default async function handler(req: Request, res: Response) {
       },
     ];
 
-    console.log(messageBlocks);
+    // console.log(messageBlocks);
 
     await web.chat.postMessage({
       blocks: messageBlocks,
