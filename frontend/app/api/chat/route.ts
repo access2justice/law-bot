@@ -31,7 +31,7 @@ export async function POST(req: Request) {
           content: userMessage.content
         }
       ],
-      stream: false
+      stream: true
     })
   })
 
@@ -39,8 +39,11 @@ export async function POST(req: Request) {
     return new Response('Error from server', { status: res.status })
   }
 
-  const data = await res.json()
-  const completion = data.data.content.trim()
+  if (res.body === null) {
+    return new Response('Response body is null', { status: 500 })
+  }
+
+  const completion = await streamResponse(res.body)
   const title = json.messages[0].content.substring(0, 100)
   const id = json.id ?? nanoid()
   const createdAt = Date.now()
@@ -68,7 +71,25 @@ export async function POST(req: Request) {
 
   return new Response(completion, {
     headers: {
-      'Content-Type': 'text/plain'
+      'Content-Type': 'text/event-stream',
+      'Cache-Control': 'no-cache',
+      Connection: 'keep-alive'
     }
   })
+}
+
+async function streamResponse(
+  body: ReadableStream<Uint8Array>
+): Promise<string> {
+  const reader = body.getReader()
+  let result = ''
+  while (true) {
+    const { done, value } = await reader.read()
+    if (done) {
+      break
+    }
+    const chunk = new TextDecoder().decode(value)
+    result += chunk
+  }
+  return result
 }
