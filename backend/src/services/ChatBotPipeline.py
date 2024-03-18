@@ -18,13 +18,15 @@ class ChatBotPipeline:
             openai_client: AsyncAzureOpenAI,
             openai_embedding_client: AzureOpenAI,
             model,
-            embeddings_model
+            embeddings_model,
+            logger
         ):
         self.search_client = search_client
         self.openai_client = openai_client
         self.openai_embedding_client = openai_embedding_client
         self.model = model
         self.embeddings_model = embeddings_model
+        self.logger = logger
         self.model_token_limit = 8194
         self.max_response_tokens = 300  #Pending
 

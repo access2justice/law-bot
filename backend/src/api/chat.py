@@ -3,7 +3,7 @@ from fastapi.encoders import jsonable_encoder
 from fastapi.responses import JSONResponse
 from ..models.request import ChatRequest
 from ..services.ChatBotPipeline import ChatBotPipeline
-from ..services.globals import clients
+from ..services.globals import clients,logger
 import os
 
 
@@ -16,7 +16,7 @@ async def chat_handler(chat_request: ChatRequest):
     embed_client = clients["azure_embedding"]
     model = os.getenv("AZURE_OPENAI_DEPLOYMENT_NAME")
     embeddings_model = os.getenv("AZURE_OPENAI_EMBEDDING_DEPLOYMENT")
-    chatbot = ChatBotPipeline(search_client, openai_client, embed_client, model, embeddings_model)
+    chatbot = ChatBotPipeline(search_client, openai_client, embed_client, model, embeddings_model, logger)
     response = await chatbot.run(chat_request)
     return response
     

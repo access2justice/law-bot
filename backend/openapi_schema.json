@@ -75,6 +75,7 @@
             "default": false
           }
         },
+        "additionalProperties": false,
         "type": "object",
         "required": [
           "message"
@@ -106,6 +107,7 @@
             "title": "Content"
           }
         },
+        "additionalProperties": false,
         "type": "object",
         "required": [
           "content"
