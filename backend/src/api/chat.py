@@ -1,22 +1,22 @@
-from fastapi import APIRouter
-from fastapi.encoders import jsonable_encoder
-from fastapi.responses import JSONResponse
+# Standard library imports.
+from typing import Annotated
+
+# Installed libraries
+from fastapi import APIRouter, Depends
+
+# Local libraries
 from ..models.request import ChatRequest
 from ..services.ChatBotPipeline import ChatBotPipeline
-from ..services.globals import clients
-import os
+from .dependencies import get_chat_bot_service
 
-
+# create router
 router = APIRouter()
 
+# get dependency
+ChatBotPipelineService = Annotated[ChatBotPipeline, Depends(get_chat_bot_service)]
+
+
 @router.post("/chat")
-async def chat_handler(chat_request: ChatRequest):
-    search_client = clients["azure_search"]
-    openai_client = clients["azure_openai"]
-    embed_client = clients["azure_embedding"]
-    model = os.getenv("AZURE_OPENAI_DEPLOYMENT_NAME")
-    embeddings_model = os.getenv("AZURE_OPENAI_EMBEDDING_DEPLOYMENT")
-    chatbot = ChatBotPipeline(search_client, openai_client, embed_client, model, embeddings_model)
+async def chat_handler(chat_request: ChatRequest, chatbot: ChatBotPipelineService):
     response = await chatbot.run(chat_request)
     return response
-    
