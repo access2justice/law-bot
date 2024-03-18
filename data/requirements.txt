@@ -2,3 +2,4 @@ python-dotenv==1.0.1
 xmltodict==0.13.0
 azure-search-documents==11.4.0
 cobalt==8.0.1
+openai==1.13.3
