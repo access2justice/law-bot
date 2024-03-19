@@ -12,28 +12,33 @@ export async function saveExpertFeedbackToNotion(
   slack_channel: string,
   slack_thread_ts: string
 ) {
-  const taskData = {
-    parent: { database_id: "083bf4cbaf134f7a940444e847e49126" },
-    properties: {
-      "Original Question": { title: [{ text: { content: question } }] },
-      Status: { multi_select: [{ name: "Submited" }] },
-      Priority: { multi_select: [{ name: "Medium" }] },
-      "Law Bot Answer": { rich_text: [{ text: { content: answer } }] },
-      Correctness: { checkbox: correct },
-      "Expert Comment": { rich_text: [{ text: { content: comment } }] },
-      Expert: { rich_text: [{ text: { content: expertName } }] },
-    },
-  };
+  try {
+    const taskData = {
+      parent: { database_id: "083bf4cbaf134f7a940444e847e49126" },
+      properties: {
+        "Original Question": { title: [{ text: { content: question } }] },
+        Status: { multi_select: [{ name: "Submited" }] },
+        Priority: { multi_select: [{ name: "Medium" }] },
+        "Law Bot Answer": { rich_text: [{ text: { content: answer } }] },
+        Correctness: { checkbox: correct },
+        "Expert Comment": { rich_text: [{ text: { content: comment } }] },
+        Expert: { rich_text: [{ text: { content: expertName } }] },
+      },
+    };
 
-  const response = await notion.pages.create(taskData);
+    const response = await notion.pages.create(taskData);
 
-  if (response) {
-    const message = `Expert feedback saved to Notion <${
-      (response as any).url
-    }|here>
+    if (response) {
+      const message = `Expert feedback saved to Notion <${
+        (response as any).url
+      }|here>
     `;
-    await sendSlackMessage(message, slack_channel, slack_thread_ts);
-  }
+      await sendSlackMessage(message, slack_channel, slack_thread_ts);
+    }
 
-  return response;
+    return response;
+  } catch (error) {
+    console.error("Error saving expert feedback to Notion:", error);
+    throw error;
+  }
 }
