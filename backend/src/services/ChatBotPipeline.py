@@ -86,7 +86,7 @@ class ChatBotPipeline:
         
         async for result in results:
             retrieved_info["eIds"].append(result["eIds"])
-            retrieved_info["text"].append(result["metadata"][1][:-1] + result["text"])
+            retrieved_info["text"].append(result["metadata"][1] + ': ' + result["text"])
             retrieved_info["metadata"].append(result["metadata"])
         self.reasoning_thread.append({"type": "search", "query": user_query, "results": retrieved_info})
         return retrieved_info
