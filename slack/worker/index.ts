@@ -159,7 +159,7 @@ export const handler: Handler = async (event) => {
     await sendSlackMessage(
       data.channel,
       data.ts,
-      "Unfortunately something went wrong ..."
+      `Unfortunately something went wrong ... ${error}`
     );
 
     // Handling errors (optional)
