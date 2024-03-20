@@ -3,12 +3,11 @@ import json
 import re
 
 
-# Obligationenrecht - SR-220-01012024-DE-newdownload.xml
-# "https://www.fedlex.admin.ch/filestore/fedlex.data.admin.ch/eli/cc/27/317_321_377/20240101/de/xml/fedlex-data-admin-ch-eli-cc-27-317_321_377-20240101-de-xml-3.xml"
+# Schweizerisches Zivilgesetzbuch - SR-210-01012024-DE.xml
+# "https://www.fedlex.admin.ch/filestore/fedlex.data.admin.ch/eli/cc/24/233_245_233/20240101/de/xml/fedlex-data-admin-ch-eli-cc-24-233_245_233-20240101-de-xml-15.xml "
 
-
-# SR220 - Obligationenrecht
-file = open("SR-220-01012024-DE.xml", encoding="utf8")
+# SR210 - Schweizerisches Zivilgesetzbuch
+file = open("SR-210-01012024-DE.xml", encoding="utf8")
 xml_data_de = file.read()
 file.close()
 
@@ -42,7 +41,7 @@ def get_element_clean_text(el):
     return ' '.join(texts)
 
 
-def process_paragraph_blocklist(lst, blocklist, article_lnk, article_title, section_titles):
+def process_paragraph_blocklist(lst, blocklist, article_lnk, article_title, section_titles, level_eid):
     if blocklist is None:
         return
 
@@ -53,7 +52,7 @@ def process_paragraph_blocklist(lst, blocklist, article_lnk, article_title, sect
         article_paragraph = list_intro.attrib["eId"]
         paragraph_txt = get_element_clean_text(list_intro)
         if paragraph_txt:
-            lst.append({'text': paragraph_txt, 'metadata': article_lnk + article_title + section_titles, '@eId': article_paragraph})
+            lst.append({'text': paragraph_txt, 'metadata': article_lnk + article_title + section_titles + [level_eid], '@eId': article_paragraph})
 
     # Process any list items (this allows to capture enumerated paragraphs), ex.: Art. 958 C
     if hasattr(blocklist, 'item'):
@@ -62,14 +61,14 @@ def process_paragraph_blocklist(lst, blocklist, article_lnk, article_title, sect
                 article_paragraph = item.attrib["eId"]
                 paragraph_txt = get_element_clean_text(item.p)
                 if paragraph_txt:
-                    lst.append({'text': paragraph_txt, 'metadata': article_lnk + article_title + section_titles, '@eId': article_paragraph})
+                    lst.append({'text': paragraph_txt, 'metadata': article_lnk + article_title + section_titles + [level_eid], '@eId': article_paragraph})
 
             # Handle blocklists nested within items
             if hasattr(item, 'blockList'):
-                process_paragraph_blocklist(lst, item.blockList, article_lnk, article_title, section_titles)
+                process_paragraph_blocklist(lst, item.blockList, article_lnk, article_title, section_titles, level_eid)
 
 
-def process_article(lst, article, section_titles):
+def process_article(lst, article, section_titles, level_eid):
     """
     Extract paragraphs from the different sections.
     Add paragraphs, metadata, and Id to a dictionary with the format:
@@ -95,17 +94,17 @@ def process_article(lst, article, section_titles):
             article_paragraph = paragraph.attrib['eId']
             paragraph_txt = get_element_clean_text(paragraph.content.p)
             if paragraph_txt:
-                lst.append({'text': paragraph_txt, 'metadata': article_url + article_title + section_titles, '@eId': article_paragraph})
+                lst.append({'text': paragraph_txt, 'metadata': article_url + article_title + section_titles + [level_eid], '@eId': article_paragraph})
 
         # When an article has blocklist within content, it will call the function process_paragraph_blocklist
         # This occurs where there are enumerated items within an article. Ex. Art. 24
         if hasattr(paragraph.content, 'blockList'):
-            process_paragraph_blocklist(lst, paragraph.content.blockList, article_url, article_title, section_titles)
+            process_paragraph_blocklist(lst, paragraph.content.blockList, article_url, article_title, section_titles, level_eid)
 
     return lst
 
 
-def process_sections(lst, sections, section_titles):
+def process_sections(lst, sections, section_titles, level_eid='N/A'):
     """Retrieve all the sections and call function find_article"""
     for section in sections:
         if hasattr(section, 'num') or not section.num:
@@ -113,14 +112,14 @@ def process_sections(lst, sections, section_titles):
             section_title = str(get_element_clean_text(section.num)).replace('\xa0', ' ').strip()
             if hasattr(section, 'heading'):
                 section_title += ' ' + str(' '.join([headingtext.text.strip() for headingtext in section.heading])).replace('\xa0', ' ').strip()
-            lst = find_articles(lst, section, section_titles + [section_title])
+            lst = find_articles(lst, section, section_titles + [section_title], level_eid)
         else:
-            lst = find_articles(lst, section, section_titles)
+            lst = find_articles(lst, section, section_titles, level_eid)
 
     return lst
 
 
-def find_articles(lst, parent, section_titles):
+def find_articles(lst, parent, section_titles, level_eid='N/A'):
     """Look for article tag to trigger the function process_article"""
     # Check parent
     if parent is None:
@@ -129,7 +128,7 @@ def find_articles(lst, parent, section_titles):
     # Find all articles that are children of this parent
     if hasattr(parent, 'article'):
         for article in parent.article:
-            lst = process_article(lst, article, section_titles)
+            lst = process_article(lst, article, section_titles, level_eid)
 
     # Find all sections of type part
     if hasattr(parent, 'part'):
@@ -146,7 +145,12 @@ def find_articles(lst, parent, section_titles):
 
     # Find all sections of type level
     if hasattr(parent, 'level'):
-        lst = process_sections(lst, parent.level, section_titles)
+        level_eid = parent.level.attrib['eId']
+        lst = process_sections(lst, parent.level, section_titles, level_eid)
+
+    # Find all sections of type book
+    if hasattr(parent, 'book'):
+        lst = process_sections(lst, parent.book, section_titles)
 
     return lst
 
@@ -161,24 +165,22 @@ lst_data_compiled_de = find_articles(lst_data_compiled_de, akn_doc_de.root.act.b
 # # create a new dict to group the data using the links as keys
 by_article = {}
 for elem in lst_data_compiled_de:
-    article_key = elem['metadata'][0]
-    if article_key not in by_article:
-        by_article[article_key] = {'text': elem['text'], 'metadata': elem['metadata'], '@eIds': [elem['@eId']]}
+    level_key = elem['metadata'][-1]
+    article_key = elem['metadata'][1]
+    new_key = level_key + article_key
+    print(new_key)
+    if new_key not in by_article:
+        by_article[new_key] = {'text': elem['text'], 'metadata': elem['metadata'], '@eIds': [elem['@eId']]}
     else:
-        by_article[article_key]['text'] += ' ' + elem['text']
-        by_article[article_key]['@eIds'].append(elem['@eId'])
+        by_article[new_key]['text'] += ' ' + elem['text']
+        by_article[new_key]['@eIds'].append(elem['@eId'])
+        print(by_article)
 
 # removing the article link as a key that was used to group the data so that he exported data in the json format has the same structure
 values_by_article = list(by_article.values())
 
-with open('obligationrecht.json', 'w', encoding='utf-8') as file:
+with open('schweizerisches_zivilgesetzbuch.json', 'w', encoding='utf-8') as file:
     json.dump(lst_data_compiled_de, file, indent=2, ensure_ascii=False)
 
-with open('obligationrecht_by_article.json', 'w', encoding='utf-8') as file:
+with open('schweizerisches_zivilgesetzbuch_by_article.json', 'w', encoding='utf-8') as file:
     json.dump(values_by_article, file, indent=2, ensure_ascii=False)
-
-
-
-
-
-

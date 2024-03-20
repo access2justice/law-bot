@@ -1,0 +1,2919 @@
+[
+  {
+    "text": "Das Gesetz ist, unter Vorbehalt der Artikel 2–4, anwendbar auf alle öffentlichen und privaten Betriebe.",
+    "metadata": [
+      "https://fedlex.admin.ch/eli/cc/1966/57_57_57/de#art_1",
+      "Art. 1",
+      "I. Geltungsbereich",
+      "Betrieblicher und persönlicher Geltungsbereich"
+    ],
+    "@eId": "lvl_I/lvl_u1"
+  },
+  {
+    "text": "Ein Betrieb im Sinne des Gesetzes liegt vor, wenn ein Arbeitgeber dauernd oder vorübergehend einen oder mehrere Arbeitnehmer beschäftigt, unabhängig davon, ob bestimmte Einrichtungen oder Anlagen vorhanden sind. Wenn die Voraussetzungen für die Anwendbarkeit des Gesetzes nur für einzelne Teile eines Betriebes gegeben sind, ist das Gesetz nur auf diese anwendbar.",
+    "metadata": [
+      "https://fedlex.admin.ch/eli/cc/1966/57_57_57/de#art_1",
+      "Art. 1",
+      "I. Geltungsbereich",
+      "Betrieblicher und persönlicher Geltungsbereich"
+    ],
+    "@eId": "lvl_I/lvl_u1"
+  },
+  {
+    "text": "Auf Arbeitnehmer, welche ein im Auslande gelegener Betrieb in der Schweiz beschäftigt, ist das Gesetz anwendbar, soweit dies nach den Umständen möglich ist.",
+    "metadata": [
+      "https://fedlex.admin.ch/eli/cc/1966/57_57_57/de#art_1",
+      "Art. 1",
+      "I. Geltungsbereich",
+      "Betrieblicher und persönlicher Geltungsbereich"
+    ],
+    "@eId": "lvl_I/lvl_u1"
+  },
+  {
+    "text": "Das Gesetz ist, unter Vorbehalt von Artikel 3 a , nicht anwendbar:",
+    "metadata": [
+      "https://fedlex.admin.ch/eli/cc/1966/57_57_57/de#art_2",
+      "Art. 2",
+      "I. Geltungsbereich",
+      "Ausnahmen vom betrieblichen Geltungsbereich"
+    ],
+    "@eId": "lvl_I/lvl_u1"
+  },
+  {
+    "text": "auf Verwaltungen des Bundes, der Kantone und Gemeinden, unter Vorbehalt von Absatz 2;",
+    "metadata": [
+      "https://fedlex.admin.ch/eli/cc/1966/57_57_57/de#art_2",
+      "Art. 2",
+      "I. Geltungsbereich",
+      "Ausnahmen vom betrieblichen Geltungsbereich"
+    ],
+    "@eId": "lvl_I/lvl_u1"
+  },
+  {
+    "text": "auf Betriebe oder Teile von Betrieben, die der Bundesgesetzgebung über die Arbeit in Unternehmen des öffentlichen Verkehrs unterstehen;",
+    "metadata": [
+      "https://fedlex.admin.ch/eli/cc/1966/57_57_57/de#art_2",
+      "Art. 2",
+      "I. Geltungsbereich",
+      "Ausnahmen vom betrieblichen Geltungsbereich"
+    ],
+    "@eId": "lvl_I/lvl_u1"
+  },
+  {
+    "text": "auf Betriebe, die der Bundesgesetzgebung über die Seeschifffahrt unter der Schweizerflagge unterstehen;",
+    "metadata": [
+      "https://fedlex.admin.ch/eli/cc/1966/57_57_57/de#art_2",
+      "Art. 2",
+      "I. Geltungsbereich",
+      "Ausnahmen vom betrieblichen Geltungsbereich"
+    ],
+    "@eId": "lvl_I/lvl_u1"
+  },
+  {
+    "text": "auf Betriebe der landwirtschaftlichen Urproduktion, mit Einschluss von Nebenbetrieben, in denen überwiegend die Erzeugnisse des Hauptbetriebes verarbeitet oder verwertet werden, sowie auf örtliche Milchsammelstellen und die damit verbundenen Milchverarbeitungsbetriebe;",
+    "metadata": [
+      "https://fedlex.admin.ch/eli/cc/1966/57_57_57/de#art_2",
+      "Art. 2",
+      "I. Geltungsbereich",
+      "Ausnahmen vom betrieblichen Geltungsbereich"
+    ],
+    "@eId": "lvl_I/lvl_u1"
+  },
+  {
+    "text": "auf Betriebe mit überwiegend gärtnerischer Pflanzenproduktion, unter Vorbehalt von Absatz 3;",
+    "metadata": [
+      "https://fedlex.admin.ch/eli/cc/1966/57_57_57/de#art_2",
+      "Art. 2",
+      "I. Geltungsbereich",
+      "Ausnahmen vom betrieblichen Geltungsbereich"
+    ],
+    "@eId": "lvl_I/lvl_u1"
+  },
+  {
+    "text": "auf Fischereibetriebe;",
+    "metadata": [
+      "https://fedlex.admin.ch/eli/cc/1966/57_57_57/de#art_2",
+      "Art. 2",
+      "I. Geltungsbereich",
+      "Ausnahmen vom betrieblichen Geltungsbereich"
+    ],
+    "@eId": "lvl_I/lvl_u1"
+  },
+  {
+    "text": "auf private Haushaltungen.",
+    "metadata": [
+      "https://fedlex.admin.ch/eli/cc/1966/57_57_57/de#art_2",
+      "Art. 2",
+      "I. Geltungsbereich",
+      "Ausnahmen vom betrieblichen Geltungsbereich"
+    ],
+    "@eId": "lvl_I/lvl_u1"
+  },
+  {
+    "text": "Die öffentlichen Anstalten, die den Verwaltungen des Bundes, der Kantone und der Gemeinden gleichzustellen sind, sowie die Betriebe des Bundes, der Kantone und der Gemeinden, auf die das Gesetz anwendbar ist, werden durch Verordnung bezeichnet.",
+    "metadata": [
+      "https://fedlex.admin.ch/eli/cc/1966/57_57_57/de#art_2",
+      "Art. 2",
+      "I. Geltungsbereich",
+      "Ausnahmen vom betrieblichen Geltungsbereich"
+    ],
+    "@eId": "lvl_I/lvl_u1"
+  },
+  {
+    "text": "Auf Betriebe mit überwiegend gärtnerischer Pflanzenproduktion, die Lehrlinge ausbilden, können einzelne Bestimmungen des Gesetzes durch Verordnung anwendbar erklärt werden, soweit dies zum Schutze der Lehrlinge erforderlich ist.",
+    "metadata": [
+      "https://fedlex.admin.ch/eli/cc/1966/57_57_57/de#art_2",
+      "Art. 2",
+      "I. Geltungsbereich",
+      "Ausnahmen vom betrieblichen Geltungsbereich"
+    ],
+    "@eId": "lvl_I/lvl_u1"
+  },
+  {
+    "text": "Die Bestimmungen des Gesetzes und seiner Verordnungen über das Mindestalter sind anwendbar auf Betriebe im Sinne von Absatz 1 Buchstaben d–g.",
+    "metadata": [
+      "https://fedlex.admin.ch/eli/cc/1966/57_57_57/de#art_2",
+      "Art. 2",
+      "I. Geltungsbereich",
+      "Ausnahmen vom betrieblichen Geltungsbereich"
+    ],
+    "@eId": "lvl_I/lvl_u1"
+  },
+  {
+    "text": "Das Gesetz ist, unter Vorbehalt von Artikel 3 a , ferner nicht anwendbar:",
+    "metadata": [
+      "https://fedlex.admin.ch/eli/cc/1966/57_57_57/de#art_3",
+      "Art. 3",
+      "I. Geltungsbereich",
+      "Ausnahmen vom persönlichen Geltungsbereich"
+    ],
+    "@eId": "lvl_I/lvl_u1"
+  },
+  {
+    "text": "auf Personen geistlichen Standes und andere Personen, die im Dienste von Kirchen stehen, sowie auf Angehörige von Ordens- und Mutterhäusern oder anderer religiöser Gemeinschaften;",
+    "metadata": [
+      "https://fedlex.admin.ch/eli/cc/1966/57_57_57/de#art_3",
+      "Art. 3",
+      "I. Geltungsbereich",
+      "Ausnahmen vom persönlichen Geltungsbereich"
+    ],
+    "@eId": "lvl_I/lvl_u1"
+  },
+  {
+    "text": "auf das in der Schweiz wohnhafte Personal öffentlicher Verwaltungen ausländischer Staaten oder internationaler Organisationen;",
+    "metadata": [
+      "https://fedlex.admin.ch/eli/cc/1966/57_57_57/de#art_3",
+      "Art. 3",
+      "I. Geltungsbereich",
+      "Ausnahmen vom persönlichen Geltungsbereich"
+    ],
+    "@eId": "lvl_I/lvl_u1"
+  },
+  {
+    "text": "auf die Besatzungen von schweizerischen Flugbetriebsunternehmen;",
+    "metadata": [
+      "https://fedlex.admin.ch/eli/cc/1966/57_57_57/de#art_3",
+      "Art. 3",
+      "I. Geltungsbereich",
+      "Ausnahmen vom persönlichen Geltungsbereich"
+    ],
+    "@eId": "lvl_I/lvl_u1"
+  },
+  {
+    "text": "auf Arbeitnehmer, die eine höhere leitende Tätigkeit oder eine wissenschaftliche oder selbständige künstlerische Tätigkeit ausüben;",
+    "metadata": [
+      "https://fedlex.admin.ch/eli/cc/1966/57_57_57/de#art_3",
+      "Art. 3",
+      "I. Geltungsbereich",
+      "Ausnahmen vom persönlichen Geltungsbereich"
+    ],
+    "@eId": "lvl_I/lvl_u1"
+  },
+  {
+    "text": "auf Lehrer an Privatschulen sowie auf Lehrer, Fürsorger, Erzieher und Aufseher in Anstalten;",
+    "metadata": [
+      "https://fedlex.admin.ch/eli/cc/1966/57_57_57/de#art_3",
+      "Art. 3",
+      "I. Geltungsbereich",
+      "Ausnahmen vom persönlichen Geltungsbereich"
+    ],
+    "@eId": "lvl_I/lvl_u1"
+  },
+  {
+    "text": "auf Heimarbeitnehmer;",
+    "metadata": [
+      "https://fedlex.admin.ch/eli/cc/1966/57_57_57/de#art_3",
+      "Art. 3",
+      "I. Geltungsbereich",
+      "Ausnahmen vom persönlichen Geltungsbereich"
+    ],
+    "@eId": "lvl_I/lvl_u1"
+  },
+  {
+    "text": "auf Handelsreisende im Sinne der Bundesgesetzgebung;",
+    "metadata": [
+      "https://fedlex.admin.ch/eli/cc/1966/57_57_57/de#art_3",
+      "Art. 3",
+      "I. Geltungsbereich",
+      "Ausnahmen vom persönlichen Geltungsbereich"
+    ],
+    "@eId": "lvl_I/lvl_u1"
+  },
+  {
+    "text": "auf Arbeitnehmer, die dem Abkommen vom 21. Mai 1954 über die Arbeitsbedingungen der Rheinschiffer unterstehen.",
+    "metadata": [
+      "https://fedlex.admin.ch/eli/cc/1966/57_57_57/de#art_3",
+      "Art. 3",
+      "I. Geltungsbereich",
+      "Ausnahmen vom persönlichen Geltungsbereich"
+    ],
+    "@eId": "lvl_I/lvl_u1"
+  },
+  {
+    "text": "Die Vorschriften dieses Gesetzes über den Gesundheitsschutz (Art. 6, 35 und 36 a ) sind jedoch anwendbar:",
+    "metadata": [
+      "https://fedlex.admin.ch/eli/cc/1966/57_57_57/de#art_3_a",
+      "Art. 3 a None",
+      "I. Geltungsbereich",
+      "Vorschriften über den Gesundheitsschutz"
+    ],
+    "@eId": "lvl_I/lvl_u1"
+  },
+  {
+    "text": "auf die Verwaltungen des Bundes, der Kantone und Gemeinden;",
+    "metadata": [
+      "https://fedlex.admin.ch/eli/cc/1966/57_57_57/de#art_3_a",
+      "Art. 3 a None",
+      "I. Geltungsbereich",
+      "Vorschriften über den Gesundheitsschutz"
+    ],
+    "@eId": "lvl_I/lvl_u1"
+  },
+  {
+    "text": "auf Arbeitnehmer, die eine höhere leitende Tätigkeit oder eine wissenschaftliche oder selbstständige künstlerische Tätigkeit ausüben;",
+    "metadata": [
+      "https://fedlex.admin.ch/eli/cc/1966/57_57_57/de#art_3_a",
+      "Art. 3 a None",
+      "I. Geltungsbereich",
+      "Vorschriften über den Gesundheitsschutz"
+    ],
+    "@eId": "lvl_I/lvl_u1"
+  },
+  {
+    "text": "auf Lehrer an Privatschulen sowie Lehrer, Fürsorger, Erzieher und Aufseher in Anstalten.",
+    "metadata": [
+      "https://fedlex.admin.ch/eli/cc/1966/57_57_57/de#art_3_a",
+      "Art. 3 a None",
+      "I. Geltungsbereich",
+      "Vorschriften über den Gesundheitsschutz"
+    ],
+    "@eId": "lvl_I/lvl_u1"
+  },
+  {
+    "text": "Das Gesetz ist nicht anwendbar auf Betriebe, in denen lediglich der Ehegatte, die eingetragene Partnerin oder der eingetragene Partner des Betriebsinhabers, seine Verwandten in auf- und absteigender Linie und deren Ehegatten, eingetragene Partnerinnen oder Partner sowie seine Stiefkinder tätig sind.",
+    "metadata": [
+      "https://fedlex.admin.ch/eli/cc/1966/57_57_57/de#art_4",
+      "Art. 4",
+      "I. Geltungsbereich",
+      "Familienbetriebe"
+    ],
+    "@eId": "lvl_I/lvl_u1"
+  },
+  {
+    "text": "Sind im Betrieb auch andere als die in Absatz 1 erwähnten Personen tätig, so ist das Gesetz nur auf diese anwendbar.",
+    "metadata": [
+      "https://fedlex.admin.ch/eli/cc/1966/57_57_57/de#art_4",
+      "Art. 4",
+      "I. Geltungsbereich",
+      "Familienbetriebe"
+    ],
+    "@eId": "lvl_I/lvl_u1"
+  },
+  {
+    "text": "Auf jugendliche Familienglieder im Sinne von Absatz 1 können einzelne Vorschriften des Gesetzes durch Verordnung anwendbar erklärt werden, soweit dies zum Schutze von Leben und Gesundheit der Jugendlichen oder zur Wahrung der Sittlichkeit erforderlich ist.",
+    "metadata": [
+      "https://fedlex.admin.ch/eli/cc/1966/57_57_57/de#art_4",
+      "Art. 4",
+      "I. Geltungsbereich",
+      "Familienbetriebe"
+    ],
+    "@eId": "lvl_I/lvl_u1"
+  },
+  {
+    "text": "Die besonderen Vorschriften des Gesetzes für industrielle Betriebe sind auf den einzelnen Betrieb oder auf einzelne Betriebsteile nur anwendbar aufgrund einer Unterstellungsverfügung der kantonalen Behörde.",
+    "metadata": [
+      "https://fedlex.admin.ch/eli/cc/1966/57_57_57/de#art_5",
+      "Art. 5",
+      "I. Geltungsbereich",
+      "Sondervorschriften für industrielle Betriebe"
+    ],
+    "@eId": "lvl_I/lvl_u1"
+  },
+  {
+    "text": "Als industrielle Betriebe im Sinne des Gesetzes gelten Betriebe mit fester Anlage von dauerndem Charakter für die Herstellung, Verarbeitung oder Behandlung von Gütern oder für die Erzeugung, Umwandlung oder Übertragung von Energie, sofern",
+    "metadata": [
+      "https://fedlex.admin.ch/eli/cc/1966/57_57_57/de#art_5",
+      "Art. 5",
+      "I. Geltungsbereich",
+      "Sondervorschriften für industrielle Betriebe"
+    ],
+    "@eId": "lvl_I/lvl_u1"
+  },
+  {
+    "text": "die Arbeitsweise oder die Arbeitsorganisation durch Maschinen oder andere technische Einrichtungen oder durch serienmässige Verrichtungen bestimmt werden und für die Herstellung, Verarbeitung oder Behandlung von Gütern oder für die Erzeugung, Umwandlung oder Übertragung von Energie wenigstens sechs Arbeitnehmer beschäftigt werden, oder",
+    "metadata": [
+      "https://fedlex.admin.ch/eli/cc/1966/57_57_57/de#art_5",
+      "Art. 5",
+      "I. Geltungsbereich",
+      "Sondervorschriften für industrielle Betriebe"
+    ],
+    "@eId": "lvl_I/lvl_u1"
+  },
+  {
+    "text": "die Arbeitsweise oder die Arbeitsorganisation wesentlich durch automatisierte Verfahren bestimmt werden, oder",
+    "metadata": [
+      "https://fedlex.admin.ch/eli/cc/1966/57_57_57/de#art_5",
+      "Art. 5",
+      "I. Geltungsbereich",
+      "Sondervorschriften für industrielle Betriebe"
+    ],
+    "@eId": "lvl_I/lvl_u1"
+  },
+  {
+    "text": "Leben oder Gesundheit der Arbeitnehmer besonderen Gefahren ausgesetzt sind.",
+    "metadata": [
+      "https://fedlex.admin.ch/eli/cc/1966/57_57_57/de#art_5",
+      "Art. 5",
+      "I. Geltungsbereich",
+      "Sondervorschriften für industrielle Betriebe"
+    ],
+    "@eId": "lvl_I/lvl_u1"
+  },
+  {
+    "text": "Der Arbeitgeber ist verpflichtet, zum Schutze der Gesundheit der Arbeitnehmer alle Massnahmen zu treffen, die nach der Erfahrung notwendig, nach dem Stand der Technik anwendbar und den Verhältnissen des Betriebes angemessen sind. Er hat im Weiteren die erforderlichen Massnahmen zum Schutze der persönlichen Integrität der Arbeitnehmer vorzusehen.",
+    "metadata": [
+      "https://fedlex.admin.ch/eli/cc/1966/57_57_57/de#art_6",
+      "Art. 6 None",
+      "II. Gesundheitsschutz und Plangenehmigung",
+      "Pflichten der Arbeitgeber und Arbeitnehmer"
+    ],
+    "@eId": "lvl_II/lvl_u1"
+  },
+  {
+    "text": "Der Arbeitgeber hat insbesondere die betrieblichen Einrichtungen und den Arbeitsablauf so zu gestalten, dass Gesundheitsgefährdungen und Überbeanspruchungen der Arbeitnehmer nach Möglichkeit vermieden werden.",
+    "metadata": [
+      "https://fedlex.admin.ch/eli/cc/1966/57_57_57/de#art_6",
+      "Art. 6 None",
+      "II. Gesundheitsschutz und Plangenehmigung",
+      "Pflichten der Arbeitgeber und Arbeitnehmer"
+    ],
+    "@eId": "lvl_II/lvl_u1"
+  },
+  {
+    "text": "Der Arbeitgeber hat dafür zu sorgen, dass der Arbeitnehmer in Ausübung seiner beruflichen Tätigkeit keinen Alkohol oder andere berauschende Mittel konsumieren muss. Der Bundesrat regelt die Ausnahmen.",
+    "metadata": [
+      "https://fedlex.admin.ch/eli/cc/1966/57_57_57/de#art_6",
+      "Art. 6 None",
+      "II. Gesundheitsschutz und Plangenehmigung",
+      "Pflichten der Arbeitgeber und Arbeitnehmer"
+    ],
+    "@eId": "lvl_II/lvl_u1"
+  },
+  {
+    "text": "Für den Gesundheitsschutz hat der Arbeitgeber die Arbeitnehmer zur Mitwirkung heranzuziehen. Diese sind verpflichtet, den Arbeitgeber in der Durchführung der Vorschriften über den Gesundheitsschutz zu unterstützen.",
+    "metadata": [
+      "https://fedlex.admin.ch/eli/cc/1966/57_57_57/de#art_6",
+      "Art. 6 None",
+      "II. Gesundheitsschutz und Plangenehmigung",
+      "Pflichten der Arbeitgeber und Arbeitnehmer"
+    ],
+    "@eId": "lvl_II/lvl_u1"
+  },
+  {
+    "text": "Durch Verordnung wird bestimmt, welche Massnahmen für den Gesundheitsschutz in den Betrieben zu treffen sind.",
+    "metadata": [
+      "https://fedlex.admin.ch/eli/cc/1966/57_57_57/de#art_6",
+      "Art. 6 None",
+      "II. Gesundheitsschutz und Plangenehmigung",
+      "Pflichten der Arbeitgeber und Arbeitnehmer"
+    ],
+    "@eId": "lvl_II/lvl_u1"
+  },
+  {
+    "text": "Wer einen industriellen Betrieb errichten oder umgestalten will, muss bei der kantonalen Behörde um die Genehmigung der geplanten Anlage nachsuchen. Diese holt den Bericht der Schweizerischen Unfallversicherungsanstalt ein. Die im Bericht ausdrücklich als Weisungen bezeichneten Anträge werden von der kantonalen Behörde als Auflagen in die Plangenehmigung aufgenommen.",
+    "metadata": [
+      "https://fedlex.admin.ch/eli/cc/1966/57_57_57/de#art_7",
+      "Art. 7 None",
+      "II. Gesundheitsschutz und Plangenehmigung",
+      "Plangenehmigung und Betriebsbewilligung"
+    ],
+    "@eId": "lvl_II/lvl_u1"
+  },
+  {
+    "text": "Entspricht die geplante Anlage den Vorschriften, so genehmigt die kantonale Behörde die Pläne, nötigenfalls mit der Auflage, dass besondere Schutzmassnahmen zu treffen sind.",
+    "metadata": [
+      "https://fedlex.admin.ch/eli/cc/1966/57_57_57/de#art_7",
+      "Art. 7 None",
+      "II. Gesundheitsschutz und Plangenehmigung",
+      "Plangenehmigung und Betriebsbewilligung"
+    ],
+    "@eId": "lvl_II/lvl_u1"
+  },
+  {
+    "text": "Vor der Aufnahme der betrieblichen Tätigkeit muss der Arbeitgeber bei der kantonalen Behörde um die Betriebsbewilligung nachsuchen. Die kantonale Behörde erteilt die Betriebsbewilligung, wenn Bau und Einrichtungen des Betriebes der Plangenehmigung entsprechen.",
+    "metadata": [
+      "https://fedlex.admin.ch/eli/cc/1966/57_57_57/de#art_7",
+      "Art. 7 None",
+      "II. Gesundheitsschutz und Plangenehmigung",
+      "Plangenehmigung und Betriebsbewilligung"
+    ],
+    "@eId": "lvl_II/lvl_u1"
+  },
+  {
+    "text": "Ist für die Errichtung oder Umgestaltung eines Betriebs die Genehmigung einer Bundesbehörde erforderlich, so erteilt diese auch die Plangenehmigung im Verfahren nach Absatz 1. Auf Berichte und Mitberichte sind die Artikel 62 a und 62 b des Regierungs- und Verwaltungsorganisationsgesetzes vom 21. März 1997 anwendbar.",
+    "metadata": [
+      "https://fedlex.admin.ch/eli/cc/1966/57_57_57/de#art_7",
+      "Art. 7 None",
+      "II. Gesundheitsschutz und Plangenehmigung",
+      "Plangenehmigung und Betriebsbewilligung"
+    ],
+    "@eId": "lvl_II/lvl_u1"
+  },
+  {
+    "text": "Der Bundesrat kann Artikel 7 auf nichtindustrielle Betriebe mit erheblichen Betriebsgefahren anwendbar erklären. Die einzelnen Betriebsarten werden durch Verordnung bestimmt.",
+    "metadata": [
+      "https://fedlex.admin.ch/eli/cc/1966/57_57_57/de#art_8",
+      "Art. 8 None",
+      "II. Gesundheitsschutz und Plangenehmigung",
+      "Nichtindustrielle Betriebe"
+    ],
+    "@eId": "lvl_II/lvl_u1"
+  },
+  {
+    "text": "Die wöchentliche Höchstarbeitszeit beträgt:",
+    "metadata": [
+      "https://fedlex.admin.ch/eli/cc/1966/57_57_57/de#art_9",
+      "Art. 9",
+      "III. Arbeits- und Ruhezeit",
+      "1. Arbeitszeit",
+      "Wöchentliche Höchstarbeitszeit"
+    ],
+    "@eId": "lvl_III/lvl_1/lvl_u1"
+  },
+  {
+    "text": "45 Stunden für Arbeitnehmer in industriellen Betrieben sowie für Büropersonal, technische und andere Angestellte, mit Einschluss des Verkaufspersonals in Grossbetrieben des Detailhandels;",
+    "metadata": [
+      "https://fedlex.admin.ch/eli/cc/1966/57_57_57/de#art_9",
+      "Art. 9",
+      "III. Arbeits- und Ruhezeit",
+      "1. Arbeitszeit",
+      "Wöchentliche Höchstarbeitszeit"
+    ],
+    "@eId": "lvl_III/lvl_1/lvl_u1"
+  },
+  {
+    "text": "50 Stunden für alle übrigen Arbeitnehmer.",
+    "metadata": [
+      "https://fedlex.admin.ch/eli/cc/1966/57_57_57/de#art_9",
+      "Art. 9",
+      "III. Arbeits- und Ruhezeit",
+      "1. Arbeitszeit",
+      "Wöchentliche Höchstarbeitszeit"
+    ],
+    "@eId": "lvl_III/lvl_1/lvl_u1"
+  },
+  {
+    "text": "…",
+    "metadata": [
+      "https://fedlex.admin.ch/eli/cc/1966/57_57_57/de#art_9",
+      "Art. 9",
+      "III. Arbeits- und Ruhezeit",
+      "1. Arbeitszeit",
+      "Wöchentliche Höchstarbeitszeit"
+    ],
+    "@eId": "lvl_III/lvl_1/lvl_u1"
+  },
+  {
+    "text": "Für bestimmte Gruppen von Betrieben oder Arbeitnehmern kann die wöchentliche Höchstarbeitszeit durch Verordnung zeitweise um höchstens vier Stunden verlängert werden, sofern sie im Jahresdurchschnitt nicht überschritten wird.",
+    "metadata": [
+      "https://fedlex.admin.ch/eli/cc/1966/57_57_57/de#art_9",
+      "Art. 9",
+      "III. Arbeits- und Ruhezeit",
+      "1. Arbeitszeit",
+      "Wöchentliche Höchstarbeitszeit"
+    ],
+    "@eId": "lvl_III/lvl_1/lvl_u1"
+  },
+  {
+    "text": "Eine Verlängerung der wöchentlichen Höchstarbeitszeit um höchstens vier Stunden kann vom Staatssekretariat für Wirtschaft (SECO) für bestimmte Gruppen von Betrieben oder Arbeitnehmern oder für bestimmte Betriebe bewilligt werden, sofern und solange zwingende Gründe dies rechtfertigen.",
+    "metadata": [
+      "https://fedlex.admin.ch/eli/cc/1966/57_57_57/de#art_9",
+      "Art. 9",
+      "III. Arbeits- und Ruhezeit",
+      "1. Arbeitszeit",
+      "Wöchentliche Höchstarbeitszeit"
+    ],
+    "@eId": "lvl_III/lvl_1/lvl_u1"
+  },
+  {
+    "text": "Auf Büropersonal, technische und andere Angestellte, mit Einschluss des Verkaufspersonals in Grossbetrieben des Detailhandels, die im gleichen Betrieb oder Betriebsteil zusammen mit Arbeitnehmern beschäftigt werden, für die eine längere wöchentliche Höchstarbeitszeit gilt, ist diese ebenfalls anwendbar.",
+    "metadata": [
+      "https://fedlex.admin.ch/eli/cc/1966/57_57_57/de#art_9",
+      "Art. 9",
+      "III. Arbeits- und Ruhezeit",
+      "1. Arbeitszeit",
+      "Wöchentliche Höchstarbeitszeit"
+    ],
+    "@eId": "lvl_III/lvl_1/lvl_u1"
+  },
+  {
+    "text": "Die Arbeit von 6 Uhr bis 20 Uhr gilt als Tagesarbeit, die Arbeit von 20 Uhr bis 23 Uhr ist Abendarbeit. Tages- und Abendarbeit sind bewilligungsfrei. Abendarbeit kann vom Arbeitgeber nach Anhörung der Arbeitnehmervertretung im Betrieb oder, wo eine solche nicht besteht, der betroffenen Arbeitnehmer eingeführt werden.",
+    "metadata": [
+      "https://fedlex.admin.ch/eli/cc/1966/57_57_57/de#art_10",
+      "Art. 10 None",
+      "III. Arbeits- und Ruhezeit",
+      "1. Arbeitszeit",
+      "Tages- und Abendarbeit"
+    ],
+    "@eId": "lvl_III/lvl_1/lvl_u1"
+  },
+  {
+    "text": "Beginn und Ende der betrieblichen Tages- und Abendarbeit können zwischen 5 Uhr und 24 Uhr anders festgelegt werden, wenn die Arbeitnehmervertretung im Betrieb oder, wo eine solche nicht besteht, die Mehrheit der betroffenen Arbeitnehmer dem zustimmt. Die betriebliche Tages- und Abendarbeit beträgt auch in diesem Falle höchstens 17 Stunden.",
+    "metadata": [
+      "https://fedlex.admin.ch/eli/cc/1966/57_57_57/de#art_10",
+      "Art. 10 None",
+      "III. Arbeits- und Ruhezeit",
+      "1. Arbeitszeit",
+      "Tages- und Abendarbeit"
+    ],
+    "@eId": "lvl_III/lvl_1/lvl_u1"
+  },
+  {
+    "text": "Die Tages- und Abendarbeit des einzelnen Arbeitnehmers muss mit Einschluss der Pausen und der Überzeit innerhalb von 14 Stunden liegen.",
+    "metadata": [
+      "https://fedlex.admin.ch/eli/cc/1966/57_57_57/de#art_10",
+      "Art. 10 None",
+      "III. Arbeits- und Ruhezeit",
+      "1. Arbeitszeit",
+      "Tages- und Abendarbeit"
+    ],
+    "@eId": "lvl_III/lvl_1/lvl_u1"
+  },
+  {
+    "text": "Wird die Arbeit wegen Betriebsstörungen, wegen Betriebsferien, zwischen arbeitsfreien Tagen oder unter ähnlichen Umständen für verhältnismässig kurze Zeit ausgesetzt oder werden einem Arbeitnehmer auf seinen Wunsch arbeitsfreie Tage eingeräumt, so darf der Arbeitgeber innert eines angemessenen Zeitraumes einen entsprechenden Ausgleich in Abweichung von der wöchentlichen Höchstarbeitszeit anordnen. Der Ausgleich für den einzelnen Arbeitnehmer darf, mit Einschluss von Überzeitarbeit, zwei Stunden im Tag nicht überschreiten, ausser an arbeitsfreien Tagen oder Halbtagen.",
+    "metadata": [
+      "https://fedlex.admin.ch/eli/cc/1966/57_57_57/de#art_11",
+      "Art. 11",
+      "III. Arbeits- und Ruhezeit",
+      "1. Arbeitszeit",
+      "Ausgleich ausfallender Arbeitszeit"
+    ],
+    "@eId": "lvl_III/lvl_1/lvl_u1"
+  },
+  {
+    "text": "Die wöchentliche Höchstarbeitszeit darf ausnahmsweise überschritten werden",
+    "metadata": [
+      "https://fedlex.admin.ch/eli/cc/1966/57_57_57/de#art_12",
+      "Art. 12",
+      "III. Arbeits- und Ruhezeit",
+      "1. Arbeitszeit",
+      "Voraussetzungen und Dauer der Überzeitarbeit"
+    ],
+    "@eId": "lvl_III/lvl_1/lvl_u1"
+  },
+  {
+    "text": "wegen Dringlichkeit der Arbeit oder ausserordentlichen Arbeitsandranges;",
+    "metadata": [
+      "https://fedlex.admin.ch/eli/cc/1966/57_57_57/de#art_12",
+      "Art. 12",
+      "III. Arbeits- und Ruhezeit",
+      "1. Arbeitszeit",
+      "Voraussetzungen und Dauer der Überzeitarbeit"
+    ],
+    "@eId": "lvl_III/lvl_1/lvl_u1"
+  },
+  {
+    "text": "für Inventaraufnahmen, Rechnungsabschlüsse und Liquidationsarbeiten;",
+    "metadata": [
+      "https://fedlex.admin.ch/eli/cc/1966/57_57_57/de#art_12",
+      "Art. 12",
+      "III. Arbeits- und Ruhezeit",
+      "1. Arbeitszeit",
+      "Voraussetzungen und Dauer der Überzeitarbeit"
+    ],
+    "@eId": "lvl_III/lvl_1/lvl_u1"
+  },
+  {
+    "text": "zur Vermeidung oder Beseitigung von Betriebsstörungen, soweit dem Arbeitgeber nicht andere Vorkehren zugemutet werden können.",
+    "metadata": [
+      "https://fedlex.admin.ch/eli/cc/1966/57_57_57/de#art_12",
+      "Art. 12",
+      "III. Arbeits- und Ruhezeit",
+      "1. Arbeitszeit",
+      "Voraussetzungen und Dauer der Überzeitarbeit"
+    ],
+    "@eId": "lvl_III/lvl_1/lvl_u1"
+  },
+  {
+    "text": "Die Überzeit darf für den einzelnen Arbeitnehmer zwei Stunden im Tag nicht überschreiten, ausser an arbeitsfreien Werktagen oder in Notfällen, und im Kalenderjahr insgesamt nicht mehr betragen als:",
+    "metadata": [
+      "https://fedlex.admin.ch/eli/cc/1966/57_57_57/de#art_12",
+      "Art. 12",
+      "III. Arbeits- und Ruhezeit",
+      "1. Arbeitszeit",
+      "Voraussetzungen und Dauer der Überzeitarbeit"
+    ],
+    "@eId": "lvl_III/lvl_1/lvl_u1"
+  },
+  {
+    "text": "170 Stunden für Arbeitnehmer mit einer wöchentlichen Höchstarbeitszeit von 45 Stunden;",
+    "metadata": [
+      "https://fedlex.admin.ch/eli/cc/1966/57_57_57/de#art_12",
+      "Art. 12",
+      "III. Arbeits- und Ruhezeit",
+      "1. Arbeitszeit",
+      "Voraussetzungen und Dauer der Überzeitarbeit"
+    ],
+    "@eId": "lvl_III/lvl_1/lvl_u1"
+  },
+  {
+    "text": "140 Stunden für Arbeitnehmer mit einer wöchentlichen Höchstarbeitszeit von 50 Stunden.",
+    "metadata": [
+      "https://fedlex.admin.ch/eli/cc/1966/57_57_57/de#art_12",
+      "Art. 12",
+      "III. Arbeits- und Ruhezeit",
+      "1. Arbeitszeit",
+      "Voraussetzungen und Dauer der Überzeitarbeit"
+    ],
+    "@eId": "lvl_III/lvl_1/lvl_u1"
+  },
+  {
+    "text": "…",
+    "metadata": [
+      "https://fedlex.admin.ch/eli/cc/1966/57_57_57/de#art_12",
+      "Art. 12",
+      "III. Arbeits- und Ruhezeit",
+      "1. Arbeitszeit",
+      "Voraussetzungen und Dauer der Überzeitarbeit"
+    ],
+    "@eId": "lvl_III/lvl_1/lvl_u1"
+  },
+  {
+    "text": "Der Arbeitgeber hat den Arbeitnehmern für die Überzeitarbeit einen Lohnzuschlag von wenigstens 25 Prozent auszurichten, dem Büropersonal sowie den technischen und andern Angestellten, mit Einschluss des Verkaufspersonals in Grossbetrieben des Detailhandels, jedoch nur für Überzeitarbeit, die 60 Stunden im Kalenderjahr übersteigt.",
+    "metadata": [
+      "https://fedlex.admin.ch/eli/cc/1966/57_57_57/de#art_13",
+      "Art. 13",
+      "III. Arbeits- und Ruhezeit",
+      "1. Arbeitszeit",
+      "Lohnzuschlag für Überzeitarbeit"
+    ],
+    "@eId": "lvl_III/lvl_1/lvl_u1"
+  },
+  {
+    "text": "Wird Überzeitarbeit im Einverständnis mit dem einzelnen Arbeitnehmer innert eines angemessenen Zeitraums durch Freizeit von gleicher Dauer ausgeglichen, so ist kein Zuschlag auszurichten.",
+    "metadata": [
+      "https://fedlex.admin.ch/eli/cc/1966/57_57_57/de#art_13",
+      "Art. 13",
+      "III. Arbeits- und Ruhezeit",
+      "1. Arbeitszeit",
+      "Lohnzuschlag für Überzeitarbeit"
+    ],
+    "@eId": "lvl_III/lvl_1/lvl_u1"
+  },
+  {
+    "text": "Die Arbeit ist durch Pausen von folgender Mindestdauer zu unterbrechen:",
+    "metadata": [
+      "https://fedlex.admin.ch/eli/cc/1966/57_57_57/de#art_15",
+      "Art. 15",
+      "III. Arbeits- und Ruhezeit",
+      "2. Ruhezeit",
+      "Pausen"
+    ],
+    "@eId": "lvl_III/lvl_2/lvl_u1"
+  },
+  {
+    "text": "eine Viertelstunde bei einer täglichen Arbeitszeit von mehr als fünfeinhalb Stunden;",
+    "metadata": [
+      "https://fedlex.admin.ch/eli/cc/1966/57_57_57/de#art_15",
+      "Art. 15",
+      "III. Arbeits- und Ruhezeit",
+      "2. Ruhezeit",
+      "Pausen"
+    ],
+    "@eId": "lvl_III/lvl_2/lvl_u1"
+  },
+  {
+    "text": "eine halbe Stunde bei einer täglichen Arbeitszeit von mehr als sieben Stunden;",
+    "metadata": [
+      "https://fedlex.admin.ch/eli/cc/1966/57_57_57/de#art_15",
+      "Art. 15",
+      "III. Arbeits- und Ruhezeit",
+      "2. Ruhezeit",
+      "Pausen"
+    ],
+    "@eId": "lvl_III/lvl_2/lvl_u1"
+  },
+  {
+    "text": "eine Stunde bei einer täglichen Arbeitszeit von mehr als neun Stunden.",
+    "metadata": [
+      "https://fedlex.admin.ch/eli/cc/1966/57_57_57/de#art_15",
+      "Art. 15",
+      "III. Arbeits- und Ruhezeit",
+      "2. Ruhezeit",
+      "Pausen"
+    ],
+    "@eId": "lvl_III/lvl_2/lvl_u1"
+  },
+  {
+    "text": "Die Pausen gelten als Arbeitszeit, wenn die Arbeitnehmer ihren Arbeitsplatz nicht verlassen dürfen.",
+    "metadata": [
+      "https://fedlex.admin.ch/eli/cc/1966/57_57_57/de#art_15",
+      "Art. 15",
+      "III. Arbeits- und Ruhezeit",
+      "2. Ruhezeit",
+      "Pausen"
+    ],
+    "@eId": "lvl_III/lvl_2/lvl_u1"
+  },
+  {
+    "text": "Den Arbeitnehmern ist eine tägliche Ruhezeit von mindestens elf aufeinander folgenden Stunden zu gewähren.",
+    "metadata": [
+      "https://fedlex.admin.ch/eli/cc/1966/57_57_57/de#art_15_a",
+      "Art. 15 a None",
+      "III. Arbeits- und Ruhezeit",
+      "2. Ruhezeit",
+      "Tägliche Ruhezeit"
+    ],
+    "@eId": "lvl_III/lvl_2/lvl_u1"
+  },
+  {
+    "text": "Die Ruhezeit kann für erwachsene Arbeitnehmer einmal in der Woche bis auf acht Stunden herabgesetzt werden, sofern die Dauer von elf Stunden im Durchschnitt von zwei Wochen eingehalten wird.",
+    "metadata": [
+      "https://fedlex.admin.ch/eli/cc/1966/57_57_57/de#art_15_a",
+      "Art. 15 a None",
+      "III. Arbeits- und Ruhezeit",
+      "2. Ruhezeit",
+      "Tägliche Ruhezeit"
+    ],
+    "@eId": "lvl_III/lvl_2/lvl_u1"
+  },
+  {
+    "text": "Die Beschäftigung von Arbeitnehmern ausserhalb der betrieblichen Tages- und Abendarbeit nach Artikel 10 (Nachtarbeit) ist untersagt. Vorbehalten bleibt Artikel 17.",
+    "metadata": [
+      "https://fedlex.admin.ch/eli/cc/1966/57_57_57/de#art_16",
+      "Art. 16 None",
+      "III. Arbeits- und Ruhezeit",
+      "2. Ruhezeit",
+      "Verbot der Nachtarbeit"
+    ],
+    "@eId": "lvl_III/lvl_2/lvl_u1"
+  },
+  {
+    "text": "Ausnahmen vom Verbot der Nachtarbeit bedürfen der Bewilligung.",
+    "metadata": [
+      "https://fedlex.admin.ch/eli/cc/1966/57_57_57/de#art_17",
+      "Art. 17 None",
+      "III. Arbeits- und Ruhezeit",
+      "2. Ruhezeit",
+      "Ausnahmen vom Verbot der Nachtarbeit"
+    ],
+    "@eId": "lvl_III/lvl_2/lvl_u1"
+  },
+  {
+    "text": "Dauernde oder regelmässig wiederkehrende Nachtarbeit wird bewilligt, sofern sie aus technischen oder wirtschaftlichen Gründen unentbehrlich ist.",
+    "metadata": [
+      "https://fedlex.admin.ch/eli/cc/1966/57_57_57/de#art_17",
+      "Art. 17 None",
+      "III. Arbeits- und Ruhezeit",
+      "2. Ruhezeit",
+      "Ausnahmen vom Verbot der Nachtarbeit"
+    ],
+    "@eId": "lvl_III/lvl_2/lvl_u1"
+  },
+  {
+    "text": "Vorübergehende Nachtarbeit wird bewilligt, sofern ein dringendes Bedürfnis nachgewiesen wird.",
+    "metadata": [
+      "https://fedlex.admin.ch/eli/cc/1966/57_57_57/de#art_17",
+      "Art. 17 None",
+      "III. Arbeits- und Ruhezeit",
+      "2. Ruhezeit",
+      "Ausnahmen vom Verbot der Nachtarbeit"
+    ],
+    "@eId": "lvl_III/lvl_2/lvl_u1"
+  },
+  {
+    "text": "Nachtarbeit zwischen 5 Uhr und 6 Uhr sowie zwischen 23 Uhr und 24 Uhr wird bewilligt, sofern ein dringendes Bedürfnis nachgewiesen wird.",
+    "metadata": [
+      "https://fedlex.admin.ch/eli/cc/1966/57_57_57/de#art_17",
+      "Art. 17 None",
+      "III. Arbeits- und Ruhezeit",
+      "2. Ruhezeit",
+      "Ausnahmen vom Verbot der Nachtarbeit"
+    ],
+    "@eId": "lvl_III/lvl_2/lvl_u1"
+  },
+  {
+    "text": "Dauernde oder regelmässig wiederkehrende Nachtarbeit wird vom SECO, vorübergehende Nachtarbeit von der kantonalen Behörde bewilligt.",
+    "metadata": [
+      "https://fedlex.admin.ch/eli/cc/1966/57_57_57/de#art_17",
+      "Art. 17 None",
+      "III. Arbeits- und Ruhezeit",
+      "2. Ruhezeit",
+      "Ausnahmen vom Verbot der Nachtarbeit"
+    ],
+    "@eId": "lvl_III/lvl_2/lvl_u1"
+  },
+  {
+    "text": "Der Arbeitgeber darf den Arbeitnehmer ohne dessen Einverständnis nicht zu Nachtarbeit heranziehen.",
+    "metadata": [
+      "https://fedlex.admin.ch/eli/cc/1966/57_57_57/de#art_17",
+      "Art. 17 None",
+      "III. Arbeits- und Ruhezeit",
+      "2. Ruhezeit",
+      "Ausnahmen vom Verbot der Nachtarbeit"
+    ],
+    "@eId": "lvl_III/lvl_2/lvl_u1"
+  },
+  {
+    "text": "Bei Nachtarbeit darf die tägliche Arbeitszeit für den einzelnen Arbeitnehmer neun Stunden nicht überschreiten; sie muss, mit Einschluss der Pausen, innerhalb eines Zeitraumes von zehn Stunden liegen.",
+    "metadata": [
+      "https://fedlex.admin.ch/eli/cc/1966/57_57_57/de#art_17_a",
+      "Art. 17 a None",
+      "III. Arbeits- und Ruhezeit",
+      "2. Ruhezeit",
+      "Dauer der Nachtarbeit"
+    ],
+    "@eId": "lvl_III/lvl_2/lvl_u1"
+  },
+  {
+    "text": "Wird der Arbeitnehmer in höchstens drei von sieben aufeinander folgenden Nächten beschäftigt, so darf die tägliche Arbeitszeit unter den Voraussetzungen, welche durch Verordnung festzulegen sind, zehn Stunden betragen; sie muss aber, mit Einschluss der Pausen, innerhalb eines Zeitraumes von zwölf Stunden liegen.",
+    "metadata": [
+      "https://fedlex.admin.ch/eli/cc/1966/57_57_57/de#art_17_a",
+      "Art. 17 a None",
+      "III. Arbeits- und Ruhezeit",
+      "2. Ruhezeit",
+      "Dauer der Nachtarbeit"
+    ],
+    "@eId": "lvl_III/lvl_2/lvl_u1"
+  },
+  {
+    "text": "Dem Arbeitnehmer, der nur vorübergehend Nachtarbeit verrichtet, hat der Arbeitgeber einen Lohnzuschlag von mindestens 25 Prozent zu bezahlen.",
+    "metadata": [
+      "https://fedlex.admin.ch/eli/cc/1966/57_57_57/de#art_17_b",
+      "Art. 17 b None",
+      "III. Arbeits- und Ruhezeit",
+      "2. Ruhezeit",
+      "Lohn- und Zeitzuschlag"
+    ],
+    "@eId": "lvl_III/lvl_2/lvl_u1"
+  },
+  {
+    "text": "Arbeitnehmer, die dauernd oder regelmässig wiederkehrend Nachtarbeit leisten, haben Anspruch auf eine Kompensation von 10 Prozent der Zeit, während der sie Nachtarbeit geleistet haben. Die Ausgleichsruhezeit ist innerhalb eines Jahres zu gewähren. Für Arbeitnehmer, die regelmässig abends oder morgens höchstens eine Randstunde in der Nachtzeit arbeiten, kann der Ausgleich auch als Lohnzuschlag gewährt werden.",
+    "metadata": [
+      "https://fedlex.admin.ch/eli/cc/1966/57_57_57/de#art_17_b",
+      "Art. 17 b None",
+      "III. Arbeits- und Ruhezeit",
+      "2. Ruhezeit",
+      "Lohn- und Zeitzuschlag"
+    ],
+    "@eId": "lvl_III/lvl_2/lvl_u1"
+  },
+  {
+    "text": "4 Ausgleichsregelungen nach Absatz 3 Buchstabe c sind dem SECO zur Beurteilung vorzulegen; dieses stellt die Gleichwertigkeit mit der gesetzlichen Ausgleichsruhezeit nach Absatz 2 fest.",
+    "metadata": [
+      "https://fedlex.admin.ch/eli/cc/1966/57_57_57/de#art_17_b",
+      "Art. 17 b None",
+      "III. Arbeits- und Ruhezeit",
+      "2. Ruhezeit",
+      "Lohn- und Zeitzuschlag"
+    ],
+    "@eId": "lvl_III/lvl_2/lvl_u1"
+  },
+  {
+    "text": "Die Ausgleichsruhezeit gemäss Absatz 2 ist nicht zu gewähren, wenn:",
+    "metadata": [
+      "https://fedlex.admin.ch/eli/cc/1966/57_57_57/de#art_17_b",
+      "Art. 17 b None",
+      "III. Arbeits- und Ruhezeit",
+      "2. Ruhezeit",
+      "Lohn- und Zeitzuschlag"
+    ],
+    "@eId": "lvl_III/lvl_2/lvl_u1"
+  },
+  {
+    "text": "die durchschnittliche betriebliche Schichtdauer einschliesslich der Pausen sieben Stunden nicht überschreitet, oder",
+    "metadata": [
+      "https://fedlex.admin.ch/eli/cc/1966/57_57_57/de#art_17_b",
+      "Art. 17 b None",
+      "III. Arbeits- und Ruhezeit",
+      "2. Ruhezeit",
+      "Lohn- und Zeitzuschlag"
+    ],
+    "@eId": "lvl_III/lvl_2/lvl_u1"
+  },
+  {
+    "text": "die Person, die Nachtarbeit leistet, nur in vier Nächten pro Woche (Vier-Tage-Woche) beschäftigt wird, oder",
+    "metadata": [
+      "https://fedlex.admin.ch/eli/cc/1966/57_57_57/de#art_17_b",
+      "Art. 17 b None",
+      "III. Arbeits- und Ruhezeit",
+      "2. Ruhezeit",
+      "Lohn- und Zeitzuschlag"
+    ],
+    "@eId": "lvl_III/lvl_2/lvl_u1"
+  },
+  {
+    "text": "den Arbeitnehmern durch Gesamtarbeitsvertrag oder die analoge Anwendung öffentlich-rechtlicher Vorschriften andere gleichwertige Ausgleichsruhezeiten innerhalb eines Jahres gewährt werden.",
+    "metadata": [
+      "https://fedlex.admin.ch/eli/cc/1966/57_57_57/de#art_17_b",
+      "Art. 17 b None",
+      "III. Arbeits- und Ruhezeit",
+      "2. Ruhezeit",
+      "Lohn- und Zeitzuschlag"
+    ],
+    "@eId": "lvl_III/lvl_2/lvl_u1"
+  },
+  {
+    "text": "Der Arbeitnehmer, der über längere Zeit Nachtarbeit verrichtet, hat Anspruch auf eine Untersuchung seines Gesundheitszustandes sowie darauf, sich beraten zu lassen, wie die mit seiner Arbeit verbundenen Gesundheitsprobleme vermindert oder vermieden werden können.",
+    "metadata": [
+      "https://fedlex.admin.ch/eli/cc/1966/57_57_57/de#art_17_c",
+      "Art. 17 c None",
+      "III. Arbeits- und Ruhezeit",
+      "2. Ruhezeit",
+      "Medizinische Untersuchung und Beratung"
+    ],
+    "@eId": "lvl_III/lvl_2/lvl_u1"
+  },
+  {
+    "text": "Die Einzelheiten werden durch Verordnung geregelt. Für bestimmte Gruppen von Arbeitnehmern kann die medizinische Untersuchung obligatorisch erklärt werden.",
+    "metadata": [
+      "https://fedlex.admin.ch/eli/cc/1966/57_57_57/de#art_17_c",
+      "Art. 17 c None",
+      "III. Arbeits- und Ruhezeit",
+      "2. Ruhezeit",
+      "Medizinische Untersuchung und Beratung"
+    ],
+    "@eId": "lvl_III/lvl_2/lvl_u1"
+  },
+  {
+    "text": "Die Kosten der medizinischen Untersuchung und der Beratung trägt der Arbeitgeber, soweit nicht die Krankenkasse oder ein anderer Versicherer des Arbeitnehmers dafür aufkommt.",
+    "metadata": [
+      "https://fedlex.admin.ch/eli/cc/1966/57_57_57/de#art_17_c",
+      "Art. 17 c None",
+      "III. Arbeits- und Ruhezeit",
+      "2. Ruhezeit",
+      "Medizinische Untersuchung und Beratung"
+    ],
+    "@eId": "lvl_III/lvl_2/lvl_u1"
+  },
+  {
+    "text": "Der Arbeitgeber hat den Arbeitnehmer, der aus gesundheitlichen Gründen zur Nachtarbeit untauglich erklärt wird, nach Möglichkeit zu einer ähnlichen Tagesarbeit zu versetzen, zu der er tauglich ist.",
+    "metadata": [
+      "https://fedlex.admin.ch/eli/cc/1966/57_57_57/de#art_17_d",
+      "Art. 17 d None",
+      "III. Arbeits- und Ruhezeit",
+      "2. Ruhezeit",
+      "Untauglichkeit zur Nachtarbeit"
+    ],
+    "@eId": "lvl_III/lvl_2/lvl_u1"
+  },
+  {
+    "text": "Soweit nach den Umständen erforderlich ist der Arbeitgeber, der regelmässig Arbeitnehmer in der Nacht beschäftigt, verpflichtet, weitere geeignete Massnahmen zum Schutz der Arbeitnehmer vorzusehen, namentlich im Hinblick auf die Sicherheit des Arbeitsweges, die Organisation des Transportes, die Ruhegelegenheiten und Verpflegungsmöglichkeiten sowie die Kinderbetreuung.",
+    "metadata": [
+      "https://fedlex.admin.ch/eli/cc/1966/57_57_57/de#art_17_e",
+      "Art. 17 e None",
+      "III. Arbeits- und Ruhezeit",
+      "2. Ruhezeit",
+      "Weitere Massnahmen bei Nachtarbeit"
+    ],
+    "@eId": "lvl_III/lvl_2/lvl_u1"
+  },
+  {
+    "text": "Die Bewilligungsbehörden können die Arbeitszeitbewilligungen mit entsprechenden Auflagen verbinden.",
+    "metadata": [
+      "https://fedlex.admin.ch/eli/cc/1966/57_57_57/de#art_17_e",
+      "Art. 17 e None",
+      "III. Arbeits- und Ruhezeit",
+      "2. Ruhezeit",
+      "Weitere Massnahmen bei Nachtarbeit"
+    ],
+    "@eId": "lvl_III/lvl_2/lvl_u1"
+  },
+  {
+    "text": "In der Zeit zwischen Samstag 23 Uhr und Sonntag 23 Uhr ist die Beschäftigung von Arbeitnehmern untersagt. Vorbehalten bleibt Artikel 19.",
+    "metadata": [
+      "https://fedlex.admin.ch/eli/cc/1966/57_57_57/de#art_18",
+      "Art. 18 None",
+      "III. Arbeits- und Ruhezeit",
+      "2. Ruhezeit",
+      "Verbot der Sonntagsarbeit"
+    ],
+    "@eId": "lvl_III/lvl_2/lvl_u1"
+  },
+  {
+    "text": "Der in Absatz 1 festgelegte Zeitraum von 24 Stunden kann um höchstens eine Stunde vorgezogen oder verschoben werden, wenn die Arbeitnehmervertretung im Betrieb oder, wo eine solche nicht besteht, die Mehrheit der betroffenen Arbeitnehmer dem zustimmt.",
+    "metadata": [
+      "https://fedlex.admin.ch/eli/cc/1966/57_57_57/de#art_18",
+      "Art. 18 None",
+      "III. Arbeits- und Ruhezeit",
+      "2. Ruhezeit",
+      "Verbot der Sonntagsarbeit"
+    ],
+    "@eId": "lvl_III/lvl_2/lvl_u1"
+  },
+  {
+    "text": "Ausnahmen vom Verbot der Sonntagsarbeit bedürfen der Bewilligung.",
+    "metadata": [
+      "https://fedlex.admin.ch/eli/cc/1966/57_57_57/de#art_19",
+      "Art. 19 None",
+      "III. Arbeits- und Ruhezeit",
+      "2. Ruhezeit",
+      "Ausnahmen vom Verbot der Sonntagsarbeit"
+    ],
+    "@eId": "lvl_III/lvl_2/lvl_u1"
+  },
+  {
+    "text": "Dauernde oder regelmässig wiederkehrende Sonntagsarbeit wird bewilligt, sofern sie aus technischen oder wirtschaftlichen Gründen unentbehrlich ist.",
+    "metadata": [
+      "https://fedlex.admin.ch/eli/cc/1966/57_57_57/de#art_19",
+      "Art. 19 None",
+      "III. Arbeits- und Ruhezeit",
+      "2. Ruhezeit",
+      "Ausnahmen vom Verbot der Sonntagsarbeit"
+    ],
+    "@eId": "lvl_III/lvl_2/lvl_u1"
+  },
+  {
+    "text": "Vorübergehende Sonntagsarbeit wird bewilligt, sofern ein dringendes Bedürfnis nachgewiesen wird. Dem Arbeitnehmer ist ein Lohnzuschlag von 50 Prozent zu bezahlen.",
+    "metadata": [
+      "https://fedlex.admin.ch/eli/cc/1966/57_57_57/de#art_19",
+      "Art. 19 None",
+      "III. Arbeits- und Ruhezeit",
+      "2. Ruhezeit",
+      "Ausnahmen vom Verbot der Sonntagsarbeit"
+    ],
+    "@eId": "lvl_III/lvl_2/lvl_u1"
+  },
+  {
+    "text": "Dauernde oder regelmässig wiederkehrende Sonntagsarbeit wird vom SECO, vorübergehende Sonntagsarbeit von der kantonalen Behörde bewilligt.",
+    "metadata": [
+      "https://fedlex.admin.ch/eli/cc/1966/57_57_57/de#art_19",
+      "Art. 19 None",
+      "III. Arbeits- und Ruhezeit",
+      "2. Ruhezeit",
+      "Ausnahmen vom Verbot der Sonntagsarbeit"
+    ],
+    "@eId": "lvl_III/lvl_2/lvl_u1"
+  },
+  {
+    "text": "Der Arbeitgeber darf den Arbeitnehmer ohne dessen Einverständnis nicht zu Sonntagsarbeit heranziehen.",
+    "metadata": [
+      "https://fedlex.admin.ch/eli/cc/1966/57_57_57/de#art_19",
+      "Art. 19 None",
+      "III. Arbeits- und Ruhezeit",
+      "2. Ruhezeit",
+      "Ausnahmen vom Verbot der Sonntagsarbeit"
+    ],
+    "@eId": "lvl_III/lvl_2/lvl_u1"
+  },
+  {
+    "text": "Die Kantone können höchstens vier Sonntage pro Jahr bezeichnen, an denen Arbeitnehmer in Verkaufsgeschäften ohne Bewilligung beschäftigt werden dürfen.",
+    "metadata": [
+      "https://fedlex.admin.ch/eli/cc/1966/57_57_57/de#art_19",
+      "Art. 19 None",
+      "III. Arbeits- und Ruhezeit",
+      "2. Ruhezeit",
+      "Ausnahmen vom Verbot der Sonntagsarbeit"
+    ],
+    "@eId": "lvl_III/lvl_2/lvl_u1"
+  },
+  {
+    "text": "Innert zweier Wochen muss wenigstens einmal ein ganzer Sonntag als wöchentlicher Ruhetag unmittelbar vor oder nach der täglichen Ruhezeit freigegeben werden. Vorbehalten bleibt Artikel 24.",
+    "metadata": [
+      "https://fedlex.admin.ch/eli/cc/1966/57_57_57/de#art_20",
+      "Art. 20 None",
+      "III. Arbeits- und Ruhezeit",
+      "2. Ruhezeit",
+      "Freier Sonntag und Ersatzruhe"
+    ],
+    "@eId": "lvl_III/lvl_2/lvl_u1"
+  },
+  {
+    "text": "Sonntagsarbeit von einer Dauer bis zu fünf Stunden ist durch Freizeit auszugleichen. Dauert sie länger als fünf Stunden, so ist während der vorhergehenden oder der nachfolgenden Woche im Anschluss an die tägliche Ruhezeit ein auf einen Arbeitstag fallender Ersatzruhetag von mindestens 24 aufeinander folgenden Stunden zu gewähren.",
+    "metadata": [
+      "https://fedlex.admin.ch/eli/cc/1966/57_57_57/de#art_20",
+      "Art. 20 None",
+      "III. Arbeits- und Ruhezeit",
+      "2. Ruhezeit",
+      "Freier Sonntag und Ersatzruhe"
+    ],
+    "@eId": "lvl_III/lvl_2/lvl_u1"
+  },
+  {
+    "text": "Der Arbeitgeber darf die Arbeitnehmer während der Ersatzruhe vorübergehend zur Arbeit heranziehen, soweit dies notwendig ist, um dem Verderb von Gütern vorzubeugen oder um Betriebsstörungen zu vermeiden oder zu beseitigen; doch ist die Ersatzruhe spätestens in der folgenden Woche zu gewähren.",
+    "metadata": [
+      "https://fedlex.admin.ch/eli/cc/1966/57_57_57/de#art_20",
+      "Art. 20 None",
+      "III. Arbeits- und Ruhezeit",
+      "2. Ruhezeit",
+      "Freier Sonntag und Ersatzruhe"
+    ],
+    "@eId": "lvl_III/lvl_2/lvl_u1"
+  },
+  {
+    "text": "Der Bundesfeiertag ist den Sonntagen gleichgestellt. Die Kantone können höchstens acht weitere Feiertage im Jahr den Sonntagen gleichstellen und sie nach Kantonsteilen verschieden ansetzen.",
+    "metadata": [
+      "https://fedlex.admin.ch/eli/cc/1966/57_57_57/de#art_20_a",
+      "Art. 20 a None",
+      "III. Arbeits- und Ruhezeit",
+      "2. Ruhezeit",
+      "Feiertage und religiöse Feiern"
+    ],
+    "@eId": "lvl_III/lvl_2/lvl_u1"
+  },
+  {
+    "text": "Der Arbeitnehmer ist berechtigt, an andern als den von den Kantonen anerkannten religiösen Feiertagen die Arbeit auszusetzen. Er hat jedoch sein Vorhaben dem Arbeitgeber spätestens drei Tage im Voraus anzuzeigen. Artikel 11 ist anwendbar.",
+    "metadata": [
+      "https://fedlex.admin.ch/eli/cc/1966/57_57_57/de#art_20_a",
+      "Art. 20 a None",
+      "III. Arbeits- und Ruhezeit",
+      "2. Ruhezeit",
+      "Feiertage und religiöse Feiern"
+    ],
+    "@eId": "lvl_III/lvl_2/lvl_u1"
+  },
+  {
+    "text": "Für den Besuch von religiösen Feiern muss der Arbeitgeber dem Arbeitnehmer auf dessen Wunsch die erforderliche Zeit nach Möglichkeit freigeben.",
+    "metadata": [
+      "https://fedlex.admin.ch/eli/cc/1966/57_57_57/de#art_20_a",
+      "Art. 20 a None",
+      "III. Arbeits- und Ruhezeit",
+      "2. Ruhezeit",
+      "Feiertage und religiöse Feiern"
+    ],
+    "@eId": "lvl_III/lvl_2/lvl_u1"
+  },
+  {
+    "text": "Wird die wöchentliche Arbeitszeit auf mehr als fünf Tage verteilt, so ist den Arbeitnehmern jede Woche ein freier Halbtag zu gewähren, mit Ausnahme der Wochen, in die ein arbeitsfreier Tag fällt.",
+    "metadata": [
+      "https://fedlex.admin.ch/eli/cc/1966/57_57_57/de#art_21",
+      "Art. 21",
+      "III. Arbeits- und Ruhezeit",
+      "2. Ruhezeit",
+      "Wöchentlicher freier Halbtag"
+    ],
+    "@eId": "lvl_III/lvl_2/lvl_u1"
+  },
+  {
+    "text": "Der Arbeitgeber darf im Einverständnis mit dem Arbeitnehmer die wöchentlichen freien Halbtage für höchstens vier Wochen zusammenhängend gewähren; die wöchentliche Höchstarbeitszeit ist im Durchschnitt einzuhalten.",
+    "metadata": [
+      "https://fedlex.admin.ch/eli/cc/1966/57_57_57/de#art_21",
+      "Art. 21",
+      "III. Arbeits- und Ruhezeit",
+      "2. Ruhezeit",
+      "Wöchentlicher freier Halbtag"
+    ],
+    "@eId": "lvl_III/lvl_2/lvl_u1"
+  },
+  {
+    "text": "Artikel 20 Absatz 3 ist sinngemäss anwendbar.",
+    "metadata": [
+      "https://fedlex.admin.ch/eli/cc/1966/57_57_57/de#art_21",
+      "Art. 21",
+      "III. Arbeits- und Ruhezeit",
+      "2. Ruhezeit",
+      "Wöchentlicher freier Halbtag"
+    ],
+    "@eId": "lvl_III/lvl_2/lvl_u1"
+  },
+  {
+    "text": "Soweit das Gesetz Ruhezeiten vorschreibt, dürfen diese nicht durch Geldleistungen oder andere Vergünstigungen abgegolten werden, ausser bei Beendigung des Arbeitsverhältnisses.",
+    "metadata": [
+      "https://fedlex.admin.ch/eli/cc/1966/57_57_57/de#art_22",
+      "Art. 22 None",
+      "III. Arbeits- und Ruhezeit",
+      "2. Ruhezeit",
+      "Verbot der Abgeltung der Ruhezeit"
+    ],
+    "@eId": "lvl_III/lvl_2/lvl_u1"
+  },
+  {
+    "text": "Der ununterbrochene Betrieb bedarf der Bewilligung.",
+    "metadata": [
+      "https://fedlex.admin.ch/eli/cc/1966/57_57_57/de#art_24",
+      "Art. 24 None",
+      "III. Arbeits- und Ruhezeit",
+      "3. Ununterbrochener Betrieb",
+      "Ununterbrochener Betrieb"
+    ],
+    "@eId": "lvl_III/lvl_3/lvl_u2"
+  },
+  {
+    "text": "Dauernder oder wiederkehrender ununterbrochener Betrieb wird bewilligt, sofern er aus technischen oder wirtschaftlichen Gründen unentbehrlich ist.",
+    "metadata": [
+      "https://fedlex.admin.ch/eli/cc/1966/57_57_57/de#art_24",
+      "Art. 24 None",
+      "III. Arbeits- und Ruhezeit",
+      "3. Ununterbrochener Betrieb",
+      "Ununterbrochener Betrieb"
+    ],
+    "@eId": "lvl_III/lvl_3/lvl_u2"
+  },
+  {
+    "text": "Vorübergehender ununterbrochener Betrieb wird bewilligt, sofern ein dringendes Bedürfnis nachgewiesen wird.",
+    "metadata": [
+      "https://fedlex.admin.ch/eli/cc/1966/57_57_57/de#art_24",
+      "Art. 24 None",
+      "III. Arbeits- und Ruhezeit",
+      "3. Ununterbrochener Betrieb",
+      "Ununterbrochener Betrieb"
+    ],
+    "@eId": "lvl_III/lvl_3/lvl_u2"
+  },
+  {
+    "text": "Dauernder oder wiederkehrender ununterbrochener Betrieb wird vom SECO, vorübergehender ununterbrochener Betrieb von der kantonalen Behörde bewilligt.",
+    "metadata": [
+      "https://fedlex.admin.ch/eli/cc/1966/57_57_57/de#art_24",
+      "Art. 24 None",
+      "III. Arbeits- und Ruhezeit",
+      "3. Ununterbrochener Betrieb",
+      "Ununterbrochener Betrieb"
+    ],
+    "@eId": "lvl_III/lvl_3/lvl_u2"
+  },
+  {
+    "text": "Durch Verordnung wird bestimmt, unter welchen zusätzlichen Voraussetzungen und wie weit bei ununterbrochenem Betrieb die tägliche und wöchentliche Höchstarbeitszeit verlängert und die Ruhezeit anders verteilt werden kann. Dabei darf in der Regel die wöchentliche Höchstarbeitszeit im Durchschnitt von 16 Wochen nicht überschritten werden.",
+    "metadata": [
+      "https://fedlex.admin.ch/eli/cc/1966/57_57_57/de#art_24",
+      "Art. 24 None",
+      "III. Arbeits- und Ruhezeit",
+      "3. Ununterbrochener Betrieb",
+      "Ununterbrochener Betrieb"
+    ],
+    "@eId": "lvl_III/lvl_3/lvl_u2"
+  },
+  {
+    "text": "Im Übrigen sind auf den ununterbrochenen Betrieb die Vorschriften über die Nacht- und Sonntagsarbeit anwendbar.",
+    "metadata": [
+      "https://fedlex.admin.ch/eli/cc/1966/57_57_57/de#art_24",
+      "Art. 24 None",
+      "III. Arbeits- und Ruhezeit",
+      "3. Ununterbrochener Betrieb",
+      "Ununterbrochener Betrieb"
+    ],
+    "@eId": "lvl_III/lvl_3/lvl_u2"
+  },
+  {
+    "text": "Die Arbeitszeit ist so einzuteilen, dass der einzelne Arbeitnehmer nicht länger als während sechs aufeinander folgenden Wochen die gleiche Schicht zu leisten hat.",
+    "metadata": [
+      "https://fedlex.admin.ch/eli/cc/1966/57_57_57/de#art_25",
+      "Art. 25 None",
+      "III. Arbeits- und Ruhezeit",
+      "4. Weitere Vorschriften",
+      "Schichtenwechsel"
+    ],
+    "@eId": "lvl_III/lvl_4/lvl_u1"
+  },
+  {
+    "text": "Bei zweischichtiger Arbeit am Tag und am Abend muss der Arbeitnehmer an beiden Schichten und bei Nachtarbeit an der Tages- und Nachtarbeit gleichmässig Anteil haben.",
+    "metadata": [
+      "https://fedlex.admin.ch/eli/cc/1966/57_57_57/de#art_25",
+      "Art. 25 None",
+      "III. Arbeits- und Ruhezeit",
+      "4. Weitere Vorschriften",
+      "Schichtenwechsel"
+    ],
+    "@eId": "lvl_III/lvl_4/lvl_u1"
+  },
+  {
+    "text": "Wenn die betroffenen Arbeitnehmer einverstanden sind und die durch Verordnung festzulegenden Bedingungen und Auflagen eingehalten werden, kann die Dauer von sechs Wochen verlängert, oder aber es kann auf den Wechsel ganz verzichtet werden.",
+    "metadata": [
+      "https://fedlex.admin.ch/eli/cc/1966/57_57_57/de#art_25",
+      "Art. 25 None",
+      "III. Arbeits- und Ruhezeit",
+      "4. Weitere Vorschriften",
+      "Schichtenwechsel"
+    ],
+    "@eId": "lvl_III/lvl_4/lvl_u1"
+  },
+  {
+    "text": "Über die Überzeit-, Nacht- und Sonntagsarbeit sowie über die Schichtarbeit und den ununterbrochenen Betrieb können zum Schutze der Arbeitnehmer durch Verordnung im Rahmen der wöchentlichen Höchstarbeitszeit weitere Bestimmungen aufgestellt werden.",
+    "metadata": [
+      "https://fedlex.admin.ch/eli/cc/1966/57_57_57/de#art_26",
+      "Art. 26",
+      "III. Arbeits- und Ruhezeit",
+      "4. Weitere Vorschriften",
+      "Weitere Schutzbestimmungen"
+    ],
+    "@eId": "lvl_III/lvl_4/lvl_u1"
+  },
+  {
+    "text": "Die wöchentliche Höchstarbeitszeit kann für bestimmte Gruppen von Betrieben oder Arbeitnehmern durch Verordnung verkürzt werden, soweit dies zum Schutze der Gesundheit der Arbeitnehmer erforderlich ist.",
+    "metadata": [
+      "https://fedlex.admin.ch/eli/cc/1966/57_57_57/de#art_26",
+      "Art. 26",
+      "III. Arbeits- und Ruhezeit",
+      "4. Weitere Vorschriften",
+      "Weitere Schutzbestimmungen"
+    ],
+    "@eId": "lvl_III/lvl_4/lvl_u1"
+  },
+  {
+    "text": "Bestimmte Gruppen von Betrieben oder Arbeitnehmern können durch Verordnung ganz oder teilweise von den Vorschriften der Artikel 9–17 a , 17 b Absatz 1, 18–20, 21, 24, 25, 31 und 36 ausgenommen und entsprechenden Sonderbestimmungen unterstellt werden, soweit dies mit Rücksicht auf ihre besonderen Verhältnisse notwendig ist.",
+    "metadata": [
+      "https://fedlex.admin.ch/eli/cc/1966/57_57_57/de#art_27",
+      "Art. 27",
+      "III. Arbeits- und Ruhezeit",
+      "4. Weitere Vorschriften",
+      "Sonderbestimmungen für bestimmte Gruppen von Betrieben oder Arbeitnehmern"
+    ],
+    "@eId": "lvl_III/lvl_4/lvl_u1"
+  },
+  {
+    "text": "Insbesondere werden kleingewerbliche Betriebe, für die Nacht- und Sonntagsarbeit betriebsnotwendig ist, von der Bewilligungspflicht ausgenommen.",
+    "metadata": [
+      "https://fedlex.admin.ch/eli/cc/1966/57_57_57/de#art_27",
+      "Art. 27",
+      "III. Arbeits- und Ruhezeit",
+      "4. Weitere Vorschriften",
+      "Sonderbestimmungen für bestimmte Gruppen von Betrieben oder Arbeitnehmern"
+    ],
+    "@eId": "lvl_III/lvl_4/lvl_u1"
+  },
+  {
+    "text": "In Verkaufsstellen und Dienstleistungsbetrieben in Bahnhöfen, welche auf Grund des grossen Reiseverkehrs Zentren des öffentlichen Verkehrs sind, sowie in Flughäfen dürfen Arbeitnehmerinnen und Arbeitnehmer sonntags beschäftigt werden.",
+    "metadata": [
+      "https://fedlex.admin.ch/eli/cc/1966/57_57_57/de#art_27",
+      "Art. 27",
+      "III. Arbeits- und Ruhezeit",
+      "4. Weitere Vorschriften",
+      "Sonderbestimmungen für bestimmte Gruppen von Betrieben oder Arbeitnehmern"
+    ],
+    "@eId": "lvl_III/lvl_4/lvl_u1"
+  },
+  {
+    "text": "Auf Autobahnraststätten und an Hauptverkehrswegen mit starkem Reiseverkehr dürfen in Tankstellenshops, deren Waren- und Dienstleistungsangebot in erster Linie auf die Bedürfnisse der Reisenden ausgerichtet ist, Arbeitnehmerinnen und Arbeitnehmer sonntags und in der Nacht beschäftigt werden.",
+    "metadata": [
+      "https://fedlex.admin.ch/eli/cc/1966/57_57_57/de#art_27",
+      "Art. 27",
+      "III. Arbeits- und Ruhezeit",
+      "4. Weitere Vorschriften",
+      "Sonderbestimmungen für bestimmte Gruppen von Betrieben oder Arbeitnehmern"
+    ],
+    "@eId": "lvl_III/lvl_4/lvl_u1"
+  },
+  {
+    "text": "Solche Sonderbestimmungen können insbesondere erlassen werden",
+    "metadata": [
+      "https://fedlex.admin.ch/eli/cc/1966/57_57_57/de#art_27",
+      "Art. 27",
+      "III. Arbeits- und Ruhezeit",
+      "4. Weitere Vorschriften",
+      "Sonderbestimmungen für bestimmte Gruppen von Betrieben oder Arbeitnehmern"
+    ],
+    "@eId": "lvl_III/lvl_4/lvl_u1"
+  },
+  {
+    "text": "für Betriebe der Erziehung, des Unterrichts, der Fürsorge, der Krankenpflege, der ärztlichen Behandlung sowie für Apotheken;",
+    "metadata": [
+      "https://fedlex.admin.ch/eli/cc/1966/57_57_57/de#art_27",
+      "Art. 27",
+      "III. Arbeits- und Ruhezeit",
+      "4. Weitere Vorschriften",
+      "Sonderbestimmungen für bestimmte Gruppen von Betrieben oder Arbeitnehmern"
+    ],
+    "@eId": "lvl_III/lvl_4/lvl_u1"
+  },
+  {
+    "text": "für Betriebe der Beherbergung, der Bewirtung und der Unterhaltung sowie für Betriebe, die der Versorgung des Gastgewerbes bei besonderen Anlässen dienen;",
+    "metadata": [
+      "https://fedlex.admin.ch/eli/cc/1966/57_57_57/de#art_27",
+      "Art. 27",
+      "III. Arbeits- und Ruhezeit",
+      "4. Weitere Vorschriften",
+      "Sonderbestimmungen für bestimmte Gruppen von Betrieben oder Arbeitnehmern"
+    ],
+    "@eId": "lvl_III/lvl_4/lvl_u1"
+  },
+  {
+    "text": "für Betriebe, die den Bedürfnissen des Fremdenverkehrs oder der landwirtschaftlichen Bevölkerung dienen;",
+    "metadata": [
+      "https://fedlex.admin.ch/eli/cc/1966/57_57_57/de#art_27",
+      "Art. 27",
+      "III. Arbeits- und Ruhezeit",
+      "4. Weitere Vorschriften",
+      "Sonderbestimmungen für bestimmte Gruppen von Betrieben oder Arbeitnehmern"
+    ],
+    "@eId": "lvl_III/lvl_4/lvl_u1"
+  },
+  {
+    "text": "für Betriebe, die der Versorgung mit leicht verderblichen Gütern dienen;",
+    "metadata": [
+      "https://fedlex.admin.ch/eli/cc/1966/57_57_57/de#art_27",
+      "Art. 27",
+      "III. Arbeits- und Ruhezeit",
+      "4. Weitere Vorschriften",
+      "Sonderbestimmungen für bestimmte Gruppen von Betrieben oder Arbeitnehmern"
+    ],
+    "@eId": "lvl_III/lvl_4/lvl_u1"
+  },
+  {
+    "text": "für Betriebe, die der Verarbeitung landwirtschaftlicher Erzeugnisse dienen, sowie für Gartenbaubetriebe, die nicht unter Artikel 2 Absatz 1 Buchstabe e fallen;",
+    "metadata": [
+      "https://fedlex.admin.ch/eli/cc/1966/57_57_57/de#art_27",
+      "Art. 27",
+      "III. Arbeits- und Ruhezeit",
+      "4. Weitere Vorschriften",
+      "Sonderbestimmungen für bestimmte Gruppen von Betrieben oder Arbeitnehmern"
+    ],
+    "@eId": "lvl_III/lvl_4/lvl_u1"
+  },
+  {
+    "text": "für Forstbetriebe;",
+    "metadata": [
+      "https://fedlex.admin.ch/eli/cc/1966/57_57_57/de#art_27",
+      "Art. 27",
+      "III. Arbeits- und Ruhezeit",
+      "4. Weitere Vorschriften",
+      "Sonderbestimmungen für bestimmte Gruppen von Betrieben oder Arbeitnehmern"
+    ],
+    "@eId": "lvl_III/lvl_4/lvl_u1"
+  },
+  {
+    "text": "für Betriebe, die der Versorgung mit Elektrizität, Gas oder Wasser dienen;",
+    "metadata": [
+      "https://fedlex.admin.ch/eli/cc/1966/57_57_57/de#art_27",
+      "Art. 27",
+      "III. Arbeits- und Ruhezeit",
+      "4. Weitere Vorschriften",
+      "Sonderbestimmungen für bestimmte Gruppen von Betrieben oder Arbeitnehmern"
+    ],
+    "@eId": "lvl_III/lvl_4/lvl_u1"
+  },
+  {
+    "text": "für Betriebe, die der Versorgung von Fahrzeugen mit Betriebsstoffen oder ihrer Instandhaltung und Instandstellung dienen;",
+    "metadata": [
+      "https://fedlex.admin.ch/eli/cc/1966/57_57_57/de#art_27",
+      "Art. 27",
+      "III. Arbeits- und Ruhezeit",
+      "4. Weitere Vorschriften",
+      "Sonderbestimmungen für bestimmte Gruppen von Betrieben oder Arbeitnehmern"
+    ],
+    "@eId": "lvl_III/lvl_4/lvl_u1"
+  },
+  {
+    "text": "für Redaktionen von Zeitungen und Zeitschriften;",
+    "metadata": [
+      "https://fedlex.admin.ch/eli/cc/1966/57_57_57/de#art_27",
+      "Art. 27",
+      "III. Arbeits- und Ruhezeit",
+      "4. Weitere Vorschriften",
+      "Sonderbestimmungen für bestimmte Gruppen von Betrieben oder Arbeitnehmern"
+    ],
+    "@eId": "lvl_III/lvl_4/lvl_u1"
+  },
+  {
+    "text": "für das Bodenpersonal der Luftfahrt;",
+    "metadata": [
+      "https://fedlex.admin.ch/eli/cc/1966/57_57_57/de#art_27",
+      "Art. 27",
+      "III. Arbeits- und Ruhezeit",
+      "4. Weitere Vorschriften",
+      "Sonderbestimmungen für bestimmte Gruppen von Betrieben oder Arbeitnehmern"
+    ],
+    "@eId": "lvl_III/lvl_4/lvl_u1"
+  },
+  {
+    "text": "für Arbeitnehmer auf Bauplätzen und in Steinbrüchen, für welche wegen ihrer geographischen Lage oder wegen besonderer klimatischer oder technischer Verhältnisse eine besondere Ordnung der Arbeitszeit erforderlich ist;",
+    "metadata": [
+      "https://fedlex.admin.ch/eli/cc/1966/57_57_57/de#art_27",
+      "Art. 27",
+      "III. Arbeits- und Ruhezeit",
+      "4. Weitere Vorschriften",
+      "Sonderbestimmungen für bestimmte Gruppen von Betrieben oder Arbeitnehmern"
+    ],
+    "@eId": "lvl_III/lvl_4/lvl_u1"
+  },
+  {
+    "text": "für Arbeitnehmer, deren Arbeitszeit in erheblichem Masse blosse Präsenzzeit ist oder deren Tätigkeit in erheblichem Masse Reisen oder eine häufige Verlegung des Arbeitsplatzes erfordert.",
+    "metadata": [
+      "https://fedlex.admin.ch/eli/cc/1966/57_57_57/de#art_27",
+      "Art. 27",
+      "III. Arbeits- und Ruhezeit",
+      "4. Weitere Vorschriften",
+      "Sonderbestimmungen für bestimmte Gruppen von Betrieben oder Arbeitnehmern"
+    ],
+    "@eId": "lvl_III/lvl_4/lvl_u1"
+  },
+  {
+    "text": "Die zuständige Behörde ist ermächtigt, in ihren Arbeitszeitbewilligungen ausnahmsweise geringfügige Abweichungen von den Vorschriften des Gesetzes oder einer Verordnung vorzusehen, soweit der Befolgung dieser Vorschriften ausserordentliche Schwierigkeiten entgegenstehen und das Einverständnis der Mehrheit der beteiligten Arbeitnehmer oder deren Vertretung im Betriebe vorliegt.",
+    "metadata": [
+      "https://fedlex.admin.ch/eli/cc/1966/57_57_57/de#art_28",
+      "Art. 28",
+      "III. Arbeits- und Ruhezeit",
+      "4. Weitere Vorschriften",
+      "Geringfügige Abweichungen"
+    ],
+    "@eId": "lvl_III/lvl_4/lvl_u1"
+  },
+  {
+    "text": "Als Jugendliche gelten Arbeitnehmer beider Geschlechter bis zum vollendeten 18. Altersjahr.",
+    "metadata": [
+      "https://fedlex.admin.ch/eli/cc/1966/57_57_57/de#art_29",
+      "Art. 29",
+      "IV. Sonderschutzvorschriften",
+      "1. Jugendliche Arbeitnehmer",
+      "Allgemeine Vorschriften"
+    ],
+    "@eId": "lvl_IV/lvl_1/lvl_u1"
+  },
+  {
+    "text": "Der Arbeitgeber hat auf die Gesundheit der Jugendlichen gebührend Rücksicht zu nehmen und für die Wahrung der Sittlichkeit zu sorgen. Er hat namentlich darauf zu achten, dass die Jugendlichen nicht überanstrengt werden und vor schlechten Einflüssen im Betriebe bewahrt bleiben.",
+    "metadata": [
+      "https://fedlex.admin.ch/eli/cc/1966/57_57_57/de#art_29",
+      "Art. 29",
+      "IV. Sonderschutzvorschriften",
+      "1. Jugendliche Arbeitnehmer",
+      "Allgemeine Vorschriften"
+    ],
+    "@eId": "lvl_IV/lvl_1/lvl_u1"
+  },
+  {
+    "text": "Die Verwendung Jugendlicher für bestimmte Arbeiten kann zum Schutze von Leben und Gesundheit oder zur Wahrung der Sittlichkeit durch Verordnung untersagt oder von besonderen Voraussetzungen abhängig gemacht werden.",
+    "metadata": [
+      "https://fedlex.admin.ch/eli/cc/1966/57_57_57/de#art_29",
+      "Art. 29",
+      "IV. Sonderschutzvorschriften",
+      "1. Jugendliche Arbeitnehmer",
+      "Allgemeine Vorschriften"
+    ],
+    "@eId": "lvl_IV/lvl_1/lvl_u1"
+  },
+  {
+    "text": "Bei der Einstellung eines Jugendlichen hat der Arbeitgeber einen Altersausweis zu verlangen. Durch Verordnung kann bestimmt werden, dass ausserdem ein ärztliches Zeugnis beizubringen ist.",
+    "metadata": [
+      "https://fedlex.admin.ch/eli/cc/1966/57_57_57/de#art_29",
+      "Art. 29",
+      "IV. Sonderschutzvorschriften",
+      "1. Jugendliche Arbeitnehmer",
+      "Allgemeine Vorschriften"
+    ],
+    "@eId": "lvl_IV/lvl_1/lvl_u1"
+  },
+  {
+    "text": "Vor dem vollendeten 15. Altersjahr dürfen Jugendliche nicht beschäftigt werden. Vorbehalten bleiben die Absätze 2 und 3.",
+    "metadata": [
+      "https://fedlex.admin.ch/eli/cc/1966/57_57_57/de#art_30",
+      "Art. 30",
+      "IV. Sonderschutzvorschriften",
+      "1. Jugendliche Arbeitnehmer",
+      "Mindestalter"
+    ],
+    "@eId": "lvl_IV/lvl_1/lvl_u1"
+  },
+  {
+    "text": "Durch Verordnung wird bestimmt, für welche Gruppen von Betrieben oder Arbeitnehmern sowie unter welchen Voraussetzungen:",
+    "metadata": [
+      "https://fedlex.admin.ch/eli/cc/1966/57_57_57/de#art_30",
+      "Art. 30",
+      "IV. Sonderschutzvorschriften",
+      "1. Jugendliche Arbeitnehmer",
+      "Mindestalter"
+    ],
+    "@eId": "lvl_IV/lvl_1/lvl_u1"
+  },
+  {
+    "text": "Jugendliche im Alter von über 13 Jahren zu Botengängen und leichten Arbeiten herangezogen werden dürfen;",
+    "metadata": [
+      "https://fedlex.admin.ch/eli/cc/1966/57_57_57/de#art_30",
+      "Art. 30",
+      "IV. Sonderschutzvorschriften",
+      "1. Jugendliche Arbeitnehmer",
+      "Mindestalter"
+    ],
+    "@eId": "lvl_IV/lvl_1/lvl_u1"
+  },
+  {
+    "text": "Jugendliche im Alter von unter 15 Jahren bei kulturellen, künstlerischen und sportlichen Darbietungen sowie in der Werbung beschäftigt werden dürfen.",
+    "metadata": [
+      "https://fedlex.admin.ch/eli/cc/1966/57_57_57/de#art_30",
+      "Art. 30",
+      "IV. Sonderschutzvorschriften",
+      "1. Jugendliche Arbeitnehmer",
+      "Mindestalter"
+    ],
+    "@eId": "lvl_IV/lvl_1/lvl_u1"
+  },
+  {
+    "text": "Die Kantone, in denen die Schulpflicht vor dem vollendeten 15. Altersjahr endigt, können durch Verordnung ermächtigt werden, für schulentlassene Jugendliche im Alter von mehr als 14 Jahren unter besonderen Voraussetzungen Ausnahmen zu bewilligen.",
+    "metadata": [
+      "https://fedlex.admin.ch/eli/cc/1966/57_57_57/de#art_30",
+      "Art. 30",
+      "IV. Sonderschutzvorschriften",
+      "1. Jugendliche Arbeitnehmer",
+      "Mindestalter"
+    ],
+    "@eId": "lvl_IV/lvl_1/lvl_u1"
+  },
+  {
+    "text": "Die tägliche Arbeitszeit der Jugendlichen darf diejenige der andern im Betriebe beschäftigten Arbeitnehmer und, falls keine anderen Arbeitnehmer vorhanden sind, die ortsübliche Arbeitszeit nicht überschreiten und nicht mehr als neun Stunden betragen. Auf die Arbeitszeit sind allfällige Überzeitarbeit sowie obligatorischer Unterricht, soweit er in die Arbeitszeit fällt, anzurechnen.",
+    "metadata": [
+      "https://fedlex.admin.ch/eli/cc/1966/57_57_57/de#art_31",
+      "Art. 31",
+      "IV. Sonderschutzvorschriften",
+      "1. Jugendliche Arbeitnehmer",
+      "Arbeits- und Ruhezeit"
+    ],
+    "@eId": "lvl_IV/lvl_1/lvl_u1"
+  },
+  {
+    "text": "Die Tagesarbeit der Jugendlichen muss, mit Einschluss der Pausen, innerhalb eines Zeitraumes von zwölf Stunden liegen. Jugendliche bis zum vollendeten 16. Altersjahr dürfen höchstens bis 20 Uhr und Jugendliche von mehr als 16 Jahren höchstens bis 22 Uhr beschäftigt werden. Vorbehalten bleiben abweichende Bestimmungen über die Beschäftigung Jugendlicher im Sinne von Artikel 30 Absatz 2.",
+    "metadata": [
+      "https://fedlex.admin.ch/eli/cc/1966/57_57_57/de#art_31",
+      "Art. 31",
+      "IV. Sonderschutzvorschriften",
+      "1. Jugendliche Arbeitnehmer",
+      "Arbeits- und Ruhezeit"
+    ],
+    "@eId": "lvl_IV/lvl_1/lvl_u1"
+  },
+  {
+    "text": "Jugendliche dürfen bis zum vollendeten 16. Altersjahr zu Überzeitarbeit nicht eingesetzt werden.",
+    "metadata": [
+      "https://fedlex.admin.ch/eli/cc/1966/57_57_57/de#art_31",
+      "Art. 31",
+      "IV. Sonderschutzvorschriften",
+      "1. Jugendliche Arbeitnehmer",
+      "Arbeits- und Ruhezeit"
+    ],
+    "@eId": "lvl_IV/lvl_1/lvl_u1"
+  },
+  {
+    "text": "Der Arbeitgeber darf Jugendliche während der Nacht und an Sonntagen nicht beschäftigen. Ausnahmen können, insbesondere im Interesse der beruflichen Ausbildung sowie für die Beschäftigung Jugendlicher im Sinne von Artikel 30 Absatz 2, durch Verordnung vorgesehen werden.",
+    "metadata": [
+      "https://fedlex.admin.ch/eli/cc/1966/57_57_57/de#art_31",
+      "Art. 31",
+      "IV. Sonderschutzvorschriften",
+      "1. Jugendliche Arbeitnehmer",
+      "Arbeits- und Ruhezeit"
+    ],
+    "@eId": "lvl_IV/lvl_1/lvl_u1"
+  },
+  {
+    "text": "Erkrankt der Jugendliche, erleidet er einen Unfall oder erweist er sich als gesundheitlich oder sittlich gefährdet, so ist der Inhaber der elterlichen Sorge oder der Vormund zu benachrichtigen. Bis zum Eintreffen ihrer Weisungen hat der Arbeitgeber die gebotenen Massnahmen zu treffen.",
+    "metadata": [
+      "https://fedlex.admin.ch/eli/cc/1966/57_57_57/de#art_32",
+      "Art. 32",
+      "IV. Sonderschutzvorschriften",
+      "1. Jugendliche Arbeitnehmer",
+      "Besondere Fürsorgepflichten des Arbeitgebers"
+    ],
+    "@eId": "lvl_IV/lvl_1/lvl_u1"
+  },
+  {
+    "text": "Lebt der Jugendliche in der Hausgemeinschaft des Arbeitgebers, so hat dieser für eine ausreichende und dem Alter entsprechende Verpflegung sowie für gesundheitlich und sittlich einwandfreie Unterkunft zu sorgen.",
+    "metadata": [
+      "https://fedlex.admin.ch/eli/cc/1966/57_57_57/de#art_32",
+      "Art. 32",
+      "IV. Sonderschutzvorschriften",
+      "1. Jugendliche Arbeitnehmer",
+      "Besondere Fürsorgepflichten des Arbeitgebers"
+    ],
+    "@eId": "lvl_IV/lvl_1/lvl_u1"
+  },
+  {
+    "text": "Der Arbeitgeber hat schwangere Frauen und stillende Mütter so zu beschäftigen und ihre Arbeitsbedingungen so zu gestalten, dass ihre Gesundheit und die Gesundheit des Kindes nicht beeinträchtigt werden.",
+    "metadata": [
+      "https://fedlex.admin.ch/eli/cc/1966/57_57_57/de#art_35",
+      "Art. 35",
+      "IV. Sonderschutzvorschriften",
+      "2. Schwangere Frauen und stillende Mütter",
+      "Gesundheitsschutz bei Mutterschaft"
+    ],
+    "@eId": "lvl_IV/lvl_2/lvl_u1"
+  },
+  {
+    "text": "Durch Verordnung kann die Beschäftigung schwangerer Frauen und stillender Mütter für beschwerliche und gefährliche Arbeiten aus gesundheitlichen Gründen untersagt oder von besonderen Voraussetzungen abhängig gemacht werden.",
+    "metadata": [
+      "https://fedlex.admin.ch/eli/cc/1966/57_57_57/de#art_35",
+      "Art. 35",
+      "IV. Sonderschutzvorschriften",
+      "2. Schwangere Frauen und stillende Mütter",
+      "Gesundheitsschutz bei Mutterschaft"
+    ],
+    "@eId": "lvl_IV/lvl_2/lvl_u1"
+  },
+  {
+    "text": "Schwangere Frauen und stillende Mütter, die aufgrund der Vorschriften von Absatz 2 bestimmte Arbeiten nicht verrichten können, haben Anspruch auf 80 Prozent des Lohnes, samt einer angemessenen Vergütung für ausfallenden Naturallohn, soweit ihnen der Arbeitgeber keine gleichwertige Ersatzarbeit zuweisen kann.",
+    "metadata": [
+      "https://fedlex.admin.ch/eli/cc/1966/57_57_57/de#art_35",
+      "Art. 35",
+      "IV. Sonderschutzvorschriften",
+      "2. Schwangere Frauen und stillende Mütter",
+      "Gesundheitsschutz bei Mutterschaft"
+    ],
+    "@eId": "lvl_IV/lvl_2/lvl_u1"
+  },
+  {
+    "text": "Schwangere und stillende Frauen dürfen nur mit ihrem Einverständnis beschäftigt werden.",
+    "metadata": [
+      "https://fedlex.admin.ch/eli/cc/1966/57_57_57/de#art_35_a",
+      "Art. 35 a",
+      "IV. Sonderschutzvorschriften",
+      "2. Schwangere Frauen und stillende Mütter",
+      "Beschäftigung bei Mutterschaft"
+    ],
+    "@eId": "lvl_IV/lvl_2/lvl_u1"
+  },
+  {
+    "text": "Schwangere dürfen auf blosse Anzeige hin von der Arbeit fernbleiben oder die Arbeit verlassen. Stillenden Müttern ist die erforderliche Zeit zum Stillen freizugeben.",
+    "metadata": [
+      "https://fedlex.admin.ch/eli/cc/1966/57_57_57/de#art_35_a",
+      "Art. 35 a",
+      "IV. Sonderschutzvorschriften",
+      "2. Schwangere Frauen und stillende Mütter",
+      "Beschäftigung bei Mutterschaft"
+    ],
+    "@eId": "lvl_IV/lvl_2/lvl_u1"
+  },
+  {
+    "text": "Wöchnerinnen dürfen während acht Wochen nach der Niederkunft nicht und danach bis zur 16. Woche nur mit ihrem Einverständnis beschäftigt werden.",
+    "metadata": [
+      "https://fedlex.admin.ch/eli/cc/1966/57_57_57/de#art_35_a",
+      "Art. 35 a",
+      "IV. Sonderschutzvorschriften",
+      "2. Schwangere Frauen und stillende Mütter",
+      "Beschäftigung bei Mutterschaft"
+    ],
+    "@eId": "lvl_IV/lvl_2/lvl_u1"
+  },
+  {
+    "text": "Schwangere Frauen dürfen ab der 8. Woche vor der Niederkunft zwischen 20 Uhr und 6 Uhr nicht beschäftigt werden.",
+    "metadata": [
+      "https://fedlex.admin.ch/eli/cc/1966/57_57_57/de#art_35_a",
+      "Art. 35 a",
+      "IV. Sonderschutzvorschriften",
+      "2. Schwangere Frauen und stillende Mütter",
+      "Beschäftigung bei Mutterschaft"
+    ],
+    "@eId": "lvl_IV/lvl_2/lvl_u1"
+  },
+  {
+    "text": "Der Arbeitgeber hat schwangeren Frauen, die zwischen 20 Uhr und 6 Uhr beschäftigt werden, nach Möglichkeit eine gleichwertige Arbeit zwischen 6 Uhr und 20 Uhr anzubieten. Diese Verpflichtung gilt auch für die Zeit zwischen der 8. und der 16. Woche nach der Niederkunft.",
+    "metadata": [
+      "https://fedlex.admin.ch/eli/cc/1966/57_57_57/de#art_35_b",
+      "Art. 35 b",
+      "IV. Sonderschutzvorschriften",
+      "2. Schwangere Frauen und stillende Mütter",
+      "Ersatzarbeit und Lohnfortzahlung bei Mutterschaft"
+    ],
+    "@eId": "lvl_IV/lvl_2/lvl_u1"
+  },
+  {
+    "text": "Frauen, die zwischen 20 Uhr und 6 Uhr beschäftigt werden, haben während der in Absatz 1 festgelegten Zeiträume Anspruch auf 80 Prozent des Lohnes, ohne allfällige Zuschläge für Nachtarbeit, samt einer angemessenen Vergütung für ausfallenden Naturallohn, soweit ihnen keine andere gleichwertige Arbeit angeboten werden kann.",
+    "metadata": [
+      "https://fedlex.admin.ch/eli/cc/1966/57_57_57/de#art_35_b",
+      "Art. 35 b",
+      "IV. Sonderschutzvorschriften",
+      "2. Schwangere Frauen und stillende Mütter",
+      "Ersatzarbeit und Lohnfortzahlung bei Mutterschaft"
+    ],
+    "@eId": "lvl_IV/lvl_2/lvl_u1"
+  },
+  {
+    "text": "Bei der Festsetzung der Arbeits- und Ruhezeit ist auf Arbeitnehmer mit Familienpflichten besonders Rücksicht zu nehmen. Als Familienpflichten gelten die Erziehung von Kindern bis 15 Jahren sowie die Betreuung pflegebedürftiger Angehöriger oder nahe stehender Personen.",
+    "metadata": [
+      "https://fedlex.admin.ch/eli/cc/1966/57_57_57/de#art_36",
+      "Art. 36 None",
+      "IV. Sonderschutzvorschriften",
+      "3. Arbeitnehmer mit Familienpflichten"
+    ],
+    "@eId": "lvl_IV/lvl_1"
+  },
+  {
+    "text": "Diese Arbeitnehmer dürfen nur mit ihrem Einverständnis zu Überzeitarbeit herangezogen werden. Auf ihr Verlangen ist ihnen eine Mittagspause von wenigstens anderthalb Stunden zu gewähren.",
+    "metadata": [
+      "https://fedlex.admin.ch/eli/cc/1966/57_57_57/de#art_36",
+      "Art. 36 None",
+      "IV. Sonderschutzvorschriften",
+      "3. Arbeitnehmer mit Familienpflichten"
+    ],
+    "@eId": "lvl_IV/lvl_1"
+  },
+  {
+    "text": "Der Arbeitgeber hat der Arbeitnehmerin oder dem Arbeitnehmer gegen Vorlage eines ärztlichen Zeugnisses Urlaub für die Betreuung eines Familienmitglieds, der Lebenspartnerin oder des Lebenspartners mit gesundheitlicher Beeinträchtigung zu gewähren; der Urlaub ist auf die für die Betreuung erforderliche Dauer begrenzt, beträgt jedoch höchstens drei Tage pro Ereignis.",
+    "metadata": [
+      "https://fedlex.admin.ch/eli/cc/1966/57_57_57/de#art_36",
+      "Art. 36 None",
+      "IV. Sonderschutzvorschriften",
+      "3. Arbeitnehmer mit Familienpflichten"
+    ],
+    "@eId": "lvl_IV/lvl_1"
+  },
+  {
+    "text": "Ausser bei Kindern beträgt der Betreuungsurlaub höchstens zehn Tage pro Jahr.",
+    "metadata": [
+      "https://fedlex.admin.ch/eli/cc/1966/57_57_57/de#art_36",
+      "Art. 36 None",
+      "IV. Sonderschutzvorschriften",
+      "3. Arbeitnehmer mit Familienpflichten"
+    ],
+    "@eId": "lvl_IV/lvl_1"
+  },
+  {
+    "text": "Durch Verordnung kann die Beschäftigung anderer Gruppen von Arbeitnehmern für beschwerliche und gefährliche Arbeiten aus gesundheitlichen Gründen untersagt oder von besonderen Voraussetzungen abhängig gemacht werden.",
+    "metadata": [
+      "https://fedlex.admin.ch/eli/cc/1966/57_57_57/de#art_36_a",
+      "Art. 36 a",
+      "IV. Sonderschutzvorschriften",
+      "4. Andere Gruppen von Arbeitnehmern"
+    ],
+    "@eId": "lvl_IV/lvl_1"
+  },
+  {
+    "text": "Für industrielle Betriebe ist eine Betriebsordnung aufzustellen.",
+    "metadata": [
+      "https://fedlex.admin.ch/eli/cc/1966/57_57_57/de#art_37",
+      "Art. 37",
+      "V. Betriebsordnung",
+      "Aufstellung"
+    ],
+    "@eId": "lvl_V/lvl_u1"
+  },
+  {
+    "text": "Durch Verordnung kann die Aufstellung einer Betriebsordnung auch für nicht-industrielle Betriebe vorgeschrieben werden, soweit die Art des Betriebes oder die Zahl der Arbeitnehmer dies rechtfertigen.",
+    "metadata": [
+      "https://fedlex.admin.ch/eli/cc/1966/57_57_57/de#art_37",
+      "Art. 37",
+      "V. Betriebsordnung",
+      "Aufstellung"
+    ],
+    "@eId": "lvl_V/lvl_u1"
+  },
+  {
+    "text": "Andere nicht-industrielle Betriebe können nach Massgabe der Vorschriften dieses Abschnittes freiwillig eine Betriebsordnung aufstellen.",
+    "metadata": [
+      "https://fedlex.admin.ch/eli/cc/1966/57_57_57/de#art_37",
+      "Art. 37",
+      "V. Betriebsordnung",
+      "Aufstellung"
+    ],
+    "@eId": "lvl_V/lvl_u1"
+  },
+  {
+    "text": "Die Betriebsordnung wird zwischen dem Arbeitgeber und einer von den Arbeitnehmern frei gewählten Vertretung schriftlich vereinbart oder vom Arbeitgeber nach Anhören der Arbeitnehmer erlassen.",
+    "metadata": [
+      "https://fedlex.admin.ch/eli/cc/1966/57_57_57/de#art_37",
+      "Art. 37",
+      "V. Betriebsordnung",
+      "Aufstellung"
+    ],
+    "@eId": "lvl_V/lvl_u1"
+  },
+  {
+    "text": "Die Betriebsordnung hat Bestimmungen über den Gesundheitsschutz und die Unfallverhütung und, soweit notwendig, über die Ordnung im Betrieb und das Verhalten der Arbeitnehmer im Betrieb aufzustellen; Ordnungsstrafen sind nur zulässig, wenn sie in der Betriebsordnung angemessen geregelt sind.",
+    "metadata": [
+      "https://fedlex.admin.ch/eli/cc/1966/57_57_57/de#art_38",
+      "Art. 38 None",
+      "V. Betriebsordnung",
+      "Inhalt"
+    ],
+    "@eId": "lvl_V/lvl_u1"
+  },
+  {
+    "text": "Die vereinbarte Betriebsordnung kann auch andere Bestimmungen enthalten, die das Verhältnis zwischen dem Arbeitgeber und den Arbeitnehmern betreffen, jedoch nur soweit, als ihr Gegenstand in dem Bereich, dem der Betrieb angehört, nicht üblicherweise durch Gesamtarbeitsvertrag oder durch andere kollektive Vereinbarung geregelt wird.",
+    "metadata": [
+      "https://fedlex.admin.ch/eli/cc/1966/57_57_57/de#art_38",
+      "Art. 38 None",
+      "V. Betriebsordnung",
+      "Inhalt"
+    ],
+    "@eId": "lvl_V/lvl_u1"
+  },
+  {
+    "text": "Der Inhalt der Betriebsordnung darf dem zwingenden Recht und den für den Arbeitgeber verbindlichen Gesamtarbeitsverträgen nicht widersprechen.",
+    "metadata": [
+      "https://fedlex.admin.ch/eli/cc/1966/57_57_57/de#art_38",
+      "Art. 38 None",
+      "V. Betriebsordnung",
+      "Inhalt"
+    ],
+    "@eId": "lvl_V/lvl_u1"
+  },
+  {
+    "text": "Die Betriebsordnung ist der kantonalen Behörde zuzustellen; stellt diese fest, dass Bestimmungen der Betriebsordnung mit den Vorschriften dieses Gesetzes nicht übereinstimmen, so ist das Verfahren gemäss Artikel 51 durchzuführen.",
+    "metadata": [
+      "https://fedlex.admin.ch/eli/cc/1966/57_57_57/de#art_39",
+      "Art. 39",
+      "V. Betriebsordnung",
+      "Kontrolle, Wirkungen"
+    ],
+    "@eId": "lvl_V/lvl_u1"
+  },
+  {
+    "text": "Nach der Bekanntgabe im Betrieb ist die Betriebsordnung für den Arbeitgeber und für die Arbeitnehmer verbindlich.",
+    "metadata": [
+      "https://fedlex.admin.ch/eli/cc/1966/57_57_57/de#art_39",
+      "Art. 39",
+      "V. Betriebsordnung",
+      "Kontrolle, Wirkungen"
+    ],
+    "@eId": "lvl_V/lvl_u1"
+  },
+  {
+    "text": "Der Bundesrat ist zuständig zum Erlasse",
+    "metadata": [
+      "https://fedlex.admin.ch/eli/cc/1966/57_57_57/de#art_40",
+      "Art. 40",
+      "VI. Durchführung des Gesetzes",
+      "1. Durchführungsbestimmungen"
+    ],
+    "@eId": "lvl_VI/lvl_1"
+  },
+  {
+    "text": "von Verordnungsbestimmungen in den vom Gesetz ausdrücklich vorgesehenen Fällen;",
+    "metadata": [
+      "https://fedlex.admin.ch/eli/cc/1966/57_57_57/de#art_40",
+      "Art. 40",
+      "VI. Durchführung des Gesetzes",
+      "1. Durchführungsbestimmungen"
+    ],
+    "@eId": "lvl_VI/lvl_1"
+  },
+  {
+    "text": "von Ausführungsbestimmungen zur nähern Umschreibung einzelner Vorschriften des Gesetzes;",
+    "metadata": [
+      "https://fedlex.admin.ch/eli/cc/1966/57_57_57/de#art_40",
+      "Art. 40",
+      "VI. Durchführung des Gesetzes",
+      "1. Durchführungsbestimmungen"
+    ],
+    "@eId": "lvl_VI/lvl_1"
+  },
+  {
+    "text": "von Verwaltungsbestimmungen für die Vollzugs- und Aufsichtsbehörden.",
+    "metadata": [
+      "https://fedlex.admin.ch/eli/cc/1966/57_57_57/de#art_40",
+      "Art. 40",
+      "VI. Durchführung des Gesetzes",
+      "1. Durchführungsbestimmungen"
+    ],
+    "@eId": "lvl_VI/lvl_1"
+  },
+  {
+    "text": "Vor dem Erlasse von Bestimmungen gemäss Absatz 1 Buchstaben a und b sind die Kantone, die Eidgenössische Arbeitskommission und die zuständigen Organisationen der Wirtschaft anzuhören.",
+    "metadata": [
+      "https://fedlex.admin.ch/eli/cc/1966/57_57_57/de#art_40",
+      "Art. 40",
+      "VI. Durchführung des Gesetzes",
+      "1. Durchführungsbestimmungen"
+    ],
+    "@eId": "lvl_VI/lvl_1"
+  },
+  {
+    "text": "Der Vollzug des Gesetzes und der Verordnungen obliegt, unter Vorbehalt von Artikel 42, den Kantonen. Diese bezeichnen die zuständigen Vollzugsbehörden und eine kantonale Rekursbehörde.",
+    "metadata": [
+      "https://fedlex.admin.ch/eli/cc/1966/57_57_57/de#art_41",
+      "Art. 41",
+      "VI. Durchführung des Gesetzes",
+      "2. Aufgaben und Organisation der Behörden",
+      "Kantone"
+    ],
+    "@eId": "lvl_VI/lvl_2/lvl_u1"
+  },
+  {
+    "text": "Die Kantone erstatten dem Bundesrat nach Ablauf jedes zweiten Jahres Bericht über den Vollzug.",
+    "metadata": [
+      "https://fedlex.admin.ch/eli/cc/1966/57_57_57/de#art_41",
+      "Art. 41",
+      "VI. Durchführung des Gesetzes",
+      "2. Aufgaben und Organisation der Behörden",
+      "Kantone"
+    ],
+    "@eId": "lvl_VI/lvl_2/lvl_u1"
+  },
+  {
+    "text": "Bestehen Zweifel über die Anwendbarkeit des Gesetzes auf einzelne nicht-industrielle Betriebe oder einzelne Arbeitnehmer in industriellen oder nicht-industriellen Betrieben, so entscheidet die kantonale Behörde.",
+    "metadata": [
+      "https://fedlex.admin.ch/eli/cc/1966/57_57_57/de#art_41",
+      "Art. 41",
+      "VI. Durchführung des Gesetzes",
+      "2. Aufgaben und Organisation der Behörden",
+      "Kantone"
+    ],
+    "@eId": "lvl_VI/lvl_2/lvl_u1"
+  },
+  {
+    "text": "Der Bund übt die Oberaufsicht über den Vollzug des Gesetzes und der Verordnungen durch die Kantone aus. Er kann den kantonalen Vollzugsbehörden Weisungen erteilen.",
+    "metadata": [
+      "https://fedlex.admin.ch/eli/cc/1966/57_57_57/de#art_42",
+      "Art. 42",
+      "VI. Durchführung des Gesetzes",
+      "2. Aufgaben und Organisation der Behörden",
+      "Bund"
+    ],
+    "@eId": "lvl_VI/lvl_2/lvl_u1"
+  },
+  {
+    "text": "Dem Bund obliegen ferner die Vollzugsmassnahmen, für die ihn das Gesetz ausdrücklich als zuständig erklärt, sowie der Vollzug des Gesetzes und der Verordnungen in den Betrieben des Bundes im Sinne von Artikel 2 Absatz 2.",
+    "metadata": [
+      "https://fedlex.admin.ch/eli/cc/1966/57_57_57/de#art_42",
+      "Art. 42",
+      "VI. Durchführung des Gesetzes",
+      "2. Aufgaben und Organisation der Behörden",
+      "Bund"
+    ],
+    "@eId": "lvl_VI/lvl_2/lvl_u1"
+  },
+  {
+    "text": "Die Aufgaben des Bundes im Sinne der Absätze 1 und 2 obliegen dem SECO, soweit sie nicht dem Bundesrat oder dem Eidgenössischen Departement für Wirtschaft, Bildung und Forschung vorbehalten bleiben.",
+    "metadata": [
+      "https://fedlex.admin.ch/eli/cc/1966/57_57_57/de#art_42",
+      "Art. 42",
+      "VI. Durchführung des Gesetzes",
+      "2. Aufgaben und Organisation der Behörden",
+      "Bund"
+    ],
+    "@eId": "lvl_VI/lvl_2/lvl_u1"
+  },
+  {
+    "text": "Für die Durchführung seiner Aufgaben stehen dem SECO die Eidgenössischen Arbeitsinspektorate und der Arbeitsärztliche Dienst zur Verfügung. Es kann ferner besondere Fachinspektorate oder Sachverständige heranziehen.",
+    "metadata": [
+      "https://fedlex.admin.ch/eli/cc/1966/57_57_57/de#art_42",
+      "Art. 42",
+      "VI. Durchführung des Gesetzes",
+      "2. Aufgaben und Organisation der Behörden",
+      "Bund"
+    ],
+    "@eId": "lvl_VI/lvl_2/lvl_u1"
+  },
+  {
+    "text": "Der Bundesrat bestellt eine Eidgenössische Arbeitskommission aus Vertretern der Kantone und wissenschaftlichen Sachverständigen, aus Vertretern der Arbeitgeber- und Arbeitnehmerverbände in gleicher Zahl sowie aus Vertretern weiterer Organisationen.",
+    "metadata": [
+      "https://fedlex.admin.ch/eli/cc/1966/57_57_57/de#art_43",
+      "Art. 43",
+      "VI. Durchführung des Gesetzes",
+      "2. Aufgaben und Organisation der Behörden",
+      "Arbeitskommission"
+    ],
+    "@eId": "lvl_VI/lvl_2/lvl_u1"
+  },
+  {
+    "text": "Die Arbeitskommission begutachtet zuhanden der Bundesbehörden Fragen der Gesetzgebung und des Vollzugs. Sie ist befugt, von sich aus Anregungen zu machen.",
+    "metadata": [
+      "https://fedlex.admin.ch/eli/cc/1966/57_57_57/de#art_43",
+      "Art. 43",
+      "VI. Durchführung des Gesetzes",
+      "2. Aufgaben und Organisation der Behörden",
+      "Arbeitskommission"
+    ],
+    "@eId": "lvl_VI/lvl_2/lvl_u1"
+  },
+  {
+    "text": "Personen, die mit Aufgaben nach diesem Gesetz betraut sind oder dabei mitwirken, sind verpflichtet, über Tatsachen, die ihnen bei ihrer Tätigkeit zur Kenntnis gelangen, gegenüber Dritten Stillschweigen zu bewahren.",
+    "metadata": [
+      "https://fedlex.admin.ch/eli/cc/1966/57_57_57/de#art_44",
+      "Art. 44 None",
+      "VI. Durchführung des Gesetzes",
+      "2. Aufgaben und Organisation der Behörden",
+      "Schweigepflicht"
+    ],
+    "@eId": "lvl_VI/lvl_2/lvl_u1"
+  },
+  {
+    "text": "Die mit der Aufsicht und dem Vollzug dieses Gesetzes betrauten kantonalen Behörden und das SECO unterstützen sich gegenseitig in der Erfüllung ihrer Aufgaben; sie erteilen einander die benötigten Auskünfte kostenlos und gewähren auf Verlangen Einsicht in amtliche Akten. Die in Anwendung dieser Vorschrift gemeldeten oder festgestellten Tatsachen unterliegen der Schweigepflicht nach Absatz 1.",
+    "metadata": [
+      "https://fedlex.admin.ch/eli/cc/1966/57_57_57/de#art_44",
+      "Art. 44 None",
+      "VI. Durchführung des Gesetzes",
+      "2. Aufgaben und Organisation der Behörden",
+      "Schweigepflicht"
+    ],
+    "@eId": "lvl_VI/lvl_2/lvl_u1"
+  },
+  {
+    "text": "Das SECO oder die zuständige kantonale Behörde kann auf begründetes schriftliches Gesuch hin Daten bekannt geben an:",
+    "metadata": [
+      "https://fedlex.admin.ch/eli/cc/1966/57_57_57/de#art_44_a",
+      "Art. 44 a None",
+      "VI. Durchführung des Gesetzes",
+      "2. Aufgaben und Organisation der Behörden",
+      "Datenbekanntgabe"
+    ],
+    "@eId": "lvl_VI/lvl_2/lvl_u1"
+  },
+  {
+    "text": "die Aufsichts- und Vollzugsbehörde über die Arbeitssicherheit nach dem Bundesgesetz vom 20. März 1981 über die Unfallversicherung, sofern diese die Daten zur Erfüllung ihrer Aufgaben benötigt;",
+    "metadata": [
+      "https://fedlex.admin.ch/eli/cc/1966/57_57_57/de#art_44_a",
+      "Art. 44 a None",
+      "VI. Durchführung des Gesetzes",
+      "2. Aufgaben und Organisation der Behörden",
+      "Datenbekanntgabe"
+    ],
+    "@eId": "lvl_VI/lvl_2/lvl_u1"
+  },
+  {
+    "text": "Gerichte und Strafuntersuchungsbehörden, sofern es die Ermittlung eines rechtlich relevanten Sachverhaltes erfordert;",
+    "metadata": [
+      "https://fedlex.admin.ch/eli/cc/1966/57_57_57/de#art_44_a",
+      "Art. 44 a None",
+      "VI. Durchführung des Gesetzes",
+      "2. Aufgaben und Organisation der Behörden",
+      "Datenbekanntgabe"
+    ],
+    "@eId": "lvl_VI/lvl_2/lvl_u1"
+  },
+  {
+    "text": "Versicherer, sofern es die Abklärung eines versicherten Risikos erfordert;",
+    "metadata": [
+      "https://fedlex.admin.ch/eli/cc/1966/57_57_57/de#art_44_a",
+      "Art. 44 a None",
+      "VI. Durchführung des Gesetzes",
+      "2. Aufgaben und Organisation der Behörden",
+      "Datenbekanntgabe"
+    ],
+    "@eId": "lvl_VI/lvl_2/lvl_u1"
+  },
+  {
+    "text": "den Arbeitgeber, sofern die Anordnung personenbezogener Massnahmen nötig wird;",
+    "metadata": [
+      "https://fedlex.admin.ch/eli/cc/1966/57_57_57/de#art_44_a",
+      "Art. 44 a None",
+      "VI. Durchführung des Gesetzes",
+      "2. Aufgaben und Organisation der Behörden",
+      "Datenbekanntgabe"
+    ],
+    "@eId": "lvl_VI/lvl_2/lvl_u1"
+  },
+  {
+    "text": "die Organe des Bundesamtes für Statistik, sofern diese die Daten zur Erfüllung ihrer Aufgaben benötigen.",
+    "metadata": [
+      "https://fedlex.admin.ch/eli/cc/1966/57_57_57/de#art_44_a",
+      "Art. 44 a None",
+      "VI. Durchführung des Gesetzes",
+      "2. Aufgaben und Organisation der Behörden",
+      "Datenbekanntgabe"
+    ],
+    "@eId": "lvl_VI/lvl_2/lvl_u1"
+  },
+  {
+    "text": "An andere Behörden von Bund, Kantonen und Gemeinden oder an Dritte dürfen Daten auf begründetes schriftliches Gesuch hin bekannt gegeben werden, wenn die betroffene Person schriftlich eingewilligt hat oder die Einwilligung nach den Umständen vorausgesetzt werden darf .",
+    "metadata": [
+      "https://fedlex.admin.ch/eli/cc/1966/57_57_57/de#art_44_a",
+      "Art. 44 a None",
+      "VI. Durchführung des Gesetzes",
+      "2. Aufgaben und Organisation der Behörden",
+      "Datenbekanntgabe"
+    ],
+    "@eId": "lvl_VI/lvl_2/lvl_u1"
+  },
+  {
+    "text": "Zur Abwendung einer Gefahr für Leben oder Gesundheit der Arbeitnehmer oder von Dritten können Daten ausnahmsweise bekannt gegeben werden.",
+    "metadata": [
+      "https://fedlex.admin.ch/eli/cc/1966/57_57_57/de#art_44_a",
+      "Art. 44 a None",
+      "VI. Durchführung des Gesetzes",
+      "2. Aufgaben und Organisation der Behörden",
+      "Datenbekanntgabe"
+    ],
+    "@eId": "lvl_VI/lvl_2/lvl_u1"
+  },
+  {
+    "text": "Die Weitergabe von anonymisierten Daten, die namentlich der Planung, Statistik oder Forschung dienen, kann ohne Zustimmung der betroffenen Personen erfolgen.",
+    "metadata": [
+      "https://fedlex.admin.ch/eli/cc/1966/57_57_57/de#art_44_a",
+      "Art. 44 a None",
+      "VI. Durchführung des Gesetzes",
+      "2. Aufgaben und Organisation der Behörden",
+      "Datenbekanntgabe"
+    ],
+    "@eId": "lvl_VI/lvl_2/lvl_u1"
+  },
+  {
+    "text": "Der Bundesrat kann eine generelle Bekanntgabe von nicht besonders schützenswerten Daten an Behörden oder Institutionen vorsehen, sofern diese Daten für den Empfänger zur Erfüllung einer gesetzlichen Aufgabe notwendig sind. Er kann zu diesem Zweck ein Abrufverfahren vorsehen.",
+    "metadata": [
+      "https://fedlex.admin.ch/eli/cc/1966/57_57_57/de#art_44_a",
+      "Art. 44 a None",
+      "VI. Durchführung des Gesetzes",
+      "2. Aufgaben und Organisation der Behörden",
+      "Datenbekanntgabe"
+    ],
+    "@eId": "lvl_VI/lvl_2/lvl_u1"
+  },
+  {
+    "text": "Die Kantone und das SECO führen zur Erfüllung der Aufgaben nach diesem Gesetz Informations- oder Dokumentationssysteme.",
+    "metadata": [
+      "https://fedlex.admin.ch/eli/cc/1966/57_57_57/de#art_44_b",
+      "Art. 44 b None",
+      "VI. Durchführung des Gesetzes",
+      "2. Aufgaben und Organisation der Behörden",
+      "Informations- und Dokumentationssysteme"
+    ],
+    "@eId": "lvl_VI/lvl_2/lvl_u1"
+  },
+  {
+    "text": "Die Informations- und Dokumentationssysteme können besonders schützenswerte Daten enthalten über:",
+    "metadata": [
+      "https://fedlex.admin.ch/eli/cc/1966/57_57_57/de#art_44_b",
+      "Art. 44 b None",
+      "VI. Durchführung des Gesetzes",
+      "2. Aufgaben und Organisation der Behörden",
+      "Informations- und Dokumentationssysteme"
+    ],
+    "@eId": "lvl_VI/lvl_2/lvl_u1"
+  },
+  {
+    "text": "den Gesundheitszustand einzelner Arbeitnehmer im Zusammenhang mit den von diesem Gesetz und seinen Verordnungen vorgesehenen medizinischen Abklärungen, Risikoanalysen und Gutachten;",
+    "metadata": [
+      "https://fedlex.admin.ch/eli/cc/1966/57_57_57/de#art_44_b",
+      "Art. 44 b None",
+      "VI. Durchführung des Gesetzes",
+      "2. Aufgaben und Organisation der Behörden",
+      "Informations- und Dokumentationssysteme"
+    ],
+    "@eId": "lvl_VI/lvl_2/lvl_u1"
+  },
+  {
+    "text": "Verwaltungs- und Strafverfahren nach diesem Gesetz.",
+    "metadata": [
+      "https://fedlex.admin.ch/eli/cc/1966/57_57_57/de#art_44_b",
+      "Art. 44 b None",
+      "VI. Durchführung des Gesetzes",
+      "2. Aufgaben und Organisation der Behörden",
+      "Informations- und Dokumentationssysteme"
+    ],
+    "@eId": "lvl_VI/lvl_2/lvl_u1"
+  },
+  {
+    "text": "Der Bundesrat bestimmt die Kategorien der zu erfassenden Daten und deren Aufbewahrungsdauer sowie die Zugriffs- und Bearbeitungsberechtigung. Er regelt die Zusammenarbeit mit den beteiligten Organen, den Datenaustausch und die Datensicherheit.",
+    "metadata": [
+      "https://fedlex.admin.ch/eli/cc/1966/57_57_57/de#art_44_b",
+      "Art. 44 b None",
+      "VI. Durchführung des Gesetzes",
+      "2. Aufgaben und Organisation der Behörden",
+      "Informations- und Dokumentationssysteme"
+    ],
+    "@eId": "lvl_VI/lvl_2/lvl_u1"
+  },
+  {
+    "text": "Der Arbeitgeber und seine Arbeitnehmer sowie Personen, die im Auftrag des Arbeitgebers Aufgaben nach diesem Gesetz wahrnehmen, haben den Vollzugs- und Aufsichtsbehörden alle Auskünfte zu erteilen, die diese zur Erfüllung ihrer Aufgaben benötigen.",
+    "metadata": [
+      "https://fedlex.admin.ch/eli/cc/1966/57_57_57/de#art_45",
+      "Art. 45",
+      "VI. Durchführung des Gesetzes",
+      "3. Pflichten der Arbeitgeber und Arbeitnehmer",
+      "Auskunftspflicht"
+    ],
+    "@eId": "lvl_VI/lvl_3/lvl_u1"
+  },
+  {
+    "text": "Der Arbeitgeber hat den Vollzugs- und Aufsichtsorganen den Zutritt zum Betriebe, die Vornahme von Feststellungen und die Entnahme von Proben zu gestatten.",
+    "metadata": [
+      "https://fedlex.admin.ch/eli/cc/1966/57_57_57/de#art_45",
+      "Art. 45",
+      "VI. Durchführung des Gesetzes",
+      "3. Pflichten der Arbeitgeber und Arbeitnehmer",
+      "Auskunftspflicht"
+    ],
+    "@eId": "lvl_VI/lvl_3/lvl_u1"
+  },
+  {
+    "text": "Der Arbeitgeber hat die Verzeichnisse oder andere Unterlagen, aus denen die für den Vollzug dieses Gesetzes und seiner Verordnungen erforderlichen Angaben ersichtlich sind, den Vollzugs- und Aufsichtsorganen zur Verfügung zu halten. Im Übrigen gelten die Bestimmungen des Datenschutzgesetzes vom 25. September 2020.",
+    "metadata": [
+      "https://fedlex.admin.ch/eli/cc/1966/57_57_57/de#art_46",
+      "Art. 46 None",
+      "VI. Durchführung des Gesetzes",
+      "3. Pflichten der Arbeitgeber und Arbeitnehmer",
+      "Verzeichnisse und andere Unterlagen"
+    ],
+    "@eId": "lvl_VI/lvl_3/lvl_u1"
+  },
+  {
+    "text": "Der Arbeitgeber hat den Arbeitnehmern durch Anschlag oder auf andere geeignete Weise bekannt zu geben:",
+    "metadata": [
+      "https://fedlex.admin.ch/eli/cc/1966/57_57_57/de#art_47",
+      "Art. 47 None",
+      "VI. Durchführung des Gesetzes",
+      "3. Pflichten der Arbeitgeber und Arbeitnehmer",
+      "Bekanntgabe des Stunden-plans und der Arbeitszeitbewilligungen"
+    ],
+    "@eId": "lvl_VI/lvl_3/lvl_u1"
+  },
+  {
+    "text": "den Stundenplan und die Arbeitszeitbewilligungen sowie",
+    "metadata": [
+      "https://fedlex.admin.ch/eli/cc/1966/57_57_57/de#art_47",
+      "Art. 47 None",
+      "VI. Durchführung des Gesetzes",
+      "3. Pflichten der Arbeitgeber und Arbeitnehmer",
+      "Bekanntgabe des Stunden-plans und der Arbeitszeitbewilligungen"
+    ],
+    "@eId": "lvl_VI/lvl_3/lvl_u1"
+  },
+  {
+    "text": "die damit zusammenhängenden besonderen Schutzvorschriften.",
+    "metadata": [
+      "https://fedlex.admin.ch/eli/cc/1966/57_57_57/de#art_47",
+      "Art. 47 None",
+      "VI. Durchführung des Gesetzes",
+      "3. Pflichten der Arbeitgeber und Arbeitnehmer",
+      "Bekanntgabe des Stunden-plans und der Arbeitszeitbewilligungen"
+    ],
+    "@eId": "lvl_VI/lvl_3/lvl_u1"
+  },
+  {
+    "text": "Durch Verordnung wird bestimmt, welche Stundenpläne der kantonalen Behörde mitzuteilen sind.",
+    "metadata": [
+      "https://fedlex.admin.ch/eli/cc/1966/57_57_57/de#art_47",
+      "Art. 47 None",
+      "VI. Durchführung des Gesetzes",
+      "3. Pflichten der Arbeitgeber und Arbeitnehmer",
+      "Bekanntgabe des Stunden-plans und der Arbeitszeitbewilligungen"
+    ],
+    "@eId": "lvl_VI/lvl_3/lvl_u1"
+  },
+  {
+    "text": "Den Arbeitnehmern oder deren Vertretung im Betrieb stehen in folgenden Angelegenheiten Mitspracherechte zu:",
+    "metadata": [
+      "https://fedlex.admin.ch/eli/cc/1966/57_57_57/de#art_48",
+      "Art. 48 None",
+      "VI. Durchführung des Gesetzes",
+      "3. Pflichten der Arbeitgeber und Arbeitnehmer",
+      "Mitwirkungs- rechte"
+    ],
+    "@eId": "lvl_VI/lvl_3/lvl_u1"
+  },
+  {
+    "text": "in allen Fragen des Gesundheitsschutzes;",
+    "metadata": [
+      "https://fedlex.admin.ch/eli/cc/1966/57_57_57/de#art_48",
+      "Art. 48 None",
+      "VI. Durchführung des Gesetzes",
+      "3. Pflichten der Arbeitgeber und Arbeitnehmer",
+      "Mitwirkungs- rechte"
+    ],
+    "@eId": "lvl_VI/lvl_3/lvl_u1"
+  },
+  {
+    "text": "bei der Organisation der Arbeitszeit und der Gestaltung der Stundenpläne;",
+    "metadata": [
+      "https://fedlex.admin.ch/eli/cc/1966/57_57_57/de#art_48",
+      "Art. 48 None",
+      "VI. Durchführung des Gesetzes",
+      "3. Pflichten der Arbeitgeber und Arbeitnehmer",
+      "Mitwirkungs- rechte"
+    ],
+    "@eId": "lvl_VI/lvl_3/lvl_u1"
+  },
+  {
+    "text": "hinsichtlich der bei Nachtarbeit vorgesehenen Massnahmen im Sinne von Artikel 17 e .",
+    "metadata": [
+      "https://fedlex.admin.ch/eli/cc/1966/57_57_57/de#art_48",
+      "Art. 48 None",
+      "VI. Durchführung des Gesetzes",
+      "3. Pflichten der Arbeitgeber und Arbeitnehmer",
+      "Mitwirkungs- rechte"
+    ],
+    "@eId": "lvl_VI/lvl_3/lvl_u1"
+  },
+  {
+    "text": "Das Mitspracherecht umfasst den Anspruch auf Anhörung und Beratung, bevor der Arbeitgeber einen Entscheid trifft, sowie auf Begründung des Entscheids, wenn dieser den Einwänden der Arbeitnehmer oder deren Vertretung im Betrieb nicht oder nur teilweise Rechnung trägt.",
+    "metadata": [
+      "https://fedlex.admin.ch/eli/cc/1966/57_57_57/de#art_48",
+      "Art. 48 None",
+      "VI. Durchführung des Gesetzes",
+      "3. Pflichten der Arbeitgeber und Arbeitnehmer",
+      "Mitwirkungs- rechte"
+    ],
+    "@eId": "lvl_VI/lvl_3/lvl_u1"
+  },
+  {
+    "text": "Der Arbeitgeber hat Gesuche für die im Gesetze vorgesehenen Bewilligungen rechtzeitig einzureichen und zu begründen sowie die erforderlichen Unterlagen beizufügen.",
+    "metadata": [
+      "https://fedlex.admin.ch/eli/cc/1966/57_57_57/de#art_49",
+      "Art. 49",
+      "VI. Durchführung des Gesetzes",
+      "3. Pflichten der Arbeitgeber und Arbeitnehmer",
+      "Bewilligungsgesuche"
+    ],
+    "@eId": "lvl_VI/lvl_3/lvl_u1"
+  },
+  {
+    "text": "Kann in dringlichen Fällen das Gesuch für eine Arbeitszeitbewilligung nicht rechtzeitig gestellt werden, so hat der Arbeitgeber dies so rasch als möglich nachzuholen und die Verspätung zu begründen. In nicht voraussehbaren Fällen von geringfügiger Tragweite kann auf die nachträgliche Einreichung eines Gesuches verzichtet werden.",
+    "metadata": [
+      "https://fedlex.admin.ch/eli/cc/1966/57_57_57/de#art_49",
+      "Art. 49",
+      "VI. Durchführung des Gesetzes",
+      "3. Pflichten der Arbeitgeber und Arbeitnehmer",
+      "Bewilligungsgesuche"
+    ],
+    "@eId": "lvl_VI/lvl_3/lvl_u1"
+  },
+  {
+    "text": "Für Arbeitszeitbewilligungen dürfen lediglich mässige Kanzleigebühren erhoben werden.",
+    "metadata": [
+      "https://fedlex.admin.ch/eli/cc/1966/57_57_57/de#art_49",
+      "Art. 49",
+      "VI. Durchführung des Gesetzes",
+      "3. Pflichten der Arbeitgeber und Arbeitnehmer",
+      "Bewilligungsgesuche"
+    ],
+    "@eId": "lvl_VI/lvl_3/lvl_u1"
+  },
+  {
+    "text": "Die auf Grund des Gesetzes oder einer Verordnung getroffenen Verfügungen sind schriftlich zu eröffnen. Verfügungen, durch welche ein Gesuch ganz oder teilweise abgelehnt wird, sind zu begründen, unter Hinweis auf Beschwerderecht, Beschwerdefrist und Beschwerdeinstanz.",
+    "metadata": [
+      "https://fedlex.admin.ch/eli/cc/1966/57_57_57/de#art_50",
+      "Art. 50",
+      "VI. Durchführung des Gesetzes",
+      "4. Verwaltungsverfügungen und Verwaltungsmassnahmen",
+      "Verwaltungsverfügungen"
+    ],
+    "@eId": "lvl_VI/lvl_4/lvl_u1"
+  },
+  {
+    "text": "Die Verfügungen können jederzeit geändert oder aufgehoben werden, wenn sich die zugrunde liegenden Tatsachen ändern.",
+    "metadata": [
+      "https://fedlex.admin.ch/eli/cc/1966/57_57_57/de#art_50",
+      "Art. 50",
+      "VI. Durchführung des Gesetzes",
+      "4. Verwaltungsverfügungen und Verwaltungsmassnahmen",
+      "Verwaltungsverfügungen"
+    ],
+    "@eId": "lvl_VI/lvl_4/lvl_u1"
+  },
+  {
+    "text": "Werden Vorschriften des Gesetzes oder einer Verordnung oder wird eine Verfügung nicht befolgt, so macht die kantonale Behörde, das Eidgenössische Arbeitsinspektorat oder der Arbeitsärztliche Dienst den Fehlbaren darauf aufmerksam und verlangt die Einhaltung der nicht befolgten Vorschrift oder Verfügung.",
+    "metadata": [
+      "https://fedlex.admin.ch/eli/cc/1966/57_57_57/de#art_51",
+      "Art. 51",
+      "VI. Durchführung des Gesetzes",
+      "4. Verwaltungsverfügungen und Verwaltungsmassnahmen",
+      "Vorkehren bei Nichtbefolgung von Vorschriften oder Verfügungen"
+    ],
+    "@eId": "lvl_VI/lvl_4/lvl_u1"
+  },
+  {
+    "text": "Leistet der Fehlbare dem Verlangen keine Folge, so erlässt die kantonale Behörde eine entsprechende Verfügung, verbunden mit der Strafandrohung des Artikels 292 des Strafgesetzbuches .",
+    "metadata": [
+      "https://fedlex.admin.ch/eli/cc/1966/57_57_57/de#art_51",
+      "Art. 51",
+      "VI. Durchführung des Gesetzes",
+      "4. Verwaltungsverfügungen und Verwaltungsmassnahmen",
+      "Vorkehren bei Nichtbefolgung von Vorschriften oder Verfügungen"
+    ],
+    "@eId": "lvl_VI/lvl_4/lvl_u1"
+  },
+  {
+    "text": "Wird durch einen Verstoss im Sinne von Absatz 1 zugleich ein Gesamtarbeitsvertrag verletzt, so kann die kantonale Behörde in geeigneter Weise auf die Massnahmen der Vertragsparteien zur Durchsetzung des Gesamtarbeitsvertrages Rücksicht nehmen.",
+    "metadata": [
+      "https://fedlex.admin.ch/eli/cc/1966/57_57_57/de#art_51",
+      "Art. 51",
+      "VI. Durchführung des Gesetzes",
+      "4. Verwaltungsverfügungen und Verwaltungsmassnahmen",
+      "Vorkehren bei Nichtbefolgung von Vorschriften oder Verfügungen"
+    ],
+    "@eId": "lvl_VI/lvl_4/lvl_u1"
+  },
+  {
+    "text": "Wird eine Verfügung im Sinne von Artikel 51 Absatz 2 missachtet, so ergreift die kantonale Behörde die zur Herbeiführung des rechtmässigen Zustandes erforderlichen Massnahmen.",
+    "metadata": [
+      "https://fedlex.admin.ch/eli/cc/1966/57_57_57/de#art_52",
+      "Art. 52",
+      "VI. Durchführung des Gesetzes",
+      "4. Verwaltungsverfügungen und Verwaltungsmassnahmen",
+      "Massnahmen des Verwaltungszwangs"
+    ],
+    "@eId": "lvl_VI/lvl_4/lvl_u1"
+  },
+  {
+    "text": "Werden Leben oder Gesundheit von Arbeitnehmern oder die Umgebung des Betriebes durch die Missachtung einer Verfügung im Sinne von Artikel 51 Absatz 2 erheblich gefährdet, so kann die kantonale Behörde nach vorheriger schriftlicher Androhung die Benützung von Räumen oder Einrichtungen verhindern und in besonders schweren Fällen den Betrieb für eine bestimmte Zeit schliessen.",
+    "metadata": [
+      "https://fedlex.admin.ch/eli/cc/1966/57_57_57/de#art_52",
+      "Art. 52",
+      "VI. Durchführung des Gesetzes",
+      "4. Verwaltungsverfügungen und Verwaltungsmassnahmen",
+      "Massnahmen des Verwaltungszwangs"
+    ],
+    "@eId": "lvl_VI/lvl_4/lvl_u1"
+  },
+  {
+    "text": "Wird eine Arbeitszeitbewilligung nicht eingehalten, so kann die Bewilligungsbehörde, unabhängig vom Verfahren gemäss den Artikeln 51 und 52, die Bewilligung nach vorheriger schriftlicher Androhung aufheben und, wenn die Verhältnisse dies rechtfertigen, die Erteilung neuer Bewilligungen für eine bestimmte Zeit sperren.",
+    "metadata": [
+      "https://fedlex.admin.ch/eli/cc/1966/57_57_57/de#art_53",
+      "Art. 53",
+      "VI. Durchführung des Gesetzes",
+      "4. Verwaltungsverfügungen und Verwaltungsmassnahmen",
+      "Entzug und Sperre von Arbeitszeitbewilligungen"
+    ],
+    "@eId": "lvl_VI/lvl_4/lvl_u1"
+  },
+  {
+    "text": "Missbraucht ein Arbeitgeber die Befugnis zur Anordnung von Überzeitarbeit ohne Bewilligung, so kann ihm die kantonale Behörde diese Befugnis für eine bestimmte Zeit entziehen.",
+    "metadata": [
+      "https://fedlex.admin.ch/eli/cc/1966/57_57_57/de#art_53",
+      "Art. 53",
+      "VI. Durchführung des Gesetzes",
+      "4. Verwaltungsverfügungen und Verwaltungsmassnahmen",
+      "Entzug und Sperre von Arbeitszeitbewilligungen"
+    ],
+    "@eId": "lvl_VI/lvl_4/lvl_u1"
+  },
+  {
+    "text": "Die zuständigen Behörden sind verpflichtet, Anzeigen wegen Nichtbefolgung des Gesetzes, einer Verordnung oder einer Verfügung zu prüfen und, falls sie begründet sind, gemäss den Artikeln 51–53 zu verfahren.",
+    "metadata": [
+      "https://fedlex.admin.ch/eli/cc/1966/57_57_57/de#art_54",
+      "Art. 54",
+      "VI. Durchführung des Gesetzes",
+      "4. Verwaltungsverfügungen und Verwaltungsmassnahmen",
+      "Anzeigen"
+    ],
+    "@eId": "lvl_VI/lvl_4/lvl_u1"
+  },
+  {
+    "text": "Trifft die Behörde auf Anzeige hin keine oder ungenügende Vorkehren, so kann die übergeordnete Behörde angerufen werden.",
+    "metadata": [
+      "https://fedlex.admin.ch/eli/cc/1966/57_57_57/de#art_54",
+      "Art. 54",
+      "VI. Durchführung des Gesetzes",
+      "4. Verwaltungsverfügungen und Verwaltungsmassnahmen",
+      "Anzeigen"
+    ],
+    "@eId": "lvl_VI/lvl_4/lvl_u1"
+  },
+  {
+    "text": "Gegen Verfügungen der kantonalen Behörde kann innert 30 Tagen, von der Eröffnung der Verfügung an gerechnet, Beschwerde bei der kantonalen Rekursbehörde erhoben werden.",
+    "metadata": [
+      "https://fedlex.admin.ch/eli/cc/1966/57_57_57/de#art_56",
+      "Art. 56",
+      "VI. Durchführung des Gesetzes",
+      "5. Verwaltungsrechtspflege",
+      "Beschwerde gegen Verfügungen der kantonalen Behörde"
+    ],
+    "@eId": "lvl_VI/lvl_5/lvl_u2"
+  },
+  {
+    "text": "Der Entscheid ist dem Beschwerdeführer und der Behörde, deren Verfügung angefochten wurde, schriftlich mit Angabe der Gründe und mit Rechtsmittelbelehrung zu eröffnen. Im Übrigen richtet sich das Verfahren nach kantonalem Recht.",
+    "metadata": [
+      "https://fedlex.admin.ch/eli/cc/1966/57_57_57/de#art_56",
+      "Art. 56",
+      "VI. Durchführung des Gesetzes",
+      "5. Verwaltungsrechtspflege",
+      "Beschwerde gegen Verfügungen der kantonalen Behörde"
+    ],
+    "@eId": "lvl_VI/lvl_5/lvl_u2"
+  },
+  {
+    "text": "Zur Beschwerde gegen Verfügungen der kantonalen Behörden und der Bundesbehörden sind auch die Verbände der beteiligten Arbeitgeber und Arbeitnehmer berechtigt.",
+    "metadata": [
+      "https://fedlex.admin.ch/eli/cc/1966/57_57_57/de#art_58",
+      "Art. 58 None",
+      "VI. Durchführung des Gesetzes",
+      "5. Verwaltungsrechtspflege",
+      "Beschwerderecht"
+    ],
+    "@eId": "lvl_VI/lvl_5/lvl_u2"
+  },
+  {
+    "text": "Der Arbeitgeber ist strafbar, wenn er den Vorschriften über",
+    "metadata": [
+      "https://fedlex.admin.ch/eli/cc/1966/57_57_57/de#art_59",
+      "Art. 59 None",
+      "VI. Durchführung des Gesetzes",
+      "6. Strafbestimmungen",
+      "Strafrechtliche Verantwortlichkeit des Arbeitgebers"
+    ],
+    "@eId": "lvl_VI/lvl_6/lvl_u1"
+  },
+  {
+    "text": "den Gesundheitsschutz und die Plangenehmigung vorsätzlich oder fahrlässig zuwiderhandelt;",
+    "metadata": [
+      "https://fedlex.admin.ch/eli/cc/1966/57_57_57/de#art_59",
+      "Art. 59 None",
+      "VI. Durchführung des Gesetzes",
+      "6. Strafbestimmungen",
+      "Strafrechtliche Verantwortlichkeit des Arbeitgebers"
+    ],
+    "@eId": "lvl_VI/lvl_6/lvl_u1"
+  },
+  {
+    "text": "die Arbeits- und Ruhezeit vorsätzlich zuwiderhandelt;",
+    "metadata": [
+      "https://fedlex.admin.ch/eli/cc/1966/57_57_57/de#art_59",
+      "Art. 59 None",
+      "VI. Durchführung des Gesetzes",
+      "6. Strafbestimmungen",
+      "Strafrechtliche Verantwortlichkeit des Arbeitgebers"
+    ],
+    "@eId": "lvl_VI/lvl_6/lvl_u1"
+  },
+  {
+    "text": "den Sonderschutz der jugendlichen oder weiblichen Arbeitnehmer vorsätzlich oder fahrlässig zuwiderhandelt.",
+    "metadata": [
+      "https://fedlex.admin.ch/eli/cc/1966/57_57_57/de#art_59",
+      "Art. 59 None",
+      "VI. Durchführung des Gesetzes",
+      "6. Strafbestimmungen",
+      "Strafrechtliche Verantwortlichkeit des Arbeitgebers"
+    ],
+    "@eId": "lvl_VI/lvl_6/lvl_u1"
+  },
+  {
+    "text": "Artikel 6 des Verwaltungsstrafrechtsgesetzes vom 22. März 1974 ist anwendbar.",
+    "metadata": [
+      "https://fedlex.admin.ch/eli/cc/1966/57_57_57/de#art_59",
+      "Art. 59 None",
+      "VI. Durchführung des Gesetzes",
+      "6. Strafbestimmungen",
+      "Strafrechtliche Verantwortlichkeit des Arbeitgebers"
+    ],
+    "@eId": "lvl_VI/lvl_6/lvl_u1"
+  },
+  {
+    "text": "Der Arbeitnehmer ist strafbar, wenn er den Vorschriften über den Gesundheitsschutz vorsätzlich zuwiderhandelt.",
+    "metadata": [
+      "https://fedlex.admin.ch/eli/cc/1966/57_57_57/de#art_60",
+      "Art. 60 None",
+      "VI. Durchführung des Gesetzes",
+      "6. Strafbestimmungen",
+      "Strafrechtliche Verantwortlichkeit des Arbeitnehmers"
+    ],
+    "@eId": "lvl_VI/lvl_6/lvl_u1"
+  },
+  {
+    "text": "Gefährdet er dadurch andere Personen ernstlich, so ist auch die fahrlässige Widerhandlung strafbar.",
+    "metadata": [
+      "https://fedlex.admin.ch/eli/cc/1966/57_57_57/de#art_60",
+      "Art. 60 None",
+      "VI. Durchführung des Gesetzes",
+      "6. Strafbestimmungen",
+      "Strafrechtliche Verantwortlichkeit des Arbeitnehmers"
+    ],
+    "@eId": "lvl_VI/lvl_6/lvl_u1"
+  },
+  {
+    "text": "Der Arbeitgeber wird mit Geldstrafe bis zu 180 Tagessätzen bestraft.",
+    "metadata": [
+      "https://fedlex.admin.ch/eli/cc/1966/57_57_57/de#art_61",
+      "Art. 61 None",
+      "VI. Durchführung des Gesetzes",
+      "6. Strafbestimmungen",
+      "Strafen"
+    ],
+    "@eId": "lvl_VI/lvl_6/lvl_u1"
+  },
+  {
+    "text": "Der Arbeitnehmer wird mit Busse bestraft.",
+    "metadata": [
+      "https://fedlex.admin.ch/eli/cc/1966/57_57_57/de#art_61",
+      "Art. 61 None",
+      "VI. Durchführung des Gesetzes",
+      "6. Strafbestimmungen",
+      "Strafen"
+    ],
+    "@eId": "lvl_VI/lvl_6/lvl_u1"
+  },
+  {
+    "text": "Die besonderen Bestimmungen des Strafgesetzbuches bleiben vorbehalten.",
+    "metadata": [
+      "https://fedlex.admin.ch/eli/cc/1966/57_57_57/de#art_62",
+      "Art. 62",
+      "VI. Durchführung des Gesetzes",
+      "6. Strafbestimmungen",
+      "Vorbehalt des Strafgesetzbuches und Strafverfolgung"
+    ],
+    "@eId": "lvl_VI/lvl_6/lvl_u1"
+  },
+  {
+    "text": "Die Strafverfolgung ist Sache der Kantone.",
+    "metadata": [
+      "https://fedlex.admin.ch/eli/cc/1966/57_57_57/de#art_62",
+      "Art. 62",
+      "VI. Durchführung des Gesetzes",
+      "6. Strafbestimmungen",
+      "Vorbehalt des Strafgesetzbuches und Strafverfolgung"
+    ],
+    "@eId": "lvl_VI/lvl_6/lvl_u1"
+  },
+  {
+    "text": "Vorbehalten bleiben insbesondere",
+    "metadata": [
+      "https://fedlex.admin.ch/eli/cc/1966/57_57_57/de#art_71",
+      "Art. 71",
+      "VIII. Schluss- und Übergangsbestimmungen",
+      "Vorbehalt von Vorschriften des Bundes, der Kantone und der Gemeinden"
+    ],
+    "@eId": "lvl_VIII/lvl_u1"
+  },
+  {
+    "text": "die Bundesgesetzgebung über die berufliche Ausbildung, über die Verhütung von Unfällen und Berufskrankheiten sowie über die Arbeits- und Ruhezeit der berufsmässigen Motorfahrzeugführer;",
+    "metadata": [
+      "https://fedlex.admin.ch/eli/cc/1966/57_57_57/de#art_71",
+      "Art. 71",
+      "VIII. Schluss- und Übergangsbestimmungen",
+      "Vorbehalt von Vorschriften des Bundes, der Kantone und der Gemeinden"
+    ],
+    "@eId": "lvl_VIII/lvl_u1"
+  },
+  {
+    "text": "Vorschriften des Bundes, der Kantone und der Gemeinden über das öffentlich-rechtliche Dienstverhältnis; von den Vorschriften über den Gesundheitsschutz und über die Arbeits- und Ruhezeit darf dabei jedoch nur zu Gunsten der Arbeitnehmer abgewichen werden;",
+    "metadata": [
+      "https://fedlex.admin.ch/eli/cc/1966/57_57_57/de#art_71",
+      "Art. 71",
+      "VIII. Schluss- und Übergangsbestimmungen",
+      "Vorbehalt von Vorschriften des Bundes, der Kantone und der Gemeinden"
+    ],
+    "@eId": "lvl_VIII/lvl_u1"
+  },
+  {
+    "text": "Polizeivorschriften des Bundes, der Kantone und der Gemeinden, wie namentlich solche über die Bau‑, Feuer‑, Gesundheits- und Wasserpolizei sowie über die Sonntagsruhe und über die Öffnungszeiten von Betrieben, die dem Detailverkauf, der Bewirtung oder der Unterhaltung dienen.",
+    "metadata": [
+      "https://fedlex.admin.ch/eli/cc/1966/57_57_57/de#art_71",
+      "Art. 71",
+      "VIII. Schluss- und Übergangsbestimmungen",
+      "Vorbehalt von Vorschriften des Bundes, der Kantone und der Gemeinden"
+    ],
+    "@eId": "lvl_VIII/lvl_u1"
+  },
+  {
+    "text": "Mit dem Inkrafttreten des Gesetzes sind folgende Bundesgesetze aufgehoben:",
+    "metadata": [
+      "https://fedlex.admin.ch/eli/cc/1966/57_57_57/de#art_72",
+      "Art. 72",
+      "VIII. Schluss- und Übergangsbestimmungen",
+      "Aufhebung eidgenössischer Vorschriften"
+    ],
+    "@eId": "lvl_VIII/lvl_u1"
+  },
+  {
+    "text": "das Bundesgesetz vom 2. November 1898 betreffend die Fabrikation und den Vertrieb von Zündhölzern;",
+    "metadata": [
+      "https://fedlex.admin.ch/eli/cc/1966/57_57_57/de#art_72",
+      "Art. 72",
+      "VIII. Schluss- und Übergangsbestimmungen",
+      "Aufhebung eidgenössischer Vorschriften"
+    ],
+    "@eId": "lvl_VIII/lvl_u1"
+  },
+  {
+    "text": "das Bundesgesetz vom 18. Juni 1914 betreffend die Arbeit in den Fabriken, unter Vorbehalt von Absatz 2;",
+    "metadata": [
+      "https://fedlex.admin.ch/eli/cc/1966/57_57_57/de#art_72",
+      "Art. 72",
+      "VIII. Schluss- und Übergangsbestimmungen",
+      "Aufhebung eidgenössischer Vorschriften"
+    ],
+    "@eId": "lvl_VIII/lvl_u1"
+  },
+  {
+    "text": "das Bundesgesetz vom 31. März 1922 über die Beschäftigung der jugendlichen und weiblichen Personen in den Gewerben;",
+    "metadata": [
+      "https://fedlex.admin.ch/eli/cc/1966/57_57_57/de#art_72",
+      "Art. 72",
+      "VIII. Schluss- und Übergangsbestimmungen",
+      "Aufhebung eidgenössischer Vorschriften"
+    ],
+    "@eId": "lvl_VIII/lvl_u1"
+  },
+  {
+    "text": "das Bundesgesetz vom 26. September 1931 über die wöchentliche Ruhezeit;",
+    "metadata": [
+      "https://fedlex.admin.ch/eli/cc/1966/57_57_57/de#art_72",
+      "Art. 72",
+      "VIII. Schluss- und Übergangsbestimmungen",
+      "Aufhebung eidgenössischer Vorschriften"
+    ],
+    "@eId": "lvl_VIII/lvl_u1"
+  },
+  {
+    "text": "das Bundesgesetz vom 24. Juni 1938 über das Mindestalter der Arbeitnehmer.",
+    "metadata": [
+      "https://fedlex.admin.ch/eli/cc/1966/57_57_57/de#art_72",
+      "Art. 72",
+      "VIII. Schluss- und Übergangsbestimmungen",
+      "Aufhebung eidgenössischer Vorschriften"
+    ],
+    "@eId": "lvl_VIII/lvl_u1"
+  },
+  {
+    "text": "Auf industrielle Betriebe bleiben die folgenden Vorschriften des Bundesgesetzes vom 18. Juni 1914 betreffend die Arbeit in den Fabriken weiterhin anwendbar:",
+    "metadata": [
+      "https://fedlex.admin.ch/eli/cc/1966/57_57_57/de#art_72",
+      "Art. 72",
+      "VIII. Schluss- und Übergangsbestimmungen",
+      "Aufhebung eidgenössischer Vorschriften"
+    ],
+    "@eId": "lvl_VIII/lvl_u1"
+  },
+  {
+    "text": "…",
+    "metadata": [
+      "https://fedlex.admin.ch/eli/cc/1966/57_57_57/de#art_72",
+      "Art. 72",
+      "VIII. Schluss- und Übergangsbestimmungen",
+      "Aufhebung eidgenössischer Vorschriften"
+    ],
+    "@eId": "lvl_VIII/lvl_u1"
+  },
+  {
+    "text": "die Vorschriften der Artikel 30, 31 und 33–35 über das Einigungswesen.",
+    "metadata": [
+      "https://fedlex.admin.ch/eli/cc/1966/57_57_57/de#art_72",
+      "Art. 72",
+      "VIII. Schluss- und Übergangsbestimmungen",
+      "Aufhebung eidgenössischer Vorschriften"
+    ],
+    "@eId": "lvl_VIII/lvl_u1"
+  },
+  {
+    "text": "Mit dem Inkrafttreten des Gesetzes sind ferner aufgehoben:",
+    "metadata": [
+      "https://fedlex.admin.ch/eli/cc/1966/57_57_57/de#art_73",
+      "Art. 73",
+      "VIII. Schluss- und Übergangsbestimmungen",
+      "Aufhebung kantonaler Vorschriften"
+    ],
+    "@eId": "lvl_VIII/lvl_u1"
+  },
+  {
+    "text": "die kantonalen Vorschriften, die vom Gesetze geregelte Sachgebiete betreffen;",
+    "metadata": [
+      "https://fedlex.admin.ch/eli/cc/1966/57_57_57/de#art_73",
+      "Art. 73",
+      "VIII. Schluss- und Übergangsbestimmungen",
+      "Aufhebung kantonaler Vorschriften"
+    ],
+    "@eId": "lvl_VIII/lvl_u1"
+  },
+  {
+    "text": "die kantonalen Vorschriften über die Ferien, unter Vorbehalt von Absatz 2.",
+    "metadata": [
+      "https://fedlex.admin.ch/eli/cc/1966/57_57_57/de#art_73",
+      "Art. 73",
+      "VIII. Schluss- und Übergangsbestimmungen",
+      "Aufhebung kantonaler Vorschriften"
+    ],
+    "@eId": "lvl_VIII/lvl_u1"
+  },
+  {
+    "text": "Kantonale Vorschriften über die Feriendauer, die längere Ferien als Artikel 341 bis Absatz 1 des Obligationenrechts vorsehen, bleiben als zivilrechtliche Bestimmungen im Rahmen von Artikel 341 bis Absatz 2 des Obligationenrechts weiterhin in Kraft.",
+    "metadata": [
+      "https://fedlex.admin.ch/eli/cc/1966/57_57_57/de#art_73",
+      "Art. 73",
+      "VIII. Schluss- und Übergangsbestimmungen",
+      "Aufhebung kantonaler Vorschriften"
+    ],
+    "@eId": "lvl_VIII/lvl_u1"
+  },
+  {
+    "text": "Vorbehalten bleiben kantonale Vorschriften über die ärztliche Untersuchung der Jugendlichen, soweit der Bund von seiner Befugnis gemäss Artikel 29 Absatz 4 keinen Gebrauch macht.",
+    "metadata": [
+      "https://fedlex.admin.ch/eli/cc/1966/57_57_57/de#art_73",
+      "Art. 73",
+      "VIII. Schluss- und Übergangsbestimmungen",
+      "Aufhebung kantonaler Vorschriften"
+    ],
+    "@eId": "lvl_VIII/lvl_u1"
+  },
+  {
+    "text": "…",
+    "metadata": [
+      "https://fedlex.admin.ch/eli/cc/1966/57_57_57/de#art_73",
+      "Art. 73",
+      "VIII. Schluss- und Übergangsbestimmungen",
+      "Aufhebung kantonaler Vorschriften"
+    ],
+    "@eId": "lvl_VIII/lvl_u1"
+  },
+  {
+    "text": "Der Bundesrat bestimmt den Zeitpunkt des Inkrafttretens des Gesetzes. Er kann einzelne Teile oder Vorschriften des Gesetzes in einem späteren Zeitpunkt in Kraft setzen.",
+    "metadata": [
+      "https://fedlex.admin.ch/eli/cc/1966/57_57_57/de#art_74",
+      "Art. 74",
+      "VIII. Schluss- und Übergangsbestimmungen",
+      "Inkrafttreten"
+    ],
+    "@eId": "lvl_VIII/lvl_u1"
+  },
+  {
+    "text": "Setzt der Bundesrat nicht alle Vorschriften des Gesetzes auf den gleichen Zeitpunkt in Kraft, so bestimmt er mit der Inkraftsetzung der einzelnen Vorschriften, ob und inwieweit die in Artikel 72 Absatz 1 genannten Bundesgesetze aufgehoben sind.",
+    "metadata": [
+      "https://fedlex.admin.ch/eli/cc/1966/57_57_57/de#art_74",
+      "Art. 74",
+      "VIII. Schluss- und Übergangsbestimmungen",
+      "Inkrafttreten"
+    ],
+    "@eId": "lvl_VIII/lvl_u1"
+  },
+  {
+    "text": "Datum des Inkrafttretens: 1. Februar 1966",
+    "metadata": [
+      "https://fedlex.admin.ch/eli/cc/1966/57_57_57/de#art_74",
+      "Art. 74",
+      "VIII. Schluss- und Übergangsbestimmungen",
+      "Inkrafttreten"
+    ],
+    "@eId": "lvl_VIII/lvl_u1"
+  }
+]

@@ -53,11 +53,7 @@ class ChatBotPipeline:
     
     def sys_prompt(self):
         content = """
-        You are a Swiss legal expert. Please only answer Swiss legal questions, for other irrelevant question, just say 'Your question is out of scope.'
-        Use the pieces of Swiss law provided in user message to answer the user question. This Swiss law retrieved from a knowledge base and you should use only the facts from the Swiss law to answer.
-        Your answer must be based on the Swiss law. If the Swiss law not contain the answer, just say that 'I don't know', don't try to make up an answer, use the Swiss law.
-        Don't address the Swiss law directly, but use it to answer the user question like it's your own knowledge.
-        Answer in short, if the user asks further questions, be more detailed.
+        You are a Swiss legal expert. Please only answer Swiss legal questions, for other irrelevant question, just say 'Your question is out of scope.' Use the pieces of Swiss law provided in the Swiss law retrieval result to answer the user question. You should only use the Swiss law retrieval result for your answer. Your answer must be based on the Swiss law retrieval result. If the Swiss law retrieval result does not contain the exact answer to the exact question, just say that 'I don't know', don't try to make up an answer if it is not fully clear from the Swiss law retrieval result. Explain your answer and refer the exact source / article of the Swiss law retrieval result sentence by sentence.
         """
         sys_message = [{"role":"system","content":content}]
 
@@ -66,7 +62,7 @@ class ChatBotPipeline:
     def user_prompt(self, retrieved_info: dict) -> str:
         retrieved_text = retrieved_info["text"]
         prompt = f"""
-        Swiss law:
+        Swiss law retrieval result:
         {retrieved_text}
         """
         return prompt
@@ -92,7 +88,7 @@ class ChatBotPipeline:
         
         async for result in results:
             retrieved_info["eIds"].append(result["eIds"])
-            retrieved_info["text"].append(result["text"])
+            retrieved_info["text"].append(result["metadata"][1] + ': ' + result["text"])
             retrieved_info["metadata"].append(result["metadata"])
         self.reasoning_thread.append({"type": "search", "query": user_query, "results": retrieved_info})
         return retrieved_info

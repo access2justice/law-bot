@@ -19,6 +19,7 @@ service_endpoint = os.getenv('AZURE_SEARCH_ENDPOINT')
 index_name = os.getenv('AZURE_SEARCH_INDEX_NAME')
 key = os.getenv('AZURE_SEARCH_KEY')
 
+
 def get_lawbot_index(name: str):
     """ Function to create the lawbot index """
     fields = [
@@ -52,9 +53,8 @@ def get_lawbot_index(name: str):
             vector_search_profile_name="lawbot-vector-config",
         ),
         SearchField(
-            name="eId", type=SearchFieldDataType.String,
+            name="eIds", type=SearchFieldDataType.Collection(SearchFieldDataType.String),
             searchable=True,
-            sortable=True,
             filterable=True,
             facetable=True
         )
