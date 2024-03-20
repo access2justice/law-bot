@@ -22,7 +22,7 @@ export class LawBotBackend extends cdk.Stack {
         code: DockerImageCode.fromImageAsset(
           path.resolve(__dirname, "../../backend")
         ),
-        timeout: cdk.Duration.seconds(30),
+        timeout: cdk.Duration.seconds(60),
         memorySize: 256,
         reservedConcurrentExecutions: 100,
       }
