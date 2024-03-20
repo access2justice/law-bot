@@ -42,7 +42,7 @@ export const handler: Handler = async (event) => {
     });
     console.log("2.4. Backend response:", backendResponse);
 
-    if (backendResponse) {
+    if ((backendResponse.message = "Endpoint request timed out")) {
       throw new Error("Request timed out");
     }
 
