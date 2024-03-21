@@ -4,11 +4,12 @@ from fastapi import FastAPI
 from openai import AsyncAzureOpenAI, AzureOpenAI
 from fastapi.middleware.cors import CORSMiddleware
 from dotenv import load_dotenv
-from .services.globals import clients,logger
+from .config.globals import clients
+from .config.logconfig import logger
 from .api import chat
 from azure.core.credentials import AzureKeyCredential
 from azure.search.documents.aio import SearchClient
-from .services.LoggingMiddleware import LoggingMiddleware
+from .config.LoggingMiddleware import LoggingMiddleware
 
 @asynccontextmanager
 async def lifespan(app: FastAPI):
@@ -46,7 +47,6 @@ def create_app():
             lifespan=lifespan)
 
     logger.info('Backend is starting up')
-
     
     @app.get("/")
     def get_root():

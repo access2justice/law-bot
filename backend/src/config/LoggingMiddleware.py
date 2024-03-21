@@ -1,8 +1,10 @@
 from starlette.middleware.base import BaseHTTPMiddleware
 from starlette.requests import Request
 import traceback
-from .globals import logger
 from fastapi.responses import JSONResponse
+import logging
+import sys
+from .logconfig import logger
 
 class LoggingMiddleware(BaseHTTPMiddleware):
     async def dispatch(self, request: Request, call_next):
