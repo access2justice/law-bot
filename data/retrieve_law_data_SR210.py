@@ -41,6 +41,11 @@ def get_element_clean_text(el):
     return ' '.join(texts)
 
 
+#get title and num of the document
+doc_title = [get_element_clean_text(akn_doc_de.root.act.preface.p[1].docTitle)]
+doc_num = ['SR ' + akn_doc_de.root.act.preface.p[0].docNumber.text]
+
+
 def process_paragraph_blocklist(lst, blocklist, article_lnk, article_title, section_titles, level_eid):
     if blocklist is None:
         return
@@ -52,7 +57,7 @@ def process_paragraph_blocklist(lst, blocklist, article_lnk, article_title, sect
         article_paragraph = list_intro.attrib["eId"]
         paragraph_txt = get_element_clean_text(list_intro)
         if paragraph_txt:
-            lst.append({'text': paragraph_txt, 'metadata': article_lnk + article_title + section_titles + [level_eid], '@eId': article_paragraph})
+            lst.append({'text': paragraph_txt, 'metadata': article_lnk + doc_num + doc_title + article_title + section_titles + [level_eid], '@eId': article_paragraph})
 
     # Process any list items (this allows to capture enumerated paragraphs), ex.: Art. 958 C
     if hasattr(blocklist, 'item'):
@@ -61,7 +66,7 @@ def process_paragraph_blocklist(lst, blocklist, article_lnk, article_title, sect
                 article_paragraph = item.attrib["eId"]
                 paragraph_txt = get_element_clean_text(item.p)
                 if paragraph_txt:
-                    lst.append({'text': paragraph_txt, 'metadata': article_lnk + article_title + section_titles + [level_eid], '@eId': article_paragraph})
+                    lst.append({'text': paragraph_txt, 'metadata': article_lnk + doc_num + doc_title + article_title + section_titles + [level_eid], '@eId': article_paragraph})
 
             # Handle blocklists nested within items
             if hasattr(item, 'blockList'):
@@ -94,7 +99,7 @@ def process_article(lst, article, section_titles, level_eid):
             article_paragraph = paragraph.attrib['eId']
             paragraph_txt = get_element_clean_text(paragraph.content.p)
             if paragraph_txt:
-                lst.append({'text': paragraph_txt, 'metadata': article_url + article_title + section_titles + [level_eid], '@eId': article_paragraph})
+                lst.append({'text': paragraph_txt, 'metadata': article_url + doc_num + doc_title + article_title + section_titles + [level_eid], '@eId': article_paragraph})
 
         # When an article has blocklist within content, it will call the function process_paragraph_blocklist
         # This occurs where there are enumerated items within an article. Ex. Art. 24
@@ -161,20 +166,21 @@ lst_data_compiled_de = find_articles(lst_data_compiled_de, akn_doc_de.root.act.b
 
 
 # # Grouping the data by article, each entry on dictionary will have all the text associated to it (all paragraphs merged) in a string within the key 'text'
-# # and all eIds will be in a list with the key '@eIds'. Metadata stays the same since is the same metadata.
-# # create a new dict to group the data using the links as keys
+# # and all eIds will be in a list with the key '@eIds'. Metadata has an additional entry that is not on the other files - level_eid
+# # level_eid allows for the correct grouping. The same article number is  present in two different sections of this xml
+# # Using the additional identifier will allow for the two sections getting 2 different indexes
+# # There is only 1 link for each article number (points to the first section)
+# # create a new dict to group based on the article level + the level_eid
 by_article = {}
 for elem in lst_data_compiled_de:
     level_key = elem['metadata'][-1]
-    article_key = elem['metadata'][1]
+    article_key = elem['metadata'][3]
     new_key = level_key + article_key
-    print(new_key)
     if new_key not in by_article:
         by_article[new_key] = {'text': elem['text'], 'metadata': elem['metadata'], '@eIds': [elem['@eId']]}
     else:
         by_article[new_key]['text'] += ' ' + elem['text']
         by_article[new_key]['@eIds'].append(elem['@eId'])
-        print(by_article)
 
 # removing the article link as a key that was used to group the data so that he exported data in the json format has the same structure
 values_by_article = list(by_article.values())
