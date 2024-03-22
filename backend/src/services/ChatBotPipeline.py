@@ -91,17 +91,7 @@ class ChatBotPipeline:
             select=["text", "metadata", "eIds"],
             include_total_count=True)   
         
-        semantic_answers = await results.get_answers()
-        if semantic_answers != None:
-            for answer in semantic_answers:
-                if answer.highlights:
-                    print(f"Semantic Answer: {answer.highlights}")
-                else:
-                    print(f"Semantic Answer: {answer.text}")
-                print(f"Semantic Answer Score: {answer.score}\n")
-        
         async for result in results:
-            print(f"reranker score: {result['@search.reranker_score']}")
             retrieved_info["eIds"].append(result["eIds"])
             retrieved_info["text"].append(result["metadata"][-1] + ': ' + result["text"])
             retrieved_info["metadata"].append(result["metadata"])
@@ -121,9 +111,7 @@ class ChatBotPipeline:
         user_content = user_query + " " + prompt
         user_message = [{"role":"user", "content":user_content}]
         user_message_tokens = self.num_tokens_from_messages(user_message)
-        print(user_message_tokens)
         user_message_token_limit = self.model_token_limit - self.max_response_tokens - sys_message_tokens
-        print(user_message_token_limit)
         conversation = sys_message + user_message
 
         if chat_stream:
