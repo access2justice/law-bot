@@ -1,9 +1,23 @@
 import mongoose, { Connection, Model, Schema } from "mongoose";
 
+export interface ReasoningInterface {
+  order: number;
+  type: "llm" | "search";
+  llmQuery?: {
+    messages: {
+      role: string;
+      prompt: string;
+    }[];
+  };
+  searchQuery?: {
+    query: string;
+  };
+}
+
 let reasoningModel = null as Model<any> | null;
 let conn = null as Connection | null;
 
-const getReasoningModel = async (): Promise<Model<any>> => {
+const getReasoningModel = async (): Promise<Model<ReasoningInterface>> => {
   if (reasoningModel) {
     return reasoningModel;
   }
