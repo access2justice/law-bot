@@ -1,46 +1,7 @@
 import { AzureKeyCredential, SearchClient } from "@azure/search-documents";
 import { ChatRequestMessage, OpenAIClient } from "@azure/openai";
 import { APIGatewayProxyHandler } from "aws-lambda";
-import mongoose, { Connection, Model, Schema } from "mongoose";
-
-let reasoningModel = null as Model<any> | null;
-let conn = null as Connection | null;
-
-async function getReasoningModel(): Promise<Model<any>> {
-  if (reasoningModel) {
-    return reasoningModel;
-  }
-
-  await mongoose.connect(process.env.DB_CONNECTION_STRING || "");
-
-  reasoningModel = mongoose.model(
-    "legalReasoning",
-    new Schema({
-      order: { type: Number, required: true },
-      type: { type: String, enum: ["search", "llm"] },
-      llmQuery: {
-        type: {
-          messages: [
-            {
-              role: String,
-              prompt: String,
-            },
-          ],
-        },
-        required: false,
-      },
-      searchQuery: {
-        type: {
-          query: String,
-        },
-        required: false,
-      },
-    })
-  );
-  conn = mongoose.connection;
-
-  return reasoningModel;
-}
+import { getReasoning } from "./repository";
 
 const openAIClient = new OpenAIClient(
   process.env.AZURE_OPENAI_ENDPOINT || "",
@@ -80,12 +41,7 @@ export const handler: APIGatewayProxyHandler = async (event) => {
 
     let baseQuery = message[0].content;
 
-    const reasoningModel = await getReasoningModel();
-    const reasoning = (await reasoningModel.find({}).lean()).sort(
-      (a, b) => a.order - b.order
-    );
-
-    console.log(reasoning);
+    const reasoning = await getReasoning();
 
     const reasoningThread = [];
 
