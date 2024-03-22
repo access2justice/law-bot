@@ -14,6 +14,12 @@ export class LawBotBackend extends cdk.Stack {
   ) {
     super(scope, id, props);
 
+    console.log("process.env.AUTHENTICATION_KEY");
+    console.log(process.env.AUTHENTICATION_KEY || "");
+
+    console.log("process.env.DB_CONNECTION_STRING");
+    console.log(process.env.DB_CONNECTION_STRING || "");
+
     const lambdaFunction = new Function(this, "LambdaFunction", {
       runtime: Runtime.NODEJS_LATEST,
       timeout: cdk.Duration.seconds(60),
