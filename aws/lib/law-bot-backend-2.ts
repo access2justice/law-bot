@@ -14,11 +14,16 @@ export class LawBotBackend extends cdk.Stack {
   ) {
     super(scope, id, props);
 
-    console.log("process.env.AUTHENTICATION_KEY");
-    console.log((process.env.AUTHENTICATION_KEY || "").length);
+    const dbConnectionString = (
+      process.env.DB_CONNECTION_STRING || ""
+    ).toString();
+    const authenticationKey = (process.env.AUTHENTICATION_KEY || "").toString();
 
-    console.log("process.env.DB_CONNECTION_STRING");
-    console.log((process.env.DB_CONNECTION_STRING || "").length);
+    console.log("dbConnectionString");
+    console.log(dbConnectionString);
+
+    console.log("authenticationKey");
+    console.log(authenticationKey);
 
     const lambdaFunction = new Function(this, "LambdaFunction", {
       runtime: Runtime.NODEJS_LATEST,
@@ -26,7 +31,7 @@ export class LawBotBackend extends cdk.Stack {
       handler: "index.handler",
       code: Code.fromAsset(path.resolve(__dirname, "../../backend-2")), // same assumption as above
       environment: {
-        AUTHENTICATION_KEY: process.env.AUTHENTICATION_KEY || "",
+        AUTHENTICATION_KEY: authenticationKey,
         AZURE_OPENAI_ENDPOINT: process.env.AZURE_OPENAI_ENDPOINT || "",
         AZURE_OPENAI_KEY: process.env.AZURE_OPENAI_KEY || "",
         AZURE_OPENAI_EMBEDDING_DEPLOYMENT:
@@ -36,7 +41,7 @@ export class LawBotBackend extends cdk.Stack {
         AZURE_SEARCH_KEY: process.env.AZURE_SEARCH_KEY || "",
         AZURE_OPENAI_DEPLOYMENT_NAME:
           process.env.AZURE_OPENAI_DEPLOYMENT_NAME || "",
-        DB_CONNECTION_STRING: process.env.DB_CONNECTION_STRING || "",
+        DB_CONNECTION_STRING: dbConnectionString,
       },
     });
 
