@@ -14,24 +14,14 @@ export class LawBotBackend extends cdk.Stack {
   ) {
     super(scope, id, props);
 
-    const dbConnectionString = (
-      process.env.DB_CONNECTION_STRING || ""
-    ).toString();
-    const authenticationKey = (process.env.AUTHENTICATION_KEY || "").toString();
-
-    console.log("dbConnectionString");
-    console.log(dbConnectionString);
-
-    console.log("authenticationKey");
-    console.log(authenticationKey);
-
     const lambdaFunction = new Function(this, "LambdaFunction", {
       runtime: Runtime.NODEJS_LATEST,
       timeout: cdk.Duration.seconds(60),
       handler: "index.handler",
       code: Code.fromAsset(path.resolve(__dirname, "../../backend-2")), // same assumption as above
+      /*
       environment: {
-        // AUTHENTICATION_KEY: authenticationKey,
+        AUTHENTICATION_KEY: authenticationKey,
         AZURE_OPENAI_ENDPOINT: process.env.AZURE_OPENAI_ENDPOINT || "",
         AZURE_OPENAI_KEY: process.env.AZURE_OPENAI_KEY || "",
         AZURE_OPENAI_EMBEDDING_DEPLOYMENT:
@@ -41,8 +31,9 @@ export class LawBotBackend extends cdk.Stack {
         AZURE_SEARCH_KEY: process.env.AZURE_SEARCH_KEY || "",
         AZURE_OPENAI_DEPLOYMENT_NAME:
           process.env.AZURE_OPENAI_DEPLOYMENT_NAME || "",
-        // DB_CONNECTION_STRING: dbConnectionString,
+        DB_CONNECTION_STRING: dbConnectionString,
       },
+      */
     });
 
     this.apiGateway = props?.apiGateway as cdk.aws_apigateway.RestApi;
