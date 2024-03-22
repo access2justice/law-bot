@@ -31,7 +31,7 @@ export class LawBotBackend extends cdk.Stack {
       handler: "index.handler",
       code: Code.fromAsset(path.resolve(__dirname, "../../backend-2")), // same assumption as above
       environment: {
-        AUTHENTICATION_KEY: authenticationKey,
+        // AUTHENTICATION_KEY: authenticationKey,
         AZURE_OPENAI_ENDPOINT: process.env.AZURE_OPENAI_ENDPOINT || "",
         AZURE_OPENAI_KEY: process.env.AZURE_OPENAI_KEY || "",
         AZURE_OPENAI_EMBEDDING_DEPLOYMENT:
@@ -41,7 +41,7 @@ export class LawBotBackend extends cdk.Stack {
         AZURE_SEARCH_KEY: process.env.AZURE_SEARCH_KEY || "",
         AZURE_OPENAI_DEPLOYMENT_NAME:
           process.env.AZURE_OPENAI_DEPLOYMENT_NAME || "",
-        DB_CONNECTION_STRING: dbConnectionString,
+        // DB_CONNECTION_STRING: dbConnectionString,
       },
     });
 

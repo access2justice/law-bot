@@ -62,10 +62,9 @@ const getEmbeddings = async (query: string) => {
 
 export const handler: APIGatewayProxyHandler = async (event) => {
   try {
-    const authenticationKey = event.headers["Authentication"]?.replace(
-      "Bearer ",
-      ""
-    );
+    const authenticationKey =
+      event.headers["Authorization"]?.replace("Bearer ", "") ||
+      event.headers["authorization"]?.replace("Bearer ", "");
 
     if (authenticationKey !== process.env.AUTHENTICATION_KEY) {
       throw new Error("Unauthenticated!");
@@ -181,7 +180,7 @@ export const handler: APIGatewayProxyHandler = async (event) => {
     return {
       statusCode: 200,
       body: JSON.stringify({
-        message: "Failed to offload the task to the second Lambda function.",
+        message: `Failed to offload the task to the second Lambda function. ${error}`,
       }),
     };
   }
