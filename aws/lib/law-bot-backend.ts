@@ -2,19 +2,7 @@ import * as cdk from "aws-cdk-lib";
 import { Construct } from "constructs";
 import { LambdaIntegration, RestApi } from "aws-cdk-lib/aws-apigateway";
 import * as path from "path";
-import {
-  DockerImageCode,
-  DockerImageFunction,
-  Function,
-  Runtime,
-  Code,
-} from "aws-cdk-lib/aws-lambda";
-
-import {
-  PredefinedMetric,
-  ScalableTarget,
-  ServiceNamespace,
-} from "aws-cdk-lib/aws-applicationautoscaling";
+import { Function, Runtime, Code } from "aws-cdk-lib/aws-lambda";
 
 export class LawBotBackend extends cdk.Stack {
   public apiGateway: cdk.aws_apigateway.RestApi;
@@ -22,7 +10,7 @@ export class LawBotBackend extends cdk.Stack {
   constructor(scope: Construct, id: string, props?: cdk.StackProps) {
     super(scope, id, props);
 
-    const lambdaFunction = new Function(this, "LambdaFunctionSlackWorker", {
+    const lambdaFunction = new Function(this, "LambdaFunction", {
       runtime: Runtime.NODEJS_LATEST,
       timeout: cdk.Duration.seconds(60),
       handler: "index.handler",

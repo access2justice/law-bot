@@ -1,6 +1,6 @@
 {
   "app": "npx ts-node --prefer-ts-exts bin/aws-cdk-python-prototype.ts",
-  "build": "npm run build --prefix ../slack/responder && npm run build --prefix ../slack/worker",
+  "build": "npm run build --prefix ../slack/responder && npm run build --prefix ../slack/worker && npm run build --prefix ../backend-2",
   "watch": {
     "include": ["**"],
     "exclude": [
