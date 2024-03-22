@@ -1,34 +1,46 @@
 import { AzureKeyCredential, SearchClient } from "@azure/search-documents";
 import { ChatRequestMessage, OpenAIClient } from "@azure/openai";
 import { APIGatewayProxyHandler } from "aws-lambda";
-import mongoose, { Schema } from "mongoose";
+import mongoose, { Connection, Model, Schema } from "mongoose";
 
-mongoose.connect(process.env.DB_CONNECTION_STRING || "");
+let reasoningModel = null as Model<any> | null;
+let conn = null as Connection | null;
 
-const reasoningModel = mongoose.model(
-  "legalReasoning",
-  new Schema({
-    order: { type: Number, required: true },
-    type: { type: String, enum: ["search", "llm"] },
-    llmQuery: {
-      type: {
-        messages: [
-          {
-            role: String,
-            prompt: String,
-          },
-        ],
+async function getReasoningModel(): Promise<Model<any>> {
+  if (reasoningModel) {
+    return reasoningModel;
+  }
+
+  await mongoose.connect(process.env.DB_CONNECTION_STRING || "");
+
+  reasoningModel = mongoose.model(
+    "legalReasoning",
+    new Schema({
+      order: { type: Number, required: true },
+      type: { type: String, enum: ["search", "llm"] },
+      llmQuery: {
+        type: {
+          messages: [
+            {
+              role: String,
+              prompt: String,
+            },
+          ],
+        },
+        required: false,
       },
-      required: false,
-    },
-    searchQuery: {
-      type: {
-        query: String,
+      searchQuery: {
+        type: {
+          query: String,
+        },
+        required: false,
       },
-      required: false,
-    },
-  })
-);
+    })
+  );
+  conn = mongoose.connection;
+
+  return reasoningModel;
+}
 
 const openAIClient = new OpenAIClient(
   process.env.AZURE_OPENAI_ENDPOINT || "",
@@ -69,6 +81,7 @@ export const handler: APIGatewayProxyHandler = async (event) => {
 
     let baseQuery = message[0].content;
 
+    const reasoningModel = await getReasoningModel();
     const reasoning = (await reasoningModel.find({}).lean()).sort(
       (a, b) => a.order - b.order
     );
@@ -80,7 +93,7 @@ export const handler: APIGatewayProxyHandler = async (event) => {
     let previousQuery = baseQuery;
     for (let reason of reasoning) {
       if (reason.type === "llm") {
-        const messages = reason.llmQuery?.messages.map((m) => {
+        const messages = reason.llmQuery?.messages.map((m: any) => {
           let prompt = m.prompt || "";
           prompt = prompt.replace("{{baseQuery}}", baseQuery);
           prompt = prompt.replace("{{previousQuery}}", previousQuery);
