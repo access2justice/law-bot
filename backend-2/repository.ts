@@ -6,7 +6,7 @@ export interface ReasoningInterface {
   llmQuery?: {
     messages: {
       role: string;
-      prompt: string;
+      content: string;
     }[];
   };
   searchQuery?: {
@@ -35,7 +35,7 @@ const getReasoningModel = async (): Promise<Model<ReasoningInterface>> => {
             messages: [
               {
                 role: String,
-                prompt: String,
+                content: String,
               },
             ],
           },

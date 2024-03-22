@@ -32,14 +32,11 @@ export const doReasoning = async (
       console.log("LLM Stage");
       console.log(JSON.stringify(reason));
 
-      const messages = reason.llmQuery?.messages.map((m: any) => {
-        console.log("This is ", m);
-        let prompt = m.prompt || "";
+      const messages = reason.llmQuery?.messages.map((m) => {
+        let prompt = m.content || "";
         prompt = prompt.replace("{{baseQuery}}", baseQuery);
         prompt = prompt.replace("{{previousQuery}}", previousQuery);
-        console.log("That is ", prompt);
-
-        return Object.assign({}, m, { prompt });
+        return Object.assign({}, m, { content: prompt });
       }) as unknown as ChatRequestMessage[];
 
       const temperature = 0.0;
