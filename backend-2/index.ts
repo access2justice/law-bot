@@ -56,7 +56,7 @@ export const handler: APIGatewayProxyHandler = async (event) => {
     );
 
     if (authenticationKey !== process.env.AUTHENTICATION_KEY) {
-      throw new Error("Push away a ");
+      throw new Error("Unauthenticated!");
     }
 
     console.log(event.body);
