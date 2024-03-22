@@ -49,7 +49,7 @@ doc_num = ['SR ' + akn_doc_de.root.act.preface.p[0].docNumber.text]
 
 
 
-def process_paragraph_blocklist(lst, blocklist, article_lnk, article_title, section_titles):
+def process_paragraph_blocklist(lst, blocklist, article_lnk, section_titles, article_title):
     if blocklist is None:
         return
 
@@ -60,7 +60,7 @@ def process_paragraph_blocklist(lst, blocklist, article_lnk, article_title, sect
         article_paragraph = list_intro.attrib["eId"]
         paragraph_txt = get_element_clean_text(list_intro)
         if paragraph_txt:
-            lst.append({'text': paragraph_txt, 'metadata': article_lnk + doc_num + doc_title + article_title + section_titles, '@eId': article_paragraph})
+            lst.append({'text': paragraph_txt, 'metadata': article_lnk + doc_title + section_titles + article_title, '@eId': article_paragraph})
 
     # Process any list items (this allows to capture enumerated paragraphs), ex.: Art. 958 C
     if hasattr(blocklist, 'item'):
@@ -69,11 +69,11 @@ def process_paragraph_blocklist(lst, blocklist, article_lnk, article_title, sect
                 article_paragraph = item.attrib["eId"]
                 paragraph_txt = get_element_clean_text(item.p)
                 if paragraph_txt:
-                    lst.append({'text': paragraph_txt, 'metadata': article_lnk + doc_num + doc_title + article_title + section_titles, '@eId': article_paragraph})
+                    lst.append({'text': paragraph_txt, 'metadata': article_lnk + doc_title + section_titles + article_title, '@eId': article_paragraph})
 
             # Handle blocklists nested within items
             if hasattr(item, 'blockList'):
-                process_paragraph_blocklist(lst, item.blockList, article_lnk, article_title, section_titles)
+                process_paragraph_blocklist(lst, item.blockList, article_lnk, section_titles, article_title)
 
 
 def process_article(lst, article, section_titles):
@@ -102,12 +102,12 @@ def process_article(lst, article, section_titles):
             article_paragraph = paragraph.attrib['eId']
             paragraph_txt = get_element_clean_text(paragraph.content.p)
             if paragraph_txt:
-                lst.append({'text': paragraph_txt, 'metadata': article_url + doc_num + doc_title + article_title + section_titles, '@eId': article_paragraph})
+                lst.append({'text': paragraph_txt, 'metadata': article_url + doc_title + section_titles + article_title, '@eId': article_paragraph})
 
         # When an article has blocklist within content, it will call the function process_paragraph_blocklist
         # This occurs where there are enumerated items within an article. Ex. Art. 24
         if hasattr(paragraph.content, 'blockList'):
-            process_paragraph_blocklist(lst, paragraph.content.blockList, article_url, article_title, section_titles)
+            process_paragraph_blocklist(lst, paragraph.content.blockList, article_url, section_titles, article_title)
 
     return lst
 
