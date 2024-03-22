@@ -43,7 +43,7 @@ export const handler: APIGatewayProxyHandler = async (event) => {
 
     const reasoning = await getReasoning();
 
-    const reasoningThread = [];
+    const reasoningThread = [] as any[];
 
     let previousQuery = baseQuery;
     for (let reason of reasoning) {

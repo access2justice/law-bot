@@ -67,7 +67,7 @@ export const handler: Handler = async (event) => {
             type: "context",
             elements: results.text.map((r: string, i: number) => ({
               type: "mrkdwn",
-              text: `<${results.metadata[i][0]}|${results.metadata[i][1]}>`,
+              text: `<${results.metadata[i][0]}|${results.metadata[i][8]}>`,
             })),
           });
           legalReasoning.push({
