@@ -45,7 +45,7 @@ jobs:
 
       - run: aws sts get-caller-identity
 
-      - run: pnpm dlx cdk deploy 'LawBotBackend2LambdaApiStack-*' --require-approval never
+      - run: DB_CONNECTION_STRING="$DB_CONNECTION_STRING" AUTHENTICATION_KEY="$AUTHENTICATION_KEY" pnpm dlx cdk deploy 'LawBotBackend2LambdaApiStack-*' --require-approval never
         working-directory: ./aws
         env:
           ALLOWED_ORIGINS: ${{ vars.ALLOWED_ORIGINS }}
