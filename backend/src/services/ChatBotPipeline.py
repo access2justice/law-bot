@@ -18,7 +18,7 @@ class ChatBotPipeline:
             openai_client: AsyncAzureOpenAI,
             openai_embedding_client: AzureOpenAI,
             model,
-            embeddings_model
+            embeddings_model,
         ):
         self.search_client = search_client
         self.openai_client = openai_client
@@ -51,7 +51,11 @@ class ChatBotPipeline:
     
     def sys_prompt(self):
         content = """
-        You are a Swiss legal expert. Please only answer Swiss legal questions, for other irrelevant question, just say 'Your question is out of scope.' Use the pieces of Swiss law provided in the Swiss law retrieval result to answer the user question. You should only use the Swiss law retrieval result for your answer. Your answer must be based on the Swiss law retrieval result. If the Swiss law retrieval result does not contain the exact answer to the exact question, just say that 'I don't know', don't try to make up an answer if it is not fully clear from the Swiss law retrieval result. Explain your answer and refer the exact source / article of the Swiss law retrieval result sentence by sentence.
+        You are a Swiss legal expert. Please only answer Swiss legal questions, for other irrelevant question, just say 'Your question is out of scope.'
+        Use the pieces of Swiss law provided in the Swiss law retrieval result to answer the user question. You should only use the Swiss law retrieval result for your answer.
+        Your answer must be based on the Swiss law retrieval result. If the Swiss law retrieval result does not contain the exact answer to the exact question, just say that 'I don't know', don't try to make up an answer if it is not fully clear from the Swiss law retrieval result.
+        Explain your answer and refer the exact source / article of the Swiss law retrieval result sentence by sentence.
+
         """
         sys_message = [{"role":"system","content":content}]
 
@@ -76,11 +80,14 @@ class ChatBotPipeline:
         retrieved_info["metadata"] = []
         
         results = await self.search_client.search(
+            query_type='semantic',
+            semantic_configuration_name='SemanticConfTest',
+            query_caption='extractive',
             search_text=user_query,
             vector_queries=[VectorizedQuery(
                 vector=(await self.openai_embedding_client.embeddings.create(input=[user_query], model=self.embeddings_model)).data[0].embedding, 
                 k_nearest_neighbors=3, fields="text_vector")],
-            top=5,
+            top=15,
             select=["text", "metadata", "eIds"],
             include_total_count=True)   
         

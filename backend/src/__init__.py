@@ -4,10 +4,12 @@ from fastapi import FastAPI
 from openai import AsyncAzureOpenAI, AzureOpenAI
 from fastapi.middleware.cors import CORSMiddleware
 from dotenv import load_dotenv
-from .services.globals import clients
+from .config.globals import clients
+from .config.logconfig import logger
 from .api import chat
 from azure.core.credentials import AzureKeyCredential
 from azure.search.documents.aio import SearchClient
+from .config.LoggingMiddleware import LoggingMiddleware
 
 @asynccontextmanager
 async def lifespan(app: FastAPI):
@@ -43,6 +45,8 @@ def create_app():
             redoc_url="/redoc",
             openapi_url="/openapi.json",
             lifespan=lifespan)
+
+    logger.info('Backend is starting up')
     
     @app.get("/")
     def get_root():
@@ -62,7 +66,7 @@ def create_app():
     else:
         origins = ["https://frontend-socram-testing.vercel.app/"]
         origins.append(os.getenv('ALLOWED_ORIGINS'))
-
+    app.add_middleware(LoggingMiddleware)
     app.add_middleware(
         CORSMiddleware,
         allow_origins=origins,

@@ -3,7 +3,7 @@ from fastapi.encoders import jsonable_encoder
 from fastapi.responses import JSONResponse
 from ..models.request import ChatRequest
 from ..services.ChatBotPipeline import ChatBotPipeline
-from ..services.globals import clients
+from ..config.globals import clients
 import os
 
 
