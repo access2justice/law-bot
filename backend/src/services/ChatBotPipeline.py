@@ -69,7 +69,6 @@ class ChatBotPipeline:
         """
         return prompt
     
-    
     async def retriever(
             self,
             user_query: str,
@@ -97,7 +96,6 @@ class ChatBotPipeline:
             retrieved_info["metadata"].append(result["metadata"])
         self.reasoning_thread.append({"type": "search", "query": user_query, "results": retrieved_info})
         return retrieved_info
-
 
     async def generator(
             self,

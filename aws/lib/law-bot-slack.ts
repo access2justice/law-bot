@@ -22,7 +22,7 @@ export class LawBotSlack extends cdk.Stack {
         handler: "index.handler",
         code: lambda.Code.fromAsset(
           path.resolve(__dirname, "../../slack/worker")
-        ), // same assumption as above
+        ),
         environment: {
           AWS_API_CHAT_ENDPOINT: process.env.AWS_API_CHAT_ENDPOINT || "",
           SLACK_TOKEN: process.env.SLACK_TOKEN || "",

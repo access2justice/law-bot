@@ -1,7 +1,9 @@
 #!/usr/bin/env node
 import "source-map-support/register";
 import * as cdk from "aws-cdk-lib";
+import { LawBotBackend as LawBotBackend2 } from "../lib/law-bot-backend-2";
 import { LawBotBackend } from "../lib/law-bot-backend";
+
 import { GithubActionsOIDCProvider } from "../lib/stacks/GithubActionsOIDCProvider/GithubActionsOIDCProvider";
 import { LawBotSlack } from "../lib/law-bot-slack";
 
@@ -35,6 +37,14 @@ const lawBotBackend = new LawBotBackend(
     },
   }
 );
+
+new LawBotBackend2(app, `LawBotBackend2LambdaApiStack-${envName()}`, {
+  env: {
+    account: process.env.CDK_DEFAULT_ACCOUNT,
+    region: process.env.CDK_DEFAULT_REGION,
+  },
+  apiGateway: lawBotBackend.apiGateway,
+});
 
 new LawBotSlack(app, `LawBotSlackLambdaApiStack-${envName()}`, {
   env: {

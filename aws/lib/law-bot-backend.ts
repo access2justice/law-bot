@@ -22,22 +22,9 @@ export class LawBotBackend extends cdk.Stack {
         code: DockerImageCode.fromImageAsset(
           path.resolve(__dirname, "../../backend")
         ),
-        timeout: cdk.Duration.seconds(60),
+        timeout: cdk.Duration.seconds(30),
         memorySize: 256,
         reservedConcurrentExecutions: 100,
-        environment: {
-          AUTHENTICATION_KEY: process.env.AUTHENTICATION_KEY || "",
-          AZURE_OPENAI_ENDPOINT: process.env.AZURE_OPENAI_ENDPOINT || "",
-          AZURE_OPENAI_KEY: process.env.AZURE_OPENAI_KEY || "",
-          AZURE_OPENAI_EMBEDDING_DEPLOYMENT:
-            process.env.AZURE_OPENAI_EMBEDDING_DEPLOYMENT || "",
-          AZURE_SEARCH_ENPOINT: process.env.AZURE_SEARCH_ENPOINT || "",
-          AZURE_SEARCH_INDEX_NAME: process.env.AZURE_SEARCH_INDEX_NAME || "",
-          AZURE_SEARCH_KEY: process.env.AZURE_SEARCH_KEY || "",
-          AZURE_OPENAI_DEPLOYMENT_NAME:
-            process.env.AZURE_OPENAI_DEPLOYMENT_NAME || "",
-          DB_CONNECTION_STRING: process.env.DB_CONNECTION_STRING || "",
-        },
       }
     );
 
