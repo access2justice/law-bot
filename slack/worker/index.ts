@@ -2,7 +2,7 @@ import { Handler } from "aws-lambda";
 import { sendSlackMessage } from "./slack";
 
 async function fetchBackendAPI(body: any) {
-  const response = await fetch(process.env.AWS_API_CHAT_ENDPOINT as string, {
+  const response = await fetch(process.env.AWS_API_CHAT_ENDPOINT || "", {
     method: "POST",
     headers: { "Content-Type": "application/json" },
     body: JSON.stringify(body),

@@ -39,10 +39,11 @@ jobs:
 
       - run: aws sts get-caller-identity
 
-      - run: pnpm dlx cdk deploy 'LawBotBackendLambdaApiStack-*' --require-approval never
+      - run: pnpm dlx cdk deploy 'LawBotBackend2LambdaApiStack-*' --require-approval never
         working-directory: ./aws
         env:
           ALLOWED_ORIGINS: ${{ vars.ALLOWED_ORIGINS }}
+          AUTHENTICATION_KEY: ${{ secrets.AUTHENTICATION_KEY }}
           AZURE_OPENAI_ENDPOINT: ${{ secrets.AZURE_OPENAI_ENDPOINT }}
           AZURE_OPENAI_KEY: ${{ secrets.AZURE_OPENAI_KEY }}
           AZURE_OPENAI_EMBEDDING_DEPLOYMENT: ${{ secrets.AZURE_OPENAI_EMBEDDING_DEPLOYMENT }}
@@ -51,6 +52,7 @@ jobs:
           AZURE_SEARCH_KEY: ${{ secrets.AZURE_SEARCH_KEY }}
           AZURE_OPENAI_DEPLOYMENT_NAME: ${{ secrets.AZURE_OPENAI_DEPLOYMENT_NAME }}
           RUNNING_ENV: "production"
+          DB_CONNECTION_STRING: ${{ secrets.DB_CONNECTION_STRING }}
 
       - run: pnpm dlx cdk deploy 'LawBotSlackLambdaApiStack-*' --require-approval never
         working-directory: ./aws

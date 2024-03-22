@@ -27,7 +27,7 @@ new GithubActionsOIDCProvider(app, "LawBotBackendGitHubOIDCProviderStack", {
 
 const lawBotBackend = new LawBotBackend(
   app,
-  `LawBotBackendLambdaApiStack-${envName()}`,
+  `LawBotBackend2LambdaApiStack-${envName()}`,
   {
     env: {
       account: process.env.CDK_DEFAULT_ACCOUNT,
