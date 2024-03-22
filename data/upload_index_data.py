@@ -1,4 +1,5 @@
 import os
+import glob
 import json
 import openai
 
@@ -30,36 +31,48 @@ def get_embeddings(text: str):
     return embedding.data[0].embedding
 
 
-def prep_data(json_file_name: str):
+def consolidate_data(regex):
+    """
+    Consolidate different law json files
+    """
+    data_files = glob.glob(regex)
+    docs = []
+    for file in data_files:
+        docs.extend(json.load(open(file)))
+    return docs
+
+
+
+def prep_data(documents: list):
     """
     Prepare dataset for upload to Azure index
     """
-    f = open(f'{json_file_name}.json')
-    # returns JSON object as a dictionary
-    documents = json.load(f)
-
     # Prepare data for upload
     docs = []
     counter = 1
+
     for document in documents:
-        if 'text' in document and document['text']:
-            DOCUMENT = {
-                "@search.action": "mergeOrUpload",
-                "id": str(counter),
-                "text": document['text'],
-                "text_vector": get_embeddings(document['text']),
-                "metadata": document['metadata'],
-                "eIds": document['@eIds']
-            }
-            counter += 1
-            docs.append(DOCUMENT)
+        metadata = ';'.join(document['metadata'][1:])
+        document['text'] = metadata + document['text']
+        # print(document['text'])
+        DOCUMENT = {
+            "@search.action": "mergeOrUpload",
+            "id": str(counter),
+            "text": document['text'],
+            "text_vector": get_embeddings(document['text']),
+            "metadata": document['metadata'],
+            "eIds": document['@eIds']
+        }
+        counter += 1
+        docs.append(DOCUMENT)
     
     return docs
 
 
 if __name__ == "__main__":
+    consolidated_docs = consolidate_data('*_by_article.json')
     # prepare documents for azure index
-    docs = prep_data('obligationrecht_by_article')
+    docs = prep_data(consolidated_docs)
     # chunk documents
     chunks = [docs[i:i + 1000] for i in range(0, len(docs), 1000)]
     # upload chunks to azure

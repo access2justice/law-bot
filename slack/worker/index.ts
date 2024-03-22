@@ -41,6 +41,11 @@ export const handler: Handler = async (event) => {
       ],
     });
     console.log("2.4. Backend response:", backendResponse);
+
+    if (backendResponse.message === "Endpoint request timed out") {
+      throw new Error("Request timed out");
+    }
+
     console.log(
       "2.5. After fetching backend, before processing legal reasoning",
       new Date()
@@ -154,14 +159,14 @@ export const handler: Handler = async (event) => {
     await sendSlackMessage(
       data.channel,
       data.ts,
-      "Unfortunately something went wrong ..."
+      `Unfortunately something went wrong ... ${error}`
     );
 
     // Handling errors (optional)
     return {
       statusCode: 200,
       body: JSON.stringify({
-        message: "Error processing the task",
+        message: `Error processing the task ${error}`,
       }),
     };
   }
