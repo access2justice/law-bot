@@ -46,7 +46,7 @@ doc_title = [get_element_clean_text(akn_doc_de.root.act.preface.p[1].docTitle)]
 doc_num = ['SR ' + akn_doc_de.root.act.preface.p[0].docNumber.text]
 
 
-def process_paragraph_blocklist(lst, blocklist, article_lnk, section_titles, article_title, level_eid):
+def process_paragraph_blocklist(lst, blocklist, article_lnk, section_titles, article_title,  level_eid):
     if blocklist is None:
         return
 
@@ -176,6 +176,8 @@ for elem in lst_data_compiled_de:
     level_key = elem['metadata'][-1]
     article_key = elem['metadata'][3]
     new_key = level_key + article_key
+    elem['metadata'].pop()
+    elem['metadata'][-1] += ' ZGB'
     if new_key not in by_article:
         by_article[new_key] = {'text': elem['text'], 'metadata': elem['metadata'], '@eIds': [elem['@eId']]}
     else:

@@ -6,8 +6,7 @@
       "Schweizerisches Zivilgesetzbuch",
       "Einleitung",
       "A. Anwendung des Rechts",
-      "Art. 1",
-      "lvl_0/lvl_A"
+      "Art. 1 ZGB"
     ],
     "@eIds": [
       "art_1/para_1",
@@ -23,8 +22,7 @@
       "Einleitung",
       "B. Inhalt der Rechtsverhältnisse",
       "I. Handeln nach Treu und Glauben",
-      "Art. 2",
-      "lvl_0/lvl_B/lvl_I"
+      "Art. 2 ZGB"
     ],
     "@eIds": [
       "art_2/para_1",
@@ -42,8 +40,7 @@
       "Einleitung",
       "C. Verhältnis zu den Kantonen",
       "I. Kantonales Zivilrecht und Ortsübung",
-      "Art. 5",
-      "lvl_0/lvl_C/lvl_I"
+      "Art. 5 ZGB"
     ],
     "@eIds": [
       "art_5/para_1",
@@ -59,8 +56,7 @@
       "Schweizerisches Zivilgesetzbuch",
       "Einleitung",
       "D. Allgemeine Bestimmungen des Obligationenrechtes",
-      "Art. 7",
-      "lvl_0/lvl_A"
+      "Art. 7 ZGB"
     ],
     "@eIds": [
       "art_7/para"
@@ -74,8 +70,7 @@
       "Einleitung",
       "E. Beweisregeln",
       "I. Beweislast",
-      "Art. 8",
-      "lvl_0/lvl_E/lvl_I"
+      "Art. 8 ZGB"
     ],
     "@eIds": [
       "art_8/para",
@@ -92,8 +87,7 @@
       "Erster Abschnitt: Die Anwendung bisherigen und neuen Rechts",
       "A. Allgemeine Bestimmungen",
       "I. Regel der Nichtrückwirkung",
-      "Art. 1",
-      "lvl_u6/chap_1/lvl_A/lvl_I"
+      "Art. 1 ZGB"
     ],
     "@eIds": [
       "art_1/para_1",
@@ -111,8 +105,7 @@
       "A. Allgemeine Bestimmungen",
       "II. Rückwirkung",
       "1. Öffentliche Ordnung und Sittlichkeit",
-      "Art. 2",
-      "lvl_u6/chap_1/lvl_A/lvl_II/lvl_1"
+      "Art. 2 ZGB"
     ],
     "@eIds": [
       "art_2/para_1",
@@ -130,8 +123,7 @@
       "Erster Abschnitt: Die Anwendung bisherigen und neuen Rechts",
       "B. Personenrecht",
       "I. Handlungsfähigkeit",
-      "Art. 5",
-      "lvl_u6/chap_1/lvl_B/lvl_I"
+      "Art. 5 ZGB"
     ],
     "@eIds": [
       "art_5/para_1",
@@ -154,8 +146,7 @@
       "B. Personenrecht",
       "III. Juristische Personen",
       "1. Im Allgemeinen",
-      "Art. 6 b None",
-      "lvl_u6/chap_1/lvl_B/lvl_III/lvl_1"
+      "Art. 6 b None ZGB"
     ],
     "@eIds": [
       "art_6_b/para_1",
@@ -175,8 +166,7 @@
       "Erster Abschnitt: Die Anwendung bisherigen und neuen Rechts",
       "C. Familienrecht",
       "I. Eheschliessung",
-      "Art. 7 None",
-      "lvl_u6/chap_1/lvl_C/lvl_I"
+      "Art. 7 None ZGB"
     ],
     "@eIds": [
       "art_7/para_1",
@@ -204,8 +194,7 @@
       "C. Familienrecht",
       "I bis . Scheidung",
       "1. Grundsatz",
-      "Art. 7 a None",
-      "lvl_u6/chap_1/lvl_C/lvl_I_bis/lvl_1"
+      "Art. 7 a None ZGB"
     ],
     "@eIds": [
       "art_7_a/para_1",
@@ -233,8 +222,7 @@
       "C. Familienrecht",
       "I ter . Wirkungen der Ehe im Allgemeinen",
       "1. Grundsatz",
-      "Art. 8 None",
-      "lvl_u6/chap_1/lvl_C/lvl_I_ter/lvl_1"
+      "Art. 8 None ZGB"
     ],
     "@eIds": [
       "art_8/para",
@@ -252,8 +240,7 @@
       "C. Familienrecht",
       "II bis . Güterrecht der nach 1. Januar 1912 geschlossenen Ehen",
       "1. Im Allgemeinen",
-      "Art. 9 a None",
-      "lvl_u6/chap_1/lvl_C/lvl_II_bis/lvl_1"
+      "Art. 9 a None ZGB"
     ],
     "@eIds": [
       "art_9_a/para_1",
@@ -281,8 +268,7 @@
       "II bis . Güterrecht der nach 1. Januar 1912 geschlossenen Ehen",
       "2. Wechsel von der Güterverbindung zur Errungenschaftsbeteiligung",
       "a. Änderung der Vermögensmassen",
-      "Art. 9 b None",
-      "lvl_u6/chap_1/lvl_C/lvl_II_bis/lvl_2/lvl_a"
+      "Art. 9 b None ZGB"
     ],
     "@eIds": [
       "art_9_b/para_1",
@@ -305,8 +291,7 @@
       "II bis . Güterrecht der nach 1. Januar 1912 geschlossenen Ehen",
       "5. Ehevertrag",
       "a. Im Allgemeinen",
-      "Art. 10 None",
-      "lvl_u6/chap_1/lvl_C/lvl_II_bis/lvl_5/lvl_a"
+      "Art. 10 None ZGB"
     ],
     "@eIds": [
       "art_10/para_1",
@@ -332,8 +317,7 @@
       "C. Familienrecht",
       "III bis . Adoption",
       "1. Fortdauer des bisherigen Rechts",
-      "Art. 12 a None",
-      "lvl_u6/chap_1/lvl_C/lvl_III_bis/lvl_1"
+      "Art. 12 a None ZGB"
     ],
     "@eIds": [
       "art_12_a/para_1",
@@ -352,8 +336,7 @@
       "C. Familienrecht",
       "IV. Vaterschaftsklage",
       "1. Hängige Klagen",
-      "Art. 13 None",
-      "lvl_u6/chap_1/lvl_C/lvl_IV/lvl_1"
+      "Art. 13 None ZGB"
     ],
     "@eIds": [
       "art_13/para_1",
@@ -372,8 +355,7 @@
       "C. Familienrecht",
       "IV ter . Unterhaltsbeiträge",
       "1. Bestehende Unterhaltstitel",
-      "Art. 13 c None",
-      "lvl_u6/chap_1/lvl_C/lvl_IV_ter/lvl_1"
+      "Art. 13 c None ZGB"
     ],
     "@eIds": [
       "art_13_c/para",
@@ -391,8 +373,7 @@
       "C. Familienrecht",
       "V. Erwachsenenschutz",
       "1. Bestehende Massnahmen",
-      "Art. 14 None",
-      "lvl_u6/chap_1/lvl_C/lvl_V/lvl_1"
+      "Art. 14 None ZGB"
     ],
     "@eIds": [
       "art_14/para_1",
@@ -413,8 +394,7 @@
       "Erster Abschnitt: Die Anwendung bisherigen und neuen Rechts",
       "D. Erbrecht",
       "I. Erbe und Erbgang",
-      "Art. 15",
-      "lvl_u6/chap_1/lvl_D/lvl_I"
+      "Art. 15 ZGB"
     ],
     "@eIds": [
       "art_15/para_1",
@@ -433,8 +413,7 @@
       "Erster Abschnitt: Die Anwendung bisherigen und neuen Rechts",
       "E. Sachenrecht",
       "I. Dingliche Rechte im Allgemeinen",
-      "Art. 17",
-      "lvl_u6/chap_1/lvl_E/lvl_I"
+      "Art. 17 ZGB"
     ],
     "@eIds": [
       "art_17/para_1",
@@ -463,8 +442,7 @@
       "E. Sachenrecht",
       "IV. Besondere Eigentumsrechte",
       "1. Bäume auf fremdem Boden",
-      "Art. 20 None",
-      "lvl_u6/chap_1/lvl_E/lvl_IV/lvl_1"
+      "Art. 20 None ZGB"
     ],
     "@eIds": [
       "art_20/para_1",
@@ -482,8 +460,7 @@
       "IV. Besondere Eigentumsrechte",
       "2. Stockwerkeigentum",
       "a. Ursprüngliches",
-      "Art. 20 bis None",
-      "lvl_u6/chap_1/lvl_E/lvl_IV/lvl_2/lvl_a"
+      "Art. 20 bis None ZGB"
     ],
     "@eIds": [
       "art_20_bis/para",
@@ -502,8 +479,7 @@
       "E. Sachenrecht",
       "VI. Grundpfandrechte",
       "1. Anerkennung der bestehenden Pfandtitel",
-      "Art. 22",
-      "lvl_u6/chap_1/lvl_E/lvl_VI/lvl_1"
+      "Art. 22 ZGB"
     ],
     "@eIds": [
       "art_22/para_1",
@@ -538,8 +514,7 @@
       "VI. Grundpfandrechte",
       "5. Rechte und Pflichten aus dem Grundpfand",
       "a. Im Allgemeinen",
-      "Art. 26",
-      "lvl_u6/chap_1/lvl_E/lvl_VI/lvl_5/lvl_a"
+      "Art. 26 ZGB"
     ],
     "@eIds": [
       "art_26/para_1",
@@ -559,8 +534,7 @@
       "E. Sachenrecht",
       "VII. Fahrnispfandrechte",
       "1. Formvorschriften",
-      "Art. 34",
-      "lvl_u6/chap_1/lvl_E/lvl_VII/lvl_1"
+      "Art. 34 ZGB"
     ],
     "@eIds": [
       "art_34/para_1",
@@ -579,8 +553,7 @@
       "E. Sachenrecht",
       "X. Grundbuch",
       "1. Anlegung des Grundbuches",
-      "Art. 38",
-      "lvl_u6/chap_1/lvl_E/lvl_X/lvl_1"
+      "Art. 38 ZGB"
     ],
     "@eIds": [
       "art_38/para_1",
@@ -606,8 +579,7 @@
       "X. Grundbuch",
       "2. Amtliche Vermessung",
       "b. Verhältnis zum Grundbuch",
-      "Art. 40",
-      "lvl_u6/chap_1/lvl_E/lvl_X/lvl_2/lvl_a"
+      "Art. 40 ZGB"
     ],
     "@eIds": [
       "art_40/para_1",
@@ -627,8 +599,7 @@
       "X. Grundbuch",
       "3. Eintragung der dinglichen Rechte",
       "a. Verfahren",
-      "Art. 43",
-      "lvl_u6/chap_1/lvl_E/lvl_X/lvl_3/lvl_a"
+      "Art. 43 ZGB"
     ],
     "@eIds": [
       "art_43/para_1",
@@ -647,8 +618,7 @@
       "Schlusstitel: Anwendungs- und Einführungsbestimmungen",
       "Erster Abschnitt: Die Anwendung bisherigen und neuen Rechts",
       "F. Verjährung",
-      "Art. 49 None",
-      "lvl_u6/chap_1/lvl_A"
+      "Art. 49 None ZGB"
     ],
     "@eIds": [
       "art_49/para_1",
@@ -666,8 +636,7 @@
       "Schlusstitel: Anwendungs- und Einführungsbestimmungen",
       "Zweiter Abschnitt: Einführungs- und Übergangsbestimmungen",
       "A. Aufhebung des kantonalen Zivilrechtes",
-      "Art. 51",
-      "lvl_u6/chap_2/lvl_A"
+      "Art. 51 ZGB"
     ],
     "@eIds": [
       "art_51/para",
@@ -695,8 +664,7 @@
       "Zweiter Abschnitt: Einführungs- und Übergangsbestimmungen",
       "B. Ergänzende kantonale Anordnungen",
       "I. Recht und Pflicht der Kantone",
-      "Art. 52",
-      "lvl_u6/chap_2/lvl_B/lvl_I"
+      "Art. 52 ZGB"
     ],
     "@eIds": [
       "art_52/para_1",
@@ -716,8 +684,7 @@
       "Zweiter Abschnitt: Einführungs- und Übergangsbestimmungen",
       "D. Öffentliche Beurkundung",
       "I. Im Allgemeinen",
-      "Art. 55",
-      "lvl_u6/chap_2/lvl_D/lvl_I"
+      "Art. 55 ZGB"
     ],
     "@eIds": [
       "art_55/para_1",
@@ -737,8 +704,7 @@
       "Sechster Titel: Das Güterrecht der Ehegatten",
       "Erster Abschnitt: Allgemeine Vorschriften",
       "A. Ordentlicher Güterstand",
-      "Art. 178",
-      "lvl_u7/tit_6/chap_1/lvl_A"
+      "Art. 178 ZGB"
     ],
     "@eIds": [
       "art_178/para"
@@ -754,8 +720,7 @@
       "Erster Abschnitt: Allgemeine Vorschriften",
       "B. Güterstand des Ehevertrages",
       "I. Inhalt des Vertrages",
-      "Art. 179",
-      "lvl_u7/tit_6/chap_1/lvl_B/lvl_I"
+      "Art. 179 ZGB"
     ],
     "@eIds": [
       "art_179/para_1",
@@ -778,8 +743,7 @@
       "Erster Abschnitt: Allgemeine Vorschriften",
       "C. Ausserordentlicher Güterstand",
       "I. Gesetzliche Gütertrennung",
-      "Art. 182",
-      "lvl_u7/tit_6/chap_1/lvl_C/lvl_I"
+      "Art. 182 ZGB"
     ],
     "@eIds": [
       "art_182/para_1",
@@ -803,8 +767,7 @@
       "C. Ausserordentlicher Güterstand",
       "II. Gerichtliche Gütertrennung",
       "1. Auf Begehren der Ehefrau",
-      "Art. 183",
-      "lvl_u7/tit_6/chap_1/lvl_C/lvl_II/lvl_1"
+      "Art. 183 ZGB"
     ],
     "@eIds": [
       "art_183/para/listintro",
@@ -828,8 +791,7 @@
       "Erster Abschnitt: Allgemeine Vorschriften",
       "D. Wechsel des Güterstandes",
       "I. Haftung",
-      "Art. 188",
-      "lvl_u7/tit_6/chap_1/lvl_D/lvl_I"
+      "Art. 188 ZGB"
     ],
     "@eIds": [
       "art_188/para_1",
@@ -851,8 +813,7 @@
       "E. Sondergut",
       "I. Entstehung",
       "1. Im Allgemeinen",
-      "Art. 190",
-      "lvl_u7/tit_6/chap_1/lvl_E/lvl_I/lvl_1"
+      "Art. 190 ZGB"
     ],
     "@eIds": [
       "art_190/para_1",
@@ -873,8 +834,7 @@
       "Erster Abschnitt: Allgemeine Vorschriften",
       "E. Sondergut",
       "II. Wirkung",
-      "Art. 192",
-      "lvl_u7/tit_6/chap_1/lvl_E/lvl_I"
+      "Art. 192 ZGB"
     ],
     "@eIds": [
       "art_192/para_1",
@@ -892,8 +852,7 @@
       "Zweiter Abschnitt: Die Güterverbindung",
       "A. Eigentumsverhältnisse",
       "I. Eheliches Vermögen",
-      "Art. 194",
-      "lvl_u7/tit_6/chap_2/lvl_A/lvl_I"
+      "Art. 194 ZGB"
     ],
     "@eIds": [
       "art_194/para_1",
@@ -917,8 +876,7 @@
       "A. Eigentumsverhältnisse",
       "IV. Inventar",
       "1. Errichtung und Beweiskraft",
-      "Art. 197",
-      "lvl_u7/tit_6/chap_2/lvl_A/lvl_IV/lvl_1"
+      "Art. 197 ZGB"
     ],
     "@eIds": [
       "art_197/para_1",
@@ -937,8 +895,7 @@
       "Zweiter Abschnitt: Die Güterverbindung",
       "B. Verwaltung, Nutzung, Verfügungsbefugnis",
       "I. Verwaltung",
-      "Art. 200",
-      "lvl_u7/tit_6/chap_2/lvl_B/lvl_I"
+      "Art. 200 ZGB"
     ],
     "@eIds": [
       "art_200/para_1",
@@ -960,8 +917,7 @@
       "B. Verwaltung, Nutzung, Verfügungsbefugnis",
       "III. Verfügungsbefugnis",
       "1. Des Ehemannes",
-      "Art. 202",
-      "lvl_u7/tit_6/chap_2/lvl_B/lvl_III/lvl_1"
+      "Art. 202 ZGB"
     ],
     "@eIds": [
       "art_202/para_1",
@@ -980,8 +936,7 @@
       "III. Verfügungsbefugnis",
       "2. Der Ehefrau",
       "a. Im Allgemeinen",
-      "Art. 203",
-      "lvl_u7/tit_6/chap_2/lvl_B/lvl_III/lvl_2/lvl_a"
+      "Art. 203 ZGB"
     ],
     "@eIds": [
       "art_203/para",
@@ -998,8 +953,7 @@
       "Sechster Titel: Das Güterrecht der Ehegatten",
       "Zweiter Abschnitt: Die Güterverbindung",
       "C. Sicherung der Ehefrau",
-      "Art. 205",
-      "lvl_u7/tit_6/chap_2/lvl_A"
+      "Art. 205 ZGB"
     ],
     "@eIds": [
       "art_205/para_1",
@@ -1017,8 +971,7 @@
       "Zweiter Abschnitt: Die Güterverbindung",
       "D. Haftung",
       "I. Haftung des Ehemannes",
-      "Art. 206",
-      "lvl_u7/tit_6/chap_2/lvl_D/lvl_I"
+      "Art. 206 ZGB"
     ],
     "@eIds": [
       "art_206/para/listintro",
@@ -1038,8 +991,7 @@
       "D. Haftung",
       "II. Haftung der Ehefrau",
       "1. Mit dem ganzen Vermögen",
-      "Art. 207",
-      "lvl_u7/tit_6/chap_2/lvl_D/lvl_II/lvl_1"
+      "Art. 207 ZGB"
     ],
     "@eIds": [
       "art_207/para_1/listintro",
@@ -1066,8 +1018,7 @@
       "Zweiter Abschnitt: Die Güterverbindung",
       "E. Ersatzforderungen",
       "I. Fälligkeit",
-      "Art. 209",
-      "lvl_u7/tit_6/chap_2/lvl_E/lvl_I"
+      "Art. 209 ZGB"
     ],
     "@eIds": [
       "art_209/para_1",
@@ -1085,8 +1036,7 @@
       "E. Ersatzforderungen",
       "II. Konkurs des Ehemannes und Pfändung",
       "1. Anspruch der Ehefrau",
-      "Art. 210",
-      "lvl_u7/tit_6/chap_2/lvl_E/lvl_II/lvl_1"
+      "Art. 210 ZGB"
     ],
     "@eIds": [
       "art_210/para_1",
@@ -1106,8 +1056,7 @@
       "Zweiter Abschnitt: Die Güterverbindung",
       "F. Auflösung des ehelichen Vermögens",
       "I. Tod der Ehefrau",
-      "Art. 212",
-      "lvl_u7/tit_6/chap_2/lvl_F/lvl_I"
+      "Art. 212 ZGB"
     ],
     "@eIds": [
       "art_212/para_1",
@@ -1128,8 +1077,7 @@
       "Dritter Abschnitt: Die Gütergemeinschaft",
       "A. Allgemeine Gütergemeinschaft",
       "I. Eheliches Vermögen",
-      "Art. 215",
-      "lvl_u7/tit_6/chap_3/lvl_A/lvl_I"
+      "Art. 215 ZGB"
     ],
     "@eIds": [
       "art_215/para_1",
@@ -1148,8 +1096,7 @@
       "A. Allgemeine Gütergemeinschaft",
       "II. Verwaltung und Verfügungsbefugnis",
       "1. Verwaltung",
-      "Art. 216",
-      "lvl_u7/tit_6/chap_3/lvl_A/lvl_II/lvl_1"
+      "Art. 216 ZGB"
     ],
     "@eIds": [
       "art_216/para_1",
@@ -1169,8 +1116,7 @@
       "II. Verwaltung und Verfügungsbefugnis",
       "2. Verfügungsbefugnis",
       "a. Verfügung über Gesamtgut",
-      "Art. 217",
-      "lvl_u7/tit_6/chap_3/lvl_A/lvl_II/lvl_2/lvl_a"
+      "Art. 217 ZGB"
     ],
     "@eIds": [
       "art_217/para_1",
@@ -1190,8 +1136,7 @@
       "A. Allgemeine Gütergemeinschaft",
       "III. Haftung",
       "1. Schulden des Ehemannes",
-      "Art. 219",
-      "lvl_u7/tit_6/chap_3/lvl_A/lvl_III/lvl_1"
+      "Art. 219 ZGB"
     ],
     "@eIds": [
       "art_219/para/listintro",
@@ -1213,8 +1158,7 @@
       "III. Haftung",
       "2. Schulden der Ehefrau",
       "a. Der Ehefrau und des Gesamtgutes",
-      "Art. 220",
-      "lvl_u7/tit_6/chap_3/lvl_A/lvl_III/lvl_2/lvl_a"
+      "Art. 220 ZGB"
     ],
     "@eIds": [
       "art_220/para_1/listintro",
@@ -1243,8 +1187,7 @@
       "A. Allgemeine Gütergemeinschaft",
       "IV. Ersatzforderungen",
       "1. Im Allgemeinen",
-      "Art. 223",
-      "lvl_u7/tit_6/chap_3/lvl_A/lvl_IV/lvl_1"
+      "Art. 223 ZGB"
     ],
     "@eIds": [
       "art_223/para_1",
@@ -1265,8 +1208,7 @@
       "V. Auflösung des ehelichen Vermögens",
       "1. Grösse der Anteile",
       "a. Nach Gesetz",
-      "Art. 225",
-      "lvl_u7/tit_6/chap_3/lvl_A/lvl_V/lvl_1/lvl_a"
+      "Art. 225 ZGB"
     ],
     "@eIds": [
       "art_225/para_1",
@@ -1287,8 +1229,7 @@
       "A. Allgemeine Gütergemeinschaft",
       "V. Auflösung des ehelichen Vermögens",
       "2. Haftung des Überlebenden",
-      "Art. 227",
-      "lvl_u7/tit_6/chap_3/lvl_A/lvl_V/lvl_1"
+      "Art. 227 ZGB"
     ],
     "@eIds": [
       "art_227/para_1",
@@ -1307,8 +1248,7 @@
       "Dritter Abschnitt: Die Gütergemeinschaft",
       "B. Fortgesetzte Gütergemeinschaft",
       "I. Voraussetzung",
-      "Art. 229",
-      "lvl_u7/tit_6/chap_3/lvl_B/lvl_I"
+      "Art. 229 ZGB"
     ],
     "@eIds": [
       "art_229/para_1",
@@ -1332,8 +1272,7 @@
       "B. Fortgesetzte Gütergemeinschaft",
       "IV. Aufhebung",
       "1. Durch Erklärung",
-      "Art. 232",
-      "lvl_u7/tit_6/chap_3/lvl_B/lvl_IV/lvl_1"
+      "Art. 232 ZGB"
     ],
     "@eIds": [
       "art_232/para_1",
@@ -1364,8 +1303,7 @@
       "Dritter Abschnitt: Die Gütergemeinschaft",
       "C. Beschränkte Gütergemeinschaft",
       "I. Mit Gütertrennung",
-      "Art. 237",
-      "lvl_u7/tit_6/chap_3/lvl_C/lvl_I"
+      "Art. 237 ZGB"
     ],
     "@eIds": [
       "art_237/para_1",
@@ -1385,8 +1323,7 @@
       "C. Beschränkte Gütergemeinschaft",
       "III. Errungenschaftsgemeinschaft",
       "1. Umfang",
-      "Art. 239",
-      "lvl_u7/tit_6/chap_3/lvl_C/lvl_III/lvl_1"
+      "Art. 239 ZGB"
     ],
     "@eIds": [
       "art_239/para_1",
@@ -1406,8 +1343,7 @@
       "Sechster Titel: Das Güterrecht der Ehegatten",
       "Vierter Abschnitt: Die Gütertrennung",
       "A. Ausdehnung",
-      "Art. 241",
-      "lvl_u7/tit_6/chap_4/lvl_A"
+      "Art. 241 ZGB"
     ],
     "@eIds": [
       "art_241/para_1",
@@ -1433,8 +1369,7 @@
       "Vierter Abschnitt: Die Gütertrennung",
       "C. Haftung",
       "I. Im Allgemeinen",
-      "Art. 243",
-      "lvl_u7/tit_6/chap_4/lvl_C/lvl_I"
+      "Art. 243 ZGB"
     ],
     "@eIds": [
       "art_243/para_1",
@@ -1453,8 +1388,7 @@
       "Sechster Titel: Das Güterrecht der Ehegatten",
       "Fünfter Abschnitt: Das Güterrechtsregister",
       "A. Rechtskraft",
-      "Art. 248",
-      "lvl_u7/tit_6/chap_5/lvl_A"
+      "Art. 248 ZGB"
     ],
     "@eIds": [
       "art_248/para_1",
@@ -1474,8 +1408,7 @@
       "Fünfter Abschnitt: Das Güterrechtsregister",
       "B. Eintragung",
       "I. Gegenstand",
-      "Art. 249",
-      "lvl_u7/tit_6/chap_5/lvl_B/lvl_I"
+      "Art. 249 ZGB"
     ],
     "@eIds": [
       "art_249/para_1",
@@ -1495,8 +1428,7 @@
       "Erster Abschnitt: Das Recht der Persönlichkeit",
       "A. Persönlichkeit im Allgemeinen",
       "I. Rechtsfähigkeit",
-      "Art. 11",
-      "book_1/tit_1/chap_1/lvl_A/lvl_I"
+      "Art. 11 ZGB"
     ],
     "@eIds": [
       "art_11/para_1",
@@ -1515,8 +1447,7 @@
       "A. Persönlichkeit im Allgemeinen",
       "II. Handlungsfähigkeit",
       "1. Inhalt",
-      "Art. 12",
-      "book_1/tit_1/chap_1/lvl_A/lvl_II/lvl_1"
+      "Art. 12 ZGB"
     ],
     "@eIds": [
       "art_12/para"
@@ -1534,8 +1465,7 @@
       "II. Handlungsfähigkeit",
       "2. Voraussetzungen",
       "a. Im Allgemeinen",
-      "Art. 13 None",
-      "book_1/tit_1/chap_1/lvl_A/lvl_II/lvl_2/lvl_a"
+      "Art. 13 None ZGB"
     ],
     "@eIds": [
       "art_13/para",
@@ -1554,8 +1484,7 @@
       "A. Persönlichkeit im Allgemeinen",
       "III. Handlungsunfähigkeit",
       "1. Im Allgemeinen",
-      "Art. 17 None",
-      "book_1/tit_1/chap_1/lvl_A/lvl_III/lvl_1"
+      "Art. 17 None ZGB"
     ],
     "@eIds": [
       "art_17/para",
@@ -1576,8 +1505,7 @@
       "III. Handlungsunfähigkeit",
       "3. Urteilsfähige handlungsunfähige Personen",
       "a. Grundsatz",
-      "Art. 19",
-      "book_1/tit_1/chap_1/lvl_A/lvl_III/lvl_3/lvl_a"
+      "Art. 19 ZGB"
     ],
     "@eIds": [
       "art_19/para_1",
@@ -1600,8 +1528,7 @@
       "A. Persönlichkeit im Allgemeinen",
       "IV.  Verwandtschaft und Schwägerschaft",
       "1. Verwandtschaft",
-      "Art. 20",
-      "book_1/tit_1/chap_1/lvl_A/lvl_IV/lvl_1"
+      "Art. 20 ZGB"
     ],
     "@eIds": [
       "art_20/para_1",
@@ -1621,8 +1548,7 @@
       "A. Persönlichkeit im Allgemeinen",
       "V. Heimat und Wohnsitz",
       "1. Heimatangehörigkeit",
-      "Art. 22",
-      "book_1/tit_1/chap_1/lvl_A/lvl_V/lvl_1"
+      "Art. 22 ZGB"
     ],
     "@eIds": [
       "art_22/para_1",
@@ -1642,8 +1568,7 @@
       "V. Heimat und Wohnsitz",
       "2. Wohnsitz",
       "a. Begriff",
-      "Art. 23",
-      "book_1/tit_1/chap_1/lvl_A/lvl_V/lvl_2/lvl_a"
+      "Art. 23 ZGB"
     ],
     "@eIds": [
       "art_23/para_1",
@@ -1666,8 +1591,7 @@
       "Erster Abschnitt: Das Recht der Persönlichkeit",
       "B. Schutz der Persönlichkeit",
       "I. Vor übermässiger Bindung",
-      "Art. 27",
-      "book_1/tit_1/chap_1/lvl_B/lvl_I"
+      "Art. 27 ZGB"
     ],
     "@eIds": [
       "art_27/para_1",
@@ -1692,8 +1616,7 @@
       "B. Schutz der Persönlichkeit",
       "II. Gegen Verletzungen",
       "1. Grundsatz",
-      "Art. 28 None",
-      "book_1/tit_1/chap_1/lvl_B/lvl_II/lvl_1"
+      "Art. 28 None ZGB"
     ],
     "@eIds": [
       "art_28/para_1",
@@ -1712,8 +1635,7 @@
       "II. Gegen Verletzungen",
       "2. Klage",
       "a. Im Allgemeinen",
-      "Art. 28 a None",
-      "book_1/tit_1/chap_1/lvl_B/lvl_II/lvl_2/lvl_a"
+      "Art. 28 a None ZGB"
     ],
     "@eIds": [
       "art_28_a/para_1/listintro",
@@ -1750,8 +1672,7 @@
       "II. Gegen Verletzungen",
       "4. Recht auf Gegendarstellung",
       "a. Grundsatz",
-      "Art. 28 g None",
-      "book_1/tit_1/chap_1/lvl_B/lvl_II/lvl_4/lvl_a"
+      "Art. 28 g None ZGB"
     ],
     "@eIds": [
       "art_28_g/para_1",
@@ -1779,8 +1700,7 @@
       "B. Schutz der Persönlichkeit",
       "III. Recht auf den Namen",
       "1. Namensschutz",
-      "Art. 29",
-      "book_1/tit_1/chap_1/lvl_B/lvl_III/lvl_1"
+      "Art. 29 ZGB"
     ],
     "@eIds": [
       "art_29/para_1",
@@ -1799,8 +1719,7 @@
       "III. Recht auf den Namen",
       "2. Namensänderung",
       "a. Im Allgemeinen",
-      "Art. 30",
-      "book_1/tit_1/chap_1/lvl_B/lvl_III/lvl_2/lvl_a"
+      "Art. 30 ZGB"
     ],
     "@eIds": [
       "art_30/para_1",
@@ -1819,8 +1738,7 @@
       "Erster Abschnitt: Das Recht der Persönlichkeit",
       "C. Anfang und Ende der Persönlichkeit",
       "I. Geburt und Tod",
-      "Art. 31",
-      "book_1/tit_1/chap_1/lvl_C/lvl_I"
+      "Art. 31 ZGB"
     ],
     "@eIds": [
       "art_31/para_1",
@@ -1838,8 +1756,7 @@
       "C. Anfang und Ende der Persönlichkeit",
       "II. Beweis",
       "1. Beweislast",
-      "Art. 32",
-      "book_1/tit_1/chap_1/lvl_C/lvl_II/lvl_1"
+      "Art. 32 ZGB"
     ],
     "@eIds": [
       "art_32/para_1",
@@ -1858,8 +1775,7 @@
       "II. Beweis",
       "2. Beweismittel",
       "a. Im Allgemeinen",
-      "Art. 33",
-      "book_1/tit_1/chap_1/lvl_C/lvl_II/lvl_2/lvl_a"
+      "Art. 33 ZGB"
     ],
     "@eIds": [
       "art_33/para_1",
@@ -1878,8 +1794,7 @@
       "C. Anfang und Ende der Persönlichkeit",
       "III. Verschollenerklärung",
       "1. Im Allgemeinen",
-      "Art. 35",
-      "book_1/tit_1/chap_1/lvl_C/lvl_III/lvl_1"
+      "Art. 35 ZGB"
     ],
     "@eIds": [
       "art_35/para_1",
@@ -1903,8 +1818,7 @@
       "Zweiter Abschnitt: Die Beurkundung des Personenstandes",
       "A. Register",
       "I. Allgemeines",
-      "Art. 39 None",
-      "book_1/tit_1/chap_2/lvl_A/lvl_I"
+      "Art. 39 None ZGB"
     ],
     "@eIds": [
       "art_39/para_1",
@@ -1945,8 +1859,7 @@
       "A. Register",
       "IV. Bereinigung",
       "1. Durch das Gericht",
-      "Art. 42",
-      "book_1/tit_1/chap_2/lvl_A/lvl_IV/lvl_1"
+      "Art. 42 ZGB"
     ],
     "@eIds": [
       "art_42/para_1",
@@ -1965,8 +1878,7 @@
       "B. Organisation",
       "I. Zivilstandsbehörden",
       "1. Zivilstandsbeamtinnen und Zivilstandsbeamte",
-      "Art. 44",
-      "book_1/tit_1/chap_2/lvl_B/lvl_I/lvl_1"
+      "Art. 44 ZGB"
     ],
     "@eIds": [
       "art_44/para_1/listintro",
@@ -1995,8 +1907,7 @@
       "Zweiter Abschnitt: Die Beurkundung des Personenstandes",
       "B. Organisation",
       "I a . Zentrales Personen-Informationssystem",
-      "Art. 45 a None",
-      "book_1/tit_1/chap_2/lvl_B/lvl_I"
+      "Art. 45 a None ZGB"
     ],
     "@eIds": [
       "art_45_a/para_1",
@@ -2029,8 +1940,7 @@
       "Zweiter Abschnitt: Die Beurkundung des Personenstandes",
       "C. Ausführungsbestimmungen",
       "I. Bundesrecht",
-      "Art. 48",
-      "book_1/tit_1/chap_2/lvl_C/lvl_I"
+      "Art. 48 ZGB"
     ],
     "@eIds": [
       "art_48/para_1",
@@ -2060,8 +1970,7 @@
       "Zweiter Titel: Die juristischen Personen",
       "Erster Abschnitt: Allgemeine Bestimmungen",
       "A. Persönlichkeit",
-      "Art. 52",
-      "book_1/tit_2/chap_1/lvl_A"
+      "Art. 52 ZGB"
     ],
     "@eIds": [
       "art_52/para_1",
@@ -2084,8 +1993,7 @@
       "Erster Abschnitt: Allgemeine Bestimmungen",
       "C. Handlungsfähigkeit",
       "I. Voraussetzung",
-      "Art. 54",
-      "book_1/tit_2/chap_1/lvl_C/lvl_I"
+      "Art. 54 ZGB"
     ],
     "@eIds": [
       "art_54/para",
@@ -2104,8 +2012,7 @@
       "Erster Abschnitt: Allgemeine Bestimmungen",
       "E. Aufhebung",
       "I. Vermögensverwendung",
-      "Art. 57",
-      "book_1/tit_2/chap_1/lvl_E/lvl_I"
+      "Art. 57 ZGB"
     ],
     "@eIds": [
       "art_57/para_1",
@@ -2124,8 +2031,7 @@
       "Zweiter Abschnitt: Die Vereine",
       "A. Gründung",
       "I. Körperschaftliche Personenverbindung",
-      "Art. 60",
-      "book_1/tit_2/chap_2/lvl_A/lvl_I"
+      "Art. 60 ZGB"
     ],
     "@eIds": [
       "art_60/para_1",
@@ -2157,8 +2063,7 @@
       "B. Organisation",
       "I. Vereinsversammlung",
       "1. Bedeutung und Einberufung",
-      "Art. 64",
-      "book_1/tit_2/chap_2/lvl_B/lvl_I/lvl_1"
+      "Art. 64 ZGB"
     ],
     "@eIds": [
       "art_64/para_1",
@@ -2181,8 +2086,7 @@
       "I. Vereinsversammlung",
       "3. Vereinsbeschluss",
       "a. Beschlussfassung",
-      "Art. 66",
-      "book_1/tit_2/chap_2/lvl_B/lvl_I/lvl_3/lvl_a"
+      "Art. 66 ZGB"
     ],
     "@eIds": [
       "art_66/para_1",
@@ -2204,8 +2108,7 @@
       "B. Organisation",
       "II. Vorstand",
       "1. Rechte und Pflichten im Allgemeinen",
-      "Art. 69",
-      "book_1/tit_2/chap_2/lvl_B/lvl_II/lvl_1"
+      "Art. 69 ZGB"
     ],
     "@eIds": [
       "art_69/para_1",
@@ -2223,8 +2126,7 @@
       "Zweiter Abschnitt: Die Vereine",
       "B. Organisation",
       "III. Revisionsstelle",
-      "Art. 69 b None",
-      "book_1/tit_2/chap_2/lvl_B/lvl_I"
+      "Art. 69 b None ZGB"
     ],
     "@eIds": [
       "art_69_b/para_1/listintro",
@@ -2249,8 +2151,7 @@
       "Zweiter Titel: Die juristischen Personen",
       "Zweiter Abschnitt: Die Vereine",
       "B bis . Drohende Zahlungsunfähigkeit und Überschuldung",
-      "Art. 69 d None",
-      "book_1/tit_2/chap_2/lvl_A"
+      "Art. 69 d None ZGB"
     ],
     "@eIds": [
       "art_69_d/para",
@@ -2267,8 +2168,7 @@
       "Zweiter Abschnitt: Die Vereine",
       "C. Mitgliedschaft",
       "I. Ein- und Austritt",
-      "Art. 70",
-      "book_1/tit_2/chap_2/lvl_C/lvl_I"
+      "Art. 70 ZGB"
     ],
     "@eIds": [
       "art_70/para_1",
@@ -2295,8 +2195,7 @@
       "D. Auflösung",
       "I. Auflösungsarten",
       "1. Vereinsbeschluss",
-      "Art. 76",
-      "book_1/tit_2/chap_2/lvl_D/lvl_I/lvl_1"
+      "Art. 76 ZGB"
     ],
     "@eIds": [
       "art_76/para",
@@ -2314,8 +2213,7 @@
       "Zweiter Abschnitt: Die Vereine",
       "D. Auflösung",
       "II. Löschung des Registereintrages",
-      "Art. 79",
-      "book_1/tit_2/chap_2/lvl_D/lvl_I"
+      "Art. 79 ZGB"
     ],
     "@eIds": [
       "art_79/para"
@@ -2331,8 +2229,7 @@
       "Dritter Abschnitt: Die Stiftungen",
       "A. Errichtung",
       "I. Im Allgemeinen",
-      "Art. 80",
-      "book_1/tit_2/chap_3/lvl_A/lvl_I"
+      "Art. 80 ZGB"
     ],
     "@eIds": [
       "art_80/para",
@@ -2352,8 +2249,7 @@
       "Dritter Abschnitt: Die Stiftungen",
       "B. Organisation",
       "I. Im Allgemeinen",
-      "Art. 83 None",
-      "book_1/tit_2/chap_3/lvl_B/lvl_I"
+      "Art. 83 None ZGB"
     ],
     "@eIds": [
       "art_83/para",
@@ -2377,8 +2273,7 @@
       "B. Organisation",
       "III. Revisionsstelle",
       "1. Revisionspflicht und anwendbares Recht",
-      "Art. 83 b None",
-      "book_1/tit_2/chap_3/lvl_B/lvl_III/lvl_1"
+      "Art. 83 b None ZGB"
     ],
     "@eIds": [
       "art_83_b/para_1",
@@ -2397,8 +2292,7 @@
       "Zweiter Titel: Die juristischen Personen",
       "Dritter Abschnitt: Die Stiftungen",
       "C. Aufsicht",
-      "Art. 84",
-      "book_1/tit_2/chap_3/lvl_A"
+      "Art. 84 ZGB"
     ],
     "@eIds": [
       "art_84/para_1",
@@ -2475,8 +2369,7 @@
       "Dritter Abschnitt: Die Stiftungen",
       "D. Umwandlung der Stiftung",
       "I. Änderung der Organisation auf Antrag der Aufsichtsbehörde",
-      "Art. 85 None",
-      "book_1/tit_2/chap_3/lvl_D/lvl_I"
+      "Art. 85 None ZGB"
     ],
     "@eIds": [
       "art_85/para",
@@ -2501,8 +2394,7 @@
       "Dritter Abschnitt: Die Stiftungen",
       "F. Aufhebung und Löschung im Register",
       "I. Aufhebung durch die zuständige Behörde",
-      "Art. 88 None",
-      "book_1/tit_2/chap_3/lvl_F/lvl_I"
+      "Art. 88 None ZGB"
     ],
     "@eIds": [
       "art_88/para_1/listintro",
@@ -2521,8 +2413,7 @@
       "Erster Teil: Das Personenrecht",
       "Zweiter Titel bis :  Die Sammelvermögen",
       "A. Fehlende Verwaltung",
-      "Art. 89 b",
-      "book_1/tit_2_bis/lvl_A"
+      "Art. 89 b ZGB"
     ],
     "@eIds": [
       "art_89_b/para_1",
@@ -2542,8 +2433,7 @@
       "Dritter Titel:  Die Eheschliessung",
       "Erster Abschnitt: Das Verlöbnis",
       "A. Verlobung",
-      "Art. 90",
-      "book_2/part_1/tit_3/chap_1/lvl_A"
+      "Art. 90 ZGB"
     ],
     "@eIds": [
       "art_90/para_1",
@@ -2562,8 +2452,7 @@
       "Erster Abschnitt: Das Verlöbnis",
       "B. Auflösung des Verlöbnisses",
       "I. Geschenke",
-      "Art. 91",
-      "book_2/part_1/tit_3/chap_1/lvl_B/lvl_I"
+      "Art. 91 ZGB"
     ],
     "@eIds": [
       "art_91/para_1",
@@ -2582,8 +2471,7 @@
       "Dritter Titel:  Die Eheschliessung",
       "Zweiter Abschnitt: Die Ehevoraussetzungen",
       "A. Ehefähigkeit",
-      "Art. 94 None",
-      "book_2/part_1/tit_3/chap_2/lvl_A"
+      "Art. 94 None ZGB"
     ],
     "@eIds": [
       "art_94/para"
@@ -2600,8 +2488,7 @@
       "Zweiter Abschnitt: Die Ehevoraussetzungen",
       "B. Ehehindernisse",
       "I. Verwandtschaft",
-      "Art. 95",
-      "book_2/part_1/tit_3/chap_2/lvl_B/lvl_I"
+      "Art. 95 ZGB"
     ],
     "@eIds": [
       "art_95/para_1",
@@ -2619,8 +2506,7 @@
       "Dritter Titel:  Die Eheschliessung",
       "Dritter Abschnitt: Vorbereitung der Eheschliessung und Trauung",
       "A. Grundsätze",
-      "Art. 97",
-      "book_2/part_1/tit_3/chap_3/lvl_A"
+      "Art. 97 ZGB"
     ],
     "@eIds": [
       "art_97/para_1",
@@ -2642,8 +2528,7 @@
       "Dritter Abschnitt: Vorbereitung der Eheschliessung und Trauung",
       "B. Vorbereitungsverfahren",
       "I. Gesuch",
-      "Art. 98",
-      "book_2/part_1/tit_3/chap_3/lvl_B/lvl_I"
+      "Art. 98 ZGB"
     ],
     "@eIds": [
       "art_98/para_1",
@@ -2671,8 +2556,7 @@
       "Dritter Abschnitt: Vorbereitung der Eheschliessung und Trauung",
       "C. Trauung",
       "I. Ort",
-      "Art. 101",
-      "book_2/part_1/tit_3/chap_3/lvl_C/lvl_I"
+      "Art. 101 ZGB"
     ],
     "@eIds": [
       "art_101/para_1",
@@ -2693,8 +2577,7 @@
       "Dritter Titel:  Die Eheschliessung",
       "Vierter Abschnitt: Die Eheungültigkeit",
       "A. Grundsatz",
-      "Art. 104",
-      "book_2/part_1/tit_3/chap_4/lvl_A"
+      "Art. 104 ZGB"
     ],
     "@eIds": [
       "art_104/para",
@@ -2714,8 +2597,7 @@
       "Vierter Abschnitt: Die Eheungültigkeit",
       "B. Unbefristete Ungültigkeit",
       "I. Gründe",
-      "Art. 105",
-      "book_2/part_1/tit_3/chap_4/lvl_B/lvl_I"
+      "Art. 105 ZGB"
     ],
     "@eIds": [
       "art_105/para/listintro",
@@ -2741,8 +2623,7 @@
       "Vierter Abschnitt: Die Eheungültigkeit",
       "C. Befristete Ungültigkeit",
       "I. Gründe",
-      "Art. 107",
-      "book_2/part_1/tit_3/chap_4/lvl_C/lvl_I"
+      "Art. 107 ZGB"
     ],
     "@eIds": [
       "art_107/para/listintro",
@@ -2765,8 +2646,7 @@
       "Erster Abschnitt: Die Scheidungsvoraussetzungen",
       "A. Scheidung auf gemeinsames Begehren",
       "I. Umfassende Einigung",
-      "Art. 111 None",
-      "book_2/part_1/tit_4/chap_1/lvl_A/lvl_I"
+      "Art. 111 None ZGB"
     ],
     "@eIds": [
       "art_111/para_1",
@@ -2787,8 +2667,7 @@
       "Erster Abschnitt: Die Scheidungsvoraussetzungen",
       "B. Scheidung auf Klage eines Ehegatten",
       "I. Nach Getrenntleben",
-      "Art. 114 None",
-      "book_2/part_1/tit_4/chap_1/lvl_B/lvl_I"
+      "Art. 114 None ZGB"
     ],
     "@eIds": [
       "art_114/para",
@@ -2805,8 +2684,7 @@
       "Vierter Titel:  Die Ehescheidung und die Ehetrennung",
       "Zweiter Abschnitt: Die Ehetrennung",
       "A. Voraussetzungen und Verfahren",
-      "Art. 117",
-      "book_2/part_1/tit_4/chap_2/lvl_A"
+      "Art. 117 ZGB"
     ],
     "@eIds": [
       "art_117/para_1",
@@ -2826,8 +2704,7 @@
       "Vierter Titel:  Die Ehescheidung und die Ehetrennung",
       "Dritter Abschnitt: Die Scheidungsfolgen",
       "A. Name",
-      "Art. 119 None",
-      "book_2/part_1/tit_4/chap_3/lvl_A"
+      "Art. 119 None ZGB"
     ],
     "@eIds": [
       "art_119/para",
@@ -2852,8 +2729,7 @@
       "Dritter Abschnitt: Die Scheidungsfolgen",
       "D. Berufliche Vorsorge",
       "I. Grundsatz",
-      "Art. 122 None",
-      "book_2/part_1/tit_4/chap_3/lvl_D/lvl_I"
+      "Art. 122 None ZGB"
     ],
     "@eIds": [
       "art_122/para",
@@ -2891,8 +2767,7 @@
       "Dritter Abschnitt: Die Scheidungsfolgen",
       "E. Nachehelicher Unterhalt",
       "I. Voraussetzungen",
-      "Art. 125",
-      "book_2/part_1/tit_4/chap_3/lvl_E/lvl_I"
+      "Art. 125 ZGB"
     ],
     "@eIds": [
       "art_125/para_1",
@@ -2926,8 +2801,7 @@
       "E. Nachehelicher Unterhalt",
       "III. Rente",
       "1. Besondere Vereinbarungen",
-      "Art. 127",
-      "book_2/part_1/tit_4/chap_3/lvl_E/lvl_III/lvl_1"
+      "Art. 127 ZGB"
     ],
     "@eIds": [
       "art_127/para",
@@ -2951,8 +2825,7 @@
       "E. Nachehelicher Unterhalt",
       "IV. Vollstreckung",
       "1. Inkassohilfe",
-      "Art. 131 None",
-      "book_2/part_1/tit_4/chap_3/lvl_E/lvl_IV/lvl_1"
+      "Art. 131 None ZGB"
     ],
     "@eIds": [
       "art_131/para_1",
@@ -2974,8 +2847,7 @@
       "Dritter Abschnitt: Die Scheidungsfolgen",
       "F. Kinder",
       "I. Elternrechte und -pflichten",
-      "Art. 133 None",
-      "book_2/part_1/tit_4/chap_3/lvl_F/lvl_I"
+      "Art. 133 None ZGB"
     ],
     "@eIds": [
       "art_133/para_1/listintro",
@@ -3001,8 +2873,7 @@
       "Erste Abteilung: Das Eherecht",
       "Fünfter Titel:  Die Wirkungen der Ehe im Allgemeinen",
       "A. Eheliche Gemeinschaft; Rechte und Pflichten der Ehegatten",
-      "Art. 159",
-      "book_2/part_1/tit_5/lvl_A"
+      "Art. 159 ZGB"
     ],
     "@eIds": [
       "art_159/para_1",
@@ -3034,8 +2905,7 @@
       "Fünfter Titel:  Die Wirkungen der Ehe im Allgemeinen",
       "E. Unterhalt der Familie",
       "I. Im Allgemeinen",
-      "Art. 163",
-      "book_2/part_1/tit_5/lvl_E/lvl_I"
+      "Art. 163 ZGB"
     ],
     "@eIds": [
       "art_163/para_1",
@@ -3058,8 +2928,7 @@
       "Fünfter Titel:  Die Wirkungen der Ehe im Allgemeinen",
       "H. Rechtsgeschäfte der Ehegatten",
       "I. Im Allgemeinen",
-      "Art. 168",
-      "book_2/part_1/tit_5/lvl_H/lvl_I"
+      "Art. 168 ZGB"
     ],
     "@eIds": [
       "art_168/para",
@@ -3077,8 +2946,7 @@
       "Fünfter Titel:  Die Wirkungen der Ehe im Allgemeinen",
       "K. Schutz der ehelichen Gemeinschaft",
       "I. Beratungsstellen",
-      "Art. 171",
-      "book_2/part_1/tit_5/lvl_K/lvl_I"
+      "Art. 171 ZGB"
     ],
     "@eIds": [
       "art_171/para"
@@ -3095,8 +2963,7 @@
       "K. Schutz der ehelichen Gemeinschaft",
       "II. Gerichtliche Massnahmen",
       "1. Im Allgemeinen",
-      "Art. 172",
-      "book_2/part_1/tit_5/lvl_K/lvl_II/lvl_1"
+      "Art. 172 ZGB"
     ],
     "@eIds": [
       "art_172/para_1",
@@ -3121,8 +2988,7 @@
       "II. Gerichtliche Massnahmen",
       "2. Während des Zusammenlebens",
       "a. Geldleistungen",
-      "Art. 173",
-      "book_2/part_1/tit_5/lvl_K/lvl_II/lvl_2/lvl_a"
+      "Art. 173 ZGB"
     ],
     "@eIds": [
       "art_173/para_1",
@@ -3145,8 +3011,7 @@
       "II. Gerichtliche Massnahmen",
       "3. Aufhebung des gemeinsamen Haushaltes",
       "a. Gründe",
-      "Art. 175",
-      "book_2/part_1/tit_5/lvl_K/lvl_II/lvl_3/lvl_a"
+      "Art. 175 ZGB"
     ],
     "@eIds": [
       "art_175/para",
@@ -3170,8 +3035,7 @@
       "II. Gerichtliche Massnahmen",
       "4. Vollstreckung",
       "a. Inkassohilfe und Vorschüsse",
-      "Art. 176 a None",
-      "book_2/part_1/tit_5/lvl_K/lvl_II/lvl_4/lvl_a"
+      "Art. 176 a None ZGB"
     ],
     "@eIds": [
       "art_176_a/para",
@@ -3188,8 +3052,7 @@
       "Sechster Titel:  Das Güterrecht der Ehegatten",
       "Erster Abschnitt: Allgemeine Vorschriften",
       "A. Ordentlicher Güterstand",
-      "Art. 181",
-      "book_2/part_1/tit_6/chap_1/lvl_A"
+      "Art. 181 ZGB"
     ],
     "@eIds": [
       "art_181/para",
@@ -3212,8 +3075,7 @@
       "Erster Abschnitt: Allgemeine Vorschriften",
       "B. Ehevertrag",
       "I. Inhalt des Vertrages",
-      "Art. 182",
-      "book_2/part_1/tit_6/chap_1/lvl_B/lvl_I"
+      "Art. 182 ZGB"
     ],
     "@eIds": [
       "art_182/para_1",
@@ -3235,8 +3097,7 @@
       "C. Ausserordentlicher Güterstand",
       "I. Auf Begehren eines Ehegatten",
       "1. Anordnung",
-      "Art. 185",
-      "book_2/part_1/tit_6/chap_1/lvl_C/lvl_I/lvl_1"
+      "Art. 185 ZGB"
     ],
     "@eIds": [
       "art_185/para_1",
@@ -3263,8 +3124,7 @@
       "C. Ausserordentlicher Güterstand",
       "II. Bei Konkurs und Pfändung",
       "1. Bei Konkurs",
-      "Art. 188",
-      "book_2/part_1/tit_6/chap_1/lvl_C/lvl_II/lvl_1"
+      "Art. 188 ZGB"
     ],
     "@eIds": [
       "art_188/para",
@@ -3285,8 +3145,7 @@
       "II. Bei Konkurs und Pfändung",
       "2. Bei Pfändung",
       "a. Anordnung",
-      "Art. 189",
-      "book_2/part_1/tit_6/chap_1/lvl_C/lvl_II/lvl_2/lvl_a"
+      "Art. 189 ZGB"
     ],
     "@eIds": [
       "art_189/para",
@@ -3305,8 +3164,7 @@
       "Erster Abschnitt: Allgemeine Vorschriften",
       "C. Ausserordentlicher Güterstand",
       "III. Güterrechtliche Auseinandersetzung",
-      "Art. 192",
-      "book_2/part_1/tit_6/chap_1/lvl_C/lvl_I"
+      "Art. 192 ZGB"
     ],
     "@eIds": [
       "art_192/para"
@@ -3323,8 +3181,7 @@
       "Zweiter Abschnitt: Der ordentliche Güterstand der Errungenschaftsbeteiligung",
       "A. Eigentumsverhältnisse",
       "I. Zusammensetzung",
-      "Art. 196",
-      "book_2/part_1/tit_6/chap_2/lvl_A/lvl_I"
+      "Art. 196 ZGB"
     ],
     "@eIds": [
       "art_196/para",
@@ -3352,8 +3209,7 @@
       "A. Eigentumsverhältnisse",
       "III. Eigengut",
       "1. Nach Gesetz",
-      "Art. 198",
-      "book_2/part_1/tit_6/chap_2/lvl_A/lvl_III/lvl_1"
+      "Art. 198 ZGB"
     ],
     "@eIds": [
       "art_198/para/listintro",
@@ -3375,8 +3231,7 @@
       "Sechster Titel:  Das Güterrecht der Ehegatten",
       "Zweiter Abschnitt: Der ordentliche Güterstand der Errungenschaftsbeteiligung",
       "B. Verwaltung, Nutzung und Verfügung",
-      "Art. 201",
-      "book_2/part_1/tit_6/chap_2/lvl_A"
+      "Art. 201 ZGB"
     ],
     "@eIds": [
       "art_201/para_1",
@@ -3397,8 +3252,7 @@
       "Zweiter Abschnitt: Der ordentliche Güterstand der Errungenschaftsbeteiligung",
       "E. Auflösung des Güterstandes und Auseinandersetzung",
       "I. Zeitpunkt der Auflösung",
-      "Art. 204",
-      "book_2/part_1/tit_6/chap_2/lvl_E/lvl_I"
+      "Art. 204 ZGB"
     ],
     "@eIds": [
       "art_204/para_1",
@@ -3417,8 +3271,7 @@
       "E. Auflösung des Güterstandes und Auseinandersetzung",
       "II. Rücknahme von Vermögenswerten und Regelung der Schulden",
       "1. Im Allgemeinen",
-      "Art. 205",
-      "book_2/part_1/tit_6/chap_2/lvl_E/lvl_II/lvl_1"
+      "Art. 205 ZGB"
     ],
     "@eIds": [
       "art_205/para_1",
@@ -3441,8 +3294,7 @@
       "E. Auflösung des Güterstandes und Auseinandersetzung",
       "III. Berechnung des Vorschlages jedes Ehegatten",
       "1. Ausscheidung der Errungenschaft und des Eigengutes",
-      "Art. 207",
-      "book_2/part_1/tit_6/chap_2/lvl_E/lvl_III/lvl_1"
+      "Art. 207 ZGB"
     ],
     "@eIds": [
       "art_207/para_1",
@@ -3470,8 +3322,7 @@
       "E. Auflösung des Güterstandes und Auseinandersetzung",
       "IV. Wertbestimmung",
       "1. Verkehrswert",
-      "Art. 211",
-      "book_2/part_1/tit_6/chap_2/lvl_E/lvl_IV/lvl_1"
+      "Art. 211 ZGB"
     ],
     "@eIds": [
       "art_211/para",
@@ -3492,8 +3343,7 @@
       "IV. Wertbestimmung",
       "2. Ertragswert",
       "a. Im Allgemeinen",
-      "Art. 212",
-      "book_2/part_1/tit_6/chap_2/lvl_E/lvl_IV/lvl_2/lvl_a"
+      "Art. 212 ZGB"
     ],
     "@eIds": [
       "art_212/para_1",
@@ -3515,8 +3365,7 @@
       "E. Auflösung des Güterstandes und Auseinandersetzung",
       "V. Beteiligung am Vorschlag",
       "1. Nach Gesetz",
-      "Art. 215",
-      "book_2/part_1/tit_6/chap_2/lvl_E/lvl_V/lvl_1"
+      "Art. 215 ZGB"
     ],
     "@eIds": [
       "art_215/para_1",
@@ -3536,8 +3385,7 @@
       "V. Beteiligung am Vorschlag",
       "2. Nach Vertrag",
       "a. Im Allgemeinen",
-      "Art. 216",
-      "book_2/part_1/tit_6/chap_2/lvl_E/lvl_V/lvl_2/lvl_a"
+      "Art. 216 ZGB"
     ],
     "@eIds": [
       "art_216/para_1",
@@ -3559,8 +3407,7 @@
       "E. Auflösung des Güterstandes und Auseinandersetzung",
       "VI. Bezahlung der Beteiligungsforderung und des Mehrwertanteils",
       "1. Zahlungsaufschub",
-      "Art. 218",
-      "book_2/part_1/tit_6/chap_2/lvl_E/lvl_VI/lvl_1"
+      "Art. 218 ZGB"
     ],
     "@eIds": [
       "art_218/para_1",
@@ -3585,8 +3432,7 @@
       "Dritter Abschnitt: Die Gütergemeinschaft",
       "A. Eigentumsverhältnisse",
       "I. Zusammensetzung",
-      "Art. 221",
-      "book_2/part_1/tit_6/chap_3/lvl_A/lvl_I"
+      "Art. 221 ZGB"
     ],
     "@eIds": [
       "art_221/para",
@@ -3608,8 +3454,7 @@
       "A. Eigentumsverhältnisse",
       "II. Gesamtgut",
       "1. Allgemeine Gütergemeinschaft",
-      "Art. 222",
-      "book_2/part_1/tit_6/chap_3/lvl_A/lvl_II/lvl_1"
+      "Art. 222 ZGB"
     ],
     "@eIds": [
       "art_222/para_1",
@@ -3630,8 +3475,7 @@
       "II. Gesamtgut",
       "2. Beschränkte Gütergemeinschaften",
       "a. Errungenschaftsgemeinschaft",
-      "Art. 223",
-      "book_2/part_1/tit_6/chap_3/lvl_A/lvl_II/lvl_2/lvl_a"
+      "Art. 223 ZGB"
     ],
     "@eIds": [
       "art_223/para_1",
@@ -3652,8 +3496,7 @@
       "B. Verwaltung und Verfügung",
       "I. Gesamtgut",
       "1. Ordentliche Verwaltung",
-      "Art. 227",
-      "book_2/part_1/tit_6/chap_3/lvl_B/lvl_I/lvl_1"
+      "Art. 227 ZGB"
     ],
     "@eIds": [
       "art_227/para_1",
@@ -3679,8 +3522,7 @@
       "Dritter Abschnitt: Die Gütergemeinschaft",
       "B. Verwaltung und Verfügung",
       "II. Eigengut",
-      "Art. 232",
-      "book_2/part_1/tit_6/chap_3/lvl_B/lvl_I"
+      "Art. 232 ZGB"
     ],
     "@eIds": [
       "art_232/para_1",
@@ -3698,8 +3540,7 @@
       "Dritter Abschnitt: Die Gütergemeinschaft",
       "C. Haftung gegenüber Dritten",
       "I. Vollschulden",
-      "Art. 233",
-      "book_2/part_1/tit_6/chap_3/lvl_C/lvl_I"
+      "Art. 233 ZGB"
     ],
     "@eIds": [
       "art_233/para/listintro",
@@ -3721,8 +3562,7 @@
       "Sechster Titel:  Das Güterrecht der Ehegatten",
       "Dritter Abschnitt: Die Gütergemeinschaft",
       "D. Schulden zwischen Ehegatten",
-      "Art. 235",
-      "book_2/part_1/tit_6/chap_3/lvl_A"
+      "Art. 235 ZGB"
     ],
     "@eIds": [
       "art_235/para_1",
@@ -3740,8 +3580,7 @@
       "Dritter Abschnitt: Die Gütergemeinschaft",
       "E. Auflösung des Güterstandes und Auseinandersetzung",
       "I. Zeitpunkt der Auflösung",
-      "Art. 236",
-      "book_2/part_1/tit_6/chap_3/lvl_E/lvl_I"
+      "Art. 236 ZGB"
     ],
     "@eIds": [
       "art_236/para_1",
@@ -3766,8 +3605,7 @@
       "E. Auflösung des Güterstandes und Auseinandersetzung",
       "VI. Teilung",
       "1. Bei Tod oder Vereinbarung eines andern Güterstandes",
-      "Art. 241",
-      "book_2/part_1/tit_6/chap_3/lvl_E/lvl_VI/lvl_1"
+      "Art. 241 ZGB"
     ],
     "@eIds": [
       "art_241/para_1",
@@ -3791,8 +3629,7 @@
       "E. Auflösung des Güterstandes und Auseinandersetzung",
       "VII. Durchführung der Teilung",
       "1. Eigengut",
-      "Art. 243",
-      "book_2/part_1/tit_6/chap_3/lvl_E/lvl_VII/lvl_1"
+      "Art. 243 ZGB"
     ],
     "@eIds": [
       "art_243/para",
@@ -3814,8 +3651,7 @@
       "Vierter Abschnitt: Die Gütertrennung",
       "A. Verwaltung, Nutzung und Verfügung",
       "I. Im Allgemeinen",
-      "Art. 247",
-      "book_2/part_1/tit_6/chap_4/lvl_A/lvl_I"
+      "Art. 247 ZGB"
     ],
     "@eIds": [
       "art_247/para",
@@ -3833,8 +3669,7 @@
       "Sechster Titel:  Das Güterrecht der Ehegatten",
       "Vierter Abschnitt: Die Gütertrennung",
       "B. Haftung gegenüber Dritten",
-      "Art. 249",
-      "book_2/part_1/tit_6/chap_4/lvl_A"
+      "Art. 249 ZGB"
     ],
     "@eIds": [
       "art_249/para",
@@ -3853,8 +3688,7 @@
       "Siebenter Titel: Die Entstehung des Kindesverhältnisses",
       "Erster Abschnitt: Allgemeine Bestimmungen",
       "A. Entstehung des Kindesverhältnisses im Allgemeinen",
-      "Art. 252 None",
-      "book_2/part_2/tit_7/chap_1/lvl_A"
+      "Art. 252 None ZGB"
     ],
     "@eIds": [
       "art_252/para_1",
@@ -3873,8 +3707,7 @@
       "Zweiter Abschnitt: Die Elternschaft des Ehemannes oder der Ehefrau",
       "A. Vermutung",
       "I. Elternschaft des Ehemannes",
-      "Art. 255 None",
-      "book_2/part_2/tit_7/chap_2/lvl_A/lvl_I"
+      "Art. 255 None ZGB"
     ],
     "@eIds": [
       "art_255/para_1",
@@ -3895,8 +3728,7 @@
       "Zweiter Abschnitt: Die Elternschaft des Ehemannes oder der Ehefrau",
       "B. Anfechtung der Elternschaft des Ehemannes",
       "I. Klagerecht",
-      "Art. 256 None",
-      "book_2/part_2/tit_7/chap_2/lvl_B/lvl_I"
+      "Art. 256 None ZGB"
     ],
     "@eIds": [
       "art_256/para_1/listintro",
@@ -3921,8 +3753,7 @@
       "B. Anfechtung der Elternschaft des Ehemannes",
       "II. Klagegrund",
       "1. Bei Zeugung während der Ehe",
-      "Art. 256 a None",
-      "book_2/part_2/tit_7/chap_2/lvl_B/lvl_II/lvl_1"
+      "Art. 256 a None ZGB"
     ],
     "@eIds": [
       "art_256_a/para_1",
@@ -3941,8 +3772,7 @@
       "Siebenter Titel: Die Entstehung des Kindesverhältnisses",
       "Zweiter Abschnitt: Die Elternschaft des Ehemannes oder der Ehefrau",
       "C. Zusammentreffen zweier Vermutungen",
-      "Art. 257 None",
-      "book_2/part_2/tit_7/chap_2/lvl_A"
+      "Art. 257 None ZGB"
     ],
     "@eIds": [
       "art_257/para_1",
@@ -3970,8 +3800,7 @@
       "Dritter Abschnitt: Anerkennung und Vaterschaftsurteil",
       "A. Anerkennung",
       "I. Zulässigkeit und Form",
-      "Art. 260 None",
-      "book_2/part_2/tit_7/chap_3/lvl_A/lvl_I"
+      "Art. 260 None ZGB"
     ],
     "@eIds": [
       "art_260/para_1",
@@ -3991,8 +3820,7 @@
       "A. Anerkennung",
       "II. Anfechtung",
       "1. Klagerecht",
-      "Art. 260 a None",
-      "book_2/part_2/tit_7/chap_3/lvl_A/lvl_II/lvl_1"
+      "Art. 260 a None ZGB"
     ],
     "@eIds": [
       "art_260_a/para_1",
@@ -4016,8 +3844,7 @@
       "Dritter Abschnitt: Anerkennung und Vaterschaftsurteil",
       "B. Vaterschaftsklage",
       "I. Klagerecht",
-      "Art. 261 None",
-      "book_2/part_2/tit_7/chap_3/lvl_B/lvl_I"
+      "Art. 261 None ZGB"
     ],
     "@eIds": [
       "art_261/para_1",
@@ -4044,8 +3871,7 @@
       "Vierter Abschnitt  : Die Adoption",
       "A. Adoption Minderjähriger",
       "I. Allgemeine Voraussetzungen",
-      "Art. 264 None",
-      "book_2/part_2/tit_7/chap_4/lvl_A/lvl_I"
+      "Art. 264 None ZGB"
     ],
     "@eIds": [
       "art_264/para_1",
@@ -4080,8 +3906,7 @@
       "A. Adoption Minderjähriger",
       "VII. Zustimmung der Eltern",
       "1. Form",
-      "Art. 265 a None",
-      "book_2/part_2/tit_7/chap_4/lvl_A/lvl_VII/lvl_1"
+      "Art. 265 a None ZGB"
     ],
     "@eIds": [
       "art_265_a/para_1",
@@ -4105,8 +3930,7 @@
       "VII. Zustimmung der Eltern",
       "3. Absehen von der Zustimmung",
       "a. Voraussetzungen",
-      "Art. 265 c None",
-      "book_2/part_2/tit_7/chap_4/lvl_A/lvl_VII/lvl_3/lvl_a"
+      "Art. 265 c None ZGB"
     ],
     "@eIds": [
       "art_265_c/para",
@@ -4125,8 +3949,7 @@
       "Siebenter Titel: Die Entstehung des Kindesverhältnisses",
       "Vierter Abschnitt  : Die Adoption",
       "B. Adoption einer volljährigen Person",
-      "Art. 266 None",
-      "book_2/part_2/tit_7/chap_4/lvl_A"
+      "Art. 266 None ZGB"
     ],
     "@eIds": [
       "art_266/para_1/listintro",
@@ -4164,8 +3987,7 @@
       "Vierter Abschnitt  : Die Adoption",
       "C. Wirkungen",
       "I. Im Allgemeinen",
-      "Art. 267 None",
-      "book_2/part_2/tit_7/chap_4/lvl_C/lvl_I"
+      "Art. 267 None ZGB"
     ],
     "@eIds": [
       "art_267/para_1",
@@ -4192,8 +4014,7 @@
       "Vierter Abschnitt  : Die Adoption",
       "D. Verfahren",
       "I. Im Allgemeinen",
-      "Art. 268 None",
-      "book_2/part_2/tit_7/chap_4/lvl_D/lvl_I"
+      "Art. 268 None ZGB"
     ],
     "@eIds": [
       "art_268/para_1",
@@ -4230,8 +4051,7 @@
       "E. Anfechtung",
       "I. Gründe",
       "1. Fehlen der Zustimmung",
-      "Art. 269 None",
-      "book_2/part_2/tit_7/chap_4/lvl_E/lvl_I/lvl_1"
+      "Art. 269 None ZGB"
     ],
     "@eIds": [
       "art_269/para_1",
@@ -4251,8 +4071,7 @@
       "Vierter Abschnitt  : Die Adoption",
       "E. Anfechtung",
       "II. Klagefrist",
-      "Art. 269 b None",
-      "book_2/part_2/tit_7/chap_4/lvl_E/lvl_I"
+      "Art. 269 b None ZGB"
     ],
     "@eIds": [
       "art_269_b/para"
@@ -4269,8 +4088,7 @@
       "Erster Abschnitt: Die Gemeinschaft der Eltern und Kinder",
       "A. Name",
       "I. Kind verheirateter Eltern",
-      "Art. 270 None",
-      "book_2/part_2/tit_8/chap_1/lvl_A/lvl_I"
+      "Art. 270 None ZGB"
     ],
     "@eIds": [
       "art_270/para_1",
@@ -4293,8 +4111,7 @@
       "Achter Titel: Die Wirkungen des Kindesverhältnisses",
       "Erster Abschnitt: Die Gemeinschaft der Eltern und Kinder",
       "B. Bürgerrecht",
-      "Art. 271 None",
-      "book_2/part_2/tit_8/chap_1/lvl_A"
+      "Art. 271 None ZGB"
     ],
     "@eIds": [
       "art_271/para_1",
@@ -4317,8 +4134,7 @@
       "D. Persönlicher Verkehr",
       "I. Eltern und Kinder",
       "1. Grundsatz",
-      "Art. 273 None",
-      "book_2/part_2/tit_8/chap_1/lvl_D/lvl_I/lvl_1"
+      "Art. 273 None ZGB"
     ],
     "@eIds": [
       "art_273/para_1",
@@ -4340,8 +4156,7 @@
       "Erster Abschnitt: Die Gemeinschaft der Eltern und Kinder",
       "D. Persönlicher Verkehr",
       "II. Dritte",
-      "Art. 274 a None",
-      "book_2/part_2/tit_8/chap_1/lvl_D/lvl_I"
+      "Art. 274 a None ZGB"
     ],
     "@eIds": [
       "art_274_a/para_1",
@@ -4362,8 +4177,7 @@
       "Zweiter Abschnitt: Die Unterhaltspflicht der Eltern",
       "A. Allgemeines",
       "I. Gegenstand und Umfang",
-      "Art. 276 None",
-      "book_2/part_2/tit_8/chap_2/lvl_A/lvl_I"
+      "Art. 276 None ZGB"
     ],
     "@eIds": [
       "art_276/para_1",
@@ -4383,8 +4197,7 @@
       "Achter Titel: Die Wirkungen des Kindesverhältnisses",
       "Zweiter Abschnitt: Die Unterhaltspflicht der Eltern",
       "B. Dauer",
-      "Art. 277 None",
-      "book_2/part_2/tit_8/chap_2/lvl_A"
+      "Art. 277 None ZGB"
     ],
     "@eIds": [
       "art_277/para_1",
@@ -4414,8 +4227,7 @@
       "Zweiter Abschnitt: Die Unterhaltspflicht der Eltern",
       "D. Klage",
       "I. Klagerecht",
-      "Art. 279 None",
-      "book_2/part_2/tit_8/chap_2/lvl_D/lvl_I"
+      "Art. 279 None ZGB"
     ],
     "@eIds": [
       "art_279/para_1",
@@ -4434,8 +4246,7 @@
       "D. Klage",
       "IV. Bemessung des Unterhaltsbeitrages",
       "1. Beitrag der Eltern",
-      "Art. 285 None",
-      "book_2/part_2/tit_8/chap_2/lvl_D/lvl_IV/lvl_1"
+      "Art. 285 None ZGB"
     ],
     "@eIds": [
       "art_285/para_1",
@@ -4458,8 +4269,7 @@
       "D. Klage",
       "V. Veränderung der Verhältnisse",
       "1. Im Allgemeinen",
-      "Art. 286 None",
-      "book_2/part_2/tit_8/chap_2/lvl_D/lvl_V/lvl_1"
+      "Art. 286 None ZGB"
     ],
     "@eIds": [
       "art_286/para_1",
@@ -4481,8 +4291,7 @@
       "Zweiter Abschnitt: Die Unterhaltspflicht der Eltern",
       "E. Verträge über die Unterhaltspflicht",
       "I. Periodische Leistungen",
-      "Art. 287 None",
-      "book_2/part_2/tit_8/chap_2/lvl_E/lvl_I"
+      "Art. 287 None ZGB"
     ],
     "@eIds": [
       "art_287/para_1",
@@ -4510,8 +4319,7 @@
       "Zweiter Abschnitt: Die Unterhaltspflicht der Eltern",
       "F. Erfüllung",
       "I. Gläubiger",
-      "Art. 289 None",
-      "book_2/part_2/tit_8/chap_2/lvl_F/lvl_I"
+      "Art. 289 None ZGB"
     ],
     "@eIds": [
       "art_289/para_1",
@@ -4531,8 +4339,7 @@
       "F. Erfüllung",
       "II. Vollstreckung",
       "1. Inkassohilfe",
-      "Art. 290 None",
-      "book_2/part_2/tit_8/chap_2/lvl_F/lvl_II/lvl_1"
+      "Art. 290 None ZGB"
     ],
     "@eIds": [
       "art_290/para_1",
@@ -4550,8 +4357,7 @@
       "Achter Titel: Die Wirkungen des Kindesverhältnisses",
       "Dritter Abschnitt: Die elterliche Sorge",
       "A. Grundsätze",
-      "Art. 296 None",
-      "book_2/part_2/tit_8/chap_3/lvl_A"
+      "Art. 296 None ZGB"
     ],
     "@eIds": [
       "art_296/para_1",
@@ -4581,8 +4387,7 @@
       "Dritter Abschnitt: Die elterliche Sorge",
       "A quater . Anerkennung und Vaterschaftsurteil",
       "I. Gemeinsame Erklärung der Eltern",
-      "Art. 298 a None",
-      "book_2/part_2/tit_8/chap_3/lvl_A_quater/lvl_I"
+      "Art. 298 a None ZGB"
     ],
     "@eIds": [
       "art_298_a/para_1",
@@ -4615,8 +4420,7 @@
       "Dritter Abschnitt: Die elterliche Sorge",
       "B. Inhalt",
       "I. Im Allgemeinen",
-      "Art. 301 None",
-      "book_2/part_2/tit_8/chap_3/lvl_B/lvl_I"
+      "Art. 301 None ZGB"
     ],
     "@eIds": [
       "art_301/para_1",
@@ -4654,8 +4458,7 @@
       "V. Vertretung",
       "1. Dritten gegenüber",
       "a. Im Allgemeinen",
-      "Art. 304 None",
-      "book_2/part_2/tit_8/chap_3/lvl_B/lvl_V/lvl_1/lvl_a"
+      "Art. 304 None ZGB"
     ],
     "@eIds": [
       "art_304/para_1",
@@ -4677,8 +4480,7 @@
       "B. Inhalt",
       "V. Vertretung",
       "2. Innerhalb der Gemeinschaft",
-      "Art. 306 None",
-      "book_2/part_2/tit_8/chap_3/lvl_B/lvl_V/lvl_1"
+      "Art. 306 None ZGB"
     ],
     "@eIds": [
       "art_306/para_1",
@@ -4697,8 +4499,7 @@
       "Dritter Abschnitt: Die elterliche Sorge",
       "C. Kindesschutz",
       "I. Geeignete Massnahmen",
-      "Art. 307 None",
-      "book_2/part_2/tit_8/chap_3/lvl_C/lvl_I"
+      "Art. 307 None ZGB"
     ],
     "@eIds": [
       "art_307/para_1",
@@ -4730,8 +4531,7 @@
       "C. Kindesschutz",
       "IV. Entziehung der elterlichen Sorge",
       "1. Von Amtes wegen",
-      "Art. 311 None",
-      "book_2/part_2/tit_8/chap_3/lvl_C/lvl_IV/lvl_1"
+      "Art. 311 None ZGB"
     ],
     "@eIds": [
       "art_311/para_1",
@@ -4756,8 +4556,7 @@
       "C. Kindesschutz",
       "VI. Verfahren",
       "1. Im Allgemeinen",
-      "Art. 314 None",
-      "book_2/part_2/tit_8/chap_3/lvl_C/lvl_VI/lvl_1"
+      "Art. 314 None ZGB"
     ],
     "@eIds": [
       "art_314/para_1",
@@ -4798,8 +4597,7 @@
       "C. Kindesschutz",
       "VII. Zuständigkeit",
       "1. Im Allgemeinen",
-      "Art. 315 None",
-      "book_2/part_2/tit_8/chap_3/lvl_C/lvl_VII/lvl_1"
+      "Art. 315 None ZGB"
     ],
     "@eIds": [
       "art_315/para_1",
@@ -4820,8 +4618,7 @@
       "VII. Zuständigkeit",
       "2. In eherechtlichen Verfahren",
       "a. Zuständigkeit des Gerichts",
-      "Art. 315 a None",
-      "book_2/part_2/tit_8/chap_3/lvl_C/lvl_VII/lvl_2/lvl_a"
+      "Art. 315 a None ZGB"
     ],
     "@eIds": [
       "art_315_a/para_1",
@@ -4846,8 +4643,7 @@
       "Achter Titel: Die Wirkungen des Kindesverhältnisses",
       "Vierter Abschnitt: Das Kindesvermögen",
       "A. Verwaltung",
-      "Art. 318 None",
-      "book_2/part_2/tit_8/chap_4/lvl_A"
+      "Art. 318 None ZGB"
     ],
     "@eIds": [
       "art_318/para_1",
@@ -4870,8 +4666,7 @@
       "Vierter Abschnitt: Das Kindesvermögen",
       "D. Freies Kindesvermögen",
       "I. Zuwendungen",
-      "Art. 321 None",
-      "book_2/part_2/tit_8/chap_4/lvl_D/lvl_I"
+      "Art. 321 None ZGB"
     ],
     "@eIds": [
       "art_321/para_1",
@@ -4893,8 +4688,7 @@
       "Vierter Abschnitt: Das Kindesvermögen",
       "E. Schutz des Kindesvermögens",
       "I. Geeignete Massnahmen",
-      "Art. 324 None",
-      "book_2/part_2/tit_8/chap_4/lvl_E/lvl_I"
+      "Art. 324 None ZGB"
     ],
     "@eIds": [
       "art_324/para_1",
@@ -4916,8 +4710,7 @@
       "Vierter Abschnitt: Das Kindesvermögen",
       "F. Ende der Verwaltung",
       "I. Rückerstattung",
-      "Art. 326 None",
-      "book_2/part_2/tit_8/chap_4/lvl_F/lvl_I"
+      "Art. 326 None ZGB"
     ],
     "@eIds": [
       "art_326/para",
@@ -4936,8 +4729,7 @@
       "Achter Titel: Die Wirkungen des Kindesverhältnisses",
       "Fünfter Abschnitt:  Minderjährige unter Vormundschaft",
       "A. Grundsatz",
-      "Art. 327 a",
-      "book_2/part_2/tit_8/chap_5/lvl_A"
+      "Art. 327 a ZGB"
     ],
     "@eIds": [
       "art_327_a/para"
@@ -4954,8 +4746,7 @@
       "Fünfter Abschnitt:  Minderjährige unter Vormundschaft",
       "B. Rechtsstellung",
       "I. Des Kindes",
-      "Art. 327 b",
-      "book_2/part_2/tit_8/chap_5/lvl_B/lvl_I"
+      "Art. 327 b ZGB"
     ],
     "@eIds": [
       "art_327_b/para",
@@ -4974,8 +4765,7 @@
       "Neunter Titel: Die Familiengemeinschaft",
       "Erster Abschnitt: Die Unterstützungspflicht",
       "A. Unterstützungspflichtige",
-      "Art. 328 None",
-      "book_2/part_2/tit_9/chap_1/lvl_A"
+      "Art. 328 None ZGB"
     ],
     "@eIds": [
       "art_328/para_1",
@@ -4998,8 +4788,7 @@
       "Neunter Titel: Die Familiengemeinschaft",
       "Zweiter Abschnitt: Die Hausgewalt",
       "A. Voraussetzung",
-      "Art. 331",
-      "book_2/part_2/tit_9/chap_2/lvl_A"
+      "Art. 331 ZGB"
     ],
     "@eIds": [
       "art_331/para_1",
@@ -5017,8 +4806,7 @@
       "Zweiter Abschnitt: Die Hausgewalt",
       "B. Wirkung",
       "I. Hausordnung und Fürsorge",
-      "Art. 332",
-      "book_2/part_2/tit_9/chap_2/lvl_B/lvl_I"
+      "Art. 332 ZGB"
     ],
     "@eIds": [
       "art_332/para_1",
@@ -5041,8 +4829,7 @@
       "B. Wirkung",
       "III. Forderung der Kinder und Grosskinder",
       "1. Voraussetzungen",
-      "Art. 334 None",
-      "book_2/part_2/tit_9/chap_2/lvl_B/lvl_III/lvl_1"
+      "Art. 334 None ZGB"
     ],
     "@eIds": [
       "art_334/para_1",
@@ -5062,8 +4849,7 @@
       "Neunter Titel: Die Familiengemeinschaft",
       "Dritter Abschnitt: Das Familienvermögen",
       "A. Familienstiftungen",
-      "Art. 335",
-      "book_2/part_2/tit_9/chap_3/lvl_A"
+      "Art. 335 ZGB"
     ],
     "@eIds": [
       "art_335/para_1",
@@ -5082,8 +4868,7 @@
       "B. Gemeinderschaften",
       "I. Begründung",
       "1. Befugnis",
-      "Art. 336",
-      "book_2/part_2/tit_9/chap_3/lvl_B/lvl_I/lvl_1"
+      "Art. 336 ZGB"
     ],
     "@eIds": [
       "art_336/para",
@@ -5101,8 +4886,7 @@
       "Dritter Abschnitt: Das Familienvermögen",
       "B. Gemeinderschaften",
       "II. Dauer",
-      "Art. 338",
-      "book_2/part_2/tit_9/chap_3/lvl_B/lvl_I"
+      "Art. 338 ZGB"
     ],
     "@eIds": [
       "art_338/para_1",
@@ -5122,8 +4906,7 @@
       "B. Gemeinderschaften",
       "III. Wirkung",
       "1. Art der Gemeinderschaft",
-      "Art. 339",
-      "book_2/part_2/tit_9/chap_3/lvl_B/lvl_III/lvl_1"
+      "Art. 339 ZGB"
     ],
     "@eIds": [
       "art_339/para_1",
@@ -5147,8 +4930,7 @@
       "III. Wirkung",
       "2. Leitung und Vertretung",
       "a. Im Allgemeinen",
-      "Art. 340",
-      "book_2/part_2/tit_9/chap_3/lvl_B/lvl_III/lvl_2/lvl_a"
+      "Art. 340 ZGB"
     ],
     "@eIds": [
       "art_340/para_1",
@@ -5170,8 +4952,7 @@
       "B. Gemeinderschaften",
       "IV. Aufhebung",
       "1. Gründe",
-      "Art. 343",
-      "book_2/part_2/tit_9/chap_3/lvl_B/lvl_IV/lvl_1"
+      "Art. 343 ZGB"
     ],
     "@eIds": [
       "art_343/para/listintro",
@@ -5200,8 +4981,7 @@
       "B. Gemeinderschaften",
       "V. Ertragsgemeinderschaft",
       "1. Inhalt",
-      "Art. 347",
-      "book_2/part_2/tit_9/chap_3/lvl_B/lvl_V/lvl_1"
+      "Art. 347 ZGB"
     ],
     "@eIds": [
       "art_347/para_1",
@@ -5221,8 +5001,7 @@
       "Elfter Titel: Die behördlichen Massnahmen",
       "Erster Abschnitt: Allgemeine Grundsätze",
       "A. Zweck",
-      "Art. 388",
-      "book_2/part_3/tit_11/chap_1/lvl_A"
+      "Art. 388 ZGB"
     ],
     "@eIds": [
       "art_388/para_1",
@@ -5244,8 +5023,7 @@
       "Dritter Abschnitt: Die fürsorgerische Unterbringung",
       "A. Die Massnahmen",
       "I. Unterbringung zur Behandlung oder Betreuung",
-      "Art. 426",
-      "book_2/part_3/tit_11/chap_3/lvl_A/lvl_I"
+      "Art. 426 ZGB"
     ],
     "@eIds": [
       "art_426/para_1",
@@ -5270,8 +5048,7 @@
       "Dritter Abschnitt: Die fürsorgerische Unterbringung",
       "B. Zuständigkeit für die Unterbringung und die Entlassung",
       "I. Erwachsenenschutzbehörde",
-      "Art. 428",
-      "book_2/part_3/tit_11/chap_3/lvl_B/lvl_I"
+      "Art. 428 ZGB"
     ],
     "@eIds": [
       "art_428/para_1",
@@ -5290,8 +5067,7 @@
       "B. Zuständigkeit für die Unterbringung und die Entlassung",
       "II. Ärztinnen und Ärzte",
       "1. Zuständigkeit",
-      "Art. 429",
-      "book_2/part_3/tit_11/chap_3/lvl_B/lvl_II/lvl_1"
+      "Art. 429 ZGB"
     ],
     "@eIds": [
       "art_429/para_1",
@@ -5318,8 +5094,7 @@
       "Elfter Titel: Die behördlichen Massnahmen",
       "Dritter Abschnitt: Die fürsorgerische Unterbringung",
       "C. Periodische Überprüfung",
-      "Art. 431",
-      "book_2/part_3/tit_11/chap_3/lvl_A"
+      "Art. 431 ZGB"
     ],
     "@eIds": [
       "art_431/para_1",
@@ -5348,8 +5123,7 @@
       "Dritter Abschnitt: Die fürsorgerische Unterbringung",
       "E. Medizinische Massnahmen bei einer psychischen Störung",
       "I. Behandlungsplan",
-      "Art. 433",
-      "book_2/part_3/tit_11/chap_3/lvl_E/lvl_I"
+      "Art. 433 ZGB"
     ],
     "@eIds": [
       "art_433/para_1",
@@ -5379,8 +5153,7 @@
       "Zwölfter Titel: Organisation",
       "Erster Abschnitt: Behörden und örtliche Zuständigkeit",
       "A. Erwachsenenschutzbehörde",
-      "Art. 440",
-      "book_2/part_3/tit_12/chap_1/lvl_A"
+      "Art. 440 ZGB"
     ],
     "@eIds": [
       "art_440/para_1",
@@ -5405,8 +5178,7 @@
       "Zwölfter Titel: Organisation",
       "Dritter Abschnitt: Verhältnis zu Dritten und Zusammenarbeitspflicht",
       "A. Verschwiegenheitspflicht und Auskunft",
-      "Art. 45 1",
-      "book_2/part_3/tit_12/chap_3/lvl_A"
+      "Art. 45 1 ZGB"
     ],
     "@eIds": [
       "art_451/para_1",
@@ -5428,8 +5200,7 @@
       "Zwölfter Titel: Organisation",
       "Vierter Abschnitt: Verantwortlichkeit",
       "A. Grundsatz",
-      "Art. 454",
-      "book_2/part_3/tit_12/chap_4/lvl_A"
+      "Art. 454 ZGB"
     ],
     "@eIds": [
       "art_454/para_1",
@@ -5452,8 +5223,7 @@
       "Dreizehnter Titel: Die gesetzlichen Erben",
       "A. Verwandte Erben",
       "I. Nachkommen",
-      "Art. 457",
-      "book_3/part_1/tit_13/lvl_A/lvl_I"
+      "Art. 457 ZGB"
     ],
     "@eIds": [
       "art_457/para_1",
@@ -5480,8 +5250,7 @@
       "Erste Abteilung: Die Erben",
       "Dreizehnter Titel: Die gesetzlichen Erben",
       "B. Überlebende Ehegatten und überlebende eingetragene Partnerinnen oder Partner",
-      "Art. 462 None",
-      "book_3/part_1/tit_13/lvl_A"
+      "Art. 462 None ZGB"
     ],
     "@eIds": [
       "art_462/para/listintro",
@@ -5501,8 +5270,7 @@
       "Vierzehnter Titel: Die Verfügungen von Todes wegen",
       "Erster Abschnitt: Die Verfügungsfähigkeit",
       "A. Letztwillige Verfügung",
-      "Art. 467",
-      "book_3/part_1/tit_14/chap_1/lvl_A"
+      "Art. 467 ZGB"
     ],
     "@eIds": [
       "art_467/para",
@@ -5524,8 +5292,7 @@
       "Zweiter Abschnitt: Die Verfügungsfreiheit",
       "A. Verfügbarer Teil",
       "I. Umfang der Verfügungsbefugnis",
-      "Art. 470",
-      "book_3/part_1/tit_14/chap_2/lvl_A/lvl_I"
+      "Art. 470 ZGB"
     ],
     "@eIds": [
       "art_470/para_1",
@@ -5553,8 +5320,7 @@
       "A. Verfügbarer Teil",
       "V. Berechnung des verfügbaren Teils",
       "1. Schuldenabzug",
-      "Art. 474",
-      "book_3/part_1/tit_14/chap_2/lvl_A/lvl_V/lvl_1"
+      "Art. 474 ZGB"
     ],
     "@eIds": [
       "art_474/para_1",
@@ -5575,8 +5341,7 @@
       "Zweiter Abschnitt: Die Verfügungsfreiheit",
       "B. Enterbung",
       "I. Gründe",
-      "Art. 477",
-      "book_3/part_1/tit_14/chap_2/lvl_B/lvl_I"
+      "Art. 477 ZGB"
     ],
     "@eIds": [
       "art_477/para/listintro",
@@ -5602,8 +5367,7 @@
       "Vierzehnter Titel: Die Verfügungen von Todes wegen",
       "Dritter Abschnitt: Die Verfügungsarten",
       "A. Im Allgemeinen",
-      "Art. 481",
-      "book_3/part_1/tit_14/chap_3/lvl_A"
+      "Art. 481 ZGB"
     ],
     "@eIds": [
       "art_481/para_1",
@@ -5630,8 +5394,7 @@
       "Dritter Abschnitt: Die Verfügungsarten",
       "D. Vermächtnis",
       "I. Inhalt",
-      "Art. 484",
-      "book_3/part_1/tit_14/chap_3/lvl_D/lvl_I"
+      "Art. 484 ZGB"
     ],
     "@eIds": [
       "art_484/para_1",
@@ -5655,8 +5418,7 @@
       "Dritter Abschnitt: Die Verfügungsarten",
       "F. Nacherbeneinsetzung",
       "I. Bezeichnung des Nacherben",
-      "Art. 488",
-      "book_3/part_1/tit_14/chap_3/lvl_F/lvl_I"
+      "Art. 488 ZGB"
     ],
     "@eIds": [
       "art_488/para_1",
@@ -5684,8 +5446,7 @@
       "F. Nacherbeneinsetzung",
       "IV. Rechtsstellung",
       "1. Des Vorerben",
-      "Art. 491",
-      "book_3/part_1/tit_14/chap_3/lvl_F/lvl_IV/lvl_1"
+      "Art. 491 ZGB"
     ],
     "@eIds": [
       "art_491/para_1",
@@ -5706,8 +5467,7 @@
       "Dritter Abschnitt: Die Verfügungsarten",
       "H. Erbverträge",
       "I. Erbeinsetzungs- und Vermächtnisvertrag",
-      "Art. 494",
-      "book_3/part_1/tit_14/chap_3/lvl_H/lvl_I"
+      "Art. 494 ZGB"
     ],
     "@eIds": [
       "art_494/para_1",
@@ -5729,8 +5489,7 @@
       "H. Erbverträge",
       "II. Erbverzicht",
       "1. Bedeutung",
-      "Art. 495",
-      "book_3/part_1/tit_14/chap_3/lvl_H/lvl_II/lvl_1"
+      "Art. 495 ZGB"
     ],
     "@eIds": [
       "art_495/para_1",
@@ -5753,8 +5512,7 @@
       "A. Letztwillige Verfügungen",
       "I. Errichtung",
       "1. Im Allgemeinen",
-      "Art. 498",
-      "book_3/part_1/tit_14/chap_4/lvl_A/lvl_I/lvl_1"
+      "Art. 498 ZGB"
     ],
     "@eIds": [
       "art_498/para",
@@ -5775,8 +5533,7 @@
       "I. Errichtung",
       "2. Öffentliche Verfügung",
       "a. Errichtungsform",
-      "Art. 499",
-      "book_3/part_1/tit_14/chap_4/lvl_A/lvl_I/lvl_2/lvl_a"
+      "Art. 499 ZGB"
     ],
     "@eIds": [
       "art_499/para",
@@ -5806,8 +5563,7 @@
       "I. Errichtung",
       "4. Mündliche Verfügung",
       "a. Verfügung",
-      "Art. 506",
-      "book_3/part_1/tit_14/chap_4/lvl_A/lvl_I/lvl_4/lvl_a"
+      "Art. 506 ZGB"
     ],
     "@eIds": [
       "art_506/para_1",
@@ -5831,8 +5587,7 @@
       "A. Letztwillige Verfügungen",
       "II. Widerruf und Vernichtung",
       "1. Widerruf",
-      "Art. 509",
-      "book_3/part_1/tit_14/chap_4/lvl_A/lvl_II/lvl_1"
+      "Art. 509 ZGB"
     ],
     "@eIds": [
       "art_509/para_1",
@@ -5854,8 +5609,7 @@
       "Vierter Abschnitt: Die Verfügungsformen",
       "B. Erbverträge",
       "I. Errichtung",
-      "Art. 512",
-      "book_3/part_1/tit_14/chap_4/lvl_B/lvl_I"
+      "Art. 512 ZGB"
     ],
     "@eIds": [
       "art_512/para_1",
@@ -5875,8 +5629,7 @@
       "II. Aufhebung",
       "1. Unter Lebenden",
       "a. Durch Vertrag und letztwillige Verfügung",
-      "Art. 513",
-      "book_3/part_1/tit_14/chap_4/lvl_B/lvl_II/lvl_1/lvl_a"
+      "Art. 513 ZGB"
     ],
     "@eIds": [
       "art_513/para_1",
@@ -5897,8 +5650,7 @@
       "B. Erbverträge",
       "II. Aufhebung",
       "2. Vorabsterben des Erben",
-      "Art. 515",
-      "book_3/part_1/tit_14/chap_4/lvl_B/lvl_II/lvl_1"
+      "Art. 515 ZGB"
     ],
     "@eIds": [
       "art_515/para_1",
@@ -5915,8 +5667,7 @@
       "Vierzehnter Titel: Die Verfügungen von Todes wegen",
       "Vierter Abschnitt: Die Verfügungsformen",
       "C. Verfügungsbeschränkung",
-      "Art. 516",
-      "book_3/part_1/tit_14/chap_4/lvl_A"
+      "Art. 516 ZGB"
     ],
     "@eIds": [
       "art_516/para"
@@ -5932,8 +5683,7 @@
       "Vierzehnter Titel: Die Verfügungen von Todes wegen",
       "Fünfter Abschnitt: Die Willensvollstrecker",
       "A. Erteilung des Auftrages",
-      "Art. 517",
-      "book_3/part_1/tit_14/chap_5/lvl_A"
+      "Art. 517 ZGB"
     ],
     "@eIds": [
       "art_517/para_1",
@@ -5955,8 +5705,7 @@
       "Sechster Abschnitt: Die Ungültigkeit und Herabsetzung der Verfügungen",
       "A. Ungültigkeitsklage",
       "I. Bei Verfügungsunfähigkeit, mangelhaftem Willen, Rechtswidrigkeit und Unsittlichkeit",
-      "Art. 519",
-      "book_3/part_1/tit_14/chap_6/lvl_A/lvl_I"
+      "Art. 519 ZGB"
     ],
     "@eIds": [
       "art_519/para_1/listintro",
@@ -5981,8 +5730,7 @@
       "A. Ungültigkeitsklage",
       "II. Bei Formmangel",
       "1. Im Allgemeinen",
-      "Art. 520",
-      "book_3/part_1/tit_14/chap_6/lvl_A/lvl_II/lvl_1"
+      "Art. 520 ZGB"
     ],
     "@eIds": [
       "art_520/para_1",
@@ -6003,8 +5751,7 @@
       "B. Herabsetzungsklage",
       "I. Voraussetzungen",
       "1. Im Allgemeinen",
-      "Art. 522 None",
-      "book_3/part_1/tit_14/chap_6/lvl_B/lvl_I/lvl_1"
+      "Art. 522 None ZGB"
     ],
     "@eIds": [
       "art_522/para_1/listintro",
@@ -6029,8 +5776,7 @@
       "B. Herabsetzungsklage",
       "II. Wirkung",
       "1. Herabsetzung im Allgemeinen",
-      "Art. 525",
-      "book_3/part_1/tit_14/chap_6/lvl_B/lvl_II/lvl_1"
+      "Art. 525 ZGB"
     ],
     "@eIds": [
       "art_525/para_1",
@@ -6055,8 +5801,7 @@
       "II. Wirkung",
       "3. Bei Verfügungen unter Lebenden",
       "a. Fälle",
-      "Art. 527",
-      "book_3/part_1/tit_14/chap_6/lvl_B/lvl_II/lvl_3/lvl_a"
+      "Art. 527 ZGB"
     ],
     "@eIds": [
       "art_527/para/listintro",
@@ -6079,8 +5824,7 @@
       "Sechster Abschnitt: Die Ungültigkeit und Herabsetzung der Verfügungen",
       "B. Herabsetzungsklage",
       "III. Durchführung",
-      "Art. 532 None",
-      "book_3/part_1/tit_14/chap_6/lvl_B/lvl_I"
+      "Art. 532 None ZGB"
     ],
     "@eIds": [
       "art_532/para_1/listintro",
@@ -6106,8 +5850,7 @@
       "Vierzehnter Titel: Die Verfügungen von Todes wegen",
       "Siebenter Abschnitt: Klagen aus Erbverträgen",
       "A. Ansprüche bei Ausrichtung zu Lebzeiten des Erblassers",
-      "Art. 534",
-      "book_3/part_1/tit_14/chap_7/lvl_A"
+      "Art. 534 ZGB"
     ],
     "@eIds": [
       "art_534/para_1",
@@ -6126,8 +5869,7 @@
       "Siebenter Abschnitt: Klagen aus Erbverträgen",
       "B. Ausgleichung beim Erbverzicht",
       "I. Herabsetzung",
-      "Art. 535",
-      "book_3/part_1/tit_14/chap_7/lvl_B/lvl_I"
+      "Art. 535 ZGB"
     ],
     "@eIds": [
       "art_535/para_1",
@@ -6145,8 +5887,7 @@
       "Zweite Abteilung: Der Erbgang",
       "Fünfzehnter Titel: Die Eröffnung des Erbganges",
       "A. Voraussetzung auf Seite des Erblassers",
-      "Art. 537",
-      "book_3/part_2/tit_15/lvl_A"
+      "Art. 537 ZGB"
     ],
     "@eIds": [
       "art_537/para_1",
@@ -6166,8 +5907,7 @@
       "C. Voraussetzungen auf Seite des Erben",
       "I. Fähigkeit",
       "1. Rechtsfähigkeit",
-      "Art. 539",
-      "book_3/part_2/tit_15/lvl_C/lvl_I/lvl_1"
+      "Art. 539 ZGB"
     ],
     "@eIds": [
       "art_539/para_1",
@@ -6186,8 +5926,7 @@
       "I. Fähigkeit",
       "2. Erbunwürdigkeit",
       "a. Gründe",
-      "Art. 540",
-      "book_3/part_2/tit_15/lvl_C/lvl_I/lvl_2/lvl_a"
+      "Art. 540 ZGB"
     ],
     "@eIds": [
       "art_540/para_1/listintro",
@@ -6211,8 +5950,7 @@
       "C. Voraussetzungen auf Seite des Erben",
       "II. Erleben des Erbganges",
       "1. Als Erbe",
-      "Art. 542",
-      "book_3/part_2/tit_15/lvl_C/lvl_II/lvl_1"
+      "Art. 542 ZGB"
     ],
     "@eIds": [
       "art_542/para_1",
@@ -6237,8 +5975,7 @@
       "D. Verschollenheit",
       "I. Beerbung eines Verschollenen",
       "1. Erbgang gegen Sicherstellung",
-      "Art. 546",
-      "book_3/part_2/tit_15/lvl_D/lvl_I/lvl_1"
+      "Art. 546 ZGB"
     ],
     "@eIds": [
       "art_546/para_1",
@@ -6258,8 +5995,7 @@
       "Fünfzehnter Titel: Die Eröffnung des Erbganges",
       "D. Verschollenheit",
       "II. Erbrecht des Verschollenen",
-      "Art. 548",
-      "book_3/part_2/tit_15/lvl_D/lvl_I"
+      "Art. 548 ZGB"
     ],
     "@eIds": [
       "art_548/para_1",
@@ -6282,8 +6018,7 @@
       "Sechzehnter Titel: Die Wirkung des Erbganges",
       "Erster Abschnitt: Die Sicherungsmassregeln",
       "A. Im Allgemeinen",
-      "Art. 551",
-      "book_3/part_2/tit_16/chap_1/lvl_A"
+      "Art. 551 ZGB"
     ],
     "@eIds": [
       "art_551/para_1",
@@ -6310,8 +6045,7 @@
       "Erster Abschnitt: Die Sicherungsmassregeln",
       "D. Erbschaftsverwaltung",
       "I. Im Allgemeinen",
-      "Art. 554",
-      "book_3/part_2/tit_16/chap_1/lvl_D/lvl_I"
+      "Art. 554 ZGB"
     ],
     "@eIds": [
       "art_554/para_1/listintro",
@@ -6336,8 +6070,7 @@
       "Erster Abschnitt: Die Sicherungsmassregeln",
       "E. Eröffnung der letztwilligen Verfügung",
       "I. Pflicht zur Einlieferung",
-      "Art. 556",
-      "book_3/part_2/tit_16/chap_1/lvl_E/lvl_I"
+      "Art. 556 ZGB"
     ],
     "@eIds": [
       "art_556/para_1",
@@ -6363,8 +6096,7 @@
       "Zweiter Abschnitt: Der Erwerb der Erbschaft",
       "A. Erwerb",
       "I. Erben",
-      "Art. 560",
-      "book_3/part_2/tit_16/chap_2/lvl_A/lvl_I"
+      "Art. 560 ZGB"
     ],
     "@eIds": [
       "art_560/para_1",
@@ -6384,8 +6116,7 @@
       "A. Erwerb",
       "III. Vermächtnisnehmer",
       "1. Erwerb",
-      "Art. 562",
-      "book_3/part_2/tit_16/chap_2/lvl_A/lvl_III/lvl_1"
+      "Art. 562 ZGB"
     ],
     "@eIds": [
       "art_562/para_1",
@@ -6411,8 +6142,7 @@
       "B. Ausschlagung",
       "I. Erklärung",
       "1. Befugnis",
-      "Art. 566",
-      "book_3/part_2/tit_16/chap_2/lvl_B/lvl_I/lvl_1"
+      "Art. 566 ZGB"
     ],
     "@eIds": [
       "art_566/para_1",
@@ -6438,8 +6168,7 @@
       "I. Erklärung",
       "2. Befristung",
       "a. Im Allgemeinen",
-      "Art. 567",
-      "book_3/part_2/tit_16/chap_2/lvl_B/lvl_I/lvl_2/lvl_a"
+      "Art. 567 ZGB"
     ],
     "@eIds": [
       "art_567/para_1",
@@ -6458,8 +6187,7 @@
       "Zweiter Abschnitt: Der Erwerb der Erbschaft",
       "B. Ausschlagung",
       "II. Verwirkung der Ausschlagungsbefugnis",
-      "Art. 571",
-      "book_3/part_2/tit_16/chap_2/lvl_B/lvl_I"
+      "Art. 571 ZGB"
     ],
     "@eIds": [
       "art_571/para_1",
@@ -6488,8 +6216,7 @@
       "B. Ausschlagung",
       "IV. Ausschlagung aller nächsten Erben",
       "1. Im Allgemeinen",
-      "Art. 573",
-      "book_3/part_2/tit_16/chap_2/lvl_B/lvl_IV/lvl_1"
+      "Art. 573 ZGB"
     ],
     "@eIds": [
       "art_573/para_1",
@@ -6509,8 +6236,7 @@
       "Sechzehnter Titel: Die Wirkung des Erbganges",
       "Dritter Abschnitt: Das öffentliche Inventar",
       "A. Voraussetzung",
-      "Art. 580",
-      "book_3/part_2/tit_16/chap_3/lvl_A"
+      "Art. 580 ZGB"
     ],
     "@eIds": [
       "art_580/para_1",
@@ -6531,8 +6257,7 @@
       "Dritter Abschnitt: Das öffentliche Inventar",
       "B. Verfahren",
       "I. Inventar",
-      "Art. 581",
-      "book_3/part_2/tit_16/chap_3/lvl_B/lvl_I"
+      "Art. 581 ZGB"
     ],
     "@eIds": [
       "art_581/para_1",
@@ -6558,8 +6283,7 @@
       "Dritter Abschnitt: Das öffentliche Inventar",
       "C. Verhältnis der Erben während des Inventars",
       "I. Verwaltung",
-      "Art. 585",
-      "book_3/part_2/tit_16/chap_3/lvl_C/lvl_I"
+      "Art. 585 ZGB"
     ],
     "@eIds": [
       "art_585/para_1",
@@ -6580,8 +6304,7 @@
       "Dritter Abschnitt: Das öffentliche Inventar",
       "D. Wirkung",
       "I. Frist zur Erklärung",
-      "Art. 587",
-      "book_3/part_2/tit_16/chap_3/lvl_D/lvl_I"
+      "Art. 587 ZGB"
     ],
     "@eIds": [
       "art_587/para_1",
@@ -6602,8 +6325,7 @@
       "D. Wirkung",
       "III. Folgen der Annahme unter öffentlichem Inventar",
       "1. Haftung nach Inventar",
-      "Art. 589",
-      "book_3/part_2/tit_16/chap_3/lvl_D/lvl_III/lvl_1"
+      "Art. 589 ZGB"
     ],
     "@eIds": [
       "art_589/para_1",
@@ -6625,8 +6347,7 @@
       "Vierter Abschnitt: Die amtliche Liquidation",
       "A. Voraussetzung",
       "I. Begehren eines Erben",
-      "Art. 593",
-      "book_3/part_2/tit_16/chap_4/lvl_A/lvl_I"
+      "Art. 593 ZGB"
     ],
     "@eIds": [
       "art_593/para_1",
@@ -6647,8 +6368,7 @@
       "Vierter Abschnitt: Die amtliche Liquidation",
       "B. Verfahren",
       "I. Verwaltung",
-      "Art. 595",
-      "book_3/part_2/tit_16/chap_4/lvl_B/lvl_I"
+      "Art. 595 ZGB"
     ],
     "@eIds": [
       "art_595/para_1",
@@ -6670,8 +6390,7 @@
       "Sechzehnter Titel: Die Wirkung des Erbganges",
       "Fünfter Abschnitt: Die Erbschaftsklage",
       "A. Voraussetzung",
-      "Art. 598",
-      "book_3/part_2/tit_16/chap_5/lvl_A"
+      "Art. 598 ZGB"
     ],
     "@eIds": [
       "art_598/para_1",
@@ -6694,8 +6413,7 @@
       "Erster Abschnitt: Die Gemeinschaft vor der Teilung",
       "A. Wirkung des Erbganges",
       "I. Erbengemeinschaft",
-      "Art. 602",
-      "book_3/part_2/tit_17/chap_1/lvl_A/lvl_I"
+      "Art. 602 ZGB"
     ],
     "@eIds": [
       "art_602/para_1",
@@ -6715,8 +6433,7 @@
       "Siebenzehnter Titel: Die Teilung der Erbschaft",
       "Erster Abschnitt: Die Gemeinschaft vor der Teilung",
       "B. Teilungsanspruch",
-      "Art. 604",
-      "book_3/part_2/tit_17/chap_1/lvl_A"
+      "Art. 604 ZGB"
     ],
     "@eIds": [
       "art_604/para_1",
@@ -6737,8 +6454,7 @@
       "Siebenzehnter Titel: Die Teilung der Erbschaft",
       "Zweiter Abschnitt: Die Teilungsart",
       "A. Im Allgemeinen",
-      "Art. 607",
-      "book_3/part_2/tit_17/chap_2/lvl_A"
+      "Art. 607 ZGB"
     ],
     "@eIds": [
       "art_607/para_1",
@@ -6757,8 +6473,7 @@
       "Zweiter Abschnitt: Die Teilungsart",
       "B. Ordnung der Teilung",
       "I. Verfügung des Erblassers",
-      "Art. 608",
-      "book_3/part_2/tit_17/chap_2/lvl_B/lvl_I"
+      "Art. 608 ZGB"
     ],
     "@eIds": [
       "art_608/para_1",
@@ -6779,8 +6494,7 @@
       "Zweiter Abschnitt: Die Teilungsart",
       "C. Durchführung der Teilung",
       "I. Gleichberechtigung der Erben",
-      "Art. 610",
-      "book_3/part_2/tit_17/chap_2/lvl_C/lvl_I"
+      "Art. 610 ZGB"
     ],
     "@eIds": [
       "art_610/para_1",
@@ -6809,8 +6523,7 @@
       "Zweiter Abschnitt: Die Teilungsart",
       "D. Besondere Gegenstände",
       "I. Zusammengehörende Sachen, Familienschriften",
-      "Art. 613",
-      "book_3/part_2/tit_17/chap_2/lvl_D/lvl_I"
+      "Art. 613 ZGB"
     ],
     "@eIds": [
       "art_613/para_1",
@@ -6835,8 +6548,7 @@
       "IV. Grundstücke",
       "1. Übernahme",
       "a. Anrechnungswert",
-      "Art. 617 None",
-      "book_3/part_2/tit_17/chap_2/lvl_D/lvl_IV/lvl_1/lvl_a"
+      "Art. 617 None ZGB"
     ],
     "@eIds": [
       "art_617/para",
@@ -6854,8 +6566,7 @@
       "Siebenzehnter Titel: Die Teilung der Erbschaft",
       "Dritter Abschnitt: Die Ausgleichung",
       "A. Ausgleichungspflicht der Erben",
-      "Art. 626",
-      "book_3/part_2/tit_17/chap_3/lvl_A"
+      "Art. 626 ZGB"
     ],
     "@eIds": [
       "art_626/para_1",
@@ -6878,8 +6589,7 @@
       "Dritter Abschnitt: Die Ausgleichung",
       "C. Berechnungsart",
       "I. Einwerfung oder Anrechnung",
-      "Art. 628",
-      "book_3/part_2/tit_17/chap_3/lvl_C/lvl_I"
+      "Art. 628 ZGB"
     ],
     "@eIds": [
       "art_628/para_1",
@@ -6901,8 +6611,7 @@
       "Vierter Abschnitt: Abschluss und Wirkung der Teilung",
       "A. Abschluss des Vertrages",
       "I. Teilungsvertrag",
-      "Art. 634",
-      "book_3/part_2/tit_17/chap_4/lvl_A/lvl_I"
+      "Art. 634 ZGB"
     ],
     "@eIds": [
       "art_634/para_1",
@@ -6924,8 +6633,7 @@
       "Vierter Abschnitt: Abschluss und Wirkung der Teilung",
       "B. Haftung der Miterben unter sich",
       "I. Gewährleistung",
-      "Art. 637",
-      "book_3/part_2/tit_17/chap_4/lvl_B/lvl_I"
+      "Art. 637 ZGB"
     ],
     "@eIds": [
       "art_637/para_1",
@@ -6945,8 +6653,7 @@
       "Vierter Abschnitt: Abschluss und Wirkung der Teilung",
       "C. Haftung gegenüber Dritten",
       "I. Solidare Haftung",
-      "Art. 639",
-      "book_3/part_2/tit_17/chap_4/lvl_C/lvl_I"
+      "Art. 639 ZGB"
     ],
     "@eIds": [
       "art_639/para_1",
@@ -6966,8 +6673,7 @@
       "Achtzehnter Titel: Allgemeine Bestimmungen",
       "A. Inhalt des Eigentums",
       "I. Im Allgemeinen",
-      "Art. 641",
-      "book_4/part_1/tit_18/lvl_A/lvl_I"
+      "Art. 641 ZGB"
     ],
     "@eIds": [
       "art_641/para_1",
@@ -6986,8 +6692,7 @@
       "Achtzehnter Titel: Allgemeine Bestimmungen",
       "B. Umfang des Eigentums",
       "I. Bestandteile",
-      "Art. 642",
-      "book_4/part_1/tit_18/lvl_B/lvl_I"
+      "Art. 642 ZGB"
     ],
     "@eIds": [
       "art_642/para_1",
@@ -7008,8 +6713,7 @@
       "B. Umfang des Eigentums",
       "III. Zugehör",
       "1. Umschreibung",
-      "Art. 644",
-      "book_4/part_1/tit_18/lvl_B/lvl_III/lvl_1"
+      "Art. 644 ZGB"
     ],
     "@eIds": [
       "art_644/para_1",
@@ -7029,8 +6733,7 @@
       "C. Gemeinschaftliches Eigentum",
       "I. Miteigentum",
       "1. Verhältnis der Miteigentümer",
-      "Art. 646",
-      "book_4/part_1/tit_18/lvl_C/lvl_I/lvl_1"
+      "Art. 646 ZGB"
     ],
     "@eIds": [
       "art_646/para_1",
@@ -7066,8 +6769,7 @@
       "I. Miteigentum",
       "5. Bauliche Massnahmen",
       "a. Notwendige",
-      "Art. 647 c None",
-      "book_4/part_1/tit_18/lvl_C/lvl_I/lvl_5/lvl_a"
+      "Art. 647 c None ZGB"
     ],
     "@eIds": [
       "art_647_c/para",
@@ -7090,8 +6792,7 @@
       "I. Miteigentum",
       "9. Ausschluss aus der Gemeinschaft",
       "a. Miteigentümer",
-      "Art. 649 b None",
-      "book_4/part_1/tit_18/lvl_C/lvl_I/lvl_9/lvl_a"
+      "Art. 649 b None ZGB"
     ],
     "@eIds": [
       "art_649_b/para_1",
@@ -7112,8 +6813,7 @@
       "I. Miteigentum",
       "10. Aufhebung",
       "a. Anspruch auf Teilung",
-      "Art. 650 None",
-      "book_4/part_1/tit_18/lvl_C/lvl_I/lvl_10/lvl_a"
+      "Art. 650 None ZGB"
     ],
     "@eIds": [
       "art_650/para_1",
@@ -7138,8 +6838,7 @@
       "C. Gemeinschaftliches Eigentum",
       "II. Gesamteigentum",
       "1. Voraussetzung",
-      "Art. 652",
-      "book_4/part_1/tit_18/lvl_C/lvl_II/lvl_1"
+      "Art. 652 ZGB"
     ],
     "@eIds": [
       "art_652/para",
@@ -7160,8 +6859,7 @@
       "Achtzehnter Titel: Allgemeine Bestimmungen",
       "C. Gemeinschaftliches Eigentum",
       "III. Gemeinschaftliches Eigentum an landwirtschaftlichen Gewerben und Grundstücken",
-      "Art. 654 a None",
-      "book_4/part_1/tit_18/lvl_C/lvl_I"
+      "Art. 654 a None ZGB"
     ],
     "@eIds": [
       "art_654_a/para"
@@ -7178,8 +6876,7 @@
       "Erster Abschnitt: Gegenstand, Erwerb und Verlust des Grundeigentums",
       "A. Gegenstand",
       "I. Grundstücke",
-      "Art. 655 None",
-      "book_4/part_1/tit_19/chap_1/lvl_A/lvl_I"
+      "Art. 655 None ZGB"
     ],
     "@eIds": [
       "art_655/para_1",
@@ -7206,8 +6903,7 @@
       "Erster Abschnitt: Gegenstand, Erwerb und Verlust des Grundeigentums",
       "B. Erwerb",
       "I. Eintragung",
-      "Art. 656",
-      "book_4/part_1/tit_19/chap_1/lvl_B/lvl_I"
+      "Art. 656 ZGB"
     ],
     "@eIds": [
       "art_656/para_1",
@@ -7229,8 +6925,7 @@
       "B. Erwerb",
       "II. Erwerbsarten",
       "1. Übertragung",
-      "Art. 657",
-      "book_4/part_1/tit_19/chap_1/lvl_B/lvl_II/lvl_1"
+      "Art. 657 ZGB"
     ],
     "@eIds": [
       "art_657/para_1",
@@ -7258,8 +6953,7 @@
       "II. Erwerbsarten",
       "4. Bodenverschiebung",
       "a. im Allgemeinen",
-      "Art. 660",
-      "book_4/part_1/tit_19/chap_1/lvl_B/lvl_II/lvl_4/lvl_a"
+      "Art. 660 ZGB"
     ],
     "@eIds": [
       "art_660/para_1",
@@ -7284,8 +6978,7 @@
       "II. Erwerbsarten",
       "5. Ersitzung",
       "a. Ordentliche Ersitzung",
-      "Art. 661",
-      "book_4/part_1/tit_19/chap_1/lvl_B/lvl_II/lvl_5/lvl_a"
+      "Art. 661 ZGB"
     ],
     "@eIds": [
       "art_661/para",
@@ -7305,8 +6998,7 @@
       "Neunzehnter Titel: Das Grundeigentum",
       "Erster Abschnitt: Gegenstand, Erwerb und Verlust des Grundeigentums",
       "C. Verlust",
-      "Art. 666",
-      "book_4/part_1/tit_19/chap_1/lvl_A"
+      "Art. 666 ZGB"
     ],
     "@eIds": [
       "art_666/para_1",
@@ -7324,8 +7016,7 @@
       "Erster Abschnitt: Gegenstand, Erwerb und Verlust des Grundeigentums",
       "D. Richterliche Massnahmen",
       "I. Bei unauffindbarem Eigentümer",
-      "Art. 666 a None",
-      "book_4/part_1/tit_19/chap_1/lvl_D/lvl_I"
+      "Art. 666 a None ZGB"
     ],
     "@eIds": [
       "art_666_a/para_1",
@@ -7348,8 +7039,7 @@
       "Zweiter Abschnitt: Inhalt und Beschränkung des Grundeigentums",
       "A. Inhalt",
       "I. Umfang",
-      "Art. 667",
-      "book_4/part_1/tit_19/chap_2/lvl_A/lvl_I"
+      "Art. 667 ZGB"
     ],
     "@eIds": [
       "art_667/para_1",
@@ -7370,8 +7060,7 @@
       "A. Inhalt",
       "II. Abgrenzung",
       "1. Art der Abgrenzung",
-      "Art. 668",
-      "book_4/part_1/tit_19/chap_2/lvl_A/lvl_II/lvl_1"
+      "Art. 668 ZGB"
     ],
     "@eIds": [
       "art_668/para_1",
@@ -7394,8 +7083,7 @@
       "III. Bauten auf dem Grundstück",
       "1. Boden- und Baumaterial",
       "a. Eigentumsverhältnis",
-      "Art. 671",
-      "book_4/part_1/tit_19/chap_2/lvl_A/lvl_III/lvl_1/lvl_a"
+      "Art. 671 ZGB"
     ],
     "@eIds": [
       "art_671/para_1",
@@ -7419,8 +7107,7 @@
       "A. Inhalt",
       "III. Bauten auf dem Grundstück",
       "2. Überragende Bauten",
-      "Art. 674",
-      "book_4/part_1/tit_19/chap_2/lvl_A/lvl_III/lvl_1"
+      "Art. 674 ZGB"
     ],
     "@eIds": [
       "art_674/para_1",
@@ -7447,8 +7134,7 @@
       "A. Inhalt",
       "V. Verantwortlichkeit des Grundeigentümers",
       "1. Bei Überschreitung des Eigentumsrechts",
-      "Art. 679",
-      "book_4/part_1/tit_19/chap_2/lvl_A/lvl_V/lvl_1"
+      "Art. 679 ZGB"
     ],
     "@eIds": [
       "art_679/para_1",
@@ -7467,8 +7153,7 @@
       "Zweiter Abschnitt: Inhalt und Beschränkung des Grundeigentums",
       "B. Beschränkungen",
       "I. Im Allgemeinen",
-      "Art. 680",
-      "book_4/part_1/tit_19/chap_2/lvl_B/lvl_I"
+      "Art. 680 ZGB"
     ],
     "@eIds": [
       "art_680/para_1",
@@ -7488,8 +7173,7 @@
       "B. Beschränkungen",
       "II. Veräusserungsbeschränkungen; gesetzliche Vorkaufsrechte",
       "1. Grundsätze",
-      "Art. 681 None",
-      "book_4/part_1/tit_19/chap_2/lvl_B/lvl_II/lvl_1"
+      "Art. 681 None ZGB"
     ],
     "@eIds": [
       "art_681/para_1",
@@ -7518,8 +7202,7 @@
       "B. Beschränkungen",
       "III. Nachbarrecht",
       "1. Übermässige Einwirkungen",
-      "Art. 684",
-      "book_4/part_1/tit_19/chap_2/lvl_B/lvl_III/lvl_1"
+      "Art. 684 ZGB"
     ],
     "@eIds": [
       "art_684/para_1",
@@ -7547,8 +7230,7 @@
       "III. Nachbarrecht",
       "2. Graben und Bauen",
       "a. Regel",
-      "Art. 685",
-      "book_4/part_1/tit_19/chap_2/lvl_B/lvl_III/lvl_2/lvl_a"
+      "Art. 685 ZGB"
     ],
     "@eIds": [
       "art_685/para_1",
@@ -7570,8 +7252,7 @@
       "III. Nachbarrecht",
       "3. Pflanzen",
       "a. Regel",
-      "Art. 687",
-      "book_4/part_1/tit_19/chap_2/lvl_B/lvl_III/lvl_3/lvl_a"
+      "Art. 687 ZGB"
     ],
     "@eIds": [
       "art_687/para_1",
@@ -7593,8 +7274,7 @@
       "III. Nachbarrecht",
       "6. Durchleitungen",
       "a. Pflicht zur Duldung",
-      "Art. 691",
-      "book_4/part_1/tit_19/chap_2/lvl_B/lvl_III/lvl_6/lvl_a"
+      "Art. 691 ZGB"
     ],
     "@eIds": [
       "art_691/para_1",
@@ -7620,8 +7300,7 @@
       "III. Nachbarrecht",
       "7. Wegrechte",
       "a. Notweg",
-      "Art. 694",
-      "book_4/part_1/tit_19/chap_2/lvl_B/lvl_III/lvl_7/lvl_a"
+      "Art. 694 ZGB"
     ],
     "@eIds": [
       "art_694/para_1",
@@ -7644,8 +7323,7 @@
       "B. Beschränkungen",
       "IV. Recht auf Zutritt und Abwehr",
       "1. Zutritt",
-      "Art. 699",
-      "book_4/part_1/tit_19/chap_2/lvl_B/lvl_IV/lvl_1"
+      "Art. 699 ZGB"
     ],
     "@eIds": [
       "art_699/para_1",
@@ -7668,8 +7346,7 @@
       "B. Beschränkungen",
       "V. Öffentlichrechtliche Beschränkungen",
       "1. Im Allgemeinen",
-      "Art. 702",
-      "book_4/part_1/tit_19/chap_2/lvl_B/lvl_V/lvl_1"
+      "Art. 702 ZGB"
     ],
     "@eIds": [
       "art_702/para",
@@ -7689,8 +7366,7 @@
       "Zweiter Abschnitt: Inhalt und Beschränkung des Grundeigentums",
       "C. Rechte an Quellen und Brunnen",
       "I. Quelleneigentum und Quellenrecht",
-      "Art. 704",
-      "book_4/part_1/tit_19/chap_2/lvl_C/lvl_I"
+      "Art. 704 ZGB"
     ],
     "@eIds": [
       "art_704/para_1",
@@ -7719,8 +7395,7 @@
       "C. Rechte an Quellen und Brunnen",
       "III. Abgraben von Quellen",
       "1. Schadenersatz",
-      "Art. 706",
-      "book_4/part_1/tit_19/chap_2/lvl_C/lvl_III/lvl_1"
+      "Art. 706 ZGB"
     ],
     "@eIds": [
       "art_706/para_1",
@@ -7741,8 +7416,7 @@
       "C. Rechte an Quellen und Brunnen",
       "VII. Pflicht zur Abtretung",
       "1. Des Wassers",
-      "Art. 711",
-      "book_4/part_1/tit_19/chap_2/lvl_C/lvl_VII/lvl_1"
+      "Art. 711 ZGB"
     ],
     "@eIds": [
       "art_711/para_1",
@@ -7761,8 +7435,7 @@
       "Dritter Abschnitt:  Das Stockwerkeigentum",
       "A. Inhalt und Gegenstand",
       "I. Inhalt",
-      "Art. 712 a",
-      "book_4/part_1/tit_19/chap_3/lvl_A/lvl_I"
+      "Art. 712 a ZGB"
     ],
     "@eIds": [
       "art_712_a/para_1",
@@ -7790,8 +7463,7 @@
       "Dritter Abschnitt:  Das Stockwerkeigentum",
       "B. Begründung und Untergang",
       "I. Begründungsakt",
-      "Art. 712 d",
-      "book_4/part_1/tit_19/chap_3/lvl_B/lvl_I"
+      "Art. 712 d ZGB"
     ],
     "@eIds": [
       "art_712_d/para_1",
@@ -7820,8 +7492,7 @@
       "Dritter Abschnitt:  Das Stockwerkeigentum",
       "C. Verwaltung und Benutzung",
       "I. Die anwendbaren Bestimmungen",
-      "Art. 712 g",
-      "book_4/part_1/tit_19/chap_3/lvl_C/lvl_I"
+      "Art. 712 g ZGB"
     ],
     "@eIds": [
       "art_712_g/para_1",
@@ -7844,8 +7515,7 @@
       "C. Verwaltung und Benutzung",
       "II. Gemeinschaftliche Kosten und Lasten",
       "1. Bestand und Verteilung",
-      "Art. 712 h",
-      "book_4/part_1/tit_19/chap_3/lvl_C/lvl_II/lvl_1"
+      "Art. 712 h ZGB"
     ],
     "@eIds": [
       "art_712_h/para_1",
@@ -7870,8 +7540,7 @@
       "II. Gemeinschaftliche Kosten und Lasten",
       "2. Haftung für Beiträge",
       "a. Gesetzliches Pfandrecht",
-      "Art. 712 i",
-      "book_4/part_1/tit_19/chap_3/lvl_C/lvl_II/lvl_2/lvl_a"
+      "Art. 712 i ZGB"
     ],
     "@eIds": [
       "art_712_i/para_1",
@@ -7892,8 +7561,7 @@
       "D. Organisation",
       "I. Versammlung der Stockwerkeigentümer",
       "1. Zuständigkeit und rechtliche Stellung",
-      "Art. 712 m",
-      "book_4/part_1/tit_19/chap_3/lvl_D/lvl_I/lvl_1"
+      "Art. 712 m ZGB"
     ],
     "@eIds": [
       "art_712_m/para_1/listintro",
@@ -7925,8 +7593,7 @@
       "D. Organisation",
       "II. Der Verwalter",
       "1. Bestellung",
-      "Art. 712 q",
-      "book_4/part_1/tit_19/chap_3/lvl_D/lvl_II/lvl_1"
+      "Art. 712 q ZGB"
     ],
     "@eIds": [
       "art_712_q/para_1",
@@ -7949,8 +7616,7 @@
       "II. Der Verwalter",
       "3. Aufgaben",
       "a. Ausführung der Bestimmungen und Beschlüsse über die Verwaltung und Benutzung",
-      "Art. 712 s",
-      "book_4/part_1/tit_19/chap_3/lvl_D/lvl_II/lvl_3/lvl_a"
+      "Art. 712 s ZGB"
     ],
     "@eIds": [
       "art_712_s/para_1",
@@ -7970,8 +7636,7 @@
       "Erste Abteilung: Das Eigentum",
       "Zwanzigster Titel: Das Fahrniseigentum",
       "A. Gegenstand",
-      "Art. 713",
-      "book_4/part_1/tit_20/lvl_A"
+      "Art. 713 ZGB"
     ],
     "@eIds": [
       "art_713/para",
@@ -7989,8 +7654,7 @@
       "B. Erwerbsarten",
       "I. Übertragung",
       "1. Besitzübergang",
-      "Art. 714",
-      "book_4/part_1/tit_20/lvl_B/lvl_I/lvl_1"
+      "Art. 714 ZGB"
     ],
     "@eIds": [
       "art_714/para_1",
@@ -8011,8 +7675,7 @@
       "I. Übertragung",
       "2. Eigentumsvorbehalt",
       "a. Im Allgemeinen",
-      "Art. 715",
-      "book_4/part_1/tit_20/lvl_B/lvl_I/lvl_2/lvl_a"
+      "Art. 715 ZGB"
     ],
     "@eIds": [
       "art_715/para_1",
@@ -8031,8 +7694,7 @@
       "B. Erwerbsarten",
       "II. Aneignung",
       "1. Herrenlose Sachen",
-      "Art. 718",
-      "book_4/part_1/tit_20/lvl_B/lvl_II/lvl_1"
+      "Art. 718 ZGB"
     ],
     "@eIds": [
       "art_718/para",
@@ -8053,8 +7715,7 @@
       "III. Fund",
       "1. Bekanntmachung, Nachfrage",
       "a. Im Allgemeinen",
-      "Art. 720",
-      "book_4/part_1/tit_20/lvl_B/lvl_III/lvl_1/lvl_a"
+      "Art. 720 ZGB"
     ],
     "@eIds": [
       "art_720/para_1",
@@ -8075,8 +7736,7 @@
       "B. Erwerbsarten",
       "III. Fund",
       "2. Aufbewahrung, Versteigerung",
-      "Art. 721",
-      "book_4/part_1/tit_20/lvl_B/lvl_III/lvl_1"
+      "Art. 721 ZGB"
     ],
     "@eIds": [
       "art_721/para_1",
@@ -8106,8 +7766,7 @@
       "Zwanzigster Titel: Das Fahrniseigentum",
       "B. Erwerbsarten",
       "IV. Zuführung",
-      "Art. 725",
-      "book_4/part_1/tit_20/lvl_B/lvl_I"
+      "Art. 725 ZGB"
     ],
     "@eIds": [
       "art_725/para_1",
@@ -8135,8 +7794,7 @@
       "Einundzwanzigster Titel: Die Dienstbarkeiten und Grundlasten",
       "Erster Abschnitt: Die Grunddienstbarkeiten",
       "A. Gegenstand",
-      "Art. 730",
-      "book_4/part_2/tit_21/chap_1/lvl_A"
+      "Art. 730 ZGB"
     ],
     "@eIds": [
       "art_730/para_1",
@@ -8155,8 +7813,7 @@
       "B. Errichtung und Untergang",
       "I. Errichtung",
       "1. Eintragung",
-      "Art. 731",
-      "book_4/part_2/tit_21/chap_1/lvl_B/lvl_I/lvl_1"
+      "Art. 731 ZGB"
     ],
     "@eIds": [
       "art_731/para_1",
@@ -8179,8 +7836,7 @@
       "B. Errichtung und Untergang",
       "II. Untergang",
       "1. Im Allgemeinen",
-      "Art. 734",
-      "book_4/part_2/tit_21/chap_1/lvl_B/lvl_II/lvl_1"
+      "Art. 734 ZGB"
     ],
     "@eIds": [
       "art_734/para",
@@ -8202,8 +7858,7 @@
       "C. Inhalt",
       "I. Umfang",
       "1. Im Allgemeinen",
-      "Art. 737",
-      "book_4/part_2/tit_21/chap_1/lvl_C/lvl_I/lvl_1"
+      "Art. 737 ZGB"
     ],
     "@eIds": [
       "art_737/para_1",
@@ -8228,8 +7883,7 @@
       "Erster Abschnitt: Die Grunddienstbarkeiten",
       "C. Inhalt",
       "II. Last des Unterhaltes",
-      "Art. 741",
-      "book_4/part_2/tit_21/chap_1/lvl_C/lvl_I"
+      "Art. 741 ZGB"
     ],
     "@eIds": [
       "art_741/para_1",
@@ -8253,8 +7907,7 @@
       "Zweiter Abschnitt: Nutzniessung und andere Dienstbarkeiten",
       "A. Nutzniessung",
       "I. Gegenstand",
-      "Art. 745",
-      "book_4/part_2/tit_21/chap_2/lvl_A/lvl_I"
+      "Art. 745 ZGB"
     ],
     "@eIds": [
       "art_745/para_1",
@@ -8274,8 +7927,7 @@
       "A. Nutzniessung",
       "II. Entstehung",
       "1. Im Allgemeinen",
-      "Art. 746",
-      "book_4/part_2/tit_21/chap_2/lvl_A/lvl_II/lvl_1"
+      "Art. 746 ZGB"
     ],
     "@eIds": [
       "art_746/para_1",
@@ -8294,8 +7946,7 @@
       "A. Nutzniessung",
       "III. Untergang",
       "1. Gründe",
-      "Art. 748",
-      "book_4/part_2/tit_21/chap_2/lvl_A/lvl_III/lvl_1"
+      "Art. 748 ZGB"
     ],
     "@eIds": [
       "art_748/para_1",
@@ -8322,8 +7973,7 @@
       "III. Untergang",
       "4. Rückleistung",
       "a. Pflicht",
-      "Art. 751",
-      "book_4/part_2/tit_21/chap_2/lvl_A/lvl_III/lvl_4/lvl_a"
+      "Art. 751 ZGB"
     ],
     "@eIds": [
       "art_751/para",
@@ -8347,8 +7997,7 @@
       "IV. Inhalt",
       "1. Rechte des Nutzniessers",
       "a. Im Allgemeinen",
-      "Art. 755",
-      "book_4/part_2/tit_21/chap_2/lvl_A/lvl_IV/lvl_1/lvl_a"
+      "Art. 755 ZGB"
     ],
     "@eIds": [
       "art_755/para_1",
@@ -8375,8 +8024,7 @@
       "IV. Inhalt",
       "2. Rechte des Eigentümers",
       "a. Aufsicht",
-      "Art. 759",
-      "book_4/part_2/tit_21/chap_2/lvl_A/lvl_IV/lvl_2/lvl_a"
+      "Art. 759 ZGB"
     ],
     "@eIds": [
       "art_759/para",
@@ -8400,8 +8048,7 @@
       "A. Nutzniessung",
       "IV. Inhalt",
       "3. Inventarpflicht",
-      "Art. 763",
-      "book_4/part_2/tit_21/chap_2/lvl_A/lvl_IV/lvl_1"
+      "Art. 763 ZGB"
     ],
     "@eIds": [
       "art_763/para"
@@ -8420,8 +8067,7 @@
       "IV. Inhalt",
       "4. Lasten",
       "a. Erhaltung der Sache",
-      "Art. 764",
-      "book_4/part_2/tit_21/chap_2/lvl_A/lvl_IV/lvl_4/lvl_a"
+      "Art. 764 ZGB"
     ],
     "@eIds": [
       "art_764/para_1",
@@ -8448,8 +8094,7 @@
       "V. Besondere Fälle",
       "1. Grundstücke",
       "a. Früchte",
-      "Art. 768",
-      "book_4/part_2/tit_21/chap_2/lvl_A/lvl_V/lvl_1/lvl_a"
+      "Art. 768 ZGB"
     ],
     "@eIds": [
       "art_768/para_1",
@@ -8475,8 +8120,7 @@
       "A. Nutzniessung",
       "V. Besondere Fälle",
       "2. Verbrauchbare und geschätzte Sachen",
-      "Art. 772",
-      "book_4/part_2/tit_21/chap_2/lvl_A/lvl_V/lvl_1"
+      "Art. 772 ZGB"
     ],
     "@eIds": [
       "art_772/para_1",
@@ -8497,8 +8141,7 @@
       "V. Besondere Fälle",
       "3. Forderungen",
       "a. Inhalt",
-      "Art. 773",
-      "book_4/part_2/tit_21/chap_2/lvl_A/lvl_V/lvl_3/lvl_a"
+      "Art. 773 ZGB"
     ],
     "@eIds": [
       "art_773/para_1",
@@ -8523,8 +8166,7 @@
       "Zweiter Abschnitt: Nutzniessung und andere Dienstbarkeiten",
       "B. Wohnrecht",
       "I. Im Allgemeinen",
-      "Art. 776",
-      "book_4/part_2/tit_21/chap_2/lvl_B/lvl_I"
+      "Art. 776 ZGB"
     ],
     "@eIds": [
       "art_776/para_1",
@@ -8548,8 +8190,7 @@
       "Zweiter Abschnitt: Nutzniessung und andere Dienstbarkeiten",
       "C. Baurecht",
       "I. Gegenstand und Aufnahme in das Grundbuch",
-      "Art. 779",
-      "book_4/part_2/tit_21/chap_2/lvl_C/lvl_I"
+      "Art. 779 ZGB"
     ],
     "@eIds": [
       "art_779/para_1",
@@ -8575,8 +8216,7 @@
       "C. Baurecht",
       "IV. Folgen des Ablaufs der Dauer",
       "1. Heimfall",
-      "Art. 779 c None",
-      "book_4/part_2/tit_21/chap_2/lvl_C/lvl_IV/lvl_1"
+      "Art. 779 c None ZGB"
     ],
     "@eIds": [
       "art_779_c/para",
@@ -8597,8 +8237,7 @@
       "C. Baurecht",
       "V. Vorzeitiger Heimfall",
       "1. Voraussetzungen",
-      "Art. 779 f None",
-      "book_4/part_2/tit_21/chap_2/lvl_C/lvl_V/lvl_1"
+      "Art. 779 f None ZGB"
     ],
     "@eIds": [
       "art_779_f/para",
@@ -8619,8 +8258,7 @@
       "C. Baurecht",
       "VI. Haftung für den Baurechtszins",
       "1. Anspruch auf Errichtung eines Pfandrechts",
-      "Art. 779 i None",
-      "book_4/part_2/tit_21/chap_2/lvl_C/lvl_VI/lvl_1"
+      "Art. 779 i None ZGB"
     ],
     "@eIds": [
       "art_779_i/para_1",
@@ -8639,8 +8277,7 @@
       "Einundzwanzigster Titel: Die Dienstbarkeiten und Grundlasten",
       "Zweiter Abschnitt: Nutzniessung und andere Dienstbarkeiten",
       "D. Quellenrecht",
-      "Art. 780",
-      "book_4/part_2/tit_21/chap_2/lvl_A"
+      "Art. 780 ZGB"
     ],
     "@eIds": [
       "art_780/para_1",
@@ -8662,8 +8299,7 @@
       "Einundzwanzigster Titel: Die Dienstbarkeiten und Grundlasten",
       "Dritter Abschnitt: Die Grundlasten",
       "A. Gegenstand",
-      "Art. 782",
-      "book_4/part_2/tit_21/chap_3/lvl_A"
+      "Art. 782 ZGB"
     ],
     "@eIds": [
       "art_782/para_1",
@@ -8683,8 +8319,7 @@
       "B. Errichtung und Untergang",
       "I. Errichtung",
       "1. Eintragung und Erwerbsart",
-      "Art. 783",
-      "book_4/part_2/tit_21/chap_3/lvl_B/lvl_I/lvl_1"
+      "Art. 783 ZGB"
     ],
     "@eIds": [
       "art_783/para_1",
@@ -8705,8 +8340,7 @@
       "B. Errichtung und Untergang",
       "II. Untergang",
       "1. Im Allgemeinen",
-      "Art. 786",
-      "book_4/part_2/tit_21/chap_3/lvl_B/lvl_II/lvl_1"
+      "Art. 786 ZGB"
     ],
     "@eIds": [
       "art_786/para_1",
@@ -8728,8 +8362,7 @@
       "II. Untergang",
       "2. Ablösung",
       "a. Durch den Gläubiger",
-      "Art. 787",
-      "book_4/part_2/tit_21/chap_3/lvl_B/lvl_II/lvl_2/lvl_a"
+      "Art. 787 ZGB"
     ],
     "@eIds": [
       "art_787/para_1",
@@ -8756,8 +8389,7 @@
       "Dritter Abschnitt: Die Grundlasten",
       "C. Inhalt",
       "I. Gläubigerrecht",
-      "Art. 791",
-      "book_4/part_2/tit_21/chap_3/lvl_C/lvl_I"
+      "Art. 791 ZGB"
     ],
     "@eIds": [
       "art_791/para_1",
@@ -8777,8 +8409,7 @@
       "Erster Abschnitt: Allgemeine Bestimmungen",
       "A. Voraussetzungen",
       "I. Arten",
-      "Art. 793",
-      "book_4/part_2/tit_22/chap_1/lvl_A/lvl_I"
+      "Art. 793 ZGB"
     ],
     "@eIds": [
       "art_793/para_1",
@@ -8797,8 +8428,7 @@
       "A. Voraussetzungen",
       "II. Gestalt der Forderung",
       "1. Betrag",
-      "Art. 794",
-      "book_4/part_2/tit_22/chap_1/lvl_A/lvl_II/lvl_1"
+      "Art. 794 ZGB"
     ],
     "@eIds": [
       "art_794/para_1",
@@ -8819,8 +8449,7 @@
       "A. Voraussetzungen",
       "III. Grundstück",
       "1. Verpfändbarkeit",
-      "Art. 796",
-      "book_4/part_2/tit_22/chap_1/lvl_A/lvl_III/lvl_1"
+      "Art. 796 ZGB"
     ],
     "@eIds": [
       "art_796/para_1",
@@ -8841,8 +8470,7 @@
       "III. Grundstück",
       "2. Bestimmtheit",
       "a. Bei einem Grundstück",
-      "Art. 797",
-      "book_4/part_2/tit_22/chap_1/lvl_A/lvl_III/lvl_2/lvl_a"
+      "Art. 797 ZGB"
     ],
     "@eIds": [
       "art_797/para_1",
@@ -8864,8 +8492,7 @@
       "B. Errichtung und Untergang",
       "I. Errichtung",
       "1. Eintragung",
-      "Art. 799",
-      "book_4/part_2/tit_22/chap_1/lvl_B/lvl_I/lvl_1"
+      "Art. 799 ZGB"
     ],
     "@eIds": [
       "art_799/para_1",
@@ -8885,8 +8512,7 @@
       "Erster Abschnitt: Allgemeine Bestimmungen",
       "B. Errichtung und Untergang",
       "II. Untergang",
-      "Art. 801",
-      "book_4/part_2/tit_22/chap_1/lvl_B/lvl_I"
+      "Art. 801 ZGB"
     ],
     "@eIds": [
       "art_801/para_1",
@@ -8905,8 +8531,7 @@
       "B. Errichtung und Untergang",
       "III. Grundpfänder bei Güterzusammenlegung",
       "1. Verlegung der Pfandrechte",
-      "Art. 802",
-      "book_4/part_2/tit_22/chap_1/lvl_B/lvl_III/lvl_1"
+      "Art. 802 ZGB"
     ],
     "@eIds": [
       "art_802/para_1",
@@ -8927,8 +8552,7 @@
       "Erster Abschnitt: Allgemeine Bestimmungen",
       "C. Wirkung",
       "I. Umfang der Pfandhaft",
-      "Art. 805",
-      "book_4/part_2/tit_22/chap_1/lvl_C/lvl_I"
+      "Art. 805 ZGB"
     ],
     "@eIds": [
       "art_805/para_1",
@@ -8960,8 +8584,7 @@
       "IV. Sicherungsbefugnisse",
       "1. Massregeln bei Wertverminderung",
       "a. Untersagung und Selbsthilfe",
-      "Art. 808",
-      "book_4/part_2/tit_22/chap_1/lvl_C/lvl_IV/lvl_1/lvl_a"
+      "Art. 808 ZGB"
     ],
     "@eIds": [
       "art_808/para_1",
@@ -8985,8 +8608,7 @@
       "C. Wirkung",
       "IV. Sicherungsbefugnisse",
       "2. Unverschuldete Wertverminderung",
-      "Art. 810",
-      "book_4/part_2/tit_22/chap_1/lvl_C/lvl_IV/lvl_1"
+      "Art. 810 ZGB"
     ],
     "@eIds": [
       "art_810/para_1",
@@ -9007,8 +8629,7 @@
       "C. Wirkung",
       "VI. Pfandstelle",
       "1. Wirkung der Pfandstellen",
-      "Art. 813",
-      "book_4/part_2/tit_22/chap_1/lvl_C/lvl_VI/lvl_1"
+      "Art. 813 ZGB"
     ],
     "@eIds": [
       "art_813/para_1",
@@ -9031,8 +8652,7 @@
       "C. Wirkung",
       "VII. Befriedigung aus dem Pfande",
       "1. Art der Befriedigung",
-      "Art. 816",
-      "book_4/part_2/tit_22/chap_1/lvl_C/lvl_VII/lvl_1"
+      "Art. 816 ZGB"
     ],
     "@eIds": [
       "art_816/para_1",
@@ -9061,8 +8681,7 @@
       "C. Wirkung",
       "VIII. Pfandrecht bei Bodenverbesserungen",
       "1. Vorrang",
-      "Art. 820",
-      "book_4/part_2/tit_22/chap_1/lvl_C/lvl_VIII/lvl_1"
+      "Art. 820 ZGB"
     ],
     "@eIds": [
       "art_820/para_1",
@@ -9081,8 +8700,7 @@
       "Zweiundzwanzigster Titel: Das Grundpfand",
       "Zweiter Abschnitt: Die Grundpfandverschreibung",
       "A. Zweck und Gestalt",
-      "Art. 824",
-      "book_4/part_2/tit_22/chap_2/lvl_A"
+      "Art. 824 ZGB"
     ],
     "@eIds": [
       "art_824/para_1",
@@ -9100,8 +8718,7 @@
       "Zweiter Abschnitt: Die Grundpfandverschreibung",
       "B. Errichtung und Untergang",
       "I. Errichtung",
-      "Art. 825",
-      "book_4/part_2/tit_22/chap_2/lvl_B/lvl_I"
+      "Art. 825 ZGB"
     ],
     "@eIds": [
       "art_825/para_1",
@@ -9121,8 +8738,7 @@
       "B. Errichtung und Untergang",
       "II. Untergang",
       "1. Recht auf Löschung",
-      "Art. 826",
-      "book_4/part_2/tit_22/chap_2/lvl_B/lvl_II/lvl_1"
+      "Art. 826 ZGB"
     ],
     "@eIds": [
       "art_826/para",
@@ -9144,8 +8760,7 @@
       "II. Untergang",
       "3. Einseitige Ablösung",
       "a. Voraussetzung und Geltendmachung",
-      "Art. 828",
-      "book_4/part_2/tit_22/chap_2/lvl_B/lvl_II/lvl_3/lvl_a"
+      "Art. 828 ZGB"
     ],
     "@eIds": [
       "art_828/para_1",
@@ -9169,8 +8784,7 @@
       "C. Wirkung",
       "I. Eigentum und Schuldnerschaft",
       "1. Veräusserung",
-      "Art. 832",
-      "book_4/part_2/tit_22/chap_2/lvl_C/lvl_I/lvl_1"
+      "Art. 832 ZGB"
     ],
     "@eIds": [
       "art_832/para_1",
@@ -9193,8 +8807,7 @@
       "Zweiter Abschnitt: Die Grundpfandverschreibung",
       "C. Wirkung",
       "II. Übertragung der Forderung",
-      "Art. 835",
-      "book_4/part_2/tit_22/chap_2/lvl_C/lvl_I"
+      "Art. 835 ZGB"
     ],
     "@eIds": [
       "art_835/para"
@@ -9211,8 +8824,7 @@
       "Zweiter Abschnitt: Die Grundpfandverschreibung",
       "D. Gesetzliches Grundpfandrecht",
       "I. Des kantonalen Rechts",
-      "Art. 836 None",
-      "book_4/part_2/tit_22/chap_2/lvl_D/lvl_I"
+      "Art. 836 None ZGB"
     ],
     "@eIds": [
       "art_836/para_1",
@@ -9232,8 +8844,7 @@
       "D. Gesetzliches Grundpfandrecht",
       "II. Des Bundesprivatrechts",
       "1. Fälle",
-      "Art. 837 None",
-      "book_4/part_2/tit_22/chap_2/lvl_D/lvl_II/lvl_1"
+      "Art. 837 None ZGB"
     ],
     "@eIds": [
       "art_837/para_1/listintro",
@@ -9258,8 +8869,7 @@
       "II. Des Bundesprivatrechts",
       "3. Handwerker und Unternehmer",
       "a. Eintragung",
-      "Art. 839 None",
-      "book_4/part_2/tit_22/chap_2/lvl_D/lvl_II/lvl_3/lvl_a"
+      "Art. 839 None ZGB"
     ],
     "@eIds": [
       "art_839/para_1",
@@ -9285,8 +8895,7 @@
       "Dritter Abschnitt:  Der Schuldbrief",
       "A. Allgemeine Vorschriften",
       "I. Zweck; Verhältnis zur Forderung aus dem Grundverhältnis",
-      "Art. 842",
-      "book_4/part_2/tit_22/chap_3/lvl_A/lvl_I"
+      "Art. 842 ZGB"
     ],
     "@eIds": [
       "art_842/para_1",
@@ -9328,8 +8937,7 @@
       "A. Allgemeine Vorschriften",
       "V. Schuldbriefforderung und Nebenvereinbarungen",
       "1. Im Allgemeinen",
-      "Art. 846",
-      "book_4/part_2/tit_22/chap_3/lvl_A/lvl_V/lvl_1"
+      "Art. 846 ZGB"
     ],
     "@eIds": [
       "art_846/para_1",
@@ -9350,8 +8958,7 @@
       "A. Allgemeine Vorschriften",
       "XII. Untergang",
       "1. Wegfall des Gläubigers",
-      "Art. 854",
-      "book_4/part_2/tit_22/chap_3/lvl_A/lvl_XII/lvl_1"
+      "Art. 854 ZGB"
     ],
     "@eIds": [
       "art_854/para_1",
@@ -9370,8 +8977,7 @@
       "Dritter Abschnitt:  Der Schuldbrief",
       "B. Register-Schuldbrief",
       "I. Errichtung",
-      "Art. 857",
-      "book_4/part_2/tit_22/chap_3/lvl_B/lvl_I"
+      "Art. 857 ZGB"
     ],
     "@eIds": [
       "art_857/para_1",
@@ -9395,8 +9001,7 @@
       "C. Papier-Schuldbrief",
       "I. Errichtung",
       "2. Pfandtitel",
-      "Art. 861",
-      "N/A"
+      "Art. 861 ZGB"
     ],
     "@eIds": [
       "art_861/para_1",
@@ -9416,8 +9021,7 @@
       "C. Papier-Schuldbrief",
       "I. Errichtung",
       "1. Eintragung",
-      "Art. 860",
-      "book_4/part_2/tit_22/chap_3/lvl_C/lvl_I/lvl_1"
+      "Art. 860 ZGB"
     ],
     "@eIds": [
       "art_860/para_1",
@@ -9436,8 +9040,7 @@
       "Dritter Abschnitt:  Der Schuldbrief",
       "C. Papier-Schuldbrief",
       "II. Schutz des guten Glaubens",
-      "Art. 862",
-      "book_4/part_2/tit_22/chap_3/lvl_C/lvl_I"
+      "Art. 862 ZGB"
     ],
     "@eIds": [
       "art_862/para_1",
@@ -9461,8 +9064,7 @@
       "C. Papier-Schuldbrief",
       "III. Rechte des Gläubigers",
       "1. Geltendmachung",
-      "Art. 863",
-      "book_4/part_2/tit_22/chap_3/lvl_C/lvl_III/lvl_1"
+      "Art. 863 ZGB"
     ],
     "@eIds": [
       "art_863/para_1",
@@ -9481,8 +9083,7 @@
       "Zweiundzwanzigster Titel: Das Grundpfand",
       "Vierter Abschnitt: Ausgabe von Anleihenstiteln mit Grundpfandrecht",
       "A. Obligationen für Anleihen mit Pfandrecht",
-      "Art. 875",
-      "book_4/part_2/tit_22/chap_4/lvl_A"
+      "Art. 875 ZGB"
     ],
     "@eIds": [
       "art_875/para/listintro",
@@ -9502,8 +9103,7 @@
       "A. Faustpfand",
       "I. Bestellung",
       "1. Besitz des Gläubigers",
-      "Art. 884",
-      "book_4/part_2/tit_23/chap_1/lvl_A/lvl_I/lvl_1"
+      "Art. 884 ZGB"
     ],
     "@eIds": [
       "art_884/para_1",
@@ -9528,8 +9128,7 @@
       "A. Faustpfand",
       "II. Untergang",
       "1. Besitzesverlust",
-      "Art. 888",
-      "book_4/part_2/tit_23/chap_1/lvl_A/lvl_II/lvl_1"
+      "Art. 888 ZGB"
     ],
     "@eIds": [
       "art_888/para_1",
@@ -9552,8 +9151,7 @@
       "A. Faustpfand",
       "III. Wirkung",
       "1. Rechte des Gläubigers",
-      "Art. 891",
-      "book_4/part_2/tit_23/chap_1/lvl_A/lvl_III/lvl_1"
+      "Art. 891 ZGB"
     ],
     "@eIds": [
       "art_891/para_1",
@@ -9577,8 +9175,7 @@
       "Erster Abschnitt: Faustpfand und Retentionsrecht",
       "B. Retentionsrecht",
       "I. Voraussetzungen",
-      "Art. 895",
-      "book_4/part_2/tit_23/chap_1/lvl_B/lvl_I"
+      "Art. 895 ZGB"
     ],
     "@eIds": [
       "art_895/para_1",
@@ -9602,8 +9199,7 @@
       "Dreiundzwanzigster Titel: Das Fahrnispfand",
       "Zweiter Abschnitt: Das Pfandrecht an Forderungen und andern Rechten",
       "A. Im Allgemeinen",
-      "Art. 899",
-      "book_4/part_2/tit_23/chap_2/lvl_A"
+      "Art. 899 ZGB"
     ],
     "@eIds": [
       "art_899/para_1",
@@ -9621,8 +9217,7 @@
       "Zweiter Abschnitt: Das Pfandrecht an Forderungen und andern Rechten",
       "B. Errichtung",
       "I. Bei Forderungen mit oder ohne Schuldschein",
-      "Art. 900",
-      "book_4/part_2/tit_23/chap_2/lvl_B/lvl_I"
+      "Art. 900 ZGB"
     ],
     "@eIds": [
       "art_900/para_1",
@@ -9647,8 +9242,7 @@
       "Zweiter Abschnitt: Das Pfandrecht an Forderungen und andern Rechten",
       "C. Wirkung",
       "I. Umfang der Pfandhaft",
-      "Art. 904",
-      "book_4/part_2/tit_23/chap_2/lvl_C/lvl_I"
+      "Art. 904 ZGB"
     ],
     "@eIds": [
       "art_904/para_1",
@@ -9671,8 +9265,7 @@
       "Dritter Abschnitt: Das Versatzpfand",
       "A. Versatzanstalt",
       "I. Erteilung der Gewerbebefugnis",
-      "Art. 907",
-      "book_4/part_2/tit_23/chap_3/lvl_A/lvl_I"
+      "Art. 907 ZGB"
     ],
     "@eIds": [
       "art_907/para_1",
@@ -9693,8 +9286,7 @@
       "Dritter Abschnitt: Das Versatzpfand",
       "B. Versatzpfandrecht",
       "I. Errichtung",
-      "Art. 909",
-      "book_4/part_2/tit_23/chap_3/lvl_B/lvl_I"
+      "Art. 909 ZGB"
     ],
     "@eIds": [
       "art_909/para"
@@ -9712,8 +9304,7 @@
       "B. Versatzpfandrecht",
       "II. Wirkung",
       "1. Verkauf des Pfandes",
-      "Art. 910",
-      "book_4/part_2/tit_23/chap_3/lvl_B/lvl_II/lvl_1"
+      "Art. 910 ZGB"
     ],
     "@eIds": [
       "art_910/para_1",
@@ -9735,8 +9326,7 @@
       "B. Versatzpfandrecht",
       "III. Auslösung des Pfandes",
       "1. Recht auf Auslösung",
-      "Art. 912",
-      "book_4/part_2/tit_23/chap_3/lvl_B/lvl_III/lvl_1"
+      "Art. 912 ZGB"
     ],
     "@eIds": [
       "art_912/para_1",
@@ -9756,8 +9346,7 @@
       "Dreiundzwanzigster Titel: Das Fahrnispfand",
       "Dritter Abschnitt: Das Versatzpfand",
       "C. Kauf auf Rückkauf",
-      "Art. 914",
-      "book_4/part_2/tit_23/chap_3/lvl_A"
+      "Art. 914 ZGB"
     ],
     "@eIds": [
       "art_914/para",
@@ -9775,8 +9364,7 @@
       "Vierundzwanzigster Titel: Der Besitz",
       "A. Begriff und Arten",
       "I. Begriff",
-      "Art. 919",
-      "book_4/part_3/tit_24/lvl_A/lvl_I"
+      "Art. 919 ZGB"
     ],
     "@eIds": [
       "art_919/para_1",
@@ -9796,8 +9384,7 @@
       "Vierundzwanzigster Titel: Der Besitz",
       "B. Übertragung",
       "I. Unter Anwesenden",
-      "Art. 922",
-      "book_4/part_3/tit_24/lvl_B/lvl_I"
+      "Art. 922 ZGB"
     ],
     "@eIds": [
       "art_922/para_1",
@@ -9821,8 +9408,7 @@
       "C. Bedeutung",
       "I. Besitzesschutz",
       "1. Abwehr von Angriffen",
-      "Art. 926",
-      "book_4/part_3/tit_24/lvl_C/lvl_I/lvl_1"
+      "Art. 926 ZGB"
     ],
     "@eIds": [
       "art_926/para_1",
@@ -9848,8 +9434,7 @@
       "C. Bedeutung",
       "II. Rechtsschutz",
       "1. Vermutung des Eigentums",
-      "Art. 930",
-      "book_4/part_3/tit_24/lvl_C/lvl_II/lvl_1"
+      "Art. 930 ZGB"
     ],
     "@eIds": [
       "art_930/para_1",
@@ -9873,8 +9458,7 @@
       "II. Rechtsschutz",
       "4. Verfügungs- und Rückforderungsrecht",
       "a. Bei anvertrauten Sachen",
-      "Art. 933",
-      "book_4/part_3/tit_24/lvl_C/lvl_II/lvl_4/lvl_a"
+      "Art. 933 ZGB"
     ],
     "@eIds": [
       "art_933/para",
@@ -9899,8 +9483,7 @@
       "III. Verantwortlichkeit",
       "1. Gutgläubiger Besitzer",
       "a. Nutzung",
-      "Art. 938",
-      "book_4/part_3/tit_24/lvl_C/lvl_III/lvl_1/lvl_a"
+      "Art. 938 ZGB"
     ],
     "@eIds": [
       "art_938/para_1",
@@ -9921,8 +9504,7 @@
       "C. Bedeutung",
       "III. Verantwortlichkeit",
       "2. Bösgläubiger Besitzer",
-      "Art. 940",
-      "book_4/part_3/tit_24/lvl_C/lvl_III/lvl_1"
+      "Art. 940 ZGB"
     ],
     "@eIds": [
       "art_940/para_1",
@@ -9940,8 +9522,7 @@
       "Vierundzwanzigster Titel: Der Besitz",
       "C. Bedeutung",
       "IV. Ersitzung",
-      "Art. 941",
-      "book_4/part_3/tit_24/lvl_C/lvl_I"
+      "Art. 941 ZGB"
     ],
     "@eIds": [
       "art_941/para"
@@ -9958,8 +9539,7 @@
       "A. Einrichtung",
       "I. Bestand",
       "1. Im Allgemeinen",
-      "Art. 942",
-      "book_4/part_3/tit_25/lvl_A/lvl_I/lvl_1"
+      "Art. 942 ZGB"
     ],
     "@eIds": [
       "art_942/para_1",
@@ -9990,8 +9570,7 @@
       "I. Bestand",
       "2. Aufnahme",
       "a. Gegenstand",
-      "Art. 943 None",
-      "book_4/part_3/tit_25/lvl_A/lvl_I/lvl_2/lvl_a"
+      "Art. 943 None ZGB"
     ],
     "@eIds": [
       "art_943/para_1/listintro",
@@ -10017,8 +9596,7 @@
       "I. Bestand",
       "3. Bücher",
       "a. Hauptbuch",
-      "Art. 945",
-      "book_4/part_3/tit_25/lvl_A/lvl_I/lvl_3/lvl_a"
+      "Art. 945 ZGB"
     ],
     "@eIds": [
       "art_945/para_1",
@@ -10048,8 +9626,7 @@
       "I. Bestand",
       "4. Verordnungen",
       "a. Im Allgemeinen",
-      "Art. 949",
-      "book_4/part_3/tit_25/lvl_A/lvl_I/lvl_4/lvl_a"
+      "Art. 949 ZGB"
     ],
     "@eIds": [
       "art_949/para_1",
@@ -10078,8 +9655,7 @@
       "II. Grundbuchführung",
       "1. Kreise",
       "a. Zugehörigkeit",
-      "Art. 951",
-      "book_4/part_3/tit_25/lvl_A/lvl_II/lvl_1/lvl_a"
+      "Art. 951 ZGB"
     ],
     "@eIds": [
       "art_951/para_1",
@@ -10100,8 +9676,7 @@
       "A. Einrichtung",
       "II. Grundbuchführung",
       "2. Grundbuchämter",
-      "Art. 953",
-      "book_4/part_3/tit_25/lvl_A/lvl_II/lvl_1"
+      "Art. 953 ZGB"
     ],
     "@eIds": [
       "art_953/para_1",
@@ -10120,8 +9695,7 @@
       "Fünfundzwanzigster Titel: Das Grundbuch",
       "A. Einrichtung",
       "III. Haftung",
-      "Art. 955",
-      "book_4/part_3/tit_25/lvl_A/lvl_I"
+      "Art. 955 ZGB"
     ],
     "@eIds": [
       "art_955/para_1",
@@ -10142,8 +9716,7 @@
       "A. Einrichtung",
       "V. Rechtsschutz",
       "1. Beschwerdebefugnis",
-      "Art. 956 a None",
-      "book_4/part_3/tit_25/lvl_A/lvl_V/lvl_1"
+      "Art. 956 a None ZGB"
     ],
     "@eIds": [
       "art_956_a/para_1",
@@ -10167,8 +9740,7 @@
       "B. Eintragung",
       "I. Grundbucheinträge",
       "1. Eigentum und dingliche Rechte",
-      "Art. 958",
-      "book_4/part_3/tit_25/lvl_B/lvl_I/lvl_1"
+      "Art. 958 ZGB"
     ],
     "@eIds": [
       "art_958/para/listintro",
@@ -10189,8 +9761,7 @@
       "I. Grundbucheinträge",
       "2. Vormerkungen",
       "a. Persönliche Rechte",
-      "Art. 959",
-      "book_4/part_3/tit_25/lvl_B/lvl_I/lvl_2/lvl_a"
+      "Art. 959 ZGB"
     ],
     "@eIds": [
       "art_959/para_1",
@@ -10219,8 +9790,7 @@
       "B. Eintragung",
       "II. Anmerkungen",
       "1. Von öffentlich-rechtlichen Beschränkungen",
-      "Art. 962 None",
-      "book_4/part_3/tit_25/lvl_B/lvl_II/lvl_1"
+      "Art. 962 None ZGB"
     ],
     "@eIds": [
       "art_962/para_1",
@@ -10246,8 +9816,7 @@
       "III. Voraussetzung der Eintragung",
       "1. Anmeldungen",
       "a. Bei Eintragungen",
-      "Art. 963",
-      "book_4/part_3/tit_25/lvl_B/lvl_III/lvl_1/lvl_a"
+      "Art. 963 ZGB"
     ],
     "@eIds": [
       "art_963/para_1",
@@ -10269,8 +9838,7 @@
       "III. Voraussetzung der Eintragung",
       "2. Ausweise",
       "a. Gültiger Ausweis",
-      "Art. 965",
-      "book_4/part_3/tit_25/lvl_B/lvl_III/lvl_2/lvl_a"
+      "Art. 965 ZGB"
     ],
     "@eIds": [
       "art_965/para_1",
@@ -10291,8 +9859,7 @@
       "B. Eintragung",
       "IV. Art der Eintragung",
       "1. Im Allgemeinen",
-      "Art. 967",
-      "book_4/part_3/tit_25/lvl_B/lvl_IV/lvl_1"
+      "Art. 967 ZGB"
     ],
     "@eIds": [
       "art_967/para_1",
@@ -10311,8 +9878,7 @@
       "Fünfundzwanzigster Titel: Das Grundbuch",
       "B. Eintragung",
       "V. Anzeigepflicht",
-      "Art. 969",
-      "book_4/part_3/tit_25/lvl_B/lvl_I"
+      "Art. 969 ZGB"
     ],
     "@eIds": [
       "art_969/para_1",
@@ -10329,8 +9895,7 @@
       "Fünfundzwanzigster Titel: Das Grundbuch",
       "C. Öffentlichkeit des Grundbuchs",
       "I. Auskunftserteilung und Einsichtnahme",
-      "Art. 970 None",
-      "book_4/part_3/tit_25/lvl_C/lvl_I"
+      "Art. 970 None ZGB"
     ],
     "@eIds": [
       "art_970/para_1",
@@ -10354,8 +9919,7 @@
       "Fünfundzwanzigster Titel: Das Grundbuch",
       "D. Wirkung",
       "I. Bedeutung der Nichteintragung",
-      "Art. 971",
-      "book_4/part_3/tit_25/lvl_D/lvl_I"
+      "Art. 971 ZGB"
     ],
     "@eIds": [
       "art_971/para_1",
@@ -10373,8 +9937,7 @@
       "D. Wirkung",
       "II. Bedeutung der Eintragung",
       "1. Im Allgemeinen",
-      "Art. 972",
-      "book_4/part_3/tit_25/lvl_D/lvl_II/lvl_1"
+      "Art. 972 ZGB"
     ],
     "@eIds": [
       "art_972/para_1",
@@ -10398,8 +9961,7 @@
       "E. Löschung und Änderung der Einträge",
       "I. Bereinigung",
       "1. Bei der Teilung des Grundstücks",
-      "Art. 974 a None",
-      "book_4/part_3/tit_25/lvl_E/lvl_I/lvl_1"
+      "Art. 974 a None ZGB"
     ],
     "@eIds": [
       "art_974_a/para_1",
@@ -10421,8 +9983,7 @@
       "Fünfundzwanzigster Titel: Das Grundbuch",
       "E. Löschung und Änderung der Einträge",
       "II. Bei ungerechtfertigtem Eintrag",
-      "Art. 975",
-      "book_4/part_3/tit_25/lvl_E/lvl_I"
+      "Art. 975 ZGB"
     ],
     "@eIds": [
       "art_975/para_1",
@@ -10443,8 +10004,7 @@
       "E. Löschung und Änderung der Einträge",
       "III. Erleichterte Löschung",
       "1. Zweifelsfrei bedeutungslose Einträge",
-      "Art. 976 None",
-      "book_4/part_3/tit_25/lvl_E/lvl_III/lvl_1"
+      "Art. 976 None ZGB"
     ],
     "@eIds": [
       "art_976/para/listintro",
@@ -10469,8 +10029,7 @@
       "III. Erleichterte Löschung",
       "2. Andere Einträge",
       "a. Im Allgemeinen",
-      "Art. 976 a None",
-      "book_4/part_3/tit_25/lvl_E/lvl_III/lvl_2/lvl_a"
+      "Art. 976 a None ZGB"
     ],
     "@eIds": [
       "art_976_a/para_1",
