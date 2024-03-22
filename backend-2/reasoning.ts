@@ -29,14 +29,23 @@ export const doReasoning = async (
 
   for (let reason of reasoning) {
     if (reason.type === "llm") {
+      console.log("LLM Stage");
+      console.log(JSON.stringify(reason));
+
       const messages = reason.llmQuery?.messages.map((m: any) => {
+        console.log("This is ", m);
         let prompt = m.prompt || "";
         prompt = prompt.replace("{{baseQuery}}", baseQuery);
         prompt = prompt.replace("{{previousQuery}}", previousQuery);
+        console.log("That is ", prompt);
+
         return Object.assign({}, m, { prompt });
       }) as unknown as ChatRequestMessage[];
 
       const temperature = 0.0;
+
+      console.log("Rendered Query");
+      console.log(JSON.stringify(messages));
 
       const completion = await openAIClient.getChatCompletions(
         process.env.AZURE_OPENAI_DEPLOYMENT_NAME || "",
@@ -47,19 +56,29 @@ export const doReasoning = async (
         }
       );
 
+      console.log("Received LLM Result");
+      console.log(JSON.stringify(completion));
+
       const completionResult = completion.choices[0].message?.content as string;
 
       previousQuery = completionResult;
+
       reasoningThread.push({
         type: "llm",
         prompt: messages,
         response: completionResult,
       });
     } else if (reason.type === "search") {
+      console.log("SEARCH Stage");
+      console.log(JSON.stringify(reason));
+
       let query = reason.searchQuery?.query || "";
 
       query = query.replace("{{baseQuery}}", baseQuery);
       query = query.replace("{{previousQuery}}", baseQuery);
+
+      console.log("Rendered Query");
+      console.log(JSON.stringify(query));
 
       const results = await searchClient.search(query, {
         vectorSearchOptions: {
@@ -76,6 +95,9 @@ export const doReasoning = async (
         includeTotalCount: true,
         select: ["text", "metadata", "eIds"],
       });
+
+      console.log("Received Search Results");
+      console.log(JSON.stringify(results));
 
       const retrievedInfo = {
         eIds: [] as string[][],

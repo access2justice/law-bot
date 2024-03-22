@@ -1,26 +1,6 @@
-import { AzureKeyCredential, SearchClient } from "@azure/search-documents";
-import { ChatRequestMessage, OpenAIClient } from "@azure/openai";
 import { APIGatewayProxyHandler } from "aws-lambda";
 import { getReasoning } from "./repository";
 import { doReasoning } from "./reasoning";
-
-const openAIClient = new OpenAIClient(
-  process.env.AZURE_OPENAI_ENDPOINT || "",
-  new AzureKeyCredential(process.env.AZURE_OPENAI_KEY || "")
-);
-
-const searchClient = new SearchClient(
-  process.env.AZURE_SEARCH_ENPOINT || "",
-  process.env.AZURE_SEARCH_INDEX_NAME || "",
-  new AzureKeyCredential(process.env.AZURE_SEARCH_KEY || "")
-);
-
-const getEmbeddings = async (query: string) => {
-  return await openAIClient.getEmbeddings(
-    process.env.AZURE_OPENAI_EMBEDDING_DEPLOYMENT || "",
-    [query]
-  );
-};
 
 export const handler: APIGatewayProxyHandler = async (event) => {
   try {
@@ -63,11 +43,11 @@ export const handler: APIGatewayProxyHandler = async (event) => {
       }),
     };
   } catch (error) {
-    console.error("Error invoking the second Lambda function:", error);
+    console.error("An error took place:", error);
     return {
-      statusCode: 200,
+      statusCode: 500,
       body: JSON.stringify({
-        message: `Failed to offload the task to the second Lambda function. ${error}`,
+        message: `An error took place. ${error}`,
       }),
     };
   }
