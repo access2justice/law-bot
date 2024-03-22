@@ -6,7 +6,7 @@
       "Bundesgesetz  über die Arbeit in Industrie, Gewerbe und Handel (Arbeitsgesetz, ArG)",
       "I. Geltungsbereich",
       "Betrieblicher und persönlicher Geltungsbereich",
-      "Art. 1"
+      "Art. 1 ARG"
     ],
     "@eIds": [
       "lvl_I/lvl_u1"
@@ -19,7 +19,7 @@
       "Bundesgesetz  über die Arbeit in Industrie, Gewerbe und Handel (Arbeitsgesetz, ArG)",
       "I. Geltungsbereich",
       "Ausnahmen vom betrieblichen Geltungsbereich",
-      "Art. 2"
+      "Art. 2 ARG"
     ],
     "@eIds": [
       "lvl_I/lvl_u1"
@@ -32,7 +32,7 @@
       "Bundesgesetz  über die Arbeit in Industrie, Gewerbe und Handel (Arbeitsgesetz, ArG)",
       "I. Geltungsbereich",
       "Ausnahmen vom persönlichen Geltungsbereich",
-      "Art. 3"
+      "Art. 3 ARG"
     ],
     "@eIds": [
       "lvl_I/lvl_u1"
@@ -45,7 +45,7 @@
       "Bundesgesetz  über die Arbeit in Industrie, Gewerbe und Handel (Arbeitsgesetz, ArG)",
       "I. Geltungsbereich",
       "Vorschriften über den Gesundheitsschutz",
-      "Art. 3 a None"
+      "Art. 3 a  ARG"
     ],
     "@eIds": [
       "lvl_I/lvl_u1"
@@ -58,7 +58,7 @@
       "Bundesgesetz  über die Arbeit in Industrie, Gewerbe und Handel (Arbeitsgesetz, ArG)",
       "I. Geltungsbereich",
       "Familienbetriebe",
-      "Art. 4"
+      "Art. 4 ARG"
     ],
     "@eIds": [
       "lvl_I/lvl_u1"
@@ -71,7 +71,7 @@
       "Bundesgesetz  über die Arbeit in Industrie, Gewerbe und Handel (Arbeitsgesetz, ArG)",
       "I. Geltungsbereich",
       "Sondervorschriften für industrielle Betriebe",
-      "Art. 5"
+      "Art. 5 ARG"
     ],
     "@eIds": [
       "lvl_I/lvl_u1"
@@ -84,7 +84,7 @@
       "Bundesgesetz  über die Arbeit in Industrie, Gewerbe und Handel (Arbeitsgesetz, ArG)",
       "II. Gesundheitsschutz und Plangenehmigung",
       "Pflichten der Arbeitgeber und Arbeitnehmer",
-      "Art. 6 None"
+      "Art. 6  ARG"
     ],
     "@eIds": [
       "lvl_II/lvl_u1"
@@ -97,7 +97,7 @@
       "Bundesgesetz  über die Arbeit in Industrie, Gewerbe und Handel (Arbeitsgesetz, ArG)",
       "II. Gesundheitsschutz und Plangenehmigung",
       "Plangenehmigung und Betriebsbewilligung",
-      "Art. 7 None"
+      "Art. 7  ARG"
     ],
     "@eIds": [
       "lvl_II/lvl_u1"
@@ -110,7 +110,7 @@
       "Bundesgesetz  über die Arbeit in Industrie, Gewerbe und Handel (Arbeitsgesetz, ArG)",
       "II. Gesundheitsschutz und Plangenehmigung",
       "Nichtindustrielle Betriebe",
-      "Art. 8 None"
+      "Art. 8  ARG"
     ],
     "@eIds": [
       "lvl_II/lvl_u1"
@@ -124,7 +124,7 @@
       "III. Arbeits- und Ruhezeit",
       "1. Arbeitszeit",
       "Wöchentliche Höchstarbeitszeit",
-      "Art. 9"
+      "Art. 9 ARG"
     ],
     "@eIds": [
       "lvl_III/lvl_1/lvl_u1"
@@ -138,7 +138,7 @@
       "III. Arbeits- und Ruhezeit",
       "1. Arbeitszeit",
       "Tages- und Abendarbeit",
-      "Art. 10 None"
+      "Art. 10  ARG"
     ],
     "@eIds": [
       "lvl_III/lvl_1/lvl_u1"
@@ -152,7 +152,7 @@
       "III. Arbeits- und Ruhezeit",
       "1. Arbeitszeit",
       "Ausgleich ausfallender Arbeitszeit",
-      "Art. 11"
+      "Art. 11 ARG"
     ],
     "@eIds": [
       "lvl_III/lvl_1/lvl_u1"
@@ -166,7 +166,7 @@
       "III. Arbeits- und Ruhezeit",
       "1. Arbeitszeit",
       "Voraussetzungen und Dauer der Überzeitarbeit",
-      "Art. 12"
+      "Art. 12 ARG"
     ],
     "@eIds": [
       "lvl_III/lvl_1/lvl_u1"
@@ -180,7 +180,7 @@
       "III. Arbeits- und Ruhezeit",
       "1. Arbeitszeit",
       "Lohnzuschlag für Überzeitarbeit",
-      "Art. 13"
+      "Art. 13 ARG"
     ],
     "@eIds": [
       "lvl_III/lvl_1/lvl_u1"
@@ -194,7 +194,7 @@
       "III. Arbeits- und Ruhezeit",
       "2. Ruhezeit",
       "Pausen",
-      "Art. 15"
+      "Art. 15 ARG"
     ],
     "@eIds": [
       "lvl_III/lvl_2/lvl_u1"
@@ -208,7 +208,7 @@
       "III. Arbeits- und Ruhezeit",
       "2. Ruhezeit",
       "Tägliche Ruhezeit",
-      "Art. 15 a None"
+      "Art. 15 a  ARG"
     ],
     "@eIds": [
       "lvl_III/lvl_2/lvl_u1"
@@ -222,7 +222,7 @@
       "III. Arbeits- und Ruhezeit",
       "2. Ruhezeit",
       "Verbot der Nachtarbeit",
-      "Art. 16 None"
+      "Art. 16  ARG"
     ],
     "@eIds": [
       "lvl_III/lvl_2/lvl_u1"
@@ -236,7 +236,7 @@
       "III. Arbeits- und Ruhezeit",
       "2. Ruhezeit",
       "Ausnahmen vom Verbot der Nachtarbeit",
-      "Art. 17 None"
+      "Art. 17  ARG"
     ],
     "@eIds": [
       "lvl_III/lvl_2/lvl_u1"
@@ -250,7 +250,7 @@
       "III. Arbeits- und Ruhezeit",
       "2. Ruhezeit",
       "Dauer der Nachtarbeit",
-      "Art. 17 a None"
+      "Art. 17 a  ARG"
     ],
     "@eIds": [
       "lvl_III/lvl_2/lvl_u1"
@@ -264,7 +264,7 @@
       "III. Arbeits- und Ruhezeit",
       "2. Ruhezeit",
       "Lohn- und Zeitzuschlag",
-      "Art. 17 b None"
+      "Art. 17 b  ARG"
     ],
     "@eIds": [
       "lvl_III/lvl_2/lvl_u1"
@@ -278,7 +278,7 @@
       "III. Arbeits- und Ruhezeit",
       "2. Ruhezeit",
       "Medizinische Untersuchung und Beratung",
-      "Art. 17 c None"
+      "Art. 17 c  ARG"
     ],
     "@eIds": [
       "lvl_III/lvl_2/lvl_u1"
@@ -292,7 +292,7 @@
       "III. Arbeits- und Ruhezeit",
       "2. Ruhezeit",
       "Untauglichkeit zur Nachtarbeit",
-      "Art. 17 d None"
+      "Art. 17 d  ARG"
     ],
     "@eIds": [
       "lvl_III/lvl_2/lvl_u1"
@@ -306,7 +306,7 @@
       "III. Arbeits- und Ruhezeit",
       "2. Ruhezeit",
       "Weitere Massnahmen bei Nachtarbeit",
-      "Art. 17 e None"
+      "Art. 17 e  ARG"
     ],
     "@eIds": [
       "lvl_III/lvl_2/lvl_u1"
@@ -320,7 +320,7 @@
       "III. Arbeits- und Ruhezeit",
       "2. Ruhezeit",
       "Verbot der Sonntagsarbeit",
-      "Art. 18 None"
+      "Art. 18  ARG"
     ],
     "@eIds": [
       "lvl_III/lvl_2/lvl_u1"
@@ -334,7 +334,7 @@
       "III. Arbeits- und Ruhezeit",
       "2. Ruhezeit",
       "Ausnahmen vom Verbot der Sonntagsarbeit",
-      "Art. 19 None"
+      "Art. 19  ARG"
     ],
     "@eIds": [
       "lvl_III/lvl_2/lvl_u1"
@@ -348,7 +348,7 @@
       "III. Arbeits- und Ruhezeit",
       "2. Ruhezeit",
       "Freier Sonntag und Ersatzruhe",
-      "Art. 20 None"
+      "Art. 20  ARG"
     ],
     "@eIds": [
       "lvl_III/lvl_2/lvl_u1"
@@ -362,7 +362,7 @@
       "III. Arbeits- und Ruhezeit",
       "2. Ruhezeit",
       "Feiertage und religiöse Feiern",
-      "Art. 20 a None"
+      "Art. 20 a  ARG"
     ],
     "@eIds": [
       "lvl_III/lvl_2/lvl_u1"
@@ -376,7 +376,7 @@
       "III. Arbeits- und Ruhezeit",
       "2. Ruhezeit",
       "Wöchentlicher freier Halbtag",
-      "Art. 21"
+      "Art. 21 ARG"
     ],
     "@eIds": [
       "lvl_III/lvl_2/lvl_u1"
@@ -390,7 +390,7 @@
       "III. Arbeits- und Ruhezeit",
       "2. Ruhezeit",
       "Verbot der Abgeltung der Ruhezeit",
-      "Art. 22 None"
+      "Art. 22  ARG"
     ],
     "@eIds": [
       "lvl_III/lvl_2/lvl_u1"
@@ -404,7 +404,7 @@
       "III. Arbeits- und Ruhezeit",
       "3. Ununterbrochener Betrieb",
       "Ununterbrochener Betrieb",
-      "Art. 24 None"
+      "Art. 24  ARG"
     ],
     "@eIds": [
       "lvl_III/lvl_3/lvl_u2"
@@ -418,7 +418,7 @@
       "III. Arbeits- und Ruhezeit",
       "4. Weitere Vorschriften",
       "Schichtenwechsel",
-      "Art. 25 None"
+      "Art. 25  ARG"
     ],
     "@eIds": [
       "lvl_III/lvl_4/lvl_u1"
@@ -432,7 +432,7 @@
       "III. Arbeits- und Ruhezeit",
       "4. Weitere Vorschriften",
       "Weitere Schutzbestimmungen",
-      "Art. 26"
+      "Art. 26 ARG"
     ],
     "@eIds": [
       "lvl_III/lvl_4/lvl_u1"
@@ -446,7 +446,7 @@
       "III. Arbeits- und Ruhezeit",
       "4. Weitere Vorschriften",
       "Sonderbestimmungen für bestimmte Gruppen von Betrieben oder Arbeitnehmern",
-      "Art. 27"
+      "Art. 27 ARG"
     ],
     "@eIds": [
       "lvl_III/lvl_4/lvl_u1"
@@ -460,7 +460,7 @@
       "III. Arbeits- und Ruhezeit",
       "4. Weitere Vorschriften",
       "Geringfügige Abweichungen",
-      "Art. 28"
+      "Art. 28 ARG"
     ],
     "@eIds": [
       "lvl_III/lvl_4/lvl_u1"
@@ -474,7 +474,7 @@
       "IV. Sonderschutzvorschriften",
       "1. Jugendliche Arbeitnehmer",
       "Allgemeine Vorschriften",
-      "Art. 29"
+      "Art. 29 ARG"
     ],
     "@eIds": [
       "lvl_IV/lvl_1/lvl_u1"
@@ -488,7 +488,7 @@
       "IV. Sonderschutzvorschriften",
       "1. Jugendliche Arbeitnehmer",
       "Mindestalter",
-      "Art. 30"
+      "Art. 30 ARG"
     ],
     "@eIds": [
       "lvl_IV/lvl_1/lvl_u1"
@@ -502,7 +502,7 @@
       "IV. Sonderschutzvorschriften",
       "1. Jugendliche Arbeitnehmer",
       "Arbeits- und Ruhezeit",
-      "Art. 31"
+      "Art. 31 ARG"
     ],
     "@eIds": [
       "lvl_IV/lvl_1/lvl_u1"
@@ -516,7 +516,7 @@
       "IV. Sonderschutzvorschriften",
       "1. Jugendliche Arbeitnehmer",
       "Besondere Fürsorgepflichten des Arbeitgebers",
-      "Art. 32"
+      "Art. 32 ARG"
     ],
     "@eIds": [
       "lvl_IV/lvl_1/lvl_u1"
@@ -530,7 +530,7 @@
       "IV. Sonderschutzvorschriften",
       "2. Schwangere Frauen und stillende Mütter",
       "Gesundheitsschutz bei Mutterschaft",
-      "Art. 35"
+      "Art. 35 ARG"
     ],
     "@eIds": [
       "lvl_IV/lvl_2/lvl_u1"
@@ -544,7 +544,7 @@
       "IV. Sonderschutzvorschriften",
       "2. Schwangere Frauen und stillende Mütter",
       "Beschäftigung bei Mutterschaft",
-      "Art. 35 a"
+      "Art. 35 a ARG"
     ],
     "@eIds": [
       "lvl_IV/lvl_2/lvl_u1"
@@ -558,7 +558,7 @@
       "IV. Sonderschutzvorschriften",
       "2. Schwangere Frauen und stillende Mütter",
       "Ersatzarbeit und Lohnfortzahlung bei Mutterschaft",
-      "Art. 35 b"
+      "Art. 35 b ARG"
     ],
     "@eIds": [
       "lvl_IV/lvl_2/lvl_u1"
@@ -571,7 +571,7 @@
       "Bundesgesetz  über die Arbeit in Industrie, Gewerbe und Handel (Arbeitsgesetz, ArG)",
       "IV. Sonderschutzvorschriften",
       "3. Arbeitnehmer mit Familienpflichten",
-      "Art. 36 None"
+      "Art. 36  ARG"
     ],
     "@eIds": [
       "lvl_IV/lvl_1"
@@ -584,7 +584,7 @@
       "Bundesgesetz  über die Arbeit in Industrie, Gewerbe und Handel (Arbeitsgesetz, ArG)",
       "IV. Sonderschutzvorschriften",
       "4. Andere Gruppen von Arbeitnehmern",
-      "Art. 36 a"
+      "Art. 36 a ARG"
     ],
     "@eIds": [
       "lvl_IV/lvl_1"
@@ -597,7 +597,7 @@
       "Bundesgesetz  über die Arbeit in Industrie, Gewerbe und Handel (Arbeitsgesetz, ArG)",
       "V. Betriebsordnung",
       "Aufstellung",
-      "Art. 37"
+      "Art. 37 ARG"
     ],
     "@eIds": [
       "lvl_V/lvl_u1"
@@ -610,7 +610,7 @@
       "Bundesgesetz  über die Arbeit in Industrie, Gewerbe und Handel (Arbeitsgesetz, ArG)",
       "V. Betriebsordnung",
       "Inhalt",
-      "Art. 38 None"
+      "Art. 38  ARG"
     ],
     "@eIds": [
       "lvl_V/lvl_u1"
@@ -623,7 +623,7 @@
       "Bundesgesetz  über die Arbeit in Industrie, Gewerbe und Handel (Arbeitsgesetz, ArG)",
       "V. Betriebsordnung",
       "Kontrolle, Wirkungen",
-      "Art. 39"
+      "Art. 39 ARG"
     ],
     "@eIds": [
       "lvl_V/lvl_u1"
@@ -636,7 +636,7 @@
       "Bundesgesetz  über die Arbeit in Industrie, Gewerbe und Handel (Arbeitsgesetz, ArG)",
       "VI. Durchführung des Gesetzes",
       "1. Durchführungsbestimmungen",
-      "Art. 40"
+      "Art. 40 ARG"
     ],
     "@eIds": [
       "lvl_VI/lvl_1"
@@ -650,7 +650,7 @@
       "VI. Durchführung des Gesetzes",
       "2. Aufgaben und Organisation der Behörden",
       "Kantone",
-      "Art. 41"
+      "Art. 41 ARG"
     ],
     "@eIds": [
       "lvl_VI/lvl_2/lvl_u1"
@@ -664,7 +664,7 @@
       "VI. Durchführung des Gesetzes",
       "2. Aufgaben und Organisation der Behörden",
       "Bund",
-      "Art. 42"
+      "Art. 42 ARG"
     ],
     "@eIds": [
       "lvl_VI/lvl_2/lvl_u1"
@@ -678,7 +678,7 @@
       "VI. Durchführung des Gesetzes",
       "2. Aufgaben und Organisation der Behörden",
       "Arbeitskommission",
-      "Art. 43"
+      "Art. 43 ARG"
     ],
     "@eIds": [
       "lvl_VI/lvl_2/lvl_u1"
@@ -692,7 +692,7 @@
       "VI. Durchführung des Gesetzes",
       "2. Aufgaben und Organisation der Behörden",
       "Schweigepflicht",
-      "Art. 44 None"
+      "Art. 44  ARG"
     ],
     "@eIds": [
       "lvl_VI/lvl_2/lvl_u1"
@@ -706,7 +706,7 @@
       "VI. Durchführung des Gesetzes",
       "2. Aufgaben und Organisation der Behörden",
       "Datenbekanntgabe",
-      "Art. 44 a None"
+      "Art. 44 a  ARG"
     ],
     "@eIds": [
       "lvl_VI/lvl_2/lvl_u1"
@@ -720,7 +720,7 @@
       "VI. Durchführung des Gesetzes",
       "2. Aufgaben und Organisation der Behörden",
       "Informations- und Dokumentationssysteme",
-      "Art. 44 b None"
+      "Art. 44 b  ARG"
     ],
     "@eIds": [
       "lvl_VI/lvl_2/lvl_u1"
@@ -734,7 +734,7 @@
       "VI. Durchführung des Gesetzes",
       "3. Pflichten der Arbeitgeber und Arbeitnehmer",
       "Auskunftspflicht",
-      "Art. 45"
+      "Art. 45 ARG"
     ],
     "@eIds": [
       "lvl_VI/lvl_3/lvl_u1"
@@ -748,7 +748,7 @@
       "VI. Durchführung des Gesetzes",
       "3. Pflichten der Arbeitgeber und Arbeitnehmer",
       "Verzeichnisse und andere Unterlagen",
-      "Art. 46 None"
+      "Art. 46  ARG"
     ],
     "@eIds": [
       "lvl_VI/lvl_3/lvl_u1"
@@ -762,7 +762,7 @@
       "VI. Durchführung des Gesetzes",
       "3. Pflichten der Arbeitgeber und Arbeitnehmer",
       "Bekanntgabe des Stunden-plans und der Arbeitszeitbewilligungen",
-      "Art. 47 None"
+      "Art. 47  ARG"
     ],
     "@eIds": [
       "lvl_VI/lvl_3/lvl_u1"
@@ -776,7 +776,7 @@
       "VI. Durchführung des Gesetzes",
       "3. Pflichten der Arbeitgeber und Arbeitnehmer",
       "Mitwirkungs- rechte",
-      "Art. 48 None"
+      "Art. 48  ARG"
     ],
     "@eIds": [
       "lvl_VI/lvl_3/lvl_u1"
@@ -790,7 +790,7 @@
       "VI. Durchführung des Gesetzes",
       "3. Pflichten der Arbeitgeber und Arbeitnehmer",
       "Bewilligungsgesuche",
-      "Art. 49"
+      "Art. 49 ARG"
     ],
     "@eIds": [
       "lvl_VI/lvl_3/lvl_u1"
@@ -804,7 +804,7 @@
       "VI. Durchführung des Gesetzes",
       "4. Verwaltungsverfügungen und Verwaltungsmassnahmen",
       "Verwaltungsverfügungen",
-      "Art. 50"
+      "Art. 50 ARG"
     ],
     "@eIds": [
       "lvl_VI/lvl_4/lvl_u1"
@@ -818,7 +818,7 @@
       "VI. Durchführung des Gesetzes",
       "4. Verwaltungsverfügungen und Verwaltungsmassnahmen",
       "Vorkehren bei Nichtbefolgung von Vorschriften oder Verfügungen",
-      "Art. 51"
+      "Art. 51 ARG"
     ],
     "@eIds": [
       "lvl_VI/lvl_4/lvl_u1"
@@ -832,7 +832,7 @@
       "VI. Durchführung des Gesetzes",
       "4. Verwaltungsverfügungen und Verwaltungsmassnahmen",
       "Massnahmen des Verwaltungszwangs",
-      "Art. 52"
+      "Art. 52 ARG"
     ],
     "@eIds": [
       "lvl_VI/lvl_4/lvl_u1"
@@ -846,7 +846,7 @@
       "VI. Durchführung des Gesetzes",
       "4. Verwaltungsverfügungen und Verwaltungsmassnahmen",
       "Entzug und Sperre von Arbeitszeitbewilligungen",
-      "Art. 53"
+      "Art. 53 ARG"
     ],
     "@eIds": [
       "lvl_VI/lvl_4/lvl_u1"
@@ -860,7 +860,7 @@
       "VI. Durchführung des Gesetzes",
       "4. Verwaltungsverfügungen und Verwaltungsmassnahmen",
       "Anzeigen",
-      "Art. 54"
+      "Art. 54 ARG"
     ],
     "@eIds": [
       "lvl_VI/lvl_4/lvl_u1"
@@ -874,7 +874,7 @@
       "VI. Durchführung des Gesetzes",
       "5. Verwaltungsrechtspflege",
       "Beschwerde gegen Verfügungen der kantonalen Behörde",
-      "Art. 56"
+      "Art. 56 ARG"
     ],
     "@eIds": [
       "lvl_VI/lvl_5/lvl_u2"
@@ -888,7 +888,7 @@
       "VI. Durchführung des Gesetzes",
       "5. Verwaltungsrechtspflege",
       "Beschwerderecht",
-      "Art. 58 None"
+      "Art. 58  ARG"
     ],
     "@eIds": [
       "lvl_VI/lvl_5/lvl_u2"
@@ -902,7 +902,7 @@
       "VI. Durchführung des Gesetzes",
       "6. Strafbestimmungen",
       "Strafrechtliche Verantwortlichkeit des Arbeitgebers",
-      "Art. 59 None"
+      "Art. 59  ARG"
     ],
     "@eIds": [
       "lvl_VI/lvl_6/lvl_u1"
@@ -916,7 +916,7 @@
       "VI. Durchführung des Gesetzes",
       "6. Strafbestimmungen",
       "Strafrechtliche Verantwortlichkeit des Arbeitnehmers",
-      "Art. 60 None"
+      "Art. 60  ARG"
     ],
     "@eIds": [
       "lvl_VI/lvl_6/lvl_u1"
@@ -930,7 +930,7 @@
       "VI. Durchführung des Gesetzes",
       "6. Strafbestimmungen",
       "Strafen",
-      "Art. 61 None"
+      "Art. 61  ARG"
     ],
     "@eIds": [
       "lvl_VI/lvl_6/lvl_u1"
@@ -944,7 +944,7 @@
       "VI. Durchführung des Gesetzes",
       "6. Strafbestimmungen",
       "Vorbehalt des Strafgesetzbuches und Strafverfolgung",
-      "Art. 62"
+      "Art. 62 ARG"
     ],
     "@eIds": [
       "lvl_VI/lvl_6/lvl_u1"
@@ -957,7 +957,7 @@
       "Bundesgesetz  über die Arbeit in Industrie, Gewerbe und Handel (Arbeitsgesetz, ArG)",
       "VIII. Schluss- und Übergangsbestimmungen",
       "Vorbehalt von Vorschriften des Bundes, der Kantone und der Gemeinden",
-      "Art. 71"
+      "Art. 71 ARG"
     ],
     "@eIds": [
       "lvl_VIII/lvl_u1"
@@ -970,7 +970,7 @@
       "Bundesgesetz  über die Arbeit in Industrie, Gewerbe und Handel (Arbeitsgesetz, ArG)",
       "VIII. Schluss- und Übergangsbestimmungen",
       "Aufhebung eidgenössischer Vorschriften",
-      "Art. 72"
+      "Art. 72 ARG"
     ],
     "@eIds": [
       "lvl_VIII/lvl_u1"
@@ -983,7 +983,7 @@
       "Bundesgesetz  über die Arbeit in Industrie, Gewerbe und Handel (Arbeitsgesetz, ArG)",
       "VIII. Schluss- und Übergangsbestimmungen",
       "Aufhebung kantonaler Vorschriften",
-      "Art. 73"
+      "Art. 73 ARG"
     ],
     "@eIds": [
       "lvl_VIII/lvl_u1"
@@ -996,7 +996,7 @@
       "Bundesgesetz  über die Arbeit in Industrie, Gewerbe und Handel (Arbeitsgesetz, ArG)",
       "VIII. Schluss- und Übergangsbestimmungen",
       "Inkrafttreten",
-      "Art. 74"
+      "Art. 74 ARG"
     ],
     "@eIds": [
       "lvl_VIII/lvl_u1"

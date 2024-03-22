@@ -149,6 +149,8 @@ lst_data_compiled_de = find_articles(lst_data_compiled_de, akn_doc_de.root.act.b
 by_article = {}
 for elem in lst_data_compiled_de:
     article_key = elem['metadata'][0]
+    elem['metadata'][-1] = elem['metadata'][-1].replace("None", "")
+    elem['metadata'][-1] += ' ARG'
     if article_key not in by_article:
         by_article[article_key] = {'text': elem['text'], 'metadata': elem['metadata'], '@eIds': [elem['@eId']]}
     else:
