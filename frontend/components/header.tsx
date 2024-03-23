@@ -24,6 +24,7 @@ import { SidebarToggle } from './sidebar-toggle'
 import { ChatHistory } from './chat-history'
 import { nanoid } from '@/lib/utils'
 import { usePathname, useRouter } from 'next/navigation'
+import ExpertToggle from './ui/expert-toggle'
 
 async function UserOrLogin() {
   const session = await auth()
@@ -69,11 +70,9 @@ export function Header() {
           <UserOrLogin />
         </React.Suspense>
       </div>
-      <Link href={`/expert`}>
-        <button className="bg-transparent hover:bg-accent text-white font-semibold py-2 px-4 border border-gray-400 rounded shadow">
-          Expert Mode
-        </button>
-      </Link>
+      <div className="flex items-center justify-end space-x-2">
+        <ExpertToggle />
+      </div>
     </header>
   )
 }
