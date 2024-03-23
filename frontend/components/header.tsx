@@ -22,6 +22,7 @@ import { UserMenu } from '@/components/user-menu'
 import { SidebarMobile } from './sidebar-mobile'
 import { SidebarToggle } from './sidebar-toggle'
 import { ChatHistory } from './chat-history'
+import { nanoid } from 'nanoid'
 
 async function UserOrLogin() {
   const session = await auth()
@@ -60,6 +61,8 @@ async function UserOrLogin() {
 }
 
 export function Header() {
+  const id = nanoid()
+
   return (
     <header className="sticky top-0 z-50 flex items-center justify-between w-full h-16 px-4 border-b shrink-0 bg-gradient-to-b from-background/10 via-background/50 to-background/80 backdrop-blur-xl">
       <div className="flex items-center">
@@ -67,9 +70,11 @@ export function Header() {
           <UserOrLogin />
         </React.Suspense>
       </div>
-      <button className="bg-transparent hover:bg-gray-100 text-white font-semibold py-2 px-4 border border-gray-400 rounded shadow">
-        Expert Mode
-      </button>
+      <Link href={`/chat/${id}`}>
+        <button className="bg-transparent hover:bg-gray-100 text-white font-semibold py-2 px-4 border border-gray-400 rounded shadow">
+          Expert Mode
+        </button>
+      </Link>
     </header>
   )
 }
