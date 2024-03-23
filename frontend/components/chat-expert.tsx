@@ -52,7 +52,7 @@ export function Chat({ id, initialMessages, className }: ChatProps) {
       },
       onFinish() {
         if (!path.includes('chat')) {
-          router.push(`/chat/expert/${id}`, { shallow: true, scroll: false })
+          router.push(`/expert/${id}`, { shallow: true, scroll: false })
           router.refresh()
         }
       }
