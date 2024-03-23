@@ -30,7 +30,7 @@ export default async function ExpertChatPage({ params }: ChatPageProps) {
   const session = await auth()
 
   if (!session?.user) {
-    redirect(`/sign-in?next=/chat/expert/${params.id}`)
+    redirect(`/sign-in?next=/chat/${params.id}`)
   }
 
   const chat = await getChat(params.id, session.user.id)
