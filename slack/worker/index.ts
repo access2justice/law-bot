@@ -63,15 +63,38 @@ export const handler: Handler = async (event) => {
               emoji: true,
             },
           });
-          legalReasoning.push({
-            type: "context",
-            elements: results.text.map((r: string, i: number) => ({
-              type: "mrkdwn",
-              text: `<${results.metadata[i][0]}|${
-                results.metadata[i][results.metadata[i].length - 1]
-              }>`,
-            })),
-          });
+          if (results.text.length > 10) {
+            legalReasoning.push({
+              type: "context",
+              elements: results.text
+                .slice(0, 10)
+                .map((r: string, i: number) => ({
+                  type: "mrkdwn",
+                  text: `<${results.metadata[i][0]}|${
+                    results.metadata[i][results.metadata[i].length - 1]
+                  }>`,
+                })),
+            });
+            legalReasoning.push({
+              type: "context",
+              elements: results.text.slice(10).map((r: string, i: number) => ({
+                type: "mrkdwn",
+                text: `<${results.metadata[i][0]}|${
+                  results.metadata[i][results.metadata[i].length - 1]
+                }>`,
+              })),
+            });
+          } else {
+            legalReasoning.push({
+              type: "context",
+              elements: results.text.map((r: string, i: number) => ({
+                type: "mrkdwn",
+                text: `<${results.metadata[i][0]}|${
+                  results.metadata[i][results.metadata[i].length - 1]
+                }>`,
+              })),
+            });
+          }
           legalReasoning.push({
             type: "divider",
           });
