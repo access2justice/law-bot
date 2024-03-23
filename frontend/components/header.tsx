@@ -23,7 +23,7 @@ import { SidebarMobile } from './sidebar-mobile'
 import { SidebarToggle } from './sidebar-toggle'
 import { ChatHistory } from './chat-history'
 import { nanoid } from '@/lib/utils'
-import { useRouter } from 'next/router'
+import { useRouter } from 'next/navigation'
 
 async function UserOrLogin() {
   const session = await auth()
