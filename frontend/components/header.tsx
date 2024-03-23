@@ -22,7 +22,7 @@ import { UserMenu } from '@/components/user-menu'
 import { SidebarMobile } from './sidebar-mobile'
 import { SidebarToggle } from './sidebar-toggle'
 import { ChatHistory } from './chat-history'
-import { nanoid } from 'nanoid'
+import { nanoid } from '@/lib/utils'
 
 async function UserOrLogin() {
   const session = await auth()
