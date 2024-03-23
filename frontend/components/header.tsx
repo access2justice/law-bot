@@ -64,11 +64,13 @@ async function UserOrLogin() {
 export function Header() {
   const router = useRouter()
   const path = usePathname()
-  const [expertMode, setExpertMode] = React.useState(path === '/chat/expert')
 
   const handleToggle = () => {
-    setExpertMode(!expertMode)
-    router.push(expertMode ? '/' : '/chat/expert')
+    if (path === '/chat/expert') {
+      router.push('/')
+    } else {
+      router.push('/chat/expert')
+    }
   }
 
   return (
