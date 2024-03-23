@@ -40,6 +40,7 @@ export async function POST(req: Request) {
   }
 
   const data = await res.json()
+  console.log('Backend response: ', data)
   const completion = data.data.content.trim()
   const title = json.messages[0].content.substring(0, 100)
   const id = json.id ?? nanoid()
