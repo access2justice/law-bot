@@ -23,7 +23,7 @@ import { SidebarMobile } from './sidebar-mobile'
 import { SidebarToggle } from './sidebar-toggle'
 import { ChatHistory } from './chat-history'
 import { nanoid } from '@/lib/utils'
-import { useRouter } from 'next/navigation'
+import { usePathname, useRouter } from 'next/navigation'
 
 async function UserOrLogin() {
   const session = await auth()
@@ -63,7 +63,7 @@ async function UserOrLogin() {
 
 export function Header() {
   const router = useRouter()
-  const path = router.pathname
+  const path = usePathname()
   const [expertMode, setExpertMode] = React.useState(path === '/chat/expert')
 
   const handleToggle = () => {
