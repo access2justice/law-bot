@@ -66,14 +66,14 @@ export function Header() {
   const path = usePathname()
 
   const handleToggle = () => {
-    if (path === '/chat/expert') {
+    if (path === '/expert') {
       router.push('/')
     } else {
-      router.push('/chat/expert')
+      router.push('/expert')
     }
   }
 
-  const expertMode = path.includes('/chat/expert')
+  const expertMode = path.includes('/expert')
 
   return (
     <header className="sticky top-0 z-50 flex items-center justify-between w-full h-16 px-4 border-b shrink-0 bg-gradient-to-b from-background/10 via-background/50 to-background/80 backdrop-blur-xl">
