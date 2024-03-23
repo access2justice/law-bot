@@ -23,6 +23,7 @@ import { SidebarMobile } from './sidebar-mobile'
 import { SidebarToggle } from './sidebar-toggle'
 import { ChatHistory } from './chat-history'
 import { nanoid } from '@/lib/utils'
+import { useRouter } from 'next/router'
 
 async function UserOrLogin() {
   const session = await auth()
@@ -61,7 +62,14 @@ async function UserOrLogin() {
 }
 
 export function Header() {
-  const id = nanoid()
+  const router = useRouter()
+  const path = router.pathname
+  const [expertMode, setExpertMode] = React.useState(path === '/chat/expert')
+
+  const handleToggle = () => {
+    setExpertMode(!expertMode)
+    router.push(expertMode ? '/' : '/chat/expert')
+  }
 
   return (
     <header className="sticky top-0 z-50 flex items-center justify-between w-full h-16 px-4 border-b shrink-0 bg-gradient-to-b from-background/10 via-background/50 to-background/80 backdrop-blur-xl">
@@ -70,10 +78,25 @@ export function Header() {
           <UserOrLogin />
         </React.Suspense>
       </div>
-      <Link href={`/chat/expert`}>
-        <button className="bg-transparent hover:bg-accent text-white font-semibold py-2 px-4 border border-gray-400 rounded shadow">
-          Expert Mode
-        </button>
+      <Link href={path === '/chat/expert' ? '/' : '/chat/expert'}>
+        <label
+          className="inline-flex items-center cursor-pointer"
+          onClick={handleToggle}
+        >
+          <input
+            type="checkbox"
+            value=""
+            checked={expertMode}
+            onChange={() => {}}
+            className="sr-only peer"
+          />
+          <div
+            className={`relative w-11 h-6 bg-gray-200 peer-focus:outline-none peer-focus:ring-4 peer-focus:ring-blue-300 dark:peer-focus:ring-blue-800 rounded-full peer ${expertMode ? 'peer-checked:bg-blue-600' : ''}`}
+          ></div>
+          <span className="ms-3 text-sm font-medium text-gray-900 dark:text-gray-300">
+            {expertMode ? 'Expert Mode' : 'Normal Mode'}
+          </span>
+        </label>
       </Link>
     </header>
   )
