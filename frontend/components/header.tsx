@@ -67,7 +67,9 @@ export function Header() {
           <UserOrLogin />
         </React.Suspense>
       </div>
-      <button>Expert MOoe</button>
+      <button className="bg-transparent hover:bg-gray-100 text-white font-semibold py-2 px-4 border border-gray-400 rounded shadow">
+        Expert Mode
+      </button>
     </header>
   )
 }
