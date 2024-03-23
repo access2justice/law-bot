@@ -67,6 +67,7 @@ export function Header() {
           <UserOrLogin />
         </React.Suspense>
       </div>
+      <button>Expert MOoe</button>
     </header>
   )
 }
