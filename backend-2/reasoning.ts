@@ -75,7 +75,8 @@ export const doReasoning = async (
       query = query.replace("{{previousQuery}}", baseQuery);
 
       console.log("Rendered Query");
-      console.log(JSON.stringify(query));
+      console.log("********************",JSON.stringify(query));
+      console.log("**********", query)
 
       const results = await searchClient.search(query, {
         vectorSearchOptions: {
