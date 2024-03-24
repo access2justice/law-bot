@@ -1,0 +1,7 @@
+/// <reference types="node" resolution-mode="require"/>
+/**
+ * Checks if the body is a ReadableStream supported by Node
+ * @internal
+ */
+export declare function isReadableStream(body: unknown): body is NodeJS.ReadableStream;
+//# sourceMappingURL=isReadableStream.d.ts.map
