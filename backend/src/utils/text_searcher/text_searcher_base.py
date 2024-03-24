@@ -1,13 +1,13 @@
-from typing import List, Any
+from typing import Any
 import abc
 import inspect
 
 
-class EmbeddingsGeneratorBase(abc.ABC):
+class TextSearcherBase(abc.ABC):
 
-    def __new__(cls, *arg, **kwargs):
+    def __new__(cls, *args, **kwargs):
         # get all coros of EmbeddingGeneratorBase
-        parent_coros = inspect.getmembers(EmbeddingsGeneratorBase, predicate=inspect.iscoroutinefunction)
+        parent_coros = inspect.getmembers(TextSearcherBase, predicate=inspect.iscoroutinefunction)
 
         # check if parent's coros are still coros in a child
         for coro in parent_coros:
@@ -15,8 +15,8 @@ class EmbeddingsGeneratorBase(abc.ABC):
             if not inspect.iscoroutinefunction(child_method):
                 raise RuntimeError('The method %s must be a coroutine' % (child_method,))
 
-        return super(EmbeddingsGeneratorBase, cls).__new__(cls, *arg, **kwargs)
+        return super(TextSearcherBase, cls).__new__(cls, *args, **kwargs)
 
     @abc.abstractmethod
-    async def generate(self, input_text: List[str]) -> List[float]:
+    async def search(self, user_query: str, n_top_results: int) -> Any:
         pass

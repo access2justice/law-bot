@@ -1,90 +1,48 @@
-from typing import Union
-from openai import AsyncAzureOpenAI, AzureOpenAI
-from azure.search.documents.aio import SearchClient
-from azure.search.documents.models import VectorizedQuery
-import os
+from typing import Union, List
+from collections import defaultdict
+
 import json
 from fastapi.encoders import jsonable_encoder
-from ..models.request import ChatRequest
+from ..models.request import ChatRequest, UserMessage
 from fastapi.responses import JSONResponse, StreamingResponse, Response
-import tiktoken
 from ..models.response import ChatResponse
-from ..utils.embeddings_generator import EmbeddingsGeneratorBase
+from ..utils.text_searcher import TextSearcherBase
+from ..utils.text_generator import TextGeneratorBase
+from ..utils.helpers import (
+    get_sys_prompt,
+    get_user_prompt,
+    num_tokens_from_messages
+)
+from ..utils.prompts import sys_prompt_content
 
 
 class ChatBotPipeline:
     def __init__(
             self,
-            search_client: SearchClient,
-            openai_client: AsyncAzureOpenAI,
-            embedding_generator: EmbeddingsGeneratorBase,
-            model
+            text_searcher: TextSearcherBase,
+            text_generator: TextGeneratorBase
     ):
-        self.search_client = search_client
-        self.openai_client = openai_client
-        self.embedding_generator = embedding_generator
-        self.model = model
-        self.model_token_limit = 8194
-        self.max_response_tokens = 300  # Pending
-
+        self.text_searcher = text_searcher
+        self.text_generator = text_generator
         self.reasoning_thread = []
 
-    def process_request(self, chat_request: ChatRequest):
-        chat_stream = chat_request.stream
-        user_message = jsonable_encoder(chat_request.message)
+    @staticmethod
+    def _process_request(user_messages: List[UserMessage]):
+        user_message = jsonable_encoder(user_messages)
         user_query = user_message[0]["content"]
-        return chat_stream, user_query
+        return user_query
 
-    def num_tokens_from_messages(self, messages: list) -> int:
-        """Returns the number of tokens in a message list."""
-        encoding = tiktoken.encoding_for_model('gpt-4')
-        num_tokens = 0
-        for message in messages:
-            num_tokens += 4  # every message follows <im_start>{role/name}\n{content}<im_end>\n
-            for key, value in message.items():
-                num_tokens += len(encoding.encode(value))
-                if key == "name":  # if there's a name, the role is omitted
-                    num_tokens += -1  # role is always required and always 1 token
-        num_tokens += 2  # every reply is primed with <im_start>assistant
-        return num_tokens
-
-    def sys_prompt(self):
-        content = """
-        You are a Swiss legal expert. Please only answer Swiss legal questions, for other irrelevant question, just say 'Your question is out of scope.'
-        Use the pieces of Swiss law provided in user message to answer the user question. This Swiss law retrieved from a knowledge base and you should use only the facts from the Swiss law to answer.
-        Your answer must be based on the Swiss law. If the Swiss law not contain the answer, just say that 'I don't know', don't try to make up an answer, use the Swiss law.
-        Don't address the Swiss law directly, but use it to answer the user question like it's your own knowledge.
-        Answer in short, if the user asks further questions, be more detailed.
-        """
-        sys_message = [{"role": "system", "content": content}]
-
-        return sys_message, self.num_tokens_from_messages(sys_message)
-
-    def user_prompt(self, retrieved_info: dict) -> str:
-        retrieved_text = retrieved_info["text"]
-        prompt = f"""
-        Swiss law:
-        {retrieved_text}
-        """
-        return prompt
-
-    async def retriever(
+    async def _retriever(
             self,
             user_query: str,
     ) -> dict:
-        retrieved_info = {}
-        retrieved_info["eIds"] = []
-        retrieved_info["text"] = []
-        retrieved_info["metadata"] = []
 
-        results = await self.search_client.search(
-            search_text=user_query,
-            vector_queries=[VectorizedQuery(
-                vector=await self.embedding_generator.generate(input=[user_query]),
-                k_nearest_neighbors=3, fields="text_vector")],
-            top=5,
-            select=["text", "metadata", "eIds"],
-            include_total_count=True)
+        retrieved_info = defaultdict(list)
+
+        results = await self.text_searcher.search(
+            user_query=user_query,
+            n_top_results=5
+        )
 
         async for result in results:
             retrieved_info["eIds"].append(result["eIds"])
@@ -93,33 +51,26 @@ class ChatBotPipeline:
         self.reasoning_thread.append({"type": "search", "query": user_query, "results": retrieved_info})
         return retrieved_info
 
-    async def generator(
+    async def _generator(
             self,
-            user_query,
-            prompt,
-            chat_stream
+            user_query: str,
+            user_prompt: str,
+            is_chat_stream: bool
     ) -> Union[StreamingResponse, Response]:
         # Set up LLM model
-        temperature = 0.0
-        sys_message, sys_message_tokens = self.sys_prompt()
-        user_content = user_query + " " + prompt
+        sys_message = get_sys_prompt(sys_prompt_content)
+        sys_message_tokens = num_tokens_from_messages(sys_message)
+        user_content = user_query + " " + user_prompt
         user_message = [{"role": "user", "content": user_content}]
-        # user_message_tokens = self.num_tokens_from_messages(user_message)
-        # user_message_token_limit = self.model_token_limit - self.max_response_tokens - sys_message_tokens
+        #user_message_tokens = num_tokens_from_messages(user_message)
+        #user_message_token_limit = self.model_token_limit - self.max_response_tokens - sys_message_tokens
         conversation = sys_message + user_message
 
-        if chat_stream:
+        if is_chat_stream:
             # Streaming response
             async def response_stream():
                 full_response = ""
-                chat_coroutine = self.openai_client.chat.completions.create(
-                    model=self.model,
-                    temperature=temperature,
-                    messages=conversation,
-                    max_tokens=self.max_response_tokens,
-                    stream=True,
-                )
-                async for event in await chat_coroutine:
+                async for event in await self.text_generator.stream_generator(conversation):
                     if event.choices:
                         content = json.dumps(event.choices[0].delta.content, ensure_ascii=False)
                         if event.choices[0].finish_reason != "stop":
@@ -139,14 +90,7 @@ class ChatBotPipeline:
             return StreamingResponse(response_stream(), media_type="text/event-stream")
         else:
             # Non-Streaming Response
-            gpt_message = await self.openai_client.chat.completions.create(
-                model=self.model,
-                temperature=temperature,
-                messages=conversation,
-                max_tokens=self.max_response_tokens,
-                stream=False,
-            )
-            content = gpt_message.choices[0].message.content
+            content = await self.text_generator.generate_message(conversation)
             self.reasoning_thread.append({"type": "llm", "prompt": conversation, "response": content})
             data = {"content": content, "reasoning_thread": self.reasoning_thread}
             response = jsonable_encoder(ChatResponse(data=data))
@@ -156,8 +100,17 @@ class ChatBotPipeline:
             self,
             chat_request: ChatRequest
     ) -> Union[StreamingResponse, Response]:
-        chat_stream, user_query = self.process_request(chat_request)
-        retrieved_info = await self.retriever(user_query)
-        prompt = self.user_prompt(retrieved_info)
-        response = await self.generator(user_query, prompt, chat_stream)
+
+        # define user query
+        user_query = self._process_request(chat_request.message)
+
+        # retrieve related documents
+        retrieved_info = await self._retriever(user_query)
+
+        # define user promt based
+        user_prompt = get_user_prompt(retrieved_info["text"])
+
+        # generate response
+        response = await self._generator(user_query, user_prompt, chat_request.stream)
+
         return response

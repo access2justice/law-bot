@@ -10,6 +10,6 @@ class OpenAiEmbeddingsGenerator(EmbeddingsGeneratorBase):
         self._client = client
         self._embeddings_model = embeddings_model
 
-    async def generate(self, input: List[str]): # TODO ADD return type
-        embeddings_gen = await self._client.embeddings.create(input=input, model=self._embeddings_model)
+    async def generate(self, input_text: List[str]) -> List[float]:  # TODO ADD return type
+        embeddings_gen = await self._client.embeddings.create(input=input_text, model=self._embeddings_model)
         return embeddings_gen.data[0].embedding
