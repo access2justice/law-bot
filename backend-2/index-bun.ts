@@ -19,4 +19,4 @@ Bun.serve({
   },
 });
 
-console.log("Bun listening on port 8080.");
+console.log("Bun listening http://localhost:8080");
