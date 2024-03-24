@@ -14,4 +14,6 @@
       For **Mac** users, `docker run -p 8000:80 -v $(pwd):/backend lawbot:dev`  
       For **Windows** users, `docker run -p 8000:80 -v "%cd%":/backend lawbot:dev`
 
-Once the container is up and running, access the backend via `http://127.0.0.1:8000/`
+Once the container is up and running, access the backend via `http://127.0.0.1:8000/` respectively run
+
+`curl --request POST --url http://0.0.0.0:8000/chat --header 'content-type: application/json' --data '{ "message":[{"content":"What is the minimum length of vacation?","role":"user"}],"stream":false }'`
