@@ -1,0 +1,4145 @@
+Erste Abteilung: Allgemeine Bestimmungen
+Erster Titel: Die Entstehung der Obligationen
+Erster Abschnitt: Die Entstehung durch Vertrag
+A. Abschluss des Vertrages
+I. Übereinstimmende Willensäusserung
+1. Im Allgemeinen
+Art. 1
+2. Betreffend Nebenpunkte
+Art. 2
+II. Antrag und Annahme
+1. Antrag mit Annahmefrist
+Art. 3
+2. Antrag ohne Annahmefrist
+a. Unter Anwesenden
+Art. 4
+b. Unter Abwesenden
+Art. 5
+3. Stillschweigende Annahme
+Art. 6
+3a. Zusendung unbestellter Sachen
+Art. 6a2
+4. Antrag ohne Verbindlichkeit, Auskündung, Auslage
+Art. 7
+5. Preisausschreiben und Auslobung
+Art. 8
+6. Widerruf des Antrages und der Annahme
+Art. 9
+III. Beginn der Wirkungen eines unter Abwesenden geschlossenen Vertrages
+Art. 10
+B. Form der Verträge
+I. Erfordernis und Bedeutung im Allgemeinen
+Art. 11
+II. Schriftlichkeit
+1. Gesetzlich vorgeschriebene Form
+a. Bedeutung
+Art. 12
+b. Erfordernisse
+Art. 13
+c. Unterschrift
+Art. 14
+d. Ersatz der Unterschrift
+Art. 15
+2. Vertraglich vorbehaltene Form
+Art. 16
+C. Verpflichtungsgrund
+Art. 17
+D. Auslegung der Verträge, Simulation
+Art. 18
+E. Inhalt des Vertrages
+I. Bestimmung des Inhaltes
+Art. 19
+II. Nichtigkeit
+Art. 20
+III. Übervorteilung
+Art. 21
+IV. Vorvertrag
+Art. 22
+F. Mängel des Vertragsabschlusses
+I. Irrtum
+1. Wirkung
+Art. 23
+2. Fälle des Irrtums
+Art. 24
+3. Geltendmachung gegen Treu und Glauben
+Art. 25
+4. Fahrlässiger Irrtum
+Art. 26
+5. Unrichtige Übermittlung
+Art. 27
+II. Absichtliche Täuschung
+Art. 28
+III. Furchterregung
+1. Abschluss des Vertrages
+Art. 29
+2. Gegründete Furcht
+Art. 30
+IV. Aufhebung des Mangels durch Genehmigung des Vertrages
+Art. 31
+G. Stellvertretung
+I. Mit Ermächtigung
+1. Im Allgemeinen
+a. Wirkung der Vertretung
+Art. 32
+b. Umfang der Ermächtigung
+Art. 33
+2. Auf Grund von Rechtsgeschäft
+a. Beschränkung und Widerruf
+Art. 34
+b. Einfluss von Tod, Handlungsunfähigkeit u.a.
+Art. 35
+c. Rückgabe der Vollmachtsurkunde
+Art. 36
+d. Zeitpunkt der Wirkung des Erlöschens der Vollmacht
+Art. 37
+II. Ohne Ermächtigung
+1. Genehmigung
+Art. 38
+2. Nichtgenehmigung
+Art. 39
+III. Vorbehalt besonderer Vorschriften
+Art. 40
+H. Widerruf bei Haustürgeschäften und ähnlichen Verträgen
+I. Geltungsbereich
+Art. 40a8
+II. Grundsatz
+Art. 40b13
+III. Ausnahmen
+Art. 40c16
+IV. Orientierungspflicht des Anbieters
+Art. 40d17
+V. Widerruf
+1. Form und Frist
+Art. 40e20
+2. Folgen
+Art. 40f24
+Art. 40g25
+Zweiter Abschnitt:
+Die Entstehung durch unerlaubte Handlungen
+A. Haftung im Allgemeinen
+I. Voraussetzungen der Haftung
+Art. 41
+II. Festsetzung des Schadens
+Art. 42
+III. Bestimmung des Ersatzes
+Art. 43
+IV. Herabsetzungsgründe
+Art. 44
+V. Besondere Fälle
+1. Tötung und Körperverletzung
+a. Schadenersatz bei Tötung
+Art. 45
+b. Schadenersatz bei Körperverletzung
+Art. 46
+c. Leistung von Genugtuung
+Art. 47
+2. …
+Art. 4828
+3. Bei Verletzung der Persönlichkeit
+Art. 4929
+VI. Haftung mehrerer
+1. Bei unerlaubter Handlung
+Art. 50
+2. Bei verschiedenen Rechtsgründen
+Art. 51
+VII. Haftung bei Notwehr, Notstand und Selbsthilfe
+Art. 52
+VIII. Verhältnis zum Strafrecht
+Art. 53
+B. Haftung urteilsunfähiger Personen
+Art. 54
+C. Haftung des Geschäftsherrn
+Art. 55
+D. Haftung für Tiere
+I. Ersatzpflicht
+Art. 56
+II. Pfändung des Tieres
+Art. 57
+E. Haftung des Werkeigentümers
+I. Ersatzpflicht
+Art. 58
+II. Sichernde Massregeln
+Art. 59
+F. Haftung für kryptografische Schlüssel
+Art. 59a32
+G. Verjährung34
+
+34 Fassung gemäss Anhang Ziff. 2 des BG vom 19. Dez. 2003 über die elektronische Signatur, in Kraft seit 1. Jan. 2005 (AS 2004 5085; BBl 2001 5679).
+Art. 60
+H. Verantwortlichkeit öffentlicher Beamter und Angestellter38
+
+38 Fassung gemäss Anhang Ziff. 2 des BG vom 19. Dez. 2003 über die elektronische Signatur, in Kraft seit 1. Jan. 2005 (AS 2004 5085; BBl 2001 5679).
+Art. 61
+Dritter Abschnitt:
+Die Entstehung aus ungerechtfertigter Bereicherung
+A. Voraussetzung
+I. Im Allgemeinen
+Art. 62
+II. Zahlung einer Nichtschuld
+Art. 63
+B. Umfang der Rückerstattung
+I. Pflicht des Bereicherten
+Art. 64
+II. Ansprüche aus Verwendungen
+Art. 65
+C. Ausschluss der Rückforderungen
+Art. 66
+D. Verjährung
+Art. 67
+Zweiter Titel: Die Wirkung der Obligationen
+Erster Abschnitt: Die Erfüllung der Obligationen
+A. Allgemeine Grundsätze
+I. Persönliche Leistung
+Art. 68
+II. Gegenstand der Erfüllung
+1. Teilzahlung
+Art. 69
+2. Unteilbare Leistung
+Art. 70
+3. Bestimmung nach der Gattung
+Art. 71
+4. Wahlobligation
+Art. 72
+5. Zinse
+Art. 73
+B. Ort der Erfüllung
+Art. 74
+C. Zeit der Erfüllung
+I. Unbefristete Verbindlichkeit
+Art. 75
+II. Befristete Verbindlichkeit
+1. Monatstermin
+Art. 76
+2. Andere Fristbestimmung
+Art. 77
+3. Sonn- und Feiertage
+Art. 78
+III. Erfüllung zur Geschäftszeit
+Art. 79
+IV. Fristverlängerung
+Art. 80
+V. Vorzeitige Erfüllung
+Art. 81
+VI. Bei zweiseitigen Verträgen
+1. Ordnung in der Erfüllung
+Art. 82
+2. Rücksicht auf einseitige Zahlungsunfähigkeit
+Art. 83
+D. Zahlung
+I. Landeswährung
+Art. 8441
+II. Anrechnung
+1. Bei Teilzahlung
+Art. 85
+2. Bei mehreren Schulden
+a. Nach Erklärung des Schuldners oder des Gläubigers
+Art. 86
+b. Nach Gesetzesvorschrift
+Art. 87
+III. Quittung und Rückgabe des Schuldscheines
+1. Recht des Schuldners
+Art. 88
+2. Wirkung
+Art. 89
+3. Unmöglichkeit der Rückgabe
+Art. 90
+E. Verzug des Gläubigers
+I. Voraussetzung
+Art. 91
+II. Wirkung
+1. Bei Sachleistung
+a. Recht zur Hinterlegung
+Art. 92
+b. Recht zum Verkauf
+Art. 93
+c. Recht zur Rücknahme
+Art. 94
+2. Bei andern Leistungen
+Art. 95
+F. Andere Verhinderung der Erfüllung
+Art. 96
+Zweiter Abschnitt: Die Folgen der Nichterfüllung
+A. Ausbleiben der Erfüllung
+I. Ersatzpflicht des Schuldners
+1. Im Allgemeinen
+Art. 97
+2. Bei Verbindlichkeit zu einem Tun oder Nichttun
+Art. 98
+II. Mass der Haftung und Umfang des Schadenersatzes
+1. Im Allgemeinen
+Art. 99
+2. Wegbedingung der Haftung
+Art. 100
+3. Haftung für Hilfspersonen
+Art. 101
+B. Verzug des Schuldners
+I. Voraussetzung
+Art. 102
+II. Wirkung
+1. Haftung für Zufall
+Art. 103
+2. Verzugszinse
+a. Im Allgemeinen
+Art. 104
+b. Bei Zinsen, Renten, Schenkungen
+Art. 105
+3. Weiterer Schaden
+Art. 106
+4. Rücktritt und Schadenersatz
+a. Unter Fristansetzung
+Art. 107
+b. Ohne Fristansetzung
+Art. 108
+c. Wirkung des Rücktritts
+Art. 109
+Dritter Abschnitt: Beziehungen zu dritten Personen
+A. Eintritt eines Dritten
+Art. 110
+B. Vertrag zu Lasten eines Dritten
+Art. 111
+C. Vertrag zugunsten eines Dritten
+I. Im Allgemeinen
+Art. 112
+II. Bei Haftpflichtversicherung
+Art. 113
+Dritter Titel: Das Erlöschen der Obligationen
+A. Erlöschen der Nebenrechte
+Art. 114
+B. Aufhebung durch Übereinkunft
+Art. 115
+C. Neuerung
+I. Im Allgemeinen
+Art. 116
+II. Beim Kontokorrentverhältnis
+Art. 117
+D. Vereinigung
+Art. 118
+E. Unmöglichwerden einer Leistung
+Art. 119
+F. Verrechnung
+I. Voraussetzung
+1. Im Allgemeinen
+Art. 120
+2. Bei Bürgschaft
+Art. 121
+3. Bei Verträgen zugunsten Dritter
+Art. 122
+4. Im Konkurse des Schuldners
+Art. 123
+II. Wirkung der Verrechnung
+Art. 124
+III. Fälle der Ausschliessung
+Art. 125
+IV. Verzicht
+Art. 126
+G. Verjährung
+I. Fristen
+1. Zehn Jahre
+Art. 127
+2. Fünf Jahre
+Art. 128
+2a. Zwanzig Jahre
+Art. 128a48
+3. Unabänderlichkeit der Fristen
+Art. 129
+4. Beginn der Verjährung
+a. Im Allgemeinen
+Art. 130
+b. Bei periodischen Leistungen
+Art. 131
+5. Berechnung der Fristen
+Art. 132
+II. Wirkung auf Nebenansprüche
+Art. 133
+III. Hinderung und Stillstand der Verjährung
+Art. 134
+IV. Unterbrechung der Verjährung
+1. Unterbrechungsgründe
+Art. 135
+2. Wirkung der Unterbrechung unter Mitverpflichteten
+Art. 13657
+3. Beginn einer neuen Frist
+a. Bei Anerkennung und Urteil
+Art. 137
+b. Bei Handlungen des Gläubigers
+Art. 138
+V. Verjährung des Regressanspruchs
+Art. 13959
+VI. Verjährung bei Fahrnispfandrecht
+Art. 140
+VII. Verzicht auf die Verjährungseinrede60
+
+60 Fassung gemäss Ziff. I des BG vom 15. Juni 2018 (Revision des Verjährungsrechts), in Kraft seit 1. Jan. 2020 (AS 2018 5343; BBl 2014 235).
+Art. 141
+VIII. Geltendmachung
+Art. 142
+Vierter Titel: Besondere Verhältnisse bei Obligationen
+Erster Abschnitt: Die Solidarität
+A. Solidarschuld
+I. Entstehung
+Art. 143
+II. Verhältnis zwischen Gläubiger und Schuldner
+1. Wirkung
+a. Haftung der Schuldner
+Art. 144
+b. Einreden der Schuldner
+Art. 145
+c. Persönliche Handlung des Einzelnen
+Art. 146
+2. Erlöschen der Solidarschuld
+Art. 147
+III. Verhältnis unter den Solidarschuldnern
+1. Beteiligung
+Art. 148
+2. Übergang der Gläubigerrechte
+Art. 149
+B. Solidarforderung
+Art. 150
+Zweiter Abschnitt: Die Bedingungen
+A. Aufschiebende Bedingung
+I. Im Allgemeinen
+Art. 151
+II. Zustand bei schwebender Bedingung
+Art. 152
+III. Nutzen in der Zwischenzeit
+Art. 153
+B. Auflösende Bedingung
+Art. 154
+C. Gemeinsame Vorschriften
+I. Erfüllung der Bedingung
+Art. 155
+II. Verhinderung wider Treu und Glauben
+Art. 156
+III. Unzulässige Bedingungen
+Art. 157
+Dritter Abschnitt:
+Haft- und Reugeld. Lohnabzüge. Konventionalstrafe
+A. Haft- und Reugeld
+Art. 158
+B. …
+Art. 15964
+C. Konventionalstrafe
+I. Recht des Gläubigers
+1. Verhältnis der Strafe zur Vertragserfüllung
+Art. 160
+2. Verhältnis der Strafe zum Schaden
+Art. 161
+3. Verfall von Teilzahlungen
+Art. 162
+II. Höhe, Ungültigkeit und Herabsetzung der Strafe
+Art. 163
+Fünfter Titel:
+Die Abtretung von Forderungen und die Schuldübernahme
+A. Abtretung von Forderungen
+I. Erfordernisse
+1. Freiwillige Abtretung
+a. Zulässigkeit
+Art. 164
+b. Form des Vertrages
+Art. 165
+2. Übergang kraft Gesetzes oder Richterspruchs
+Art. 166
+II. Wirkung der Abtretung
+1. Stellung des Schuldners
+a. Zahlung in gutem Glauben
+Art. 167
+b. Verweigerung der Zahlung und Hinterlegung
+Art. 168
+c. Einreden des Schuldners
+Art. 169
+2. Übergang der Vorzugs- und Nebenrechte, Urkunden und Beweismittel
+Art. 170
+3. Gewährleistung
+a. Im Allgemeinen
+Art. 171
+b. Bei Abtretung zahlungshalber
+Art. 172
+c. Umfang der Haftung
+Art. 173
+III. Besondere Bestimmungen
+Art. 174
+B. Schuldübernahme
+I. Schuldner und Schuldübernehmer
+Art. 175
+II. Vertrag mit dem Gläubiger
+1. Antrag und Annahme
+Art. 176
+2. Wegfall des Antrags
+Art. 177
+III. Wirkung des Schuldnerwechsels
+1. Nebenrechte
+Art. 178
+2. Einreden
+Art. 179
+IV. Dahinfallen des Schuldübernahmevertrages
+Art. 180
+V. Übernahme eines Vermögens oder eines Geschäftes
+Art. 181
+VI. …
+Art. 18269
+VII. Erbteilung und Grundstückkauf
+Art. 183
+Zweite Abteilung: Die einzelnen Vertragsverhältnisse
+Sechster Titel: Kauf und Tausch
+Erster Abschnitt: Allgemeine Bestimmungen
+A. Rechte und Pflichten im Allgemeinen
+Art. 184
+B. Nutzen und Gefahr
+Art. 185
+C. Vorbehalt der kantonalen Gesetzgebung
+Art. 186
+Zweiter Abschnitt: Der Fahrniskauf
+A. Gegenstand
+Art. 187
+B. Verpflichtungen des Verkäufers
+I. Übergabe
+1. Kosten der Übergabe
+Art. 188
+2. Transportkosten
+Art. 189
+3. Verzug in der Übergabe
+a. Rücktritt im kaufmännischen Verkehr
+Art. 190
+b. Schadenersatzpflicht und Schadenberechnung
+Art. 191
+II. Gewährleistung des veräusserten Rechtes
+1. Verpflichtung zur Gewährleistung
+Art. 192
+2. Verfahren
+a. Streitverkündung
+Art. 19370
+b. Herausgabe ohne richterliche Entscheidung
+Art. 194
+3. Ansprüche des Käufers
+a. Bei vollständiger Entwehrung
+Art. 195
+b. Bei teilweiser Entwehrung
+Art. 196
+c. Bei Kulturgütern
+Art. 196a72
+III. Gewährleistung wegen Mängel der Kaufsache
+1. Gegenstand der Gewährleistung
+a. Im Allgemeinen
+Art. 197
+b. Beim Viehhandel
+Art. 198
+2. Wegbedingung
+Art. 199
+3. Vom Käufer gekannte Mängel
+Art. 200
+4. Mängelrüge
+a. Im Allgemeinen
+Art. 201
+b. Beim Viehhandel
+Art. 202
+5. Absichtliche Täuschung
+Art. 203
+6. Verfahren bei Übersendung von anderem Ort
+Art. 204
+7. Inhalt der Klage des Käufers
+a. Wandelung oder Minderung
+Art. 205
+b. Ersatzleistung
+Art. 206
+c. Wandelung bei Untergang der Sache
+Art. 207
+8. Durchführung der Wandelung
+a. Im Allgemeinen
+Art. 208
+b. Bei einer Mehrheit von Kaufsachen
+Art. 209
+9. Verjährung
+Art. 21074
+C. Verpflichtungen des Käufers
+I. Zahlung des Preises und Annahme der Kaufsache
+Art. 211
+II. Bestimmung des Kaufpreises
+Art. 212
+III. Fälligkeit und Verzinsung des Kaufpreises
+Art. 213
+IV. Verzug des Käufers
+1. Rücktrittsrecht des Verkäufers
+Art. 214
+2. Schadenersatz und Schadenberechnung
+Art. 215
+Dritter Abschnitt: Der Grundstückkauf
+A. Formvorschriften
+Art. 216
+Abis. Befristung und Vormerkung
+Art. 216a78
+Ater. Vererblichkeit und Abtretung
+Art. 216b79
+Aquater. Vorkaufsrechte
+I. Vorkaufsfall
+Art. 216c80
+II. Wirkungen des Vorkaufsfalls, Bedingungen
+Art. 216d81
+III. Ausübung, Verwirkung
+Art. 216e82
+B. Bedingter Kauf und Eigentumsvorbehalt
+Art. 217
+C. Landwirtschaftliche Grundstücke
+Art. 21883
+D. Gewährleistung
+Art. 219
+E. Nutzen und Gefahr
+Art. 220
+F. Verweisung auf den Fahrniskauf
+Art. 221
+Vierter Abschnitt: Besondere Arten des Kaufes
+A. Kauf nach Muster
+Art. 222
+B. Kauf auf Probe oder auf Besicht
+I. Bedeutung
+Art. 223
+II. Prüfung beim Verkäufer
+Art. 224
+III. Prüfung beim Käufer
+Art. 225
+Art. 22685
+C. …
+Art. 226a–226d86
+Art. 226e87
+Art. 226f–226k88
+Art. 226l89
+Art. 226m90
+Art. 22791
+Art. 227a–227i92
+Art. 22893
+D. Versteigerung
+I. Abschluss des Kaufes
+Art. 229
+II. Anfechtung
+Art. 230
+III. Gebundenheit des Bietenden
+1. Im Allgemeinen
+Art. 231
+2. Bei Grundstücken
+Art. 232
+IV. Barzahlung
+Art. 233
+V. Gewährleistung
+Art. 234
+VI. Eigentumsübergang
+Art. 235
+VII. Kantonale Vorschriften
+Art. 236
+Fünfter Abschnitt: Der Tauschvertrag
+A. Verweisung auf den Kauf
+Art. 237
+B. Gewährleistung
+Art. 238
+Siebenter Titel: Die Schenkung
+A. Inhalt der Schenkung
+Art. 239
+B. Persönliche Fähigkeit
+I. Des Schenkers
+Art. 240
+II. Des Beschenkten
+Art. 241
+C. Errichtung der Schenkung
+I. Schenkung von Hand zu Hand
+Art. 242
+II. Schenkungsversprechen
+Art. 243
+III. Bedeutung der Annahme
+Art. 244
+D. Bedingungen und Auflagen
+I. Im Allgemeinen
+Art. 245
+II. Vollziehung der Auflagen
+Art. 246
+III. Verabredung des Rückfalls
+Art. 247
+E. Verantwortlichkeit des Schenkers
+Art. 248
+F. Aufhebung der Schenkung
+I. Rückforderung der Schenkung
+Art. 249
+II. Widerruf und Hinfälligkeit des Schenkungsversprechens
+Art. 250
+III. Verjährung und Klagerecht der Erben
+Art. 251
+IV. Tod des Schenkers
+Art. 252
+Achter Titel:97 Die Miete
+
+97 Fassung gemäss Ziff. I des BG vom 15. Dez. 1989, in Kraft seit 1. Juli 1990 (AS 1990 802; BBl 1985 I 1389). Siehe auch Art. 5 der SchlB zu den Tit. VIII und VIIIbis am Schluss des OR.
+Erster Abschnitt: Allgemeine Bestimmungen
+A. Begriff und Geltungsbereich
+I. Begriff
+Art. 253
+II. Geltungsbereich
+1. Wohn- und Geschäftsräume
+Art. 253a
+2. Bestimmungen über den Schutz vor missbräuchlichen Mietzinsen
+Art. 253b
+B. Koppelungsgeschäfte
+Art. 254
+C. Dauer des Mietverhältnisses
+Art. 255
+D. Pflichten des Vermieters
+I. Im Allgemeinen
+Art. 256
+II. Auskunftspflicht
+Art. 256a
+III. Abgaben und Lasten
+Art. 256b
+E. Pflichten des Mieters
+I. Zahlung des Mietzinses und der Nebenkosten
+1. Mietzins
+Art. 257
+2. Nebenkosten
+a. Im Allgemeinen
+Art. 257a
+b. Wohn- und Geschäftsräume
+Art. 257b
+3. Zahlungstermine
+Art. 257c
+4. Zahlungsrückstand des Mieters
+Art. 257d
+II. Sicherheiten durch den Mieter
+Art. 257e
+III. Sorgfalt und Rücksichtnahme
+Art. 257f
+IV. Meldepflicht
+Art. 257g
+V. Duldungspflicht
+Art. 257h
+F. Nichterfüllung oder mangelhafte Erfüllung des Vertrags bei Übergabe der Sache
+Art. 258
+G. Mängel während der Mietdauer
+I. Pflicht des Mieters zu kleinen Reinigungen und Ausbesserungen
+Art. 259
+II. Rechte des Mieters
+1. Im Allgemeinen
+Art. 259a
+2. Beseitigung des Mangels
+a. Grundsatz
+Art. 259b
+b. Ausnahme
+Art. 259c
+3. Herabsetzung des Mietzinses
+Art. 259d
+4. Schadenersatz
+Art. 259e
+5. Übernahme des Rechtsstreits
+Art. 259f
+6. Hinterlegung des Mietzinses
+a. Grundsatz
+Art. 259g
+b. Herausgabe der hinterlegten Mietzinse
+Art. 259h
+c. Verfahren
+Art. 259i98
+H. Erneuerungen und Änderungen
+I. Durch den Vermieter
+Art. 260
+II. Durch den Mieter
+Art. 260a
+J. Wechsel des Eigentümers
+I. Veräusserung der Sache
+Art. 261
+II. Einräumung beschränkter dinglicher Rechte
+Art. 261a
+III. Vormerkung im Grundbuch
+Art. 261b
+K. Untermiete
+Art. 262
+L. Übertragung der Miete auf einen Dritten
+Art. 263
+M. Vorzeitige Rückgabe der Sache
+Art. 264
+N. Verrechnung
+Art. 265
+O. Beendigung des Mietverhältnisses
+I. Ablauf der vereinbarten Dauer
+Art. 266
+II. Kündigungsfristen und -termine
+1. Im Allgemeinen
+Art. 266a
+2. Unbewegliche Sachen und Fahrnisbauten
+Art. 266b
+3. Wohnungen
+Art. 266c
+4. Geschäftsräume
+Art. 266d
+5. Möblierte Zimmer und Einstellplätze
+Art. 266e
+6. Bewegliche Sachen
+Art. 266f
+III. Ausserordentliche Kündigung
+1. Aus wichtigen Gründen
+Art. 266g
+2. Konkurs des Mieters
+Art. 266h
+3. Tod des Mieters
+Art. 266i
+4. Bewegliche Sachen
+Art. 266k
+IV. Form der Kündigung bei Wohn- und Geschäftsräumen
+1. Im Allgemeinen
+Art. 266l
+2. Wohnung der Familie
+a. Kündigung durch den Mieter
+Art. 266m
+b. Kündigung durch den Vermieter
+Art. 266n101
+3. Nichtigkeit der Kündigung
+Art. 266o
+P. Rückgabe der Sache
+I. Im Allgemeinen
+Art. 267
+II. Prüfung der Sache und Meldung an den Mieter
+Art. 267a
+Q. Retentionsrecht des Vermieters
+I. Umfang
+Art. 268
+II. Sachen Dritter
+Art. 268a
+III. Geltendmachung
+Art. 268b
+Zweiter Abschnitt:
+Schutz vor missbräuchlichen Mietzinsen und andern
+missbräuchlichen Forderungen des Vermieters
+bei der Miete von Wohn- und Geschäftsräumen
+A. Missbräuchliche Mietzinse
+I. Regel
+Art. 269
+II. Ausnahmen
+Art. 269a
+B. Indexierte Mietzinse
+Art. 269b
+C. Gestaffelte Mietzinse
+Art. 269c
+D. Mietzinserhöhungen und andere einseitige Vertragsänderungen durch den Vermieter
+Art. 269d
+E. Anfechtung des Mietzinses
+I. Herabsetzungsbegehren
+1. Anfangsmietzins
+Art. 270
+2. Während der Mietdauer
+Art. 270a
+II. Anfechtung von Mietzinserhöhungen und andern einseitigen Vertragsänderungen
+Art. 270b
+III. Anfechtung indexierter Mietzinse
+Art. 270c
+IV. Anfechtung gestaffelter Mietzinse
+Art. 270d
+F. Weitergeltung des Mietvertrages während des Anfechtungsverfahrens
+Art. 270e
+Dritter Abschnitt:
+Kündigungsschutz bei der Miete von Wohn-
+und Geschäftsräumen
+A. Anfechtbarkeit der Kündigung
+I. Im Allgemeinen
+Art. 271
+II. Kündigung durch den Vermieter
+Art. 271a
+B. Erstreckung des Mietverhältnisses
+I. Anspruch des Mieters
+Art. 272
+II. Ausschluss der Erstreckung
+Art. 272a
+III. Dauer der Erstreckung
+Art. 272b
+IV. Weitergeltung des Mietvertrags
+Art. 272c
+V. Kündigung während der Erstreckung
+Art. 272d
+C. Fristen und Verfahren102
+
+102 Fassung gemäss Anhang 1 Ziff. II 5 der Zivilprozessordnung vom 19. Dez. 2008, in Kraft seit 1. Jan. 2011 (AS 2010 1739; BBl 2006 7221).
+Art. 273
+D. Wohnung der Familie
+Art. 273a
+E. Untermiete
+Art. 273b
+F. Zwingende Bestimmungen
+Art. 273c
+Vierter Abschnitt: …
+Art. 274–274g107
+Achter Titelbis:108 Die Pacht
+
+108 Eingefügt durch Ziff. I des BG vom 15. Dez. 1989, in Kraft seit 1. Juli 1990 (AS 1990 802; BBl 1985 I 1389). Siehe auch Art. 5 der SchlB zu den Tit. VIII und VIIIbis am Schluss des OR.
+A. Begriff und Geltungsbereich
+I. Begriff
+Art. 275
+II. Geltungsbereich
+1. Wohn- und Geschäftsräume
+Art. 276
+2. Landwirtschaftliche Pacht
+Art. 276a
+B. Inventaraufnahme
+Art. 277
+C. Pflichten des Verpächters
+I. Übergabe der Sache
+Art. 278
+II. Hauptreparaturen
+Art. 279
+III. Abgaben und Lasten
+Art. 280
+D. Pflichten des Pächters
+I. Zahlung des Pachtzinses und der Nebenkosten
+1. Im Allgemeinen
+Art. 281
+2. Zahlungsrückstand des Pächters
+Art. 282
+II. Sorgfalt, Rücksichtnahme und Unterhalt
+1. Sorgfalt und Rücksichtnahme
+Art. 283
+2. Ordentlicher Unterhalt
+Art. 284
+3. Pflichtverletzung
+Art. 285
+III. Meldepflicht
+Art. 286
+IV. Duldungspflicht
+Art. 287
+E. Rechte des Pächters bei Nichterfüllung des Vertrags und bei Mängeln
+Art. 288
+F. Erneuerungen und Änderungen
+I. Durch den Verpächter
+Art. 289
+II. Durch den Pächter
+Art. 289a
+G. Wechsel des Eigentümers
+Art. 290
+H. Unterpacht
+Art. 291
+J. Übertragung der Pacht auf einen Dritten
+Art. 292
+K. Vorzeitige Rückgabe der Sache
+Art. 293
+L. Verrechnung
+Art. 294
+M. Beendigung des Pachtverhältnisses
+I. Ablauf der vereinbarten Dauer
+Art. 295
+II. Kündigungsfristen und -termine
+Art. 296
+III. Ausserordentliche Beendigung
+1. Aus wichtigen Gründen
+Art. 297
+2. Konkurs des Pächters
+Art. 297a
+3. Tod des Pächters
+Art. 297b
+IV. Form der Kündigung bei Wohn- und Geschäftsräumen
+Art. 298
+N. Rückgabe der Sache
+I. Im Allgemeinen
+Art. 299
+II. Prüfung der Sache und Meldung an den Pächter
+Art. 299a
+III. Ersatz von Gegenständen des Inventars
+Art. 299b
+O. Retentionsrecht
+Art. 299c
+P. Kündigungsschutz bei der Pacht von Wohn- und Geschäftsräumen
+Art. 300
+Q. Verfahren
+Art. 301111
+R. Viehpacht und Viehverstellung
+I. Rechte und Pflichten des Einstellers
+Art. 302
+II. Haftung
+Art. 303
+III. Kündigung
+Art. 304
+Neunter Titel: Die Leihe
+Erster Abschnitt: Die Gebrauchsleihe
+A. Begriff
+Art. 305
+B. Wirkung
+I. Gebrauchsrecht des Entlehners
+Art. 306
+II. Kosten der Erhaltung
+Art. 307
+III. Haftung mehrerer Entlehner
+Art. 308
+C. Beendigung
+I. Bei bestimmtem Gebrauch
+Art. 309
+II. Bei unbestimmtem Gebrauch
+Art. 310
+III. Beim Tod des Entlehners
+Art. 311
+Zweiter Abschnitt: Das Darlehen
+A. Begriff
+Art. 312
+B. Wirkung
+I. Zinse
+1. Verzinslichkeit
+Art. 313
+2. Zinsvorschriften
+Art. 314
+II. Verjährung des Anspruchs auf Aushändigung und Annahme
+Art. 315
+III. Zahlungsunfähigkeit des Borgers
+Art. 316
+C. Hingabe an Geldes Statt
+Art. 317
+D. Zeit der Rückzahlung
+Art. 318
+Zehnter Titel:113 Der Arbeitsvertrag
+
+113 Fassung gemäss Ziff. I des BG vom 25. Juni 1971, in Kraft seit 1. Jan. 1972 (AS 1971 1465; BBl 1967 II 241). Siehe auch Art. 7 Schl- und UeB des X. Tit. am Schluss des OR.
+Erster Abschnitt: Der Einzelarbeitsvertrag
+A. Begriff und Entstehung
+I. Begriff
+Art. 319
+II. Entstehung
+Art. 320
+B. Pflichten des Arbeitnehmers
+I. Persönliche Arbeitspflicht
+Art. 321
+II. Sorgfalts- und Treuepflicht
+Art. 321a
+III. Rechenschafts- und Herausgabepflicht
+Art. 321b
+IV. Überstundenarbeit
+Art. 321c
+V. Befolgung von Anordnungen und Weisungen
+Art. 321d
+VI. Haftung des Arbeitnehmers
+Art. 321e
+C. Pflichten des Arbeitgebers
+I. Lohn
+1. Art und Höhe im Allgemeinen
+Art. 322
+2. Anteil am Geschäftsergebnis
+Art. 322a
+3. Provision
+a. Entstehung
+Art. 322b
+b. Abrechnung
+Art. 322c
+4. Gratifikation
+Art. 322d
+II. Ausrichtung des Lohnes
+1. Zahlungsfristen und -termine
+Art. 323
+2. Lohnrückbehalt
+Art. 323a
+3. Lohnsicherung
+Art. 323b
+III. Lohn bei Verhinderung an der Arbeitsleistung
+1. bei Annahmeverzug des Arbeitgebers
+Art. 324
+2. bei Verhinderung des Arbeitnehmers
+a. Grundsatz
+Art. 324a
+b. Ausnahmen
+Art. 324b
+IV. Abtretung und Verpfändung von Lohnforderungen
+Art. 325117
+V. Akkordlohnarbeit
+1. Zuweisung von Arbeit
+Art. 326
+2. Akkordlohn
+Art. 326a
+VI. Arbeitsgeräte, Material und Auslagen
+1. Arbeitsgeräte und Material
+Art. 327
+2. Auslagen
+a. im Allgemeinen
+Art. 327a
+b. Motorfahrzeug
+Art. 327b
+c. Fälligkeit
+Art. 327c
+VII. Schutz der Persönlichkeit des Arbeitnehmers
+1. im Allgemeinen
+Art. 328
+2. bei Hausgemeinschaft
+Art. 328a
+3. bei der Bearbeitung von Personendaten
+Art. 328b123
+VIII. Freizeit, Ferien und Urlaub
+1. Freizeit126
+
+126 Fassung gemäss Ziff. II 1 des BG vom 20. Dez. 2019 über die Verbesserung der Vereinbarkeit von Erwerbstätigkeit und Angehörigenbetreuung, in Kraft seit 1. Juli 2021 (AS 2020 4525; BBl 2019 4103).
+Art. 329
+2. Ferien
+a. Dauer
+Art. 329a
+b. Kürzung
+Art. 329b
+c. Zusammenhang und Zeitpunkt
+Art. 329c
+d. Lohn
+Art. 329d
+3. Urlaub für ausserschulische Jugendarbeit
+Art. 329e136
+4. Mutterschaftsurlaub
+Art. 329f137
+5. Urlaub des andern Elternteils
+a. Im Allgemeinen
+Art. 329g140
+b. Im Falle des Todes der Mutter
+Art. 329gbis 141
+6. Urlaub für die Betreuung von Angehörigen
+Art. 329h142
+7. Urlaub für die Betreuung eines wegen Krankheit oder Unfall gesundheitlich schwer beeinträchtigten Kindes
+Art. 329i143
+8. Adoptions- urlaub
+Art. 329j145
+IX. Übrige Pflichten
+1. Kaution
+Art. 330
+2. Zeugnis
+Art. 330a
+3. Informationspflicht
+Art. 330b147
+D. Personalvorsorge
+I. Pflichten des Arbeitgebers148
+
+148 Fassung gemäss Anhang Ziff. 2 des Freizügigkeitsgesetzes vom 17. Dez. 1993, in Kraft seit 1. Jan. 1995 (AS 1994 2386; BBl 1992 III 533).
+Art. 331
+II. Beginn und Ende des Vorsorgeschutzes
+Art. 331a153
+III. Abtretung und Verpfändung
+Art. 331b154
+IV. Gesundheitliche Vorbehalte
+Art. 331c155
+V. Wohneigentumsförderung
+1. Verpfändung
+Art. 331d156
+2. Vorbezug
+Art. 331e161
+3. Einschränkungen während einer Unterdeckung der Vorsorgeeinrichtung
+Art. 331f 169
+E. Rechte an Erfindungen und Designs
+Art. 332170
+Art. 332a171
+F. Übergang des Arbeitsverhältnisses
+1. Wirkungen172
+
+172 Fassung gemäss Ziff. I des BG vom 17. Dez. 1993, in Kraft seit 1. Mai 1994 (AS 1994 804; BBl 1993 I 805).
+Art. 333
+2. Konsultation der Arbeitnehmervertretung
+Art. 333a175
+3. Betriebsübergang bei Insolvenz
+Art. 333b176
+G. Beendigung des Arbeitsverhältnisses
+I. Befristetes Arbeitsverhältnis
+Art. 334177
+II. Unbefristetes Arbeitsverhältnis
+1. Kündigung im Allgemeinen
+Art. 335178
+2. Kündigungsfristen
+a. im Allgemeinen
+Art. 335a179
+b. während der Probezeit
+Art. 335b180
+c. nach Ablauf der Probezeit
+Art. 335c181
+IIbis. Massenentlassung
+1. Begriff
+Art. 335d183
+2. Geltungsbereich
+Art. 335e184
+3. Konsultation der Arbeitnehmervertretung
+Art. 335f 186
+4. Verfahren
+Art. 335g187
+5. Sozialplan
+a. Begriff und Grundsätze
+Art. 335h188
+b.Verhandlungspflicht
+Art. 335i189
+c. Aufstellung durch ein Schiedsgericht
+Art. 335j190
+d. Während eines Konkurs- oder eines Nachlassverfahrens
+Art. 335k191
+III. Kündigungsschutz
+1. Missbräuchliche Kündigung
+a. Grundsatz
+Art. 336192
+b. Sanktionen
+Art. 336a196
+c. Verfahren
+Art. 336b198
+2. Kündigung zur Unzeit
+a. durch den Arbeitgeber
+Art. 336c199
+b. durch den Arbeitnehmer
+Art. 336d206
+IV. Fristlose Auflösung
+1. Voraussetzungen
+a. aus wichtigen Gründen
+Art. 337
+b. wegen Lohngefährdung
+Art. 337a
+2. Folgen
+a. bei gerechtfertigter Auflösung
+Art. 337b
+b. bei ungerechtfertigter Entlassung
+Art. 337c208
+c. bei ungerechtfertigtem Nichtantritt oder Verlassen der Arbeitsstelle
+Art. 337d
+V. Tod des Arbeitnehmers oder des Arbeitgebers
+1. Tod des Arbeitnehmers
+Art. 338
+2. Tod des Arbeitgebers
+Art. 338a
+VI. Folgen der Beendigung des Arbeitsverhältnisses
+1. Fälligkeit der Forderungen
+Art. 339
+2. Rückgabepflichten
+Art. 339a
+3. Abgangsentschädigung
+a. Voraussetzungen
+Art. 339b
+b. Höhe und Fälligkeit
+Art. 339c
+c. Ersatzleistungen
+Art. 339d
+VII. Konkurrenzverbot
+1. Voraussetzungen
+Art. 340
+2. Beschränkungen
+Art. 340a
+3. Folgen der Übertretung
+Art. 340b
+4. Wegfall
+Art. 340c
+H. Unverzichtbarkeit und Verjährung
+Art. 341
+I. Vorbehalt und zivilrechtliche Wirkungen des öffentlichen Rechts
+Art. 342
+Art. 343215
+Zweiter Abschnitt: Besondere Einzelarbeitsverträge
+A.216 Der Lehrvertrag
+
+216 Fassung gemäss Anhang Ziff. II 3 des Berufsbildungsgesetzes vom 13. Dez. 2002, in Kraft seit 1. Jan. 2004 (AS 2003 4557; BBl 2000 5686).
+I. Begriff und Entstehung
+1. Begriff
+Art. 344
+2. Entstehung und Inhalt
+Art. 344a
+II. Wirkungen
+1. Besondere Pflichten der lernenden Person und ihrer gesetzlichen Vertretung
+Art. 345
+2. Besondere Pflichten des Arbeitgebers
+Art. 345a
+III. Beendigung
+1. Vorzeitige Auflösung
+Art. 346
+2. Lehrzeugnis
+Art. 346a
+B. Der Handelsreisendenvertrag
+I. Begriff und Entstehung
+1. Begriff
+Art. 347
+2. Entstehung und Inhalt
+Art. 347a
+II. Pflichten und Vollmachten des Handelsreisenden
+1. Besondere Pflichten
+Art. 348
+2. Delcredere
+Art. 348a
+3. Vollmachten
+Art. 348b
+III. Besondere Pflichten des Arbeitgebers
+1. Tätigkeitskreis
+Art. 349
+2. Lohn
+a. im Allgemeinen
+Art. 349a
+b. Provision
+Art. 349b
+c. bei Verhinderung an der Reisetätigkeit
+Art. 349c
+3. Auslagen
+Art. 349d
+4. Retentionsrecht
+Art. 349e
+IV. Beendigung
+1. Besondere Kündigung
+Art. 350
+2. Besondere Folgen
+Art. 350a
+C. Der Heimarbeitsvertrag
+I. Begriff und Entstehung
+1. Begriff
+Art. 351
+2. Bekanntgabe der Arbeitsbedingungen
+Art. 351a
+II. Besondere Pflichten des Arbeitnehmers
+1. Ausführung der Arbeit
+Art. 352
+2. Material und Arbeitsgeräte
+Art. 352a
+III. Besondere Pflichten des Arbeitgebers
+1. Abnahme des Arbeitserzeugnisses
+Art. 353
+2. Lohn
+a. Ausrichtung des Lohnes
+Art. 353a
+b. Lohn bei Verhinderung an der Arbeitsleistung
+Art. 353b
+IV. Beendigung
+Art. 354
+D. Anwendbarkeit der allgemeinen Vorschriften
+Art. 355
+Dritter Abschnitt:
+Gesamtarbeitsvertrag und Normalarbeitsvertrag
+A. Gesamtarbeitsvertrag
+I. Begriff, Inhalt, Form und Dauer
+1. Begriff und Inhalt
+Art. 356
+2. Freiheit der Organisation und der Berufsausübung
+Art. 356a
+3. Anschluss
+Art. 356b
+4. Form und Dauer
+Art. 356c
+II. Wirkungen
+1. auf die beteiligten Arbeitgeber und Arbeitnehmer
+Art. 357
+2. unter den Vertragsparteien
+Art. 357a
+3. gemeinsame Durchführung
+Art. 357b
+III. Verhältnis zum zwingenden Recht
+Art. 358
+B. Normalarbeitsvertrag
+I. Begriff und Inhalt
+Art. 359
+II. Zuständigkeit und Verfahren
+Art. 359a
+III. Wirkungen
+Art. 360
+IV. Mindestlöhne
+1. Voraussetzungen
+Art. 360a219
+2. Tripartite Kommissionen
+Art. 360b221
+3. Amtsgeheimnis
+Art. 360c223
+4. Wirkungen
+Art. 360d224
+5. Klagerecht der Verbände
+Art. 360e225
+6. Meldung
+Art. 360f226
+Vierter Abschnitt: Zwingende Vorschriften
+A. Unabänderlichkeit zuungunsten des Arbeitgebers und des Arbeitnehmers
+Art. 361
+B. Unabänderlichkeit zuungunsten des Arbeitnehmers
+Art. 362
+Elfter Titel: Der Werkvertrag
+A. Begriff
+Art. 363
+B. Wirkungen
+I. Pflichten des Unternehmers
+1. Im Allgemeinen
+Art. 364
+2. Betreffend den Stoff
+Art. 365
+3. Rechtzeitige Vornahme und vertragsgemässe Ausführung der Arbeit
+Art. 366
+4. Haftung für Mängel
+a. Feststellung der Mängel
+Art. 367
+b. Recht des Bestellers bei Mängeln
+Art. 368
+c. Verantwortlichkeit des Bestellers
+Art. 369
+d. Genehmigung des Werkes
+Art. 370
+e. Verjährung
+Art. 371250
+II. Pflichten des Bestellers
+1. Fälligkeit der Vergütung
+Art. 372
+2. Höhe der Vergütung
+a. Feste Übernahme
+Art. 373
+b. Festsetzung nach dem Wert der Arbeit
+Art. 374
+C. Beendigung
+I. Rücktritt wegen Überschreitung des Kostenansatzes
+Art. 375
+II. Untergang des Werkes
+Art. 376
+III. Rücktritt des Bestellers gegen Schadloshaltung
+Art. 377
+IV. Unmöglichkeit der Erfüllung aus Verhältnissen des Bestellers
+Art. 378
+V. Tod und Unfähigkeit des Unternehmers
+Art. 379
+Zwölfter Titel: Der Verlagsvertrag
+A. Begriff
+Art. 380
+B. Wirkungen
+I. Übertragung des Urheberrechts und Gewährleistung
+Art. 381
+II. Verfügung des Verlaggebers
+Art. 382
+III. Bestimmung der Auflagen
+Art. 383
+IV. Vervielfältigung und Vertrieb
+Art. 384
+V. Verbesserungen und Berichtigungen
+Art. 385
+VI. Gesamtausgaben und Einzelausgaben
+Art. 386
+VII. Übersetzungsrecht
+Art. 387
+VIII. Honorar des Verlaggebers
+1. Höhe des Honorars
+Art. 388
+2. Fälligkeit Abrechnung und Freiexemplare
+Art. 389
+C. Beendigung
+I. Untergang des Werkes
+Art. 390
+II. Untergang der Auflage
+Art. 391
+III. Endigungsgründe in der Person des Urhebers und des Verlegers
+Art. 392
+D. Bearbeitung eines Werkes nach Plan des Verlegers
+Art. 393
+Dreizehnter Titel: Der Auftrag
+Erster Abschnitt: Der einfache Auftrag
+A. Begriff
+Art. 394
+B. Entstehung
+Art. 395
+C. Wirkungen
+I. Umfang des Auftrages
+Art. 396
+II. Verpflichtungen des Beauftragten
+1. Vorschriftsgemässe Ausführung
+Art. 397
+1bis. Meldepflicht
+Art. 397a252
+2. Haftung für getreue Ausführung
+a. Im Allgemeinen
+Art. 398
+b. Bei Übertragung der Besorgung auf einen Dritten
+Art. 399
+3. Rechenschaftsablegung
+Art. 400
+4. Übergang der erworbenen Rechte
+Art. 401
+III. Verpflichtungen des Auftraggebers
+Art. 402
+IV. Haftung mehrerer
+Art. 403
+D. Beendigung
+I. Gründe
+1. Widerruf, Kündigung
+Art. 404
+2. Tod, Handlungsunfähigkeit, Konkurs
+Art. 405
+II. Wirkung des Erlöschens
+Art. 406
+Erster Abschnittbis:255
+Auftrag zur Ehe- oder zur Partnerschaftsvermittlung
+
+255 Eingefügt durch Anhang Ziff. 2 des BG vom 26. Juni 1998, in Kraft seit 1. Jan. 2000 (AS 1999 1118; BBl 1996 I 1).
+A. Begriff und anwendbares Recht
+Art. 406a
+B. Vermittlung von oder an Personen aus dem Ausland
+I. Kosten der Rückreise
+Art. 406b
+II. Bewilligungspflicht
+Art. 406c
+C. Form und Inhalt
+Art. 406d
+D. Inkrafttreten, Widerruf, Kündigung
+Art. 406e258
+ E. …
+Art. 406f259
+F. Information und Datenschutz
+Art. 406g
+G. Herabsetzung
+Art. 406h
+Zweiter Abschnitt: Der Kreditbrief und der Kreditauftrag
+A. Kreditbrief
+Art. 407
+B. Kreditauftrag
+I. Begriff und Form
+Art. 408
+II. Vertragsunfähigkeit des Dritten
+Art. 409
+III. Eigenmächtige Stundung
+Art. 410
+IV. Kreditnehmer und Auftraggeber
+Art. 411
+Dritter Abschnitt: Der Mäklervertrag
+A. Begriff und Form
+Art. 412
+B. Mäklerlohn
+I. Begründung
+Art. 413
+II. Festsetzung
+Art. 414
+III. Verwirkung
+Art. 415
+IV. …
+Art. 416262
+V. Herabsetzung
+Art. 417263
+C. Vorbehalt kantonalen Rechtes
+Art. 418
+Vierter Abschnitt:264 Der Agenturvertrag
+
+264 Eingefügt durch Ziff. I des BG vom 4. Febr. 1949, in Kraft seit 1. Jan. 1950 (AS 1949 I 802; BBl 1947 III 661). Siehe die SchlB zu diesem Abschn. (vierter Abschn. des XIII. Tit.) am Schluss des OR.
+A. Allgemeines
+I. Begriff
+Art. 418a
+II. Anwendbares Recht
+Art. 418b
+B. Pflichten des Agenten
+I. Allgemeines und Delcredere
+Art. 418c
+II. Geheimhaltungspflicht und Konkurrenzverbot
+Art. 418d
+C. Vertretungsbefugnis
+Art. 418e
+D. Pflichten des Auftraggebers
+I. Im Allgemeinen
+Art. 418f
+II. Provision
+1. Vermittlungs- und Abschlussprovision
+a. Umfang und Entstehung
+Art. 418g
+b. Dahinfallen
+Art. 418h
+c. Fälligkeit
+Art. 418i
+d. Abrechnung
+Art. 418k
+2. Inkassoprovision
+Art. 418l
+III. Verhinderung an der Tätigkeit
+Art. 418m
+IV. Kosten und Auslagen
+Art. 418n
+V. Retentionsrecht
+Art. 418o
+E. Beendigung
+I. Zeitablauf
+Art. 418p
+II. Kündigung
+1. Im Allgemeinen
+Art. 418q
+2. Aus wichtigen Gründen
+Art. 418r
+III. Tod, Handlungsunfähigkeit, Konkurs
+Art. 418s
+IV. Ansprüche des Agenten
+1. Provision
+Art. 418t
+2. Entschädigung für die Kundschaft
+Art. 418u
+V. Rückgabepflichten
+Art. 418v
+Vierzehnter Titel: Die Geschäftsführung ohne Auftrag
+A. Stellung des Geschäftsführers
+I. Art der Ausführung
+Art. 419
+II. Haftung des Geschäftsführers im Allgemeinen
+Art. 420
+III. Haftung des vertragsunfähigen Geschäftsführers
+Art. 421
+B. Stellung des Geschäftsherrn
+I. Geschäftsführung im Interesse des Geschäftsherrn
+Art. 422
+II. Geschäftsführung im Interesse des Geschäftsführers
+Art. 423
+III. Genehmigung der Geschäftsführung
+Art. 424
+Fünfzehnter Titel: Die Kommission
+A. Einkaufs- und Verkaufskommission
+I. Begriff
+Art. 425
+II. Pflichten des Kommissionärs
+1. Anzeigepflicht, Versicherung
+Art. 426
+2. Behandlung des Kommissionsgutes
+Art. 427
+3. Preisansatz des Kommittenten
+Art. 428
+4. Vorschuss- und Kreditgewährung an Dritte
+Art. 429
+5. Delcredere-Stehen
+Art. 430
+III. Rechte des Kommissionärs
+1. Ersatz für Vorschüsse und Auslagen
+Art. 431
+2. Provision
+a. Anspruch
+Art. 432
+b. Verwirkung und Umwandlung in Eigengeschäft
+Art. 433
+3. Retentionsrecht
+Art. 434
+4. Versteigerung des Kommissionsgutes
+Art. 435
+5. Eintritt als Eigenhändler
+a. Preisberechnung und Provision
+Art. 436
+b. Vermutung des Eintrittes
+Art. 437
+c. Wegfall des Eintrittsrechtes
+Art. 438
+B. Speditionsvertrag
+Art. 439
+Sechzehnter Titel: Der Frachtvertrag
+A. Begriff
+Art. 440
+B. Wirkungen
+I. Stellung des Absenders
+1. Notwendige Angaben
+Art. 441
+2. Verpackung
+Art. 442
+3. Verfügung über das reisende Gut
+Art. 443
+II. Stellung des Frachtführers
+1. Behandlung des Frachtgutes
+a. Verfahren bei Ablieferungshindernissen
+Art. 444
+b. Verkauf
+Art. 445
+c. Verantwortlichkeit
+Art. 446
+2. Haftung des Frachtführers
+a. Verlust und Untergang des Gutes
+Art. 447
+b. Verspätung, Beschädigung, teilweiser Untergang
+Art. 448
+c. Haftung für Zwischenfrachtführer
+Art. 449
+3. Anzeigepflicht
+Art. 450
+4. Retentionsrecht
+Art. 451
+5. Verwirkung der Haftungsansprüche
+Art. 452
+6. Verfahren
+Art. 453
+7. Verjährung der Ersatzklagen
+Art. 454
+C. Staatlich genehmigte und staatliche Transportanstalten
+Art. 455
+D. Mitwirkung einer öffentlichen Transportanstalt
+Art. 456
+E. Haftung des Spediteurs
+Art. 457
+Siebzehnter Titel:
+Die Prokura und andere Handlungsvollmachten
+A. Prokura
+I. Begriff und Bestellung
+Art. 458
+II. Umfang der Vollmacht
+Art. 459
+III. Beschränkbarkeit
+Art. 460
+IV. Löschung der Prokura
+Art. 461
+B. Andere Handlungsvollmachten
+Art. 462
+C. …
+Art. 463269
+D. Konkurrenzverbot
+Art. 464
+E. Erlöschen der Prokura und der andern Handlungsvollmachten
+Art. 465
+Achtzehnter Titel: Die Anweisung
+A. Begriff
+Art. 466
+B. Wirkungen
+I. Verhältnis des Anweisenden zum Anweisungsempfänger
+Art. 467
+II. Verpflichtung des Angewiesenen
+Art. 468
+III. Anzeigepflicht bei nicht erfolgter Zahlung
+Art. 469
+C. Widerruf
+Art. 470
+D. Anweisung bei Wertpapieren
+Art. 471
+Neunzehnter Titel: Der Hinterlegungsvertrag
+A. Hinterlegung im Allgemeinen
+I. Begriff
+Art. 472
+II. Pflichten des Hinterlegers
+Art. 473
+III. Pflichten des Aufbewahrers
+1. Verbot des Gebrauchs
+Art. 474
+2. Rückgabe
+a. Recht des Hinterlegers
+Art. 475
+b. Rechte des Aufbewahrers
+Art. 476
+c. Ort der Rückgabe
+Art. 477
+3. Haftung mehrerer Aufbewahrer
+Art. 478
+4. Eigentumsansprüche Dritter
+Art. 479
+IV. Sequester
+Art. 480
+B. Die Hinterlegung vertretbarer Sachen
+Art. 481
+C. Lagergeschäft
+I. Berechtigung zur Ausgabe von Warenpapieren
+Art. 482
+II. Aufbewahrungspflicht des Lagerhalters
+Art. 483
+III. Vermengung der Güter
+Art. 484
+IV. Anspruch des Lagerhalters
+Art. 485
+V. Rückgabe der Güter
+Art. 486
+D. Gast- und Stallwirte
+I. Haftung der Gastwirte
+1. Voraussetzung und Umfang
+Art. 487
+2. Haftung für Kostbarkeiten insbesondere
+Art. 488
+3. Aufhebung der Haftung
+Art. 489
+II. Haftung der Stallwirte
+Art. 490
+III. Retentionsrecht
+Art. 491
+Zwanzigster Titel:273 Die Bürgschaft
+
+273 Fassung gemäss Ziff. I des BG vom 10. Dez. 1941, in Kraft seit 1. Juli 1942 (AS 58 279 644; BBl 1939 II 841). Die UeB zu diesem Tit. siehe am Schluss des OR.
+A. Voraussetzungen
+I. Begriff
+Art. 492
+II. Form
+Art. 493
+III. Zustimmung des Ehegatten
+Art. 494
+B. Inhalt
+I. Besonderheiten der einzelnen Bürgschaftsarten
+1. Einfache Bürgschaft
+Art. 495
+2. Solidarbürgschaft
+Art. 496
+3. Mitbürgschaft
+Art. 497
+4. Nachbürgschaft und Rückbürgschaft
+Art. 498
+II. Gemeinsamer Inhalt
+1. Verhältnis des Bürgen zum Gläubiger
+a. Umfang der Haftung
+Art. 499
+b. Gesetzliche Verringerung des Haftungsbetrages
+Art. 500
+c. Belangbarkeit des Bürgen
+Art. 501
+d. Einreden
+Art. 502
+e. Sorgfalts- und Herausgabepflicht des Gläubigers
+Art. 503
+f. Anspruch auf Zahlungsannahme
+Art. 504
+g. Mitteilungspflicht des Gläubigers und Anmeldung im Konkurs und Nachlassverfahren des Schuldners
+Art. 505
+2. Verhältnis des Bürgen zum Hauptschuldner
+a. Recht auf Sicherstellung und Befreiung
+Art. 506
+b. Das Rückgriffsrecht des Bürgen.
+aa. Im Allgemeinen
+Art. 507
+bb. Anzeigepflicht des Bürgen
+Art. 508
+C. Beendigung der Bürgschaft
+I. Dahinfallen von Gesetzes wegen
+Art. 509
+II. Bürgschaft auf Zeit; Rücktritt
+Art. 510
+III. Unbefristete Bürgschaft
+Art. 511
+IV. Amts- und Dienstbürgschaft
+Art. 512
+Einundzwanzigster Titel: Spiel und Wette
+A. Unklagbarkeit der Forderung
+Art. 513
+B. Schuldverschreibungen und freiwillige Zahlung
+Art. 514
+C. Lotterie- und Ausspielgeschäfte
+Art. 515
+D. Spiel in Spielbanken, Darlehen von Spielbanken
+Art. 515a277
+Zweiundzwanzigster Titel:
+Der Leibrentenvertrag und die Verpfründung
+A. Leibrentenvertrag
+I. Inhalt
+Art. 516
+II. Form der Entstehung
+Art. 517
+III. Rechte des Gläubigers
+1. Geltendmachung des Anspruchs
+Art. 518
+2. Übertragbarkeit278
+
+278 Fassung gemäss Anhang Ziff. 6 des BG vom 16. Dez. 1994, in Kraft seit 1. Jan. 1997 (AS 1995 1227; BBl 1991 III 1).
+Art. 519
+IV. Leibrenten nach dem Gesetz über den Versicherungsvertrag
+Art. 520
+B. Verpfründung
+I. Begriff
+Art. 521
+II. Entstehung
+1. Form
+Art. 522
+2. Sicherstellung
+Art. 523
+III. Inhalt
+Art. 524
+IV. Anfechtung und Herabsetzung
+Art. 525
+V. Aufhebung
+1. Kündigung
+Art. 526
+2. Einseitige Aufhebung
+Art. 527
+3. Aufhebung beim Tod des Pfrundgebers
+Art. 528
+VI. Unübertragbarkeit, Geltendmachung bei Konkurs und Pfändung
+Art. 529
+Dreiundzwanzigster Titel: Die einfache Gesellschaft
+A. Begriff
+Art. 530
+B. Verhältnis der Gesellschafter unter sich
+I. Beiträge
+Art. 531
+II. Gewinn und Verlust
+1. Gewinnteilung
+Art. 532
+2. Gewinn- und Verlustbeteiligung
+Art. 533
+III. Gesellschaftsbeschlüsse
+Art. 534
+IV. Geschäftsführung
+Art. 535
+V. Verantwortlichkeit unter sich
+1. Konkurrenzverbot
+Art. 536
+2. Ansprüche aus der Tätigkeit für die Gesellschaft
+Art. 537
+3. Mass der Sorgfalt
+Art. 538
+VI. Entzug und Beschränkung der Geschäftsführung
+Art. 539
+VII. Geschäftsführende und nicht geschäftsführende Gesellschafter
+1. Im Allgemeinen
+Art. 540
+2. Einsicht in die Gesellschaftsangelegenheiten
+Art. 541
+VIII. Aufnahme neuer Gesellschafter und Unterbeteiligung
+Art. 542
+C. Verhältnis der Gesellschafter gegenüber Dritten
+I. Vertretung
+Art. 543
+II. Wirkung der Vertretung
+Art. 544
+D. Beendigung der Gesellschaft
+I. Auflösungsgründe
+1. Im Allgemeinen
+Art. 545
+2. Gesellschaft auf unbestimmte Dauer
+Art. 546
+II. Wirkung der Auflösung auf die Geschäftsführung
+Art. 547
+III. Liquidation
+1. Behandlung der Einlagen
+Art. 548
+2. Verteilung von Überschuss und Fehlbetrag
+Art. 549
+3. Vornahme der Auseinandersetzung
+Art. 550
+IV. Haftung gegenüber Dritten
+Art. 551
+Dritte Abteilung:283
+Die Handelsgesellschaften und die Genossenschaft
+
+283 Fassung gemäss BG vom 18. Dez. 1936, in Kraft seit 1. Juli 1937 (AS 53 185; BBl 1928 I 205, 1932 I 217). Siehe die Schl- und UeB zu den Tit. XXIV–XXXIII am Schluss des OR.
+Vierundzwanzigster Titel: Die Kollektivgesellschaft
+Erster Abschnitt: Begriff und Errichtung
+A. Kaufmännische Gesellschaft
+Art. 552
+B. Nichtkaufmännische Gesellschaft
+Art. 553
+C. Registereintrag
+I. Ort der Eintragung
+Art. 554284
+II. Vertretung
+Art. 555
+III. Formelle Erfordernisse
+Art. 556
+Zweiter Abschnitt: Verhältnis der Gesellschafter unter sich
+A. Vertragsfreiheit, Verweisung auf die einfache Gesellschaft
+Art. 557
+B. Rechnungslegung285
+
+285 Fassung gemäss Ziff. I 3 des BG vom 23. Dez. 2011 (Rechnungslegungsrecht), in Kraft seit 1. Jan. 2013 (AS 2012 6679; BBl 2008 1589).
+Art. 558
+C. Anspruch auf Gewinn, Zinse und Honorar
+Art. 559
+D. Verluste
+Art. 560
+E. Konkurrenzverbot
+Art. 561
+Dritter Abschnitt: Verhältnis der Gesellschaft zu Dritten
+A. Im Allgemeinen
+Art. 562
+B. Vertretung
+I. Grundsatz
+Art. 563
+II. Umfang
+Art. 564
+III. Entziehung
+Art. 565
+IV. Prokura und Handlungsvollmacht
+Art. 566
+V. Rechtsgeschäfte und Haftung aus unerlaubten Handlungen
+Art. 567
+C. Stellung der Gesellschaftsgläubiger
+I. Haftung der Gesellschafter
+Art. 568
+II. Haftung neu eintretender Gesellschafter
+Art. 569
+III. Konkurs der Gesellschaft
+Art. 570
+IV. Konkurs von Gesellschaft und Gesellschaftern
+Art. 571
+D. Stellung der Privatgläubiger eines Gesellschafters
+Art. 572
+E. Verrechnung
+Art. 573
+Vierter Abschnitt: Auflösung und Ausscheiden
+A. Im Allgemeinen
+Art. 574
+B. Kündigung durch Gläubiger eines Gesellschafters
+Art. 575
+C. Ausscheiden von Gesellschaftern
+I. Übereinkommen
+Art. 576
+II. Ausschliessung durch das Gericht
+Art. 577
+III. Durch die übrigen Gesellschafter
+Art. 578
+IV. Bei zwei Gesellschaftern
+Art. 579
+V. Festsetzung des Betrages
+Art. 580
+VI. Eintragung
+Art. 581
+D. Mängel in der Organisation der Gesellschaft
+Art. 581a290
+Fünfter Abschnitt: Liquidation
+A. Grundsatz
+Art. 582
+B. Liquidatoren
+Art. 583
+C. Vertretung von Erben
+Art. 584
+D. Rechte und Pflichten der Liquidatoren
+Art. 585
+E. Vorläufige Verteilung
+Art. 586
+F. Auseinandersetzung
+I. Bilanz
+Art. 587
+II. Rückzahlung des Kapitals und Verteilung des Überschusses
+Art. 588
+G. Löschung im Handelsregister
+Art. 589
+H. Aufbewahrung der Bücher und Papiere
+Art. 590
+Sechster Abschnitt: Verjährung
+A. Gegenstand und Frist
+Art. 591
+B. Besondere Fälle
+Art. 592
+C. Unterbrechung
+Art. 593
+Fünfundzwanzigster Titel: Die Kommanditgesellschaft
+Erster Abschnitt: Begriff und Errichtung
+A. Kaufmännische Gesellschaft
+Art. 594
+B. Nichtkaufmännische Gesellschaft
+Art. 595
+C. Registereintrag
+I. Ort der Eintragung und Sacheinlagen293
+
+293 Fassung gemäss Ziff. I 3 des BG vom 16. Dez. 2005 (GmbH-Recht sowie Anpassungen im Aktien-, Genossenschafts-, Handelsregister- und Firmenrecht), in Kraft seit 1. Jan. 2008 (AS 2007 4791; BBl 2002 3148, 2004 3969).
+Art. 596
+II. Formelle Erfordernisse
+Art. 597
+Zweiter Abschnitt: Verhältnis der Gesellschafter unter sich
+A. Vertragsfreiheit. Verweisung auf die Kollektivgesellschaft
+Art. 598
+B. Geschäftsführung
+Art. 599
+C. Stellung des Kommanditärs
+Art. 600
+D. Gewinn- und Verlustbeteiligung
+Art. 601
+Dritter Abschnitt: Verhältnis der Gesellschaft zu Dritten
+A. Im Allgemeinen
+Art. 602
+B. Vertretung
+Art. 603
+C. Haftung des unbeschränkt haftenden Gesellschafters
+Art. 604
+D. Haftung des Kommanditärs
+I. Handlungen für die Gesellschaft
+Art. 605
+II. Mangelnder Eintrag
+Art. 606
+III. …
+Art. 607297
+IV. Umfang der Haftung
+Art. 608
+V. Verminderung der Kommanditsumme
+Art. 609
+VI. Klagerecht der Gläubiger
+Art. 610
+VII. Bezug von Zinsen und Gewinn
+Art. 611
+VIII. Eintritt in eine Gesellschaft
+Art. 612
+E. Stellung der Privatgläubiger
+Art. 613
+F. Verrechnung
+Art. 614
+G. Konkurs
+I. Im Allgemeinen
+Art. 615
+II. Konkurs der Gesellschaft
+Art. 616
+III. Vorgehen gegen den unbeschränkt haftenden Gesellschafter
+Art. 617
+IV. Konkurs des Kommanditärs
+Art. 618
+Vierter Abschnitt: Auflösung, Liquidation, Verjährung
+Art. 619
+Sechsundzwanzigster Titel:300 Die Aktiengesellschaft
+
+300 Siehe auch die SchlB. zu diesem Tit. am Ende des OR.
+Erster Abschnitt: Allgemeine Bestimmungen
+A. Begriff
+Art. 620301
+B. Aktienkapital
+Art. 621302
+C. Aktien
+I. Arten
+Art. 622
+II. Zerlegung und Zusammenlegung
+Art. 623
+III. Ausgabebetrag
+Art. 624
+Art. 625314
+D. Gesetzlich vorgeschriebener Inhalt der Statuten315
+
+315 Fassung gemäss Ziff. I des BG vom 19. Juni 2020 (Aktienrecht), in Kraft seit 1. Jan. 2023 (AS 2020 4005; 2022 109; BBl 2017 399).
+Art. 626316
+Art. 627 und 628322
+E. Gründung
+I. Errichtungsakt
+1. Inhalt323
+
+323 Fassung gemäss Ziff. I des BG vom 19. Juni 2020 (Aktienrecht), in Kraft seit 1. Jan. 2023 (AS 2020 4005; 2022 109; BBl 2017 399).
+Art. 629324
+2. Aktienzeichnung
+Art. 630327
+II. Belege
+Art. 631328
+III. Einlagen
+1. Mindesteinlage
+Art. 632330
+2. Leistung der Einlagen
+a. Einzahlungen
+Art. 633332
+b. Sacheinlagen
+Art. 634334
+c. Verrechnung mit einer Forderung
+Art. 634a335
+d. Nachträgliche Leistung
+Art. 634b336
+3. Prüfung der Einlagen
+a. Gründungsbericht
+Art. 635337
+b. Prüfungsbestätigung
+Art. 635a339
+IV. Besondere Vorteile
+Art. 636340
+Art. 637–639341
+F. Eintragung ins Handelsregister
+I. Gesellschaft342
+
+342 Fassung gemäss Ziff. I des BG vom 19. Juni 2020 (Aktienrecht), in Kraft seit 1. Jan. 2023 (AS 2020 4005; 2022 109; BBl 2017 399).
+Art. 640343
+II. …
+Art. 641344
+III. …
+Art. 642345
+G. Erwerb der Persönlichkeit
+I. Zeitpunkt; mangelnde Voraussetzungen346
+
+346 Fassung gemäss Ziff. I des BG vom 19. Juni 2020 (Aktienrecht), in Kraft seit 1. Jan. 2023 (AS 2020 4005; 2022 109; BBl 2017 399).
+Art. 643
+II. Nichtigkeit von Aktien, die vor der Eintragung ausgegeben werden348
+
+348 Fassung gemäss Ziff. I des BG vom 19. Juni 2020 (Aktienrecht), in Kraft seit 1. Jan. 2023 (AS 2020 4005; 2022 109; BBl 2017 399).
+Art. 644
+III. Vor der Eintragung eingegangene Verpflichtungen
+Art. 645
+Art. 646350
+H. Statutenänderung
+Art. 647351
+Art. 648 und 649352
+I. Erhöhung und Herabsetzung des Aktienkapitals
+I. Ordentliche Kapitalerhöhung
+1. Beschluss der Generalversammlung
+Art. 650353
+Art. 651354
+Art. 651a355
+2. Aktienzeichnung356
+
+356 Fassung gemäss Ziff. I des BG vom 19. Juni 2020 (Aktienrecht), in Kraft seit 1. Jan. 2023 (AS 2020 4005; 2022 109; BBl 2017 399).
+Art. 652357
+Art. 652a360
+3. Bezugsrecht und Ausgabebetrag361
+
+361 Fassung gemäss Ziff. I des BG vom 19. Juni 2020 (Aktienrecht), in Kraft seit 1. Jan. 2023 (AS 2020 4005; 2022 109; BBl 2017 399).
+Art. 652b362
+4. Leistung der Einlagen365
+
+365 Fassung gemäss Ziff. I des BG vom 19. Juni 2020 (Aktienrecht), in Kraft seit 1. Jan. 2023 (AS 2020 4005; 2022 109; BBl 2017 399).
+Art. 652c366
+5. Erhöhung aus Eigenkapital367
+
+367 Fassung gemäss Ziff. I des BG vom 19. Juni 2020 (Aktienrecht), in Kraft seit 1. Jan. 2023 (AS 2020 4005; 2022 109; BBl 2017 399).
+Art. 652d368
+6. Kapitalerhöhungsbericht371
+
+371 Fassung gemäss Ziff. I des BG vom 19. Juni 2020 (Aktienrecht), in Kraft seit 1. Jan. 2023 (AS 2020 4005; 2022 109; BBl 2017 399).
+Art. 652e372
+7. Prüfungsbestätigung374
+
+374 Fassung gemäss Ziff. I des BG vom 19. Juni 2020 (Aktienrecht), in Kraft seit 1. Jan. 2023 (AS 2020 4005; 2022 109; BBl 2017 399).
+Art. 652f375
+8. Statutenänderung und Feststellungen des Verwaltungsrats
+Art. 652g377
+9. Nichtigkeit von Aktien, die vor der Eintragung ausgegeben werden
+Art. 652h378
+II. Erhöhung aus bedingtem Kapital
+1. Grundsatz
+Art. 653379
+2. Schranken
+Art. 653a381
+3. Statutarische Grundlage
+Art. 653b383
+4. Schutz der Aktionäre
+Art. 653c388
+5. Schutz der Wandel- oder Optionsberechtigten
+Art. 653d389
+6. Durchführung der Kapitalerhöhung
+a. Ausübung der Rechte; Einlage
+Art. 653e391
+b. Prüfungsbestätigung
+Art. 653f395
+c. Statutenänderung und Feststellungen des Verwaltungsrats
+Art. 653g396
+Art. 653h397
+7. Streichung
+Art. 653i398
+III. Herabsetzung des Aktienkapitals
+1. Ordentliche Kapitalherabsetzung
+a. Grundsätze
+Art. 653j399
+b. Sicherstellung von Forderungen
+Art. 653k400
+c. Zwischenabschluss
+Art. 653l401
+d. Prüfungsbestätigung
+Art. 653m402
+e. Beschluss der Generalversammlung
+Art. 653n403
+f. Änderung der Statuten und Feststellungen des Verwaltungsrats; Eintragung in das Handelsregister
+Art. 653o404
+2. Kapitalherabsetzung im Falle einer Unterbilanz
+Art. 653p405
+3. Gleichzeitige Herabsetzung und Erhöhung des Aktienkapitals
+a. Grundsatz
+Art. 653q406
+b. Vernichtung von Aktien
+Art. 653r407
+IV. Kapitalband
+1. Ermächtigung
+Art. 653s408
+2. Statutarische Grundlagen
+Art. 653t409
+3. Erhöhung und Herabsetzung des Aktienkapitals innerhalb des Kapitalbands
+Art. 653u410
+4. Erhöhung oder Herabsetzung des Aktienkapitals durch die Generalversammlung
+Art. 653v411
+V. Vorzugsaktien
+1. Voraussetzungen412
+
+412 Fassung gemäss Ziff. I des BG vom 19. Juni 2020 (Aktienrecht), in Kraft seit 1. Jan. 2023 (AS 2020 4005; 2022 109; BBl 2017 399).
+Art. 654
+Art. 655413
+2. Stellung der Vorzugsaktien414
+
+414 Fassung gemäss Ziff. I des BG vom 4. Okt. 1991, in Kraft seit 1. Juli 1992 (AS 1992 733; BBl 1983 II 745).
+Art. 656
+J. Partizipationsscheine
+I. Begriff; anwendbare Vorschriften415
+
+415 Fassung gemäss Ziff. I des BG vom 19. Juni 2020 (Aktienrecht), in Kraft seit 1. Jan. 2023 (AS 2020 4005; 2022 109; BBl 2017 399).
+Art. 656a416
+II. Partizipations- und Aktienkapital
+Art. 656b420
+III. Rechtsstellung des Partizipanten
+1. Im Allgemeinen
+Art. 656c421
+2. Bekanntgabe der Einberufung und Information über Generalversammlungsbeschlüsse424
+
+424 Fassung gemäss Ziff. I des BG vom 19. Juni 2020 (Aktienrecht), in Kraft seit 1. Jan. 2023 (AS 2020 4005; 2022 109; BBl 2017 399).
+Art. 656d425
+3. Vertretung im Verwaltungsrat
+Art. 656e427
+4. Vermögensrechte
+a. Im Allgemeinen
+Art. 656f 428
+b. Bezugsrechte
+Art. 656g429
+K. Genussscheine430
+
+430 Fassung gemäss Ziff. I des BG vom 19. Juni 2020 (Aktienrecht), in Kraft seit 1. Jan. 2023 (AS 2020 4005; 2022 109; BBl 2017 399).
+Art. 657431
+Art. 658432
+L. Eigene Aktien
+I. Voraussetzungen und Einschränkungen des Erwerbs
+Art. 659433
+II. Folgen des Erwerbs
+Art. 659a434
+III. Eigene Aktien im Konzern
+Art. 659b435
+Zweiter Abschnitt: Rechte und Pflichten der Aktionäre
+A. Recht auf Gewinn- und Liquidationsanteil
+I. Im Allgemeinen
+Art. 660436
+II. Berechnungsart
+Art. 661
+Art. 662437
+Art. 662a438
+Art. 663439
+Art. 663a und 663b 440
+B. …
+Art. 663bbis 441
+Art. 663c442
+Art. 663d–663h443
+Art. 664 und 665444
+Art. 665a445
+Art. 666 und 667446
+Art. 668447
+Art. 669448
+Art. 670449
+C. Reserven
+I. Gesetzliche Kapitalreserve
+Art. 671450
+Art. 671a und 671b451
+II. Gesetzliche Gewinnreserve
+Art. 672452
+III. Freiwillige Gewinnreserven
+Art. 673453
+IV. Verrechnung mit Verlusten
+Art. 674454
+D. Dividenden, Bauzinse und Tantiemen
+I. Dividenden
+Art. 675
+II. Zwischendividenden
+Art. 675a457
+III. Bauzinse458
+
+458 Fassung gemäss Ziff. I des BG vom 19. Juni 2020 (Aktienrecht), in Kraft seit 1. Jan. 2023 (AS 2020 4005; 2022 109; BBl 2017 399).
+Art. 676
+IV. Tantiemen459
+
+459 Fassung gemäss Ziff. I des BG vom 19. Juni 2020 (Aktienrecht), in Kraft seit 1. Jan. 2023 (AS 2020 4005; 2022 109; BBl 2017 399).
+Art. 677460
+E. Rückerstattung von Leistungen
+I. Im Allgemeinen
+Art. 678461
+II. Verjährung
+Art. 678a462
+III. Tantiemen im Konkurs463
+
+463 Fassung gemäss Ziff. I des BG vom 19. Juni 2020 (Aktienrecht), in Kraft seit 1. Jan. 2023 (AS 2020 4005; 2022 109; BBl 2017 399).
+Art. 679464
+F. Leistungspflicht des Aktionärs
+I. Gegenstand
+Art. 680
+II. Verzugsfolgen
+1. Nach Gesetz und Statuten
+Art. 681
+2. Aufforderung zur Leistung
+Art. 682
+G. Ausgabe und Übertragung der Aktien
+I. Inhaberaktien
+Art. 683
+II. Namenaktien
+Art. 684468
+H. Beschränkung der Übertragbarkeit
+I. Gesetzliche Beschränkung
+Art. 685469
+II. Statutarische Beschränkung
+1. Grundsätze
+Art. 685a470
+2. Nicht börsenkotierte Namenaktien
+a. Voraussetzungen der Ablehnung
+Art. 685b471
+b. Wirkung
+Art. 685c472
+3. Börsenkotierte Namenaktien
+a. Voraussetzungen der Ablehnung
+Art. 685d473
+b. Meldepflicht
+Art. 685e476
+c. Rechtsübergang
+Art. 685f 477
+d. Ablehnungsfrist
+Art. 685g478
+4. Aktienbuch
+a. Eintragung
+Art. 686479
+b. Streichung
+Art. 686a483
+5. Nicht voll einbezahlte Namenaktien484
+
+484 Fassung gemäss Ziff. I des BG vom 4. Okt. 1991, in Kraft seit 1. Juli 1992 (AS 1992 733; BBl 1983 II 745).
+Art. 687
+III. Interimsscheine
+Art. 688
+J. Persönliche Mitgliedschaftsrechte
+I. Teilnahme an der Generalversammlung
+1. Grundsatz
+Art. 689485
+2. Berechtigung gegenüber der Gesellschaft
+Art. 689a487
+3. Vertretung des Aktionärs
+a. Im Allgemeinen
+Art. 689b491
+b. Unabhängige Stimmrechtsvertretung in Gesellschaften, deren Aktien an einer Börse kotiert sind
+Art. 689c492
+c. Unabhängige Stimmrechtsvertretung und Organstimmrechtsvertretung in Gesellschaften, deren Aktien nicht an einer Börse kotiert sind
+Art. 689d493
+d. Depotstimmrechtsvertretung in Gesellschaften, deren Aktien nicht an einer Börse kotiert sind
+Art. 689e494
+e. Bekanntgabe
+Art. 689f497
+4. Mehrere Berechtigte498
+
+498 Fassung gemäss Ziff. I des BG vom 4. Okt. 1991, in Kraft seit 1. Juli 1992 (AS 1992 733; BBl 1983 II 745).
+Art. 690
+II. Unbefugte Teilnahme
+Art. 691
+III. Stimmrecht in der Generalversammlung
+1. Grundsatz
+Art. 692
+2. Stimmrechtsaktien
+Art. 693
+3. Entstehung des Stimmrechts
+Art. 694
+4. Ausschliessung vom Stimmrecht
+Art. 695
+Art. 696506
+IV. Auskunfts- und Einsichtsrecht
+1. Auskunftsrecht
+Art. 697507
+2. Einsichtsrecht
+Art. 697a508
+3. Ablehnung des Begehrens um Auskunft oder Einsicht
+Art. 697b509
+V. Recht auf Einleitung einer Sonderuntersuchung
+1. Mit Genehmigung der Generalversammlung
+Art. 697c510
+2. Bei Ablehnung durch die Generalversammlung
+Art. 697d511
+3. Verfahren vor Gericht
+Art. 697e512
+4. Durchführung der Sonderuntersuchung
+Art. 697f 513
+5. Bericht
+Art. 697g514
+6. Behandlung und Bekanntgabe
+Art. 697h515
+7. Kosten der Sonderuntersuchung
+Art. 697hbis 516
+Art. 697i517
+K. Meldepflicht des Aktionärs
+I. Meldung der an Aktien wirtschaftlich berechtigten Person
+Art. 697j518
+Art. 697k519
+II. Verzeichnis der wirtschaftlich berechtigten Personen
+Art. 697l520
+III. Nichteinhaltung der Meldepflichten521
+
+521 Fassung gemäss Ziff. I 1 des BG vom 21. Juni 2019 zur Umsetzung von Empfehlungen des Globalen Forums über Transparenz und Informationsaustausch für Steuerzwecke, in Kraft seit 1. Mai 2021 (AS 2019 3161; BBl 2019 279).
+Art. 697m522
+L. Schiedsgericht
+Art. 697n523
+Dritter Abschnitt: Organisation der Aktiengesellschaft
+A. Die Generalversammlung
+I. Befugnisse
+Art. 698
+II. Einberufung und Durchführung der Generalversammlung
+1. Art der Einberufung
+Art. 699534
+2. Bekanntmachung des Geschäftsberichts
+Art. 699a535
+3. Traktandierungs- und Antragsrecht
+Art. 699b536
+4. Inhalt der Einberufung
+Art. 700537
+5. Universalversammlung und Zustimmung zu einem Antrag
+Art. 701538
+6. Tagungsort
+a. Im Allgemeinen
+Art. 701a539
+b. Ausländischer Tagungsort
+Art. 701b540
+7. Verwendung elektronischer Mittel
+a. Ausübung der Aktionärsrechte
+Art. 701c541
+b. Virtuelle Generalversammlung
+Art 701d542
+c. Voraussetzungen für die Verwendung elektronischer Mittel
+Art. 701e543
+d. Technische Probleme
+Art. 701f544
+III. Vorbereitende Massnahmen; Protokoll
+Art. 702545
+IV. Äusserungsrecht der Mitglieder des Verwaltungsrats und der Geschäftsleitung; Antragsrecht des Verwaltungsrats
+Art. 702a550
+V. Beschlussfassung und Wahlen
+1. Im Allgemeinen
+Art. 703551
+2. Wichtige Beschlüsse
+Art. 704552
+3. Umwandlung von Inhaber- in Namenaktien
+Art. 704a556
+4. Ankündigung der Verhandlungsgegenstände
+Art. 704b557
+VI. Abberufungsrecht558
+
+558 Fassung gemäss Ziff. I des BG vom 19. Juni 2020 (Aktienrecht), in Kraft seit 1. Jan. 2023 (AS 2020 4005; 2022 109; BBl 2017 399).
+Art. 705
+VII. Anfechtung von Generalversammlungsbeschlüssen
+1. Legitimation und Gründe 560
+
+560 Fassung gemäss Ziff. I 3 des BG vom 16. Dez. 2005 (GmbH-Recht sowie Anpassungen im Aktien-, Genossenschafts-, Handelsregister- und Firmenrecht), in Kraft seit 1. Jan. 2008 (AS 2007 4791; BBl 2002 3148, 2004 3969).
+Art. 706
+2. Verfahren
+Art. 706a563
+VIII. Nichtigkeit565
+
+565 Fassung gemäss Ziff. I 3 des BG vom 16. Dez. 2005 (GmbH-Recht sowie Anpassungen im Aktien-, Genossenschafts-, Handelsregister- und Firmenrecht), in Kraft seit 1. Jan. 2008 (AS 2007 4791; BBl 2002 3148, 2004 3969).
+Art. 706b566
+B. Der Verwaltungsrat567
+
+567 Fassung gemäss Ziff. I des BG vom 4. Okt. 1991, in Kraft seit 1. Juli 1992 (AS 1992 733; BBl 1983 II 745).
+I. Im Allgemeinen
+1. Wählbarkeit568
+
+568 Fassung gemäss Ziff. I des BG vom 4. Okt. 1991, in Kraft seit 1. Juli 1992 (AS 1992 733; BBl 1983 II 745).
+Art. 707
+Art. 708571
+2. Vertretung von Aktionärskategorien und -gruppen572
+
+572 Fassung gemäss Ziff. I 3 des BG vom 16. Dez. 2005 (GmbH-Recht sowie Anpassungen im Aktien-, Genossenschafts-, Handelsregister- und Firmenrecht), in Kraft seit 1. Jan. 2008 (AS 2007 4791; BBl 2002 3148, 2004 3969).
+Art. 709573
+3. Amtsdauer
+Art. 710574
+Art. 711575
+II. Organisation
+1. Präsident
+Art. 712576
+2. Beschlüsse
+Art. 713577
+3. Nichtige Beschlüsse
+Art. 714580
+4. Recht auf Einberufung
+Art. 715581
+5. Recht auf Auskunft und Einsicht
+Art. 715a582
+III. Aufgaben
+1. Im Allgemeinen
+Art. 716583
+2. Unübertragbare Aufgaben
+Art. 716a584
+3. Übertragung der Geschäftsführung
+Art. 716b588
+IV. Sorgfalts- und Treuepflicht
+1. Im Allgemeinen589
+
+589 Fassung gemäss Ziff. I des BG vom 19. Juni 2020 (Aktienrecht), in Kraft seit 1. Jan. 2023 (AS 2020 4005; 2022 109; BBl 2017 399).
+Art. 717590
+2. Interessenkonflikte
+Art. 717a591
+V. Vertretung
+1. Im Allgemeinen
+Art. 718592
+2. Umfang und Beschränkung
+Art. 718a594
+3. Verträge zwischen der Gesellschaft und ihrem Vertreter
+Art. 718b595
+4. Zeichnung596
+
+596 Fassung gemäss Ziff. I 3 des BG vom 16. Dez. 2005 (GmbH-Recht sowie Anpassungen im Aktien-, Genossenschafts-, Handelsregister- und Firmenrecht), in Kraft seit 1. Jan. 2008 (AS 2007 4791; BBl 2002 3148, 2004 3969).
+Art. 719
+Art. 720597
+5. Prokuristen und Bevollmächtigte598
+
+598 Fassung gemäss Ziff. I des BG vom 19. Juni 2020 (Aktienrecht), in Kraft seit 1. Jan. 2023 (AS 2020 4005; 2022 109; BBl 2017 399).
+Art. 721599
+VI. Haftung für Organe600
+
+600 Fassung gemäss Ziff. I des BG vom 19. Juni 2020 (Aktienrecht), in Kraft seit 1. Jan. 2023 (AS 2020 4005; 2022 109; BBl 2017 399).
+Art. 722601
+Art. 723–724602
+VII. Drohende Zahlungsunfähigkeit, Kapitalverlust und Überschuldung
+1. Drohende Zahlungsunfähigkeit
+Art. 725603
+2. Kapitalverlust
+Art. 725a604
+3. Überschuldung
+Art. 725b605
+4. Aufwertung von Grundstücken und Beteiligungen
+Art. 725c607
+VIII. Abberufung und Einstellung608
+
+608 Fassung gemäss Ziff. I des BG vom 4. Okt. 1991, in Kraft seit 1. Juli 1992 (AS 1992 733; BBl 1983 II 745).
+Art. 726
+C.609 Revisionsstelle
+
+609 Fassung gemäss Ziff. I 1 des BG vom 16. Dez. 2005 (GmbH-Recht sowie Anpassungen im Aktien-, Genossenschafts-, Handelsregister- und Firmenrecht), in Kraft seit 1. Jan. 2008 (AS 2007 4791; BBl 2002 3148, 2004 3969).
+I. Revisionspflicht
+1. Ordentliche Revision
+Art. 727
+2. Eingeschränkte Revision
+Art. 727a
+II. Anforderungen an die Revisionsstelle
+1. Bei ordentlicher Revision
+Art. 727b
+2. Bei eingeschränkter Revision
+Art. 727c
+III. Ordentliche Revision
+1. Unabhängigkeit der Revisionsstelle
+Art. 728
+2. Aufgaben der Revisionsstelle
+a. Gegenstand und Umfang der Prüfung
+Art. 728a
+b. Revisionsbericht
+Art. 728b
+c. Anzeigepflichten
+Art. 728c
+IV. Eingeschränkte Revision
+1. Unabhängigkeit der Revisionsstelle616
+
+616 Fassung gemäss Ziff. I des BG vom 19. Juni 2020 (Aktienrecht), in Kraft seit 1. Jan. 2023 (AS 2020 4005; 2022 109; BBl 2017 399).
+Art. 729
+2. Aufgaben der Revisionsstelle
+a. Gegenstand und Umfang der Prüfung
+Art. 729a
+b. Revisionsbericht
+Art. 729b
+c. Anzeigepflicht
+Art. 729c
+V. Gemeinsame Bestimmungen
+1. Wahl der Revisionsstelle
+Art. 730
+2. Amtsdauer der Revisionsstelle
+Art. 730a
+3. Auskunft und Geheimhaltung
+Art. 730b
+4. Dokumentation und Aufbewahrung
+Art. 730c
+5. Abnahme der Rechnung und Gewinnverwendung
+Art. 731
+6. Besondere Bestimmungen
+Art. 731a
+D.618 Mängel in der Organisation der Gesellschaft
+
+618 Eingefügt durch Ziff. I 3 des BG vom 16. Dez. 2005 (GmbH-Recht sowie Anpassungen im Aktien-, Genossenschafts-, Handelsregister- und Firmenrecht), in Kraft seit 1. Jan. 2008 (AS 2007 4791; BBl 2002 3148, 2004 3969).
+Art. 731b
+Vierter Abschnitt:622
+Vergütungen bei Gesellschaften, deren Aktien an einer Börse kotiert sind
+
+622 Fassung gemäss Ziff. I des BG vom 19. Juni 2020 (Aktienrecht), in Kraft seit 1. Jan. 2023, Art. 734f in Kraft seit 1. Jan. 2021 (AS 2020 4005; 2022 109; BBl 2017 399).
+A. Geltungsbereich
+Art. 732
+Art. 732a
+B. Vergütungsausschuss
+Art. 733
+C. Vergütungsbericht
+I. Im Allgemeinen
+Art. 734
+II. Vergütungen an den Verwaltungsrat, die Geschäftsleitung und den Beirat
+Art. 734a
+III. Darlehen und Kredite an den Verwaltungsrat, die Geschäftsleitung und den Beirat
+Art. 734b
+IV. Vergütungen, Darlehen und Kredite an nahestehende Personen
+Art. 734c
+V. Beteiligungsrechte und Optionen auf solche Rechte
+Art. 734d
+VI. Tätigkeiten bei anderen Unternehmen
+Art. 734e
+VII. Vertretung der Geschlechter im Verwaltungsrat und in der Geschäftsleitung
+Art. 734f623
+D. Abstimmungen der Generalversammlung
+I. Vergütungen
+Art. 735
+II. Zusatzbetrag für die Geschäftsleitung
+Art. 735a
+E. Dauer der Verträge
+Art. 735b
+F. Unzulässige Vergütungen
+I. In der Gesellschaft
+Art. 735c
+II. Im Konzern
+Art. 735d
+Fünfter Abschnitt: Auflösung der Aktiengesellschaft
+A. Auflösung im Allgemeinen
+I. Gründe
+Art. 736
+II. Eintragung ins Handelsregister
+Art. 737626
+III. Folgen
+Art. 738627
+B. Auflösung mit Liquidation
+I. Zustand der Liquidation. Befugnisse
+Art. 739
+II. Bestellung und Abberufung der Liquidatoren
+1. Bestellung628
+
+628 Fassung gemäss Ziff. I des BG vom 4. Okt. 1991, in Kraft seit 1. Juli 1992 (AS 1992 733; BBl 1983 II 745).
+Art. 740
+2. Abberufung
+Art. 741631
+III. Liquidationstätigkeit
+1. Bilanz. Schuldenruf
+Art. 742
+2. Übrige Aufgaben
+Art. 743
+3. Gläubigerschutz
+Art. 744
+4. Verteilung des Vermögens
+Art. 745
+IV. Löschung im Handelsregister
+Art. 746
+V. Aufbewahrung von Aktienbuch, Geschäftsbüchern und Verzeichnis
+Art. 747635
+C. Auflösung ohne Liquidation
+I. …
+Art. 748–750636
+II. Übernahme durch eine Körperschaft des öffentlichen Rechts
+Art. 751
+Sechster Abschnitt: Verantwortlichkeit
+A. Haftung
+I. …
+Art. 752637
+II. Gründungshaftung
+Art. 753638
+III. Haftung für Verwaltung, Geschäftsführung und Liquidation
+Art. 754640
+IV. Revisionshaftung
+Art. 755641
+B. Schaden der Gesellschaft
+I. Ansprüche ausser Konkurs
+Art. 756643
+II. Ansprüche im Konkurs
+Art. 757645
+III. Wirkung des Entlastungsbeschlusses
+Art. 758648
+C. Solidarität und Rückgriff
+Art. 759650
+D. Verjährung
+Art. 760651
+Art. 761653
+Siebenter Abschnitt:
+Beteiligung von Körperschaften des öffentlichen Rechts
+Art. 762
+Achter Abschnitt:
+Ausschluss der Anwendung des Gesetzes
+auf öffentlich-rechtliche Anstalten
+Art. 763
+Siebenundzwanzigster Titel:
+Die Kommanditaktiengesellschaft
+A. Begriff
+Art. 764
+B. Verwaltung
+I. Bezeichnung und Befugnisse
+Art. 765
+II. Zustimmung zu Generalversammlungsbeschlüssen
+Art. 766
+III. Entziehung der Geschäftsführung und Vertretung
+Art. 767
+C. Aufsichtsstelle
+I. Bestellung und Befugnisse
+Art. 768
+II. Verantwortlichkeitsklage
+Art. 769
+D. Auflösung
+Art. 770
+E. Kündigung
+Art. 771
+Achtundzwanzigster Titel:660
+Die Gesellschaft mit beschränkter Haftung
+
+660 Fassung gemäss Ziff. I 2 des BG vom 16. Dez. 2005 (GmbH-Recht sowie Anpassungen im Aktien-, Genossenschafts-, Handelsregister- und Firmenrecht), in Kraft seit 1. Jan. 2008 (AS 2007 4791; BBl 2002 3148, 2004 3969).
+Erster Abschnitt: Allgemeine Bestimmungen
+A. Begriff
+Art. 772
+B. Stammkapital
+Art. 773661
+C. Stammanteile
+Art. 774
+D. Genussscheine
+Art. 774a
+E. …
+Art. 775663
+F. Statuten
+I. Gesetzlich vorgeschriebener Inhalt
+Art. 776
+II. …
+Art. 776a665
+G. Gründung
+I. Errichtungsakt
+Art. 777
+II. Zeichnung der Stammanteile
+Art. 777a
+III. Belege
+Art. 777b
+IV. Einlagen
+Art. 777c
+H. Eintragung ins Handelsregister
+I. Gesellschaft
+Art. 778
+II. …
+Art. 778a671
+J. Erwerb der Persönlichkeit
+I. Zeitpunkt; mangelnde Voraussetzungen
+Art. 779
+II. Vor der Eintragung eingegangene Verpflichtungen
+Art. 779a
+K. Statutenänderung
+Art. 780672
+L. Erhöhung des Stammkapitals
+Art. 781
+M. Herabsetzung des Stammkapitals
+Art. 782
+N. Erwerb eigener Stammanteile
+Art. 783
+Zweiter Abschnitt: Rechte und Pflichten der Gesellschafter
+A. Stammanteile
+I. Urkunde
+Art. 784
+II. Übertragung
+1. Abtretung
+a. Form
+Art. 785
+b. Zustimmungserfordernisse
+Art. 786
+c. Rechtsübergang
+Art. 787
+2. Besondere Erwerbsarten
+Art. 788
+3. Bestimmung des wirklichen Werts
+Art. 789
+4. Nutzniessung
+Art. 789a
+5. Pfandrecht
+Art. 789b
+III. Anteilbuch
+Art. 790
+IIIbis. Meldung der an Stammanteilen wirtschaftlich berechtigten Person
+Art. 790a679
+IV. Eintragung ins Handelsregister
+Art. 791680
+V. Gemeinschaftliches Eigentum
+Art. 792
+B. Leistung der Einlagen
+Art. 793
+C. Haftung der Gesellschafter
+Art. 794
+D. Nachschüsse und Nebenleistungen
+I. Nachschüsse
+1. Grundsatz und Betrag
+Art. 795
+2. Einforderung
+Art. 795a
+3. Rückzahlung
+Art. 795b
+4. Herabsetzung
+Art. 795c
+5. Fortdauer
+Art. 795d
+II. Nebenleistungen
+Art. 796
+III. Nachträgliche Einführung
+Art. 797
+IV. Schiedsgericht
+Art. 797a681
+E. Dividenden, Zinse, Tantiemen
+Art. 798682
+Art. 798a und 798b683
+F. Vorzugsstammanteile
+Art. 799
+G. Rückerstattung von Leistungen
+Art. 800
+H. Reserven
+Art. 801684
+J. Zustellung des Geschäftsberichts
+Art. 801a
+K. Auskunfts- und Einsichtsrecht
+Art. 802
+L. Treuepflicht und Konkurrenzverbot
+Art. 803
+Dritter Abschnitt: Organisation der Gesellschaft
+A. Gesellschafterversammlung
+I. Aufgaben
+Art. 804
+II. Einberufung und Durchführung
+Art. 805
+III. Stimmrecht
+1. Bemessung
+Art. 806
+2. Ausschliessung vom Stimmrecht
+Art. 806a
+3. Nutzniessung
+Art. 806b
+IV. Vetorecht
+Art. 807
+V. Beschlussfassung
+1. Im Allgemeinen
+Art. 808
+2. Stichentscheid
+Art. 808a
+3. Wichtige Beschlüsse
+Art. 808b
+VI. Anfechtung von Beschlüssen der Gesellschafterversammlung
+Art. 808c
+B. Geschäftsführung und Vertretung
+I. Bezeichnung der Geschäftsführer und Organisation
+Art. 809
+II. Aufgaben der Geschäftsführer
+Art. 810
+III. Genehmigung durch die Gesellschafterversammlung
+Art. 811
+IV. Sorgfalts- und Treuepflicht; Konkurrenzverbot
+Art. 812
+V. Gleichbehandlung
+Art. 813
+VI. Vertretung
+Art. 814
+VII. Abberufung von Geschäftsführern; Entziehung der Vertretungsbefugnis
+Art. 815
+VIII. Nichtigkeit von Beschlüssen
+Art. 816
+IX. Haftung
+Art. 817
+C. Revisionsstelle
+Art. 818
+D. Mängel in der Organisation der Gesellschaft
+Art. 819
+E. Drohende Zahlungsunfähigkeit, Kapitalverlust und Überschuldung
+Art. 820700
+Vierter Abschnitt: Auflösung und Ausscheiden
+A. Auflösung
+I. Gründe
+Art. 821
+II. Folgen
+Art. 821a
+B. Ausscheiden von Gesellschaftern
+I. Austritt
+Art. 822
+II. Anschlussaustritt
+Art. 822a
+III. Ausschluss
+Art. 823
+IV. Vorsorgliche Massnahme
+Art. 824
+V. Abfindung
+1. Anspruch und Höhe
+Art. 825
+2. Auszahlung
+Art. 825a
+C. Liquidation
+Art. 826
+Fünfter Abschnitt: Verantwortlichkeit
+Art. 827
+Neunundzwanzigster Titel: Die Genossenschaft
+Erster Abschnitt: Begriff und Errichtung
+A. Genossenschaft des Obligationenrechts
+Art. 828
+B. Genossenschaften des öffentlichen Rechts
+Art. 829
+C. Errichtung
+I. Erfordernisse
+1. Im Allgemeinen
+Art. 830702
+2. Zahl der Mitglieder
+Art. 831
+II. Statuten
+1. Gesetzlich vorgeschriebener Inhalt
+Art. 832
+2. Weitere Bestimmungen
+Art. 833
+III. Konstituierende Versammlung
+Art. 834
+IV. Eintragung ins Handelsregister
+1. Gesellschaft
+Art. 835711
+2. …
+Art. 836712
+3. Genossenschafterverzeichnis
+Art. 837713
+V. Erwerb der Persönlichkeit
+Art. 838
+D. Statutenänderung
+Art. 838a714
+Zweiter Abschnitt: Erwerb der Mitgliedschaft
+A. Grundsatz
+Art. 839
+B. Beitrittserklärung
+Art. 840
+C. Verbindung mit einem Versicherungsvertrag
+Art. 841
+Dritter Abschnitt: Verlust der Mitgliedschaft
+A. Austritt
+I. Freiheit des Austrittes
+Art. 842
+II. Beschränkung des Austrittes
+Art. 843
+III. Kündigungsfrist und Zeitpunkt des Austrittes
+Art. 844
+IV. Geltendmachung im Konkurs und bei Pfändung
+Art. 845
+B. Ausschliessung
+Art. 846
+C. Tod des Genossenschafters
+Art. 847
+D. Wegfall einer Beamtung oder Anstellung oder eines Vertrages
+Art. 848
+E. Übertragung der Mitgliedschaft
+I. Im Allgemeinen
+Art. 849
+II. Durch Übertragung von Grundstücken oder wirtschaftlichen Betrieben
+Art. 850
+F. Austritt des Rechtsnachfolgers
+Art. 851
+Vierter Abschnitt:
+Rechte und Pflichten der Genossenschafter
+A. Ausweis der Mitgliedschaft
+Art. 852
+B. Genossenschaftsanteile
+Art. 853
+C. Rechtsgleichheit
+Art. 854
+D. Rechte
+I. Stimmrecht
+Art. 855
+II. Kontrollrecht der Genossenschafter
+1. Bekanntmachung des Geschäftsberichts716
+
+716 Fassung gemäss Ziff. I des BG vom 19. Juni 2020 (Aktienrecht), in Kraft seit 1. Jan. 2023 (AS 2020 4005; 2022 109; BBl 2017 399).
+Art. 856
+2. Auskunfterteilung
+Art. 857
+III. Allfällige Rechte auf den Jahresgewinn720
+
+720 Ausdruck gemäss Ziff. I des BG vom 19. Juni 2020 (Aktienrecht), in Kraft seit 1. Jan. 2023 (AS 2020 4005; 2022 109; BBl 2017 399). Diese Änd. wurde in den in der AS genannten Bestimmungen vorgenommen.
+1. …
+Art. 858721
+2. Verteilungsgrundsätze
+Art. 859
+3. Pflicht zur Bildung und Äufnung eines Reservefonds
+Art. 860
+4. Jahresgewinn bei Kreditgenossenschaften
+Art. 861
+5. Fonds zu Wohlfahrtszwecken
+Art. 862
+6. Weitere Reserveanlagen
+Art. 863
+IV. Abfindungsanspruch
+1. Nach Massgabe der Statuten
+Art. 864
+2. Nach Gesetz
+Art. 865
+E. Pflichten
+I. Treuepflicht
+Art. 866
+II. Pflicht zu Beiträgen und Leistungen
+Art. 867
+III. Haftung
+1. Der Genossenschaft
+Art. 868
+2. Der Genossenschafter
+a. Unbeschränkte Haftung
+Art. 869
+b. Beschränkte Haftung
+Art. 870
+c. Nachschusspflicht
+Art. 871
+d. Unzulässige Beschränkungen
+Art. 872
+e. Verfahren im Konkurs
+Art. 873
+f. Änderung der Haftungsbestimmungen
+Art. 874
+g. Haftung neu eintretender Genossenschafter
+Art. 875
+h. Haftung nach Ausscheiden oder nach Auflösung
+Art. 876
+i. Anmeldung von Ein- und Austritt im Handelsregister
+Art. 877
+k. Verjährung der Haftung
+Art. 878
+Fünfter Abschnitt: Organisation der Genossenschaft
+A. Generalversammlung
+I. Befugnisse
+Art. 879
+II. Urabstimmung
+Art. 880
+III. Einberufung
+1. Recht und Pflicht
+Art. 881
+2. Form
+Art. 882
+3. Verhandlungsgegenstände
+Art. 883
+4. Universalversammlung
+Art. 884
+IV. Stimmrecht
+Art. 885
+V. Vertretung
+Art. 886
+VI. Ausschliessung vom Stimmrecht
+Art. 887
+VII. Beschlussfassung
+1. Im Allgemeinen
+Art. 888
+2. Bei Erhöhung der Leistungen der Genossenschafter
+Art. 889
+VIII. Abberufung der Verwaltung und der Revisionsstelle735
+
+735 Fassung gemäss Ziff. I 3 des BG vom 16. Dez. 2005 (GmbH-Recht sowie Anpassungen im Aktien-, Genossenschafts-, Handelsregister- und Firmenrecht), in Kraft seit 1. Jan. 2008 (AS 2007 4791; BBl 2002 3148, 2004 3969).
+Art. 890
+IX. Anfechtung der Generalversammlungsbeschlüsse
+Art. 891
+X. Delegiertenversammlung
+Art. 892
+XI. Ausnahmebestimmungen für Versicherungsgenossenschaften
+Art. 893
+XII. Tagungsort und Verwendung elektronischer Mittel
+Art. 893a738
+B. Verwaltung
+I. Wählbarkeit
+1. Mitgliedschaft
+Art. 894
+2. …
+Art. 895739
+II. Amtsdauer
+Art. 896
+III. Verwaltungsausschuss
+Art. 897
+IV. Geschäftsführung und Vertretung
+1. Im Allgemeinen
+Art. 898740
+2. Umfang und Beschränkung
+Art. 899
+3. Verträge zwischen der Genossenschaft und ihrem Vertreter
+Art. 899a742
+4. Zeichnung743
+
+743 Fassung gemäss Ziff. I 3 des BG vom 16. Dez. 2005 (GmbH-Recht sowie Anpassungen im Aktien-, Genossenschafts-, Handelsregister- und Firmenrecht), in Kraft seit 1. Jan. 2008 (AS 2007 4791; BBl 2002 3148, 2004 3969).
+Art. 900
+5. …
+Art. 901744
+V. Pflichten
+1. Im Allgemeinen
+Art. 902
+2. Rückerstattung von Leistungen
+Art. 902a746
+3. Drohende Zahlungsunfähigkeit, Kapitalverlust und Überschuldung
+Art. 903747
+VI. Rückerstattung entrichteter Zahlungen
+Art. 904
+VII. Einstellung und Abberufung
+Art. 905
+C. Revisionsstelle
+I. Im Allgemeinen
+Art. 906748
+II. Prüfung des Genossenschafterverzeichnisses
+Art. 907749
+D. Mängel in der Organisation
+Art. 908752
+Art. 909 und 910753
+Sechster Abschnitt: Auflösung der Genossenschaft
+A. Auflösungsgründe
+Art. 911
+B. Eintragung ins Handelsregister
+Art. 912754
+C. Liquidation, Verteilung des Vermögens
+Art. 913
+D. …
+Art. 914755
+E. Übernahme durch eine Körperschaft des öffentlichen Rechts
+Art. 915
+Siebenter Abschnitt: Verantwortlichkeit
+A. Haftung gegenüber der Genossenschaft
+Art. 916756
+B. Haftung gegenüber Genossenschaft, Genossenschaftern und Gläubigern
+Art. 917
+C. Solidarität und Rückgriff
+Art. 918
+D. Verjährung
+Art. 919757
+E. Bei Kredit- und Versicherungsgenossenschaften
+Art. 920
+Achter Abschnitt: Genossenschaftsverbände
+A. Voraussetzungen
+Art. 921
+B. Organisation
+I. Delegiertenversammlung
+Art. 922
+II. Verwaltung
+Art. 923
+III. Überwachung. Anfechtung
+Art. 924
+IV. Ausschluss neuer Verpflichtungen
+Art. 925
+Neunter Abschnitt:
+Beteiligung von Körperschaften des öffentlichen Rechts
+Art. 926
+Vierte Abteilung:761
+Handelsregister, Geschäftsfirmen und kaufmännische Buchführung
+
+761 Fassung gemäss BG vom 18. Dez. 1936, in Kraft seit 1. Juli 1937 (AS 53 185; BBl 1928 I 205, 1932 I 217). Siehe die Schl- und UeB zu den Tit. XXIV–XXXIII am Schluss des OR.
+Dreissigster Titel:762 Das Handelsregister
+
+762 Fassung gemäss Ziff. I 1 des BG vom 17. März 2017 (Handelsregisterrecht), in Kraft seit 1. Jan. 2021, Art. 928b und 928c in Kraft seit 1. April 2020 (AS 2020 957; BBl 2015 3617).
+A. Begriff und Zweck
+Art. 927
+B. Organisation
+I. Handelsregisterbehörden
+Art. 928
+II. Zusammenarbeit zwischen den Behörden
+Art. 928a
+C. Zentrale Datenbanken
+Art. 928b
+D. AHV-Nummer763 und Personennummer
+
+763 Ausdruck gemäss Anhang Ziff. 3 des BG vom 18. Dez. 2020 (Systematische Verwendung der AHV-Nummer durch Behörden), in Kraft seit 1. Jan. 2022 (AS 2021 758; BBl 2019 7359). Diese Änd. wurde in den in der AS genannten Bestimmungen vorgenommen.
+Art. 928c
+E. Eintragung, Änderung und Löschung
+I. Grundsätze
+Art. 929
+II. Unternehmens-Identifikationsnummer
+Art. 930
+III. Eintragungspflicht und freiwillige Eintragung
+1. Einzelunternehmen und Zweigniederlassungen
+Art. 931
+2. Institute des öffentlichen Rechts
+Art. 932
+IV. Änderung von Tatsachen
+Art. 933
+V. Löschung von Amtes wegen
+1. Bei Rechtseinheiten ohne Geschäftstätigkeit und ohne Aktiven
+Art. 934
+2. Bei fehlendem Rechtsdomizil von Einzelunternehmen und Zweigniederlassungen
+Art. 934a
+VI. Wiedereintragung
+Art. 935
+F. Öffentlichkeit und Wirksamkeit
+I. Öffentlichkeit und Veröffentlichung im Internet
+Art. 936
+II. Veröffentlichung im Schweizerischen Handelsamtsblatt und Beginn der Wirksamkeit
+Art. 936a
+III. Wirkungen
+Art. 936b
+G. Pflichten
+I. Prüfungspflicht
+Art. 937
+II. Aufforderung und Eintragung von Amtes wegen
+Art. 938
+III. Mängel in der Organisation
+Art. 939
+H. Ordnungsbussen
+Art. 940
+I. Gebühren
+Art. 941
+J. Rechtsschutz
+Art. 942
+K. Verordnung
+Art. 943
+Einunddreissigster Titel: Die Geschäftsfirmen
+A. Grundsätze der Firmenbildung
+I. Allgemeine Bestimmungen
+Art. 944
+II. Einzelunternehmen
+1. Wesentlicher Inhalt768
+
+768 Fassung gemäss Ziff. I 3 des BG vom 16. Dez. 2005 (GmbH-Recht sowie Anpassungen im Aktien-, Genossenschafts-, Handelsregister- und Firmenrecht), in Kraft seit 1. Jan. 2008 (AS 2007 4791; BBl 2002 3148, 2004 3969).
+Art. 945
+2. Ausschliesslichkeit der eingetragenen Firma
+Art. 946
+Art. 947 und 948772
+Art. 949773
+III. Gesellschaftsfirmen
+1. Bildung der Firma
+Art. 950774
+2. Ausschliesslichkeit der eingetragenen Firma
+Art. 951775
+IV. Zweigniederlassungen
+Art. 952
+V. …
+Art. 953776
+VI. Namensänderung
+Art. 954
+B. Firmen- und Namensgebrauchspflicht
+Art. 954a777
+C. Überwachung778
+
+778 Fassung gemäss Ziff. I 3 des BG vom 16. Dez. 2005 (GmbH-Recht sowie Anpassungen im Aktien-, Genossenschafts-, Handelsregister- und Firmenrecht), in Kraft seit 1. Jan. 2008 (AS 2007 4791; BBl 2002 3148, 2004 3969).
+Art. 955
+D. Vorbehalt anderer bundesrechtlicher Vorschriften
+Art. 955a779
+E. Schutz der Firma780
+
+780 Fassung gemäss Anhang Ziff. 2 des BG vom 21. Juni 2013, in Kraft seit 1. Jan. 2017 (AS 2015 3631; BBl 2009 8533).
+Art. 956
+Zweiunddreissigster Titel:781
+Kaufmännische Buchführung, Rechnungslegung,
+weitere Transparenz- und Sorgfaltspflichten782
+
+781 Fassung gemäss Ziff. I 2 des BG vom 23. Dez. 2011 (Rechnungslegungsrecht), in Kraft seit 1. Jan. 2013 (AS 2012 6679; BBl 2008 1589). Siehe auch die UeB dieser Änd. am Schluss des Textes.
+
+782 Fassung gemäss Ziff. I des BG vom 19. Juni 2020 (Indirekter Gegenvorschlag zur Volksinitiative «Für verantwortungsvolle Unternehmen – zum Schutz von Mensch und Umwelt»), in Kraft seit 1. Jan. 2022 (AS 2021 846; BBl 2017 399).
+Erster Abschnitt: Allgemeine Bestimmungen
+A. Pflicht zur Buchführung und Rechnungslegung
+Art. 957
+B. Buchführung
+Art. 957a
+C. Rechnungslegung
+I. Zweck und Bestandteile
+Art. 958
+II. Grundlagen der Rechnungslegung
+1. Annahme der Fortführung
+Art. 958a
+2. Zeitliche und sachliche Abgrenzung
+Art. 958b
+III. Grundsätze ordnungsmässiger Rechnungslegung
+Art. 958c
+IV. Darstellung, Währung und Sprache
+Art. 958d
+D. Veröffentlichung und Einsichtnahme785
+
+785 Fassung gemäss Ziff. I des BG vom 19. Juni 2020 (Aktienrecht), in Kraft seit 1. Jan. 2023 (AS 2020 4005; 2022 109; BBl 2017 399).
+Art. 958e
+E. Führung und Aufbewahrung der Geschäftsbücher
+Art. 958f
+Zweiter Abschnitt:
+Jahresrechnung und Zwischenabschluss787
+
+787 Fassung gemäss Ziff. I des BG vom 19. Juni 2020 (Aktienrecht), in Kraft seit 1. Jan. 2023 (AS 2020 4005; 2022 109; BBl 2017 399).
+A. Bilanz
+I. Zweck der Bilanz, Bilanzierungspflicht und Bilanzierungsfähigkeit
+Art. 959
+II. Mindestgliederung
+Art. 959a
+B. Erfolgsrechnung; Mindestgliederung
+Art. 959b
+C. Anhang
+Art. 959c
+D. Bewertung
+I. Grundsätze
+Art. 960
+II. Aktiven
+1. Im Allgemeinen
+Art. 960a
+2. Aktiven mit beobachtbaren Marktpreisen
+Art. 960b
+3. Vorräte und nicht fakturierte Dienstleistungen
+Art. 960c
+4. Anlagevermögen
+Art. 960d
+III. Verbindlichkeiten
+Art. 960e
+E. Zwischenabschluss
+Art. 960f795
+Dritter Abschnitt:
+Rechnungslegung für grössere Unternehmen
+A. Zusätzliche Anforderungen an den Geschäftsbericht
+Art. 961
+B. Zusätzliche Angaben im Anhang zur Jahresrechnung
+Art. 961a
+C. Geldflussrechnung
+Art. 961b
+D. Lagebericht
+Art. 961c
+E. Erleichterungen796
+
+796 Fassung gemäss Ziff. I des BG vom 19. Juni 2020 (Aktienrecht), in Kraft seit 1. Jan. 2023 (AS 2020 4005; 2022 109; BBl 2017 399).
+Art. 961d
+Vierter Abschnitt:
+Abschluss nach anerkanntem Standard zur Rechnungslegung
+A. Im Allgemeinen
+Art. 962
+B. Anerkannte Standards zur Rechnungslegung
+Art. 962a
+Fünfter Abschnitt: Konzernrechnung
+A. Pflicht zur Erstellung
+Art. 963
+B. Befreiung von der Pflicht zur Erstellung
+Art. 963a
+C. Anerkannte Standards zur Rechnungslegung
+Art. 963b
+Art. 964800
+Sechster Abschnitt:801
+Transparenz über nichtfinanzielle Belange
+
+801 Eingefügt durch Ziff. I und III 1 des BG vom 19. Juni 2020 (Indirekter Gegenvorschlag zur Volksinitiative «Für verantwortungsvolle Unternehmen – zum Schutz von Mensch und Umwelt»), in Kraft seit 1. Jan. 2022 (AS 2021 846; BBl 2017 399). Siehe auch die UeB dieser Änd. am Schluss des Textes.
+A. Grundsatz
+Art. 964a
+B. Zweck und Inhalt des Berichts
+Art. 964b
+C. Genehmigung, Veröffentlichung, Führung und Aufbewahrung
+Art. 964c
+Siebter Abschnitt:803
+Transparenz bei Rohstoffunternehmen
+
+803 Ursprünglich: Sechster Abschnitt und Art. 964a–964f. Eingefügt durch Ziff. I des BG vom 19. Juni 2020 (Aktienrecht), in Kraft seit 1. Jan. 2021 (AS 2020 4005; BBl 2017 399). Siehe auch Art. 7 der UeB dieser Änd. am Schluss des Textes.
+A. Grundsatz
+Art. 964d
+B. Arten von Leistungen
+Art. 964e
+C. Form und Inhalt des Berichts
+Art. 964f
+D. Veröffentlichung
+Art. 964g
+E. Führung und Aufbewahrung
+Art. 964h
+F. Ausdehnung des Anwendungsbereichs
+Art. 964i
+Achter Abschnitt:804
+Sorgfaltspflichten und Transparenz bezüglich Mineralien und Metallen aus Konfliktgebieten und Kinderarbeit
+
+804 Eingefügt durch Ziff. I und III 1 des BG vom 19. Juni 2020 (Indirekter Gegenvorschlag zur Volksinitiative «Für verantwortungsvolle Unternehmen – zum Schutz von Mensch und Umwelt»), in Kraft seit 1. Jan. 2022 (AS 2021 846; BBl 2017 399). Siehe auch die UeB dieser Änd. am Schluss des Textes.
+A. Grundsatz
+Art. 964j
+B. Sorgfaltspflichten
+Art. 964k
+C. Berichterstattung
+Art. 964l
+Fünfte Abteilung:805 Die Wertpapiere
+
+805 Fassung gemäss BG vom 18. Dez. 1936, in Kraft seit 1. Juli 1937 (AS 53 185; BBl 1928 I 205, 1932 I 217). Siehe die Schl- und UeB zu den Tit. XXIV–XXXIII am Schluss des OR.
+Dreiunddreissigster Titel:
+Die Namen-, Inhaber- und Ordrepapiere
+Erster Abschnitt: Allgemeine Bestimmungen
+A. Begriff des Wertpapiers
+Art. 965
+B. Verpflichtung aus dem Wertpapier
+Art. 966
+C. Übertragung des Wertpapiers
+I. Allgemeine Form
+Art. 967
+II. Indossierung
+1. Form
+Art. 968
+2. Wirkung
+Art. 969
+D. Umwandlung
+Art. 970
+E. Kraftloserklärung
+I. Geltendmachung
+Art. 971
+II. Verfahren. Wirkung
+Art. 972
+F. Besondere Vorschriften
+Art. 973
+G. Sammelverwahrung, Globalurkunde und einfache Wertrechte807
+
+807 Fassung gemäss Ziff. I 1 des BG vom 25. Sept. 2020 zur Anpassung des Bundesrechts an Entwicklungen der Technik verteilter elektronischer Register, in Kraft seit 1. Febr. 2021 (AS 2021 33; BBl 2020 233).
+I. Sammelverwahrung von Wertpapieren
+Art. 973a808
+II. Globalurkunde
+Art. 973b809
+III. Einfache Wertrechte810
+
+810 Fassung gemäss Ziff. I 1 des BG vom 25. Sept. 2020 zur Anpassung des Bundesrechts an Entwicklungen der Technik verteilter elektronischer Register, in Kraft seit 1. Febr. 2021 (AS 2021 33; BBl 2020 233).
+Art. 973c811
+H. Registerwertrechte
+I. Errichtung
+Art. 973d813
+II. Wirkungen
+Art. 973e814
+III. Übertragung
+Art. 973f815
+IV. Sicherheiten
+Art. 973g816
+V. Kraftloserklärung
+Art. 973h818
+VI. Information und Haftung
+Art. 973i819
+Zweiter Abschnitt: Die Namenpapiere
+A. Begriff
+Art. 974
+B. Ausweis über das Gläubigerrecht
+I. In der Regel
+Art. 975
+II. Beim hinkenden Inhaberpapier
+Art. 976
+C. Kraftloserklärung
+Art. 977
+Dritter Abschnitt: Die Inhaberpapiere
+A. Begriff
+Art. 978
+B. Einreden des Schuldners
+I. Im Allgemeinen
+Art. 979
+II. Bei Inhaberzinscoupons
+Art. 980
+C. Kraftloserklärung
+I. Im Allgemeinen
+1. Begehren820
+
+820 Fassung gemäss Anhang Ziff. 5 des Gerichtsstandsgesetzes vom 24. März 2000, in Kraft seit 1. Jan. 2001 (AS 2000 2355; BBl 1999 III 2829).
+Art. 981
+2. Zahlungsverbot
+Art. 982
+3. Aufgebot, Anmeldungsfrist
+Art. 983
+4. Art der Bekanntmachung
+Art. 984
+5. Wirkung
+a. Bei Vorlegung der Urkunde
+Art. 985
+b. Bei Nichtvorlegung
+Art. 986
+II. Bei Coupons im besondern
+Art. 987
+III. Bei Banknoten und ähnlichen Papieren
+Art. 988
+D. Schuldbrief
+Art. 989823
+Vierter Abschnitt: Der Wechsel
+A. Wechselfähigkeit
+Art. 990
+B. Gezogener Wechsel
+I. Ausstellung und Form des gezogenen Wechsels
+1. Erfordernisse
+Art. 991
+2. Fehlen von Erfordernissen
+Art. 992
+3. Arten
+Art. 993
+4. Zahlstellen. Domizilwechsel
+Art. 994
+5. Zinsversprechen
+Art. 995
+6. Verschiedene Bezeichnung der Wechselsumme
+Art. 996
+7. Unterschriften von Wechselunfähigen
+Art. 997
+8. Unterschrift ohne Ermächtigung
+Art. 998
+9. Haftung des Ausstellers
+Art. 999
+10. Blankowechsel
+Art. 1000
+II. Indossament
+1. Übertragbarkeit
+Art. 1001
+2. Erfordernisse
+Art. 1002
+3. Form
+Art. 1003
+4. Wirkungen
+a. Übertragungsfunktion
+Art. 1004
+b. Garantiefunktion
+Art. 1005
+c. Legitimation des Inhabers
+Art. 1006
+5. Einreden
+Art. 1007
+6. Vollmachtsindossament
+Art. 1008
+7. Offenes Pfandindossament
+Art. 1009
+8. Nachindossament
+Art. 1010
+III. Annahme
+1. Recht zur Vorlegung
+Art. 1011
+2. Gebot und Verbot der Vorlegung
+Art. 1012
+3. Pflicht zur Vorlegung bei Nachsichtwechseln
+Art. 1013
+4. Nochmalige Vorlegung
+Art. 1014
+5. Form der Annahme
+Art. 1015
+6. Einschränkungen der Annahme
+Art. 1016
+7. Domiziliat und Zahlstelle
+Art. 1017
+8. Wirkung der Annahme
+a. Im Allgemeinen
+Art. 1018
+b. Bei Streichung
+Art. 1019
+IV. Wechselbürgschaft
+1. Wechselbürgen
+Art. 1020
+2. Form
+Art. 1021
+3. Wirkungen
+Art. 1022
+V. Verfall
+1. Im Allgemeinen
+Art. 1023
+2. Bei Sichtwechseln
+Art. 1024
+3. Bei Nachsichtwechseln
+Art. 1025
+4. Fristenberechnung
+Art. 1026
+5. Zeitberechnung nach altem Stil
+Art. 1027
+VI. Zahlung
+1. Vorlegung zur Zahlung
+Art. 1028
+2. Recht auf Quittung. Teilzahlung
+Art. 1029
+3. Zahlung vor und bei Verfall
+Art. 1030
+4. Zahlung in fremder Währung
+Art. 1031
+5. Hinterlegung
+Art. 1032
+VII. Rückgriff mangels Annahme und mangels Zahlung
+1. Rückgriff des Inhabers
+Art. 1033825
+2. Protest
+a. Fristen und Erfordernisse
+Art. 1034
+b. Zuständigkeit
+Art. 1035
+c. Inhalt
+Art. 1036
+d. Form
+Art. 1037
+e. Bei Teilannahme
+Art. 1038
+f. Gegen mehrere Personen
+Art. 1039
+g. Abschrift der Protesturkunde
+Art. 1040
+h. Mangelhafter Protest
+Art. 1041
+3. Benachrichtigung
+Art. 1042
+4. Protesterlass
+Art. 1043
+5. Solidarische Haftung der Wechselverpflichteten
+Art. 1044
+6. Inhalt des Rückgriffs
+a. Des Inhabers
+Art. 1045
+b. Des Einlösers
+Art. 1046
+c. Recht auf Aushändigung von Wechsel, Protest und Quittung
+Art. 1047
+d. Bei Teilannahme
+Art. 1048
+e. Rückwechsel
+Art. 1049
+7. Präjudizierung
+a. Im Allgemeinen
+Art. 1050
+b. Höhere Gewalt
+Art. 1051
+c. Ungerechtfertigte Bereicherung
+Art. 1052
+VIII. Übergang der Deckung
+Art. 1053
+IX. Ehreneintritt
+1. Allgemeine Vorschriften
+Art. 1054
+2. Ehrenannahme
+a. Voraussetzungen. Stellung des Inhabers
+Art. 1055
+b. Form
+Art. 1056
+c. Haftung des Ehrenannehmenden. Wirkung auf das Rückgriffsrecht
+Art. 1057
+3. Ehrenzahlung
+a. Voraussetzungen
+Art. 1058
+b. Verpflichtung des Inhabers
+Art. 1059
+c. Folge der Zurückweisung
+Art. 1060
+d. Recht auf Aushändigung von Wechsel, Protest und Quittung
+Art. 1061
+e. Übergang der Inhaberrechte. Mehrere Ehrenzahlungen
+Art. 1062
+X. Ausfertigung mehrerer Stücke eines Wechsels
+(Duplikate), Wechselabschriften (Wechselkopien)
+1. Ausfertigungen
+a. Recht auf mehrere Ausfertigungen
+Art. 1063
+b. Verhältnis der Ausfertigungen
+Art. 1064
+c. Annahmevermerk
+Art. 1065
+2. Abschriften
+a. Form und Wirkung
+Art. 1066
+b. Auslieferung der Urschrift
+Art. 1067
+XI. Änderungen des Wechsels
+Art. 1068
+XII. Verjährung
+1. Fristen
+Art. 1069
+2. Unterbrechung
+a. Gründe
+Art. 1070
+b. Wirkungen
+Art. 1071
+XIII. Kraftloserklärung
+1. Vorsorgliche Massnahmen
+Art. 1072
+2. Bekannter Inhaber
+Art. 1073
+3. Unbekannter Inhaber
+a. Pflichten des Gesuchstellers
+Art. 1074
+b. Einleitung des Aufgebots
+Art. 1075
+c. Fristen
+Art. 1076
+d. Veröffentlichung
+Art. 1077
+4. Wirkung
+a. Bei Vorlegung des Wechsels
+Art. 1078
+b. Bei Nichtvorlegung
+Art. 1079
+5. Gerichtliche Verfügungen
+Art. 1080
+XIV. Allgemeine Vorschriften
+1. Fristbestimmungen
+a. Feiertage
+Art. 1081
+b. Fristberechnung
+Art. 1082
+c. Ausschluss von Respekttagen
+Art. 1083
+2. Ort der Vornahme wechselrechtlicher Handlungen
+Art. 1084
+3. Eigenhändige Unterschrift. Unterschrift des Blinden
+Art. 1085
+XV. Geltungsbereich der Gesetze
+1. Wechselfähigkeit
+Art. 1086
+2. Form und Fristen der Wechselerklärungen
+a. Im Allgemeinen
+Art. 1087
+b. Handlungen zur Ausübung und Erhaltung des Wechselrechts
+Art. 1088
+c. Ausübung des Rückgriffs
+Art. 1089
+3. Wirkung der Wechselerklärungen
+a. Im Allgemeinen
+Art. 1090
+b. Teilannahme und Teilzahlung
+Art. 1091
+c. Zahlung
+Art. 1092
+d. Bereicherungsanspruch
+Art. 1093
+e. Übergang der Deckung
+Art. 1094
+f. Kraftloserklärung
+Art. 1095
+C. Eigener Wechsel
+1. Erfordernisse
+Art. 1096
+2. Fehlen von Erfordernissen
+Art. 1097
+3. Verweisung auf den gezogenen Wechsel
+Art. 1098
+4. Haftung des Ausstellers. Vorlegung zur Sichtnahme
+Art. 1099
+Fünfter Abschnitt: Der Check
+I. Ausstellung und Form des Checks
+1. Erfordernisse
+Art. 1100
+2. Fehlen von Erfordernissen
+Art. 1101
+3. Passive Checkfähigkeit
+Art. 1102
+4. Deckungserfordernis
+Art. 1103
+5. Ausschluss der Annahme
+Art. 1104
+6. Bezeichnung des Remittenten
+Art. 1105
+7. Zinsvermerk
+Art. 1106
+8. Zahlstellen. Domizilcheck
+Art. 1107
+II. Übertragung
+1. Übertragbarkeit
+Art. 1108
+2. Erfordernisse
+Art. 1109
+3. Legitimation des Inhabers
+Art. 1110
+4. Inhabercheck
+Art. 1111
+5. Abhandengekommener Check
+Art. 1112
+6. Rechte aus dem Nachindossament
+Art. 1113
+III. Checkbürgschaft
+Art. 1114
+IV. Vorlegung und Zahlung
+1. Verfallzeit
+Art. 1115
+2. Vorlegung zur Zahlung
+Art. 1116
+3. Zeitberechnung nach altem Stil
+Art. 1117
+4. Einlieferung in eine Abrechnungsstelle
+Art. 1118
+5. Widerruf
+a. Im Allgemeinen
+Art. 1119
+b. Bei Tod, Handlungsunfähigkeit, Konkurs
+Art. 1120
+6. Prüfung der Indossamente
+Art. 1121
+7. Zahlung in fremder Währung
+Art. 1122
+V. Gekreuzter Check und Verrechnungscheck
+1. Gekreuzter Check
+a. Begriff
+Art. 1123
+b. Wirkungen
+Art. 1124
+2. Verrechnungscheck
+a. Im Allgemeinen
+Art. 1125
+b. Rechte des Inhabers bei Konkurs, Zahlungseinstellung, Zwangsvollstreckung
+Art. 1126
+c. Rechte des Inhabers bei Verweigerung der Gutschrift oder der Ausgleichung
+Art. 1127
+VI. Rückgriff mangels Zahlung
+1. Rückgriffsrechte des Inhabers
+Art. 1128
+2. Protesterhebung. Fristen
+Art. 1129
+3. Inhalt der Rückgriffsforderung
+Art. 1130
+4. Vorbehalt der höheren Gewalt
+Art. 1131
+VII. Gefälschter Check
+Art. 1132
+VIII. Ausfertigung mehrerer Stücke eines Checks
+Art. 1133
+IX. Verjährung
+Art. 1134
+X. Allgemeine Vorschriften
+1. Begriff des «Bankiers»
+Art. 1135
+2. Fristbestimmungen
+a. Feiertage
+Art. 1136
+b. Fristberechnung
+Art. 1137
+XI. Geltungsbereich der Gesetze
+1. Passive Checkfähigkeit
+Art. 1138
+2. Form und Fristen der Checkerklärungen
+Art. 1139
+3. Wirkung der Checkerklärungen
+a. Recht des Ausstellungsortes
+Art. 1140
+b. Recht des Zahlungsortes
+Art. 1141
+c. Recht des Wohnsitzes
+Art. 1142
+XII. Anwendbarkeit des Wechselrechts
+Art. 1143
+XIII. Vorbehalt besondern Rechtes
+Art. 1144
+Sechster Abschnitt:
+Wechselähnliche und andere Ordrepapiere
+A. Im Allgemeinen
+I. Voraussetzungen
+Art. 1145
+II. Einreden des Schuldners
+Art. 1146
+B. Wechselähnliche Papiere
+I. Anweisungen an Ordre
+1. Im Allgemeinen
+Art. 1147
+2. Keine Annahmepflicht
+Art. 1148
+3. Folgen der Annahme
+Art. 1149
+4. Keine Wechselbetreibung
+Art. 1150
+II. Zahlungsversprechen an Ordre
+Art. 1151
+C. Andere indossierbare Papiere
+Art. 1152
+Siebenter Abschnitt: Die Warenpapiere
+A. Erfordernisse
+I. Im Allgemeinen835
+
+835 Fassung gemäss Ziff. I 1 des BG vom 25. Sept. 2020 zur Anpassung des Bundesrechts an Entwicklungen der Technik verteilter elektronischer Register, in Kraft seit 1. Febr. 2021 (AS 2021 33; BBl 2020 233).
+Art. 1153
+II. Gleichwertige Titel in Wertrechteregistern
+Art. 1153a836
+B. Der Pfandschein
+Art. 1154
+C. Bedeutung der Formvorschriften
+Art. 1155
+Vierunddreissigster Titel: Anleihensobligationen
+Erster Abschnitt: …
+Art. 1156837
+Zweiter Abschnitt:838
+Gläubigergemeinschaft bei Anleihensobligationen
+
+838 Fassung gemäss Ziff. I des BG vom 1. April 1949, in Kraft seit 1. Jan. 1950 (AS 1949 I 791; BBl 1947 III 869). Siehe die SchlB zu diesem Abschn. (zweiter Abschn. des XXXIV. Tit.) am Schluss des OR.
+A. Voraussetzungen
+Art. 1157
+B. Anleihensvertreter
+I. Bestellung
+Art. 1158
+II. Befugnisse
+1. Im Allgemeinen
+Art. 1159
+2. Kontrolle des Schuldners
+Art. 1160
+3. Bei pfandgesicherten Anleihen
+Art. 1161
+III. Dahinfallen der Vollmacht
+Art. 1162
+IV. Kosten
+Art. 1163
+C. Gläubigerversammlung
+I. Im Allgemeinen
+Art. 1164
+II. Einberufung
+1. Im Allgemeinen
+Art. 1165
+2. Stundung
+Art. 1166
+III. Abhaltung
+1. Stimmrecht
+Art. 1167
+2. Vertretung einzelner Anleihensgläubiger
+Art. 1168
+IV. Verfahrensvorschriften
+Art. 1169
+D. Gemeinschaftsbeschlüsse
+I. Eingriffe in die Gläubigerrechte
+1. Zulässigkeit und erforderliche Mehrheit
+a. Bei nur einer Gemeinschaft
+Art. 1170
+b. Bei mehreren Gemeinschaften
+Art. 1171
+c. Feststellung der Mehrheit
+Art. 1172
+2. Beschränkungen
+a. Im Allgemeinen
+Art. 1173
+b. Gleichbehandlung
+Art. 1174
+c. Status und Bilanz
+Art. 1175842
+3. Genehmigung
+a. Im Allgemeinen
+Art. 1176
+b. Voraussetzungen
+Art. 1177
+c. Weiterzug
+Art. 1178
+d. Widerruf
+Art. 1179
+II. Andere Beschlüsse
+1. Vollmacht des Anleihensvertreters
+Art. 1180
+2. Die übrigen Fälle
+Art. 1181
+3. Anfechtung
+Art. 1182
+E. Besondere Anwendungsfälle
+I. Konkurs des Schuldners
+Art. 1183
+II. Nachlassvertrag
+Art. 1184
+III. Anleihen von Eisenbahn- oder Schiffahrtsunternehmungen
+Art. 1185
+F. Abweichende Abreden
+Art. 1186844
+Übergangsbestimmungen des Bundesgesetzes
+vom 30. März 1911
+Schlussbestimmungen der Änderung
+vom 23. März 1962848
+
+848 AS 1962 1047; BBl 1960 I 523
+A. Konkursprivileg
+Art. 1
+B. Unlauterer Wettbewerb
+Art. 2
+C. Übergangsrecht
+Art. 3
+D. Inkrafttreten
+Art. 4
+Übergangsbestimmungen der Änderung
+vom 16. Dezember 2005852
+
+852 AS 2007 4791; BBl 2002 3148, 2004 3969
+A. Allgemeine Regel
+Art. 1
+B. Anpassungsfrist
+Art. 2
+C. Leistung der Einlagen
+Art. 3
+D. Partizipationsscheine und Genussscheine
+Art. 4
+E. Eigene Stammanteile
+Art. 5
+F. Nachschusspflicht
+Art. 6
+G. Revisionsstelle
+Art. 7
+H. Stimmrecht
+Art. 8
+J. Anpassung statutarischer Mehrheitserfordernisse
+Art. 9
+K. Vernichtung von Aktien und Stammanteilen im Fall einer Sanierung
+Art. 10
+L. Ausschliesslichkeit eingetragener Firmen
+Art. 11
+Übergangsbestimmung zur Änderung vom 17. Juni 2011855
+
+855 AS 2011 5863; BBl 2008 1589
+Übergangsbestimmungen der Änderung
+vom 23. Dezember 2011856
+
+856 AS 2012 6679; BBl 2008 1589
+A. Allgemeine Regel
+Art. 1
+B. Kaufmännische Buchführung und Rechnungslegung
+Art. 2
+Übergangsbestimmungen der Änderung
+vom 12. Dezember 2014858
+
+858 AS 2015 1389; BBl 2014 605
+A. Allgemeine Regel
+Art. 1
+B. Anpassung von Statuten und Reglementen
+Art. 2
+C. Meldepflichten
+Art. 3
+Übergangsbestimmungen der Änderung
+vom 25. September 2015860
+
+860 AS 2016 1507; BBl 2014 9305
+A. Allgemeine Regel
+Art. 1
+B. Anpassung eingetragener Firmen
+Art. 2
+C. Ausschliesslichkeit der eingetragenen Firma
+Art. 3
+Übergangsbestimmungen zur Änderung vom
+17. März 2017862
+
+862 AS 2020 957; BBl 2015 3617
+A. Allgemeine Regeln
+Art. 1
+B. Eintragungspflicht von Instituten des öffentlichen Rechts
+Art. 2
+Übergangsbestimmungen zur Änderung vom
+21. Juni 2019864
+
+864 AS 2019 3161; BBl 2019 279
+A. Allgemeine Bestimmungen
+Art. 1
+B. Meldung der Ausnahmefälle beim Handelsregisteramt
+Art. 2
+C. Gesellschaften ohne börsenkotierte Beteiligungspapiere mit nicht als Bucheffekten ausgestalteten Inhaberaktien
+1. Geltungsbereich
+Art. 3
+2. Umwandlung von Inhaberaktien in Namenaktien
+Art. 4
+3. Anpassung der Statuten und Eintragung ins Handelsregister
+Art. 5
+4. Aktualisierung des Aktienbuchs und Suspendierung von Rechten
+Art. 6
+5. Nachholen der Meldung
+Art. 7
+6. Endgültiger Verlust der Aktionärseigenschaft
+Art. 8
+Übergangsbestimmungen zur Änderung vom
+19. Juni 2020866
+
+866 AS 2020 4005; 2021 846 Ziff. III 1; 2022 109; BBl 2017 399
+A. Allgemeine Regel
+Art. 1
+B. Anpassung von Statuten und Reglementen
+Art. 2
+C. Genehmigte Kapitalerhöhung und Kapitalerhöhung aus bedingtem Kapital
+Art. 3
+D. Vertretung der Geschlechter
+Art. 4
+E. Konkursaufschub
+Art. 5
+F. Anpassung altrechtlicher Verträge
+Art. 6
+G. Transparenz bei Rohstoffunternehmen
+Art. 7
+Übergangsbestimmung zur Änderung vom 19. Juni 2020868
+
+868 AS 2021 846; BBl 2017 399
+Schlussbestimmungen zum VIII. Titel
+und zum VIIIbis. Titel869
+
+869 Eingefügt durch Ziff. II des BG vom 15. Dez. 1989, in Kraft seit 1. Juli 1990 (AS 1990 802; BBl 1985 I 1389).
+Art. 1
+Art. 2–4
+Art. 5
+Art. 6
+Schluss- und Übergangsbestimmungen zum X. Titel872
+
+872 Eingefügt durch Ziff. II des BG vom 25. Juni 1971, in Kraft seit 1. Jan. 1972 (AS 1971 1465; BBl 1967 II 241).
+Änderung des OR
+Art. 1
+Änderung des ZGB
+Art. 2
+Änderung des Versicherungsvertragsgesetzes
+Art. 3
+Änderung des Landwirtschaftsgesetzes
+Art. 4
+Änderung des Arbeitsgesetzes
+Art. 5
+Aufhebung eidgenössischer Vorschriften
+Art. 6
+Anpassung altrechtlicher Verhältnisse
+Art. 7
+Inkrafttreten des Gesetzes
+Art. 8
+Schlussbestimmungen zum vierten Abschnitt
+des XIII. Titels892
+
+892 Eingefügt durch Ziff. II des BG vom 4. Febr. 1949, in Kraft seit 1. Jan. 1950 (AS 1949 I 802; BBl 1947 III 661).
+A. Übergangsrecht
+Art. 1
+B. Konkursprivileg
+Art. 2
+C. Inkrafttreten
+Art. 3
+Übergangsbestimmungen zum XX. Titel894
+
+894 Eingefügt durch Ziff. II des BG vom 10. Dez. 1941, in Kraft seit 1. Juli 1942 (AS 58 279 644; BBl 1939 II 841).
+Schluss- und Übergangsbestimmungen
+zu den Titeln XXIV–XXXIII897
+
+897 Eingefügt durch das BG vom 18. Dez. 1936, in Kraft seit 1. Juli 1937 (AS 53 185; BBl 1928 I 205, 1932 I 217).
+A. Anwendbarkeit des Schlusstitels
+Art. 1
+B. Anpassung alter Gesellschaften an das neue Recht
+I. Im Allgemeinen
+Art. 2
+II. Wohlfahrtsfonds
+Art. 3
+Art. 4901
+C. Bilanzvorschriften
+I. Vorbehalt ausserordentlicher Verhältnisse
+Art. 5
+II. …
+Art. 6902
+D. Haftungsverhältnisse der  Genossenschafter
+Art. 7
+E. Geschäftsfirmen
+Art. 8
+F. Früher ausgegebene Wertpapiere
+I. Namenpapiere
+Art. 9
+II. Aktien
+1. Nennwert
+Art. 10
+2. Nicht voll einbezahlte Inhaberaktien
+Art. 11
+III. Wechsel und Checks
+Art. 12
+G. Gläubigergemeinschaft
+Art. 13
+H. …
+Art. 14906
+J. Abänderung des Schuldbetreibungs- und Konkursgesetzes
+Art. 15
+K. Verhältnis zum Bankengesetz
+I. Allgemeiner Vorbehalt
+Art. 16
+II. Abänderung einzelner Vorschriften
+Art. 17
+L. Aufhebung von Bundeszivilrecht
+Art. 18
+M. Inkrafttreten dieses Gesetzes
+Art. 19
+Schlussbestimmungen zum XXVI. Titel912
+
+912 Eingefügt durch Ziff. III des BG vom 4. Okt. 1991, in Kraft seit 1. Juli 1992 (AS 1992 733; BBl 1983 II 745).
+A. Schlusstitel des Zivilgesetzbuches
+Art. 1
+B. Anpassung an das neue Recht
+I. Im Allgemeinen
+Art. 2
+II. Einzelne Bestimmungen
+1. Partizipations- und Genussscheine
+Art. 3
+2. Ablehnung von Namenaktionären
+Art. 4
+3. Stimmrechtsaktien
+Art. 5
+4. Qualifizierte Mehrheiten
+Art. 6
+C. Änderung von Bundesgesetzen
+Art. 7
+D. Referendum
+Art. 8
+E. Inkrafttreten
+Art. 9
+Schlussbestimmungen zum zweiten Abschnitt
+des XXXIV. Titels916
