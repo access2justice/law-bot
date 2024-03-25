@@ -28,3 +28,4 @@ def get_user_prompt(text: List[str]) -> str:
     {text}
     """
     return prompt
+

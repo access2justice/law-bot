@@ -10,13 +10,13 @@ from ..services.ChatBotPipeline import ChatBotPipeline
 from .dependencies import get_chat_bot_service
 
 # create router
-router = APIRouter()
+router = APIRouter(prefix="/chat", tags=["chat"])
 
 # get dependency
 ChatBotPipelineService = Annotated[ChatBotPipeline, Depends(get_chat_bot_service)]
 
 
-@router.post("/chat")
+@router.post("/query")
 async def chat_handler(chat_request: ChatRequest, chatbot: ChatBotPipelineService):
     response = await chatbot.run(chat_request)
     return response

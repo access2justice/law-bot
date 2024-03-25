@@ -107,7 +107,7 @@ class ChatBotPipeline:
         # retrieve related documents
         retrieved_info = await self._retriever(user_query)
 
-        # define user promt based
+        # define user promt
         user_prompt = get_user_prompt(retrieved_info["text"])
 
         # generate response
