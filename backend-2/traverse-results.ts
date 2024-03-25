@@ -20,14 +20,13 @@ export const testTraverseResults = async () => {
     articleList.push(result);
   }
 
-  const dataTree = await createTree(question, articleList);
-  const results = await traverseResults(dataTree)
+  const dataTree = await createTree(articleList);
+  const results = await traverseResults(question, dataTree)
 
   // console.log(results);
 };
 
 export const createTree = async (
-  question: string,
   articles: SearchResult<object, "text" | "metadata" | "eIds">[]
 ): Promise<Record<string, object>> => {
   const tree = {} as Record<string, object>;
@@ -52,7 +51,9 @@ interface TreeNode {
   [key: string]: TreeNode; // String index signature
 }
 
-export const traverseResults = async (dataTree: Record<string, object>):
+export const traverseResults = async (
+  question: string,
+  dataTree: Record<string, object>):
 Promise<SearchResult<object, "text" | "metadata" | "eIds">[]> => {
   const results: SearchResult<object, "text" | "metadata" | "eIds">[] = [];
   const queue = new Queue<TreeNode>();
