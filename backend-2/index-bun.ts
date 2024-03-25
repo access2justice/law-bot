@@ -1,10 +1,16 @@
 import { handler } from "./index";
+import { testTraverseResults } from "./traverse-results";
 
 // bun adapter for the lambda function in ./index.ts
 Bun.serve({
   port: 8080,
   development: true,
   async fetch(req) {
+    if (new URL(req.url).pathname === "/test") {
+      await testTraverseResults();
+      return new Response("");
+    }
+
     if (!req.body) {
       return new Response("Missing body!", { status: 400 });
     }
