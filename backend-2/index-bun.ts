@@ -15,7 +15,13 @@ Bun.serve({
       body: JSON.stringify(bodyJson),
     });
     // @ts-ignore
-    return new Response(JSON.stringify(result.body));
+    return new Response(result.body, {
+      // @ts-ignore
+      status: result.statusCode,
+      headers: {
+        "Content-Type": "application/json",
+      },
+    });
   },
 });
 
