@@ -6,7 +6,7 @@ import inspect
 class TextSearcherBase(abc.ABC):
 
     def __new__(cls, *args, **kwargs):
-        # get all coros of EmbeddingGeneratorBase
+        # get all coros of TextSearcherBase
         parent_coros = inspect.getmembers(TextSearcherBase, predicate=inspect.iscoroutinefunction)
 
         # check if parent's coros are still coros in a child
