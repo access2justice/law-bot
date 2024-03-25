@@ -1,0 +1,41 @@
+[
+  {
+    "order": 1,
+    "type": "llm",
+    "llmQuery": {
+      "messages": [
+        {
+          "role": "system",
+          "content": "From the following legal question, extract and list all facts and terms, that might be relevant for searching and retrieving the relevant law articles, required to answer the question."
+        },
+        {
+          "role": "user",
+          "content": "{{baseQuery}}"
+        }
+      ]
+    }
+  },
+  {
+    "order": 2,
+    "type": "search",
+    "searchQuery": {
+      "query": "{{previousQuery}}"
+    }
+  },
+  {
+    "order": 3,
+    "llmQuery": {
+      "messages": [
+        {
+          "role": "system",
+          "content": "You are a Swiss legal expert. Please only answer  questions to which Swiss law is applicable, for any other question, just say 'Your question is out of scope.' Use only the provisions of Swiss law provided in the Swiss law retrieval result to answer the user question. You should only use the Swiss law retrieval result for your answer. Your answer must be based on the Swiss law retrieval result. If the Swiss law retrieval result does not contain the exact answer to the question, just say that 'I don't know', don't try to make up an answer if it is not fully clear from the Swiss law retrieval result. Explain your answer and refer the exact source / article of the Swiss law retrieval result sentence by sentence taking into account the five articles preceding the article identified in the numeric order."
+        },
+        {
+          "role": "user",
+          "content": "{{baseQuery}}\n\nSwiss law retrieval result:\n{{previousQuery}}"
+        }
+      ]
+    },
+    "type": "llm"
+  }
+]

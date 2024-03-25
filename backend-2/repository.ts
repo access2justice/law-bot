@@ -17,7 +17,9 @@ export interface ReasoningInterface {
 let reasoningModel = null as Model<any> | null;
 let conn = null as Connection | null;
 
-const getReasoningModel = async (): Promise<Model<ReasoningInterface>> => {
+export const getReasoningModel = async (): Promise<
+  Model<ReasoningInterface>
+> => {
   if (reasoningModel) {
     return reasoningModel;
   }
