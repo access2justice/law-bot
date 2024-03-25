@@ -48,6 +48,10 @@ export const createTree = async (
   return tree;
 }
 
+interface TreeNode {
+  [key: string]: TreeNode; // String index signature
+}
+
 export const traverseResults = async (dataTree: Record<string, object>):
 Promise<SearchResult<object, "text" | "metadata" | "eIds">[]> => {
   const results: SearchResult<object, "text" | "metadata" | "eIds">[] = [];
