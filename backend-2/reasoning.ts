@@ -72,7 +72,7 @@ export const doReasoning = async (
       let query = reason.searchQuery?.query || "";
 
       query = query.replace("{{baseQuery}}", baseQuery);
-      query = query.replace("{{previousQuery}}", baseQuery);
+      query = query.replace("{{previousQuery}}", previousQuery);
 
       console.log("Rendered Query");
       console.log(JSON.stringify(query));
