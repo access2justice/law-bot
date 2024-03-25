@@ -1,5 +1,6 @@
 import { SearchIterator, SearchResult } from "@azure/search-documents";
 import { filterMetadata, semanticSearch } from "./azure";
+import { Queue } from './Queue';
 
 export const testTraverseResults = async () => {
   // 269d OR
@@ -19,14 +20,16 @@ export const testTraverseResults = async () => {
     articleList.push(result);
   }
 
-  const results = await traverseResults(question, articleList);
+  const dataTree = await createTree(question, articleList);
+  const results = await traverseResults(dataTree)
+
   // console.log(results);
 };
 
-export const traverseResults = async (
+export const createTree = async (
   question: string,
   articles: SearchResult<object, "text" | "metadata" | "eIds">[]
-): Promise<SearchResult<object, "text" | "metadata" | "eIds">[]> => {
+): Promise<Record<string, object>> => {
   const tree = {} as Record<string, object>;
   for (let article of articles) {
     const content = ((article.document as any)["metadata"] as any[]).slice(
@@ -42,5 +45,43 @@ export const traverseResults = async (
     }
   }
   console.log(JSON.stringify(tree, undefined, 2));
-  return articles;
+  return tree;
+}
+
+export const traverseResults = async (dataTree: Record<string, object>):
+Promise<SearchResult<object, "text" | "metadata" | "eIds">[]> => {
+  const results: SearchResult<object, "text" | "metadata" | "eIds">[] = [];
+  const queue = new Queue<TreeNode>();
+
+  // Enqueue the root node
+  queue.enqueue(dataTree);
+
+  // Perform BFS
+  while (!queue.isEmpty()) {
+    const currentNode = queue.dequeue()!;
+
+    if(Object.keys(currentNode).length === 1) {
+      queue.enqueue(currentNode[Object.keys(currentNode)[0]]);
+    } else {
+      //ask chatgpt if node contains relevent data for question
+      let resultFromChatGPT;
+
+
+      //if yes, add to results
+      if (resultFromChatGPT == true) {
+        results.push(currentNode as SearchResult<object, "text" | "metadata" | "eIds">);
+        //if current node has children, add them to the queue
+        if(Object.keys(currentNode).length > 0) {
+          for (const key in currentNode) {
+            queue.enqueue(currentNode[key]);
+          }
+        }
+      } else {
+        //if no, continue traversing
+        continue;
+      }
+    }
+  }
+
+  return results;
 };
