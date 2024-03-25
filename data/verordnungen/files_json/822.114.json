@@ -1,0 +1,2145 @@
+[
+  {
+    "text": "Diese Verordnung regelt:",
+    "metadata": [
+      "https://fedlex.admin.ch/eli/cc/1993/2564_2564_2564/de#art_1",
+      "Verordnung 4  zum Arbeitsgesetz  (ArGV 4) (Industrielle Betriebe, Plangenehmigung und Betriebsbewilligung)     ",
+      "1. Kapitel: Geltungsbereich",
+      "Art. 1"
+    ],
+    "@eId": "art_1/para_1/listintro"
+  },
+  {
+    "text": "die besonderen Anforderungen an den Bau und die Einrichtung von Betrieben, die der Plangenehmigung und der Betriebsbewilligung (Art. 7 und 8 des Gesetzes) unterstellt sind;",
+    "metadata": [
+      "https://fedlex.admin.ch/eli/cc/1993/2564_2564_2564/de#art_1",
+      "Verordnung 4  zum Arbeitsgesetz  (ArGV 4) (Industrielle Betriebe, Plangenehmigung und Betriebsbewilligung)     ",
+      "1. Kapitel: Geltungsbereich",
+      "Art. 1"
+    ],
+    "@eId": "art_1/para_1/lbl_a"
+  },
+  {
+    "text": "das Verfahren der Unterstellung industrieller Betriebe unter die Sondervorschriften;",
+    "metadata": [
+      "https://fedlex.admin.ch/eli/cc/1993/2564_2564_2564/de#art_1",
+      "Verordnung 4  zum Arbeitsgesetz  (ArGV 4) (Industrielle Betriebe, Plangenehmigung und Betriebsbewilligung)     ",
+      "1. Kapitel: Geltungsbereich",
+      "Art. 1"
+    ],
+    "@eId": "art_1/para_1/lbl_b"
+  },
+  {
+    "text": "das Verfahren der Plangenehmigung und der Betriebsbewilligung. ",
+    "metadata": [
+      "https://fedlex.admin.ch/eli/cc/1993/2564_2564_2564/de#art_1",
+      "Verordnung 4  zum Arbeitsgesetz  (ArGV 4) (Industrielle Betriebe, Plangenehmigung und Betriebsbewilligung)     ",
+      "1. Kapitel: Geltungsbereich",
+      "Art. 1"
+    ],
+    "@eId": "art_1/para_1/lbl_c"
+  },
+  {
+    "text": "Dem Plangenehmigungsverfahren sind neben den industriellen folgende nichtindustrielle Betriebe unterstellt:",
+    "metadata": [
+      "https://fedlex.admin.ch/eli/cc/1993/2564_2564_2564/de#art_1",
+      "Verordnung 4  zum Arbeitsgesetz  (ArGV 4) (Industrielle Betriebe, Plangenehmigung und Betriebsbewilligung)     ",
+      "1. Kapitel: Geltungsbereich",
+      "Art. 1"
+    ],
+    "@eId": "art_1/para_2/listintro"
+  },
+  {
+    "text": "Sägereien;",
+    "metadata": [
+      "https://fedlex.admin.ch/eli/cc/1993/2564_2564_2564/de#art_1",
+      "Verordnung 4  zum Arbeitsgesetz  (ArGV 4) (Industrielle Betriebe, Plangenehmigung und Betriebsbewilligung)     ",
+      "1. Kapitel: Geltungsbereich",
+      "Art. 1"
+    ],
+    "@eId": "art_1/para_2/lbl_a"
+  },
+  {
+    "text": "Entsorgungs- und Recyclingbetriebe;",
+    "metadata": [
+      "https://fedlex.admin.ch/eli/cc/1993/2564_2564_2564/de#art_1",
+      "Verordnung 4  zum Arbeitsgesetz  (ArGV 4) (Industrielle Betriebe, Plangenehmigung und Betriebsbewilligung)     ",
+      "1. Kapitel: Geltungsbereich",
+      "Art. 1"
+    ],
+    "@eId": "art_1/para_2/lbl_b"
+  },
+  {
+    "text": "chemisch-technische Produktionsbetriebe;",
+    "metadata": [
+      "https://fedlex.admin.ch/eli/cc/1993/2564_2564_2564/de#art_1",
+      "Verordnung 4  zum Arbeitsgesetz  (ArGV 4) (Industrielle Betriebe, Plangenehmigung und Betriebsbewilligung)     ",
+      "1. Kapitel: Geltungsbereich",
+      "Art. 1"
+    ],
+    "@eId": "art_1/para_2/lbl_c"
+  },
+  {
+    "text": "Steinsägewerke;",
+    "metadata": [
+      "https://fedlex.admin.ch/eli/cc/1993/2564_2564_2564/de#art_1",
+      "Verordnung 4  zum Arbeitsgesetz  (ArGV 4) (Industrielle Betriebe, Plangenehmigung und Betriebsbewilligung)     ",
+      "1. Kapitel: Geltungsbereich",
+      "Art. 1"
+    ],
+    "@eId": "art_1/para_2/lbl_d"
+  },
+  {
+    "text": "Betriebe, die Zementwaren herstellen;",
+    "metadata": [
+      "https://fedlex.admin.ch/eli/cc/1993/2564_2564_2564/de#art_1",
+      "Verordnung 4  zum Arbeitsgesetz  (ArGV 4) (Industrielle Betriebe, Plangenehmigung und Betriebsbewilligung)     ",
+      "1. Kapitel: Geltungsbereich",
+      "Art. 1"
+    ],
+    "@eId": "art_1/para_2/lbl_e"
+  },
+  {
+    "text": "Eisen-, Stahl- und Metallgiessereien;",
+    "metadata": [
+      "https://fedlex.admin.ch/eli/cc/1993/2564_2564_2564/de#art_1",
+      "Verordnung 4  zum Arbeitsgesetz  (ArGV 4) (Industrielle Betriebe, Plangenehmigung und Betriebsbewilligung)     ",
+      "1. Kapitel: Geltungsbereich",
+      "Art. 1"
+    ],
+    "@eId": "art_1/para_2/lbl_f"
+  },
+  {
+    "text": "Betriebe der Abwasserreinigung;",
+    "metadata": [
+      "https://fedlex.admin.ch/eli/cc/1993/2564_2564_2564/de#art_1",
+      "Verordnung 4  zum Arbeitsgesetz  (ArGV 4) (Industrielle Betriebe, Plangenehmigung und Betriebsbewilligung)     ",
+      "1. Kapitel: Geltungsbereich",
+      "Art. 1"
+    ],
+    "@eId": "art_1/para_2/lbl_g"
+  },
+  {
+    "text": "Eisenbiegereien;",
+    "metadata": [
+      "https://fedlex.admin.ch/eli/cc/1993/2564_2564_2564/de#art_1",
+      "Verordnung 4  zum Arbeitsgesetz  (ArGV 4) (Industrielle Betriebe, Plangenehmigung und Betriebsbewilligung)     ",
+      "1. Kapitel: Geltungsbereich",
+      "Art. 1"
+    ],
+    "@eId": "art_1/para_2/lbl_h"
+  },
+  {
+    "text": "Betriebe, die Oberflächen behandeln, wie Verzinkereien, Härtereien, Galvanobetriebe und Anodisierwerke;",
+    "metadata": [
+      "https://fedlex.admin.ch/eli/cc/1993/2564_2564_2564/de#art_1",
+      "Verordnung 4  zum Arbeitsgesetz  (ArGV 4) (Industrielle Betriebe, Plangenehmigung und Betriebsbewilligung)     ",
+      "1. Kapitel: Geltungsbereich",
+      "Art. 1"
+    ],
+    "@eId": "art_1/para_2/lbl_i"
+  },
+  {
+    "text": "Betriebe der Holzimprägnierung;",
+    "metadata": [
+      "https://fedlex.admin.ch/eli/cc/1993/2564_2564_2564/de#art_1",
+      "Verordnung 4  zum Arbeitsgesetz  (ArGV 4) (Industrielle Betriebe, Plangenehmigung und Betriebsbewilligung)     ",
+      "1. Kapitel: Geltungsbereich",
+      "Art. 1"
+    ],
+    "@eId": "art_1/para_2/lbl_k"
+  },
+  {
+    "text": "Betriebe, die Chemikalien, flüssige oder gasförmige Brennstoffe oder andere leicht brennbare Flüssigkeiten oder Gase lagern oder umschlagen, wenn die geplanten Einrichtungen ein Überschreiten der Mengenschwellen nach dem Anhang 1.1 der Störfallverordnung vom 27. Februar 1991 erlauben;",
+    "metadata": [
+      "https://fedlex.admin.ch/eli/cc/1993/2564_2564_2564/de#art_1",
+      "Verordnung 4  zum Arbeitsgesetz  (ArGV 4) (Industrielle Betriebe, Plangenehmigung und Betriebsbewilligung)     ",
+      "1. Kapitel: Geltungsbereich",
+      "Art. 1"
+    ],
+    "@eId": "art_1/para_2/lbl_l"
+  },
+  {
+    "text": "Betriebe, die mit Mikroorganismen der Gruppe 3 oder 4 nach Artikel 3 Absatz 2 der Verordnung vom 25. August 1999 über den Schutz der Arbeitnehmerinnen und Arbeitnehmer vor Gefährdung durch Mikroorganismen umgehen;",
+    "metadata": [
+      "https://fedlex.admin.ch/eli/cc/1993/2564_2564_2564/de#art_1",
+      "Verordnung 4  zum Arbeitsgesetz  (ArGV 4) (Industrielle Betriebe, Plangenehmigung und Betriebsbewilligung)     ",
+      "1. Kapitel: Geltungsbereich",
+      "Art. 1"
+    ],
+    "@eId": "art_1/para_2/lbl_m"
+  },
+  {
+    "text": "Betriebe mit Lagern oder Räumen, in denen die Luftzusammensetzung in potenziell gesundheitsschädlicher Weise vom natürlichen Zustand abweicht, namentlich indem der Sauerstoffgehalt unter 18 Prozent liegt;",
+    "metadata": [
+      "https://fedlex.admin.ch/eli/cc/1993/2564_2564_2564/de#art_1",
+      "Verordnung 4  zum Arbeitsgesetz  (ArGV 4) (Industrielle Betriebe, Plangenehmigung und Betriebsbewilligung)     ",
+      "1. Kapitel: Geltungsbereich",
+      "Art. 1"
+    ],
+    "@eId": "art_1/para_2/lbl_n"
+  },
+  {
+    "text": "Betriebe mit Arbeitsmitteln im Sinne von Artikel 49 Absatz 2 Ziffern 1, 2 oder 6 der Verordnung vom 19. Dezember 1983 über die Verhütung von Unfällen und Berufskrankheiten (VUV).",
+    "metadata": [
+      "https://fedlex.admin.ch/eli/cc/1993/2564_2564_2564/de#art_1",
+      "Verordnung 4  zum Arbeitsgesetz  (ArGV 4) (Industrielle Betriebe, Plangenehmigung und Betriebsbewilligung)     ",
+      "1. Kapitel: Geltungsbereich",
+      "Art. 1"
+    ],
+    "@eId": "art_1/para_2/lbl_o"
+  },
+  {
+    "text": " Das Plangenehmigungs- und Betriebsbewilligungsverfahren erstreckt sich auf diejenigen Betriebsteile und Anlagen, die industriellen Charakter aufweisen beziehungsweise den in Absatz 2 umschriebenen Betriebsarten zuzuordnen sind, sowie auf damit baulich oder sachlich unmittelbar zusammenhängende Betriebsteile und Anlagen. ",
+    "metadata": [
+      "https://fedlex.admin.ch/eli/cc/1993/2564_2564_2564/de#art_1",
+      "Verordnung 4  zum Arbeitsgesetz  (ArGV 4) (Industrielle Betriebe, Plangenehmigung und Betriebsbewilligung)     ",
+      "1. Kapitel: Geltungsbereich",
+      "Art. 1"
+    ],
+    "@eId": "art_1/para_3"
+  },
+  {
+    "text": " Der Arbeitgeber muss einen Dritten auf die Anforderungen der Plangenehmigung ausdrücklich aufmerksam machen, wenn er ihm den Auftrag erteilt, für seinen Betrieb Einrichtungen zu planen, herzustellen, zu ändern oder instand zu setzen. ",
+    "metadata": [
+      "https://fedlex.admin.ch/eli/cc/1993/2564_2564_2564/de#art_2",
+      "Verordnung 4  zum Arbeitsgesetz  (ArGV 4) (Industrielle Betriebe, Plangenehmigung und Betriebsbewilligung)     ",
+      "2. Kapitel: Bau und Einrichtung von Betrieben mit Plangenehmigungspflicht",
+      "1. Abschnitt: Allgemeine Bestimmungen",
+      "Art. 2"
+    ],
+    "@eId": "art_2/para"
+  },
+  {
+    "text": " Der Arbeitgeber hat auf Verlangen der Behörde ein fachtechnisches Gutachten beizubringen, wenn begründete Zweifel bestehen, ob die geplante Anlage bei bestimmungsgemässer Benutzung den auftretenden Belastungen und Beanspruchungen standhalten wird. ",
+    "metadata": [
+      "https://fedlex.admin.ch/eli/cc/1993/2564_2564_2564/de#art_3",
+      "Verordnung 4  zum Arbeitsgesetz  (ArGV 4) (Industrielle Betriebe, Plangenehmigung und Betriebsbewilligung)     ",
+      "2. Kapitel: Bau und Einrichtung von Betrieben mit Plangenehmigungspflicht",
+      "1. Abschnitt: Allgemeine Bestimmungen",
+      "Art. 3"
+    ],
+    "@eId": "art_3/para"
+  },
+  {
+    "text": " Unter dem Erdboden liegende sowie fensterlose Räume mit ständigen Arbeitsplätzen dürfen nur in begründeten Ausnahmefällen bewilligt werden. ",
+    "metadata": [
+      "https://fedlex.admin.ch/eli/cc/1993/2564_2564_2564/de#art_4",
+      "Verordnung 4  zum Arbeitsgesetz  (ArGV 4) (Industrielle Betriebe, Plangenehmigung und Betriebsbewilligung)     ",
+      "2. Kapitel: Bau und Einrichtung von Betrieben mit Plangenehmigungspflicht",
+      "2. Abschnitt: Arbeitsräume",
+      "Art. 4"
+    ],
+    "@eId": "art_4/para"
+  },
+  {
+    "text": "Die lichte Höhe der Arbeitsräume hat mindestens zu betragen:",
+    "metadata": [
+      "https://fedlex.admin.ch/eli/cc/1993/2564_2564_2564/de#art_5",
+      "Verordnung 4  zum Arbeitsgesetz  (ArGV 4) (Industrielle Betriebe, Plangenehmigung und Betriebsbewilligung)     ",
+      "2. Kapitel: Bau und Einrichtung von Betrieben mit Plangenehmigungspflicht",
+      "2. Abschnitt: Arbeitsräume",
+      "Art. 5"
+    ],
+    "@eId": "art_5/para_1/listintro"
+  },
+  {
+    "text": "2,75 m bei einer Bodenfläche von höchstens 100 m 2 ;",
+    "metadata": [
+      "https://fedlex.admin.ch/eli/cc/1993/2564_2564_2564/de#art_5",
+      "Verordnung 4  zum Arbeitsgesetz  (ArGV 4) (Industrielle Betriebe, Plangenehmigung und Betriebsbewilligung)     ",
+      "2. Kapitel: Bau und Einrichtung von Betrieben mit Plangenehmigungspflicht",
+      "2. Abschnitt: Arbeitsräume",
+      "Art. 5"
+    ],
+    "@eId": "art_5/para_1/lbl_a"
+  },
+  {
+    "text": "3,00 m bei einer Bodenfläche von höchstens 250 m 2 ;",
+    "metadata": [
+      "https://fedlex.admin.ch/eli/cc/1993/2564_2564_2564/de#art_5",
+      "Verordnung 4  zum Arbeitsgesetz  (ArGV 4) (Industrielle Betriebe, Plangenehmigung und Betriebsbewilligung)     ",
+      "2. Kapitel: Bau und Einrichtung von Betrieben mit Plangenehmigungspflicht",
+      "2. Abschnitt: Arbeitsräume",
+      "Art. 5"
+    ],
+    "@eId": "art_5/para_1/lbl_b"
+  },
+  {
+    "text": "3,50 m bei einer Bodenfläche von höchstens 400 m 2 ;",
+    "metadata": [
+      "https://fedlex.admin.ch/eli/cc/1993/2564_2564_2564/de#art_5",
+      "Verordnung 4  zum Arbeitsgesetz  (ArGV 4) (Industrielle Betriebe, Plangenehmigung und Betriebsbewilligung)     ",
+      "2. Kapitel: Bau und Einrichtung von Betrieben mit Plangenehmigungspflicht",
+      "2. Abschnitt: Arbeitsräume",
+      "Art. 5"
+    ],
+    "@eId": "art_5/para_1/lbl_c"
+  },
+  {
+    "text": "4,00 m bei einer Bodenfläche von mehr als 400 m 2 .",
+    "metadata": [
+      "https://fedlex.admin.ch/eli/cc/1993/2564_2564_2564/de#art_5",
+      "Verordnung 4  zum Arbeitsgesetz  (ArGV 4) (Industrielle Betriebe, Plangenehmigung und Betriebsbewilligung)     ",
+      "2. Kapitel: Bau und Einrichtung von Betrieben mit Plangenehmigungspflicht",
+      "2. Abschnitt: Arbeitsräume",
+      "Art. 5"
+    ],
+    "@eId": "art_5/para_1/lbl_d"
+  },
+  {
+    "text": " Als Bodenfläche gilt die Fläche, die durch Wände begrenzt wird, die aus Gründen der Statik, der Sicherheit, der Gesundheitsvorsorge, des Brandschutzes oder der Produktionstechnik errichtet werden. ",
+    "metadata": [
+      "https://fedlex.admin.ch/eli/cc/1993/2564_2564_2564/de#art_5",
+      "Verordnung 4  zum Arbeitsgesetz  (ArGV 4) (Industrielle Betriebe, Plangenehmigung und Betriebsbewilligung)     ",
+      "2. Kapitel: Bau und Einrichtung von Betrieben mit Plangenehmigungspflicht",
+      "2. Abschnitt: Arbeitsräume",
+      "Art. 5"
+    ],
+    "@eId": "art_5/para_2"
+  },
+  {
+    "text": "Die Behörde kann geringere Raumhöhen zulassen, wenn:",
+    "metadata": [
+      "https://fedlex.admin.ch/eli/cc/1993/2564_2564_2564/de#art_5",
+      "Verordnung 4  zum Arbeitsgesetz  (ArGV 4) (Industrielle Betriebe, Plangenehmigung und Betriebsbewilligung)     ",
+      "2. Kapitel: Bau und Einrichtung von Betrieben mit Plangenehmigungspflicht",
+      "2. Abschnitt: Arbeitsräume",
+      "Art. 5"
+    ],
+    "@eId": "art_5/para_3/listintro"
+  },
+  {
+    "text": "der Raum, im rechten Winkel zu den Fassadenfenstern gemessen, eine geringe Tiefe aufweist;",
+    "metadata": [
+      "https://fedlex.admin.ch/eli/cc/1993/2564_2564_2564/de#art_5",
+      "Verordnung 4  zum Arbeitsgesetz  (ArGV 4) (Industrielle Betriebe, Plangenehmigung und Betriebsbewilligung)     ",
+      "2. Kapitel: Bau und Einrichtung von Betrieben mit Plangenehmigungspflicht",
+      "2. Abschnitt: Arbeitsräume",
+      "Art. 5"
+    ],
+    "@eId": "art_5/para_3/lbl_a"
+  },
+  {
+    "text": "bei künstlicher Lüftung die Luft durch eine heruntergehängte Decke eingeführt wird;",
+    "metadata": [
+      "https://fedlex.admin.ch/eli/cc/1993/2564_2564_2564/de#art_5",
+      "Verordnung 4  zum Arbeitsgesetz  (ArGV 4) (Industrielle Betriebe, Plangenehmigung und Betriebsbewilligung)     ",
+      "2. Kapitel: Bau und Einrichtung von Betrieben mit Plangenehmigungspflicht",
+      "2. Abschnitt: Arbeitsräume",
+      "Art. 5"
+    ],
+    "@eId": "art_5/para_3/lbl_b"
+  },
+  {
+    "text": "die im betreffenden Raum geplante Arbeit im Wesentlichen sitzend und unter geringer körperlicher Beanspruchung ausgeführt wird und das vorgesehene Arbeitsverfahren die Raumluft und das Raumklima nicht oder nur geringfügig belastet.",
+    "metadata": [
+      "https://fedlex.admin.ch/eli/cc/1993/2564_2564_2564/de#art_5",
+      "Verordnung 4  zum Arbeitsgesetz  (ArGV 4) (Industrielle Betriebe, Plangenehmigung und Betriebsbewilligung)     ",
+      "2. Kapitel: Bau und Einrichtung von Betrieben mit Plangenehmigungspflicht",
+      "2. Abschnitt: Arbeitsräume",
+      "Art. 5"
+    ],
+    "@eId": "art_5/para_3/lbl_c"
+  },
+  {
+    "text": " Die Behörde schreibt grössere Raumhöhen vor, wenn es die Gesundheitsvorsorge und Arbeitssicherheit erfordern. Sie kann grössere Raumhöhen vorschreiben, wenn Ausnahmen nach Artikel 17 Absatz 3 bewilligt werden. ",
+    "metadata": [
+      "https://fedlex.admin.ch/eli/cc/1993/2564_2564_2564/de#art_5",
+      "Verordnung 4  zum Arbeitsgesetz  (ArGV 4) (Industrielle Betriebe, Plangenehmigung und Betriebsbewilligung)     ",
+      "2. Kapitel: Bau und Einrichtung von Betrieben mit Plangenehmigungspflicht",
+      "2. Abschnitt: Arbeitsräume",
+      "Art. 5"
+    ],
+    "@eId": "art_5/para_4"
+  },
+  {
+    "text": " Hauptverkehrswege im Innern von Gebäuden müssen wenigstens 1,20 m breit sein. ",
+    "metadata": [
+      "https://fedlex.admin.ch/eli/cc/1993/2564_2564_2564/de#art_6",
+      "Verordnung 4  zum Arbeitsgesetz  (ArGV 4) (Industrielle Betriebe, Plangenehmigung und Betriebsbewilligung)     ",
+      "2. Kapitel: Bau und Einrichtung von Betrieben mit Plangenehmigungspflicht",
+      "3. Abschnitt: Verkehrswege",
+      "Art. 6"
+    ],
+    "@eId": "art_6/para"
+  },
+  {
+    "text": " Treppenanlagen müssen direkt ins Freie führende Ausgänge aufweisen. ",
+    "metadata": [
+      "https://fedlex.admin.ch/eli/cc/1993/2564_2564_2564/de#art_7",
+      "Verordnung 4  zum Arbeitsgesetz  (ArGV 4) (Industrielle Betriebe, Plangenehmigung und Betriebsbewilligung)     ",
+      "2. Kapitel: Bau und Einrichtung von Betrieben mit Plangenehmigungspflicht",
+      "3. Abschnitt: Verkehrswege",
+      "Art. 7"
+    ],
+    "@eId": "art_7/para_1"
+  },
+  {
+    "text": "Als Fluchtwege müssen zur Verfügung stehen:",
+    "metadata": [
+      "https://fedlex.admin.ch/eli/cc/1993/2564_2564_2564/de#art_7",
+      "Verordnung 4  zum Arbeitsgesetz  (ArGV 4) (Industrielle Betriebe, Plangenehmigung und Betriebsbewilligung)     ",
+      "2. Kapitel: Bau und Einrichtung von Betrieben mit Plangenehmigungspflicht",
+      "3. Abschnitt: Verkehrswege",
+      "Art. 7"
+    ],
+    "@eId": "art_7/para_2/listintro"
+  },
+  {
+    "text": "bei Geschossflächen von höchstens 900 m 2 : mindestens eine Treppenanlage oder ein direkt ins Freie führender Ausgang;",
+    "metadata": [
+      "https://fedlex.admin.ch/eli/cc/1993/2564_2564_2564/de#art_7",
+      "Verordnung 4  zum Arbeitsgesetz  (ArGV 4) (Industrielle Betriebe, Plangenehmigung und Betriebsbewilligung)     ",
+      "2. Kapitel: Bau und Einrichtung von Betrieben mit Plangenehmigungspflicht",
+      "3. Abschnitt: Verkehrswege",
+      "Art. 7"
+    ],
+    "@eId": "art_7/para_2/lbl_a"
+  },
+  {
+    "text": "bei Geschossflächen von mehr als 900 m 2 : mindestens zwei Treppenanlagen.",
+    "metadata": [
+      "https://fedlex.admin.ch/eli/cc/1993/2564_2564_2564/de#art_7",
+      "Verordnung 4  zum Arbeitsgesetz  (ArGV 4) (Industrielle Betriebe, Plangenehmigung und Betriebsbewilligung)     ",
+      "2. Kapitel: Bau und Einrichtung von Betrieben mit Plangenehmigungspflicht",
+      "3. Abschnitt: Verkehrswege",
+      "Art. 7"
+    ],
+    "@eId": "art_7/para_2/lbl_b"
+  },
+  {
+    "text": " Arbeitsplätze, Räume, Gebäude und Betriebsgelände müssen bei Gefahr jederzeit rasch und sicher verlassen werden können. Verkehrswege, die bei Gefahr als Fluchtwege dienen, sind zweckmässig zu kennzeichnen und stets frei zu halten. ",
+    "metadata": [
+      "https://fedlex.admin.ch/eli/cc/1993/2564_2564_2564/de#art_8",
+      "Verordnung 4  zum Arbeitsgesetz  (ArGV 4) (Industrielle Betriebe, Plangenehmigung und Betriebsbewilligung)     ",
+      "2. Kapitel: Bau und Einrichtung von Betrieben mit Plangenehmigungspflicht",
+      "3. Abschnitt: Verkehrswege",
+      "Art. 8"
+    ],
+    "@eId": "art_8/para_1"
+  },
+  {
+    "text": " Als Fluchtweg gilt der kürzeste Weg, der Personen zur Verfügung steht, um von einer beliebigen Stelle in Bauten und Anlagen ins Freie an einen sicheren Ort zu gelangen. ",
+    "metadata": [
+      "https://fedlex.admin.ch/eli/cc/1993/2564_2564_2564/de#art_8",
+      "Verordnung 4  zum Arbeitsgesetz  (ArGV 4) (Industrielle Betriebe, Plangenehmigung und Betriebsbewilligung)     ",
+      "2. Kapitel: Bau und Einrichtung von Betrieben mit Plangenehmigungspflicht",
+      "3. Abschnitt: Verkehrswege",
+      "Art. 8"
+    ],
+    "@eId": "art_8/para_2"
+  },
+  {
+    "text": " Führen Fluchtwege nur zu einer Treppenanlage oder einem Ausgang ins Freie, so dürfen sie nicht länger als 35 m sein. Führen sie zu mindestens zwei voneinander entfernten Treppenanlagen oder Ausgängen ins Freie, so dürfen sie nicht länger als 50 m sein. ",
+    "metadata": [
+      "https://fedlex.admin.ch/eli/cc/1993/2564_2564_2564/de#art_8",
+      "Verordnung 4  zum Arbeitsgesetz  (ArGV 4) (Industrielle Betriebe, Plangenehmigung und Betriebsbewilligung)     ",
+      "2. Kapitel: Bau und Einrichtung von Betrieben mit Plangenehmigungspflicht",
+      "3. Abschnitt: Verkehrswege",
+      "Art. 8"
+    ],
+    "@eId": "art_8/para_3"
+  },
+  {
+    "text": " Die Länge des Fluchtwegs wird im Raum als Luftlinie, im Korridor als Gehweglinie gemessen. Die Strecke innerhalb der Treppenanlage bis ins Freie wird nicht mitgerechnet. ",
+    "metadata": [
+      "https://fedlex.admin.ch/eli/cc/1993/2564_2564_2564/de#art_8",
+      "Verordnung 4  zum Arbeitsgesetz  (ArGV 4) (Industrielle Betriebe, Plangenehmigung und Betriebsbewilligung)     ",
+      "2. Kapitel: Bau und Einrichtung von Betrieben mit Plangenehmigungspflicht",
+      "3. Abschnitt: Verkehrswege",
+      "Art. 8"
+    ],
+    "@eId": "art_8/para_4"
+  },
+  {
+    "text": " Bis zum nächstliegenden Ausgang, der direkt an einen sicheren Ort im Freien oder in eine Treppenanlage führt, darf jeder Punkt des Raumes maximal 35 m entfernt sein. Führt keiner der Raumausgänge direkt an einen sicheren Ort im Freien oder in eine Treppenanlage, so ist als Verbindung ein Korridor notwendig und darf die gesamte Fluchtweglänge 50 m nicht übersteigen.  ",
+    "metadata": [
+      "https://fedlex.admin.ch/eli/cc/1993/2564_2564_2564/de#art_8",
+      "Verordnung 4  zum Arbeitsgesetz  (ArGV 4) (Industrielle Betriebe, Plangenehmigung und Betriebsbewilligung)     ",
+      "2. Kapitel: Bau und Einrichtung von Betrieben mit Plangenehmigungspflicht",
+      "3. Abschnitt: Verkehrswege",
+      "Art. 8"
+    ],
+    "@eId": "art_8/para_5"
+  },
+  {
+    "text": " Mündet eine Treppenanlage oder ein anderer Fluchtweg in einen Innenhof, so muss mindestens ein sicher benützbarer Hofausgang vorhanden sein. ",
+    "metadata": [
+      "https://fedlex.admin.ch/eli/cc/1993/2564_2564_2564/de#art_8",
+      "Verordnung 4  zum Arbeitsgesetz  (ArGV 4) (Industrielle Betriebe, Plangenehmigung und Betriebsbewilligung)     ",
+      "2. Kapitel: Bau und Einrichtung von Betrieben mit Plangenehmigungspflicht",
+      "3. Abschnitt: Verkehrswege",
+      "Art. 8"
+    ],
+    "@eId": "art_8/para_6"
+  },
+  {
+    "text": " Erfordert der Schutz der Arbeitnehmenden vor besonderen Gefahren zusätzliche Massnahmen, so sieht der Betrieb eine grössere Anzahl von Fluchtwegen oder eine Verkürzung der Fluchtweglängen vor.  ",
+    "metadata": [
+      "https://fedlex.admin.ch/eli/cc/1993/2564_2564_2564/de#art_8",
+      "Verordnung 4  zum Arbeitsgesetz  (ArGV 4) (Industrielle Betriebe, Plangenehmigung und Betriebsbewilligung)     ",
+      "2. Kapitel: Bau und Einrichtung von Betrieben mit Plangenehmigungspflicht",
+      "3. Abschnitt: Verkehrswege",
+      "Art. 8"
+    ],
+    "@eId": "art_8/para_7"
+  },
+  {
+    "text": " Zahl, Breite, Gestaltung und Anordnung der Treppenanlagen und Korridore müssen sich nach der Ausdehnung und dem Nutzungszweck der Gebäude oder Gebäudeteile, der Zahl der Geschosse, der Gefahr des Betriebes und der Zahl der Personen richten. Die lichte Breite von Treppen und Korridoren muss wenigstens 1,20 m betragen.  ",
+    "metadata": [
+      "https://fedlex.admin.ch/eli/cc/1993/2564_2564_2564/de#art_9",
+      "Verordnung 4  zum Arbeitsgesetz  (ArGV 4) (Industrielle Betriebe, Plangenehmigung und Betriebsbewilligung)     ",
+      "2. Kapitel: Bau und Einrichtung von Betrieben mit Plangenehmigungspflicht",
+      "3. Abschnitt: Verkehrswege",
+      "Art. 9"
+    ],
+    "@eId": "art_9/para_1"
+  },
+  {
+    "text": " Die lichte Breite von Treppen und Podesten für das Begehen technischer Einrichtungen und Anlagen muss wenigstens 0,80 m betragen. ",
+    "metadata": [
+      "https://fedlex.admin.ch/eli/cc/1993/2564_2564_2564/de#art_9",
+      "Verordnung 4  zum Arbeitsgesetz  (ArGV 4) (Industrielle Betriebe, Plangenehmigung und Betriebsbewilligung)     ",
+      "2. Kapitel: Bau und Einrichtung von Betrieben mit Plangenehmigungspflicht",
+      "3. Abschnitt: Verkehrswege",
+      "Art. 9"
+    ],
+    "@eId": "art_9/para_2"
+  },
+  {
+    "text": " Treppenanlagen sind in der Regel geradläufig zu führen. Höhe und Auftrittsbreite der Stufen sind so zu bemessen, dass ein sicheres und bequemes Begehen gewährleistet ist. Bei grossen Geschosshöhen sind Zwischenpodeste anzuordnen. ",
+    "metadata": [
+      "https://fedlex.admin.ch/eli/cc/1993/2564_2564_2564/de#art_9",
+      "Verordnung 4  zum Arbeitsgesetz  (ArGV 4) (Industrielle Betriebe, Plangenehmigung und Betriebsbewilligung)     ",
+      "2. Kapitel: Bau und Einrichtung von Betrieben mit Plangenehmigungspflicht",
+      "3. Abschnitt: Verkehrswege",
+      "Art. 9"
+    ],
+    "@eId": "art_9/para_3"
+  },
+  {
+    "text": " Nicht umwandete Treppen und Podeste sind auf jeder Seite mit Geländern zu versehen. Umwandete Treppen müssen beidseitig Handläufe aufweisen; für Treppen, die weniger als 1,5 m breit sind, genügen Handläufe auf einer Seite. ",
+    "metadata": [
+      "https://fedlex.admin.ch/eli/cc/1993/2564_2564_2564/de#art_9",
+      "Verordnung 4  zum Arbeitsgesetz  (ArGV 4) (Industrielle Betriebe, Plangenehmigung und Betriebsbewilligung)     ",
+      "2. Kapitel: Bau und Einrichtung von Betrieben mit Plangenehmigungspflicht",
+      "3. Abschnitt: Verkehrswege",
+      "Art. 9"
+    ],
+    "@eId": "art_9/para_4"
+  },
+  {
+    "text": "  −  7 …  ",
+    "metadata": [
+      "https://fedlex.admin.ch/eli/cc/1993/2564_2564_2564/de#art_9",
+      "Verordnung 4  zum Arbeitsgesetz  (ArGV 4) (Industrielle Betriebe, Plangenehmigung und Betriebsbewilligung)     ",
+      "2. Kapitel: Bau und Einrichtung von Betrieben mit Plangenehmigungspflicht",
+      "3. Abschnitt: Verkehrswege",
+      "Art. 9"
+    ],
+    "@eId": "art_9/para_5"
+  },
+  {
+    "text": " Türen in Fluchtwegen müssen jederzeit als solche erkannt, in Fluchtrichtung ohne Hilfsmittel rasch geöffnet und sicher benützt werden können. ",
+    "metadata": [
+      "https://fedlex.admin.ch/eli/cc/1993/2564_2564_2564/de#art_10",
+      "Verordnung 4  zum Arbeitsgesetz  (ArGV 4) (Industrielle Betriebe, Plangenehmigung und Betriebsbewilligung)     ",
+      "2. Kapitel: Bau und Einrichtung von Betrieben mit Plangenehmigungspflicht",
+      "3. Abschnitt: Verkehrswege",
+      "Art. 10"
+    ],
+    "@eId": "art_10/para_1"
+  },
+  {
+    "text": " Zahl, Breite, Gestaltung und Anordnung der Ausgänge müssen sich nach der Ausdehnung und dem Nutzungszweck der Gebäude oder Gebäudeteile, der Zahl der Geschosse, der Gefahr des Betriebes und der Zahl der Personen richten. Die lichte Breite einflügeliger Türen muss mindestens 0,90 m betragen. Bei zweiflügeligen Türen, die sich nur in eine Richtung öffnen lassen, muss ein Flügel eine lichte Breite von mindestens 0,90 m aufweisen. Bei zweiflügeligen Pendeltüren muss die lichte Breite jedes Flügels mindestens 0,65 m betragen. ",
+    "metadata": [
+      "https://fedlex.admin.ch/eli/cc/1993/2564_2564_2564/de#art_10",
+      "Verordnung 4  zum Arbeitsgesetz  (ArGV 4) (Industrielle Betriebe, Plangenehmigung und Betriebsbewilligung)     ",
+      "2. Kapitel: Bau und Einrichtung von Betrieben mit Plangenehmigungspflicht",
+      "3. Abschnitt: Verkehrswege",
+      "Art. 10"
+    ],
+    "@eId": "art_10/para_2"
+  },
+  {
+    "text": " Die Breite von Türen, Treppen und Korridoren in Fluchtwegen darf weder durch Einbauten noch durch sonstige Einrichtungen unter die vorgeschriebenen Mindestmasse verkleinert werden. ",
+    "metadata": [
+      "https://fedlex.admin.ch/eli/cc/1993/2564_2564_2564/de#art_10",
+      "Verordnung 4  zum Arbeitsgesetz  (ArGV 4) (Industrielle Betriebe, Plangenehmigung und Betriebsbewilligung)     ",
+      "2. Kapitel: Bau und Einrichtung von Betrieben mit Plangenehmigungspflicht",
+      "3. Abschnitt: Verkehrswege",
+      "Art. 10"
+    ],
+    "@eId": "art_10/para_3"
+  },
+  {
+    "text": " Ortsfeste Leitern mit einer Sturzhöhe von mehr als 5 m, die über keinen Steigschutz verfügen, sind von 3 m an mit einem Rückenschutz zu versehen; in Abständen von höchstens 10 m sind Zwischenpodeste anzubringen. Diese Vorschrift gilt nicht für Leitern, die für die Feuerwehr bestimmt sind. ",
+    "metadata": [
+      "https://fedlex.admin.ch/eli/cc/1993/2564_2564_2564/de#art_11",
+      "Verordnung 4  zum Arbeitsgesetz  (ArGV 4) (Industrielle Betriebe, Plangenehmigung und Betriebsbewilligung)     ",
+      "2. Kapitel: Bau und Einrichtung von Betrieben mit Plangenehmigungspflicht",
+      "3. Abschnitt: Verkehrswege",
+      "Art. 11"
+    ],
+    "@eId": "art_11/para_1"
+  },
+  {
+    "text": " Die Leiterholme sind als Handlauf mindestens 1 m über die Ausstiegsebene hochzuziehen. ",
+    "metadata": [
+      "https://fedlex.admin.ch/eli/cc/1993/2564_2564_2564/de#art_11",
+      "Verordnung 4  zum Arbeitsgesetz  (ArGV 4) (Industrielle Betriebe, Plangenehmigung und Betriebsbewilligung)     ",
+      "2. Kapitel: Bau und Einrichtung von Betrieben mit Plangenehmigungspflicht",
+      "3. Abschnitt: Verkehrswege",
+      "Art. 11"
+    ],
+    "@eId": "art_11/para_2"
+  },
+  {
+    "text": " Ortsfeste Leitern im Freien sind aus witterungsbeständigen Werkstoffen herzustellen. ",
+    "metadata": [
+      "https://fedlex.admin.ch/eli/cc/1993/2564_2564_2564/de#art_11",
+      "Verordnung 4  zum Arbeitsgesetz  (ArGV 4) (Industrielle Betriebe, Plangenehmigung und Betriebsbewilligung)     ",
+      "2. Kapitel: Bau und Einrichtung von Betrieben mit Plangenehmigungspflicht",
+      "3. Abschnitt: Verkehrswege",
+      "Art. 11"
+    ],
+    "@eId": "art_11/para_3"
+  },
+  {
+    "text": " Abschrankungen und Geländer müssen eine Höhe von mindestens 1 m aufweisen und mit Zwischenleisten versehen sein. Nötigenfalls sind Bordleisten anzubringen. ",
+    "metadata": [
+      "https://fedlex.admin.ch/eli/cc/1993/2564_2564_2564/de#art_12",
+      "Verordnung 4  zum Arbeitsgesetz  (ArGV 4) (Industrielle Betriebe, Plangenehmigung und Betriebsbewilligung)     ",
+      "2. Kapitel: Bau und Einrichtung von Betrieben mit Plangenehmigungspflicht",
+      "3. Abschnitt: Verkehrswege",
+      "Art. 12"
+    ],
+    "@eId": "art_12/para"
+  },
+  {
+    "text": "Gleise für Schienenfahrzeuge sind so zu verlegen, dass zwischen dem Ladeprofil der Fahrzeuge und Bauten oder Hindernissen, ausgenommen bei Laderampen, ein minimaler Sicherheitsabstand wie folgt vorhanden ist:",
+    "metadata": [
+      "https://fedlex.admin.ch/eli/cc/1993/2564_2564_2564/de#art_13",
+      "Verordnung 4  zum Arbeitsgesetz  (ArGV 4) (Industrielle Betriebe, Plangenehmigung und Betriebsbewilligung)     ",
+      "2. Kapitel: Bau und Einrichtung von Betrieben mit Plangenehmigungspflicht",
+      "3. Abschnitt: Verkehrswege",
+      "Art. 13"
+    ],
+    "@eId": "art_13/para_1/listintro"
+  },
+  {
+    "text": "60 cm in Bereichen, in denen sich ausschliesslich mit dem Schienenverkehr beschäftigte Arbeitnehmer aufhalten;",
+    "metadata": [
+      "https://fedlex.admin.ch/eli/cc/1993/2564_2564_2564/de#art_13",
+      "Verordnung 4  zum Arbeitsgesetz  (ArGV 4) (Industrielle Betriebe, Plangenehmigung und Betriebsbewilligung)     ",
+      "2. Kapitel: Bau und Einrichtung von Betrieben mit Plangenehmigungspflicht",
+      "3. Abschnitt: Verkehrswege",
+      "Art. 13"
+    ],
+    "@eId": "art_13/para_1/lbl_a"
+  },
+  {
+    "text": "1 m im allgemeinen Verkehrsbereich.",
+    "metadata": [
+      "https://fedlex.admin.ch/eli/cc/1993/2564_2564_2564/de#art_13",
+      "Verordnung 4  zum Arbeitsgesetz  (ArGV 4) (Industrielle Betriebe, Plangenehmigung und Betriebsbewilligung)     ",
+      "2. Kapitel: Bau und Einrichtung von Betrieben mit Plangenehmigungspflicht",
+      "3. Abschnitt: Verkehrswege",
+      "Art. 13"
+    ],
+    "@eId": "art_13/para_1/lbl_b"
+  },
+  {
+    "text": " Drehscheiben sind mit bodeneben versenkten Feststellvorrichtungen zu versehen. ",
+    "metadata": [
+      "https://fedlex.admin.ch/eli/cc/1993/2564_2564_2564/de#art_13",
+      "Verordnung 4  zum Arbeitsgesetz  (ArGV 4) (Industrielle Betriebe, Plangenehmigung und Betriebsbewilligung)     ",
+      "2. Kapitel: Bau und Einrichtung von Betrieben mit Plangenehmigungspflicht",
+      "3. Abschnitt: Verkehrswege",
+      "Art. 13"
+    ],
+    "@eId": "art_13/para_2"
+  },
+  {
+    "text": " Laderampen für Schienenfahrzeuge müssen, wenn sie eine Länge von mehr als 10 m und eine Höhe von mehr als 80 cm über der Schienenoberkante aufweisen, unter der Rampe über einen Sicherheitsraum von mindestens 80 cm Höhe und 80 cm Tiefe über die ganze Rampenlänge verfügen. ",
+    "metadata": [
+      "https://fedlex.admin.ch/eli/cc/1993/2564_2564_2564/de#art_14",
+      "Verordnung 4  zum Arbeitsgesetz  (ArGV 4) (Industrielle Betriebe, Plangenehmigung und Betriebsbewilligung)     ",
+      "2. Kapitel: Bau und Einrichtung von Betrieben mit Plangenehmigungspflicht",
+      "3. Abschnitt: Verkehrswege",
+      "Art. 14"
+    ],
+    "@eId": "art_14/para"
+  },
+  {
+    "text": " Für den innerbetrieblichen Transport von gefährlichen Stoffen oder Gegenständen sind geeignete Transporteinrichtungen und Behälter vorzusehen. ",
+    "metadata": [
+      "https://fedlex.admin.ch/eli/cc/1993/2564_2564_2564/de#art_15",
+      "Verordnung 4  zum Arbeitsgesetz  (ArGV 4) (Industrielle Betriebe, Plangenehmigung und Betriebsbewilligung)     ",
+      "2. Kapitel: Bau und Einrichtung von Betrieben mit Plangenehmigungspflicht",
+      "3. Abschnitt: Verkehrswege",
+      "Art. 15"
+    ],
+    "@eId": "art_15/para"
+  },
+  {
+    "text": " Die Neigung von Rampenauffahrten ist der Art der Fahrzeuge und der Ladungen anzupassen. Sie darf höchstens 10 Prozent, bei Benützung von handgezogenen Fahrzeugen höchstens 5 Prozent betragen. Der Belag der Fahrbahn muss griffig sein. ",
+    "metadata": [
+      "https://fedlex.admin.ch/eli/cc/1993/2564_2564_2564/de#art_16",
+      "Verordnung 4  zum Arbeitsgesetz  (ArGV 4) (Industrielle Betriebe, Plangenehmigung und Betriebsbewilligung)     ",
+      "2. Kapitel: Bau und Einrichtung von Betrieben mit Plangenehmigungspflicht",
+      "3. Abschnitt: Verkehrswege",
+      "Art. 16"
+    ],
+    "@eId": "art_16/para"
+  },
+  {
+    "text": " Die Fläche aller Fassadenfenster und Dachlichter muss bei Verwendung von normal durchsichtigem Glas ein Verhältnis zur Bodenfläche von mindestens 1 zu 8 haben. ",
+    "metadata": [
+      "https://fedlex.admin.ch/eli/cc/1993/2564_2564_2564/de#art_17",
+      "Verordnung 4  zum Arbeitsgesetz  (ArGV 4) (Industrielle Betriebe, Plangenehmigung und Betriebsbewilligung)     ",
+      "2. Kapitel: Bau und Einrichtung von Betrieben mit Plangenehmigungspflicht",
+      "4. Abschnitt: Licht, Raumluft",
+      "Art. 17"
+    ],
+    "@eId": "art_17/para_1"
+  },
+  {
+    "text": " Mindestens die Hälfte der nach Absatz 1 vorgeschriebenen Fensterfläche muss in Form von durchsichtig verglasten Fassadenfenstern ausgeführt werden. Von den Arbeitsplätzen aus ist der Blick ins Freie durch Fassadenfenster zu gewährleisten, soweit es Betriebseinrichtungen und Produktionstechnik gestatten. ",
+    "metadata": [
+      "https://fedlex.admin.ch/eli/cc/1993/2564_2564_2564/de#art_17",
+      "Verordnung 4  zum Arbeitsgesetz  (ArGV 4) (Industrielle Betriebe, Plangenehmigung und Betriebsbewilligung)     ",
+      "2. Kapitel: Bau und Einrichtung von Betrieben mit Plangenehmigungspflicht",
+      "4. Abschnitt: Licht, Raumluft",
+      "Art. 17"
+    ],
+    "@eId": "art_17/para_2"
+  },
+  {
+    "text": " Die Behörde kann eine geringere Fensterfläche bewilligen, insbesondere wenn Gründe der Sicherheit oder der Produktionstechnik es erfordern; mit der Bewilligung können besondere Auflagen zum Schutz der Arbeitnehmer verbunden werden. ",
+    "metadata": [
+      "https://fedlex.admin.ch/eli/cc/1993/2564_2564_2564/de#art_17",
+      "Verordnung 4  zum Arbeitsgesetz  (ArGV 4) (Industrielle Betriebe, Plangenehmigung und Betriebsbewilligung)     ",
+      "2. Kapitel: Bau und Einrichtung von Betrieben mit Plangenehmigungspflicht",
+      "4. Abschnitt: Licht, Raumluft",
+      "Art. 17"
+    ],
+    "@eId": "art_17/para_3"
+  },
+  {
+    "text": " Die Höhe der Fensterbrüstung ist der Arbeitsweise anzupassen; sie soll nicht mehr als 1,2 m betragen. ",
+    "metadata": [
+      "https://fedlex.admin.ch/eli/cc/1993/2564_2564_2564/de#art_17",
+      "Verordnung 4  zum Arbeitsgesetz  (ArGV 4) (Industrielle Betriebe, Plangenehmigung und Betriebsbewilligung)     ",
+      "2. Kapitel: Bau und Einrichtung von Betrieben mit Plangenehmigungspflicht",
+      "4. Abschnitt: Licht, Raumluft",
+      "Art. 17"
+    ],
+    "@eId": "art_17/para_4"
+  },
+  {
+    "text": " Blendung und belästigende Wärmeeinstrahlung sind zu verhüten. ",
+    "metadata": [
+      "https://fedlex.admin.ch/eli/cc/1993/2564_2564_2564/de#art_17",
+      "Verordnung 4  zum Arbeitsgesetz  (ArGV 4) (Industrielle Betriebe, Plangenehmigung und Betriebsbewilligung)     ",
+      "2. Kapitel: Bau und Einrichtung von Betrieben mit Plangenehmigungspflicht",
+      "4. Abschnitt: Licht, Raumluft",
+      "Art. 17"
+    ],
+    "@eId": "art_17/para_5"
+  },
+  {
+    "text": " Bei natürlicher Lüftung sollen in Fassadenfenstern und Dachlichtern in der Regel auf 100 m 2 Bodenfläche mindestens 3 m 2 zur Lüftung geöffnet werden können. ",
+    "metadata": [
+      "https://fedlex.admin.ch/eli/cc/1993/2564_2564_2564/de#art_17",
+      "Verordnung 4  zum Arbeitsgesetz  (ArGV 4) (Industrielle Betriebe, Plangenehmigung und Betriebsbewilligung)     ",
+      "2. Kapitel: Bau und Einrichtung von Betrieben mit Plangenehmigungspflicht",
+      "4. Abschnitt: Licht, Raumluft",
+      "Art. 17"
+    ],
+    "@eId": "art_17/para_6"
+  },
+  {
+    "text": " Lüftungsanlagen müssen aus geeigneten Materialien bestehen. Insbesondere müssen Abluftanlagen für brennbare Gase, Dämpfe, Nebel und feste Stoffe aus nichtbrennbarem, beim Vorliegen besonderer Verhältnisse mindestens aus schwer brennbarem Material bestehen und dürfen nicht zu Funkenbildung Anlass geben. ",
+    "metadata": [
+      "https://fedlex.admin.ch/eli/cc/1993/2564_2564_2564/de#art_18",
+      "Verordnung 4  zum Arbeitsgesetz  (ArGV 4) (Industrielle Betriebe, Plangenehmigung und Betriebsbewilligung)     ",
+      "2. Kapitel: Bau und Einrichtung von Betrieben mit Plangenehmigungspflicht",
+      "4. Abschnitt: Licht, Raumluft",
+      "Art. 18"
+    ],
+    "@eId": "art_18/para_1"
+  },
+  {
+    "text": " Die Ausmündungen sind so anzuordnen, dass keine Entzündung durch äussere Einwirkung eintreten kann. ",
+    "metadata": [
+      "https://fedlex.admin.ch/eli/cc/1993/2564_2564_2564/de#art_18",
+      "Verordnung 4  zum Arbeitsgesetz  (ArGV 4) (Industrielle Betriebe, Plangenehmigung und Betriebsbewilligung)     ",
+      "2. Kapitel: Bau und Einrichtung von Betrieben mit Plangenehmigungspflicht",
+      "4. Abschnitt: Licht, Raumluft",
+      "Art. 18"
+    ],
+    "@eId": "art_18/para_2"
+  },
+  {
+    "text": " Trockenabscheider für brennbare feste Stoffe sind in sicherem Abstand zu Zündquellen anzuordnen. Sie sind so zu gestalten, dass Druckwellen einer möglichen Explosion keine schädlichen Auswirkungen haben. ",
+    "metadata": [
+      "https://fedlex.admin.ch/eli/cc/1993/2564_2564_2564/de#art_18",
+      "Verordnung 4  zum Arbeitsgesetz  (ArGV 4) (Industrielle Betriebe, Plangenehmigung und Betriebsbewilligung)     ",
+      "2. Kapitel: Bau und Einrichtung von Betrieben mit Plangenehmigungspflicht",
+      "4. Abschnitt: Licht, Raumluft",
+      "Art. 18"
+    ],
+    "@eId": "art_18/para_3"
+  },
+  {
+    "text": " Lüftungskanäle müssen mit gut zugänglichen Kontroll- und Reinigungsöffnungen sowie allenfalls mit Spülwasseranschlüssen und -ableitungen ausgestattet sein. ",
+    "metadata": [
+      "https://fedlex.admin.ch/eli/cc/1993/2564_2564_2564/de#art_18",
+      "Verordnung 4  zum Arbeitsgesetz  (ArGV 4) (Industrielle Betriebe, Plangenehmigung und Betriebsbewilligung)     ",
+      "2. Kapitel: Bau und Einrichtung von Betrieben mit Plangenehmigungspflicht",
+      "4. Abschnitt: Licht, Raumluft",
+      "Art. 18"
+    ],
+    "@eId": "art_18/para_4"
+  },
+  {
+    "text": " Die Bestimmungen dieses Abschnitts gelten für Betriebe oder Betriebsteile, in denen besonders brandgefährliche Stoffe in gefahrbringender Weise oder Menge hergestellt, verarbeitet, gehandhabt oder gelagert werden. ",
+    "metadata": [
+      "https://fedlex.admin.ch/eli/cc/1993/2564_2564_2564/de#art_19",
+      "Verordnung 4  zum Arbeitsgesetz  (ArGV 4) (Industrielle Betriebe, Plangenehmigung und Betriebsbewilligung)     ",
+      "2. Kapitel: Bau und Einrichtung von Betrieben mit Plangenehmigungspflicht",
+      "5. Abschnitt: Betriebe mit besonderen Gefahren",
+      "Art. 19"
+    ],
+    "@eId": "art_19/para_1"
+  },
+  {
+    "text": "Als besonders brandgefährliche Stoffe gelten:",
+    "metadata": [
+      "https://fedlex.admin.ch/eli/cc/1993/2564_2564_2564/de#art_19",
+      "Verordnung 4  zum Arbeitsgesetz  (ArGV 4) (Industrielle Betriebe, Plangenehmigung und Betriebsbewilligung)     ",
+      "2. Kapitel: Bau und Einrichtung von Betrieben mit Plangenehmigungspflicht",
+      "5. Abschnitt: Betriebe mit besonderen Gefahren",
+      "Art. 19"
+    ],
+    "@eId": "art_19/para_2/listintro"
+  },
+  {
+    "text": "hochentzündliche, leicht entzündliche und rasch abbrennende Stoffe;",
+    "metadata": [
+      "https://fedlex.admin.ch/eli/cc/1993/2564_2564_2564/de#art_19",
+      "Verordnung 4  zum Arbeitsgesetz  (ArGV 4) (Industrielle Betriebe, Plangenehmigung und Betriebsbewilligung)     ",
+      "2. Kapitel: Bau und Einrichtung von Betrieben mit Plangenehmigungspflicht",
+      "5. Abschnitt: Betriebe mit besonderen Gefahren",
+      "Art. 19"
+    ],
+    "@eId": "art_19/para_2/lbl_a"
+  },
+  {
+    "text": "Stoffe, bei deren Erhitzung grosse Mengen brennbarer oder giftiger Gase frei werden;",
+    "metadata": [
+      "https://fedlex.admin.ch/eli/cc/1993/2564_2564_2564/de#art_19",
+      "Verordnung 4  zum Arbeitsgesetz  (ArGV 4) (Industrielle Betriebe, Plangenehmigung und Betriebsbewilligung)     ",
+      "2. Kapitel: Bau und Einrichtung von Betrieben mit Plangenehmigungspflicht",
+      "5. Abschnitt: Betriebe mit besonderen Gefahren",
+      "Art. 19"
+    ],
+    "@eId": "art_19/para_2/lbl_b"
+  },
+  {
+    "text": "brandfördernde Stoffe, wie Sauerstoff, leicht zersetzbare Sauerstoffträger und andere Oxydationsmittel.",
+    "metadata": [
+      "https://fedlex.admin.ch/eli/cc/1993/2564_2564_2564/de#art_19",
+      "Verordnung 4  zum Arbeitsgesetz  (ArGV 4) (Industrielle Betriebe, Plangenehmigung und Betriebsbewilligung)     ",
+      "2. Kapitel: Bau und Einrichtung von Betrieben mit Plangenehmigungspflicht",
+      "5. Abschnitt: Betriebe mit besonderen Gefahren",
+      "Art. 19"
+    ],
+    "@eId": "art_19/para_2/lbl_c"
+  },
+  {
+    "text": " Gebäude oder Räume sind in der Regel in feuerwiderstandsfähiger Bauweise zu erstellen. Freistehende eingeschossige Gebäude können in leichter Bauweise mit nichtbrennbaren Baustoffen ausgeführt werden, wenn die Sicherheit der Arbeitnehmer und der Umgebung gewährleistet ist. ",
+    "metadata": [
+      "https://fedlex.admin.ch/eli/cc/1993/2564_2564_2564/de#art_20",
+      "Verordnung 4  zum Arbeitsgesetz  (ArGV 4) (Industrielle Betriebe, Plangenehmigung und Betriebsbewilligung)     ",
+      "2. Kapitel: Bau und Einrichtung von Betrieben mit Plangenehmigungspflicht",
+      "5. Abschnitt: Betriebe mit besonderen Gefahren",
+      "Art. 20"
+    ],
+    "@eId": "art_20/para_1"
+  },
+  {
+    "text": "Die Behörde kann, je nach Art und Menge der besonders brandgefährlichen Stoffe und der Arbeitsverfahren, zum Schutz der Arbeitnehmer vorschreiben, dass:",
+    "metadata": [
+      "https://fedlex.admin.ch/eli/cc/1993/2564_2564_2564/de#art_20",
+      "Verordnung 4  zum Arbeitsgesetz  (ArGV 4) (Industrielle Betriebe, Plangenehmigung und Betriebsbewilligung)     ",
+      "2. Kapitel: Bau und Einrichtung von Betrieben mit Plangenehmigungspflicht",
+      "5. Abschnitt: Betriebe mit besonderen Gefahren",
+      "Art. 20"
+    ],
+    "@eId": "art_20/para_2/listintro"
+  },
+  {
+    "text": "Gebäude oder Räume in Brandabschnitte unterteilt oder freistehende oder eingeschossige Gebäude erstellt werden;",
+    "metadata": [
+      "https://fedlex.admin.ch/eli/cc/1993/2564_2564_2564/de#art_20",
+      "Verordnung 4  zum Arbeitsgesetz  (ArGV 4) (Industrielle Betriebe, Plangenehmigung und Betriebsbewilligung)     ",
+      "2. Kapitel: Bau und Einrichtung von Betrieben mit Plangenehmigungspflicht",
+      "5. Abschnitt: Betriebe mit besonderen Gefahren",
+      "Art. 20"
+    ],
+    "@eId": "art_20/para_2/lbl_a"
+  },
+  {
+    "text": "genügende Sicherheitsabstände eingehalten werden;",
+    "metadata": [
+      "https://fedlex.admin.ch/eli/cc/1993/2564_2564_2564/de#art_20",
+      "Verordnung 4  zum Arbeitsgesetz  (ArGV 4) (Industrielle Betriebe, Plangenehmigung und Betriebsbewilligung)     ",
+      "2. Kapitel: Bau und Einrichtung von Betrieben mit Plangenehmigungspflicht",
+      "5. Abschnitt: Betriebe mit besonderen Gefahren",
+      "Art. 20"
+    ],
+    "@eId": "art_20/para_2/lbl_b"
+  },
+  {
+    "text": "die Herstellung, Verarbeitung, Handhabung und Lagerung von besonders brandgefährlichen Stoffen nur in bestimmten Geschossen oder Räumen eines Gebäudes oder an bestimmten anderen Orten erfolgen darf;",
+    "metadata": [
+      "https://fedlex.admin.ch/eli/cc/1993/2564_2564_2564/de#art_20",
+      "Verordnung 4  zum Arbeitsgesetz  (ArGV 4) (Industrielle Betriebe, Plangenehmigung und Betriebsbewilligung)     ",
+      "2. Kapitel: Bau und Einrichtung von Betrieben mit Plangenehmigungspflicht",
+      "5. Abschnitt: Betriebe mit besonderen Gefahren",
+      "Art. 20"
+    ],
+    "@eId": "art_20/para_2/lbl_c"
+  },
+  {
+    "text": "die Fluchtwege von den einzelnen Arbeitsplätzen zu den Ausgängen eine der Gefährdung entsprechende Länge nicht überschreiten.",
+    "metadata": [
+      "https://fedlex.admin.ch/eli/cc/1993/2564_2564_2564/de#art_20",
+      "Verordnung 4  zum Arbeitsgesetz  (ArGV 4) (Industrielle Betriebe, Plangenehmigung und Betriebsbewilligung)     ",
+      "2. Kapitel: Bau und Einrichtung von Betrieben mit Plangenehmigungspflicht",
+      "5. Abschnitt: Betriebe mit besonderen Gefahren",
+      "Art. 20"
+    ],
+    "@eId": "art_20/para_2/lbl_d"
+  },
+  {
+    "text": " Herstellung, Verarbeitung, Handhabung und Lagerung von besonders brandgefährlichen Stoffen in Räumen unter dem Erdboden können ausnahmsweise zugelassen werden, wenn die Sicherheit gewährleistet bleibt. ",
+    "metadata": [
+      "https://fedlex.admin.ch/eli/cc/1993/2564_2564_2564/de#art_20",
+      "Verordnung 4  zum Arbeitsgesetz  (ArGV 4) (Industrielle Betriebe, Plangenehmigung und Betriebsbewilligung)     ",
+      "2. Kapitel: Bau und Einrichtung von Betrieben mit Plangenehmigungspflicht",
+      "5. Abschnitt: Betriebe mit besonderen Gefahren",
+      "Art. 20"
+    ],
+    "@eId": "art_20/para_3"
+  },
+  {
+    "text": "Die Behörde legt je nach Art und Menge der besonders brandgefährlichen Stoffe und der Arbeitsverfahren zum Schutz der Arbeitnehmer für bestimmte Bereiche fest:",
+    "metadata": [
+      "https://fedlex.admin.ch/eli/cc/1993/2564_2564_2564/de#art_21",
+      "Verordnung 4  zum Arbeitsgesetz  (ArGV 4) (Industrielle Betriebe, Plangenehmigung und Betriebsbewilligung)     ",
+      "2. Kapitel: Bau und Einrichtung von Betrieben mit Plangenehmigungspflicht",
+      "5. Abschnitt: Betriebe mit besonderen Gefahren",
+      "Art. 21"
+    ],
+    "@eId": "art_21/para/listintro"
+  },
+  {
+    "text": "die zulässige Zahl der dort tätigen Arbeitnehmer;",
+    "metadata": [
+      "https://fedlex.admin.ch/eli/cc/1993/2564_2564_2564/de#art_21",
+      "Verordnung 4  zum Arbeitsgesetz  (ArGV 4) (Industrielle Betriebe, Plangenehmigung und Betriebsbewilligung)     ",
+      "2. Kapitel: Bau und Einrichtung von Betrieben mit Plangenehmigungspflicht",
+      "5. Abschnitt: Betriebe mit besonderen Gefahren",
+      "Art. 21"
+    ],
+    "@eId": "art_21/para/lbl_a"
+  },
+  {
+    "text": "die zulässigen Betriebseinrichtungen und deren Ausgestaltung;",
+    "metadata": [
+      "https://fedlex.admin.ch/eli/cc/1993/2564_2564_2564/de#art_21",
+      "Verordnung 4  zum Arbeitsgesetz  (ArGV 4) (Industrielle Betriebe, Plangenehmigung und Betriebsbewilligung)     ",
+      "2. Kapitel: Bau und Einrichtung von Betrieben mit Plangenehmigungspflicht",
+      "5. Abschnitt: Betriebe mit besonderen Gefahren",
+      "Art. 21"
+    ],
+    "@eId": "art_21/para/lbl_b"
+  },
+  {
+    "text": "die für die Herstellung, Verarbeitung, Handhabung oder Lagerung zulässigen Mengen der Stoffe;",
+    "metadata": [
+      "https://fedlex.admin.ch/eli/cc/1993/2564_2564_2564/de#art_21",
+      "Verordnung 4  zum Arbeitsgesetz  (ArGV 4) (Industrielle Betriebe, Plangenehmigung und Betriebsbewilligung)     ",
+      "2. Kapitel: Bau und Einrichtung von Betrieben mit Plangenehmigungspflicht",
+      "5. Abschnitt: Betriebe mit besonderen Gefahren",
+      "Art. 21"
+    ],
+    "@eId": "art_21/para/lbl_c"
+  },
+  {
+    "text": "die zu treffenden organisatorischen Massnahmen.",
+    "metadata": [
+      "https://fedlex.admin.ch/eli/cc/1993/2564_2564_2564/de#art_21",
+      "Verordnung 4  zum Arbeitsgesetz  (ArGV 4) (Industrielle Betriebe, Plangenehmigung und Betriebsbewilligung)     ",
+      "2. Kapitel: Bau und Einrichtung von Betrieben mit Plangenehmigungspflicht",
+      "5. Abschnitt: Betriebe mit besonderen Gefahren",
+      "Art. 21"
+    ],
+    "@eId": "art_21/para/lbl_d"
+  },
+  {
+    "text": "Die Bestimmungen dieses Abschnitts gelten für Betriebe und Betriebsteile, in denen:",
+    "metadata": [
+      "https://fedlex.admin.ch/eli/cc/1993/2564_2564_2564/de#art_22",
+      "Verordnung 4  zum Arbeitsgesetz  (ArGV 4) (Industrielle Betriebe, Plangenehmigung und Betriebsbewilligung)     ",
+      "2. Kapitel: Bau und Einrichtung von Betrieben mit Plangenehmigungspflicht",
+      "5. Abschnitt: Betriebe mit besonderen Gefahren",
+      "Art. 22"
+    ],
+    "@eId": "art_22/para/listintro"
+  },
+  {
+    "text": "bei der Herstellung, Verarbeitung, Handhabung oder Lagerung brennbarer Stoffe sich zusammen mit Luft explosionsfähige Gemische zu bilden vermögen;",
+    "metadata": [
+      "https://fedlex.admin.ch/eli/cc/1993/2564_2564_2564/de#art_22",
+      "Verordnung 4  zum Arbeitsgesetz  (ArGV 4) (Industrielle Betriebe, Plangenehmigung und Betriebsbewilligung)     ",
+      "2. Kapitel: Bau und Einrichtung von Betrieben mit Plangenehmigungspflicht",
+      "5. Abschnitt: Betriebe mit besonderen Gefahren",
+      "Art. 22"
+    ],
+    "@eId": "art_22/para/lbl_a"
+  },
+  {
+    "text": "explosionsfähige Stoffe und Stoffgemische vorhanden sind oder entstehen;",
+    "metadata": [
+      "https://fedlex.admin.ch/eli/cc/1993/2564_2564_2564/de#art_22",
+      "Verordnung 4  zum Arbeitsgesetz  (ArGV 4) (Industrielle Betriebe, Plangenehmigung und Betriebsbewilligung)     ",
+      "2. Kapitel: Bau und Einrichtung von Betrieben mit Plangenehmigungspflicht",
+      "5. Abschnitt: Betriebe mit besonderen Gefahren",
+      "Art. 22"
+    ],
+    "@eId": "art_22/para/lbl_b"
+  },
+  {
+    "text": "Explosivstoffe hergestellt, verarbeitet, gehandhabt oder gelagert werden.",
+    "metadata": [
+      "https://fedlex.admin.ch/eli/cc/1993/2564_2564_2564/de#art_22",
+      "Verordnung 4  zum Arbeitsgesetz  (ArGV 4) (Industrielle Betriebe, Plangenehmigung und Betriebsbewilligung)     ",
+      "2. Kapitel: Bau und Einrichtung von Betrieben mit Plangenehmigungspflicht",
+      "5. Abschnitt: Betriebe mit besonderen Gefahren",
+      "Art. 22"
+    ],
+    "@eId": "art_22/para/lbl_c"
+  },
+  {
+    "text": " Fabrikationsräume sind nötigenfalls mit leichten Bauelementen in der Weise zu versehen, dass die Gefährdung von Arbeitnehmern in benachbarten Gebäuden, Räumen und auf Verkehrswegen sowie in der Umgebung im Fall einer Explosion soweit möglich vermindert wird. ",
+    "metadata": [
+      "https://fedlex.admin.ch/eli/cc/1993/2564_2564_2564/de#art_23",
+      "Verordnung 4  zum Arbeitsgesetz  (ArGV 4) (Industrielle Betriebe, Plangenehmigung und Betriebsbewilligung)     ",
+      "2. Kapitel: Bau und Einrichtung von Betrieben mit Plangenehmigungspflicht",
+      "5. Abschnitt: Betriebe mit besonderen Gefahren",
+      "Art. 23"
+    ],
+    "@eId": "art_23/para_1"
+  },
+  {
+    "text": " Zwischen Gebäuden und zum Schutz von Verkehrswegen sowie der Umgebung sind nötigenfalls Schutzwälle oder Schutzmauern zu erstellen oder andere geeignete Massnahmen zu treffen. ",
+    "metadata": [
+      "https://fedlex.admin.ch/eli/cc/1993/2564_2564_2564/de#art_23",
+      "Verordnung 4  zum Arbeitsgesetz  (ArGV 4) (Industrielle Betriebe, Plangenehmigung und Betriebsbewilligung)     ",
+      "2. Kapitel: Bau und Einrichtung von Betrieben mit Plangenehmigungspflicht",
+      "5. Abschnitt: Betriebe mit besonderen Gefahren",
+      "Art. 23"
+    ],
+    "@eId": "art_23/para_2"
+  },
+  {
+    "text": " Bodenbeläge sind so auszuführen, dass sich keine Funken bilden können. ",
+    "metadata": [
+      "https://fedlex.admin.ch/eli/cc/1993/2564_2564_2564/de#art_23",
+      "Verordnung 4  zum Arbeitsgesetz  (ArGV 4) (Industrielle Betriebe, Plangenehmigung und Betriebsbewilligung)     ",
+      "2. Kapitel: Bau und Einrichtung von Betrieben mit Plangenehmigungspflicht",
+      "5. Abschnitt: Betriebe mit besonderen Gefahren",
+      "Art. 23"
+    ],
+    "@eId": "art_23/para_3"
+  },
+  {
+    "text": "Die Behörde legt je nach Art und Menge der explosionsfähigen Stoffe und der Arbeitsverfahren zum Schutz der Arbeitnehmer für bestimmte Bereiche fest:",
+    "metadata": [
+      "https://fedlex.admin.ch/eli/cc/1993/2564_2564_2564/de#art_24",
+      "Verordnung 4  zum Arbeitsgesetz  (ArGV 4) (Industrielle Betriebe, Plangenehmigung und Betriebsbewilligung)     ",
+      "2. Kapitel: Bau und Einrichtung von Betrieben mit Plangenehmigungspflicht",
+      "5. Abschnitt: Betriebe mit besonderen Gefahren",
+      "Art. 24"
+    ],
+    "@eId": "art_24/para/listintro"
+  },
+  {
+    "text": "die zulässige Zahl der dort tätigen Arbeitnehmer;",
+    "metadata": [
+      "https://fedlex.admin.ch/eli/cc/1993/2564_2564_2564/de#art_24",
+      "Verordnung 4  zum Arbeitsgesetz  (ArGV 4) (Industrielle Betriebe, Plangenehmigung und Betriebsbewilligung)     ",
+      "2. Kapitel: Bau und Einrichtung von Betrieben mit Plangenehmigungspflicht",
+      "5. Abschnitt: Betriebe mit besonderen Gefahren",
+      "Art. 24"
+    ],
+    "@eId": "art_24/para/lbl_a"
+  },
+  {
+    "text": "die zulässigen Betriebseinrichtungen und deren Ausgestaltung;",
+    "metadata": [
+      "https://fedlex.admin.ch/eli/cc/1993/2564_2564_2564/de#art_24",
+      "Verordnung 4  zum Arbeitsgesetz  (ArGV 4) (Industrielle Betriebe, Plangenehmigung und Betriebsbewilligung)     ",
+      "2. Kapitel: Bau und Einrichtung von Betrieben mit Plangenehmigungspflicht",
+      "5. Abschnitt: Betriebe mit besonderen Gefahren",
+      "Art. 24"
+    ],
+    "@eId": "art_24/para/lbl_b"
+  },
+  {
+    "text": "die für die Herstellung, Verarbeitung, Handhabung oder Lagerung zulässigen Mengen der Stoffe;",
+    "metadata": [
+      "https://fedlex.admin.ch/eli/cc/1993/2564_2564_2564/de#art_24",
+      "Verordnung 4  zum Arbeitsgesetz  (ArGV 4) (Industrielle Betriebe, Plangenehmigung und Betriebsbewilligung)     ",
+      "2. Kapitel: Bau und Einrichtung von Betrieben mit Plangenehmigungspflicht",
+      "5. Abschnitt: Betriebe mit besonderen Gefahren",
+      "Art. 24"
+    ],
+    "@eId": "art_24/para/lbl_c"
+  },
+  {
+    "text": "die zu treffenden organisatorischen Massnahmen.",
+    "metadata": [
+      "https://fedlex.admin.ch/eli/cc/1993/2564_2564_2564/de#art_24",
+      "Verordnung 4  zum Arbeitsgesetz  (ArGV 4) (Industrielle Betriebe, Plangenehmigung und Betriebsbewilligung)     ",
+      "2. Kapitel: Bau und Einrichtung von Betrieben mit Plangenehmigungspflicht",
+      "5. Abschnitt: Betriebe mit besonderen Gefahren",
+      "Art. 24"
+    ],
+    "@eId": "art_24/para/lbl_d"
+  },
+  {
+    "text": " Betriebe oder Betriebsteile zur Herstellung, Verarbeitung, Handhabung und Lagerung von Explosivstoffen sind in explosionsgefährdete und nichtexplosionsgefährdete Bereiche zu unterteilen. ",
+    "metadata": [
+      "https://fedlex.admin.ch/eli/cc/1993/2564_2564_2564/de#art_25",
+      "Verordnung 4  zum Arbeitsgesetz  (ArGV 4) (Industrielle Betriebe, Plangenehmigung und Betriebsbewilligung)     ",
+      "2. Kapitel: Bau und Einrichtung von Betrieben mit Plangenehmigungspflicht",
+      "5. Abschnitt: Betriebe mit besonderen Gefahren",
+      "Art. 25"
+    ],
+    "@eId": "art_25/para_1"
+  },
+  {
+    "text": " In besonders gefährdeten Bereichen ist durch technische oder organisatorische Massnahmen die Zahl der Arbeitnehmer auf ein Mindestmass zu beschränken oder deren Anwesenheit ganz auszuschliessen. ",
+    "metadata": [
+      "https://fedlex.admin.ch/eli/cc/1993/2564_2564_2564/de#art_25",
+      "Verordnung 4  zum Arbeitsgesetz  (ArGV 4) (Industrielle Betriebe, Plangenehmigung und Betriebsbewilligung)     ",
+      "2. Kapitel: Bau und Einrichtung von Betrieben mit Plangenehmigungspflicht",
+      "5. Abschnitt: Betriebe mit besonderen Gefahren",
+      "Art. 25"
+    ],
+    "@eId": "art_25/para_2"
+  },
+  {
+    "text": " Aus jedem Raum mit ständigen Arbeitsplätzen muss wenigstens ein ungehindert benützbarer Ausgang unmittelbar ins Freie oder in eine gesicherte Zone führen. ",
+    "metadata": [
+      "https://fedlex.admin.ch/eli/cc/1993/2564_2564_2564/de#art_25",
+      "Verordnung 4  zum Arbeitsgesetz  (ArGV 4) (Industrielle Betriebe, Plangenehmigung und Betriebsbewilligung)     ",
+      "2. Kapitel: Bau und Einrichtung von Betrieben mit Plangenehmigungspflicht",
+      "5. Abschnitt: Betriebe mit besonderen Gefahren",
+      "Art. 25"
+    ],
+    "@eId": "art_25/para_3"
+  },
+  {
+    "text": " Die Verkehrswege im Freien und die Zugänge zu den Gebäuden müssen so beschaffen sein, dass die Räume beim Betreten nicht verunreinigt werden. ",
+    "metadata": [
+      "https://fedlex.admin.ch/eli/cc/1993/2564_2564_2564/de#art_25",
+      "Verordnung 4  zum Arbeitsgesetz  (ArGV 4) (Industrielle Betriebe, Plangenehmigung und Betriebsbewilligung)     ",
+      "2. Kapitel: Bau und Einrichtung von Betrieben mit Plangenehmigungspflicht",
+      "5. Abschnitt: Betriebe mit besonderen Gefahren",
+      "Art. 25"
+    ],
+    "@eId": "art_25/para_4"
+  },
+  {
+    "text": " Das Betriebsgelände ist gegen den Zutritt Unbefugter abzusperren; an den Eingängen ist durch gut sichtbare Anschriften Unbefugten der Zutritt zu verbieten. ",
+    "metadata": [
+      "https://fedlex.admin.ch/eli/cc/1993/2564_2564_2564/de#art_25",
+      "Verordnung 4  zum Arbeitsgesetz  (ArGV 4) (Industrielle Betriebe, Plangenehmigung und Betriebsbewilligung)     ",
+      "2. Kapitel: Bau und Einrichtung von Betrieben mit Plangenehmigungspflicht",
+      "5. Abschnitt: Betriebe mit besonderen Gefahren",
+      "Art. 25"
+    ],
+    "@eId": "art_25/para_5"
+  },
+  {
+    "text": " Das Staatssekretariat für Wirtschaft (Bundesamt) kann Richtlinien über die in dieser Verordnung umschriebenen Anforderungen an den Bau und die Einrichtung von Betrieben im Rahmen der Plangenehmigung aufstellen.  ",
+    "metadata": [
+      "https://fedlex.admin.ch/eli/cc/1993/2564_2564_2564/de#art_26",
+      "Verordnung 4  zum Arbeitsgesetz  (ArGV 4) (Industrielle Betriebe, Plangenehmigung und Betriebsbewilligung)     ",
+      "2. Kapitel: Bau und Einrichtung von Betrieben mit Plangenehmigungspflicht",
+      "6. Abschnitt: Richtlinien und Ausnahmebewilligungen",
+      "Art. 26"
+    ],
+    "@eId": "art_26/para_1"
+  },
+  {
+    "text": " Vor Erlass der Richtlinien sind die Eidgenössische Arbeitskommission, die kantonalen Behörden, die Eidgenössische Koordinationskommission für Arbeitssicherheit, die Schweizerische Unfallversicherungsanstalt (SUVA) sowie weitere interessierte Organisationen anzuhören. ",
+    "metadata": [
+      "https://fedlex.admin.ch/eli/cc/1993/2564_2564_2564/de#art_26",
+      "Verordnung 4  zum Arbeitsgesetz  (ArGV 4) (Industrielle Betriebe, Plangenehmigung und Betriebsbewilligung)     ",
+      "2. Kapitel: Bau und Einrichtung von Betrieben mit Plangenehmigungspflicht",
+      "6. Abschnitt: Richtlinien und Ausnahmebewilligungen",
+      "Art. 26"
+    ],
+    "@eId": "art_26/para_2"
+  },
+  {
+    "text": " Werden vom Arbeitgeber die Richtlinien befolgt, so wird vermutet, dass er seinen Verpflichtungen hinsichtlich Bau und Einrichtung seines Betriebes nachgekommen ist. Der Arbeitgeber kann diesen Verpflichtungen auf andere Weise nachkommen, wenn er nachweist, dass die von ihm getroffenen Massnahmen gleichwertig sind. ",
+    "metadata": [
+      "https://fedlex.admin.ch/eli/cc/1993/2564_2564_2564/de#art_26",
+      "Verordnung 4  zum Arbeitsgesetz  (ArGV 4) (Industrielle Betriebe, Plangenehmigung und Betriebsbewilligung)     ",
+      "2. Kapitel: Bau und Einrichtung von Betrieben mit Plangenehmigungspflicht",
+      "6. Abschnitt: Richtlinien und Ausnahmebewilligungen",
+      "Art. 26"
+    ],
+    "@eId": "art_26/para_3"
+  },
+  {
+    "text": "Die Behörde kann auf Antrag des Gesuchstellers im Einzelfall Ausnahmen von den Vorschriften dieser Verordnung bewilligen, wenn:",
+    "metadata": [
+      "https://fedlex.admin.ch/eli/cc/1993/2564_2564_2564/de#art_27",
+      "Verordnung 4  zum Arbeitsgesetz  (ArGV 4) (Industrielle Betriebe, Plangenehmigung und Betriebsbewilligung)     ",
+      "2. Kapitel: Bau und Einrichtung von Betrieben mit Plangenehmigungspflicht",
+      "6. Abschnitt: Richtlinien und Ausnahmebewilligungen",
+      "Art. 27"
+    ],
+    "@eId": "art_27/para_1/listintro"
+  },
+  {
+    "text": "eine andere, ebenso wirksame Massnahme vorgesehen wird; oder",
+    "metadata": [
+      "https://fedlex.admin.ch/eli/cc/1993/2564_2564_2564/de#art_27",
+      "Verordnung 4  zum Arbeitsgesetz  (ArGV 4) (Industrielle Betriebe, Plangenehmigung und Betriebsbewilligung)     ",
+      "2. Kapitel: Bau und Einrichtung von Betrieben mit Plangenehmigungspflicht",
+      "6. Abschnitt: Richtlinien und Ausnahmebewilligungen",
+      "Art. 27"
+    ],
+    "@eId": "art_27/para_1/lbl_a"
+  },
+  {
+    "text": "die Durchführung der Vorschrift zu einer unverhältnismässigen Härte führen würde und die Ausnahme mit dem Schutz der Arbeitnehmer vereinbar ist. ",
+    "metadata": [
+      "https://fedlex.admin.ch/eli/cc/1993/2564_2564_2564/de#art_27",
+      "Verordnung 4  zum Arbeitsgesetz  (ArGV 4) (Industrielle Betriebe, Plangenehmigung und Betriebsbewilligung)     ",
+      "2. Kapitel: Bau und Einrichtung von Betrieben mit Plangenehmigungspflicht",
+      "6. Abschnitt: Richtlinien und Ausnahmebewilligungen",
+      "Art. 27"
+    ],
+    "@eId": "art_27/para_1/lbl_b"
+  },
+  {
+    "text": " Bevor der Arbeitgeber den Antrag stellt, muss er allenfalls betroffenen Arbeitnehmern oder deren Vertretung im Betrieb Gelegenheit geben, sich dazu zu äussern und der Behörde das Ergebnis dieser Anhörung mitteilen. ",
+    "metadata": [
+      "https://fedlex.admin.ch/eli/cc/1993/2564_2564_2564/de#art_27",
+      "Verordnung 4  zum Arbeitsgesetz  (ArGV 4) (Industrielle Betriebe, Plangenehmigung und Betriebsbewilligung)     ",
+      "2. Kapitel: Bau und Einrichtung von Betrieben mit Plangenehmigungspflicht",
+      "6. Abschnitt: Richtlinien und Ausnahmebewilligungen",
+      "Art. 27"
+    ],
+    "@eId": "art_27/para_2"
+  },
+  {
+    "text": " Vor der Bewilligung von Ausnahmen holt die kantonale Behörde die Stellungnahme des Bundesamtes ein. Dieses holt erforderlichenfalls die Stellungnahme der SUVA ein.  ",
+    "metadata": [
+      "https://fedlex.admin.ch/eli/cc/1993/2564_2564_2564/de#art_27",
+      "Verordnung 4  zum Arbeitsgesetz  (ArGV 4) (Industrielle Betriebe, Plangenehmigung und Betriebsbewilligung)     ",
+      "2. Kapitel: Bau und Einrichtung von Betrieben mit Plangenehmigungspflicht",
+      "6. Abschnitt: Richtlinien und Ausnahmebewilligungen",
+      "Art. 27"
+    ],
+    "@eId": "art_27/para_3"
+  },
+  {
+    "text": " Unter die Betriebe für die Herstellung, Verarbeitung oder Behandlung von Gütern im Sinne von Artikel 5 Absatz 2 des Gesetzes fallen auch Betriebe für die Verbrennung und Verarbeitung von Kehricht, Betriebe der Wasserversorgung und der Abwasserreinigung. ",
+    "metadata": [
+      "https://fedlex.admin.ch/eli/cc/1993/2564_2564_2564/de#art_28",
+      "Verordnung 4  zum Arbeitsgesetz  (ArGV 4) (Industrielle Betriebe, Plangenehmigung und Betriebsbewilligung)     ",
+      "3. Kapitel:   Industrielle Betriebe",
+      "1. Abschnitt: Allgemeine Bestimmungen",
+      "Art. 28"
+    ],
+    "@eId": "art_28/para_1"
+  },
+  {
+    "text": " Betriebe für die Erzeugung, Umwandlung oder Übertragung von Energie sind namentlich Gaswerke, Elektrizitätswerke, mit Einschluss der Unterwerke, der Umformer- und Transformatorenstationen, Atomanlagen sowie Pump- und Speicherwerke von Rohrleitungsanlagen zur Beförderung flüssiger oder gasförmiger Brenn- und Treibstoffe. ",
+    "metadata": [
+      "https://fedlex.admin.ch/eli/cc/1993/2564_2564_2564/de#art_28",
+      "Verordnung 4  zum Arbeitsgesetz  (ArGV 4) (Industrielle Betriebe, Plangenehmigung und Betriebsbewilligung)     ",
+      "3. Kapitel:   Industrielle Betriebe",
+      "1. Abschnitt: Allgemeine Bestimmungen",
+      "Art. 28"
+    ],
+    "@eId": "art_28/para_2"
+  },
+  {
+    "text": " Für die Mindestzahl von Arbeitnehmern fallen alle Arbeitnehmer in Betracht, die in den industriellen Teilen des Betriebes beschäftigt werden, auch wenn sich die Betriebsteile in verschiedenen, aber benachbarten politischen Gemeinden befinden. ",
+    "metadata": [
+      "https://fedlex.admin.ch/eli/cc/1993/2564_2564_2564/de#art_29",
+      "Verordnung 4  zum Arbeitsgesetz  (ArGV 4) (Industrielle Betriebe, Plangenehmigung und Betriebsbewilligung)     ",
+      "3. Kapitel:   Industrielle Betriebe",
+      "1. Abschnitt: Allgemeine Bestimmungen",
+      "Art. 29"
+    ],
+    "@eId": "art_29/para_1"
+  },
+  {
+    "text": "Für die Mindestzahl von Arbeitnehmern nach Absatz 1 fallen nicht in Betracht:",
+    "metadata": [
+      "https://fedlex.admin.ch/eli/cc/1993/2564_2564_2564/de#art_29",
+      "Verordnung 4  zum Arbeitsgesetz  (ArGV 4) (Industrielle Betriebe, Plangenehmigung und Betriebsbewilligung)     ",
+      "3. Kapitel:   Industrielle Betriebe",
+      "1. Abschnitt: Allgemeine Bestimmungen",
+      "Art. 29"
+    ],
+    "@eId": "art_29/para_2/listintro"
+  },
+  {
+    "text": "das technische und kaufmännische Büropersonal sowie andere Arbeitnehmer, die nicht für die Herstellung, Verarbeitung oder Behandlung von Gütern oder für die Erzeugung, Umwandlung oder Übertragung von Energie beschäftigt sind;",
+    "metadata": [
+      "https://fedlex.admin.ch/eli/cc/1993/2564_2564_2564/de#art_29",
+      "Verordnung 4  zum Arbeitsgesetz  (ArGV 4) (Industrielle Betriebe, Plangenehmigung und Betriebsbewilligung)     ",
+      "3. Kapitel:   Industrielle Betriebe",
+      "1. Abschnitt: Allgemeine Bestimmungen",
+      "Art. 29"
+    ],
+    "@eId": "art_29/para_2/lbl_a"
+  },
+  {
+    "text": "Lehrlinge, Volontäre, Praktikanten sowie Personen, die nur vorübergehend im Betrieb tätig sind;",
+    "metadata": [
+      "https://fedlex.admin.ch/eli/cc/1993/2564_2564_2564/de#art_29",
+      "Verordnung 4  zum Arbeitsgesetz  (ArGV 4) (Industrielle Betriebe, Plangenehmigung und Betriebsbewilligung)     ",
+      "3. Kapitel:   Industrielle Betriebe",
+      "1. Abschnitt: Allgemeine Bestimmungen",
+      "Art. 29"
+    ],
+    "@eId": "art_29/para_2/lbl_b"
+  },
+  {
+    "text": "die überwiegend ausserhalb des industriellen Betriebes beschäftigten Arbeitnehmer.",
+    "metadata": [
+      "https://fedlex.admin.ch/eli/cc/1993/2564_2564_2564/de#art_29",
+      "Verordnung 4  zum Arbeitsgesetz  (ArGV 4) (Industrielle Betriebe, Plangenehmigung und Betriebsbewilligung)     ",
+      "3. Kapitel:   Industrielle Betriebe",
+      "1. Abschnitt: Allgemeine Bestimmungen",
+      "Art. 29"
+    ],
+    "@eId": "art_29/para_2/lbl_c"
+  },
+  {
+    "text": " Ein Verfahren gilt als automatisiert, wenn technische Einrichtungen die Bedienung, Steuerung und Überwachung von Anlagen selbsttätig besorgen und planmässig ablaufen lassen, so dass normalerweise während des ganzen Verfahrens kein menschliches Eingreifen erforderlich ist. ",
+    "metadata": [
+      "https://fedlex.admin.ch/eli/cc/1993/2564_2564_2564/de#art_30",
+      "Verordnung 4  zum Arbeitsgesetz  (ArGV 4) (Industrielle Betriebe, Plangenehmigung und Betriebsbewilligung)     ",
+      "3. Kapitel:   Industrielle Betriebe",
+      "1. Abschnitt: Allgemeine Bestimmungen",
+      "Art. 30"
+    ],
+    "@eId": "art_30/para"
+  },
+  {
+    "text": "Betriebe, die mit besonderen Gefahren für Leben oder Gesundheit der Arbeitnehmer verbunden sind (Art. 5 Abs. 2 Bst. c des Gesetzes), sind insbesondere:",
+    "metadata": [
+      "https://fedlex.admin.ch/eli/cc/1993/2564_2564_2564/de#art_31",
+      "Verordnung 4  zum Arbeitsgesetz  (ArGV 4) (Industrielle Betriebe, Plangenehmigung und Betriebsbewilligung)     ",
+      "3. Kapitel:   Industrielle Betriebe",
+      "1. Abschnitt: Allgemeine Bestimmungen",
+      "Art. 31"
+    ],
+    "@eId": "art_31/para/listintro"
+  },
+  {
+    "text": "Betriebe, in denen explosionsgefährliche, besonders brandgefährliche oder besonders gesundheitsschädliche Stoffe verarbeitet oder gelagert werden;",
+    "metadata": [
+      "https://fedlex.admin.ch/eli/cc/1993/2564_2564_2564/de#art_31",
+      "Verordnung 4  zum Arbeitsgesetz  (ArGV 4) (Industrielle Betriebe, Plangenehmigung und Betriebsbewilligung)     ",
+      "3. Kapitel:   Industrielle Betriebe",
+      "1. Abschnitt: Allgemeine Bestimmungen",
+      "Art. 31"
+    ],
+    "@eId": "art_31/para/lbl_a"
+  },
+  {
+    "text": "andere Betriebe, in denen erfahrungsgemäss die Gefahr von Unfällen, von Krankheiten oder von Überbeanspruchung der Arbeitnehmer besonders gross ist.",
+    "metadata": [
+      "https://fedlex.admin.ch/eli/cc/1993/2564_2564_2564/de#art_31",
+      "Verordnung 4  zum Arbeitsgesetz  (ArGV 4) (Industrielle Betriebe, Plangenehmigung und Betriebsbewilligung)     ",
+      "3. Kapitel:   Industrielle Betriebe",
+      "1. Abschnitt: Allgemeine Bestimmungen",
+      "Art. 31"
+    ],
+    "@eId": "art_31/para/lbl_b"
+  },
+  {
+    "text": " Die kantonale Behörde ermittelt jeden Betrieb oder Betriebsteil, der die Voraussetzungen eines industriellen Betriebes erfüllt, und leitet das Verfahren zur Unterstellung unter die Sondervorschriften für industrielle Betriebe ein. ",
+    "metadata": [
+      "https://fedlex.admin.ch/eli/cc/1993/2564_2564_2564/de#art_32",
+      "Verordnung 4  zum Arbeitsgesetz  (ArGV 4) (Industrielle Betriebe, Plangenehmigung und Betriebsbewilligung)     ",
+      "3. Kapitel:   Industrielle Betriebe",
+      "2. Abschnitt: Unterstellungsverfahren",
+      "Art. 32"
+    ],
+    "@eId": "art_32/para_1"
+  },
+  {
+    "text": " Die SUVA kann bei der kantonalen Behörde die Unterstellung eines Betriebs beantragen. ",
+    "metadata": [
+      "https://fedlex.admin.ch/eli/cc/1993/2564_2564_2564/de#art_32",
+      "Verordnung 4  zum Arbeitsgesetz  (ArGV 4) (Industrielle Betriebe, Plangenehmigung und Betriebsbewilligung)     ",
+      "3. Kapitel:   Industrielle Betriebe",
+      "2. Abschnitt: Unterstellungsverfahren",
+      "Art. 32"
+    ],
+    "@eId": "art_32/para_2"
+  },
+  {
+    "text": " Der Arbeitgeber muss der kantonalen Behörde in einem Fragebogen Auskunft über die für die Unterstellung maßgebenden Tatsachen geben. ",
+    "metadata": [
+      "https://fedlex.admin.ch/eli/cc/1993/2564_2564_2564/de#art_32",
+      "Verordnung 4  zum Arbeitsgesetz  (ArGV 4) (Industrielle Betriebe, Plangenehmigung und Betriebsbewilligung)     ",
+      "3. Kapitel:   Industrielle Betriebe",
+      "2. Abschnitt: Unterstellungsverfahren",
+      "Art. 32"
+    ],
+    "@eId": "art_32/para_3"
+  },
+  {
+    "text": " …  ",
+    "metadata": [
+      "https://fedlex.admin.ch/eli/cc/1993/2564_2564_2564/de#art_33",
+      "Verordnung 4  zum Arbeitsgesetz  (ArGV 4) (Industrielle Betriebe, Plangenehmigung und Betriebsbewilligung)     ",
+      "3. Kapitel:   Industrielle Betriebe",
+      "2. Abschnitt: Unterstellungsverfahren",
+      "Art. 33"
+    ],
+    "@eId": "art_33/para_1"
+  },
+  {
+    "text": " Die Unterstellung bleibt in Kraft, bis sie rechtskräftig aufgehoben ist. Geht ein industrieller Betrieb auf einen anderen Arbeitgeber über, so dauert die Unterstellung fort, und die Unterstellungsverfügung ist entsprechend zu ändern. ",
+    "metadata": [
+      "https://fedlex.admin.ch/eli/cc/1993/2564_2564_2564/de#art_33",
+      "Verordnung 4  zum Arbeitsgesetz  (ArGV 4) (Industrielle Betriebe, Plangenehmigung und Betriebsbewilligung)     ",
+      "3. Kapitel:   Industrielle Betriebe",
+      "2. Abschnitt: Unterstellungsverfahren",
+      "Art. 33"
+    ],
+    "@eId": "art_33/para_2"
+  },
+  {
+    "text": " Erfüllt ein unterstellter Betrieb die Voraussetzungen für die Unterstellung nicht mehr, so hebt die kantonale Behörde die Unterstellung auf. ",
+    "metadata": [
+      "https://fedlex.admin.ch/eli/cc/1993/2564_2564_2564/de#art_34",
+      "Verordnung 4  zum Arbeitsgesetz  (ArGV 4) (Industrielle Betriebe, Plangenehmigung und Betriebsbewilligung)     ",
+      "3. Kapitel:   Industrielle Betriebe",
+      "2. Abschnitt: Unterstellungsverfahren",
+      "Art. 34"
+    ],
+    "@eId": "art_34/para_1"
+  },
+  {
+    "text": "Die Unterstellung wird insbesondere aufgehoben, wenn im Fall von Artikel 5 Absatz 2 Buchstabe a des Gesetzes die Zahl von sechs Arbeitnehmern im Betrieb:",
+    "metadata": [
+      "https://fedlex.admin.ch/eli/cc/1993/2564_2564_2564/de#art_34",
+      "Verordnung 4  zum Arbeitsgesetz  (ArGV 4) (Industrielle Betriebe, Plangenehmigung und Betriebsbewilligung)     ",
+      "3. Kapitel:   Industrielle Betriebe",
+      "2. Abschnitt: Unterstellungsverfahren",
+      "Art. 34"
+    ],
+    "@eId": "art_34/para_2/listintro"
+  },
+  {
+    "text": "seit einem Jahr unterschritten wird; oder",
+    "metadata": [
+      "https://fedlex.admin.ch/eli/cc/1993/2564_2564_2564/de#art_34",
+      "Verordnung 4  zum Arbeitsgesetz  (ArGV 4) (Industrielle Betriebe, Plangenehmigung und Betriebsbewilligung)     ",
+      "3. Kapitel:   Industrielle Betriebe",
+      "2. Abschnitt: Unterstellungsverfahren",
+      "Art. 34"
+    ],
+    "@eId": "art_34/para_2/lbl_a"
+  },
+  {
+    "text": "seit weniger als einem Jahr unterschritten wird und voraussichtlich nicht mehr erreicht wird.",
+    "metadata": [
+      "https://fedlex.admin.ch/eli/cc/1993/2564_2564_2564/de#art_34",
+      "Verordnung 4  zum Arbeitsgesetz  (ArGV 4) (Industrielle Betriebe, Plangenehmigung und Betriebsbewilligung)     ",
+      "3. Kapitel:   Industrielle Betriebe",
+      "2. Abschnitt: Unterstellungsverfahren",
+      "Art. 34"
+    ],
+    "@eId": "art_34/para_2/lbl_b"
+  },
+  {
+    "text": " Die SUVA kann die Aufhebung der Unterstellung beantragen. ",
+    "metadata": [
+      "https://fedlex.admin.ch/eli/cc/1993/2564_2564_2564/de#art_34",
+      "Verordnung 4  zum Arbeitsgesetz  (ArGV 4) (Industrielle Betriebe, Plangenehmigung und Betriebsbewilligung)     ",
+      "3. Kapitel:   Industrielle Betriebe",
+      "2. Abschnitt: Unterstellungsverfahren",
+      "Art. 34"
+    ],
+    "@eId": "art_34/para_3"
+  },
+  {
+    "text": " Die kantonale Behörde eröffnet dem Arbeitgeber Verfügungen, welche die Unterstellung betreffen, mit schriftlicher Begründung. ",
+    "metadata": [
+      "https://fedlex.admin.ch/eli/cc/1993/2564_2564_2564/de#art_35",
+      "Verordnung 4  zum Arbeitsgesetz  (ArGV 4) (Industrielle Betriebe, Plangenehmigung und Betriebsbewilligung)     ",
+      "3. Kapitel:   Industrielle Betriebe",
+      "2. Abschnitt: Unterstellungsverfahren",
+      "Art. 35"
+    ],
+    "@eId": "art_35/para_1"
+  },
+  {
+    "text": " Die kantonale Behörde stellt dem Bundesamt und der SUVA Kopien der Verfügungen zu. ",
+    "metadata": [
+      "https://fedlex.admin.ch/eli/cc/1993/2564_2564_2564/de#art_35",
+      "Verordnung 4  zum Arbeitsgesetz  (ArGV 4) (Industrielle Betriebe, Plangenehmigung und Betriebsbewilligung)     ",
+      "3. Kapitel:   Industrielle Betriebe",
+      "2. Abschnitt: Unterstellungsverfahren",
+      "Art. 35"
+    ],
+    "@eId": "art_35/para_2"
+  },
+  {
+    "text": " Das Bundesamt teilt der kantonalen Behörde jede ihm zur Kenntnis gelangende Tatsache mit, welche eine Unterstellung betreffen kann. ",
+    "metadata": [
+      "https://fedlex.admin.ch/eli/cc/1993/2564_2564_2564/de#art_36",
+      "Verordnung 4  zum Arbeitsgesetz  (ArGV 4) (Industrielle Betriebe, Plangenehmigung und Betriebsbewilligung)     ",
+      "3. Kapitel:   Industrielle Betriebe",
+      "2. Abschnitt: Unterstellungsverfahren",
+      "Art. 36"
+    ],
+    "@eId": "art_36/para"
+  },
+  {
+    "text": " Das Gesuch um Genehmigung der geplanten Anlage nach Artikel 7 Absatz 1 des Gesetzes ist zusammen mit den Plänen und ihrer Beschreibung bei der kantonalen Behörde schriftlich einzureichen. ",
+    "metadata": [
+      "https://fedlex.admin.ch/eli/cc/1993/2564_2564_2564/de#art_37",
+      "Verordnung 4  zum Arbeitsgesetz  (ArGV 4) (Industrielle Betriebe, Plangenehmigung und Betriebsbewilligung)     ",
+      "4. Kapitel:   Plangenehmigung und Betriebsbewilligung",
+      "1. Abschnitt: Plangenehmigungsverfahren",
+      "Art. 37"
+    ],
+    "@eId": "art_37/para_1"
+  },
+  {
+    "text": " Im Falle eines Verfahrens nach Artikel 7 Absatz 4 des Gesetzes (koordiniertes Bundesverfahren) ist das Gesuch bei der zuständigen Bundesbehörde (Leitbehörde) einzureichen. ",
+    "metadata": [
+      "https://fedlex.admin.ch/eli/cc/1993/2564_2564_2564/de#art_37",
+      "Verordnung 4  zum Arbeitsgesetz  (ArGV 4) (Industrielle Betriebe, Plangenehmigung und Betriebsbewilligung)     ",
+      "4. Kapitel:   Plangenehmigung und Betriebsbewilligung",
+      "1. Abschnitt: Plangenehmigungsverfahren",
+      "Art. 37"
+    ],
+    "@eId": "art_37/para_2"
+  },
+  {
+    "text": " Bei Anlagen und Bauten des Bundes, die nicht im koordinierten Bundesverfahren genehmigt werden, ist das Gesuch um Plangenehmigung beim Bundesamt einzureichen.  ",
+    "metadata": [
+      "https://fedlex.admin.ch/eli/cc/1993/2564_2564_2564/de#art_37",
+      "Verordnung 4  zum Arbeitsgesetz  (ArGV 4) (Industrielle Betriebe, Plangenehmigung und Betriebsbewilligung)     ",
+      "4. Kapitel:   Plangenehmigung und Betriebsbewilligung",
+      "1. Abschnitt: Plangenehmigungsverfahren",
+      "Art. 37"
+    ],
+    "@eId": "art_37/para_3"
+  },
+  {
+    "text": "Folgende Pläne sind im Doppel einzureichen:",
+    "metadata": [
+      "https://fedlex.admin.ch/eli/cc/1993/2564_2564_2564/de#art_38",
+      "Verordnung 4  zum Arbeitsgesetz  (ArGV 4) (Industrielle Betriebe, Plangenehmigung und Betriebsbewilligung)     ",
+      "4. Kapitel:   Plangenehmigung und Betriebsbewilligung",
+      "1. Abschnitt: Plangenehmigungsverfahren",
+      "Art. 38"
+    ],
+    "@eId": "art_38/para_1/listintro"
+  },
+  {
+    "text": "ein Lageplan der Anlage und ihrer Umgebung mit Orientierung im Massstab des Grundbuchplanes, jedoch nicht kleiner als 1:1000;",
+    "metadata": [
+      "https://fedlex.admin.ch/eli/cc/1993/2564_2564_2564/de#art_38",
+      "Verordnung 4  zum Arbeitsgesetz  (ArGV 4) (Industrielle Betriebe, Plangenehmigung und Betriebsbewilligung)     ",
+      "4. Kapitel:   Plangenehmigung und Betriebsbewilligung",
+      "1. Abschnitt: Plangenehmigungsverfahren",
+      "Art. 38"
+    ],
+    "@eId": "art_38/para_1/lbl_a"
+  },
+  {
+    "text": "die Grundrisse sämtlicher Räume mit Angabe ihrer Bestimmung, einschliesslich der Aufenthalts-, Ess- und Waschräume, der Räume für Erste Hilfe, der Garderoben und Toiletten, sowie die Lage der Ausgänge, Treppen und Notausgänge;",
+    "metadata": [
+      "https://fedlex.admin.ch/eli/cc/1993/2564_2564_2564/de#art_38",
+      "Verordnung 4  zum Arbeitsgesetz  (ArGV 4) (Industrielle Betriebe, Plangenehmigung und Betriebsbewilligung)     ",
+      "4. Kapitel:   Plangenehmigung und Betriebsbewilligung",
+      "1. Abschnitt: Plangenehmigungsverfahren",
+      "Art. 38"
+    ],
+    "@eId": "art_38/para_1/lbl_b"
+  },
+  {
+    "text": "die Fassadenpläne mit Angabe der Fensterkonstruktionen;",
+    "metadata": [
+      "https://fedlex.admin.ch/eli/cc/1993/2564_2564_2564/de#art_38",
+      "Verordnung 4  zum Arbeitsgesetz  (ArGV 4) (Industrielle Betriebe, Plangenehmigung und Betriebsbewilligung)     ",
+      "4. Kapitel:   Plangenehmigung und Betriebsbewilligung",
+      "1. Abschnitt: Plangenehmigungsverfahren",
+      "Art. 38"
+    ],
+    "@eId": "art_38/para_1/lbl_c"
+  },
+  {
+    "text": "die zur Beurteilung des Baues erforderlichen Längs- und Querschnitte, wovon je einer durch jedes Treppenhaus;",
+    "metadata": [
+      "https://fedlex.admin.ch/eli/cc/1993/2564_2564_2564/de#art_38",
+      "Verordnung 4  zum Arbeitsgesetz  (ArGV 4) (Industrielle Betriebe, Plangenehmigung und Betriebsbewilligung)     ",
+      "4. Kapitel:   Plangenehmigung und Betriebsbewilligung",
+      "1. Abschnitt: Plangenehmigungsverfahren",
+      "Art. 38"
+    ],
+    "@eId": "art_38/para_1/lbl_d"
+  },
+  {
+    "text": "bei Umbauten die Pläne der bisherigen Anlage, falls sie aus den neuen Plänen nicht ersichtlich ist.",
+    "metadata": [
+      "https://fedlex.admin.ch/eli/cc/1993/2564_2564_2564/de#art_38",
+      "Verordnung 4  zum Arbeitsgesetz  (ArGV 4) (Industrielle Betriebe, Plangenehmigung und Betriebsbewilligung)     ",
+      "4. Kapitel:   Plangenehmigung und Betriebsbewilligung",
+      "1. Abschnitt: Plangenehmigungsverfahren",
+      "Art. 38"
+    ],
+    "@eId": "art_38/para_1/lbl_e"
+  },
+  {
+    "text": " Die Pläne nach Absatz 1 Buchstaben b–d sind mit eingeschriebenen Massen im Massstab 1:50, 1:100 oder 1:200 vorzulegen. ",
+    "metadata": [
+      "https://fedlex.admin.ch/eli/cc/1993/2564_2564_2564/de#art_38",
+      "Verordnung 4  zum Arbeitsgesetz  (ArGV 4) (Industrielle Betriebe, Plangenehmigung und Betriebsbewilligung)     ",
+      "4. Kapitel:   Plangenehmigung und Betriebsbewilligung",
+      "1. Abschnitt: Plangenehmigungsverfahren",
+      "Art. 38"
+    ],
+    "@eId": "art_38/para_2"
+  },
+  {
+    "text": "Aus den Plänen müssen insbesondere ersichtlich sein die Lage der Arbeitsplätze, der Maschinen und der nachstehend genannten technischen Einrichtungen:",
+    "metadata": [
+      "https://fedlex.admin.ch/eli/cc/1993/2564_2564_2564/de#art_38",
+      "Verordnung 4  zum Arbeitsgesetz  (ArGV 4) (Industrielle Betriebe, Plangenehmigung und Betriebsbewilligung)     ",
+      "4. Kapitel:   Plangenehmigung und Betriebsbewilligung",
+      "1. Abschnitt: Plangenehmigungsverfahren",
+      "Art. 38"
+    ],
+    "@eId": "art_38/para_3/listintro"
+  },
+  {
+    "text": "Dampfkessel, Dampfgefässe und Druckbehälter;",
+    "metadata": [
+      "https://fedlex.admin.ch/eli/cc/1993/2564_2564_2564/de#art_38",
+      "Verordnung 4  zum Arbeitsgesetz  (ArGV 4) (Industrielle Betriebe, Plangenehmigung und Betriebsbewilligung)     ",
+      "4. Kapitel:   Plangenehmigung und Betriebsbewilligung",
+      "1. Abschnitt: Plangenehmigungsverfahren",
+      "Art. 38"
+    ],
+    "@eId": "art_38/para_3/lbl_a"
+  },
+  {
+    "text": "Heizungs-, Öltank-, Lüftungsanlagen, Feuerungsanlagen für technische Zwecke sowie Gas- und Abwasserreinigungsanlagen;",
+    "metadata": [
+      "https://fedlex.admin.ch/eli/cc/1993/2564_2564_2564/de#art_38",
+      "Verordnung 4  zum Arbeitsgesetz  (ArGV 4) (Industrielle Betriebe, Plangenehmigung und Betriebsbewilligung)     ",
+      "4. Kapitel:   Plangenehmigung und Betriebsbewilligung",
+      "1. Abschnitt: Plangenehmigungsverfahren",
+      "Art. 38"
+    ],
+    "@eId": "art_38/para_3/lbl_b"
+  },
+  {
+    "text": "mechanische Transportanlagen;",
+    "metadata": [
+      "https://fedlex.admin.ch/eli/cc/1993/2564_2564_2564/de#art_38",
+      "Verordnung 4  zum Arbeitsgesetz  (ArGV 4) (Industrielle Betriebe, Plangenehmigung und Betriebsbewilligung)     ",
+      "4. Kapitel:   Plangenehmigung und Betriebsbewilligung",
+      "1. Abschnitt: Plangenehmigungsverfahren",
+      "Art. 38"
+    ],
+    "@eId": "art_38/para_3/lbl_c"
+  },
+  {
+    "text": "Anlagen zur Verarbeitung und Lagerung von besonders brandgefährlichen, explosionsgefährlichen und gesundheitsschädlichen Stoffen;",
+    "metadata": [
+      "https://fedlex.admin.ch/eli/cc/1993/2564_2564_2564/de#art_38",
+      "Verordnung 4  zum Arbeitsgesetz  (ArGV 4) (Industrielle Betriebe, Plangenehmigung und Betriebsbewilligung)     ",
+      "4. Kapitel:   Plangenehmigung und Betriebsbewilligung",
+      "1. Abschnitt: Plangenehmigungsverfahren",
+      "Art. 38"
+    ],
+    "@eId": "art_38/para_3/lbl_d"
+  },
+  {
+    "text": "Silos und Tankanlagen;",
+    "metadata": [
+      "https://fedlex.admin.ch/eli/cc/1993/2564_2564_2564/de#art_38",
+      "Verordnung 4  zum Arbeitsgesetz  (ArGV 4) (Industrielle Betriebe, Plangenehmigung und Betriebsbewilligung)     ",
+      "4. Kapitel:   Plangenehmigung und Betriebsbewilligung",
+      "1. Abschnitt: Plangenehmigungsverfahren",
+      "Art. 38"
+    ],
+    "@eId": "art_38/para_3/lbl_e"
+  },
+  {
+    "text": "Farbspritzanlagen und Einbrennöfen;",
+    "metadata": [
+      "https://fedlex.admin.ch/eli/cc/1993/2564_2564_2564/de#art_38",
+      "Verordnung 4  zum Arbeitsgesetz  (ArGV 4) (Industrielle Betriebe, Plangenehmigung und Betriebsbewilligung)     ",
+      "4. Kapitel:   Plangenehmigung und Betriebsbewilligung",
+      "1. Abschnitt: Plangenehmigungsverfahren",
+      "Art. 38"
+    ],
+    "@eId": "art_38/para_3/lbl_f"
+  },
+  {
+    "text": "Anlagen zur Erzeugung ionisierender Strahlen;",
+    "metadata": [
+      "https://fedlex.admin.ch/eli/cc/1993/2564_2564_2564/de#art_38",
+      "Verordnung 4  zum Arbeitsgesetz  (ArGV 4) (Industrielle Betriebe, Plangenehmigung und Betriebsbewilligung)     ",
+      "4. Kapitel:   Plangenehmigung und Betriebsbewilligung",
+      "1. Abschnitt: Plangenehmigungsverfahren",
+      "Art. 38"
+    ],
+    "@eId": "art_38/para_3/lbl_g"
+  },
+  {
+    "text": "Feuerlösch- und Feuermeldeeinrichtungen.",
+    "metadata": [
+      "https://fedlex.admin.ch/eli/cc/1993/2564_2564_2564/de#art_38",
+      "Verordnung 4  zum Arbeitsgesetz  (ArGV 4) (Industrielle Betriebe, Plangenehmigung und Betriebsbewilligung)     ",
+      "4. Kapitel:   Plangenehmigung und Betriebsbewilligung",
+      "1. Abschnitt: Plangenehmigungsverfahren",
+      "Art. 38"
+    ],
+    "@eId": "art_38/para_3/lbl_h"
+  },
+  {
+    "text": "Die Planbeschreibung ist im Doppel einzureichen und hat die folgenden Angaben zu enthalten:",
+    "metadata": [
+      "https://fedlex.admin.ch/eli/cc/1993/2564_2564_2564/de#art_39",
+      "Verordnung 4  zum Arbeitsgesetz  (ArGV 4) (Industrielle Betriebe, Plangenehmigung und Betriebsbewilligung)     ",
+      "4. Kapitel:   Plangenehmigung und Betriebsbewilligung",
+      "1. Abschnitt: Plangenehmigungsverfahren",
+      "Art. 39"
+    ],
+    "@eId": "art_39/para_1/listintro"
+  },
+  {
+    "text": "die Art des geplanten Betriebes, die Zweckbestimmung der Räume und, soweit es zur Beurteilung des Gesuches nötig ist, ein Fabrikationsschema;",
+    "metadata": [
+      "https://fedlex.admin.ch/eli/cc/1993/2564_2564_2564/de#art_39",
+      "Verordnung 4  zum Arbeitsgesetz  (ArGV 4) (Industrielle Betriebe, Plangenehmigung und Betriebsbewilligung)     ",
+      "4. Kapitel:   Plangenehmigung und Betriebsbewilligung",
+      "1. Abschnitt: Plangenehmigungsverfahren",
+      "Art. 39"
+    ],
+    "@eId": "art_39/para_1/lbl_a"
+  },
+  {
+    "text": "die Höchstzahl der voraussichtlich in den einzelnen Räumen beschäftigten Arbeitnehmer;",
+    "metadata": [
+      "https://fedlex.admin.ch/eli/cc/1993/2564_2564_2564/de#art_39",
+      "Verordnung 4  zum Arbeitsgesetz  (ArGV 4) (Industrielle Betriebe, Plangenehmigung und Betriebsbewilligung)     ",
+      "4. Kapitel:   Plangenehmigung und Betriebsbewilligung",
+      "1. Abschnitt: Plangenehmigungsverfahren",
+      "Art. 39"
+    ],
+    "@eId": "art_39/para_1/lbl_b"
+  },
+  {
+    "text": "das Material der Fundamente, Wände, Fussböden, Decken, Dächer, Treppen, Türen und Fenster;",
+    "metadata": [
+      "https://fedlex.admin.ch/eli/cc/1993/2564_2564_2564/de#art_39",
+      "Verordnung 4  zum Arbeitsgesetz  (ArGV 4) (Industrielle Betriebe, Plangenehmigung und Betriebsbewilligung)     ",
+      "4. Kapitel:   Plangenehmigung und Betriebsbewilligung",
+      "1. Abschnitt: Plangenehmigungsverfahren",
+      "Art. 39"
+    ],
+    "@eId": "art_39/para_1/lbl_c"
+  },
+  {
+    "text": "die technischen Einrichtungen nach Artikel 38 Absatz 3 sowie die Beleuchtungsanlagen;",
+    "metadata": [
+      "https://fedlex.admin.ch/eli/cc/1993/2564_2564_2564/de#art_39",
+      "Verordnung 4  zum Arbeitsgesetz  (ArGV 4) (Industrielle Betriebe, Plangenehmigung und Betriebsbewilligung)     ",
+      "4. Kapitel:   Plangenehmigung und Betriebsbewilligung",
+      "1. Abschnitt: Plangenehmigungsverfahren",
+      "Art. 39"
+    ],
+    "@eId": "art_39/para_1/lbl_d"
+  },
+  {
+    "text": "die Räume und Einrichtungen für die Verwendung von radioaktiven Stoffen;",
+    "metadata": [
+      "https://fedlex.admin.ch/eli/cc/1993/2564_2564_2564/de#art_39",
+      "Verordnung 4  zum Arbeitsgesetz  (ArGV 4) (Industrielle Betriebe, Plangenehmigung und Betriebsbewilligung)     ",
+      "4. Kapitel:   Plangenehmigung und Betriebsbewilligung",
+      "1. Abschnitt: Plangenehmigungsverfahren",
+      "Art. 39"
+    ],
+    "@eId": "art_39/para_1/lbl_e"
+  },
+  {
+    "text": "die Art und Menge besonders brandgefährlicher, explosionsgefährlicher oder gesundheitsschädlicher Stoffe;",
+    "metadata": [
+      "https://fedlex.admin.ch/eli/cc/1993/2564_2564_2564/de#art_39",
+      "Verordnung 4  zum Arbeitsgesetz  (ArGV 4) (Industrielle Betriebe, Plangenehmigung und Betriebsbewilligung)     ",
+      "4. Kapitel:   Plangenehmigung und Betriebsbewilligung",
+      "1. Abschnitt: Plangenehmigungsverfahren",
+      "Art. 39"
+    ],
+    "@eId": "art_39/para_1/lbl_f"
+  },
+  {
+    "text": "die Art und Lage von Lärmquellen mit erheblicher Einwirkung auf die Arbeitnehmer und das Betriebsgelände;",
+    "metadata": [
+      "https://fedlex.admin.ch/eli/cc/1993/2564_2564_2564/de#art_39",
+      "Verordnung 4  zum Arbeitsgesetz  (ArGV 4) (Industrielle Betriebe, Plangenehmigung und Betriebsbewilligung)     ",
+      "4. Kapitel:   Plangenehmigung und Betriebsbewilligung",
+      "1. Abschnitt: Plangenehmigungsverfahren",
+      "Art. 39"
+    ],
+    "@eId": "art_39/para_1/lbl_g"
+  },
+  {
+    "text": "die Verpackungs- und Transportweise besonders brandgefährlicher, explosionsgefährlicher oder gesundheitsschädlicher Stoffe.",
+    "metadata": [
+      "https://fedlex.admin.ch/eli/cc/1993/2564_2564_2564/de#art_39",
+      "Verordnung 4  zum Arbeitsgesetz  (ArGV 4) (Industrielle Betriebe, Plangenehmigung und Betriebsbewilligung)     ",
+      "4. Kapitel:   Plangenehmigung und Betriebsbewilligung",
+      "1. Abschnitt: Plangenehmigungsverfahren",
+      "Art. 39"
+    ],
+    "@eId": "art_39/para_1/lbl_h"
+  },
+  {
+    "text": " Können in der Planbeschreibung die nach Absatz 1 erforderlichen Angaben noch nicht oder nicht vollständig gemacht werden, so sind sie nachträglich, spätestens vor der Erstellung der betreffenden Einrichtungen beizubringen. ",
+    "metadata": [
+      "https://fedlex.admin.ch/eli/cc/1993/2564_2564_2564/de#art_39",
+      "Verordnung 4  zum Arbeitsgesetz  (ArGV 4) (Industrielle Betriebe, Plangenehmigung und Betriebsbewilligung)     ",
+      "4. Kapitel:   Plangenehmigung und Betriebsbewilligung",
+      "1. Abschnitt: Plangenehmigungsverfahren",
+      "Art. 39"
+    ],
+    "@eId": "art_39/para_2"
+  },
+  {
+    "text": " Die zuständige Behörde entscheidet über das Plangenehmigungsgesuch. ",
+    "metadata": [
+      "https://fedlex.admin.ch/eli/cc/1993/2564_2564_2564/de#art_40",
+      "Verordnung 4  zum Arbeitsgesetz  (ArGV 4) (Industrielle Betriebe, Plangenehmigung und Betriebsbewilligung)     ",
+      "4. Kapitel:   Plangenehmigung und Betriebsbewilligung",
+      "1. Abschnitt: Plangenehmigungsverfahren",
+      "Art. 40"
+    ],
+    "@eId": "art_40/para_1"
+  },
+  {
+    "text": " Wird das Gesuch genehmigt, so stellt die zuständige Behörde dem Gesuchsteller den Entscheid samt einem Doppel der genehmigten Pläne und der Beschreibung zu. Das zweite Doppel der Pläne und der Beschreibung ist von der zuständigen Behörde während mindestens zehn Jahren aufzubewahren. ",
+    "metadata": [
+      "https://fedlex.admin.ch/eli/cc/1993/2564_2564_2564/de#art_40",
+      "Verordnung 4  zum Arbeitsgesetz  (ArGV 4) (Industrielle Betriebe, Plangenehmigung und Betriebsbewilligung)     ",
+      "4. Kapitel:   Plangenehmigung und Betriebsbewilligung",
+      "1. Abschnitt: Plangenehmigungsverfahren",
+      "Art. 40"
+    ],
+    "@eId": "art_40/para_2"
+  },
+  {
+    "text": " Die kantonale Behörde und die Bundesbehörden stellen der SUVA Kopien ihrer Plangenehmigungen zu.  ",
+    "metadata": [
+      "https://fedlex.admin.ch/eli/cc/1993/2564_2564_2564/de#art_40",
+      "Verordnung 4  zum Arbeitsgesetz  (ArGV 4) (Industrielle Betriebe, Plangenehmigung und Betriebsbewilligung)     ",
+      "4. Kapitel:   Plangenehmigung und Betriebsbewilligung",
+      "1. Abschnitt: Plangenehmigungsverfahren",
+      "Art. 40"
+    ],
+    "@eId": "art_40/para_3"
+  },
+  {
+    "text": " 1 Das Bundesamt ist die Fachbehörde im koordinierten Bundesverfahren nach den Artikeln 62a–62c des Regierungs- und Verwaltungsorganisationsgesetzes vom 21. März 1997 (RVOG) für die Beurteilung, ob eine Plangenehmigung nach Artikel 7 oder 8 des Gesetzes erforderlich ist.  ",
+    "metadata": [
+      "https://fedlex.admin.ch/eli/cc/1993/2564_2564_2564/de#art_41",
+      "Verordnung 4  zum Arbeitsgesetz  (ArGV 4) (Industrielle Betriebe, Plangenehmigung und Betriebsbewilligung)     ",
+      "4. Kapitel:   Plangenehmigung und Betriebsbewilligung",
+      "1. Abschnitt: Plangenehmigungsverfahren",
+      "Art. 41"
+    ],
+    "@eId": "art_41/para_u1"
+  },
+  {
+    "text": " Die Leitbehörde hat das Bundesamt in jedem ordentlichen Plangenehmigungs-verfahren nach Artikel 62 a RVOG zu konsultieren; darüber hinaus ist es zur Mitwirkung beizuziehen, wenn:      im koordinierten Bundesverfahren Bauten und Anlagen nach Artikel 7 oder 8 des Gesetzes errichtet oder umgestaltet werden;     für die Errichtung oder Umgestaltung plangenehmigungs- und betriebsbewilligungspflichtiger Bauten und Anlagen eigens für die Bauphase oder Etappen davon Betriebsstätten oder Anlagen wie z.B. Betonmisch-, Förder- oder Abwasserreinigungsanlagen nötig sind; oder     nach Abschluss des koordinierten Bundesverfahrens in oder auf diesen errichteten Bauten und Anlagen Arbeitnehmer beschäftigt werden.   ",
+    "metadata": [
+      "https://fedlex.admin.ch/eli/cc/1993/2564_2564_2564/de#art_41",
+      "Verordnung 4  zum Arbeitsgesetz  (ArGV 4) (Industrielle Betriebe, Plangenehmigung und Betriebsbewilligung)     ",
+      "4. Kapitel:   Plangenehmigung und Betriebsbewilligung",
+      "1. Abschnitt: Plangenehmigungsverfahren",
+      "Art. 41"
+    ],
+    "@eId": "art_41/para_2"
+  },
+  {
+    "text": "im koordinierten Bundesverfahren Bauten und Anlagen nach Artikel 7 oder 8 des Gesetzes errichtet oder umgestaltet werden;",
+    "metadata": [
+      "https://fedlex.admin.ch/eli/cc/1993/2564_2564_2564/de#art_41",
+      "Verordnung 4  zum Arbeitsgesetz  (ArGV 4) (Industrielle Betriebe, Plangenehmigung und Betriebsbewilligung)     ",
+      "4. Kapitel:   Plangenehmigung und Betriebsbewilligung",
+      "1. Abschnitt: Plangenehmigungsverfahren",
+      "Art. 41"
+    ],
+    "@eId": "art_41/para_2/lbl_a"
+  },
+  {
+    "text": "für die Errichtung oder Umgestaltung plangenehmigungs- und betriebsbewilligungspflichtiger Bauten und Anlagen eigens für die Bauphase oder Etappen davon Betriebsstätten oder Anlagen wie z.B. Betonmisch-, Förder- oder Abwasserreinigungsanlagen nötig sind; oder",
+    "metadata": [
+      "https://fedlex.admin.ch/eli/cc/1993/2564_2564_2564/de#art_41",
+      "Verordnung 4  zum Arbeitsgesetz  (ArGV 4) (Industrielle Betriebe, Plangenehmigung und Betriebsbewilligung)     ",
+      "4. Kapitel:   Plangenehmigung und Betriebsbewilligung",
+      "1. Abschnitt: Plangenehmigungsverfahren",
+      "Art. 41"
+    ],
+    "@eId": "art_41/para_2/lbl_b"
+  },
+  {
+    "text": "nach Abschluss des koordinierten Bundesverfahrens in oder auf diesen errichteten Bauten und Anlagen Arbeitnehmer beschäftigt werden.",
+    "metadata": [
+      "https://fedlex.admin.ch/eli/cc/1993/2564_2564_2564/de#art_41",
+      "Verordnung 4  zum Arbeitsgesetz  (ArGV 4) (Industrielle Betriebe, Plangenehmigung und Betriebsbewilligung)     ",
+      "4. Kapitel:   Plangenehmigung und Betriebsbewilligung",
+      "1. Abschnitt: Plangenehmigungsverfahren",
+      "Art. 41"
+    ],
+    "@eId": "art_41/para_2/lbl_c"
+  },
+  {
+    "text": " Das Bundesamt nimmt als Fachbehörde zuhanden der Leitbehörde Stellung zum eingereichten Plangenehmigungsgesuch und ist für Planbesprechungen beizuziehen, soweit es um Fragen des Arbeitnehmerschutzes geht.  ",
+    "metadata": [
+      "https://fedlex.admin.ch/eli/cc/1993/2564_2564_2564/de#art_41",
+      "Verordnung 4  zum Arbeitsgesetz  (ArGV 4) (Industrielle Betriebe, Plangenehmigung und Betriebsbewilligung)     ",
+      "4. Kapitel:   Plangenehmigung und Betriebsbewilligung",
+      "1. Abschnitt: Plangenehmigungsverfahren",
+      "Art. 41"
+    ],
+    "@eId": "art_41/para_3"
+  },
+  {
+    "text": " Für die Plangenehmigung im koordinierten Bundesverfahren sind die übrigen Vorschriften des Gesetzes und dieser Verordnung über die Plangenehmigung anwendbar. ",
+    "metadata": [
+      "https://fedlex.admin.ch/eli/cc/1993/2564_2564_2564/de#art_41",
+      "Verordnung 4  zum Arbeitsgesetz  (ArGV 4) (Industrielle Betriebe, Plangenehmigung und Betriebsbewilligung)     ",
+      "4. Kapitel:   Plangenehmigung und Betriebsbewilligung",
+      "1. Abschnitt: Plangenehmigungsverfahren",
+      "Art. 41"
+    ],
+    "@eId": "art_41/para_4"
+  },
+  {
+    "text": " Vor Aufnahme der betrieblichen Tätigkeit hat der Arbeitgeber bei der zuständigen Behörde nach Artikel 37 ein schriftliches Gesuch um Erteilung einer Betriebsbewilligung einzureichen. ",
+    "metadata": [
+      "https://fedlex.admin.ch/eli/cc/1993/2564_2564_2564/de#art_42",
+      "Verordnung 4  zum Arbeitsgesetz  (ArGV 4) (Industrielle Betriebe, Plangenehmigung und Betriebsbewilligung)     ",
+      "4. Kapitel:   Plangenehmigung und Betriebsbewilligung",
+      "2. Abschnitt: Betriebsbewilligungsverfahren",
+      "Art. 42"
+    ],
+    "@eId": "art_42/para"
+  },
+  {
+    "text": " Die zuständige Behörde entscheidet über das Betriebsbewilligungsgesuch. Erfordern ausreichende Gründe eine vorzeitige Aufnahme der betrieblichen Tätigkeit, so kann die zuständige Behörde eine provisorische Betriebsbewilligung erteilen, wenn die notwendigen Massnahmen zum Schutz von Leben und Gesundheit der Arbeitnehmer getroffen worden sind. ",
+    "metadata": [
+      "https://fedlex.admin.ch/eli/cc/1993/2564_2564_2564/de#art_43",
+      "Verordnung 4  zum Arbeitsgesetz  (ArGV 4) (Industrielle Betriebe, Plangenehmigung und Betriebsbewilligung)     ",
+      "4. Kapitel:   Plangenehmigung und Betriebsbewilligung",
+      "2. Abschnitt: Betriebsbewilligungsverfahren",
+      "Art. 43"
+    ],
+    "@eId": "art_43/para_1"
+  },
+  {
+    "text": " Ergibt die Prüfung des Gesuches, dass Mängel im Bau oder in der Einrichtung des Betriebes vorhanden sind, die bei der Plangenehmigung nicht vorausgesehen werden konnten, so kann die zuständige Behörde, nach Anhörung des Arbeitgebers, die Bewilligung unter zusätzlichen Auflagen erteilen, sofern die festgestellten Mängel Leben oder Gesundheit der Arbeitnehmer gefährden. ",
+    "metadata": [
+      "https://fedlex.admin.ch/eli/cc/1993/2564_2564_2564/de#art_43",
+      "Verordnung 4  zum Arbeitsgesetz  (ArGV 4) (Industrielle Betriebe, Plangenehmigung und Betriebsbewilligung)     ",
+      "4. Kapitel:   Plangenehmigung und Betriebsbewilligung",
+      "2. Abschnitt: Betriebsbewilligungsverfahren",
+      "Art. 43"
+    ],
+    "@eId": "art_43/para_2"
+  },
+  {
+    "text": " Die kantonale Behörde und die Bundesbehörden stellen der SUVA Kopien ihrer Betriebsbewilligungen zu.  ",
+    "metadata": [
+      "https://fedlex.admin.ch/eli/cc/1993/2564_2564_2564/de#art_43",
+      "Verordnung 4  zum Arbeitsgesetz  (ArGV 4) (Industrielle Betriebe, Plangenehmigung und Betriebsbewilligung)     ",
+      "4. Kapitel:   Plangenehmigung und Betriebsbewilligung",
+      "2. Abschnitt: Betriebsbewilligungsverfahren",
+      "Art. 43"
+    ],
+    "@eId": "art_43/para_3"
+  },
+  {
+    "text": " Das Verfahren richtet sich nach Artikel 41, soweit dieser Artikel nichts anderes vorsieht. ",
+    "metadata": [
+      "https://fedlex.admin.ch/eli/cc/1993/2564_2564_2564/de#art_44",
+      "Verordnung 4  zum Arbeitsgesetz  (ArGV 4) (Industrielle Betriebe, Plangenehmigung und Betriebsbewilligung)     ",
+      "4. Kapitel:   Plangenehmigung und Betriebsbewilligung",
+      "2. Abschnitt: Betriebsbewilligungsverfahren",
+      "Art. 44"
+    ],
+    "@eId": "art_44/para_1"
+  },
+  {
+    "text": " Das Bundesamt ist in jedem Fall durch die Leitbehörde beizuziehen:      wenn der Betrieb vorzeitig seine betriebliche Tätigkeit aufnehmen will;     bei der Abnahme des Betriebes oder der Anlage.   ",
+    "metadata": [
+      "https://fedlex.admin.ch/eli/cc/1993/2564_2564_2564/de#art_44",
+      "Verordnung 4  zum Arbeitsgesetz  (ArGV 4) (Industrielle Betriebe, Plangenehmigung und Betriebsbewilligung)     ",
+      "4. Kapitel:   Plangenehmigung und Betriebsbewilligung",
+      "2. Abschnitt: Betriebsbewilligungsverfahren",
+      "Art. 44"
+    ],
+    "@eId": "art_44/para_2"
+  },
+  {
+    "text": "wenn der Betrieb vorzeitig seine betriebliche Tätigkeit aufnehmen will;",
+    "metadata": [
+      "https://fedlex.admin.ch/eli/cc/1993/2564_2564_2564/de#art_44",
+      "Verordnung 4  zum Arbeitsgesetz  (ArGV 4) (Industrielle Betriebe, Plangenehmigung und Betriebsbewilligung)     ",
+      "4. Kapitel:   Plangenehmigung und Betriebsbewilligung",
+      "2. Abschnitt: Betriebsbewilligungsverfahren",
+      "Art. 44"
+    ],
+    "@eId": "art_44/para_2/lbl_a"
+  },
+  {
+    "text": "bei der Abnahme des Betriebes oder der Anlage.",
+    "metadata": [
+      "https://fedlex.admin.ch/eli/cc/1993/2564_2564_2564/de#art_44",
+      "Verordnung 4  zum Arbeitsgesetz  (ArGV 4) (Industrielle Betriebe, Plangenehmigung und Betriebsbewilligung)     ",
+      "4. Kapitel:   Plangenehmigung und Betriebsbewilligung",
+      "2. Abschnitt: Betriebsbewilligungsverfahren",
+      "Art. 44"
+    ],
+    "@eId": "art_44/para_2/lbl_b"
+  },
+  {
+    "text": " Ergeben sich Mängel bei der Abnahme, dann verfährt die Leitbehörde nach Artikel 43 Absatz 2. Für die Erteilung der notwendigen Auflagen in der Betriebsbewilligung zum Schutz von Leben und Gesundheit der Arbeitnehmer konsultiert sie das Bundesamt.  ",
+    "metadata": [
+      "https://fedlex.admin.ch/eli/cc/1993/2564_2564_2564/de#art_44",
+      "Verordnung 4  zum Arbeitsgesetz  (ArGV 4) (Industrielle Betriebe, Plangenehmigung und Betriebsbewilligung)     ",
+      "4. Kapitel:   Plangenehmigung und Betriebsbewilligung",
+      "2. Abschnitt: Betriebsbewilligungsverfahren",
+      "Art. 44"
+    ],
+    "@eId": "art_44/para_3"
+  },
+  {
+    "text": " Die Plangenehmigung und Betriebsbewilligung im Sinne von Artikel 7 oder 8 des Gesetzes sind auch für die Umgestaltung innerer Einrichtungen des Betriebes wie technischer Anlagen und Einrichtungen, Umnutzungen von Räumen oder Umgestaltung von Arbeitsplätzen nachzusuchen, wenn sie eine wesentliche Änderung zur Folge haben oder wenn erhöhte Gefahren für Leben oder Gesundheit der Arbeitnehmer vorauszusehen sind. ",
+    "metadata": [
+      "https://fedlex.admin.ch/eli/cc/1993/2564_2564_2564/de#art_45",
+      "Verordnung 4  zum Arbeitsgesetz  (ArGV 4) (Industrielle Betriebe, Plangenehmigung und Betriebsbewilligung)     ",
+      "4. Kapitel:   Plangenehmigung und Betriebsbewilligung",
+      "3. Abschnitt: Besondere Bestimmungen",
+      "Art. 45"
+    ],
+    "@eId": "art_45/para"
+  },
+  {
+    "text": " Hat der Betrieb seine Tätigkeit aufgenommen und wird festgestellt, dass die Anlage den Vorschriften des Bundes nicht entspricht, so haben die Vollzugs- und Aufsichtsorgane den Arbeitgeber darauf aufmerksam zu machen und ihn aufzufordern, innert einer bestimmten Frist den vorschriftsgemässen Zustand herzustellen. ",
+    "metadata": [
+      "https://fedlex.admin.ch/eli/cc/1993/2564_2564_2564/de#art_46",
+      "Verordnung 4  zum Arbeitsgesetz  (ArGV 4) (Industrielle Betriebe, Plangenehmigung und Betriebsbewilligung)     ",
+      "4. Kapitel:   Plangenehmigung und Betriebsbewilligung",
+      "3. Abschnitt: Besondere Bestimmungen",
+      "Art. 46"
+    ],
+    "@eId": "art_46/para_1"
+  },
+  {
+    "text": " Kommt der Arbeitgeber dieser Aufforderung nicht nach, so ist nach den Artikeln 51 und 52 des Gesetzes zu verfahren. ",
+    "metadata": [
+      "https://fedlex.admin.ch/eli/cc/1993/2564_2564_2564/de#art_46",
+      "Verordnung 4  zum Arbeitsgesetz  (ArGV 4) (Industrielle Betriebe, Plangenehmigung und Betriebsbewilligung)     ",
+      "4. Kapitel:   Plangenehmigung und Betriebsbewilligung",
+      "3. Abschnitt: Besondere Bestimmungen",
+      "Art. 46"
+    ],
+    "@eId": "art_46/para_2"
+  },
+  {
+    "text": " Ein Doppel der Aufforderung ist der SUVA zuzustellen, sofern sie die Verhütung von Unfällen und Berufskrankheiten betrifft. ",
+    "metadata": [
+      "https://fedlex.admin.ch/eli/cc/1993/2564_2564_2564/de#art_46",
+      "Verordnung 4  zum Arbeitsgesetz  (ArGV 4) (Industrielle Betriebe, Plangenehmigung und Betriebsbewilligung)     ",
+      "4. Kapitel:   Plangenehmigung und Betriebsbewilligung",
+      "3. Abschnitt: Besondere Bestimmungen",
+      "Art. 46"
+    ],
+    "@eId": "art_46/para_3"
+  },
+  {
+    "text": "Für Bauvorhaben von nichtindustriellen Betrieben, die nach Artikel 1 Absatz 2 Buchstabe m der Plangenehmigungspflicht unterstellt werden, ist das Plangenehmigungsverfahren durchzuführen, wenn:",
+    "metadata": [
+      "https://fedlex.admin.ch/eli/cc/1993/2564_2564_2564/de#art_47",
+      "Verordnung 4  zum Arbeitsgesetz  (ArGV 4) (Industrielle Betriebe, Plangenehmigung und Betriebsbewilligung)     ",
+      "5. Kapitel:   Schlussbestimmungen",
+      "Art. 47"
+    ],
+    "@eId": "art_47/para/listintro"
+  },
+  {
+    "text": "im Zeitpunkt des Inkrafttretens der Verordnungsänderung vom 10. Mai 2000 das Baugesuch noch nicht eingereicht worden ist;",
+    "metadata": [
+      "https://fedlex.admin.ch/eli/cc/1993/2564_2564_2564/de#art_47",
+      "Verordnung 4  zum Arbeitsgesetz  (ArGV 4) (Industrielle Betriebe, Plangenehmigung und Betriebsbewilligung)     ",
+      "5. Kapitel:   Schlussbestimmungen",
+      "Art. 47"
+    ],
+    "@eId": "art_47/para/lbl_a"
+  },
+  {
+    "text": "das Baugesuch zwar eingereicht, aber mit der Ausführung des Baus noch nicht begonnen worden ist und besondere Gründe des Arbeitnehmerschutzes es erfordern.",
+    "metadata": [
+      "https://fedlex.admin.ch/eli/cc/1993/2564_2564_2564/de#art_47",
+      "Verordnung 4  zum Arbeitsgesetz  (ArGV 4) (Industrielle Betriebe, Plangenehmigung und Betriebsbewilligung)     ",
+      "5. Kapitel:   Schlussbestimmungen",
+      "Art. 47"
+    ],
+    "@eId": "art_47/para/lbl_b"
+  },
+  {
+    "text": " Diese Verordnung tritt am 1. Oktober 1993 in Kraft. ",
+    "metadata": [
+      "https://fedlex.admin.ch/eli/cc/1993/2564_2564_2564/de#art_48",
+      "Verordnung 4  zum Arbeitsgesetz  (ArGV 4) (Industrielle Betriebe, Plangenehmigung und Betriebsbewilligung)     ",
+      "5. Kapitel:   Schlussbestimmungen",
+      "Art. 48"
+    ],
+    "@eId": "art_48/para"
+  }
+]
