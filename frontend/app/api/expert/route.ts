@@ -43,7 +43,7 @@ export async function POST(req: Request) {
   const data = await res.json()
   console.log('Backend response: ', data)
   const completion = JSON.stringify(data.data)
-  const title = json.messages[0].content.substring(0, 100)
+  const title = 'Expert-' + json.messages[0].content.substring(0, 100)
   const id = json.id ?? nanoid()
   const createdAt = Date.now()
   const path = `/expert/chat/${id}`
