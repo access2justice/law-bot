@@ -22,7 +22,7 @@ export default function ExpertToggle() {
     }
   }
   return (
-    <label className="inline-flex items-center cursor-pointer gap-5px">
+    <div className="inline-flex items-center cursor-pointer gap-5">
       {isExpertMode && (
         <Link href="/">
           <Button>Go back</Button>
@@ -36,6 +36,6 @@ export default function ExpertToggle() {
           Expert Mode
         </span>
       )}
-    </label>
+    </div>
   )
 }
