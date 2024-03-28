@@ -8,7 +8,7 @@ import { Button } from './button'
 export default function ExpertToggle() {
   const router = useRouter()
   const path = usePathname()
-  const [isExpertMode, setIsExpertMode] = useState(path === '/expert')
+  const [isExpertMode, setIsExpertMode] = useState(path.includes('expert'))
 
   useEffect(() => {
     setIsExpertMode(path.includes('expert'))
