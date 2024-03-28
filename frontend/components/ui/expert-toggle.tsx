@@ -11,7 +11,7 @@ export default function ExpertToggle() {
   const [isExpertMode, setIsExpertMode] = useState(path === '/expert')
 
   useEffect(() => {
-    setIsExpertMode(path === '/expert')
+    setIsExpertMode(path.includes('expert'))
   }, [path])
 
   const handleToggleChange = async () => {
