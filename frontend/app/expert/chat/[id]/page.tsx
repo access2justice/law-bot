@@ -26,7 +26,7 @@ export async function generateMetadata({
   }
 }
 
-export default async function ExpertChatPage({ params }: ChatPageProps) {
+export default async function ChatPage({ params }: ChatPageProps) {
   const session = await auth()
 
   if (!session?.user) {
