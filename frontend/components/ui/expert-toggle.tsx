@@ -22,7 +22,7 @@ export default function ExpertToggle() {
     }
   }
   return (
-    <label className="inline-flex items-center cursor-pointer">
+    <label className="inline-flex items-center cursor-pointer gap-5px">
       {isExpertMode && (
         <Link href="/">
           <Button>Go back</Button>
@@ -32,7 +32,7 @@ export default function ExpertToggle() {
         <Button>New Expert Chat</Button>
       </Link>
       {isExpertMode && (
-        <span className="ms-3 text-sm font-medium text-green-700 dark:text-green-500">
+        <span className="ms-3 text-sm font-bold text-green-700 dark:text-green-500">
           Expert Mode
         </span>
       )}
