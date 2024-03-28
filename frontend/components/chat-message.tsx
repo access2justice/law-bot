@@ -20,9 +20,9 @@ export interface ChatMessageProps {
 export function ChatMessage({ message, ...props }: ChatMessageProps) {
   const path = usePathname()
   if (path.includes('expert')) {
+    console.log('this is working in expert mode')
     let data: any = ''
     if (message.role === 'assistant') {
-      console.log('this is working in expert mode')
       data = JSON.parse(message.content)
       console.log('data recieved', data)
     }
