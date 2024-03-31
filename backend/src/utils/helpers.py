@@ -3,7 +3,7 @@ from typing import List
 import tiktoken
 
 
-def num_tokens_from_messages(messages: list, model: str = "gpt4") -> int:
+def num_tokens_from_messages(messages: list, model: str = "gpt-4") -> int:
     """Returns the number of tokens in a message list."""
     encoding = tiktoken.encoding_for_model(model)
     num_tokens = 0

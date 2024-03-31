@@ -5,7 +5,7 @@ import inspect
 
 class EmbeddingsGeneratorBase(abc.ABC):
 
-    def __new__(cls, *arg, **kwargs):
+    def __new__(cls, *args, **kwargs):
         # get all coros of EmbeddingGeneratorBase
         parent_coros = inspect.getmembers(EmbeddingsGeneratorBase, predicate=inspect.iscoroutinefunction)
 
@@ -15,7 +15,7 @@ class EmbeddingsGeneratorBase(abc.ABC):
             if not inspect.iscoroutinefunction(child_method):
                 raise RuntimeError('The method %s must be a coroutine' % (child_method,))
 
-        return super(EmbeddingsGeneratorBase, cls).__new__(cls, *arg, **kwargs)
+        return super(EmbeddingsGeneratorBase, cls).__new__(cls, *args, **kwargs)
 
     @abc.abstractmethod
     async def generate(self, input_text: List[str]) -> List[float]:

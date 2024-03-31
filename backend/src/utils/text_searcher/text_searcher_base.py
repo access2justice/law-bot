@@ -18,5 +18,5 @@ class TextSearcherBase(abc.ABC):
         return super(TextSearcherBase, cls).__new__(cls, *args, **kwargs)
 
     @abc.abstractmethod
-    async def search(self, user_query: str, n_top_results: int) -> Any:
+    async def search(self, user_query: str) -> Any:
         pass

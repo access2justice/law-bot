@@ -10,8 +10,24 @@ from src.utils.embeddings_generator import EmbeddingsGeneratorBase
 
 class AzureTextSearcher(TextSearcherBase):
 
-    def __init__(self, endpoint: str, index_name: str, search_key: str, embedding_generator: EmbeddingsGeneratorBase):
+    def __new__(cls,
+                endpoint: str,
+                index_name: str,
+                search_key: str,
+                embedding_generator: EmbeddingsGeneratorBase,
+                n_top_results: int,
+                *args,
+                **kwargs):
+        instance = super(AzureTextSearcher, cls).__new__(cls, *args, **kwargs)
+        return instance
 
+    def __init__(self,
+                 endpoint: str,
+                 index_name: str,
+                 search_key: str,
+                 embedding_generator: EmbeddingsGeneratorBase,
+                 n_top_results: int
+                 ):
         self._embedding_generator = embedding_generator
 
         # define azure search client
@@ -21,14 +37,16 @@ class AzureTextSearcher(TextSearcherBase):
             credential=AzureKeyCredential(search_key)
         )
 
+        self._n_top_results = n_top_results
+
     # TODO check vectorizedQuery
 
-    async def search(self, user_query: str, n_top_results: int) -> Any:
+    async def search(self, user_query: str) -> Any:
         return await self._search_client.search(
             search_text=user_query,
             vector_queries=[VectorizedQuery(
                 vector=await self._embedding_generator.generate(input_text=[user_query]),
                 k_nearest_neighbors=3, fields="text_vector")],
-            top=n_top_results,
+            top=self._n_top_results,
             select=["text", "metadata", "eIds"],
             include_total_count=True)

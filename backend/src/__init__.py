@@ -14,6 +14,10 @@ def create_app():
                   redoc_url="/redoc",
                   openapi_url="/openapi.json")
 
+    @app.get("/")
+    def get_root():
+        return {"message": "FastAPI running in a Lambda function"}
+
     # include routers
     app.include_router(chat.router)
 

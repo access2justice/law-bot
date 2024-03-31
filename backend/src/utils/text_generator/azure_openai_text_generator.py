@@ -4,6 +4,9 @@ from .text_generator_base import TextGeneratorBase
 
 
 class AzureOpenAITextGenerator(TextGeneratorBase):
+    def __new__(cls, azure_endpoint: str, api_key: str, model, temperature: float, max_response_tokens: int, *args, **kwargs):
+        instance = super(AzureOpenAITextGenerator, cls).__new__(cls, *args, **kwargs)
+        return instance
 
     def __init__(self, azure_endpoint: str, api_key: str, model, temperature: float, max_response_tokens: int):
         self._client = AsyncAzureOpenAI(

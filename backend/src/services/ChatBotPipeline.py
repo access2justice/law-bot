@@ -40,8 +40,7 @@ class ChatBotPipeline:
         retrieved_info = defaultdict(list)
 
         results = await self.text_searcher.search(
-            user_query=user_query,
-            n_top_results=5
+            user_query=user_query
         )
 
         async for result in results:
