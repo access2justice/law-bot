@@ -39,7 +39,7 @@ export function Chat({ id, initialMessages, className }: ChatProps) {
   const [previewTokenInput, setPreviewTokenInput] = useState(previewToken ?? '')
   const { messages, append, reload, stop, isLoading, input, setInput } =
     useChat({
-      api: '/api/chat',
+      api: '/api/expert',
       initialMessages,
       id,
       body: {
@@ -53,7 +53,7 @@ export function Chat({ id, initialMessages, className }: ChatProps) {
       },
       onFinish() {
         if (!path.includes('chat')) {
-          router.push(`/chat/${id}`, { shallow: true, scroll: false })
+          router.push(`/expert/chat/${id}`, { shallow: true, scroll: false })
           router.refresh()
         }
       }
