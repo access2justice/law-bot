@@ -54,7 +54,7 @@ interface TreeNode {
 export const traverseResults = async (
   question: string,
   dataTree: Record<string, object>):
-Promise<SearchResult<object, "text" | "metadata" | "eIds">[]> => {
+  Promise<SearchResult<object, "text" | "metadata" | "eIds">[]> => {
   const results: SearchResult<object, "text" | "metadata" | "eIds">[] = [];
   const queue = new Queue<TreeNode>();
 
@@ -74,7 +74,7 @@ Promise<SearchResult<object, "text" | "metadata" | "eIds">[]> => {
 
       //if yes, add to results
       if (resultFromChatGPT == true) {
-        results.push(currentNode as SearchResult<object, "text" | "metadata" | "eIds">);
+        results.push(currentNode);
         //if current node has children, add them to the queue
         if(Object.keys(currentNode).length > 0) {
           for (const key in currentNode) {
