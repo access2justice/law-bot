@@ -26,7 +26,7 @@ const getEmbeddings = async (query: string) => {
 export const llmQuery = async (
   messages: ChatRequestMessage[]
 ): Promise<string> => {
-  console.log("Doing a chat completion: " + messages);
+  // console.log("Doing a chat completion: " + JSON.stringify(messages));
 
   const temperature = 0;
   const completion = await openAIClient.getChatCompletions(
@@ -35,12 +35,15 @@ export const llmQuery = async (
     {
       temperature,
       maxTokens: 300,
+      requestOptions: {
+        timeout: 10000,
+      },
     }
   );
-
-  console.log("Received a chat completion: " + messages);
-
   const completionResult = completion.choices[0].message?.content as string;
+
+  // console.log("Received a chat completion: " + completionResult);
+
   return completionResult;
 };
 
