@@ -1,6 +1,6 @@
 import { SearchIterator, SearchResult } from "@azure/search-documents";
-import { filterMetadata, semanticSearch } from "./azure";
-import { Queue } from './Queue';
+import { filterMetadata, semanticSearch } from "../azure";
+import { Queue } from "../Queue";
 
 export const testTraverseResults = async () => {
   // 269d OR
@@ -14,16 +14,12 @@ export const testTraverseResults = async () => {
     "text" | "metadata" | "eIds"
   >[];
   for await (let result of results1) {
-    // console.log("results1");
-    // console.log(result.document);
-    // process.stdout.write(".");
     articleList.push(result);
   }
 
   const dataTree = await createTree(articleList);
-  const results = await traverseResults(question, dataTree)
-
-  // console.log(results);
+  console.log(JSON.stringify(dataTree, undefined, 2));
+  const results = await traverseResults(question, dataTree);
 };
 
 export const createTree = async (
@@ -35,7 +31,6 @@ export const createTree = async (
       1,
       -1
     );
-    console.log(content);
 
     let subtree = tree as any;
     for (let node of content) {
@@ -43,9 +38,8 @@ export const createTree = async (
       subtree = subtree[node];
     }
   }
-  console.log(JSON.stringify(tree, undefined, 2));
   return tree;
-}
+};
 
 interface TreeNode {
   [key: string]: TreeNode; // String index signature
@@ -53,30 +47,29 @@ interface TreeNode {
 
 export const traverseResults = async (
   question: string,
-  dataTree: Record<string, object>):
-  Promise<SearchResult<object, "text" | "metadata" | "eIds">[]> => {
-  const results: SearchResult<object, "text" | "metadata" | "eIds">[] = [];
+  dataTree: Record<string, object>
+): Promise<SearchResult<object, "text" | "metadata" | "eIds">[]> => {
+  const results = [] as string[];
   const queue = new Queue<TreeNode>();
 
   // Enqueue the root node
-  queue.enqueue(dataTree);
+  queue.enqueue(dataTree as TreeNode);
 
   // Perform BFS
   while (!queue.isEmpty()) {
     const currentNode = queue.dequeue()!;
 
-    if(Object.keys(currentNode).length === 1) {
+    if (Object.keys(currentNode).length === 1) {
       queue.enqueue(currentNode[Object.keys(currentNode)[0]]);
     } else {
       //ask chatgpt if node contains relevent data for question
       let resultFromChatGPT;
 
-
       //if yes, add to results
       if (resultFromChatGPT == true) {
         results.push(currentNode);
         //if current node has children, add them to the queue
-        if(Object.keys(currentNode).length > 0) {
+        if (Object.keys(currentNode).length > 0) {
           for (const key in currentNode) {
             queue.enqueue(currentNode[key]);
           }

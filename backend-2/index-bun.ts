@@ -1,5 +1,5 @@
 import { handler } from "./index";
-import { testTraverseResults } from "./traverse-results";
+import { testTraverseResults } from "./search/traverse-results";
 
 // bun adapter for the lambda function in ./index.ts
 Bun.serve({
