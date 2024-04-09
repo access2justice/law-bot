@@ -61,7 +61,14 @@ export const semanticSearch = async (
         },
       ],
     },
-    top: 5,
+    top: 15,
+    queryType: "semantic",
+    semanticSearchOptions: {
+      configurationName: "SemanticConfTest",
+      captions: {
+        captionType: "extractive",
+      },
+    },
     includeTotalCount: true,
     select: ["text", "metadata", "eIds"],
   });

@@ -50,6 +50,8 @@ export default class LawArticleTree {
     articleCode: string,
     articleContent: string
   ) => {
+    console.log(orderedTitles);
+    console.log(articleCode);
     let currentTitle = orderedTitles[0];
     let titlesRemaining = orderedTitles.slice(1);
 
@@ -71,7 +73,17 @@ export default class LawArticleTree {
           code: articleCode,
         },
       ];
-    } else if (!treeHit && titlesRemaining.length > 0) {
+    } else if (treeHit && titlesRemaining.length === 1) {
+      treeHit.children?.push({
+        name: titlesRemaining[0],
+        articles: [
+          {
+            content: articleContent,
+            code: articleCode,
+          },
+        ],
+      });
+    } else if (!treeHit) {
       if (!lastTreeHit) {
         this.tree.push(
           this.buildSubTree(orderedTitles, articleCode, articleContent)
@@ -151,5 +163,5 @@ export default class LawArticleTree {
     subTree.children?.forEach((c) => this.buildNodeValidation(c));
   };
 
-  private inflateTree = async () => {};
+  // private inflateTree = async () => {};
 }
