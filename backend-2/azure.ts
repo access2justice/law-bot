@@ -1,3 +1,5 @@
+require("dotenv").config();
+
 import {
   AzureKeyCredential,
   SearchClient,
@@ -29,6 +31,7 @@ export const llmQuery = async (
   // console.log("Doing a chat completion: " + JSON.stringify(messages));
 
   const temperature = 0;
+
   const completion = await openAIClient.getChatCompletions(
     process.env.AZURE_OPENAI_DEPLOYMENT_NAME || "",
     messages,
@@ -80,6 +83,19 @@ export const filterMetadata = async (
 ): Promise<SearchIterator<object, "text" | "metadata" | "eIds">> => {
   const x = await searchClient.search("*", {
     filter: `metadata/any(t: search.in(t, '${query}', '|'))`,
+    select: ["text", "metadata", "eIds"],
+  });
+  return x.results;
+};
+
+export const filterMetadataArray = async (
+  keywords: string[]
+): Promise<SearchIterator<object, "text" | "metadata" | "eIds">> => {
+  const keywordFilter = keywords
+    .map((keyword) => `search.ismatch('${keyword}', 'metadata')`)
+    .join(" and ");
+  const x = await searchClient.search("*", {
+    filter: keywordFilter,
     select: ["text", "metadata", "eIds"],
   });
   return x.results;
