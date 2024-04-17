@@ -15,7 +15,6 @@ export async function generateMetadata({
   params
 }: ChatPageProps): Promise<Metadata> {
   const session = await auth()
-
   if (!session?.user) {
     return {}
   }

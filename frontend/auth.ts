@@ -17,9 +17,11 @@ export const {
   providers: [
     Google({
       clientId: process.env.AUTH_GOOGLE_ID || '',
-      clientSecret: process.env.AUTH_GOOGLE_SECRET || ''
+      clientSecret: process.env.AUTH_GOOGLE_SECRET || '',
+      redirectProxyUrl: process.env.NGROK_URL
     })
   ],
+  secret: process.env.AUTH_SECRET,
   callbacks: {
     jwt({ token, profile, user }) {
       if (profile) {
