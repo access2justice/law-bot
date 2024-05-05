@@ -44,6 +44,7 @@ export const handler: Handler = async (event) => {
 
     if (backendResponse.message === "Endpoint request timed out") {
       // throw new Error("Request timed out");
+      console.log("2.4.1. Backend response timed out, trying again.", new Date());
       const tryAgainBackendResponse = await fetchBackendAPI({
         message: [
           {
