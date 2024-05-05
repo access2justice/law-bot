@@ -22,7 +22,7 @@ export const handler: Handler = async (event) => {
     // Your task processing logic here
     // For example, interacting with a database, performing calculations, etc.
     console.log("2. Initiate process-events, data:" + JSON.stringify(data));
-    console.log("2.1 Start message" + new Date());
+    console.log("2.1 Start message - Testing timeouts" + new Date());
     await sendSlackMessage(
       data.channel,
       data.ts,
