@@ -31,7 +31,7 @@ export const handler: Handler = async (event) => {
     console.log("2.2. Slack message sent.", new Date());
     await new Promise((resolve) => setTimeout(resolve, 1000));
     console.log("2.3. Fetching backend", new Date());
-    const backendResponse = await fetchBackendAPI({
+    let backendResponse = await fetchBackendAPI({
       message: [
         {
           role: "user",
@@ -43,7 +43,22 @@ export const handler: Handler = async (event) => {
     console.log("2.4. Backend response:", backendResponse);
 
     if (backendResponse.message === "Endpoint request timed out") {
-      throw new Error("Request timed out");
+      // throw new Error("Request timed out");
+      const tryAgainBackendResponse = await fetchBackendAPI({
+        message: [
+          {
+            role: "user",
+            content:
+              data.text || "Explain to the user that something went wrong.",
+          },
+        ],
+      });
+
+      if (tryAgainBackendResponse.message === "Endpoint request timed out") {
+        throw new Error("Request timed out");
+      } else {
+        backendResponse = tryAgainBackendResponse;
+      }
     }
 
     console.log(
