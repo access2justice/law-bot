@@ -1,6 +1,7 @@
 import { ReasoningInterface } from "./repository";
 import { AzureKeyCredential, SearchClient } from "@azure/search-documents";
 import { ChatRequestMessage, OpenAIClient } from "@azure/openai";
+import LawArticleTree from "./search/law-article-tree";
 
 const openAIClient = new OpenAIClient(
   process.env.AZURE_OPENAI_ENDPOINT || "",
@@ -77,21 +78,10 @@ export const doReasoning = async (
       console.log("Rendered Query");
       console.log(JSON.stringify(query));
 
-      const results = await searchClient.search(query, {
-        vectorSearchOptions: {
-          queries: [
-            {
-              fields: ["text_vector"],
-              kNearestNeighborsCount: 3,
-              vector: (await getEmbeddings(query)).data[0].embedding,
-              kind: "vector",
-            },
-          ],
-        },
-        top: 5,
-        includeTotalCount: true,
-        select: ["text", "metadata", "eIds"],
-      });
+      const lawArticleTree = new LawArticleTree(query);
+      const results = await lawArticleTree.exec();
+
+      console.log(results);
 
       console.log("Received Search Results");
       console.log(JSON.stringify(results));
@@ -102,10 +92,9 @@ export const doReasoning = async (
         metadata: [] as string[][],
       };
 
-      for await (let result of results.results) {
-        retrievedInfo.eIds.push((result.document as any).eIds);
-        retrievedInfo.text.push((result.document as any).text);
-        retrievedInfo.metadata.push((result.document as any).metadata);
+      for (let result of results) {
+        retrievedInfo.eIds.push([result.code]);
+        retrievedInfo.text.push([result.content]);
       }
 
       previousQuery = retrievedInfo.text.reduce(
