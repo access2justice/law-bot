@@ -23,7 +23,6 @@ import { SidebarMobile } from './sidebar-mobile'
 import { SidebarToggle } from './sidebar-toggle'
 import { ChatHistory } from './chat-history'
 import { nanoid } from '@/lib/utils'
-import { usePathname, useRouter } from 'next/navigation'
 import ExpertToggle from './ui/expert-toggle'
 
 async function UserOrLogin() {
